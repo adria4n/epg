@@ -65,11 +65,7 @@ def main():
 
     all_programs = []
     for day in days:
-        progs = fetch_day(day)
-        if not progs:
-            print(f"  Sin datos en {day.date()}, deteniendo", file=sys.stderr)
-            break
-        all_programs.extend(progs)
+        all_programs.extend(fetch_day(day))
 
     epg = process_programs(all_programs)
 
