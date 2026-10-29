@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-telemundo-cdmx.py
+telemundo-texas.py
 Genera EPG de Telemundo en hora local de Ciudad de México.
-Salida: epg-telemundo-cdmx.json
+Salida: telemundo-texas.json
 """
 
 import json
@@ -13,7 +13,7 @@ import sys
 
 BASE_URL = "https://d3ur398j0yj7gx.cloudfront.net/ajax/program_guide/feed/block/{year}/{month:02d}/{day:02d}"
 TZ = ZoneInfo("America/Mexico_City")  # Hora local CDMX
-OUTPUT_FILE = "epg-telemundo-cdmx.json"
+OUTPUT_FILE = "telemundo-texas.json"
 
 def fetch_day(date: datetime) -> list:
     url = BASE_URL.format(year=date.year, month=date.month, day=date.day)
