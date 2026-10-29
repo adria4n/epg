@@ -45,7 +45,7 @@ def download_pdf(url: str, dest: str = "/tmp/telever.pdf") -> str:
 def extract_words(pdf_path: str):
     with pdfplumber.open(pdf_path) as pdf:
         page = pdf.pages[0]
-        return page.extract_words(x_tolerance=1.5, y_tolerance=1.5)
+        return page.extract_words(x_tolerance=2.5, y_tolerance=2.0)
 
 def parse_base_date(words) -> datetime:
     header = [w for w in words if w["top"] < 80]
@@ -67,7 +67,7 @@ def y_to_slot(y: float) -> int:
     rel = y - Y_START
     if rel < 0:
         return 0
-    return int(rel / SLOT_HEIGHT)
+    return int(round(rel / SLOT_HEIGHT))
 
 def slot_to_dt(base: datetime, slot: int) -> datetime:
     return base + timedelta(minutes=slot * 15)
@@ -110,14 +110,14 @@ def parse_schedule(words, base_date: datetime):
         col_words = [
             w for w in words
             if col["x0"] <= w["x0"] < col["x1"]
-            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 10
+            and Y_START - 6 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 20
         ]
         if not col_words:
             continue
 
         lines_dict = defaultdict(list)
         for w in col_words:
-            y_key = round(w["top"] / 2.0) * 2.0
+            y_key = round(w["top"] / 1.2) * 1.2
             lines_dict[y_key].append(w)
 
         sorted_ys = sorted(lines_dict.keys())
@@ -129,7 +129,8 @@ def parse_schedule(words, base_date: datetime):
 
         for line in lines:
             gap = 0 if last_y is None else (line["y"] - last_y)
-            if gap < SLOT_HEIGHT * 1.6:
+            # Más tolerante para bloques de 15, 30 y 45 min
+            if gap < SLOT_HEIGHT * 2.8:
                 current.extend(line["words"])
             else:
                 if current:
@@ -153,6 +154,12 @@ def parse_schedule(words, base_date: datetime):
             end_slot = y_to_slot(y_max) + 1
             if end_slot <= start_slot:
                 end_slot = start_slot + 1
+
+            # Forzar duración mínima razonable según el alto del bloque
+            block_height = y_max - y_min
+            min_slots = max(1, int(round(block_height / SLOT_HEIGHT)))
+            if end_slot - start_slot < min_slots:
+                end_slot = start_slot + min_slots
 
             start_dt = slot_to_dt(day_date, start_slot)
             end_dt = slot_to_dt(day_date, end_slot)
@@ -197,8 +204,8 @@ def main():
             f.write(json_str + "\n")
 
         print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:6]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:50]}")
+        for item in clean[:10]:
+            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
 
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
