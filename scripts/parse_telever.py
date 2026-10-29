@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
 """
 Parser de programación Telever.
-Usa rangos de columna fijos y limpieza de títulos.
 """
 
-import json
-import sys
-import re
-import requests
+import json, re, requests
 from datetime import datetime, timedelta
 from collections import defaultdict
 import pdfplumber
@@ -25,200 +21,116 @@ DAY_COLUMNS = [
     {"name": "Domingo",   "offset": 6, "x0": 495, "x1": 575},
 ]
 
-Y_START = 104.6
-SLOT_HEIGHT = 6.45
+Y_START = 104.0
+SLOT_H = 6.45
 
-SKIP = {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP", "*SAP", "CAMBIOS", "SUJETA", "AVISO", "PREVIO", "ULTIMA", "ACTUALIZACIÓN"}
-KEEP = {"B-15", "B15", "RTC", "N+"}
+SKIP = {"GRABADO","REPETICIÓN","REPETICION","SAP","REP","*SAP","CAMBIOS","SUJETA","AVISO","PREVIO","ULTIMA","ACTUALIZACIÓN","PROGRAMACIÓN"}
+KEEP = {"B-15","B15","RTC","N+"}
 
-MESES = {
-    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
-    "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
-    "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
-}
+MESES = {"enero":1,"febrero":2,"marzo":3,"abril":4,"mayo":5,"junio":6,"julio":7,"agosto":8,"septiembre":9,"octubre":10,"noviembre":11,"diciembre":12}
 
-def download_pdf(url: str, dest: str = "/tmp/telever.pdf") -> str:
-    print(f"Descargando {url}...")
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    with open(dest, "wb") as f:
-        f.write(r.content)
-    print(f"PDF guardado ({len(r.content)} bytes)")
-    return dest
+def y_to_slot(y):
+    return max(0, int((y - Y_START) / SLOT_H))
 
-def extract_words(pdf_path: str):
-    with pdfplumber.open(pdf_path) as pdf:
-        page = pdf.pages[0]
-        return page.extract_words(x_tolerance=1.5, y_tolerance=1.5)
-
-def parse_base_date(words) -> datetime:
-    header = [w for w in words if w["top"] < 80]
-    text = " ".join(w["text"] for w in header)
-    day_m = re.search(r"\b(\d{1,2})\b", text)
-    month_m = re.search(r"\b(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\b", text, re.I)
-    year_m = re.search(r"\b(20\d{2})\b", text)
-    if not (day_m and month_m and year_m):
-        raise ValueError(f"No se pudo leer la fecha: {text}")
-    day = int(day_m.group(1))
-    month = MESES.get(month_m.group(1).lower())
-    year = int(year_m.group(1))
-    if not month:
-        raise ValueError("Mes no reconocido")
-    print(f"Fecha base: {year}-{month:02d}-{day:02d}")
-    return datetime(year, month, day)
-
-def y_to_slot(y: float) -> int:
-    rel = y - Y_START
-    if rel < 0:
-        return 0
-    return int(rel / SLOT_HEIGHT)
-
-def slot_to_dt(base: datetime, slot: int) -> datetime:
+def slot_to_dt(base, slot):
     return base + timedelta(minutes=slot * 15)
 
-def is_noise(text: str) -> bool:
-    t = text.strip().upper()
-    if t in SKIP:
-        return True
-    if re.match(r"^\d{1,2}:\d{2}\( ", t) or re.match(r"^:\d{2} \)", t):
-        return True
-    if re.match(r"^\d{1,2}/\d{1,2}/\d{4}", t):
-        return True
-    if len(t) <= 1 and t not in {"A", "B"}:
-        return True
+def is_noise(t):
+    u = t.strip().upper()
+    if u in SKIP: return True
+    if re.match(r"^\d{1,2}:\d{2}\( ", u) or re.match(r"^:\d{2} \)", u): return True
+    if re.match(r"^\d{1,2}/\d{1,2}/\d{4}", u): return True
+    if len(u) <= 1 and u not in {"A","B"}: return True
     return False
 
-def to_title(text: str) -> str:
-    words = text.split()
+def to_title(text):
     out = []
-    for w in words:
-        up = w.upper()
-        if up in KEEP:
-            out.append(up)
+    for w in text.split():
+        if w.upper() in KEEP:
+            out.append(w.upper())
         else:
             out.append(w.capitalize())
     return " ".join(out)
 
-def clean_block(words) -> str:
+def clean(words):
     parts = []
     for w in words:
         t = w["text"].strip()
-        if not t or is_noise(t):
-            continue
-        parts.append(t)
-    if not parts:
-        return ""
+        if t and not is_noise(t):
+            parts.append(t)
+    if not parts: return ""
     cleaned = []
     for p in parts:
         if not cleaned or cleaned[-1].upper() != p.upper():
             cleaned.append(p)
     title = to_title(" ".join(cleaned))
-    if len(title) < 4:
-        return ""
-    return title
+    return title if len(title) >= 4 else ""
 
-def parse_schedule(words, base_date: datetime):
+def main():
+    r = requests.get(PDF_URL, timeout=30)
+    open("/tmp/telever.pdf","wb").write(r.content)
+    with pdfplumber.open("/tmp/telever.pdf") as pdf:
+        words = pdf.pages[0].extract_words(x_tolerance=1.5, y_tolerance=1.5)
+
+    header = " ".join(w["text"] for w in words if w["top"] < 80)
+    day = int(re.search(r"\b(\d{1,2})\b", header).group(1))
+    month = MESES[re.search(r"\b(octubre|noviembre)\b", header, re.I).group(1).lower()]
+    year = int(re.search(r"\b(20\d{2})\b", header).group(1))
+    base = datetime(year, month, day)
+    print(f"Fecha base: {base.date()}")
+
     programs = []
-
     for col in DAY_COLUMNS:
-        col_words = [
-            w for w in words
-            if col["x0"] <= w["x0"] < col["x1"]
-            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 10
-        ]
-        if not col_words:
-            continue
+        cw = [w for w in words if col["x0"] <= w["x0"] < col["x1"] and w["top"] > 100]
+        if not cw: continue
+        lines = defaultdict(list)
+        for w in cw:
+            lines[round(w["top"]/2)*2].append(w)
+        sorted_lines = [{"y": y, "words": sorted(lines[y], key=lambda x: x["x0"])} for y in sorted(lines)]
 
-        lines_dict = defaultdict(list)
-        for w in col_words:
-            y_key = round(w["top"] / 2.0) * 2.0
-            lines_dict[y_key].append(w)
-
-        sorted_ys = sorted(lines_dict.keys())
-        lines = [{"y": y, "words": sorted(lines_dict[y], key=lambda x: x["x0"])} for y in sorted_ys]
-
-        blocks = []
-        current = []
-        last_y = None
-
-        for line in lines:
-            gap = 0 if last_y is None else (line["y"] - last_y)
-            if gap < SLOT_HEIGHT * 1.3:
-                current.extend(line["words"])
+        blocks, cur, last = [], [], None
+        for ln in sorted_lines:
+            gap = 0 if last is None else ln["y"] - last
+            if gap < 9:
+                cur.extend(ln["words"])
             else:
-                if current:
-                    blocks.append(current)
-                current = list(line["words"])
-            last_y = line["y"]
-        if current:
-            blocks.append(current)
+                if cur: blocks.append(cur)
+                cur = list(ln["words"])
+            last = ln["y"]
+        if cur: blocks.append(cur)
 
-        day_date = base_date + timedelta(days=col["offset"])
-
-        for block in blocks:
-            title = clean_block(block)
-            if not title:
-                continue
-
-            y_min = min(w["top"] for w in block)
-            y_max = max(w["top"] for w in block)
-
-            start_slot = y_to_slot(y_min)
-            end_slot = y_to_slot(y_max) + 1
-            if end_slot <= start_slot:
-                end_slot = start_slot + 1
-
-            start_dt = slot_to_dt(day_date, start_slot)
-            end_dt = slot_to_dt(day_date, end_slot)
-
+        day_dt = base + timedelta(days=col["offset"])
+        for b in blocks:
+            title = clean(b)
+            if not title: continue
+            y0 = min(w["top"] for w in b)
+            y1 = max(w["top"] for w in b)
+            s0 = y_to_slot(y0)
+            s1 = y_to_slot(y1) + 1
+            if s1 <= s0: s1 = s0 + 1
             programs.append({
                 "titulo": title,
-                "sta": start_dt.strftime("%Y-%m-%d/%H:%M:%S"),
-                "end": end_dt.strftime("%Y-%m-%d/%H:%M:%S"),
+                "sta": slot_to_dt(day_dt, s0).strftime("%Y-%m-%d/%H:%M:%S"),
+                "end": slot_to_dt(day_dt, s1).strftime("%Y-%m-%d/%H:%M:%S"),
             })
 
     programs.sort(key=lambda p: p["sta"])
-    for i in range(len(programs) - 1):
-        curr_end = datetime.strptime(programs[i]["end"], "%Y-%m-%d/%H:%M:%S")
-        next_sta = datetime.strptime(programs[i+1]["sta"], "%Y-%m-%d/%H:%M:%S")
-        if curr_end.date() == next_sta.date() and next_sta > curr_end:
+    for i in range(len(programs)-1):
+        ce = datetime.strptime(programs[i]["end"], "%Y-%m-%d/%H:%M:%S")
+        ns = datetime.strptime(programs[i+1]["sta"], "%Y-%m-%d/%H:%M:%S")
+        if ce.date() == ns.date() and ns > ce:
             programs[i]["end"] = programs[i+1]["sta"]
 
-    seen = set()
-    result = []
+    seen, result = set(), []
     for p in programs:
-        key = (p["titulo"], p["sta"])
-        if key not in seen:
-            seen.add(key)
+        k = (p["titulo"], p["sta"])
+        if k not in seen:
+            seen.add(k)
             result.append(p)
 
-    return result
-
-def main():
-    try:
-        pdf_path = download_pdf(PDF_URL)
-        words = extract_words(pdf_path)
-        print(f"Palabras: {len(words)}")
-
-        base_date = parse_base_date(words)
-        clean = parse_schedule(words, base_date)
-        print(f"Programas: {len(clean)}")
-
-        json_str = json.dumps(clean, ensure_ascii=False, indent=2)
-        json.loads(json_str)
-
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write(json_str + "\n")
-
-        print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:8]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
-
-    except Exception as e:
-        print(f"ERROR: {e}", file=sys.stderr)
-        import traceback
-        traceback.print_exc()
-        sys.exit(1)
+    print(f"Programas: {len(result)}")
+    json.dump(result, open(OUTPUT_FILE,"w"), ensure_ascii=False, indent=2)
+    print(f"Escrito en {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
