@@ -61,11 +61,15 @@ def main():
     now = datetime.now(TZ)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    days = [today + timedelta(days=i) for i in range(-1, 30)]
-
     all_programs = []
-    for day in days:
-        all_programs.extend(fetch_day(day))
+    i = -1
+    while True:
+        day = today + timedelta(days=i)
+        progs = fetch_day(day)
+        if not progs:
+            break
+        all_programs.extend(progs)
+        i += 1
 
     epg = process_programs(all_programs)
 
