@@ -83,14 +83,23 @@ def detect_columns(words):
 def detect_time_slots(words):
     markers = []
     for w in words:
-        if w["x0"] < 40:
-            t = w["text"].strip()
-            if re.match(r"^\d{1,2}:\d{2}\( ", t) or re.match(r"^:\d{2} \)", t):
-                markers.append((w["top"], t))
-    markers.sort()
+        t = w["text"].strip()
+        if re.match(r"^\d{1,2}:\d{2}\( ", t) or re.match(r"^:\d{2} \)", t):
+            markers.append((w["top"], w["x0"], t))
     if not markers:
         raise ValueError("No se encontraron marcadores de hora")
-    return [{"y": y, "index": i, "label": label} for i, (y, label) in enumerate(markers)]
+    left = [m for m in markers if m[1] < 100]
+    if not left:
+        left = markers
+    left.sort()
+    seen = set()
+    unique = []
+    for y, x, label in left:
+        yk = round(y)
+        if yk not in seen:
+            seen.add(yk)
+            unique.append((y, label))
+    return [{"y": y, "index": i, "label": label} for i, (y, label) in enumerate(unique)]
 
 def y_to_slot(y: float, slots) -> int:
     best = 0
