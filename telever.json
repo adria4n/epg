@@ -2,6 +2,11 @@
   {
     "titulo": "Gobierno Federal RTC",
     "sta": "2026-10-26/00:00:00",
+    "end": "2026-10-26/00:15:00"
+  },
+  {
+    "titulo": "Noches De Humor Grabado",
+    "sta": "2026-10-26/00:15:00",
     "end": "2026-10-26/01:00:00"
   },
   {
@@ -127,12 +132,12 @@
   {
     "titulo": "Gobierno Federal RTC",
     "sta": "2026-10-27/00:00:00",
-    "end": "2026-10-27/01:00:00"
+    "end": "2026-10-27/00:15:00"
   },
   {
     "titulo": "Noches De Humor Grabado",
-    "sta": "2026-10-27/01:00:00",
-    "end": "2026-10-27/02:00:00"
+    "sta": "2026-10-27/00:15:00",
+    "end": "2026-10-27/01:00:00"
   },
   {
     "titulo": "Cine Mexicano El Padre Pistolas Grabado A",
@@ -141,23 +146,23 @@
   },
   {
     "titulo": "Noches De Humor Jarocho Repetición",
+    "sta": "2026-10-27/02:30:00",
+    "end": "2026-10-27/03:30:00"
+  },
+  {
+    "titulo": "Código N+",
     "sta": "2026-10-27/03:00:00",
     "end": "2026-10-27/04:00:00"
   },
   {
-    "titulo": "Código N+",
+    "titulo": "Los Bombazos De Cherry Repetición",
     "sta": "2026-10-27/04:00:00",
     "end": "2026-10-27/05:00:00"
   },
   {
-    "titulo": "Los Bombazos De Cherry Repetición",
+    "titulo": "Sanando Dudas Veracruz Repetición",
     "sta": "2026-10-27/05:00:00",
     "end": "2026-10-27/06:00:00"
-  },
-  {
-    "titulo": "Sanando Dudas Veracruz Repetición",
-    "sta": "2026-10-27/06:00:00",
-    "end": "2026-10-27/07:00:00"
   },
   {
     "titulo": "Las Noticias Local",
@@ -262,12 +267,12 @@
   {
     "titulo": "Gobierno Federal RTC",
     "sta": "2026-10-28/00:00:00",
-    "end": "2026-10-28/01:00:00"
+    "end": "2026-10-28/00:15:00"
   },
   {
     "titulo": "Noches De Humor Grabado",
-    "sta": "2026-10-28/01:00:00",
-    "end": "2026-10-28/02:00:00"
+    "sta": "2026-10-28/00:15:00",
+    "end": "2026-10-28/01:00:00"
   },
   {
     "titulo": "Cine Mexicano Días De Otoño Grabado A",
@@ -387,12 +392,12 @@
   {
     "titulo": "Gobierno Federal RTC",
     "sta": "2026-10-29/00:00:00",
-    "end": "2026-10-29/01:00:00"
+    "end": "2026-10-29/00:15:00"
   },
   {
     "titulo": "Noches De Humor Grabado",
-    "sta": "2026-10-29/01:00:00",
-    "end": "2026-10-29/02:00:00"
+    "sta": "2026-10-29/00:15:00",
+    "end": "2026-10-29/01:00:00"
   },
   {
     "titulo": "Cine Mexicano Nosotras Las Taquígrafas Grabado A",
@@ -522,12 +527,12 @@
   {
     "titulo": "Gobierno Federal RTC",
     "sta": "2026-10-30/00:00:00",
-    "end": "2026-10-30/01:00:00"
+    "end": "2026-10-30/00:15:00"
   },
   {
     "titulo": "Noches De Humor Grabado",
-    "sta": "2026-10-30/01:00:00",
-    "end": "2026-10-30/02:00:00"
+    "sta": "2026-10-30/00:15:00",
+    "end": "2026-10-30/01:00:00"
   },
   {
     "titulo": "Cine Mexicano Senda Prohibida Grabado B",
