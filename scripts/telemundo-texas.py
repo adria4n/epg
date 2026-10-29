@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 """
-telemundo-texas.py
-Genera EPG de Telemundo East Texas (Central Time) desde el feed oficial.
-Salida: epg-telemundo-texas.json en formato:
-[
-  {"titulo": "...", "sta": "YYYY-MM-DD/HH:MM:SS", "end": "YYYY-MM-DD/HH:MM:SS"},
-  ...
-]
+telemundo-cdmx.py
+Genera EPG de Telemundo en hora local de Ciudad de México.
+Salida: epg-telemundo-cdmx.json
 """
 
 import json
@@ -14,11 +10,10 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 import sys
-import os
 
 BASE_URL = "https://d3ur398j0yj7gx.cloudfront.net/ajax/program_guide/feed/block/{year}/{month:02d}/{day:02d}"
-TZ = ZoneInfo("America/Chicago")  # Central Time (East Texas)
-OUTPUT_FILE = "epg-telemundo-texas.json"
+TZ = ZoneInfo("America/Mexico_City")  # Hora local CDMX
+OUTPUT_FILE = "epg-telemundo-cdmx.json"
 
 def fetch_day(date: datetime) -> list:
     url = BASE_URL.format(year=date.year, month=date.month, day=date.day)
@@ -32,7 +27,7 @@ def fetch_day(date: datetime) -> list:
         print(f"Error fetching {url}: {e}", file=sys.stderr)
         return []
 
-def unix_to_central(ts_str: str) -> datetime:
+def unix_to_cdmx(ts_str: str) -> datetime:
     ts = int(ts_str)
     return datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(TZ)
 
@@ -52,10 +47,10 @@ def process_programs(programs: list) -> list:
         if not ts_str:
             continue
 
-        start_dt = unix_to_central(ts_str)
+        start_dt = unix_to_cdmx(ts_str)
 
         if i + 1 < len(programs) and programs[i + 1].get("time_GMT"):
-            end_dt = unix_to_central(programs[i + 1]["time_GMT"])
+            end_dt = unix_to_cdmx(programs[i + 1]["time_GMT"])
         else:
             end_dt = start_dt + timedelta(minutes=60)
 
@@ -78,7 +73,7 @@ def main():
 
     epg = process_programs(all_programs)
 
-    # Deduplicar por título + start
+    # Deduplicar
     seen = set()
     unique = []
     for item in epg:
