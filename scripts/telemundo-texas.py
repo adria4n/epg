@@ -61,7 +61,7 @@ def main():
     now = datetime.now(TZ)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    days = [today + timedelta(days=i) for i in range(3)]
+    days = [today + timedelta(days=i) for i in range(4)]
 
     all_programs = []
     for day in days:
