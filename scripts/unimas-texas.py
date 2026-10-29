@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Obtiene la programación de UniMás KTFV McAllen desde TV Passport
-y la guarda en JSON con horarios en America/Mexico_City.
-Incluye el día anterior para cubrir las madrugadas.
-"""
 
 import json
 import urllib.request
@@ -14,7 +9,7 @@ import sys
 
 SITE_ID = "unimas-ktfv-mcallen-tx/13230"
 BASE_URL = f"https://www.tvpassport.com/tv-listings/stations/{SITE_ID}"
-TZ = ZoneInfo("America/Mexico_City")
+TZ_TARGET = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "unimas-texas.json"
 DAYS_AHEAD = 2
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -26,7 +21,16 @@ def fetch_page(date_str: str | None = None) -> str:
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def parse_items(html: str) -> list[dict]:
+def get_page_timezone(html: str) -> ZoneInfo:
+    m = re.search(r'<option[^>]*value="([^"]*)"[^>]*selected', html, re.I)
+    tz_name = m.group(1) if m else "America/New_York"
+    print(f"  Zona de la página: {tz_name}", file=sys.stderr)
+    try:
+        return ZoneInfo(tz_name)
+    except Exception:
+        return ZoneInfo("America/New_York")
+
+def parse_items(html: str, page_tz: ZoneInfo) -> list[dict]:
     blocks = re.findall(
         r'<div[^>]*class="[^"]*list-group-item[^"]*"[^>]*>.*?</div>',
         html,
@@ -52,7 +56,8 @@ def parse_items(html: str) -> list[dict]:
 
         try:
             start_naive = datetime.strptime(start_raw, "%Y-%m-%d %H:%M:%S")
-            start = start_naive.replace(tzinfo=TZ)
+            start_page = start_naive.replace(tzinfo=page_tz)
+            start = start_page.astimezone(TZ_TARGET)
             mins = int(duration) if duration.isdigit() else 30
             end = start + timedelta(minutes=mins)
         except Exception:
@@ -68,15 +73,15 @@ def parse_items(html: str) -> list[dict]:
 
 def main():
     all_programs = []
-    today = datetime.now(TZ).date()
+    today = datetime.now(TZ_TARGET).date()
 
-    # Desde ayer para cubrir la madrugada de hoy
     for i in range(-1, DAYS_AHEAD):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
             html = fetch_page(date_str)
-            progs = parse_items(html)
+            page_tz = get_page_timezone(html)
+            progs = parse_items(html, page_tz)
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
