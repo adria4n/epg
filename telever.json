@@ -1,62 +1,67 @@
 [
   {
-    "titulo": "Veredicto Final",
+    "titulo": "Veredicto",
     "sta": "2026-10-26/01:15:00",
-    "end": "2026-10-26/02:00:00"
+    "end": "2026-10-26/02:15:00"
   },
   {
-    "titulo": "Derecho De Admisión Noches B-15",
-    "sta": "2026-10-26/02:00:00",
-    "end": "2026-10-26/03:00:00"
+    "titulo": "Derecho De Admisión B-15",
+    "sta": "2026-10-26/02:15:00",
+    "end": "2026-10-26/03:15:00"
   },
   {
     "titulo": "Es De Noche Ya Llegué B-15",
-    "sta": "2026-10-26/03:00:00",
-    "end": "2026-10-26/04:00:00"
+    "sta": "2026-10-26/03:15:00",
+    "end": "2026-10-26/04:15:00"
   },
   {
-    "titulo": "Susana Adicción Los B-15",
-    "sta": "2026-10-26/04:00:00",
+    "titulo": "Susana Adicción B-15",
+    "sta": "2026-10-26/04:15:00",
     "end": "2026-10-26/05:15:00"
   },
   {
-    "titulo": "La Parrilla De Fuego Sanando",
+    "titulo": "La Parrilla De Fuego",
     "sta": "2026-10-26/05:15:00",
     "end": "2026-10-26/13:15:00"
   },
   {
-    "titulo": "Sanando Dudas Veracruz Local",
+    "titulo": "Dudas Veracruz Local",
     "sta": "2026-10-26/13:15:00",
     "end": "2026-10-26/15:15:00"
   },
   {
     "titulo": "Los Bombazos De Cherry Local",
     "sta": "2026-10-26/15:15:00",
-    "end": "2026-10-26/16:00:00"
+    "end": "2026-10-26/16:15:00"
   },
   {
     "titulo": "Que Pokar! El Juego De La Fama Vivo",
-    "sta": "2026-10-26/16:00:00",
-    "end": "2026-10-26/17:00:00"
+    "sta": "2026-10-26/16:15:00",
+    "end": "2026-10-26/17:15:00"
   },
   {
     "titulo": "Código B",
-    "sta": "2026-10-26/17:00:00",
+    "sta": "2026-10-26/17:15:00",
     "end": "2026-10-26/19:30:00"
   },
   {
-    "titulo": "Curandero Damian Noches",
+    "titulo": "Curandero Damian",
     "sta": "2026-10-26/19:30:00",
     "end": "2026-10-26/23:30:00"
   },
   {
-    "titulo": "Noches De Humor Jarocho",
+    "titulo": "De Humor Jarocho",
     "sta": "2026-10-26/23:30:00",
-    "end": "2026-10-26/23:45:00"
+    "end": "2026-10-27/00:00:00"
   },
   {
     "titulo": "Cambios",
-    "sta": "2026-10-27/00:00:00",
+    "sta": "2026-10-26/23:45:00",
+    "end": "2026-10-27/00:00:00"
+  },
+  {
+    "titulo": "Sujeta A Cambios",
+    "sta": "2026-10-26/23:45:00",
     "end": "2026-10-27/01:15:00"
   },
   {
@@ -77,47 +82,42 @@
   {
     "titulo": "Sanando Dudas Veracruz",
     "sta": "2026-10-27/05:15:00",
-    "end": "2026-10-27/12:00:00"
-  },
-  {
-    "titulo": "Problemas",
-    "sta": "2026-10-27/12:00:00",
-    "end": "2026-10-27/12:30:00"
-  },
-  {
-    "titulo": "En La",
-    "sta": "2026-10-27/12:30:00",
     "end": "2026-10-27/13:15:00"
   },
   {
-    "titulo": "Con Sazón A Chef Sanando Local",
+    "titulo": "Con Sazón A Chef Local",
     "sta": "2026-10-27/13:15:00",
     "end": "2026-10-27/15:00:00"
   },
   {
-    "titulo": "Milagros De La Fe Los",
+    "titulo": "Milagros De La Fe",
     "sta": "2026-10-27/15:00:00",
     "end": "2026-10-27/15:45:00"
   },
   {
     "titulo": "Vamos Al Bailongo Local",
     "sta": "2026-10-27/15:45:00",
-    "end": "2026-10-27/16:30:00"
+    "end": "2026-10-27/16:45:00"
   },
   {
     "titulo": "Que Pokar! El Juego De La Fama",
-    "sta": "2026-10-27/16:30:00",
-    "end": "2026-10-27/17:15:00"
+    "sta": "2026-10-27/16:45:00",
+    "end": "2026-10-27/17:30:00"
   },
   {
     "titulo": "Código B",
-    "sta": "2026-10-27/17:15:00",
+    "sta": "2026-10-27/17:30:00",
     "end": "2026-10-27/19:30:00"
   },
   {
     "titulo": "Noches De Humor Jarocho",
     "sta": "2026-10-27/19:30:00",
-    "end": "2026-10-27/19:45:00"
+    "end": "2026-10-27/23:45:00"
+  },
+  {
+    "titulo": "Previo Aviso.",
+    "sta": "2026-10-27/23:45:00",
+    "end": "2026-10-28/01:30:00"
   },
   {
     "titulo": "Cine Mexicano El Padre Pistolas A",
@@ -125,12 +125,12 @@
     "end": "2026-10-28/04:15:00"
   },
   {
-    "titulo": "Con Sazón A Chef Los",
+    "titulo": "Con Sazón A Chef",
     "sta": "2026-10-28/04:15:00",
     "end": "2026-10-28/05:15:00"
   },
   {
-    "titulo": "Vamos Al Bailongo Sanando",
+    "titulo": "Vamos Al Bailongo",
     "sta": "2026-10-28/05:15:00",
     "end": "2026-10-28/07:15:00"
   },
@@ -172,16 +172,16 @@
   {
     "titulo": "Los Bombazos De Cherry Local",
     "sta": "2026-10-28/15:15:00",
-    "end": "2026-10-28/16:00:00"
+    "end": "2026-10-28/16:15:00"
   },
   {
     "titulo": "Que Pokar! El Juego De La Fama Vivo",
-    "sta": "2026-10-28/16:00:00",
-    "end": "2026-10-28/17:00:00"
+    "sta": "2026-10-28/16:15:00",
+    "end": "2026-10-28/17:15:00"
   },
   {
     "titulo": "Código B",
-    "sta": "2026-10-28/17:00:00",
+    "sta": "2026-10-28/17:15:00",
     "end": "2026-10-28/18:00:00"
   },
   {
@@ -220,9 +220,9 @@
     "end": "2026-10-28/23:30:00"
   },
   {
-    "titulo": "Maestro Sebastián",
+    "titulo": "Maestro",
     "sta": "2026-10-28/23:30:00",
-    "end": "2026-10-28/23:45:00"
+    "end": "2026-10-29/00:00:00"
   },
   {
     "titulo": "Gobierno Federal RTC",
@@ -235,7 +235,7 @@
     "end": "2026-10-29/01:30:00"
   },
   {
-    "titulo": "Cine Mexicano Dás De Otoño Nosotras A",
+    "titulo": "Cine Mexicano Dás De Otoño A",
     "sta": "2026-10-29/01:30:00",
     "end": "2026-10-29/03:15:00"
   },
@@ -255,39 +255,34 @@
     "end": "2026-10-29/13:15:00"
   },
   {
-    "titulo": "Con Sazón A Chef Sanando Local",
+    "titulo": "Con Sazón A Chef Local",
     "sta": "2026-10-29/13:15:00",
     "end": "2026-10-29/15:00:00"
   },
   {
-    "titulo": "Milagros De La",
+    "titulo": "Milagros",
     "sta": "2026-10-29/15:00:00",
     "end": "2026-10-29/15:45:00"
   },
   {
-    "titulo": "Vamos Al Bailongo Los Local",
+    "titulo": "Vamos Al Bailongo Local",
     "sta": "2026-10-29/15:45:00",
-    "end": "2026-10-29/16:30:00"
+    "end": "2026-10-29/16:45:00"
   },
   {
-    "titulo": "Que Pokar! El Juego De La Fama",
-    "sta": "2026-10-29/16:30:00",
-    "end": "2026-10-29/17:15:00"
+    "titulo": "Que El Juego",
+    "sta": "2026-10-29/16:45:00",
+    "end": "2026-10-29/17:30:00"
   },
   {
-    "titulo": "Código B",
-    "sta": "2026-10-29/17:15:00",
+    "titulo": "Código",
+    "sta": "2026-10-29/17:30:00",
     "end": "2026-10-29/19:30:00"
   },
   {
     "titulo": "Curandero Damian",
     "sta": "2026-10-29/19:30:00",
-    "end": "2026-10-29/23:30:00"
-  },
-  {
-    "titulo": "Sebastián",
-    "sta": "2026-10-29/23:30:00",
-    "end": "2026-10-29/23:45:00"
+    "end": "2026-10-29/20:00:00"
   },
   {
     "titulo": "Cine Mexicano Nosotras Las Taquígrafas A",
@@ -295,18 +290,13 @@
     "end": "2026-10-30/04:15:00"
   },
   {
-    "titulo": "Con Sazón A Chef Los",
+    "titulo": "Con Sazón A Chef",
     "sta": "2026-10-30/04:15:00",
     "end": "2026-10-30/05:15:00"
   },
   {
-    "titulo": "Vamos Al Bailongo Sanando",
+    "titulo": "Vamos Al Bailongo",
     "sta": "2026-10-30/05:15:00",
-    "end": "2026-10-30/08:45:00"
-  },
-  {
-    "titulo": "Enigma",
-    "sta": "2026-10-30/08:45:00",
     "end": "2026-10-30/13:15:00"
   },
   {
@@ -315,39 +305,19 @@
     "end": "2026-10-30/15:00:00"
   },
   {
-    "titulo": "De La Fe La",
+    "titulo": "La Fe",
     "sta": "2026-10-30/15:00:00",
     "end": "2026-10-30/15:45:00"
   },
   {
     "titulo": "Los Bombazos De Cherry Local",
     "sta": "2026-10-30/15:45:00",
-    "end": "2026-10-30/16:30:00"
-  },
-  {
-    "titulo": "Que",
-    "sta": "2026-10-30/16:30:00",
     "end": "2026-10-30/16:45:00"
   },
   {
     "titulo": "La Fama",
     "sta": "2026-10-30/16:45:00",
-    "end": "2026-10-30/19:00:00"
-  },
-  {
-    "titulo": "Derecho",
-    "sta": "2026-10-30/19:00:00",
-    "end": "2026-10-30/21:30:00"
-  },
-  {
-    "titulo": "Cuando",
-    "sta": "2026-10-30/21:30:00",
-    "end": "2026-10-30/23:15:00"
-  },
-  {
-    "titulo": "Noches",
-    "sta": "2026-10-30/23:15:00",
-    "end": "2026-10-30/23:30:00"
+    "end": "2026-10-30/17:00:00"
   },
   {
     "titulo": "Cine Mexicano Senda Prohibida B",
@@ -360,28 +330,33 @@
     "end": "2026-10-31/05:15:00"
   },
   {
-    "titulo": "Sanando Dudas Veracruz Noches",
+    "titulo": "Sanando Dudas Veracruz",
     "sta": "2026-10-31/05:15:00",
     "end": "2026-10-31/06:15:00"
   },
   {
-    "titulo": "Veredicto Final",
+    "titulo": "Veredicto",
     "sta": "2026-10-31/06:15:00",
     "end": "2026-10-31/07:15:00"
   },
   {
-    "titulo": "Noches De Humor",
+    "titulo": "Noches",
     "sta": "2026-10-31/07:15:00",
     "end": "2026-10-31/08:00:00"
   },
   {
-    "titulo": "En La Cocina Con Geronimo",
+    "titulo": "En La Cocina",
     "sta": "2026-10-31/08:00:00",
-    "end": "2026-10-31/08:30:00"
+    "end": "2026-10-31/08:45:00"
   },
   {
-    "titulo": "Cine Mexicano Un Enigma De Muerte",
-    "sta": "2026-10-31/08:30:00",
+    "titulo": "Cine Mexicano",
+    "sta": "2026-10-31/08:45:00",
+    "end": "2026-10-31/09:00:00"
+  },
+  {
+    "titulo": "Enigma De Muerte",
+    "sta": "2026-10-31/09:00:00",
     "end": "2026-10-31/10:15:00"
   },
   {
@@ -400,8 +375,13 @@
     "end": "2026-10-31/14:00:00"
   },
   {
-    "titulo": "Noches De Humor Sanando Indio Yandú",
+    "titulo": "Noches De Humor",
     "sta": "2026-10-31/14:00:00",
+    "end": "2026-10-31/14:30:00"
+  },
+  {
+    "titulo": "Indio Yandú",
+    "sta": "2026-10-31/14:30:00",
     "end": "2026-10-31/15:15:00"
   },
   {
@@ -410,7 +390,7 @@
     "end": "2026-10-31/16:15:00"
   },
   {
-    "titulo": "Cine Mexicano Que Hombre Tan Ellas",
+    "titulo": "Cine Mexicano Que Hombre Tan",
     "sta": "2026-10-31/16:15:00",
     "end": "2026-10-31/16:45:00"
   },
@@ -420,93 +400,108 @@
     "end": "2026-10-31/18:15:00"
   },
   {
-    "titulo": "Vamos Al Bailongo",
+    "titulo": "Vamos",
     "sta": "2026-10-31/18:15:00",
-    "end": "2026-10-31/19:00:00"
+    "end": "2026-10-31/19:15:00"
   },
   {
     "titulo": "Derecho De Admisión B-15",
-    "sta": "2026-10-31/19:00:00",
+    "sta": "2026-10-31/19:15:00",
     "end": "2026-10-31/20:15:00"
   },
   {
-    "titulo": "Veredicto Final Noches",
+    "titulo": "Veredicto Final",
     "sta": "2026-10-31/20:15:00",
-    "end": "2026-10-31/21:15:00"
+    "end": "2026-10-31/21:30:00"
   },
   {
     "titulo": "Cine Mexicano Cuando Me Vaya",
-    "sta": "2026-10-31/21:15:00",
-    "end": "2026-10-31/21:45:00"
-  },
-  {
-    "titulo": "A Es",
-    "sta": "2026-10-31/21:45:00",
+    "sta": "2026-10-31/21:30:00",
     "end": "2026-10-31/23:15:00"
   },
   {
     "titulo": "Noches De Humor Jarocho",
     "sta": "2026-10-31/23:15:00",
-    "end": "2026-10-31/23:30:00"
+    "end": "2026-10-31/23:45:00"
   },
   {
-    "titulo": "Veredicto Final Cine Mexicano Enigma De Muerte A",
+    "titulo": "Ultima",
+    "sta": "2026-10-31/23:45:00",
+    "end": "2026-11-01/00:00:00"
+  },
+  {
+    "titulo": "00:00",
     "sta": "2026-11-01/00:00:00",
-    "end": "2026-11-01/03:30:00"
+    "end": "2026-11-01/00:15:00"
   },
   {
-    "titulo": "Cine Mexicano Un Callejón Sin Salida A",
-    "sta": "2026-11-01/03:30:00",
-    "end": "2026-11-01/04:30:00"
+    "titulo": ":15 :30 :45 01:00 :15 Veredicto Final :30 :45 02:00 :15 Cine Mexicano Enigma De Muerte :30 :45 A 03:00 :15 :30",
+    "sta": "2026-11-01/00:15:00",
+    "end": "2026-11-01/03:45:00"
   },
   {
-    "titulo": "Noches De Humor Jarocho",
-    "sta": "2026-11-01/04:30:00",
-    "end": "2026-11-01/05:45:00"
+    "titulo": ":45 Cine Mexicano Un Callejón Sin Salida 04:00 :15 A :30",
+    "sta": "2026-11-01/03:45:00",
+    "end": "2026-11-01/04:45:00"
   },
   {
-    "titulo": "Final",
-    "sta": "2026-11-01/05:45:00",
-    "end": "2026-11-01/06:45:00"
+    "titulo": ":45 05:00 Noches De Humor Jarocho :15 :30 :45",
+    "sta": "2026-11-01/04:45:00",
+    "end": "2026-11-01/06:00:00"
   },
   {
-    "titulo": "De Humor Con Geronimo Cine Mexicano Un Callejón Sin Salida A",
-    "sta": "2026-11-01/06:45:00",
-    "end": "2026-11-01/10:00:00"
+    "titulo": "06:00 Final :15 :30 :45",
+    "sta": "2026-11-01/06:00:00",
+    "end": "2026-11-01/07:00:00"
   },
   {
-    "titulo": "La Parrilla Del Fuego Noches De Humor",
-    "sta": "2026-11-01/10:00:00",
-    "end": "2026-11-01/11:15:00"
+    "titulo": "07:00 Humor :15 :30 :45 08:00 Geronimo :15 :30 Cine Mexicano :45 Un Callejón Sin 09:00 Salida :15 :30 A :45 10:00",
+    "sta": "2026-11-01/07:00:00",
+    "end": "2026-11-01/10:15:00"
   },
   {
-    "titulo": "Cine Mexicano El Asesino Invisible",
-    "sta": "2026-11-01/11:15:00",
-    "end": "2026-11-01/13:30:00"
+    "titulo": "La Parrilla Del Fuego :15 :30 :45 11:00 Noches De Humor :15",
+    "sta": "2026-11-01/10:15:00",
+    "end": "2026-11-01/11:30:00"
   },
   {
-    "titulo": "Sanando Dudas Veracruz",
-    "sta": "2026-11-01/13:30:00",
-    "end": "2026-11-01/15:45:00"
+    "titulo": ":30 Cine Mexicano :45 El Asesino Invisible 12:00 :15",
+    "sta": "2026-11-01/11:30:00",
+    "end": "2026-11-01/12:30:00"
   },
   {
-    "titulo": "Cine Mexicano Ellas También Son Rebeldes A",
-    "sta": "2026-11-01/15:45:00",
-    "end": "2026-11-01/18:00:00"
+    "titulo": "A :30 :45 13:00 :15 :30",
+    "sta": "2026-11-01/12:30:00",
+    "end": "2026-11-01/13:45:00"
   },
   {
-    "titulo": "Bailongo",
-    "sta": "2026-11-01/18:00:00",
-    "end": "2026-11-01/19:00:00"
+    "titulo": ":45 14:00 :15 Sanando Dudas Veracruz :30",
+    "sta": "2026-11-01/13:45:00",
+    "end": "2026-11-01/14:45:00"
   },
   {
-    "titulo": "Veredicto Final Indio Yandú Noches De Humor Jarocho Susana Adicción B-15 Es De Noche Ya Llegué B-15 Veredicto Final",
-    "sta": "2026-11-01/19:00:00",
-    "end": "2026-11-01/23:30:00"
+    "titulo": ":45 15:00 :15 :30 :45",
+    "sta": "2026-11-01/14:45:00",
+    "end": "2026-11-01/16:00:00"
   },
   {
-    "titulo": "*sap",
-    "sta": "2026-11-02/00:00:00",
-    "end": "2026-11-02/00:15:00"
+    "titulo": "16:00 :15 Cine Mexicano :30 Ellas También Son :45 Rebeldes 17:00 :15 A :30 :45 18:00",
+    "sta": "2026-11-01/16:00:00",
+    "end": "2026-11-01/18:15:00"
+  },
+  {
+    "titulo": ":15 :30 :45 19:00",
+    "sta": "2026-11-01/18:15:00",
+    "end": "2026-11-01/19:15:00"
+  },
+  {
+    "titulo": "Veredicto Final :15 :30 :45 20:00 Indio Yandú :15 Noches De Humor Jarocho :30 :45 21:00 Susana Adicción :15 B-15 :30 :45 22:00 Es De Noche Ya Llegué :15 B-15 :30 :45 23:00 :15 Veredicto Final :30",
+    "sta": "2026-11-01/19:15:00",
+    "end": "2026-11-01/23:45:00"
+  },
+  {
+    "titulo": "Actualización: 26/10/2026 15:42:42",
+    "sta": "2026-11-01/23:45:00",
+    "end": "2026-11-02/00:00:00"
   }
 ]
