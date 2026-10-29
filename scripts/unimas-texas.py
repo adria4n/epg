@@ -74,7 +74,7 @@ def main():
     all_programs = []
     today = datetime.now(TZ_TARGET).date()
 
-    for i in range(-1, 8):
+    for i in range(-1, 30):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
