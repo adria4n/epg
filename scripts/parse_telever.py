@@ -7,6 +7,7 @@ import json
 import sys
 import requests
 from datetime import datetime, timedelta
+from collections import defaultdict
 import pdfplumber
 
 PDF_URL = "https://televisaregional.tv/pdf/telever-c12.pdf"
@@ -25,8 +26,8 @@ DAY_COLUMNS = [
 Y_START = 104.0
 SLOT_HEIGHT = 6.35
 
-# Palabras que se pueden conservar como parte del título
-KEEP_QUALIFIERS = {"B-15", "B15", "LOCAL", "VIVO", "A", "B"}
+SKIP_PURE = {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP"}
+KEEP_AS_IS = {"B-15", "B15", "RTC", "N+"}
 
 def download_pdf(url: str, dest: str = "/tmp/telever.pdf") -> str:
     print(f"Descargando {url}...")
@@ -48,45 +49,36 @@ def y_to_slot(y: float) -> int:
 def slot_to_dt(base: datetime, slot: int) -> datetime:
     return base + timedelta(minutes=slot * 15)
 
-def to_title_case(text: str) -> str:
-    """Convierte a Title Case respetando algunas siglas y números."""
+def to_title(text: str) -> str:
     words = text.split()
-    result = []
+    out = []
     for w in words:
-        if w.upper() in {"RTC", "N+", "B-15", "B15"}:
-            result.append(w.upper())
-        elif w.isupper() and len(w) > 1:
-            result.append(w.capitalize())
+        up = w.upper()
+        if up in KEEP_AS_IS:
+            out.append(up)
         else:
-            result.append(w.capitalize() if w else w)
-    return " ".join(result)
+            out.append(w.capitalize())
+    return " ".join(out)
 
-def clean_title(words) -> str:
+def clean_block(words) -> str:
     parts = []
     for w in words:
         t = w["text"].strip()
         if not t:
             continue
-        upper = t.upper()
-        # Conservar calificadores útiles
-        if upper in KEEP_QUALIFIERS or upper in {"B-15", "LOCAL", "VIVO"}:
-            parts.append(upper if upper in {"B-15", "B15"} else t)
+        up = t.upper()
+        if up in SKIP_PURE:
             continue
-        # Ignorar solo ruido muy corto o calificadores puros
-        if upper in {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP"}:
-            continue
-        if len(t) <= 1 and upper not in {"A", "B"}:
+        if len(t) == 1 and up not in {"A", "B"}:
             continue
         parts.append(t)
-
-    title = " ".join(parts)
-    # Quitar repeticiones consecutivas
-    words_list = title.split()
+    if not parts:
+        return ""
     cleaned = []
-    for w in words_list:
-        if not cleaned or cleaned[-1].upper() != w.upper():
-            cleaned.append(w)
-    return to_title_case(" ".join(cleaned))
+    for p in parts:
+        if not cleaned or cleaned[-1].upper() != p.upper():
+            cleaned.append(p)
+    return to_title(" ".join(cleaned))
 
 def parse_schedule(words, base_date: datetime):
     programs = []
@@ -95,34 +87,39 @@ def parse_schedule(words, base_date: datetime):
         col_words = [
             w for w in words
             if col["x0"] <= w["x0"] < col["x1"]
-            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 10
+            and Y_START - 5 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 12
         ]
         if not col_words:
             continue
 
-        col_words.sort(key=lambda w: (w["top"], w["x0"]))
+        lines_dict = defaultdict(list)
+        for w in col_words:
+            y_key = round(w["top"] / 2.0) * 2.0
+            lines_dict[y_key].append(w)
 
-        # Agrupar con un gap un poco más permisivo para no fragmentar tanto
+        sorted_ys = sorted(lines_dict.keys())
+        lines = [{"y": y, "words": sorted(lines_dict[y], key=lambda x: x["x0"])} for y in sorted_ys]
+
         blocks = []
         current = []
         last_y = None
 
-        for w in col_words:
-            gap = 0 if last_y is None else (w["top"] - last_y)
-            if gap < SLOT_HEIGHT * 1.15:
-                current.append(w)
+        for line in lines:
+            gap = 0 if last_y is None else (line["y"] - last_y)
+            if gap < SLOT_HEIGHT * 1.4:
+                current.extend(line["words"])
             else:
                 if current:
                     blocks.append(current)
-                current = [w]
-            last_y = w["top"]
+                current = list(line["words"])
+            last_y = line["y"]
         if current:
             blocks.append(current)
 
         day_date = base_date + timedelta(days=col["offset"])
 
         for block in blocks:
-            title = clean_title(block)
+            title = clean_block(block)
             if len(title) < 3:
                 continue
 
@@ -161,7 +158,6 @@ def main():
         print(f"Palabras extraídas: {len(words)}")
 
         base_date = datetime(2026, 10, 26)
-
         clean = parse_schedule(words, base_date)
         print(f"Programas detectados: {len(clean)}")
 
@@ -172,8 +168,8 @@ def main():
             f.write(json_str + "\n")
 
         print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:6]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:50]}")
+        for item in clean[:8]:
+            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
 
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
