@@ -1,0 +1,53 @@
+name: Parse Telever Schedule
+
+on:
+  schedule:
+    # Todos los días a las 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests pdfplumber
+
+      - name: Download and parse PDF
+        run: |
+          python scripts/parse_telever.py
+          python -c "import json; json.load(open('telever.json')); print('JSON válido')"
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet telever.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No hay cambios en la programación"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Hay cambios en la programación"
+          fi
+
+      - name: Commit and push JSON
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add telever.json
+          git commit -m "chore: actualizar programación Telever $(date -u +%Y-%m-%d)"
+          git push
