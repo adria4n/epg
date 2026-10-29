@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """
 Parser de programación Telever (Televisa Regional Veracruz)
+Lee la fecha del PDF automáticamente y reconstruye la cuadrícula.
 """
 
 import json
 import sys
+import re
 import requests
 from datetime import datetime, timedelta
 from collections import defaultdict
@@ -23,11 +25,17 @@ DAY_COLUMNS = [
     {"name": "Domingo",   "offset": 6, "x0": 505, "x1": 575},
 ]
 
-Y_START = 104.0
-SLOT_HEIGHT = 6.35
+Y_START = 104.6
+SLOT_HEIGHT = 6.45
 
 SKIP_PURE = {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP"}
 KEEP_AS_IS = {"B-15", "B15", "RTC", "N+"}
+
+MESES = {
+    "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
+    "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
+    "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
+}
 
 def download_pdf(url: str, dest: str = "/tmp/telever.pdf") -> str:
     print(f"Descargando {url}...")
@@ -43,8 +51,28 @@ def extract_words(pdf_path: str):
         page = pdf.pages[0]
         return page.extract_words(x_tolerance=1.5, y_tolerance=1.5)
 
+def parse_base_date(words) -> datetime:
+    """Lee la fecha inicial del encabezado del PDF."""
+    header = [w for w in words if w["top"] < 80]
+    text = " ".join(w["text"] for w in header)
+    day_m = re.search(r"\b(\d{1,2})\b", text)
+    month_m = re.search(r"\b(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\b", text, re.I)
+    year_m = re.search(r"\b(20\d{2})\b", text)
+    if not (day_m and month_m and year_m):
+        raise ValueError(f"No se pudo leer la fecha del encabezado: {text}")
+    day = int(day_m.group(1))
+    month = MESES.get(month_m.group(1).lower())
+    year = int(year_m.group(1))
+    if not month:
+        raise ValueError(f"Mes no reconocido: {month_m.group(1)}")
+    print(f"Fecha base detectada: {year}-{month:02d}-{day:02d}")
+    return datetime(year, month, day)
+
 def y_to_slot(y: float) -> int:
-    return max(0, int(round((y - Y_START) / SLOT_HEIGHT)))
+    rel = y - Y_START
+    if rel < 0:
+        return 0
+    return int(rel / SLOT_HEIGHT)
 
 def slot_to_dt(base: datetime, slot: int) -> datetime:
     return base + timedelta(minutes=slot * 15)
@@ -87,7 +115,7 @@ def parse_schedule(words, base_date: datetime):
         col_words = [
             w for w in words
             if col["x0"] <= w["x0"] < col["x1"]
-            and Y_START - 5 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 12
+            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 10
         ]
         if not col_words:
             continue
@@ -106,7 +134,7 @@ def parse_schedule(words, base_date: datetime):
 
         for line in lines:
             gap = 0 if last_y is None else (line["y"] - last_y)
-            if gap < SLOT_HEIGHT * 1.4:
+            if gap < SLOT_HEIGHT * 1.6:
                 current.extend(line["words"])
             else:
                 if current:
@@ -140,7 +168,16 @@ def parse_schedule(words, base_date: datetime):
                 "end": end_dt.strftime("%Y-%m-%d/%H:%M:%S"),
             })
 
+    # Ordenar por día y hora, luego extender cada programa hasta el inicio del siguiente
+    # (esto corrige los casos donde el texto no llena todo el bloque visual)
     programs.sort(key=lambda p: p["sta"])
+    for i in range(len(programs) - 1):
+        curr_end = datetime.strptime(programs[i]["end"], "%Y-%m-%d/%H:%M:%S")
+        next_sta = datetime.strptime(programs[i+1]["sta"], "%Y-%m-%d/%H:%M:%S")
+        # Solo extender si el siguiente está en el mismo día y hay hueco
+        if curr_end.date() == next_sta.date() and next_sta > curr_end:
+            programs[i]["end"] = programs[i+1]["sta"]
+
     seen = set()
     result = []
     for p in programs:
@@ -157,7 +194,7 @@ def main():
         words = extract_words(pdf_path)
         print(f"Palabras extraídas: {len(words)}")
 
-        base_date = datetime(2026, 10, 26)
+        base_date = parse_base_date(words)
         clean = parse_schedule(words, base_date)
         print(f"Programas detectados: {len(clean)}")
 
@@ -168,8 +205,8 @@ def main():
             f.write(json_str + "\n")
 
         print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:8]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
+        for item in clean[:6]:
+            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:50]}")
 
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
