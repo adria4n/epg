@@ -2,7 +2,6 @@ name: Parse Telever Schedule
 
 on:
   schedule:
-    # Todos los días a las 06:00 UTC
     - cron: "0 6 * * *"
   workflow_dispatch:
 
@@ -35,12 +34,13 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet telever.json; then
+          git add telever.json
+          if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "No hay cambios en la programación"
+            echo "No hay cambios"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
-            echo "Hay cambios en la programación"
+            echo "Hay cambios"
           fi
 
       - name: Commit and push JSON
@@ -48,6 +48,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add telever.json
           git commit -m "chore: actualizar programación Telever $(date -u +%Y-%m-%d)"
           git push
