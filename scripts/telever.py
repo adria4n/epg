@@ -23,16 +23,15 @@ def shift_week(programs, days_to_shift: int):
     return result
 
 def main():
-    if len(sys.argv) < 2:
-        print("Uso: python3 adapt_week.py <dias>")
-        print("Ejemplo: python3 adapt_week.py 7")
-        sys.exit(1)
-
-    try:
-        days = int(sys.argv[1])
-    except ValueError:
-        print("El número de días debe ser un entero")
-        sys.exit(1)
+    if len(sys.argv) >= 2:
+        try:
+            days = int(sys.argv[1])
+        except ValueError:
+            print("El número de días debe ser un entero")
+            sys.exit(1)
+    else:
+        days = 7
+        print("No se pasó argumento. Usando +7 días por defecto.")
 
     try:
         with open(FILE, "r", encoding="utf-8") as f:
