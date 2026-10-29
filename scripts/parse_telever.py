@@ -72,7 +72,7 @@ def main():
                 best = i
             else:
                 break
-        return best
+        return max(0, best - 1)
 
     programs = []
     for col in DAY_COLS:
