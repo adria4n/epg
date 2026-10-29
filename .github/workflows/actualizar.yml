@@ -1,4 +1,4 @@
-name: Parse Telever Schedule
+name: Actualizar programaciones
 
 on:
   schedule:
@@ -26,15 +26,20 @@ jobs:
           pip install --upgrade pip
           pip install requests pdfplumber
 
-      - name: Download and parse PDF
+      - name: Run all parsers
         run: |
-          python scripts/parse_telever.py
-          python -c "import json; json.load(open('telever.json')); print('JSON válido')"
+          set -e
+          for script in scripts/*.py; do
+            if [ -f "$script" ]; then
+              echo "▶ Ejecutando $script"
+              python "$script"
+            fi
+          done
 
       - name: Check for changes
         id: changes
         run: |
-          git add telever.json
+          git add *.json
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "No hay cambios"
@@ -48,5 +53,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: actualizar programación Telever $(date -u +%Y-%m-%d)"
+          git commit -m "chore: actualizar programaciones $(date -u +%Y-%m-%d)"
           git push
