@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Parser de programación Telever (Televisa Regional Veracruz)
-Lee la fecha del PDF automáticamente y reconstruye la cuadrícula.
-"""
 
 import json
 import sys
@@ -52,7 +48,6 @@ def extract_words(pdf_path: str):
         return page.extract_words(x_tolerance=1.5, y_tolerance=1.5)
 
 def parse_base_date(words) -> datetime:
-    """Lee la fecha inicial del encabezado del PDF."""
     header = [w for w in words if w["top"] < 80]
     text = " ".join(w["text"] for w in header)
     day_m = re.search(r"\b(\d{1,2})\b", text)
@@ -168,13 +163,10 @@ def parse_schedule(words, base_date: datetime):
                 "end": end_dt.strftime("%Y-%m-%d/%H:%M:%S"),
             })
 
-    # Ordenar por día y hora, luego extender cada programa hasta el inicio del siguiente
-    # (esto corrige los casos donde el texto no llena todo el bloque visual)
     programs.sort(key=lambda p: p["sta"])
     for i in range(len(programs) - 1):
         curr_end = datetime.strptime(programs[i]["end"], "%Y-%m-%d/%H:%M:%S")
         next_sta = datetime.strptime(programs[i+1]["sta"], "%Y-%m-%d/%H:%M:%S")
-        # Solo extender si el siguiente está en el mismo día y hay hueco
         if curr_end.date() == next_sta.date() and next_sta > curr_end:
             programs[i]["end"] = programs[i+1]["sta"]
 
