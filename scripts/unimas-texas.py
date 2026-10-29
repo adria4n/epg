@@ -74,17 +74,22 @@ def main():
     all_programs = []
     today = datetime.now(TZ_TARGET).date()
 
-    for i in range(-1, 30):
+    i = -1
+    while True:
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
             html = fetch_page(date_str)
             page_tz = get_page_timezone(html)
             progs = parse_items(html, page_tz)
+            if not progs:
+                break
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
+            break
+        i += 1
 
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
