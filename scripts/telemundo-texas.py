@@ -8,7 +8,7 @@ import sys
 
 BASE_URL = "https://d3ur398j0yj7gx.cloudfront.net/ajax/program_guide/feed/block/{year}/{month:02d}/{day:02d}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "telemundo-texa.json"
+OUTPUT_FILE = "telemundo-texas.json"
 
 def fetch_day(date: datetime) -> list:
     url = BASE_URL.format(year=date.year, month=date.month, day=date.day)
