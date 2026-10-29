@@ -11,7 +11,6 @@ SITE_ID = "unimas-ktfv-mcallen-tx/13230"
 BASE_URL = f"https://www.tvpassport.com/tv-listings/stations/{SITE_ID}"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "unimas-texas.json"
-DAYS_AHEAD = 2
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def fetch_page(date_str: str | None = None) -> str:
@@ -75,7 +74,7 @@ def main():
     all_programs = []
     today = datetime.now(TZ_TARGET).date()
 
-    for i in range(-1, DAYS_AHEAD):
+    for i in range(-1, 8):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
