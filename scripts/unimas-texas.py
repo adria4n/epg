@@ -10,7 +10,7 @@ import sys
 URL = "https://www.open-epg.com/files/unitedstates1.xml"
 CHANNEL = "UNIMAS.us"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "unimas-east.json"
+OUTPUT_FILE = "unimas-texas.json"
 
 def parse_epg_time(s: str) -> datetime:
     dt_str = s[:14]
