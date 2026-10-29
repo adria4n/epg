@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 Parser de programación Telever (Televisa Regional Veracruz)
-Descarga el PDF, reconstruye la cuadrícula visual y genera telever.json
 """
 
 import json
@@ -13,7 +12,6 @@ import pdfplumber
 PDF_URL = "https://televisaregional.tv/pdf/telever-c12.pdf"
 OUTPUT_FILE = "telever.json"
 
-# Rangos X de cada columna (ajustados al PDF actual)
 DAY_COLUMNS = [
     {"name": "Lunes",     "offset": 0, "x0": 50,  "x1": 125},
     {"name": "Martes",    "offset": 1, "x0": 125, "x1": 200},
@@ -27,11 +25,8 @@ DAY_COLUMNS = [
 Y_START = 104.0
 SLOT_HEIGHT = 6.35
 
-# Palabras que no son título principal
-SKIP_WORDS = {
-    "GRABADO", "REPETICIÓN", "REPETICION", "LOCAL", "VIVO",
-    "A", "B", "B-15", "B15", "SAP", "REP", "ETICIÓN", "ETICION"
-}
+# Palabras que se pueden conservar como parte del título
+KEEP_QUALIFIERS = {"B-15", "B15", "LOCAL", "VIVO", "A", "B"}
 
 def download_pdf(url: str, dest: str = "/tmp/telever.pdf") -> str:
     print(f"Descargando {url}...")
@@ -53,28 +48,45 @@ def y_to_slot(y: float) -> int:
 def slot_to_dt(base: datetime, slot: int) -> datetime:
     return base + timedelta(minutes=slot * 15)
 
-def is_noise(text: str) -> bool:
-    t = text.strip().upper()
-    if t in SKIP_WORDS:
-        return True
-    if len(t) <= 2:
-        return True
-    return False
+def to_title_case(text: str) -> str:
+    """Convierte a Title Case respetando algunas siglas y números."""
+    words = text.split()
+    result = []
+    for w in words:
+        if w.upper() in {"RTC", "N+", "B-15", "B15"}:
+            result.append(w.upper())
+        elif w.isupper() and len(w) > 1:
+            result.append(w.capitalize())
+        else:
+            result.append(w.capitalize() if w else w)
+    return " ".join(result)
 
 def clean_title(words) -> str:
     parts = []
     for w in words:
         t = w["text"].strip()
-        if t and not is_noise(t):
-            parts.append(t)
+        if not t:
+            continue
+        upper = t.upper()
+        # Conservar calificadores útiles
+        if upper in KEEP_QUALIFIERS or upper in {"B-15", "LOCAL", "VIVO"}:
+            parts.append(upper if upper in {"B-15", "B15"} else t)
+            continue
+        # Ignorar solo ruido muy corto o calificadores puros
+        if upper in {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP"}:
+            continue
+        if len(t) <= 1 and upper not in {"A", "B"}:
+            continue
+        parts.append(t)
+
     title = " ".join(parts)
-    # Quitar repeticiones consecutivas de palabras
+    # Quitar repeticiones consecutivas
     words_list = title.split()
     cleaned = []
     for w in words_list:
-        if not cleaned or cleaned[-1] != w:
+        if not cleaned or cleaned[-1].upper() != w.upper():
             cleaned.append(w)
-    return " ".join(cleaned)
+    return to_title_case(" ".join(cleaned))
 
 def parse_schedule(words, base_date: datetime):
     programs = []
@@ -83,21 +95,21 @@ def parse_schedule(words, base_date: datetime):
         col_words = [
             w for w in words
             if col["x0"] <= w["x0"] < col["x1"]
-            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 8
+            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 10
         ]
         if not col_words:
             continue
 
         col_words.sort(key=lambda w: (w["top"], w["x0"]))
 
-        # Agrupar palabras que están en el mismo bloque visual
+        # Agrupar con un gap un poco más permisivo para no fragmentar tanto
         blocks = []
         current = []
         last_y = None
 
         for w in col_words:
             gap = 0 if last_y is None else (w["top"] - last_y)
-            if gap < SLOT_HEIGHT * 0.9:
+            if gap < SLOT_HEIGHT * 1.15:
                 current.append(w)
             else:
                 if current:
@@ -111,7 +123,7 @@ def parse_schedule(words, base_date: datetime):
 
         for block in blocks:
             title = clean_title(block)
-            if len(title) < 4:
+            if len(title) < 3:
                 continue
 
             y_min = min(w["top"] for w in block)
@@ -131,7 +143,6 @@ def parse_schedule(words, base_date: datetime):
                 "end": end_dt.strftime("%Y-%m-%d/%H:%M:%S"),
             })
 
-    # Ordenar y deduplicar
     programs.sort(key=lambda p: p["sta"])
     seen = set()
     result = []
@@ -149,8 +160,6 @@ def main():
         words = extract_words(pdf_path)
         print(f"Palabras extraídas: {len(words)}")
 
-        # Fecha base del PDF actual (26 de octubre de 2026)
-        # Actualiza esta fecha cuando cambie la semana del PDF
         base_date = datetime(2026, 10, 26)
 
         clean = parse_schedule(words, base_date)
@@ -163,8 +172,8 @@ def main():
             f.write(json_str + "\n")
 
         print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:8]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
+        for item in clean[:6]:
+            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:50]}")
 
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
