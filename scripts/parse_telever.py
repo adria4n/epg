@@ -16,13 +16,13 @@ PDF_URL = "https://televisaregional.tv/pdf/telever-c12.pdf"
 OUTPUT_FILE = "telever.json"
 
 DAY_COLUMNS = [
-    {"name": "Lunes",     "offset": 0, "x0": 50,  "x1": 125},
-    {"name": "Martes",    "offset": 1, "x0": 125, "x1": 200},
-    {"name": "Miércoles", "offset": 2, "x0": 200, "x1": 275},
-    {"name": "Jueves",    "offset": 3, "x0": 275, "x1": 355},
-    {"name": "Viernes",   "offset": 4, "x0": 355, "x1": 430},
-    {"name": "Sábado",    "offset": 5, "x0": 430, "x1": 505},
-    {"name": "Domingo",   "offset": 6, "x0": 505, "x1": 575},
+    {"name": "Lunes",     "offset": 0, "x0": 40,  "x1": 130},
+    {"name": "Martes",    "offset": 1, "x0": 115, "x1": 205},
+    {"name": "Miércoles", "offset": 2, "x0": 190, "x1": 280},
+    {"name": "Jueves",    "offset": 3, "x0": 265, "x1": 360},
+    {"name": "Viernes",   "offset": 4, "x0": 345, "x1": 435},
+    {"name": "Sábado",    "offset": 5, "x0": 420, "x1": 510},
+    {"name": "Domingo",   "offset": 6, "x0": 495, "x1": 580},
 ]
 
 Y_START = 104.6
@@ -52,7 +52,6 @@ def extract_words(pdf_path: str):
         return page.extract_words(x_tolerance=1.5, y_tolerance=1.5)
 
 def parse_base_date(words) -> datetime:
-    """Lee la fecha inicial del encabezado del PDF."""
     header = [w for w in words if w["top"] < 80]
     text = " ".join(w["text"] for w in header)
     day_m = re.search(r"\b(\d{1,2})\b", text)
@@ -77,6 +76,14 @@ def y_to_slot(y: float) -> int:
 def slot_to_dt(base: datetime, slot: int) -> datetime:
     return base + timedelta(minutes=slot * 15)
 
+def is_time_marker(text: str) -> bool:
+    t = text.strip()
+    if re.match(r"^\d{1,2}:\d{2}$", t):
+        return True
+    if re.match(r"^:\d{2}$", t):
+        return True
+    return False
+
 def to_title(text: str) -> str:
     words = text.split()
     out = []
@@ -93,6 +100,8 @@ def clean_block(words) -> str:
     for w in words:
         t = w["text"].strip()
         if not t:
+            continue
+        if is_time_marker(t):
             continue
         up = t.upper()
         if up in SKIP_PURE:
@@ -134,7 +143,7 @@ def parse_schedule(words, base_date: datetime):
 
         for line in lines:
             gap = 0 if last_y is None else (line["y"] - last_y)
-            if gap < SLOT_HEIGHT * 1.6:
+            if gap < SLOT_HEIGHT * 1.2:
                 current.extend(line["words"])
             else:
                 if current:
@@ -168,13 +177,10 @@ def parse_schedule(words, base_date: datetime):
                 "end": end_dt.strftime("%Y-%m-%d/%H:%M:%S"),
             })
 
-    # Ordenar por día y hora, luego extender cada programa hasta el inicio del siguiente
-    # (esto corrige los casos donde el texto no llena todo el bloque visual)
     programs.sort(key=lambda p: p["sta"])
     for i in range(len(programs) - 1):
         curr_end = datetime.strptime(programs[i]["end"], "%Y-%m-%d/%H:%M:%S")
         next_sta = datetime.strptime(programs[i+1]["sta"], "%Y-%m-%d/%H:%M:%S")
-        # Solo extender si el siguiente está en el mismo día y hay hueco
         if curr_end.date() == next_sta.date() and next_sta > curr_end:
             programs[i]["end"] = programs[i+1]["sta"]
 
@@ -205,8 +211,8 @@ def main():
             f.write(json_str + "\n")
 
         print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:6]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:50]}")
+        for item in clean[:8]:
+            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
 
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
