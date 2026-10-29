@@ -3,7 +3,7 @@
 import json
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
@@ -27,6 +27,11 @@ def main():
     xml_data = fetch_xml()
     root = ET.fromstring(xml_data)
 
+    now = datetime.now(TZ)
+    today = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    start_limit = today - timedelta(days=1)
+    end_limit = today + timedelta(days=7)
+
     programmes = []
     for prog in root.findall("programme"):
         if prog.get("channel") != CHANNEL:
@@ -38,6 +43,9 @@ def main():
 
         start_cdmx = start_utc.astimezone(TZ)
         stop_cdmx = stop_utc.astimezone(TZ)
+
+        if start_cdmx < start_limit or start_cdmx >= end_limit:
+            continue
 
         programmes.append({
             "titulo": title,
