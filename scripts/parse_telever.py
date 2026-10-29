@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Parser de programación Telever.
-Detecta columnas y horas automáticamente del PDF.
+Usa rangos de columna fijos y limpieza de títulos.
 """
 
 import json
@@ -15,16 +15,27 @@ import pdfplumber
 PDF_URL = "https://televisaregional.tv/pdf/telever-c12.pdf"
 OUTPUT_FILE = "telever.json"
 
-SKIP_PURE = {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP", "*SAP"}
-KEEP_AS_IS = {"B-15", "B15", "RTC", "N+"}
+DAY_COLUMNS = [
+    {"name": "Lunes",     "offset": 0, "x0": 40,  "x1": 130},
+    {"name": "Martes",    "offset": 1, "x0": 115, "x1": 205},
+    {"name": "Miércoles", "offset": 2, "x0": 190, "x1": 280},
+    {"name": "Jueves",    "offset": 3, "x0": 265, "x1": 360},
+    {"name": "Viernes",   "offset": 4, "x0": 345, "x1": 435},
+    {"name": "Sábado",    "offset": 5, "x0": 420, "x1": 510},
+    {"name": "Domingo",   "offset": 6, "x0": 495, "x1": 575},
+]
+
+Y_START = 104.6
+SLOT_HEIGHT = 6.45
+
+SKIP = {"GRABADO", "REPETICIÓN", "REPETICION", "SAP", "REP", "*SAP", "CAMBIOS", "SUJETA", "AVISO", "PREVIO", "ULTIMA", "ACTUALIZACIÓN"}
+KEEP = {"B-15", "B15", "RTC", "N+"}
 
 MESES = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
     "mayo": 5, "junio": 6, "julio": 7, "agosto": 8,
     "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12,
 }
-
-DAY_NAMES = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
 
 def download_pdf(url: str, dest: str = "/tmp/telever.pdf") -> str:
     print(f"Descargando {url}...")
@@ -52,68 +63,26 @@ def parse_base_date(words) -> datetime:
     month = MESES.get(month_m.group(1).lower())
     year = int(year_m.group(1))
     if not month:
-        raise ValueError(f"Mes no reconocido: {month_m.group(1)}")
+        raise ValueError("Mes no reconocido")
     print(f"Fecha base: {year}-{month:02d}-{day:02d}")
     return datetime(year, month, day)
 
-def detect_columns(words):
-    headers = []
-    for w in words:
-        if w["text"] in DAY_NAMES and 90 < w["top"] < 105:
-            headers.append(w)
-    headers.sort(key=lambda x: x["x0"])
-    if len(headers) != 7:
-        raise ValueError(f"Se esperaban 7 días, se encontraron {len(headers)}")
-    columns = []
-    for i, h in enumerate(headers):
-        x0 = h["x0"] - 15
-        if i + 1 < len(headers):
-            x1 = (h["x1"] + headers[i+1]["x0"]) / 2
-        else:
-            x1 = h["x1"] + 40
-        columns.append({"name": h["text"], "offset": i, "x0": x0, "x1": x1})
-    return columns
-
-def detect_time_slots(words):
-    markers = []
-    for w in words:
-        t = w["text"].strip()
-        if re.match(r"^\d{1,2}:\d{2}\( ", t) or re.match(r"^:\d{2} \)", t):
-            markers.append((w["top"], w["x0"], t))
-    if not markers:
-        # Fallback: generar slots fijos basados en la estructura conocida
-        print("Usando slots de respaldo")
-        return [{"y": 104.6 + i * 6.45, "index": i, "label": ""} for i in range(96)]
-    left = [m for m in markers if m[1] < 100]
-    if not left:
-        left = markers
-    left.sort()
-    seen = set()
-    unique = []
-    for y, x, label in left:
-        yk = round(y)
-        if yk not in seen:
-            seen.add(yk)
-            unique.append((y, label))
-    return [{"y": y, "index": i, "label": label} for i, (y, label) in enumerate(unique)]
-
-def y_to_slot(y: float, slots) -> int:
-    best = 0
-    for s in slots:
-        if s["y"] <= y + 2:
-            best = s["index"]
-        else:
-            break
-    return best
+def y_to_slot(y: float) -> int:
+    rel = y - Y_START
+    if rel < 0:
+        return 0
+    return int(rel / SLOT_HEIGHT)
 
 def slot_to_dt(base: datetime, slot: int) -> datetime:
     return base + timedelta(minutes=slot * 15)
 
 def is_noise(text: str) -> bool:
     t = text.strip().upper()
-    if t in SKIP_PURE:
+    if t in SKIP:
         return True
     if re.match(r"^\d{1,2}:\d{2}\( ", t) or re.match(r"^:\d{2} \)", t):
+        return True
+    if re.match(r"^\d{1,2}/\d{1,2}/\d{4}", t):
         return True
     if len(t) <= 1 and t not in {"A", "B"}:
         return True
@@ -124,7 +93,7 @@ def to_title(text: str) -> str:
     out = []
     for w in words:
         up = w.upper()
-        if up in KEEP_AS_IS:
+        if up in KEEP:
             out.append(up)
         else:
             out.append(w.capitalize())
@@ -149,13 +118,14 @@ def clean_block(words) -> str:
     return title
 
 def parse_schedule(words, base_date: datetime):
-    columns = detect_columns(words)
-    slots = detect_time_slots(words)
-    print(f"Columnas: {len(columns)}, slots: {len(slots)}")
-
     programs = []
-    for col in columns:
-        col_words = [w for w in words if col["x0"] <= w["x0"] < col["x1"] and w["top"] > 100]
+
+    for col in DAY_COLUMNS:
+        col_words = [
+            w for w in words
+            if col["x0"] <= w["x0"] < col["x1"]
+            and Y_START - 4 <= w["top"] < Y_START + 24 * 4 * SLOT_HEIGHT + 10
+        ]
         if not col_words:
             continue
 
@@ -170,9 +140,10 @@ def parse_schedule(words, base_date: datetime):
         blocks = []
         current = []
         last_y = None
+
         for line in lines:
             gap = 0 if last_y is None else (line["y"] - last_y)
-            if gap < 8.0:
+            if gap < SLOT_HEIGHT * 1.3:
                 current.extend(line["words"])
             else:
                 if current:
@@ -183,18 +154,23 @@ def parse_schedule(words, base_date: datetime):
             blocks.append(current)
 
         day_date = base_date + timedelta(days=col["offset"])
+
         for block in blocks:
             title = clean_block(block)
             if not title:
                 continue
+
             y_min = min(w["top"] for w in block)
             y_max = max(w["top"] for w in block)
-            start_slot = y_to_slot(y_min, slots)
-            end_slot = y_to_slot(y_max, slots) + 1
+
+            start_slot = y_to_slot(y_min)
+            end_slot = y_to_slot(y_max) + 1
             if end_slot <= start_slot:
                 end_slot = start_slot + 1
+
             start_dt = slot_to_dt(day_date, start_slot)
             end_dt = slot_to_dt(day_date, end_slot)
+
             programs.append({
                 "titulo": title,
                 "sta": start_dt.strftime("%Y-%m-%d/%H:%M:%S"),
@@ -215,6 +191,7 @@ def parse_schedule(words, base_date: datetime):
         if key not in seen:
             seen.add(key)
             result.append(p)
+
     return result
 
 def main():
@@ -222,16 +199,21 @@ def main():
         pdf_path = download_pdf(PDF_URL)
         words = extract_words(pdf_path)
         print(f"Palabras: {len(words)}")
+
         base_date = parse_base_date(words)
         clean = parse_schedule(words, base_date)
         print(f"Programas: {len(clean)}")
+
         json_str = json.dumps(clean, ensure_ascii=False, indent=2)
         json.loads(json_str)
+
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             f.write(json_str + "\n")
+
         print(f"JSON escrito en {OUTPUT_FILE}")
-        for item in clean[:6]:
-            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:50]}")
+        for item in clean[:8]:
+            print(f"  {item['sta']} → {item['end']} | {item['titulo'][:55]}")
+
     except Exception as e:
         print(f"ERROR: {e}", file=sys.stderr)
         import traceback
