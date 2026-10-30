@@ -58,39 +58,30 @@ def main():
     now = datetime.now(TZ)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    # Varios días (ayer + hoy + próximos), como el otro script
+    # Siempre relativo a hoy → automático para siempre
     days = [today + timedelta(days=i) for i in range(-1, 7)]
 
-    all_stations = []
+    all_programs = []
     for day in days:
         from_ms = int(day.timestamp() * 1000)
         to_ms = int((day + timedelta(days=1)).timestamp() * 1000)
         stations = fetch_range(from_ms, to_ms)
-        all_stations.extend(stations)
 
-    # Buscar la estación objetivo (puede venir repetida por día)
-    targets = [st for st in all_stations if st.get("callSign") == TARGET_CALLSIGN]
-    if not targets:
-        print(f"No se encontró {TARGET_CALLSIGN}", file=sys.stderr)
-        return
+        target = next((st for st in stations if st.get("callSign") == TARGET_CALLSIGN), None)
+        if target:
+            print(f"  {day.date()} → OK", file=sys.stderr)
+            all_programs.extend(process_station(target))
+        else:
+            print(f"  {day.date()} → no encontrado", file=sys.stderr)
 
-    print(f"Encontradas {len(targets)} entradas de {targets[0].get('name')} ({TARGET_CALLSIGN})", file=sys.stderr)
-
-    # Juntar todos los programas
-    epg = []
-    for target in targets:
-        epg.extend(process_station(target))
-
-    # Deduplicar
     seen = set()
     unique = []
-    for item in epg:
+    for item in all_programs:
         key = (item["titulo"], item["sta"])
         if key not in seen:
             seen.add(key)
             unique.append(item)
 
-    # Ordenar por hora
     unique.sort(key=lambda x: x["sta"])
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
