@@ -1,110 +1,5 @@
 [
   {
-    "titulo": "Esta historia me suena / 3 A.M.",
-    "sta": "2026-10-28/04:00:00",
-    "end": "2026-10-28/05:00:00"
-  },
-  {
-    "titulo": "El Chavo Animado / Regalo de Navidad",
-    "sta": "2026-10-28/05:00:00",
-    "end": "2026-10-28/05:30:00"
-  },
-  {
-    "titulo": "El Chavo Animado / Los piratas",
-    "sta": "2026-10-28/05:30:00",
-    "end": "2026-10-28/06:00:00"
-  },
-  {
-    "titulo": "Vecinos / Las tortas de mi primo",
-    "sta": "2026-10-28/06:00:00",
-    "end": "2026-10-28/06:30:00"
-  },
-  {
-    "titulo": "Vecinos / La casa de los Riojosos",
-    "sta": "2026-10-28/06:30:00",
-    "end": "2026-10-28/07:00:00"
-  },
-  {
-    "titulo": "El Chapulín Colorado / El disfraz, el antifaz y algo más",
-    "sta": "2026-10-28/07:00:00",
-    "end": "2026-10-28/07:30:00"
-  },
-  {
-    "titulo": "El Chapulín Colorado / No te arrugues cuero viejo que te quiero pa tambor",
-    "sta": "2026-10-28/07:30:00",
-    "end": "2026-10-28/08:00:00"
-  },
-  {
-    "titulo": "El Chavo / La mentira de la Chilindrina",
-    "sta": "2026-10-28/08:00:00",
-    "end": "2026-10-28/08:30:00"
-  },
-  {
-    "titulo": "El Chavo / El actor Bonilla",
-    "sta": "2026-10-28/08:30:00",
-    "end": "2026-10-28/09:00:00"
-  },
-  {
-    "titulo": "Amigos por siempre / Travieso ratón",
-    "sta": "2026-10-28/09:00:00",
-    "end": "2026-10-28/10:00:00"
-  },
-  {
-    "titulo": "Corazón salvaje",
-    "sta": "2026-10-28/10:00:00",
-    "end": "2026-10-28/11:00:00"
-  },
-  {
-    "titulo": "La Dueña / Estoy embarazada",
-    "sta": "2026-10-28/11:00:00",
-    "end": "2026-10-28/12:00:00"
-  },
-  {
-    "titulo": "La mentira / El citatorio",
-    "sta": "2026-10-28/12:00:00",
-    "end": "2026-10-28/13:00:00"
-  },
-  {
-    "titulo": "Qué bonito amor",
-    "sta": "2026-10-28/13:00:00",
-    "end": "2026-10-28/14:00:00"
-  },
-  {
-    "titulo": "La herencia, un legado de amor / Ese niño no debe nacer",
-    "sta": "2026-10-28/14:00:00",
-    "end": "2026-10-28/15:00:00"
-  },
-  {
-    "titulo": "La encrucijada / Regresa el embarazo",
-    "sta": "2026-10-28/15:00:00",
-    "end": "2026-10-28/16:00:00"
-  },
-  {
-    "titulo": "Como dice el dicho / La vaca se olvida que fue ternero",
-    "sta": "2026-10-28/16:00:00",
-    "end": "2026-10-28/17:00:00"
-  },
-  {
-    "titulo": "¿Quién caerá?",
-    "sta": "2026-10-28/17:00:00",
-    "end": "2026-10-28/18:00:00"
-  },
-  {
-    "titulo": "Primeras citas",
-    "sta": "2026-10-28/18:00:00",
-    "end": "2026-10-28/19:00:00"
-  },
-  {
-    "titulo": "El túnel del amor",
-    "sta": "2026-10-28/19:00:00",
-    "end": "2026-10-28/21:00:00"
-  },
-  {
-    "titulo": "Fugitivas",
-    "sta": "2026-10-28/21:00:00",
-    "end": "2026-10-28/23:00:00"
-  },
-  {
     "titulo": "El Chapulín Colorado / El disfraz, el antifaz y algo más",
     "sta": "2026-10-28/23:00:00",
     "end": "2026-10-28/23:30:00"
@@ -250,7 +145,7 @@
     "end": "2026-10-29/21:00:00"
   },
   {
-    "titulo": "Fugitivas",
+    "titulo": "Fugitivas / Nueva York: Lo que no se ve en la Gran Manzana",
     "sta": "2026-10-29/21:00:00",
     "end": "2026-10-29/23:00:00"
   },
@@ -1258,5 +1153,110 @@
     "titulo": "Noticias 48",
     "sta": "2026-11-06/04:30:00",
     "end": "2026-11-06/05:00:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Con los ojos cerrados",
+    "sta": "2026-11-06/05:00:00",
+    "end": "2026-11-06/06:00:00"
+  },
+  {
+    "titulo": "El Chavo Animado / ¡Aquí espantan!",
+    "sta": "2026-11-06/06:00:00",
+    "end": "2026-11-06/06:30:00"
+  },
+  {
+    "titulo": "El Chavo Animado / Caído del Cielo",
+    "sta": "2026-11-06/06:30:00",
+    "end": "2026-11-06/07:00:00"
+  },
+  {
+    "titulo": "Vecinos / Pedro celoso",
+    "sta": "2026-11-06/07:00:00",
+    "end": "2026-11-06/07:30:00"
+  },
+  {
+    "titulo": "Vecinos / La fonditería",
+    "sta": "2026-11-06/07:30:00",
+    "end": "2026-11-06/08:00:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / La mordedura de serpiente",
+    "sta": "2026-11-06/08:00:00",
+    "end": "2026-11-06/08:30:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / De médico, Chapulín y loco, todos tenemos un poco",
+    "sta": "2026-11-06/08:30:00",
+    "end": "2026-11-06/09:00:00"
+  },
+  {
+    "titulo": "El Chavo / El saco del señor Barriga",
+    "sta": "2026-11-06/09:00:00",
+    "end": "2026-11-06/09:30:00"
+  },
+  {
+    "titulo": "El Chavo / El cachorro de doña Cleotilde",
+    "sta": "2026-11-06/09:30:00",
+    "end": "2026-11-06/10:00:00"
+  },
+  {
+    "titulo": "Amigos por siempre / La despedida del director",
+    "sta": "2026-11-06/10:00:00",
+    "end": "2026-11-06/11:00:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-06/11:00:00",
+    "end": "2026-11-06/12:00:00"
+  },
+  {
+    "titulo": "La Dueña / Disculpa",
+    "sta": "2026-11-06/12:00:00",
+    "end": "2026-11-06/13:00:00"
+  },
+  {
+    "titulo": "La mentira / Celos",
+    "sta": "2026-11-06/13:00:00",
+    "end": "2026-11-06/14:00:00"
+  },
+  {
+    "titulo": "Qué bonito amor",
+    "sta": "2026-11-06/14:00:00",
+    "end": "2026-11-06/15:00:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Las cartas",
+    "sta": "2026-11-06/15:00:00",
+    "end": "2026-11-06/16:00:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-06/16:00:00",
+    "end": "2026-11-06/17:00:00"
+  },
+  {
+    "titulo": "Como dice el dicho / El que por su gusto corre, nunca se cansa",
+    "sta": "2026-11-06/17:00:00",
+    "end": "2026-11-06/18:00:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-06/18:00:00",
+    "end": "2026-11-06/19:00:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-06/19:00:00",
+    "end": "2026-11-06/20:00:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-06/20:00:00",
+    "end": "2026-11-06/22:00:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-06/22:00:00",
+    "end": "2026-11-07/00:00:00"
   }
 ]
