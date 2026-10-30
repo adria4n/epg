@@ -10,9 +10,9 @@ import sys
 CHANNEL = "azteca-13"
 BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno.json"
+OUTPUT_FILE = "azteca13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-UTC_OFFSET = -360  # CST
+UTC_OFFSET = -360
 
 def fetch_page(date_str: str) -> str:
     url = f"{BASE_URL}/{date_str}/{UTC_OFFSET}"
@@ -24,21 +24,15 @@ def fetch_page(date_str: str) -> str:
 def parse_items(html: str, day: datetime) -> list[dict]:
     times = re.findall(r'<span class="time">\s*([^<]+?)\s*</span>', html)
     titles = re.findall(r'<h2>\s*([^<]+?)\s*</h2>', html)
-
     programs = []
     current_day = day
-
     for i, (t, title) in enumerate(zip(times, titles)):
         try:
             hour, minute = map(int, t.split(":"))
             start = current_day.replace(hour=hour, minute=minute, second=0, microsecond=0)
-
-            # Si el horario es de madrugada y ya pasamos de medianoche en la lista
-            if i > 0 and hour < 6 and programs and programs[-1]["start"].hour >= 20:
+            if i > 0 and hour < 6 and programs and programs[-1].get("_start") and programs[-1]["_start"].hour >= 20:
                 start += timedelta(days=1)
                 current_day = start
-
-            # End = inicio del siguiente, o +60 min si es el último
             if i + 1 < len(times):
                 next_h, next_m = map(int, times[i + 1].split(":"))
                 end = current_day.replace(hour=next_h, minute=next_m, second=0, microsecond=0)
@@ -46,27 +40,22 @@ def parse_items(html: str, day: datetime) -> list[dict]:
                     end += timedelta(days=1)
             else:
                 end = start + timedelta(minutes=60)
-
             programs.append({
                 "titulo": title.strip(),
                 "sta": start.strftime("%Y-%m-%d/%H:%M:%S"),
                 "end": end.strftime("%Y-%m-%d/%H:%M:%S"),
-                "start": start,  # temporal para cálculo
+                "_start": start,
             })
         except Exception:
             continue
-
-    # Limpiar campo temporal
     for p in programs:
-        p.pop("start", None)
-
+        p.pop("_start", None)
     return programs
 
 def main():
     all_programs = []
     today = datetime.now(TZ).date()
-
-    for i in range(-1, 7):  # ayer + 6 días
+    for i in range(-1, 7):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
@@ -76,19 +65,11 @@ def main():
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
-
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
-    unique = []
-    for p in all_programs:
-        key = p["sta"]
-        if key not in seen:
-            seen.add(key)
-            unique.append(p)
-
+    unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
-
     print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
 
 if __name__ == "__main__":
