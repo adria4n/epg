@@ -11,11 +11,18 @@ TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-uno.json"
 TARGET_CALLSIGN = "AZDELAY"
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "Referer": "https://fispy.com/",
+    "Origin": "https://fispy.com"
+}
+
 def fetch_range(from_ms: int, to_ms: int) -> list:
     url = f"{BASE_URL}?from={from_ms}&to={to_ms}"
     print(f"Fetching {url}", file=sys.stderr)
     try:
-        req = urllib.request.Request(url)
+        req = urllib.request.Request(url, headers=HEADERS)
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.load(resp)
             return data if isinstance(data, list) else []
@@ -48,28 +55,43 @@ def process_station(station: dict) -> list:
     return result
 
 def main():
-    # Rango simple: hoy 00:00 a mañana 00:00 (ajústalo según lo que acepte la API)
     now = datetime.now(TZ)
-    start = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    end = start + timedelta(days=1)
+    today = now.replace(hour=0, minute=0, second=0, microsecond=0)
 
-    from_ms = int(start.timestamp() * 1000)
-    to_ms = int(end.timestamp() * 1000)
+    # Varios días (ayer + hoy + próximos), como el otro script
+    days = [today + timedelta(days=i) for i in range(-1, 7)]
 
-    stations = fetch_range(from_ms, to_ms)
+    all_stations = []
+    for day in days:
+        from_ms = int(day.timestamp() * 1000)
+        to_ms = int((day + timedelta(days=1)).timestamp() * 1000)
+        stations = fetch_range(from_ms, to_ms)
+        all_stations.extend(stations)
 
-    target = next((st for st in stations if st.get("callSign") == TARGET_CALLSIGN), None)
-
-    if not target:
+    # Buscar la estación objetivo (puede venir repetida por día)
+    targets = [st for st in all_stations if st.get("callSign") == TARGET_CALLSIGN]
+    if not targets:
         print(f"No se encontró {TARGET_CALLSIGN}", file=sys.stderr)
         return
 
-    print(f"Encontrada: {target.get('name')} ({target.get('callSign')})", file=sys.stderr)
+    print(f"Encontradas {len(targets)} entradas de {targets[0].get('name')} ({TARGET_CALLSIGN})", file=sys.stderr)
 
-    epg = process_station(target)
+    # Juntar todos los programas
+    epg = []
+    for target in targets:
+        epg.extend(process_station(target))
 
+    # Deduplicar
     seen = set()
-    unique = [item for item in epg if (item["titulo"], item["sta"]) not in seen and not seen.add((item["titulo"], item["sta"]))]
+    unique = []
+    for item in epg:
+        key = (item["titulo"], item["sta"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(item)
+
+    # Ordenar por hora
+    unique.sort(key=lambda x: x["sta"])
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
