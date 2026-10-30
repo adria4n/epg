@@ -9,7 +9,6 @@ import sys
 
 CHANNEL = "azteca_uno"
 BASE_URL = f"https://www.gatotv.com/canal/{CHANNEL}"
-TZ_TARGET = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-uno.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
@@ -22,7 +21,7 @@ def fetch_page(date_str: str | None = None) -> str:
 
 def parse_items(html: str, page_date: datetime.date) -> list[dict]:
     rows = re.findall(
-        r'<tr class="tbl_EPG_row(?:Alternate)?">(.*?)</tr>',
+        r'<tr class="tbl_EPG_row(?:Alternate|_selected)?">(.*?)</tr>',
         html,
         re.DOTALL | re.I,
     )
@@ -43,24 +42,20 @@ def parse_items(html: str, page_date: datetime.date) -> list[dict]:
             start_h, start_m = map(int, start_t.split(":"))
             end_h, end_m = map(int, end_t.split(":"))
 
-            start = datetime(
-                page_date.year, page_date.month, page_date.day,
-                start_h, start_m, tzinfo=TZ_TARGET
-            )
+            # Fecha + hora tal cual (sin timezone)
+            start_str = f"{page_date.year:04d}-{page_date.month:02d}-{page_date.day:02d}/{start_h:02d}:{start_m:02d}:00"
 
+            # Si cruza medianoche, el end va al día siguiente
             end_date = page_date
             if (end_h, end_m) < (start_h, start_m):
                 end_date = page_date + timedelta(days=1)
 
-            end = datetime(
-                end_date.year, end_date.month, end_date.day,
-                end_h, end_m, tzinfo=TZ_TARGET
-            )
+            end_str = f"{end_date.year:04d}-{end_date.month:02d}-{end_date.day:02d}/{end_h:02d}:{end_m:02d}:00"
 
             programs.append({
                 "titulo": title,
-                "sta": start.strftime("%Y-%m-%d/%H:%M:%S"),
-                "end": end.strftime("%Y-%m-%d/%H:%M:%S"),
+                "sta": start_str,
+                "end": end_str,
             })
         except Exception:
             continue
@@ -69,7 +64,7 @@ def parse_items(html: str, page_date: datetime.date) -> list[dict]:
 
 def main():
     all_programs = []
-    today = datetime.now(TZ_TARGET).date()
+    today = datetime.now().date()  # sin timezone
 
     for i in range(-1, 8):
         d = today + timedelta(days=i)
