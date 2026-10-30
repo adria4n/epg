@@ -4,6 +4,7 @@ import json
 import urllib.request
 import re
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 import sys
 
 CHANNEL = "azteca_uno"
