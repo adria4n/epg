@@ -21,16 +21,15 @@ def fetch_page(date_str: str | None = None) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, page_date: datetime.date) -> list[dict]:
-    # Extraer filas de programación
+    # Captura todas las variantes de fila (normal, alternate y selected)
     rows = re.findall(
-        r'<tr class="tbl_EPG_row(?:Alternate)?">(.*?)</tr>',
+        r'<tr class="tbl_EPG_row(?:Alternate|_selected)?">(.*?)</tr>',
         html,
         re.DOTALL | re.I,
     )
 
     programs = []
     for row in rows:
-        # Extraer tiempos (start y end)
         times = re.findall(r'<time datetime="(\d{2}:\d{2})"', row)
         if len(times) < 2:
             continue
@@ -38,7 +37,7 @@ def parse_items(html: str, page_date: datetime.date) -> list[dict]:
         start_t = times[0]
         end_t = times[1]
 
-        # Extraer título
+        # Título (funciona aunque esté dentro de un <a>)
         title_match = re.search(r'<span[^>]*>([^<]+)</span>', row)
         title = title_match.group(1).strip() if title_match else "Sin título"
 
@@ -51,7 +50,7 @@ def parse_items(html: str, page_date: datetime.date) -> list[dict]:
                 start_h, start_m, tzinfo=TZ_TARGET
             )
 
-            # Si la hora de fin es menor que la de inicio → cruza medianoche
+            # Cruza medianoche
             end_date = page_date
             if (end_h, end_m) < (start_h, start_m):
                 end_date = page_date + timedelta(days=1)
