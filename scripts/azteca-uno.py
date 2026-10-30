@@ -4,7 +4,6 @@ import json
 import urllib.request
 import re
 from datetime import datetime, timedelta
-from zoneinfo import ZoneInfo
 import sys
 
 CHANNEL = "azteca_uno"
@@ -42,10 +41,8 @@ def parse_items(html: str, page_date: datetime.date) -> list[dict]:
             start_h, start_m = map(int, start_t.split(":"))
             end_h, end_m = map(int, end_t.split(":"))
 
-            # Fecha + hora tal cual (sin timezone)
             start_str = f"{page_date.year:04d}-{page_date.month:02d}-{page_date.day:02d}/{start_h:02d}:{start_m:02d}:00"
 
-            # Si cruza medianoche, el end va al día siguiente
             end_date = page_date
             if (end_h, end_m) < (start_h, start_m):
                 end_date = page_date + timedelta(days=1)
@@ -64,7 +61,7 @@ def parse_items(html: str, page_date: datetime.date) -> list[dict]:
 
 def main():
     all_programs = []
-    today = datetime.now().date()  # sin timezone
+    today = datetime.now().date()
 
     for i in range(-1, 8):
         d = today + timedelta(days=i)
