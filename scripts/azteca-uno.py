@@ -10,7 +10,7 @@ import sys
 CHANNEL = "azteca-13"
 BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca13.json"
+OUTPUT_FILE = "azteca-uno.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 UTC_OFFSET = -360
 
