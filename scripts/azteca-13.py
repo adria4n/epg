@@ -12,10 +12,15 @@ BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-UTC_OFFSET = -360
+
+def get_utc_offset() -> int:
+    """Offset en minutos respecto a UTC (ej. -360 para México)."""
+    now = datetime.now(TZ)
+    return int(now.utcoffset().total_seconds() / 60)
 
 def fetch_page(date_str: str) -> str:
-    url = f"{BASE_URL}/{date_str}/{UTC_OFFSET}"
+    offset = get_utc_offset()
+    url = f"{BASE_URL}/{date_str}/{offset}"
     print(f"Descargando {url}...", file=sys.stderr)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=45) as resp:
