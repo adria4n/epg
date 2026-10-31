@@ -418,5 +418,30 @@
     "titulo": "Acércate a Rocío",
     "sta": "2026-11-02/16:30",
     "end": "2026-11-02/18:30"
+  },
+  {
+    "titulo": "Exatlón México",
+    "sta": "2026-11-02/18:30",
+    "end": "2026-11-02/20:30"
+  },
+  {
+    "titulo": "La granja VIP",
+    "sta": "2026-11-02/20:30",
+    "end": "2026-11-02/22:30"
+  },
+  {
+    "titulo": "Hechos noche",
+    "sta": "2026-11-02/22:30",
+    "end": "2026-11-02/23:15"
+  },
+  {
+    "titulo": "Buenas noches con Anna Lu",
+    "sta": "2026-11-02/23:15",
+    "end": "2026-11-02/23:30"
+  },
+  {
+    "titulo": "Los protagonistas",
+    "sta": "2026-11-02/23:30",
+    "end": "2026-11-03/00:30"
   }
 ]
