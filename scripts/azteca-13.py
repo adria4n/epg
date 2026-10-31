@@ -43,6 +43,10 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             if end <= start:
                 end += timedelta(days=1)
             
+            # +1 hora a todos los programas
+            start += timedelta(hours=1)
+            end += timedelta(hours=1)
+            
             programs.append({
                 "titulo": title,
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
