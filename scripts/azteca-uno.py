@@ -42,8 +42,8 @@ def parse_items(html: str, day: datetime) -> list[dict]:
                 end = start + timedelta(minutes=60)
             programs.append({
                 "titulo": title.strip(),
-                "sta": start.strftime("%Y-%m-%dT%H:%M"),
-                "end": end.strftime("%Y-%m-%dT%H:%M"),
+                "sta": start.strftime("%Y-%m-%d/%H:%M"),
+                "end": end.strftime("%Y-%m-%d/%H:%M"),
                 "_start": start,
             })
         except Exception:
