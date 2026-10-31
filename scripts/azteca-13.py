@@ -41,8 +41,8 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             
             program_day = day if switched else day - timedelta(days=1)
             
-            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0)
-            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0)
+            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0) - timedelta(hours=1)
+            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0) - timedelta(hours=1)
             
             if end <= start:
                 end += timedelta(days=1)
