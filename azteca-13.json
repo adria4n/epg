@@ -1,66 +1,121 @@
 [
   {
-    "titulo": "Hechos contigo",
+    "titulo": "Inova",
+    "sta": "2026-10-30/00:00",
+    "end": "2026-10-30/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-30/00:30",
+    "end": "2026-10-30/01:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-30/01:00",
+    "end": "2026-10-30/01:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-30/01:30",
+    "end": "2026-10-30/02:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-30/02:00",
+    "end": "2026-10-30/02:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-30/02:30",
+    "end": "2026-10-30/03:00"
+  },
+  {
+    "titulo": "Barras de ajuste",
+    "sta": "2026-10-30/03:00",
+    "end": "2026-10-30/03:15"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-10-30/03:15",
+    "end": "2026-10-30/03:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-30/03:30",
+    "end": "2026-10-30/04:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-10-30/04:00",
+    "end": "2026-10-30/05:00"
+  },
+  {
+    "titulo": "Hechos Contigo",
+    "sta": "2026-10-30/05:00",
+    "end": "2026-10-30/06:00"
+  },
+  {
+    "titulo": "Hechos AM",
     "sta": "2026-10-30/06:00",
-    "end": "2026-10-30/07:00"
-  },
-  {
-    "titulo": "Hechos A.M.",
-    "sta": "2026-10-30/07:00",
-    "end": "2026-10-30/09:00"
+    "end": "2026-10-30/08:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-10-30/09:00",
-    "end": "2026-10-30/11:00"
+    "sta": "2026-10-30/08:00",
+    "end": "2026-10-30/10:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-10-30/11:00",
-    "end": "2026-10-30/13:00"
+    "sta": "2026-10-30/10:00",
+    "end": "2026-10-30/12:00"
   },
   {
     "titulo": "Ventaneando",
+    "sta": "2026-10-30/12:00",
+    "end": "2026-10-30/13:00"
+  },
+  {
+    "titulo": "Hechos meridiano",
     "sta": "2026-10-30/13:00",
     "end": "2026-10-30/14:00"
   },
   {
-    "titulo": "Hechos meridiano",
+    "titulo": "Al Extremo",
     "sta": "2026-10-30/14:00",
-    "end": "2026-10-30/15:00"
-  },
-  {
-    "titulo": "Al extremo",
-    "sta": "2026-10-30/15:00",
-    "end": "2026-10-30/16:30"
+    "end": "2026-10-30/15:30"
   },
   {
     "titulo": "Acércate a Rocío",
-    "sta": "2026-10-30/16:30",
-    "end": "2026-10-30/18:30"
+    "sta": "2026-10-30/15:30",
+    "end": "2026-10-30/17:30"
   },
   {
-    "titulo": "Exatlón",
-    "sta": "2026-10-30/18:30",
-    "end": "2026-10-30/20:30"
+    "titulo": "Exatlón México",
+    "sta": "2026-10-30/17:30",
+    "end": "2026-10-30/19:30"
   },
   {
-    "titulo": "La granja VIP 2 24/7",
-    "sta": "2026-10-30/20:30",
-    "end": "2026-10-30/22:30"
+    "titulo": "La granja VIP",
+    "sta": "2026-10-30/19:30",
+    "end": "2026-10-30/21:30"
   },
   {
     "titulo": "Hechos noche",
-    "sta": "2026-10-30/22:30",
-    "end": "2026-10-30/23:15"
+    "sta": "2026-10-30/21:30",
+    "end": "2026-10-30/22:15"
   },
   {
-    "titulo": "Buenas noches con Anna Lú",
-    "sta": "2026-10-30/23:15",
-    "end": "2026-10-30/23:30"
+    "titulo": "Buenas noches con Anna Lu",
+    "sta": "2026-10-30/22:15",
+    "end": "2026-10-30/22:30"
   },
   {
     "titulo": "Los protagonistas",
+    "sta": "2026-10-30/22:30",
+    "end": "2026-10-30/23:30"
+  },
+  {
+    "titulo": "Inova",
     "sta": "2026-10-30/23:30",
     "end": "2026-10-31/00:00"
   },
@@ -78,11 +133,6 @@
     "titulo": "Inova",
     "sta": "2026-10-31/01:00",
     "end": "2026-10-31/01:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-10-31/01:30",
-    "end": "2026-10-31/02:00"
   },
   {
     "titulo": "Inova",
@@ -105,52 +155,47 @@
     "end": "2026-10-31/04:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Farmacias Similares",
     "sta": "2026-10-31/04:00",
-    "end": "2026-10-31/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-10-31/04:30",
     "end": "2026-10-31/05:00"
   },
   {
-    "titulo": "Farmacias similares",
+    "titulo": "El mundo de los vampiros",
     "sta": "2026-10-31/05:00",
-    "end": "2026-10-31/06:00"
+    "end": "2026-10-31/07:00"
   },
   {
-    "titulo": "Hechos sábado",
-    "sta": "2026-10-31/06:00",
+    "titulo": "Hechos Sábado",
+    "sta": "2026-10-31/07:00",
     "end": "2026-10-31/08:00"
   },
   {
-    "titulo": "Venga la alegría - Fin de semana",
+    "titulo": "Venga la alegría, fin de semana",
     "sta": "2026-10-31/08:00",
-    "end": "2026-10-31/09:00"
+    "end": "2026-10-31/10:00"
   },
   {
-    "titulo": "Venga la alegría - Fin de semana",
-    "sta": "2026-10-31/09:00",
-    "end": "2026-10-31/11:00"
+    "titulo": "Venga la alegría, fin de semana",
+    "sta": "2026-10-31/10:00",
+    "end": "2026-10-31/12:00"
   },
   {
-    "titulo": "Al extremo",
-    "sta": "2026-10-31/11:00",
+    "titulo": "Al Extremo",
+    "sta": "2026-10-31/12:00",
     "end": "2026-10-31/13:00"
   },
   {
-    "titulo": "Especial - Dia de Muertos: Hasta la eternidad",
+    "titulo": "Especial Día de Muertos: Hasta la eternidad",
     "sta": "2026-10-31/13:00",
-    "end": "2026-10-31/14:00"
+    "end": "2026-10-31/15:00"
   },
   {
-    "titulo": "Betty, la fea",
-    "sta": "2026-10-31/14:00",
+    "titulo": "Yo soy Betty, la fea",
+    "sta": "2026-10-31/15:00",
     "end": "2026-10-31/16:00"
   },
   {
-    "titulo": "Betty, la fea",
+    "titulo": "Yo soy Betty, la fea",
     "sta": "2026-10-31/16:00",
     "end": "2026-10-31/17:00"
   },
@@ -170,23 +215,33 @@
     "end": "2026-10-31/20:00"
   },
   {
-    "titulo": "Rocío al límite",
+    "titulo": "Acércate a Rocío al límite",
     "sta": "2026-10-31/20:00",
-    "end": "2026-10-31/21:00"
+    "end": "2026-10-31/22:00"
   },
   {
     "titulo": "Supertitlán",
-    "sta": "2026-10-31/21:00",
+    "sta": "2026-10-31/22:00",
     "end": "2026-10-31/23:00"
   },
   {
     "titulo": "Inova",
     "sta": "2026-10-31/23:00",
+    "end": "2026-10-31/23:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-31/23:30",
     "end": "2026-11-01/00:00"
   },
   {
     "titulo": "Inova",
     "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-01/00:30",
     "end": "2026-11-01/01:00"
   },
   {
@@ -220,63 +275,73 @@
     "end": "2026-11-01/04:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-01/04:00",
-    "end": "2026-11-01/04:30"
-  },
-  {
-    "titulo": "Farmacias similares",
-    "sta": "2026-11-01/04:30",
     "end": "2026-11-01/05:00"
   },
   {
-    "titulo": "Hechos domingo",
-    "sta": "2026-11-01/06:00",
+    "titulo": "Cien gritos de terror",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/07:00"
+  },
+  {
+    "titulo": "Hechos Domingo",
+    "sta": "2026-11-01/07:00",
     "end": "2026-11-01/08:00"
   },
   {
-    "titulo": "Venga la alegría - Fin de semana",
+    "titulo": "Venga la alegría, fin de semana",
     "sta": "2026-11-01/08:00",
-    "end": "2026-11-01/09:00"
+    "end": "2026-11-01/10:00"
   },
   {
-    "titulo": "Venga la alegría - Fin de semana",
-    "sta": "2026-11-01/09:00",
-    "end": "2026-11-01/11:00"
+    "titulo": "Venga la alegría, fin de semana",
+    "sta": "2026-11-01/10:00",
+    "end": "2026-11-01/12:00"
   },
   {
     "titulo": "Domingo al extremo",
-    "sta": "2026-11-01/11:00",
-    "end": "2026-11-01/13:00"
+    "sta": "2026-11-01/12:00",
+    "end": "2026-11-01/14:00"
   },
   {
-    "titulo": "100 mexicanos",
-    "sta": "2026-11-01/13:00",
+    "titulo": "100 Mexicanos VIP",
+    "sta": "2026-11-01/14:00",
     "end": "2026-11-01/15:00"
   },
   {
-    "titulo": "¿Quién quiere ser millonario?",
+    "titulo": "100 mexicanos",
     "sta": "2026-11-01/15:00",
+    "end": "2026-11-01/16:00"
+  },
+  {
+    "titulo": "¿Quién quiere ser millonario?",
+    "sta": "2026-11-01/16:00",
     "end": "2026-11-01/17:00"
   },
   {
-    "titulo": "Exatlón",
+    "titulo": "Exatlón México",
     "sta": "2026-11-01/17:00",
-    "end": "2026-11-01/18:00"
+    "end": "2026-11-01/19:00"
   },
   {
-    "titulo": "La granja VIP 2 24/7",
-    "sta": "2026-11-01/18:00",
-    "end": "2026-11-01/20:00"
+    "titulo": "La granja VIP",
+    "sta": "2026-11-01/19:00",
+    "end": "2026-11-01/22:00"
   },
   {
     "titulo": "La resolana",
-    "sta": "2026-11-01/20:00",
+    "sta": "2026-11-01/22:00",
     "end": "2026-11-01/23:00"
   },
   {
-    "titulo": "Farmacias similares",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-01/23:00",
+    "end": "2026-11-01/23:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-01/23:30",
     "end": "2026-11-02/00:00"
   },
   {
@@ -310,88 +375,98 @@
     "end": "2026-11-02/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Barras de ajuste",
     "sta": "2026-11-02/03:00",
+    "end": "2026-11-02/03:15"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-11-02/03:15",
     "end": "2026-11-02/03:30"
   },
   {
-    "titulo": "Barras de ajuste / RTC",
+    "titulo": "Inova",
     "sta": "2026-11-02/03:30",
     "end": "2026-11-02/04:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-02/04:00",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "Farmacias similares",
-    "sta": "2026-11-02/04:30",
     "end": "2026-11-02/05:00"
   },
   {
-    "titulo": "Hechos contigo",
+    "titulo": "Hechos Contigo",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Hechos AM",
     "sta": "2026-11-02/06:00",
-    "end": "2026-11-02/07:00"
-  },
-  {
-    "titulo": "Hechos A.M.",
-    "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/09:00"
+    "end": "2026-11-02/08:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-11-02/09:00",
-    "end": "2026-11-02/11:00"
+    "sta": "2026-11-02/08:00",
+    "end": "2026-11-02/10:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-11-02/11:00",
-    "end": "2026-11-02/13:00"
+    "sta": "2026-11-02/10:00",
+    "end": "2026-11-02/12:00"
   },
   {
     "titulo": "Ventaneando",
+    "sta": "2026-11-02/12:00",
+    "end": "2026-11-02/13:00"
+  },
+  {
+    "titulo": "Hechos meridiano",
     "sta": "2026-11-02/13:00",
     "end": "2026-11-02/14:00"
   },
   {
-    "titulo": "Hechos meridiano",
+    "titulo": "Al Extremo",
     "sta": "2026-11-02/14:00",
-    "end": "2026-11-02/15:00"
-  },
-  {
-    "titulo": "Al extremo",
-    "sta": "2026-11-02/15:00",
-    "end": "2026-11-02/16:30"
+    "end": "2026-11-02/15:30"
   },
   {
     "titulo": "Acércate a Rocío",
-    "sta": "2026-11-02/16:30",
-    "end": "2026-11-02/18:30"
+    "sta": "2026-11-02/15:30",
+    "end": "2026-11-02/17:30"
   },
   {
-    "titulo": "Exatlón",
-    "sta": "2026-11-02/18:30",
-    "end": "2026-11-02/20:30"
+    "titulo": "Exatlón México",
+    "sta": "2026-11-02/17:30",
+    "end": "2026-11-02/19:30"
   },
   {
-    "titulo": "La granja VIP 2 24/7",
-    "sta": "2026-11-02/20:30",
-    "end": "2026-11-02/22:30"
+    "titulo": "La granja VIP",
+    "sta": "2026-11-02/19:30",
+    "end": "2026-11-02/21:30"
   },
   {
     "titulo": "Hechos noche",
-    "sta": "2026-11-02/22:30",
-    "end": "2026-11-02/23:15"
+    "sta": "2026-11-02/21:30",
+    "end": "2026-11-02/22:15"
   },
   {
-    "titulo": "Buenas noches con Anna Lú",
-    "sta": "2026-11-02/23:15",
-    "end": "2026-11-02/23:30"
+    "titulo": "Buenas noches con Anna Lu",
+    "sta": "2026-11-02/22:15",
+    "end": "2026-11-02/22:30"
   },
   {
     "titulo": "Los protagonistas",
+    "sta": "2026-11-02/22:30",
+    "end": "2026-11-02/23:30"
+  },
+  {
+    "titulo": "Inova",
     "sta": "2026-11-02/23:30",
+    "end": "2026-11-03/00:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-03/00:00",
     "end": "2026-11-03/00:30"
   },
   {
@@ -420,8 +495,13 @@
     "end": "2026-11-03/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Barras de ajuste",
     "sta": "2026-11-03/03:00",
+    "end": "2026-11-03/03:15"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-11-03/03:15",
     "end": "2026-11-03/03:30"
   },
   {
@@ -430,83 +510,83 @@
     "end": "2026-11-03/04:00"
   },
   {
-    "titulo": "Barras de ajuste / RTC",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-03/04:30",
     "end": "2026-11-03/05:00"
   },
   {
-    "titulo": "Farmacias similares",
+    "titulo": "Hechos Contigo",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/06:00"
   },
   {
-    "titulo": "Hechos contigo",
+    "titulo": "Hechos AM",
     "sta": "2026-11-03/06:00",
-    "end": "2026-11-03/07:00"
-  },
-  {
-    "titulo": "Hechos A.M.",
-    "sta": "2026-11-03/07:00",
-    "end": "2026-11-03/09:00"
+    "end": "2026-11-03/08:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-11-03/09:00",
-    "end": "2026-11-03/11:00"
+    "sta": "2026-11-03/08:00",
+    "end": "2026-11-03/10:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-11-03/11:00",
-    "end": "2026-11-03/13:00"
+    "sta": "2026-11-03/10:00",
+    "end": "2026-11-03/12:00"
   },
   {
     "titulo": "Ventaneando",
+    "sta": "2026-11-03/12:00",
+    "end": "2026-11-03/13:00"
+  },
+  {
+    "titulo": "Hechos meridiano",
     "sta": "2026-11-03/13:00",
     "end": "2026-11-03/14:00"
   },
   {
-    "titulo": "Hechos meridiano",
+    "titulo": "Al Extremo",
     "sta": "2026-11-03/14:00",
-    "end": "2026-11-03/15:00"
-  },
-  {
-    "titulo": "Al extremo",
-    "sta": "2026-11-03/15:00",
-    "end": "2026-11-03/16:30"
+    "end": "2026-11-03/15:30"
   },
   {
     "titulo": "Acércate a Rocío",
-    "sta": "2026-11-03/16:30",
-    "end": "2026-11-03/18:30"
+    "sta": "2026-11-03/15:30",
+    "end": "2026-11-03/17:30"
   },
   {
-    "titulo": "Exatlón",
-    "sta": "2026-11-03/18:30",
-    "end": "2026-11-03/20:30"
+    "titulo": "Exatlón México",
+    "sta": "2026-11-03/17:30",
+    "end": "2026-11-03/19:30"
   },
   {
-    "titulo": "La granja VIP 2 24/7",
-    "sta": "2026-11-03/20:30",
-    "end": "2026-11-03/22:30"
+    "titulo": "La granja VIP",
+    "sta": "2026-11-03/19:30",
+    "end": "2026-11-03/21:30"
   },
   {
     "titulo": "Hechos noche",
-    "sta": "2026-11-03/22:30",
-    "end": "2026-11-03/23:15"
+    "sta": "2026-11-03/21:30",
+    "end": "2026-11-03/22:15"
   },
   {
-    "titulo": "Buenas noches con Anna Lú",
-    "sta": "2026-11-03/23:15",
-    "end": "2026-11-03/23:30"
+    "titulo": "Buenas noches con Anna Lu",
+    "sta": "2026-11-03/22:15",
+    "end": "2026-11-03/22:30"
   },
   {
     "titulo": "Los protagonistas",
+    "sta": "2026-11-03/22:30",
+    "end": "2026-11-03/23:30"
+  },
+  {
+    "titulo": "Inova",
     "sta": "2026-11-03/23:30",
+    "end": "2026-11-04/00:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-04/00:00",
     "end": "2026-11-04/00:30"
   },
   {
@@ -535,8 +615,13 @@
     "end": "2026-11-04/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Barras de ajuste",
     "sta": "2026-11-04/03:00",
+    "end": "2026-11-04/03:15"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-11-04/03:15",
     "end": "2026-11-04/03:30"
   },
   {
@@ -545,83 +630,168 @@
     "end": "2026-11-04/04:00"
   },
   {
-    "titulo": "Barras de ajuste / RTC",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/04:30",
     "end": "2026-11-04/05:00"
   },
   {
-    "titulo": "Farmacias similares",
+    "titulo": "Hechos Contigo",
     "sta": "2026-11-04/05:00",
     "end": "2026-11-04/06:00"
   },
   {
-    "titulo": "Hechos contigo",
+    "titulo": "Hechos AM",
     "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "Hechos A.M.",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/09:00"
+    "end": "2026-11-04/08:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-11-04/09:00",
-    "end": "2026-11-04/11:00"
+    "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/10:00"
   },
   {
     "titulo": "Venga la alegría",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/13:00"
+    "sta": "2026-11-04/10:00",
+    "end": "2026-11-04/12:00"
   },
   {
     "titulo": "Ventaneando",
+    "sta": "2026-11-04/12:00",
+    "end": "2026-11-04/13:00"
+  },
+  {
+    "titulo": "Hechos meridiano",
     "sta": "2026-11-04/13:00",
     "end": "2026-11-04/14:00"
   },
   {
-    "titulo": "Hechos meridiano",
+    "titulo": "Al Extremo",
     "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "Al extremo",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:30"
+    "end": "2026-11-04/15:30"
   },
   {
     "titulo": "Acércate a Rocío",
-    "sta": "2026-11-04/16:30",
-    "end": "2026-11-04/18:30"
+    "sta": "2026-11-04/15:30",
+    "end": "2026-11-04/17:30"
   },
   {
-    "titulo": "Exatlón",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/20:30"
+    "titulo": "Exatlón México",
+    "sta": "2026-11-04/17:30",
+    "end": "2026-11-04/19:30"
   },
   {
-    "titulo": "La granja VIP 2 24/7",
-    "sta": "2026-11-04/20:30",
-    "end": "2026-11-04/22:30"
+    "titulo": "La granja VIP",
+    "sta": "2026-11-04/19:30",
+    "end": "2026-11-04/21:30"
   },
   {
     "titulo": "Hechos noche",
-    "sta": "2026-11-04/22:30",
-    "end": "2026-11-04/23:15"
+    "sta": "2026-11-04/21:30",
+    "end": "2026-11-04/22:15"
   },
   {
-    "titulo": "Buenas noches con Anna Lú",
-    "sta": "2026-11-04/23:15",
+    "titulo": "Buenas noches con Anna Lu",
+    "sta": "2026-11-04/22:15",
+    "end": "2026-11-04/22:30"
+  },
+  {
+    "titulo": "Tolerancia Cero",
+    "sta": "2026-11-04/22:30",
     "end": "2026-11-04/23:30"
   },
   {
-    "titulo": "Tolerancia cero",
+    "titulo": "Inova",
     "sta": "2026-11-04/23:30",
+    "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/00:30",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/01:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/01:30",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/02:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/02:30",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "Barras de ajuste",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/03:15"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-11-05/03:15",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Hechos Contigo",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
+    "titulo": "Hechos AM",
+    "sta": "2026-11-05/06:00",
+    "end": "2026-11-05/08:00"
+  },
+  {
+    "titulo": "Venga la alegría",
+    "sta": "2026-11-05/08:00",
+    "end": "2026-11-05/10:00"
+  },
+  {
+    "titulo": "Venga la alegría",
+    "sta": "2026-11-05/10:00",
+    "end": "2026-11-05/12:00"
+  },
+  {
+    "titulo": "Ventaneando",
+    "sta": "2026-11-05/12:00",
+    "end": "2026-11-05/13:00"
+  },
+  {
+    "titulo": "Hechos meridiano",
+    "sta": "2026-11-05/13:00",
+    "end": "2026-11-05/14:00"
+  },
+  {
+    "titulo": "Al Extremo",
+    "sta": "2026-11-05/14:00",
+    "end": "2026-11-05/15:30"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-05/15:30",
+    "end": "2026-11-05/17:30"
   }
 ]
