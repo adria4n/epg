@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 import sys
 from playwright.sync_api import sync_playwright
 
-AGENDA_URL = "https://la18hd.su/eventos/json/agenda123.json"
+AGENDA_URL = "https://streamxhd.sbs/eventos.json"
 OUTPUT_FILE = "agenda.json"
 TZ = ZoneInfo("America/Mexico_City")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -32,11 +32,41 @@ def get_m3u8(page_url: str) -> str:
         browser.close()
     return m3u8_url or ""
 
+def select_server_url(servers: list) -> str:
+    if not servers:
+        return ""
+    n = len(servers)
+    if n >= 3:
+        return servers[2].get("url", "")
+    elif n >= 2:
+        return servers[1].get("url", "")
+    else:
+        return servers[0].get("url", "")
+
+def parse_event_time(time_str: str, tz_name: str = "America/Lima") -> datetime | None:
+    if not time_str:
+        return None
+    try:
+        # Formato ISO con offset: 2026-10-31T18:00:00-05:00
+        if "T" in time_str:
+            return datetime.fromisoformat(time_str)
+        # Formato simple: 2026-10-31 17:00
+        dt = datetime.strptime(time_str.strip(), "%Y-%m-%d %H:%M")
+        return dt.replace(tzinfo=ZoneInfo(tz_name))
+    except Exception:
+        return None
+
 def main():
     print("Descargando agenda...", file=sys.stderr)
     req = urllib.request.Request(AGENDA_URL, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as resp:
-        events = json.loads(resp.read().decode("utf-8"))
+        data = json.loads(resp.read().decode("utf-8"))
+
+    events = []
+    for sport in data.get("sports", []):
+        for league in sport.get("leagues", []):
+            for ev in league.get("events", []):
+                events.append(ev)
 
     seen_titles = set()
     unique = []
@@ -52,21 +82,22 @@ def main():
 
     for ev in unique:
         title = ev.get("title", "").strip()
-        date_str = ev.get("date", "")
-        time_str = ev.get("time", "00:00")
-        link = ev.get("link", "")
+        time_str = ev.get("time", "")
+        tz_name = ev.get("timezone", "America/Lima")
+        servers = ev.get("servers", [])
 
-        try:
-            hour, minute = map(int, time_str.split(":"))
-            start = datetime.strptime(date_str, "%Y-%m-%d").replace(
-                hour=hour, minute=minute, tzinfo=TZ
-            )
-            end = start + timedelta(hours=2)
-        except Exception:
+        start = parse_event_time(time_str, tz_name)
+        if not start:
+            print(f"  Saltando (tiempo inválido): {title}", file=sys.stderr)
             continue
 
-        print(f"Obteniendo m3u8 de: {title}", file=sys.stderr)
-        m3u8 = get_m3u8(link) if link else ""
+        # Convertir a Mexico City para consistencia con el script anterior
+        start = start.astimezone(TZ)
+        end = start + timedelta(hours=2)
+
+        server_url = select_server_url(servers)
+        print(f"Obteniendo m3u8 de: {title} → {server_url}", file=sys.stderr)
+        m3u8 = get_m3u8(server_url) if server_url else ""
 
         output.append({
             "titulo": title,
