@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-EPG Azteca Uno desde FormulaTV
-Incluye programas que cruzan medianoche (empezaron el día anterior).
-"""
 
 import json
 import urllib.request
@@ -12,13 +8,13 @@ from zoneinfo import ZoneInfo
 import sys
 
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-test.json"
+OUTPUT_FILE = "azteca-uno.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE = "https://www.formulatv.com/mx/programacion/canal-azteca-uno"
 
 DAYS = {
     -1: "ayer",
-    0: "",          # hoy
+    0: "",
     1: "manana",
     2: "pasadomanana",
 }
@@ -61,7 +57,6 @@ def extract_programs(html: str) -> list[dict]:
                 "sta": st.strftime("%Y-%m-%d/%H:%M"),
                 "end": en.strftime("%Y-%m-%d/%H:%M"),
                 "_start": st,
-                "_end": en,
             })
     return programs
 
@@ -69,31 +64,17 @@ def main():
     all_programs = []
     today = datetime.now(TZ).date()
 
-    # Descargar todos los días disponibles
-    day_data = {}
     for offset, slug in DAYS.items():
         d = today + timedelta(days=offset)
         url = f"{BASE}/{slug}/" if slug else f"{BASE}/"
         try:
             html = fetch(url)
             progs = extract_programs(html)
-            day_data[d] = progs
+            all_programs.extend(progs)
             print(f"  {d}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error en {d}: {e}", file=sys.stderr)
-            day_data[d] = []
 
-    # Incluir programas que cruzan medianoche
-    for d, progs in day_data.items():
-        all_programs.extend(progs)
-        # Traer del día anterior los que terminan hoy
-        prev_day = d - timedelta(days=1)
-        if prev_day in day_data:
-            for p in day_data[prev_day]:
-                if p["_end"].date() > prev_day:  # cruza a hoy
-                    all_programs.append(p)
-
-    # Ordenar y quitar duplicados
     all_programs.sort(key=lambda x: x["_start"])
     seen = set()
     unique = []
@@ -102,7 +83,6 @@ def main():
         if key not in seen:
             seen.add(key)
             p.pop("_start", None)
-            p.pop("_end", None)
             unique.append(p)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
