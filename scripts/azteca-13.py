@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Scraper Azteca Uno desde GatoTV.com
+Usa el atributo datetime="HH:MM" (ya en 24h)
+"""
 
 import json
 import urllib.request
@@ -12,18 +16,6 @@ TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
-def to_24h(t: str) -> tuple[int, int]:
-    t = t.strip().upper()
-    m = re.match(r'(\d{1,2}):(\d{2})\s*(AM|PM)', t)
-    if not m:
-        raise ValueError(t)
-    h, mi, ap = int(m.group(1)), int(m.group(2)), m.group(3)
-    if ap == "AM":
-        h = 0 if h == 12 else h
-    else:
-        h = h if h == 12 else h + 12
-    return h, mi
-
 def fetch_page(date_str: str) -> str:
     url = f"{BASE_URL}/{date_str}"
     print(f"Descargando {url}...", file=sys.stderr)
@@ -32,26 +24,28 @@ def fetch_page(date_str: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, day: datetime) -> list[dict]:
+    # Extrae pares de <time datetime="HH:MM"> y el título que sigue
     pattern = re.compile(
-        r'<time[^>]*>\s*([^<]+?)\s*</time>.*?<time[^>]*>\s*([^<]+?)\s*</time>.*?<span[^>]*>([^<]+)</span>',
+        r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>\s*</div>\s*</td>\s*<td[^>]*>\s*<div[^>]*>\s*<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?<span[^>]*>([^<]+)</span>',
         re.DOTALL | re.IGNORECASE
     )
     
     programs = []
     
     for match in pattern.finditer(html):
-        start_txt, end_txt, title = match.groups()
+        start_hms, end_hms, title = match.groups()
         title = title.strip()
         if not title:
             continue
         
         try:
-            sh, sm = to_24h(start_txt)
-            eh, em = to_24h(end_txt)
+            sh, sm = map(int, start_hms.split(":"))
+            eh, em = map(int, end_hms.split(":"))
             
             start = day.replace(hour=sh, minute=sm, second=0, microsecond=0)
             end = day.replace(hour=eh, minute=em, second=0, microsecond=0)
             
+            # Si termina antes de empezar, cruza medianoche
             if end <= start:
                 end += timedelta(days=1)
             
@@ -81,6 +75,7 @@ def main():
         except Exception as e:
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
     
+    # Deduplicar por sta
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
