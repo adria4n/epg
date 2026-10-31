@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 EPG Azteca Uno desde FormulaTV
-Genera azteca-uno.json con formato compatible al script anterior.
+Incluye programas que cruzan medianoche (empezaron el día anterior).
 """
 
 import json
@@ -61,6 +61,7 @@ def extract_programs(html: str) -> list[dict]:
                 "sta": st.strftime("%Y-%m-%d/%H:%M"),
                 "end": en.strftime("%Y-%m-%d/%H:%M"),
                 "_start": st,
+                "_end": en,
             })
     return programs
 
@@ -68,17 +69,31 @@ def main():
     all_programs = []
     today = datetime.now(TZ).date()
 
+    # Descargar todos los días disponibles
+    day_data = {}
     for offset, slug in DAYS.items():
         d = today + timedelta(days=offset)
         url = f"{BASE}/{slug}/" if slug else f"{BASE}/"
         try:
             html = fetch(url)
             progs = extract_programs(html)
-            all_programs.extend(progs)
+            day_data[d] = progs
             print(f"  {d}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error en {d}: {e}", file=sys.stderr)
+            day_data[d] = []
 
+    # Incluir programas que cruzan medianoche
+    for d, progs in day_data.items():
+        all_programs.extend(progs)
+        # Traer del día anterior los que terminan hoy
+        prev_day = d - timedelta(days=1)
+        if prev_day in day_data:
+            for p in day_data[prev_day]:
+                if p["_end"].date() > prev_day:  # cruza a hoy
+                    all_programs.append(p)
+
+    # Ordenar y quitar duplicados
     all_programs.sort(key=lambda x: x["_start"])
     seen = set()
     unique = []
@@ -87,6 +102,7 @@ def main():
         if key not in seen:
             seen.add(key)
             p.pop("_start", None)
+            p.pop("_end", None)
             unique.append(p)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
