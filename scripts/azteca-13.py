@@ -43,7 +43,7 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             if end <= start:
                 end += timedelta(days=1)
             
-            # +1 hora a todos los programas
+            # +1 hora
             start += timedelta(hours=1)
             end += timedelta(hours=1)
             
@@ -61,7 +61,7 @@ def main():
     all_programs = []
     today = datetime.now(TZ).date()
     
-    for i in range(-1, 7):
+    for i in range(-1, 1):  # solo ayer y hoy
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
