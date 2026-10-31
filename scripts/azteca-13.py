@@ -4,9 +4,11 @@ import json
 import urllib.request
 import re
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 import sys
 
 BASE_URL = "https://www.gatotv.com/canal/azteca_uno"
+TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
@@ -41,8 +43,8 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             
             program_day = day if switched else day - timedelta(days=1)
             
-            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0) - timedelta(hours=1)
-            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0) - timedelta(hours=1)
+            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0, tzinfo=TZ) - timedelta(hours=2)
+            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0, tzinfo=TZ) - timedelta(hours=2)
             
             if end <= start:
                 end += timedelta(days=1)
@@ -59,14 +61,14 @@ def parse_items(html: str, day: datetime) -> list[dict]:
 
 def main():
     all_programs = []
-    today = datetime.now().date()
+    today = datetime.now(TZ).date()
     
     for i in range(-1, 7):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
             html = fetch_page(date_str)
-            base = datetime.combine(d, datetime.min.time())
+            base = datetime.combine(d, datetime.min.time(), tzinfo=TZ)
             progs = parse_items(html, base)
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
