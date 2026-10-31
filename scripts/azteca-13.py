@@ -21,8 +21,7 @@ def fetch_page(date_str: str | None = None) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, day: datetime) -> list[dict]:
-    # Extraer todos los bloques de programa (más flexible)
-    # Busca pares de <time datetime> + título
+    # Extrae start, end y título
     pattern = re.compile(
         r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
         r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
@@ -31,8 +30,8 @@ def parse_items(html: str, day: datetime) -> list[dict]:
     )
 
     programs = []
-    base_date = day.date()
-    prev_end = None
+    current_date = day.date()
+    prev_start_hour = 24
 
     for match in pattern.finditer(html):
         start_hm, end_hm, title = match.groups()
@@ -40,30 +39,25 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             sh, sm = map(int, start_hm.split(":"))
             eh, em = map(int, end_hm.split(":"))
 
-            start = datetime(base_date.year, base_date.month, base_date.day,
+            # Si la hora de inicio baja bruscamente (ej. de 22h a 00h) → nuevo día
+            if sh < prev_start_hour - 6:
+                current_date += timedelta(days=1)
+
+            start = datetime(current_date.year, current_date.month, current_date.day,
                              sh, sm, tzinfo=TZ)
-            end = datetime(base_date.year, base_date.month, base_date.day,
+            end = datetime(current_date.year, current_date.month, current_date.day,
                            eh, em, tzinfo=TZ)
 
-            # Cruce de medianoche
             if end <= start:
                 end += timedelta(days=1)
-
-            # Si el inicio es antes del fin anterior, es del día siguiente
-            if prev_end and start < prev_end - timedelta(hours=12):
-                start += timedelta(days=1)
-                end += timedelta(days=1)
-
-            # Caso especial: programa que empieza de noche (≥20h) y termina de madrugada
-            if sh >= 20 and eh < 6:
-                start -= timedelta(days=1)
 
             programs.append({
                 "titulo": title.strip(),
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
-            prev_end = end
+
+            prev_start_hour = sh
         except Exception:
             continue
 
