@@ -7,8 +7,8 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
-CHANNEL_SLUG = "azteca_uno"
-BASE_URL = f"https://www.gatotv.com/canal/{CHANNEL_SLUG}"
+CHANNEL = "azteca-13"
+BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -20,30 +20,42 @@ def fetch_page(date_str: str) -> str:
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
+def parse_time(t: str) -> tuple[int, int]:
+    parts = t.strip().split(":")
+    return int(parts[0]), int(parts[1]) if len(parts) > 1 else 0
+
 def parse_items(html: str, day: datetime) -> list[dict]:
-    rows = re.findall(
-        r'<tr class="tbl_EPG_row(?:Alternate)?">(.*?)</tr>',
-        html,
-        re.DOTALL
-    )
+    times = re.findall(r'<span class="time">\s*([^<]+?)\s*</span>', html)
+    titles = re.findall(r'<h2>\s*([^<]+?)\s*</h2>', html)
     programs = []
-    date_str = day.strftime("%Y-%m-%d")
+    current_day = day
+    prev_hour = -1
 
-    for row in rows:
-        times = re.findall(r'<time datetime="[^"]+">([^<]+)</time>', row)
-        title_match = re.search(r'<span>([^<]+)</span>', row)
-        if len(times) < 2 or not title_match:
+    for i, (t, title) in enumerate(zip(times, titles)):
+        try:
+            hour, minute = parse_time(t)
+            start = current_day.replace(hour=hour, minute=minute, second=0, microsecond=0)
+
+            if prev_hour >= 0 and hour < 6 and prev_hour >= 20:
+                start += timedelta(days=1)
+                current_day = start
+
+            if i + 1 < len(times):
+                next_h, next_m = parse_time(times[i + 1])
+                end = current_day.replace(hour=next_h, minute=next_m, second=0, microsecond=0)
+                if end <= start:
+                    end += timedelta(days=1)
+            else:
+                end = start + timedelta(minutes=60)
+
+            programs.append({
+                "titulo": title.strip(),
+                "sta": start.strftime("%Y-%m-%d/%H:%M"),
+                "end": end.strftime("%Y-%m-%d/%H:%M"),
+            })
+            prev_hour = hour
+        except Exception:
             continue
-
-        title = title_match.group(1).strip()
-        start_time = times[0].strip()
-        end_time = times[1].strip()
-
-        programs.append({
-            "titulo": title,
-            "sta": f"{date_str}/{start_time}",
-            "end": f"{date_str}/{end_time}",
-        })
 
     return programs
 
