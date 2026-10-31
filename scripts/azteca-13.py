@@ -21,17 +21,18 @@ def fetch_page(date_str: str | None = None) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, day: datetime) -> list[dict]:
-    # Captura start, end y título de cada fila de programa
+    # Extraer todos los bloques de programa (más flexible)
+    # Busca pares de <time datetime> + título
     pattern = re.compile(
-        r'<tr class="tbl_EPG_row[^"]*">\s*'
-        r'<td[^>]*>\s*<div[^>]*>\s*<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?</div>\s*</td>\s*'
-        r'<td[^>]*>\s*<div[^>]*>\s*<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?</div>\s*</td>\s*'
-        r'<td[^>]*>\s*<div[^>]*>\s*<div class="div_program_title_on_channel">\s*<span>([^<]+)</span>',
+        r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
+        r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
+        r'<div class="div_program_title_on_channel">\s*<span>([^<]+)</span>',
         re.DOTALL | re.IGNORECASE
     )
 
     programs = []
     base_date = day.date()
+    prev_end = None
 
     for match in pattern.finditer(html):
         start_hm, end_hm, title = match.groups()
@@ -44,12 +45,16 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             end = datetime(base_date.year, base_date.month, base_date.day,
                            eh, em, tzinfo=TZ)
 
-            # Si el fin es menor o igual al inicio → cruza medianoche
+            # Cruce de medianoche
             if end <= start:
                 end += timedelta(days=1)
 
-            # Si el programa empieza después de las 20:00 y el fin es de madrugada,
-            # el inicio pertenece al día anterior de la página
+            # Si el inicio es antes del fin anterior, es del día siguiente
+            if prev_end and start < prev_end - timedelta(hours=12):
+                start += timedelta(days=1)
+                end += timedelta(days=1)
+
+            # Caso especial: programa que empieza de noche (≥20h) y termina de madrugada
             if sh >= 20 and eh < 6:
                 start -= timedelta(days=1)
 
@@ -58,6 +63,7 @@ def parse_items(html: str, day: datetime) -> list[dict]:
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
+            prev_end = end
         except Exception:
             continue
 
