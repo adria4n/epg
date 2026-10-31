@@ -12,6 +12,18 @@ TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
+def to_24h(t: str) -> tuple[int, int]:
+    t = t.strip().upper()
+    m = re.match(r'(\d{1,2}):(\d{2})\s*(AM|PM)', t)
+    if not m:
+        raise ValueError(t)
+    h, mi, ap = int(m.group(1)), int(m.group(2)), m.group(3)
+    if ap == "AM":
+        h = 0 if h == 12 else h
+    else:
+        h = h if h == 12 else h + 12
+    return h, mi
+
 def fetch_page(date_str: str) -> str:
     url = f"{BASE_URL}/{date_str}"
     print(f"Descargando {url}...", file=sys.stderr)
@@ -21,21 +33,21 @@ def fetch_page(date_str: str) -> str:
 
 def parse_items(html: str, day: datetime) -> list[dict]:
     pattern = re.compile(
-        r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>\s*</div>\s*</td>\s*<td[^>]*>\s*<div[^>]*>\s*<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?<span[^>]*>([^<]+)</span>',
+        r'<time[^>]*>\s*([^<]+?)\s*</time>.*?<time[^>]*>\s*([^<]+?)\s*</time>.*?<span[^>]*>([^<]+)</span>',
         re.DOTALL | re.IGNORECASE
     )
     
     programs = []
     
     for match in pattern.finditer(html):
-        start_hms, end_hms, title = match.groups()
+        start_txt, end_txt, title = match.groups()
         title = title.strip()
         if not title:
             continue
         
         try:
-            sh, sm = map(int, start_hms.split(":"))
-            eh, em = map(int, end_hms.split(":"))
+            sh, sm = to_24h(start_txt)
+            eh, em = to_24h(end_txt)
             
             start = day.replace(hour=sh, minute=sm, second=0, microsecond=0)
             end = day.replace(hour=eh, minute=em, second=0, microsecond=0)
