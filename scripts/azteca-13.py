@@ -8,13 +8,12 @@ from zoneinfo import ZoneInfo
 import sys
 
 BASE_URL = "https://www.gatotv.com/canal/azteca_uno"
-PROXY = "https://mx-central-1.m3ukodi.workers.dev/?u="
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def fetch_page(date_str: str) -> str:
-    url = f"{PROXY}{BASE_URL}/{date_str}"
+    url = f"{BASE_URL}/{date_str}"
     print(f"Descargando {url}...", file=sys.stderr)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=45) as resp:
@@ -44,8 +43,8 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             
             program_day = day if switched else day - timedelta(days=1)
             
-            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0)
-            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0)
+            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0) - timedelta(hours=1)
+            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0) - timedelta(hours=1)
             
             if end <= start:
                 end += timedelta(days=1)
