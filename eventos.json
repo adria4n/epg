@@ -1,5 +1,19 @@
 [
   {
+    "titulo": "Maligno",
+    "sta": "2026-10-31/01:05",
+    "end": "2026-10-31/03:00",
+    "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
+    "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
+  },
+  {
+    "titulo": "La venganza de la casa del lago",
+    "sta": "2026-10-31/03:00",
+    "end": "2026-10-31/04:57",
+    "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
+    "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
+  },
+  {
     "titulo": "It (Eso)",
     "sta": "2026-10-31/04:57",
     "end": "2026-10-31/07:16",
@@ -8,56 +22,63 @@
   },
   {
     "titulo": "It (Eso): capítulo dos",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/07:16",
+    "end": "2026-10-31/10:07",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E1 The Pilot",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/10:07",
+    "end": "2026-10-31/11:05",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E2 The Thing in the Dark",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/11:05",
+    "end": "2026-10-31/12:14",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E3 Now You See It",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/12:14",
+    "end": "2026-10-31/13:19",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E4",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/13:19",
+    "end": "2026-10-31/14:30",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E5",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/14:30",
+    "end": "2026-10-31/15:30",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E6 En el nombre del Pa",
-    "sta": "2026-10-31/04:57",
-    "end": "2026-10-31/07:16",
+    "sta": "2026-10-31/15:30",
+    "end": "2026-10-31/16:35",
+    "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
+    "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
+  },
+  {
+    "titulo": "IT: Welcome to Derry T1 E7",
+    "sta": "2026-10-31/16:35",
+    "end": "2026-10-31/17:45",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
   },
   {
     "titulo": "IT: Welcome to Derry T1 E8",
-    "sta": "2026-10-31/04:57",
+    "sta": "2026-10-31/17:45",
     "end": "2026-10-31/19:00",
     "url": "/15/out/u/dash/HBO-PLUS-HD/default.mpd",
     "clearkey": "861ab989089891d84ad0da296954437c:3bdf94f9fc1888529f8d27d070d38566"
