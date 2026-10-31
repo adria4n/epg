@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "El Chavo Animado / El partido de fútbol",
-    "sta": "2026-10-30/05:00",
-    "end": "2026-10-30/05:30"
-  },
-  {
-    "titulo": "El Chavo Animado / Como de película",
-    "sta": "2026-10-30/05:30",
-    "end": "2026-10-30/06:00"
-  },
-  {
     "titulo": "Vecinos / Navidad en primavera",
     "sta": "2026-10-30/06:00",
     "end": "2026-10-30/06:30"
@@ -256,13 +246,13 @@
   },
   {
     "titulo": "Movie / Day Zero",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/01:30"
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/02:30"
   },
   {
     "titulo": "El Chavo / Pretendiendo a don Ramón",
-    "sta": "2026-11-01/02:30",
-    "end": "2026-11-01/03:00"
+    "sta": "2026-11-01/01:30",
+    "end": "2026-11-01/02:00"
   },
   {
     "titulo": "Programa pagado",
@@ -1243,5 +1233,15 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-08/05:30",
     "end": "2026-11-08/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/06:00",
+    "end": "2026-11-08/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/06:30",
+    "end": "2026-11-08/07:00"
   }
 ]
