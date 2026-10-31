@@ -10,7 +10,7 @@ import sys
 CHANNEL_SLUG = "azteca_uno"
 BASE_URL = f"https://www.gatotv.com/canal/{CHANNEL_SLUG}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-13.json"
+OUTPUT_FILE = "azteca-uno.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def fetch_page(date_str: str | None = None) -> str:
@@ -37,20 +37,14 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             sh, sm = map(int, start_hm.split(":"))
             eh, em = map(int, end_hm.split(":"))
 
-            # Programas que empiezan de noche (≥20:00) pertenecen al día anterior
-            # El resto pertenecen al día de la página
-            if sh >= 20:
-                start_date = page_date - timedelta(days=1)
-            else:
-                start_date = page_date
+            # ≥20:00 pertenece al día anterior de la página
+            start_date = page_date - timedelta(days=1) if sh >= 20 else page_date
 
             start = datetime(start_date.year, start_date.month, start_date.day,
                              sh, sm, tzinfo=TZ)
-
             end = datetime(start_date.year, start_date.month, start_date.day,
                            eh, em, tzinfo=TZ)
 
-            # Cruce de medianoche
             if end <= start:
                 end += timedelta(days=1)
 
