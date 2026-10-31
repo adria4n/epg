@@ -19,7 +19,7 @@ def fetch_page(date_str: str) -> str:
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def parse_items(html: str, day: datetime, offset_hours: int = 0) -> list[dict]:
+def parse_items(html: str, day: datetime) -> list[dict]:
     pattern = re.compile(
         r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>\s*</div>\s*</td>\s*<td[^>]*>\s*<div[^>]*>\s*<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?<span[^>]*>([^<]+)</span>',
         re.DOTALL | re.IGNORECASE
@@ -43,11 +43,6 @@ def parse_items(html: str, day: datetime, offset_hours: int = 0) -> list[dict]:
             if end <= start:
                 end += timedelta(days=1)
             
-            # Solo aplica el offset si se indica
-            if offset_hours:
-                start += timedelta(hours=offset_hours)
-                end += timedelta(hours=offset_hours)
-            
             programs.append({
                 "titulo": title,
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
@@ -68,13 +63,9 @@ def main():
         try:
             html = fetch_page(date_str)
             base = datetime.combine(d, datetime.min.time(), tzinfo=TZ)
-            
-            # Solo ayer (-1) y hoy (0) llevan +1 hora
-            offset = 1 if i in (-1, 0) else 0
-            progs = parse_items(html, base, offset_hours=offset)
-            
+            progs = parse_items(html, base)
             all_programs.extend(progs)
-            print(f"  {date_str}: {len(progs)} programas (offset: {offset}h)", file=sys.stderr)
+            print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
     
