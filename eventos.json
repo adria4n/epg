@@ -1,16 +1,18 @@
 
 [
   {
-  "titulo": "Futbol Mexicano Primera División / T2026 Juárez vs. Querétaro",
-  "sta": "2026-10-30/18:45",
-  "end": "2026-10-30/21:00",
-  "url": "/out/u/dash/CJS1/Azteca-7-HD/default.mpd",
-  "clearkey": "8b89e4ce7607ffac0c9fa492a5ebce9c:c42307de187689a6116c0cb0a3da62d8"
+    "titulo": "Futbol Mexicano Primera División / T2026 Juárez vs. Querétaro",
+    "sta": "2026-10-30/18:45",
+    "end": "2026-10-30/21:00",
+    "url": "/out/u/dash/CJS1/Azteca-7-HD/default.mpd",
+    "clearkey": "8b89e4ce7607ffac0c9fa492a5ebce9c:c42307de187689a6116c0cb0a3da62d8"
   },
   {
     "titulo": "Futbol Mexicano Primera División / T2026 Puebla vs. Pumas UNAM",
     "sta": "2026-10-30/21:00",
-    "end": "2026-10-30/23:00"
+    "end": "2026-10-30/23:00",
+    "url": "/6/out/u/dash/ESPN-HD-H265/default.mpd",
+    "clearkey": "3fb8167957692836eca1464b7f952b45:f31042e8167eb4b49ce8117c9e5f1e85"
   },
   {
     "titulo": "Previa: Saúl Canelo Álvarez vs. Christian Mbilli",
