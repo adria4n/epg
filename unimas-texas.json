@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "El Chapulín Colorado / La sortija de la bruja",
+    "sta": "2026-10-29/23:00",
+    "end": "2026-10-29/23:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / De Chapulín poeta y loco, todos tenemos un poco",
+    "sta": "2026-10-29/23:30",
+    "end": "2026-10-30/00:00"
+  },
+  {
     "titulo": "La herencia, un legado de amor / La boda",
     "sta": "2026-10-30/00:00",
     "end": "2026-10-30/01:00"
@@ -1248,10 +1258,5 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-07/22:30",
     "end": "2026-11-07/23:00"
-  },
-  {
-    "titulo": "Movie / The Commuter",
-    "sta": "2026-11-07/23:00",
-    "end": "2026-11-08/01:00"
   }
 ]
