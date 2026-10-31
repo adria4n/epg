@@ -1,22 +1,66 @@
-
 [
   {
     "titulo": "Futbol Mexicano Primera División / T2026 Juárez vs. Querétaro",
-    "sta": "2026-10-30/21:52",
-    "end": "2026-10-30/21:53"
+    "sta": "2026-10-30/18:45",
+    "end": "2026-10-30/21:00",
+    "url": "/out/u/dash/CJS1/Azteca-7-HD/default.mpd",
+    "clearkey": "8b89e4ce7607ffac0c9fa492a5ebce9c:c42307de187689a6116c0cb0a3da62d8"
   },
   {
     "titulo": "Futbol Mexicano Primera División / T2026 Puebla vs. Pumas UNAM",
-    "sta": "2026-10-30/21:58",
-    "end": "2026-10-30/21:59",
+    "sta": "2026-10-30/21:00",
+    "end": "2026-10-30/23:00",
     "url": "/6/out/u/dash/ESPN-HD-H265/default.mpd",
     "clearkey": "3fb8167957692836eca1464b7f952b45:f31042e8167eb4b49ce8117c9e5f1e85"
   },
   {
-    "titulo": "OneTV MXd",
-    "sta": "2026-10-30/21:41",
-    "end": "2026-10-30/21:42",
-    "url": "https://vod-sev-orbit1-s1.izzigo.tv/out/u/startover/dash/LAS-ESTRELLAS-HD/default.mpd?start=20261031T013000Z&end=20261031T023600Z&deviceid=4c1fd3ca-32bd-4cd4-89e8-579a5ee73cac&region=METRO",
-    "clearkey": "18273dd094587276de662812a2994055:4cccb1a1e21a3dbc42bd4a3989a61de0"
+    "titulo": "Previa: Saúl Canelo Álvarez vs. Christian Mbilli",
+    "sta": "2026-10-30/23:00",
+    "end": "2026-10-31/00:30"
+  },
+  {
+    "titulo": "Azteca 7 Monterrey",
+    "sta": "2026-10-31/00:30",
+    "end": "2026-10-31/07:00"
+  },
+  {
+    "titulo": "INFO7 Fin de Semana",
+    "sta": "2026-10-31/07:00",
+    "end": "2026-10-31/09:00"
+  },
+  {
+    "titulo": "Azteca 7 Monterrey",
+    "sta": "2026-10-31/09:00",
+    "end": "2026-10-31/13:45"
+  },
+  {
+    "titulo": "Box diamante Munguía vs. Nikitta",
+    "sta": "2026-10-31/13:45",
+    "end": "2026-10-31/14:45"
+  },
+  {
+    "titulo": "Box diamante Saúl Álvarez vs. Christian Mbilli",
+    "sta": "2026-10-31/14:45",
+    "end": "2026-10-31/16:15"
+  },
+  {
+    "titulo": "Telemundo El Paso",
+    "sta": "2026-10-31/16:15",
+    "end": "2026-10-31/19:07"
+  },
+  {
+    "titulo": "Futbol Mexicano Primera División / T2026 Chivas vs. Atlante",
+    "sta": "2026-10-31/19:07",
+    "end": "2026-10-31/21:07"
+  },
+  {
+    "titulo": "Telemundo El Paso",
+    "sta": "2026-10-31/21:07",
+    "end": "2026-11-01/00:00"
+  },
+  {
+    "titulo": "OneTV MX",
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/00:30"
   }
 ]
