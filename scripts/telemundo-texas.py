@@ -27,7 +27,7 @@ def unix_to_cdmx(ts_str: str) -> datetime:
     return datetime.fromtimestamp(ts, tz=timezone.utc).astimezone(TZ)
 
 def format_dt(dt: datetime) -> str:
-    return dt.strftime("%Y-%m-%d/%H:%M:%S")
+    return dt.strftime("%Y-%m-%d/%H:%M")
 
 def process_programs(programs: list) -> list:
     if not programs:
