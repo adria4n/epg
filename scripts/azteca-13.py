@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Scraper Azteca Uno desde GatoTV.com
-Usa el atributo datetime="HH:MM" (ya en 24h)
-"""
 
 import json
 import urllib.request
@@ -24,7 +20,6 @@ def fetch_page(date_str: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, day: datetime) -> list[dict]:
-    # Extrae pares de <time datetime="HH:MM"> y el título que sigue
     pattern = re.compile(
         r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>\s*</div>\s*</td>\s*<td[^>]*>\s*<div[^>]*>\s*<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?<span[^>]*>([^<]+)</span>',
         re.DOTALL | re.IGNORECASE
@@ -42,10 +37,13 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             sh, sm = map(int, start_hms.split(":"))
             eh, em = map(int, end_hms.split(":"))
             
-            start = day.replace(hour=sh, minute=sm, second=0, microsecond=0)
-            end = day.replace(hour=eh, minute=em, second=0, microsecond=0)
+            program_day = day
+            if sh >= 20:
+                program_day = day - timedelta(days=1)
             
-            # Si termina antes de empezar, cruza medianoche
+            start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0)
+            end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0)
+            
             if end <= start:
                 end += timedelta(days=1)
             
@@ -75,7 +73,6 @@ def main():
         except Exception as e:
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
     
-    # Deduplicar por sta
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
