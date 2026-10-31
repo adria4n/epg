@@ -21,7 +21,6 @@ def fetch_page(date_str: str | None = None) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, day: datetime) -> list[dict]:
-    # Extrae start, end y título
     pattern = re.compile(
         r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
         r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
@@ -30,8 +29,7 @@ def parse_items(html: str, day: datetime) -> list[dict]:
     )
 
     programs = []
-    current_date = day.date()
-    prev_start_hour = 24
+    page_date = day.date()
 
     for match in pattern.finditer(html):
         start_hm, end_hm, title = match.groups()
@@ -39,15 +37,20 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             sh, sm = map(int, start_hm.split(":"))
             eh, em = map(int, end_hm.split(":"))
 
-            # Si la hora de inicio baja bruscamente (ej. de 22h a 00h) → nuevo día
-            if sh < prev_start_hour - 6:
-                current_date += timedelta(days=1)
+            # Programas que empiezan de noche (≥20:00) pertenecen al día anterior
+            # El resto pertenecen al día de la página
+            if sh >= 20:
+                start_date = page_date - timedelta(days=1)
+            else:
+                start_date = page_date
 
-            start = datetime(current_date.year, current_date.month, current_date.day,
+            start = datetime(start_date.year, start_date.month, start_date.day,
                              sh, sm, tzinfo=TZ)
-            end = datetime(current_date.year, current_date.month, current_date.day,
+
+            end = datetime(start_date.year, start_date.month, start_date.day,
                            eh, em, tzinfo=TZ)
 
+            # Cruce de medianoche
             if end <= start:
                 end += timedelta(days=1)
 
@@ -56,8 +59,6 @@ def parse_items(html: str, day: datetime) -> list[dict]:
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
-
-            prev_start_hour = sh
         except Exception:
             continue
 
