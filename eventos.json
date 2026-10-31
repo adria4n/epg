@@ -10,58 +10,22 @@
   {
     "titulo": "Futbol Mexicano Primera División / T2026 Puebla vs. Pumas UNAM",
     "sta": "2026-10-30/21:00",
-    "end": "2026-10-30/23:00",
+    "end": "2026-10-30/21:23",
     "url": "/6/out/u/dash/ESPN-HD-H265/default.mpd",
     "clearkey": "3fb8167957692836eca1464b7f952b45:f31042e8167eb4b49ce8117c9e5f1e85"
   },
   {
-    "titulo": "Previa: Saúl Canelo Álvarez vs. Christian Mbilli",
-    "sta": "2026-10-30/23:00",
-    "end": "2026-10-31/00:30"
-  },
-  {
-    "titulo": "Azteca 7 Monterrey",
-    "sta": "2026-10-31/00:30",
-    "end": "2026-10-31/07:00"
-  },
-  {
-    "titulo": "INFO7 Fin de Semana",
-    "sta": "2026-10-31/07:00",
-    "end": "2026-10-31/09:00"
-  },
-  {
-    "titulo": "Azteca 7 Monterrey",
-    "sta": "2026-10-31/09:00",
-    "end": "2026-10-31/13:45"
-  },
-  {
-    "titulo": "Box diamante Munguía vs. Nikitta",
-    "sta": "2026-10-31/13:45",
-    "end": "2026-10-31/14:45"
-  },
-  {
-    "titulo": "Box diamante Saúl Álvarez vs. Christian Mbilli",
-    "sta": "2026-10-31/14:45",
-    "end": "2026-10-31/16:15"
-  },
-  {
-    "titulo": "Telemundo El Paso",
-    "sta": "2026-10-31/16:15",
-    "end": "2026-10-31/19:07"
-  },
-  {
-    "titulo": "Futbol Mexicano Primera División / T2026 Chivas vs. Atlante",
-    "sta": "2026-10-31/19:07",
-    "end": "2026-10-31/21:07"
-  },
-  {
-    "titulo": "Telemundo El Paso",
-    "sta": "2026-10-31/21:07",
-    "end": "2026-11-01/00:00"
+    "titulo": "OneTV MX",
+    "sta": "2026-10-30/21:23",
+    "end": "2026-10-30/21:25",
+    "url": "/14/out/u/dash/CARTOON-NETWORK-HD/default.mpd",
+    "clearkey": "85d06ba283f3b18bb14f9f8d59b8fb82:6659fed472544289adee986c1d33fa79"
   },
   {
     "titulo": "OneTV MX",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/00:30"
+    "sta": "2026-10-30/22:00",
+    "end": "2026-10-31/22:05",
+    "url": "/12/out/u/dash/NICK-HD/default.mpd",
+    "clearkey": "294848a1c20273b5546c204b117fd7fe:47b4a3e3b2d5bbd54143a6af43268bbd"
   }
 ]
