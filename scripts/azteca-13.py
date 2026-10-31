@@ -21,54 +21,36 @@ def fetch_page(date_str: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_items(html: str, day: datetime) -> list[dict]:
-    # Extrae filas de programación
     rows = re.findall(
         r'<tr class="tbl_EPG_row(?:Alternate)?">(.*?)</tr>',
         html,
         re.DOTALL
     )
     programs = []
-    current_day = day
+    date_str = day.strftime("%Y-%m-%d")
 
     for row in rows:
-        # Start y End desde el atributo datetime (ya en 24h)
-        times = re.findall(r'<time datetime="(\d{2}:\d{2})"', row)
+        times = re.findall(r'<time datetime="[^"]+">([^<]+)</time>', row)
         title_match = re.search(r'<span>([^<]+)</span>', row)
         if len(times) < 2 or not title_match:
             continue
 
         title = title_match.group(1).strip()
-        start_h, start_m = map(int, times[0].split(":"))
-        end_h, end_m = map(int, times[1].split(":"))
-
-        start = current_day.replace(hour=start_h, minute=start_m, second=0, microsecond=0)
-        end = current_day.replace(hour=end_h, minute=end_m, second=0, microsecond=0)
-
-        # Si el fin es antes o igual al inicio, cruza medianoche
-        if end <= start:
-            end += timedelta(days=1)
-
-        # Si el start es muy temprano y el anterior era de noche, también cruza
-        if programs and start.hour < 6 and programs[-1].get("_start") and programs[-1]["_start"].hour >= 20:
-            start += timedelta(days=1)
-            end += timedelta(days=1)
-            current_day = start
+        start_time = times[0].strip()
+        end_time = times[1].strip()
 
         programs.append({
             "titulo": title,
-            "sta": start.strftime("%Y-%m-%d/%H:%M"),
-            "end": end.strftime("%Y-%m-%d/%H:%M"),
-            "_start": start,
+            "sta": f"{date_str}/{start_time}",
+            "end": f"{date_str}/{end_time}",
         })
 
-    for p in programs:
-        p.pop("_start", None)
     return programs
 
 def main():
     all_programs = []
     today = datetime.now(TZ).date()
-    for i in range(-1, 7):  # ayer + 7 días
+    for i in range(-1, 7):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
