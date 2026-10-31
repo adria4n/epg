@@ -1,0 +1,737 @@
+[
+  {
+    "titulo": "Sognare",
+    "sta": "2026-10-30/00:00",
+    "end": "2026-10-30/00:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-10-30/00:30",
+    "end": "2026-10-30/02:30"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-10-30/02:30",
+    "end": "2026-10-30/03:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-10-30/03:00",
+    "end": "2026-10-30/03:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-10-30/03:30",
+    "end": "2026-10-30/04:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-10-30/04:00",
+    "end": "2026-10-30/04:30"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-10-30/04:30",
+    "end": "2026-10-30/05:00"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-10-30/05:00",
+    "end": "2026-10-30/06:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-10-30/06:00",
+    "end": "2026-10-30/08:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-10-30/08:00",
+    "end": "2026-10-30/11:00"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-10-30/11:00",
+    "end": "2026-10-30/12:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-10-30/12:30",
+    "end": "2026-10-30/13:30"
+  },
+  {
+    "titulo": "El Chavo del Ocho",
+    "sta": "2026-10-30/13:30",
+    "end": "2026-10-30/14:30"
+  },
+  {
+    "titulo": "Piensa rápido",
+    "sta": "2026-10-30/14:30",
+    "end": "2026-10-30/15:30"
+  },
+  {
+    "titulo": "Rubi",
+    "sta": "2026-10-30/15:30",
+    "end": "2026-10-30/16:30"
+  },
+  {
+    "titulo": "Mi corazón es tuyo",
+    "sta": "2026-10-30/16:30",
+    "end": "2026-10-30/17:30"
+  },
+  {
+    "titulo": "Infinito Amor",
+    "sta": "2026-10-30/17:30",
+    "end": "2026-10-30/18:30"
+  },
+  {
+    "titulo": "La Rosa de Guadalupe",
+    "sta": "2026-10-30/18:30",
+    "end": "2026-10-30/19:30"
+  },
+  {
+    "titulo": "Sabor a ti",
+    "sta": "2026-10-30/19:30",
+    "end": "2026-10-30/20:30"
+  },
+  {
+    "titulo": "Tierra de Amor y Coraje",
+    "sta": "2026-10-30/20:30",
+    "end": "2026-10-30/21:30"
+  },
+  {
+    "titulo": "En Punto Enrique Acevedo",
+    "sta": "2026-10-30/21:30",
+    "end": "2026-10-30/22:00"
+  },
+  {
+    "titulo": "Crímenes del pasado",
+    "sta": "2026-10-30/22:00",
+    "end": "2026-10-30/23:00"
+  },
+  {
+    "titulo": "Iglesia Universal",
+    "sta": "2026-10-30/23:00",
+    "end": "2026-10-30/23:30"
+  },
+  {
+    "titulo": "Paid Programing",
+    "sta": "2026-10-30/23:30",
+    "end": "2026-10-31/03:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-10-31/03:30",
+    "end": "2026-10-31/04:00"
+  },
+  {
+    "titulo": "Paid Programing",
+    "sta": "2026-10-31/04:00",
+    "end": "2026-10-31/05:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado",
+    "sta": "2026-10-31/05:00",
+    "end": "2026-10-31/06:15"
+  },
+  {
+    "titulo": "La tía Alejandra",
+    "sta": "2026-10-31/06:15",
+    "end": "2026-10-31/08:00"
+  },
+  {
+    "titulo": "Cementerio del terror",
+    "sta": "2026-10-31/08:00",
+    "end": "2026-10-31/10:00"
+  },
+  {
+    "titulo": "Cuéntamelo ya, al fin",
+    "sta": "2026-10-31/10:00",
+    "end": "2026-10-31/12:00"
+  },
+  {
+    "titulo": "Vacaciones de terror",
+    "sta": "2026-10-31/12:00",
+    "end": "2026-10-31/13:30"
+  },
+  {
+    "titulo": "Desfile de Día de Muertos",
+    "sta": "2026-10-31/13:30",
+    "end": "2026-10-31/15:30"
+  },
+  {
+    "titulo": "¿Quién es la máscara?",
+    "sta": "2026-10-31/15:30",
+    "end": "2026-10-31/18:00"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-10-31/18:00",
+    "end": "2026-10-31/20:00"
+  },
+  {
+    "titulo": "La Rosa de Guadalupe",
+    "sta": "2026-10-31/20:00",
+    "end": "2026-10-31/22:00"
+  },
+  {
+    "titulo": "Sin miedo a la verdad",
+    "sta": "2026-10-31/22:00",
+    "end": "2026-10-31/23:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-10-31/23:00",
+    "end": "2026-11-01/01:00"
+  },
+  {
+    "titulo": "Paid Programing",
+    "sta": "2026-10-31/23:30",
+    "end": "2026-11-01/03:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/02:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-01/02:00",
+    "end": "2026-11-01/02:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-11-01/02:30",
+    "end": "2026-11-01/03:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-01/03:00",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "Papá soltero",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/05:00"
+  },
+  {
+    "titulo": "Mamá soy Paquito",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/07:00"
+  },
+  {
+    "titulo": "Acapulco a go go",
+    "sta": "2026-11-01/07:00",
+    "end": "2026-11-01/09:00"
+  },
+  {
+    "titulo": "Más Deporte",
+    "sta": "2026-11-01/09:00",
+    "end": "2026-11-01/10:00"
+  },
+  {
+    "titulo": "El diablo, el santo y el tonto",
+    "sta": "2026-11-01/10:00",
+    "end": "2026-11-01/12:00"
+  },
+  {
+    "titulo": "Acción",
+    "sta": "2026-11-01/12:00",
+    "end": "2026-11-01/13:00"
+  },
+  {
+    "titulo": "El padrecito",
+    "sta": "2026-11-01/13:00",
+    "end": "2026-11-01/15:30"
+  },
+  {
+    "titulo": "El Príncipe del Barrio",
+    "sta": "2026-11-01/15:30",
+    "end": "2026-11-01/16:30"
+  },
+  {
+    "titulo": "Vecinos",
+    "sta": "2026-11-01/16:30",
+    "end": "2026-11-01/17:00"
+  },
+  {
+    "titulo": "¿Tú crees?",
+    "sta": "2026-11-01/17:00",
+    "end": "2026-11-01/18:00"
+  },
+  {
+    "titulo": "Una familia de diez",
+    "sta": "2026-11-01/18:00",
+    "end": "2026-11-01/18:30"
+  },
+  {
+    "titulo": "¿Quién es la máscara?",
+    "sta": "2026-11-01/18:30",
+    "end": "2026-11-01/21:00"
+  },
+  {
+    "titulo": "La Jugada",
+    "sta": "2026-11-01/21:00",
+    "end": "2026-11-01/22:00"
+  },
+  {
+    "titulo": "Clío TV",
+    "sta": "2026-11-01/22:00",
+    "end": "2026-11-01/23:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-02/01:00"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-11-02/01:30",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/02:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-11-02/02:30",
+    "end": "2026-11-02/03:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/03:00",
+    "end": "2026-11-02/03:30"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-02/03:30",
+    "end": "2026-11-02/04:00"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-11-02/04:00",
+    "end": "2026-11-02/05:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/07:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-11-02/07:00",
+    "end": "2026-11-02/10:10"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-11-02/10:10",
+    "end": "2026-11-02/11:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-11-02/11:30",
+    "end": "2026-11-02/12:30"
+  },
+  {
+    "titulo": "El Chavo del Ocho",
+    "sta": "2026-11-02/12:30",
+    "end": "2026-11-02/13:30"
+  },
+  {
+    "titulo": "Piensa rápido",
+    "sta": "2026-11-02/13:30",
+    "end": "2026-11-02/14:30"
+  },
+  {
+    "titulo": "Mi corazón es tuyo",
+    "sta": "2026-11-02/14:30",
+    "end": "2026-11-02/16:30"
+  },
+  {
+    "titulo": "Infinito Amor",
+    "sta": "2026-11-02/16:30",
+    "end": "2026-11-02/17:30"
+  },
+  {
+    "titulo": "La Rosa de Guadalupe",
+    "sta": "2026-11-02/17:30",
+    "end": "2026-11-02/18:30"
+  },
+  {
+    "titulo": "Sabor a ti",
+    "sta": "2026-11-02/18:30",
+    "end": "2026-11-02/19:30"
+  },
+  {
+    "titulo": "Tierra de Amor y Coraje",
+    "sta": "2026-11-02/19:30",
+    "end": "2026-11-02/20:30"
+  },
+  {
+    "titulo": "En Punto Enrique Acevedo",
+    "sta": "2026-11-02/20:30",
+    "end": "2026-11-02/21:00"
+  },
+  {
+    "titulo": "Tercer Grado Deportivo",
+    "sta": "2026-11-02/21:00",
+    "end": "2026-11-02/22:00"
+  },
+  {
+    "titulo": "Iglesia Universal",
+    "sta": "2026-11-02/22:00",
+    "end": "2026-11-02/22:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/22:30",
+    "end": "2026-11-03/01:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/23:00",
+    "end": "2026-11-03/01:30"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-11-03/01:30",
+    "end": "2026-11-03/02:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-03/02:00",
+    "end": "2026-11-03/02:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-11-03/02:30",
+    "end": "2026-11-03/03:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-03/03:00",
+    "end": "2026-11-03/03:30"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-03/03:30",
+    "end": "2026-11-03/04:00"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-11-03/04:00",
+    "end": "2026-11-03/05:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-03/05:00",
+    "end": "2026-11-03/07:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-11-03/07:00",
+    "end": "2026-11-03/10:00"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-11-03/10:00",
+    "end": "2026-11-03/11:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-11-03/11:30",
+    "end": "2026-11-03/12:30"
+  },
+  {
+    "titulo": "El Chavo del Ocho",
+    "sta": "2026-11-03/12:30",
+    "end": "2026-11-03/13:30"
+  },
+  {
+    "titulo": "Piensa rápido",
+    "sta": "2026-11-03/13:30",
+    "end": "2026-11-03/14:30"
+  },
+  {
+    "titulo": "Mi corazón es tuyo",
+    "sta": "2026-11-03/14:30",
+    "end": "2026-11-03/16:30"
+  },
+  {
+    "titulo": "Infinito Amor",
+    "sta": "2026-11-03/16:30",
+    "end": "2026-11-03/17:30"
+  },
+  {
+    "titulo": "La Rosa de Guadalupe",
+    "sta": "2026-11-03/17:30",
+    "end": "2026-11-03/18:30"
+  },
+  {
+    "titulo": "Sabor a ti",
+    "sta": "2026-11-03/18:30",
+    "end": "2026-11-03/19:30"
+  },
+  {
+    "titulo": "Tierra de Amor y Coraje",
+    "sta": "2026-11-03/19:30",
+    "end": "2026-11-03/20:30"
+  },
+  {
+    "titulo": "En Punto Enrique Acevedo",
+    "sta": "2026-11-03/20:30",
+    "end": "2026-11-03/21:00"
+  },
+  {
+    "titulo": "Crímenes del pasado",
+    "sta": "2026-11-03/21:00",
+    "end": "2026-11-03/22:00"
+  },
+  {
+    "titulo": "Iglesia Universal",
+    "sta": "2026-11-03/22:00",
+    "end": "2026-11-03/22:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-03/22:30",
+    "end": "2026-11-04/01:30"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-11-04/01:30",
+    "end": "2026-11-04/02:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/02:00",
+    "end": "2026-11-04/02:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-11-04/02:30",
+    "end": "2026-11-04/03:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/03:00",
+    "end": "2026-11-04/03:30"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-04/03:30",
+    "end": "2026-11-04/04:00"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-11-04/04:00",
+    "end": "2026-11-04/05:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-04/05:00",
+    "end": "2026-11-04/07:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/10:00"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-11-04/10:00",
+    "end": "2026-11-04/11:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-11-04/11:30",
+    "end": "2026-11-04/12:30"
+  },
+  {
+    "titulo": "El Chavo del Ocho",
+    "sta": "2026-11-04/12:30",
+    "end": "2026-11-04/13:30"
+  },
+  {
+    "titulo": "Piensa rápido",
+    "sta": "2026-11-04/13:30",
+    "end": "2026-11-04/14:30"
+  },
+  {
+    "titulo": "Mi corazón es tuyo",
+    "sta": "2026-11-04/14:30",
+    "end": "2026-11-04/16:30"
+  },
+  {
+    "titulo": "Infinito Amor",
+    "sta": "2026-11-04/16:30",
+    "end": "2026-11-04/17:30"
+  },
+  {
+    "titulo": "La Rosa de Guadalupe",
+    "sta": "2026-11-04/17:30",
+    "end": "2026-11-04/18:30"
+  },
+  {
+    "titulo": "Sabor a ti",
+    "sta": "2026-11-04/18:30",
+    "end": "2026-11-04/19:30"
+  },
+  {
+    "titulo": "Tierra de Amor y Coraje",
+    "sta": "2026-11-04/19:30",
+    "end": "2026-11-04/20:30"
+  },
+  {
+    "titulo": "En Punto Enrique Acevedo",
+    "sta": "2026-11-04/20:30",
+    "end": "2026-11-04/21:00"
+  },
+  {
+    "titulo": "Tercer Grado",
+    "sta": "2026-11-04/21:00",
+    "end": "2026-11-04/22:00"
+  },
+  {
+    "titulo": "Iglesia Universal",
+    "sta": "2026-11-04/22:00",
+    "end": "2026-11-04/22:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/22:30",
+    "end": "2026-11-05/01:30"
+  },
+  {
+    "titulo": "Sognare",
+    "sta": "2026-11-04/23:00",
+    "end": "2026-11-04/23:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/23:30",
+    "end": "2026-11-05/01:30"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-11-05/01:30",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/02:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-11-05/02:30",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/07:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-11-05/07:00",
+    "end": "2026-11-05/10:00"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-11-05/10:00",
+    "end": "2026-11-05/11:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-11-05/11:30",
+    "end": "2026-11-05/12:30"
+  },
+  {
+    "titulo": "El Chavo del Ocho",
+    "sta": "2026-11-05/12:30",
+    "end": "2026-11-05/13:30"
+  },
+  {
+    "titulo": "Piensa rápido",
+    "sta": "2026-11-05/13:30",
+    "end": "2026-11-05/14:30"
+  },
+  {
+    "titulo": "Mi corazón es tuyo",
+    "sta": "2026-11-05/14:30",
+    "end": "2026-11-05/16:30"
+  },
+  {
+    "titulo": "Infinito Amor",
+    "sta": "2026-11-05/16:30",
+    "end": "2026-11-05/17:30"
+  },
+  {
+    "titulo": "La Rosa de Guadalupe",
+    "sta": "2026-11-05/17:30",
+    "end": "2026-11-05/18:30"
+  },
+  {
+    "titulo": "Sabor a ti",
+    "sta": "2026-11-05/18:30",
+    "end": "2026-11-05/19:30"
+  },
+  {
+    "titulo": "Tierra de Amor y Coraje",
+    "sta": "2026-11-05/19:30",
+    "end": "2026-11-05/20:30"
+  },
+  {
+    "titulo": "En Punto Enrique Acevedo",
+    "sta": "2026-11-05/20:30",
+    "end": "2026-11-05/21:00"
+  },
+  {
+    "titulo": "Crímenes del pasado",
+    "sta": "2026-11-05/21:00",
+    "end": "2026-11-05/22:00"
+  },
+  {
+    "titulo": "Iglesia Universal",
+    "sta": "2026-11-05/22:00",
+    "end": "2026-11-05/22:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/22:30",
+    "end": "2026-11-05/23:00"
+  },
+  {
+    "titulo": "Sognare",
+    "sta": "2026-11-05/23:00",
+    "end": "2026-11-05/23:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/23:30",
+    "end": "2026-11-06/01:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-06/23:30",
+    "end": "2026-11-07/01:30"
+  }
+]
