@@ -1,0 +1,367 @@
+[
+  {
+    "titulo": "Fútbol Americano Universitario de México",
+    "sta": "2026-10-30/01:00",
+    "end": "2026-10-30/04:00"
+  },
+  {
+    "titulo": "TNA iMPACT!",
+    "sta": "2026-10-30/04:00",
+    "end": "2026-10-30/06:00"
+  },
+  {
+    "titulo": "Noticias Claro",
+    "sta": "2026-10-30/06:00",
+    "end": "2026-10-30/08:00"
+  },
+  {
+    "titulo": "Fit for life",
+    "sta": "2026-10-30/08:00",
+    "end": "2026-10-30/08:30"
+  },
+  {
+    "titulo": "Fit for life",
+    "sta": "2026-10-30/08:30",
+    "end": "2026-10-30/09:00"
+  },
+  {
+    "titulo": "Peloteando",
+    "sta": "2026-10-30/09:00",
+    "end": "2026-10-30/11:00"
+  },
+  {
+    "titulo": "De la Pista a la Cancha",
+    "sta": "2026-10-30/11:00",
+    "end": "2026-10-30/13:00"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-10-30/13:00",
+    "end": "2026-10-30/14:00"
+  },
+  {
+    "titulo": "Fútbol Portugués Primeira Liga",
+    "sta": "2026-10-30/14:00",
+    "end": "2026-10-30/16:15"
+  },
+  {
+    "titulo": "Claro Sports en W Radio",
+    "sta": "2026-10-30/16:15",
+    "end": "2026-10-30/17:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-10-30/17:00",
+    "end": "2026-10-30/18:00"
+  },
+  {
+    "titulo": "Playbook",
+    "sta": "2026-10-30/18:00",
+    "end": "2026-10-30/19:00"
+  },
+  {
+    "titulo": "Fútbol Americano Universitario de México",
+    "sta": "2026-10-30/19:00",
+    "end": "2026-10-30/22:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-10-30/22:00",
+    "end": "2026-10-30/23:00"
+  },
+  {
+    "titulo": "Jugando Claro",
+    "sta": "2026-10-30/23:00",
+    "end": "2026-10-31/00:00"
+  },
+  {
+    "titulo": "Fútbol Americano Universitario de México",
+    "sta": "2026-10-31/00:00",
+    "end": "2026-10-31/03:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-10-31/03:00",
+    "end": "2026-10-31/04:00"
+  },
+  {
+    "titulo": "Fútbol Americano Universitario de México",
+    "sta": "2026-10-31/04:00",
+    "end": "2026-10-31/06:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-10-31/06:00",
+    "end": "2026-10-31/07:00"
+  },
+  {
+    "titulo": "Jugando Claro",
+    "sta": "2026-10-31/07:00",
+    "end": "2026-10-31/07:50"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-10-31/07:50",
+    "end": "2026-10-31/09:00"
+  },
+  {
+    "titulo": "Fútbol",
+    "sta": "2026-10-31/09:00",
+    "end": "2026-10-31/11:00"
+  },
+  {
+    "titulo": "Fútbol Griego Superliga",
+    "sta": "2026-10-31/11:00",
+    "end": "2026-10-31/13:00"
+  },
+  {
+    "titulo": "Juegos Olímpicos de la Juventud Dakar 2026",
+    "sta": "2026-10-31/13:00",
+    "end": "2026-10-31/14:00"
+  },
+  {
+    "titulo": "TNA Wrestling",
+    "sta": "2026-10-31/14:00",
+    "end": "2026-10-31/14:20"
+  },
+  {
+    "titulo": "Fútbol Portugués Primeira Liga",
+    "sta": "2026-10-31/14:20",
+    "end": "2026-10-31/16:30"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-10-31/16:30",
+    "end": "2026-10-31/17:00"
+  },
+  {
+    "titulo": "UEFA Europa & Conference League Magazine",
+    "sta": "2026-10-31/17:00",
+    "end": "2026-10-31/18:00"
+  },
+  {
+    "titulo": "Equitación",
+    "sta": "2026-10-31/18:00",
+    "end": "2026-10-31/19:00"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-10-31/19:00",
+    "end": "2026-10-31/20:00"
+  },
+  {
+    "titulo": "De la Pista a la Cancha",
+    "sta": "2026-10-31/20:00",
+    "end": "2026-10-31/22:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-10-31/22:00",
+    "end": "2026-10-31/23:00"
+  },
+  {
+    "titulo": "Jugando Claro",
+    "sta": "2026-10-31/23:00",
+    "end": "2026-11-01/00:00"
+  },
+  {
+    "titulo": "Fútbol Americano Universitario de México",
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/02:00"
+  },
+  {
+    "titulo": "TNA iMPACT!",
+    "sta": "2026-11-01/02:00",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "Fútbol Griego Superliga",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/06:00"
+  },
+  {
+    "titulo": "NASCAR Brasil Series",
+    "sta": "2026-11-01/06:00",
+    "end": "2026-11-01/06:30"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-01/06:30",
+    "end": "2026-11-01/07:00"
+  },
+  {
+    "titulo": "Fútbol Portugués Primeira Liga",
+    "sta": "2026-11-01/07:00",
+    "end": "2026-11-01/09:00"
+  },
+  {
+    "titulo": "Juegos Olímpicos de la Juventud Dakar 2026",
+    "sta": "2026-11-01/09:00",
+    "end": "2026-11-01/11:00"
+  },
+  {
+    "titulo": "NASCAR Brasil Series",
+    "sta": "2026-11-01/11:00",
+    "end": "2026-11-01/12:00"
+  },
+  {
+    "titulo": "3 rounds",
+    "sta": "2026-11-01/12:00",
+    "end": "2026-11-01/12:30"
+  },
+  {
+    "titulo": "Fórmula latina",
+    "sta": "2026-11-01/12:30",
+    "end": "2026-11-01/13:00"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-01/13:00",
+    "end": "2026-11-01/14:00"
+  },
+  {
+    "titulo": "Fútbol Griego Superliga",
+    "sta": "2026-11-01/14:00",
+    "end": "2026-11-01/16:00"
+  },
+  {
+    "titulo": "Equitación",
+    "sta": "2026-11-01/16:00",
+    "end": "2026-11-01/17:00"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-01/17:00",
+    "end": "2026-11-01/18:00"
+  },
+  {
+    "titulo": "Fútbol Portugués Primeira Liga",
+    "sta": "2026-11-01/18:00",
+    "end": "2026-11-01/19:50"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-01/19:50",
+    "end": "2026-11-01/21:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-01/21:00",
+    "end": "2026-11-01/22:00"
+  },
+  {
+    "titulo": "Gol, Gol, Gol",
+    "sta": "2026-11-01/22:00",
+    "end": "2026-11-01/22:30"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-01/22:30",
+    "end": "2026-11-01/23:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-02/00:00"
+  },
+  {
+    "titulo": "TNA iMPACT!",
+    "sta": "2026-11-02/00:00",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "Fútbol Griego Superliga",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/04:00"
+  },
+  {
+    "titulo": "Fútbol Americano Universitario de México",
+    "sta": "2026-11-02/04:00",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Noticias Claro",
+    "sta": "2026-11-02/06:00",
+    "end": "2026-11-02/08:00"
+  },
+  {
+    "titulo": "Fit for life",
+    "sta": "2026-11-02/08:00",
+    "end": "2026-11-02/08:30"
+  },
+  {
+    "titulo": "Fit for life",
+    "sta": "2026-11-02/08:30",
+    "end": "2026-11-02/09:00"
+  },
+  {
+    "titulo": "Peloteando",
+    "sta": "2026-11-02/09:00",
+    "end": "2026-11-02/11:00"
+  },
+  {
+    "titulo": "Gol, Gol, Gol",
+    "sta": "2026-11-02/11:00",
+    "end": "2026-11-02/11:30"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-02/11:30",
+    "end": "2026-11-02/12:00"
+  },
+  {
+    "titulo": "Fútbol Griego Superliga",
+    "sta": "2026-11-02/12:00",
+    "end": "2026-11-02/14:00"
+  },
+  {
+    "titulo": "Fútbol Portugués Primeira Liga",
+    "sta": "2026-11-02/14:00",
+    "end": "2026-11-02/16:20"
+  },
+  {
+    "titulo": "Claro Sports en W Radio",
+    "sta": "2026-11-02/16:20",
+    "end": "2026-11-02/17:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-02/17:00",
+    "end": "2026-11-02/18:00"
+  },
+  {
+    "titulo": "Playbook",
+    "sta": "2026-11-02/18:00",
+    "end": "2026-11-02/19:00"
+  },
+  {
+    "titulo": "Gol, Gol, Gol",
+    "sta": "2026-11-02/19:00",
+    "end": "2026-11-02/19:30"
+  },
+  {
+    "titulo": "Checo: Never give up",
+    "sta": "2026-11-02/19:30",
+    "end": "2026-11-02/20:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-02/20:00",
+    "end": "2026-11-02/21:00"
+  },
+  {
+    "titulo": "As en W",
+    "sta": "2026-11-02/21:00",
+    "end": "2026-11-02/22:00"
+  },
+  {
+    "titulo": "Jugando Claro",
+    "sta": "2026-11-02/22:00",
+    "end": "2026-11-02/23:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-02/23:00",
+    "end": "2026-11-03/00:00"
+  }
+]
