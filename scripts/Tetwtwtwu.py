@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-EPG Megacable - Azteca Uno (101)
-Usa la página del canal de gato.tv (horas exactas)
+EPG Megacable desde grilla cada 30 min
+Horas 100% de la URL. Filtra por número de canal (default 101)
 """
 
 import json
@@ -13,8 +13,6 @@ import sys
 
 TZ = ZoneInfo("America/Mexico_City")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-SLUG = "azteca_uno"          # Canal 101
-OUTPUT_FILE = "aztec.json"
 
 def fetch(url: str) -> str:
     print(f"Descargando {url}...", file=sys.stderr)
@@ -22,77 +20,78 @@ def fetch(url: str) -> str:
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def parse_channel_day(html: str, day: datetime) -> list[dict]:
-    programs = []
-    rows = re.findall(
-        r'<tr class="tbl_EPG_row[^"]*">\s*'
-        r'<td[^>]*>.*?datetime="(\d{2}:\d{2})".*?</td>\s*'
-        r'<td[^>]*>.*?datetime="(\d{2}:\d{2})".*?</td>\s*'
-        r'<td[^>]*>.*?<span>([^<]+)</span>',
-        html,
+def extract_starting(html: str, channel_num: str, window_start: datetime):
+    pattern = re.compile(
+        r'<div class="div_channel_number">\s*' + re.escape(channel_num) + r'\s*</div>.*?</tr>',
         re.DOTALL | re.IGNORECASE
     )
+    m = pattern.search(html)
+    if not m:
+        return None
 
-    current_day = day
-    for start_t, end_t, title in rows:
-        title = title.strip()
+    block = m.group(0)
+    tds = re.findall(r'<td colspan="(\d+)"[^>]*>(.*?)</td>', block, re.DOTALL)
+
+    for colspan, content in tds:
+        if "PG_ArrowLeft" in content:
+            continue
+        text = re.sub(r"<span[^>]*>.*?</span>", "", content)
+        text = re.sub(r"<[^>]+>", " ", text)
+        title = " ".join(text.split()).strip()
         if not title:
             continue
-        try:
-            sh, sm = map(int, start_t.split(":"))
-            eh, em = map(int, end_t.split(":"))
 
-            start = current_day.replace(hour=sh, minute=sm, second=0, microsecond=0)
-            end = current_day.replace(hour=eh, minute=em, second=0, microsecond=0)
-
-            if end <= start:
-                end += timedelta(days=1)
-
-            # Ajuste de medianoche
-            if programs and start.hour < 6 and programs[-1].get("_start") and programs[-1]["_start"].hour >= 20:
-                start += timedelta(days=1)
-                if end.date() == start.date() - timedelta(days=1):
-                    end += timedelta(days=1)
-                current_day = start
-
-            programs.append({
-                "titulo": title,
-                "sta": start.strftime("%Y-%m-%d/%H:%M"),
-                "end": end.strftime("%Y-%m-%d/%H:%M"),
-                "_start": start,
-            })
-        except Exception:
-            continue
-
-    for p in programs:
-        p.pop("_start", None)
-    return programs
+        minutes = int(colspan)
+        start = window_start
+        end = start + timedelta(minutes=minutes)
+        return {
+            "titulo": title,
+            "sta": start.strftime("%Y-%m-%d/%H:%M"),
+            "end": end.strftime("%Y-%m-%d/%H:%M"),
+        }
+    return None
 
 def main():
+    channel_num = sys.argv[1] if len(sys.argv) > 1 else "101"
+    out_file = sys.argv[2] if len(sys.argv) > 2 else f"canal-{channel_num}.json"
+
     all_programs = []
     today = datetime.now(TZ).date()
+
+    slots = [f"{h:02d}-{m:02d}" for h in range(24) for m in (0, 30)]
 
     for i in range(-1, 7):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
-        url = f"https://www.gatotv.com/canal/{SLUG}/{date_str}"
-        try:
-            html = fetch(url)
-            day_dt = datetime.combine(d, datetime.min.time(), tzinfo=TZ)
-            progs = parse_channel_day(html, day_dt)
-            all_programs.extend(progs)
-            print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
-        except Exception as e:
-            print(f"  Error en {date_str}: {e}", file=sys.stderr)
+        day_dt = datetime.combine(d, datetime.min.time(), tzinfo=TZ)
+
+        for slot in slots:
+            hh, mm = map(int, slot.split("-"))
+            window_start = day_dt.replace(hour=hh, minute=mm)
+            url = f"https://www.gatotv.com/guia_tv/megacable/{date_str}/{slot}"
+            try:
+                html = fetch(url)
+                prog = extract_starting(html, channel_num, window_start)
+                if prog:
+                    all_programs.append(prog)
+                    print(f"  {date_str} {slot}: {prog['titulo']}", file=sys.stderr)
+            except Exception as e:
+                print(f"  Error {date_str} {slot}: {e}", file=sys.stderr)
 
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(unique, f, indent=2, ensure_ascii=False)
+    # Limpiar solapes del mismo título
+    cleaned = []
+    for p in unique:
+        if not cleaned or not (p["titulo"] == cleaned[-1]["titulo"] and p["sta"] < cleaned[-1]["end"]):
+            cleaned.append(p)
 
-    print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(cleaned, f, indent=2, ensure_ascii=False)
+
+    print(f"Listo: {len(cleaned)} programas en {out_file}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
