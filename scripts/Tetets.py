@@ -12,7 +12,7 @@ CHANNEL = "telemundo"
 BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 STREAM_PAGE = "https://streamxhd.sbs/live1.php?stream=telemundo"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "telemund22o.json"
+OUTPUT_FILE = "telemundo.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 UTC_OFFSET = -360
 
