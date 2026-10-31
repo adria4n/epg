@@ -1,86 +1,198 @@
 [
   {
-    "titulo": "Primera División de Chile: O'Higgins vs Ñublense",
+    "titulo": "Charlotte Hornets vs Philadelphia 76ers",
     "sta": "2026-10-31/16:00",
     "end": "2026-10-31/18:00",
-    "url": "https://ewvz.fubo18.com/tntsportschile/mono.m3u8?token=9e034a04b6b3ea83a299ab84d52e2f653ae4b5f1-de-1793504668-1793486668",
+    "url": "https://khala.futlivehd.com/global/nba2/index.m3u8?ip=20.169.105.177&token=c13e8562b9329fa5dd7ee1fcf24d8765e064b599-c1-1793533445-1793479445",
     "clearkey": ""
   },
   {
-    "titulo": "LigaPro: Macará vs Barcelona SC",
-    "sta": "2026-10-31/16:30",
-    "end": "2026-10-31/18:30",
-    "url": "https://y2fzdgxl.fubo18.com/ecuavisa/mono.m3u8?token=cc0ef8d29b482f2e28d42f56f0d9d39fadb91762-b3-1793504678-1793486678",
-    "clearkey": ""
-  },
-  {
-    "titulo": "Segunda División: Rentistas vs La Luz",
+    "titulo": "New Orleans Pelicans vs Atlanta Hawks",
     "sta": "2026-10-31/17:00",
     "end": "2026-10-31/19:00",
-    "url": "https://ym9yzq.fubo18.com/disney17/mono.m3u8?token=b2375d0944e8c9412e6aa6f88e26129fe580b39c-38-1793504687-1793486687",
+    "url": "https://khala.futlivehd.com/global/nba3/index.m3u8?ip=20.169.105.177&token=3f2767c9ef708e1ec5c112387433daa56d5c4858-5c-1793533455-1793479455",
     "clearkey": ""
   },
   {
-    "titulo": "Liga Profesional Argentina: Vélez Sarsfield vs San Lorenzo",
-    "sta": "2026-10-31/17:15",
-    "end": "2026-10-31/19:15",
-    "url": "https://ewvz.fubo18.com/tntsports/mono.m3u8?token=6feac5dadbf5f2b1c81e2106ee01e1061e9cc043-79-1793504696-1793486696",
-    "clearkey": ""
-  },
-  {
-    "titulo": "Serie B: Nautico Recife vs Avai",
-    "sta": "2026-10-31/17:30",
-    "end": "2026-10-31/19:30",
-    "url": "https://b2zmawnpyww.fubo18.com/premiere1/mono.m3u8?token=4069afc2b6399d563c732b7a3792d6d30e87b0e6-5b-1793504705-1793486705",
-    "clearkey": ""
-  },
-  {
-    "titulo": "Liga BetPlay: Llaneros vs Junior",
+    "titulo": "San Antonio Spurs vs Minnesota Timberwolves",
     "sta": "2026-10-31/18:00",
     "end": "2026-10-31/20:00",
-    "url": "https://y2fzdgxl.fubo18.com/winplus/mono.m3u8?token=8d88afc38517e3a62534b0fa1f50de8996b7a7cc-82-1793504715-1793486715",
+    "url": "https://khala.futlivehd.com/global/nba4/index.m3u8?ip=20.169.105.177&token=8b48fa1cb33022e911bc60afcf5dcb98a700faae-3a-1793533465-1793479465",
     "clearkey": ""
   },
   {
-    "titulo": "Liga MX: Pachuca vs Tigres",
+    "titulo": "Milwaukee Bucks vs Cleveland Cavaliers",
     "sta": "2026-10-31/18:00",
     "end": "2026-10-31/20:00",
-    "url": "https://bmf0aw9u.fubo18.com/tudn/mono.m3u8?token=7bcab38563768004464362ed38ccf5f10aaa5b51-e1-1793504724-1793486724",
+    "url": "https://khala.futlivehd.com/global/nba5/index.m3u8?ip=20.169.105.177&token=0c5aa805db3b1287f289185fd1034606d0b5da96-2e-1793533475-1793479475",
     "clearkey": ""
   },
   {
-    "titulo": "Liga Profesional Argentina: Estudiantes de La Plata vs Instituto",
+    "titulo": "Memphis Grizzlies vs Sacramento Kings",
+    "sta": "2026-10-31/18:00",
+    "end": "2026-10-31/20:00",
+    "url": "https://khala.futlivehd.com/global/nba6/index.m3u8?ip=20.169.105.177&token=6f83d4b8047df79c82655d291844325541f3eb08-7c-1793533485-1793479485",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Houston Rockets vs Oklahoma City Thunder",
+    "sta": "2026-10-31/18:30",
+    "end": "2026-10-31/20:30",
+    "url": "https://khala.futlivehd.com/global/nba7/index.m3u8?ip=20.169.105.177&token=fbb451d65f59ac81add4a73bd6d9273ad1560bf8-0d-1793533495-1793479495",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Porto vs Estoril",
+    "sta": "2026-10-31/14:30",
+    "end": "2026-10-31/16:30",
+    "url": "https://khala.futlivehd.com/global/dsports/index.m3u8?ip=20.169.105.177&token=d8d3ed9571fad1cfda98da316cf67e80c680137a-2a-1793533505-1793479505",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Vélez Sarsfield vs San Lorenzo",
+    "sta": "2026-10-31/16:15",
+    "end": "2026-10-31/18:15",
+    "url": "https://khala.futlivehd.com/global/tntsports/index.m3u8?ip=20.169.105.177&token=7ef8199b14ca42c65f1f44e78f28e999a78cc8a9-3a-1793533514-1793479514",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Estudiantes vs Instituto",
+    "sta": "2026-10-31/18:30",
+    "end": "2026-10-31/20:30",
+    "url": "https://khala.futlivehd.com/global/espnpremium/index.m3u8?ip=20.169.105.177&token=7870e64d1d2f9090dcd0d7c00f07f82345d90c08-2f-1793533524-1793479524",
+    "clearkey": ""
+  },
+  {
+    "titulo": "O'Higgins vs Ñublense",
+    "sta": "2026-10-31/17:00",
+    "end": "2026-10-31/19:00",
+    "url": "https://khala.futlivehd.com/global/tntsportschile/index.m3u8?ip=20.169.105.177&token=f58bde16d9695e2505a570e6f817a7219adff926-4f-1793533534-1793479534",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Sportivo Luqueño vs Nacional Asunción",
+    "sta": "2026-10-31/16:30",
+    "end": "2026-10-31/18:30",
+    "url": "https://khala.futlivehd.com/global/tigo1/index.m3u8?ip=20.169.105.177&token=f72404a85b05062cf715c2f53ae1a899a8d04d9e-32-1793533545-1793479545",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Sportivo San Lorenzo vs Libertad",
+    "sta": "2026-10-31/16:30",
+    "end": "2026-10-31/18:30",
+    "url": "https://khala.futlivehd.com/global/tigo2/index.m3u8?ip=20.169.105.177&token=87664b81d246ca755addd418d80da5561c84c38b-28-1793533555-1793479555",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Pachuca vs Tigres UANL",
+    "sta": "2026-10-31/17:00",
+    "end": "2026-10-31/19:00",
+    "url": "https://khala.futlivehd.com/global/tudn_usa/index.m3u8?ip=20.169.105.177&token=3a4482fa05f3d66b451227e21bc091ade0cd600f-63-1793533565-1793479565",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Monterrey vs Tijuana",
+    "sta": "2026-10-31/19:05",
+    "end": "2026-10-31/21:05",
+    "url": "https://khala.futlivehd.com/global/tudn_usa/index.m3u8?ip=20.169.105.177&token=f54313a741a7cca40cfcba406aa0471525703b02-74-1793533575-1793479575",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Guadalajara vs Atlante",
+    "sta": "2026-10-31/19:07",
+    "end": "2026-10-31/21:07",
+    "url": "https://khala.futlivehd.com/global/amazon1/index.m3u8?ip=20.169.105.177&token=559c80e87ac0e44ad284b1f27a18843771431d3d-a1-1793533584-1793479584",
+    "clearkey": ""
+  },
+  {
+    "titulo": "América vs Toluca",
+    "sta": "2026-10-31/21:10",
+    "end": "2026-10-31/23:10",
+    "url": "https://khala.futlivehd.com/global/tudn_usa/index.m3u8?ip=20.169.105.177&token=c25e5f2b03ee339c39cdd7378d3e9fb9d89930c2-13-1793533594-1793479594",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Macará vs Barcelona",
+    "sta": "2026-10-31/15:30",
+    "end": "2026-10-31/17:30",
+    "url": "https://khala.futlivehd.com/global/zapping_ec/index.m3u8?ip=20.169.105.177&token=01177966d207a229b3d42c65e234f44c849543ee-42-1793533604-1793479604",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Cruzeiro vs Corinthians",
+    "sta": "2026-10-31/18:00",
+    "end": "2026-10-31/20:00",
+    "url": "https://khala.futlivehd.com/global/sporttvbr1/index.m3u8?ip=20.169.105.177&token=45e801fe670de2a4c8cc55ec8bed1385d2ea84e7-9e-1793533614-1793479614",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Alianza Atlético vs Juan Pablo II College",
+    "sta": "2026-10-31/14:30",
+    "end": "2026-10-31/16:30",
+    "url": "https://khala.futlivehd.com/global/l1max/index.m3u8?ip=20.169.105.177&token=d1f1054fb51afc8c1d56edc7e4fff8d0dfe3db38-40-1793533624-1793479624",
+    "clearkey": ""
+  },
+  {
+    "titulo": "LA Galaxy vs Austin",
+    "sta": "2026-10-31/15:00",
+    "end": "2026-10-31/17:00",
+    "url": "https://khala.futlivehd.com/global/appletv7/index.m3u8?ip=20.169.105.177&token=82d0f4db211d9c1c1ca58946a6543c6133c5f9be-46-1793533634-1793479634",
+    "clearkey": ""
+  },
+  {
+    "titulo": "SJ Earthquakes vs Real Salt Lake",
+    "sta": "2026-10-31/15:00",
+    "end": "2026-10-31/17:00",
+    "url": "https://khala.futlivehd.com/global/appletv8/index.m3u8?ip=20.169.105.177&token=2d7c017fd6371dcaf86bac0c4e947d319b24377a-c5-1793533644-1793479644",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Colorado Rapids vs Chicago Fire",
     "sta": "2026-10-31/19:30",
     "end": "2026-10-31/21:30",
-    "url": "https://yxdlc29tzq.fubo18.com/espnpremium/mono.m3u8?token=e536597668b0b5435809307e938c971351eda720-19-1793504733-1793486733",
+    "url": "https://khala.futlivehd.com/global/appletv9/index.m3u8?ip=20.169.105.177&token=58577405112717a321fa595607335294fb9c9b72-e4-1793533654-1793479654",
     "clearkey": ""
   },
   {
-    "titulo": "Liga MX: Monterrey vs Tijuana",
-    "sta": "2026-10-31/20:05",
-    "end": "2026-10-31/22:05",
-    "url": "https://b2zmawnpyww.fubo18.com/tudn/mono.m3u8?token=04c05ae595c1f59e72e80eb61ddc3cce6c4f42be-ef-1793504742-1793486742",
+    "titulo": "GP México - Clasificación",
+    "sta": "2026-10-31/15:00",
+    "end": "2026-10-31/17:00",
+    "url": "https://khala.futlivehd.com/global/fox1ar/index.m3u8?ip=20.169.105.177&token=50affb07d1d71587a0048c504ce2108b931a24e0-e2-1793533663-1793479663",
     "clearkey": ""
   },
   {
-    "titulo": "Liga MX: Chivas vs Atlante FC",
-    "sta": "2026-10-31/20:07",
-    "end": "2026-10-31/22:07",
-    "url": "https://bgvnzw5k.fubo18.com/universo/mono.m3u8?token=26981eb357ca9e54af1b7273b586bd71aa23ed98-71-1793504752-1793486752",
+    "titulo": "GP México - On Board Colapinto",
+    "sta": "2026-10-31/15:00",
+    "end": "2026-10-31/17:00",
+    "url": "https://khala.futlivehd.com/global/disney4/index.m3u8?ip=20.169.105.177&token=f644d329baf259d6016ff1334873d24b5c6a8d8f-54-1793533673-1793479673",
     "clearkey": ""
   },
   {
-    "titulo": "Liga MX Femenil: Necaxa Femenil vs Santos Laguna Femenil",
-    "sta": "2026-10-31/22:10",
-    "end": "2026-11-01/00:10",
-    "url": "https://bmf0aw9u.fubo18.com/foxdeportes/mono.m3u8?token=ec8834fe11fc3ac5e7d77f77a738c0af2dcadac1-e0-1793504761-1793486761",
+    "titulo": "GP México - On Board Antonelli",
+    "sta": "2026-10-31/15:00",
+    "end": "2026-10-31/17:00",
+    "url": "https://khala.futlivehd.com/global/disney5/index.m3u8?ip=20.169.105.177&token=45a6341eb1e32d4cf7ec9f64e1f946014e237c42-d0-1793533684-1793479684",
     "clearkey": ""
   },
   {
-    "titulo": "Liga MX: América vs Toluca",
-    "sta": "2026-10-31/22:10",
-    "end": "2026-11-01/00:10",
-    "url": "https://b2zmawnpyww.fubo18.com/tudn/mono.m3u8?token=e2e2d8956e7931e7e3629200a94ab712adde87f1-f0-1793504770-1793486770",
+    "titulo": "GP Malasia - Carrera Moto3, Moto2 y MotoGP",
+    "sta": "2026-10-31/21:45",
+    "end": "2026-10-31/23:45",
+    "url": "https://khala.futlivehd.com/global/espn/index.m3u8?ip=20.169.105.177&token=5e9883d74ef638ee50a809d05ea97840bc29a755-35-1793533694-1793479694",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Renato Moicano vs Tom Nolan",
+    "sta": "2026-10-31/18:00",
+    "end": "2026-10-31/20:00",
+    "url": "https://khala.futlivehd.com/global/paramount3/index.m3u8?ip=20.169.105.177&token=0443b5dfd9c4fe66018cc80963a9594979845b97-4b-1793533704-1793479704",
+    "clearkey": ""
+  },
+  {
+    "titulo": "Preliminares",
+    "sta": "2026-10-31/15:00",
+    "end": "2026-10-31/17:00",
+    "url": "https://khala.futlivehd.com/global/paramount3/index.m3u8?ip=20.169.105.177&token=dd79efdf06ec5b2e1f8dca4d0c968fc09642fcf2-bc-1793533715-1793479715",
     "clearkey": ""
   }
 ]
