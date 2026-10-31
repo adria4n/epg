@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Esta historia me suena / 100 años",
+    "sta": "2026-10-30/04:00",
+    "end": "2026-10-30/05:00"
+  },
+  {
     "titulo": "El Chavo Animado / El partido de fútbol",
     "sta": "2026-10-30/05:00",
     "end": "2026-10-30/05:30"
@@ -80,7 +85,7 @@
     "end": "2026-10-30/17:00"
   },
   {
-    "titulo": "¿Quién caerá? / Final espectacular",
+    "titulo": "¿Quién caerá?",
     "sta": "2026-10-30/17:00",
     "end": "2026-10-30/18:00"
   },
@@ -256,8 +261,8 @@
   },
   {
     "titulo": "Movie / Day Zero",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/01:30"
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/02:30"
   },
   {
     "titulo": "El Chavo / Pretendiendo a don Ramón",
@@ -1233,15 +1238,5 @@
     "titulo": "Veredicto final",
     "sta": "2026-11-08/04:00",
     "end": "2026-11-08/05:00"
-  },
-  {
-    "titulo": "Hablando de Salud",
-    "sta": "2026-11-08/05:00",
-    "end": "2026-11-08/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/05:30",
-    "end": "2026-11-08/06:00"
   }
 ]
