@@ -14,7 +14,7 @@ import sys
 
 TZ = ZoneInfo("America/Mexico_City")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-OUTPUT_FILE = "azteca-unoee.json"
+OUTPUT_FILE = "azte22ca-une32222o.json"
 
 def fetch(url: str) -> str:
     print(f"Descargando {url}...", file=sys.stderr)
