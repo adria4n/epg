@@ -13,7 +13,7 @@ import sys
 
 BASE_URL = "https://www.gatotv.com/canal/azteca_uno"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno.json"
+OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def fetch_page(date_str: str) -> str:
