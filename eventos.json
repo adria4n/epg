@@ -16,9 +16,19 @@
     "end": "2026-10-31/00:30:00"
   },
   {
+    "titulo": "Azteca 7 Monterrey",
+    "sta": "2026-10-31/00:30:00",
+    "end": "2026-10-31/07:00:00"
+  },
+  {
     "titulo": "INFO7 Fin de Semana",
     "sta": "2026-10-31/07:00:00",
     "end": "2026-10-31/09:00:00"
+  },
+  {
+    "titulo": "Azteca 7 Monterrey",
+    "sta": "2026-10-31/09:00:00",
+    "end": "2026-10-31/13:45:00"
   },
   {
     "titulo": "Box diamante Munguía vs. Nikitta",
@@ -31,7 +41,7 @@
     "end": "2026-10-31/16:15:00"
   },
   {
-    "titulo": "Cambio de Señal a Telemundo",
+    "titulo": "Telemundo 40",
     "sta": "2026-10-31/16:15:00",
     "end": "2026-10-31/19:07:00"
   },
@@ -41,7 +51,7 @@
     "end": "2026-10-31/21:07:00"
   },
   {
-    "titulo": "Programacion Telemundo",
+    "titulo": "Programacion Telemundo 40",
     "sta": "2026-10-31/21:07:00",
     "end": "2026-11-01/00:00:00"
   },
