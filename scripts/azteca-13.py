@@ -26,6 +26,7 @@ def parse_items(html: str, day: datetime) -> list[dict]:
     )
     
     programs = []
+    switched = False
     
     for match in pattern.finditer(html):
         start_hms, end_hms, title = match.groups()
@@ -37,9 +38,10 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             sh, sm = map(int, start_hms.split(":"))
             eh, em = map(int, end_hms.split(":"))
             
-            program_day = day
-            if sh >= 20:
-                program_day = day - timedelta(days=1)
+            if not switched and sh < 12:
+                switched = True
+            
+            program_day = day if switched else day - timedelta(days=1)
             
             start = program_day.replace(hour=sh, minute=sm, second=0, microsecond=0)
             end = program_day.replace(hour=eh, minute=em, second=0, microsecond=0)
