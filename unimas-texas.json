@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "El Chavo Animado / El partido de fútbol",
+    "sta": "2026-10-30/05:00",
+    "end": "2026-10-30/05:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Como de película",
+    "sta": "2026-10-30/05:30",
+    "end": "2026-10-30/06:00"
+  },
+  {
+    "titulo": "Vecinos / Navidad en primavera",
+    "sta": "2026-10-30/06:00",
+    "end": "2026-10-30/06:30"
+  },
+  {
+    "titulo": "Vecinos / Nueva chamba",
+    "sta": "2026-10-30/06:30",
+    "end": "2026-10-30/07:00"
+  },
+  {
     "titulo": "El Chapulín Colorado / Los bebés ya no vienen de París, ahora vienen de Júpiter",
     "sta": "2026-10-30/07:00",
     "end": "2026-10-30/07:30"
@@ -60,7 +80,7 @@
     "end": "2026-10-30/17:00"
   },
   {
-    "titulo": "¿Quién caerá?",
+    "titulo": "¿Quién caerá? / Final espectacular",
     "sta": "2026-10-30/17:00",
     "end": "2026-10-30/18:00"
   },
@@ -236,18 +256,23 @@
   },
   {
     "titulo": "Movie / Day Zero",
-    "sta": "2026-11-01/01:00",
-    "end": "2026-11-01/02:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/02:00",
-    "end": "2026-11-01/02:30"
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/01:30"
   },
   {
     "titulo": "El Chavo / Pretendiendo a don Ramón",
     "sta": "2026-11-01/02:30",
     "end": "2026-11-01/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/03:00",
+    "end": "2026-11-01/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/03:30",
+    "end": "2026-11-01/04:00"
   },
   {
     "titulo": "Veredicto final",
@@ -1218,25 +1243,5 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-08/05:30",
     "end": "2026-11-08/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/06:00",
-    "end": "2026-11-08/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/06:30",
-    "end": "2026-11-08/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/07:00",
-    "end": "2026-11-08/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/07:30",
-    "end": "2026-11-08/08:00"
   }
 ]
