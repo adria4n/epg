@@ -1,9 +1,12 @@
 
 [
-  {
-    "titulo": "Futbol Mexicano Primera División / T2026 Juárez vs. Querétaro",
-    "sta": "2026-10-30/18:45",
-    "end": "2026-10-30/21:00"
+ {
+  "titulo": "Futbol Mexicano Primera División / T2026 Juárez vs. Querétaro",
+  "sta": "2026-10-30/18:45",
+  "end": "2026-10-30/21:00",
+  "url": "/out/u/dash/CJS1/Azteca-7-HD/default.mpd",
+  "kid": "8b89e4ce7607ffac0c9fa492a5ebce9c",
+  "key": "c42307de187689a6116c0cb0a3da62d8"
   },
   {
     "titulo": "Futbol Mexicano Primera División / T2026 Puebla vs. Pumas UNAM",
