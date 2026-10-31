@@ -64,8 +64,8 @@ def parse_items(html: str, page_tz: ZoneInfo) -> list[dict]:
 
         programs.append({
             "titulo": title,
-            "sta": start.strftime("%Y-%m-%d/%H:%M:%S"),
-            "end": end.strftime("%Y-%m-%d/%H:%M:%S"),
+            "sta": start.strftime("%Y-%m-%d/%H:%M"),
+            "end": end.strftime("%Y-%m-%d/%H:%M"),
         })
 
     return programs
