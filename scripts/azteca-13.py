@@ -10,7 +10,7 @@ import sys
 CHANNEL = "azteca-13"
 BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno.json"
+OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 UTC_OFFSET = -360
 
@@ -22,12 +22,8 @@ def fetch_page(date_str: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_time(t: str) -> tuple[int, int]:
-    """Acepta '08:00', '8:00', '20:30', etc."""
-    t = t.strip()
-    parts = t.split(":")
-    hour = int(parts[0])
-    minute = int(parts[1]) if len(parts) > 1 else 0
-    return hour, minute
+    parts = t.strip().split(":")
+    return int(parts[0]), int(parts[1]) if len(parts) > 1 else 0
 
 def parse_items(html: str, day: datetime) -> list[dict]:
     times = re.findall(r'<span class="time">\s*([^<]+?)\s*</span>', html)
@@ -41,8 +37,7 @@ def parse_items(html: str, day: datetime) -> list[dict]:
             hour, minute = parse_time(t)
             start = current_day.replace(hour=hour, minute=minute, second=0, microsecond=0)
 
-            # Cruce de medianoche: la hora baja bruscamente
-            if prev_hour >= 0 and hour < prev_hour - 6:
+            if prev_hour >= 0 and hour < 6 and prev_hour >= 20:
                 start += timedelta(days=1)
                 current_day = start
 
@@ -59,7 +54,6 @@ def parse_items(html: str, day: datetime) -> list[dict]:
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
-
             prev_hour = hour
         except Exception:
             continue
@@ -69,7 +63,6 @@ def parse_items(html: str, day: datetime) -> list[dict]:
 def main():
     all_programs = []
     today = datetime.now(TZ).date()
-
     for i in range(-1, 7):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
@@ -87,7 +80,6 @@ def main():
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
-
     print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
 
 if __name__ == "__main__":
