@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 import sys
 
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno.json"
+OUTPUT_FILE = "azteca-13.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE = "https://www.formulatv.com/mx/programacion/canal-azteca-uno"
 
