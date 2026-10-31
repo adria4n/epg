@@ -7,52 +7,60 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
-CHANNEL_SLUG = "azteca_uno"
-BASE_URL = f"https://www.gatotv.com/canal/{CHANNEL_SLUG}"
+CHANNEL = "azteca-13"
+BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-13.json"
+OUTPUT_FILE = "azteca-uno.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+UTC_OFFSET = -360
 
-def fetch_page(date_str: str | None = None) -> str:
-    url = BASE_URL if not date_str else f"{BASE_URL}/{date_str}"
+def fetch_page(date_str: str) -> str:
+    url = f"{BASE_URL}/{date_str}/{UTC_OFFSET}"
     print(f"Descargando {url}...", file=sys.stderr)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
+def parse_time(t: str) -> tuple[int, int]:
+    """Acepta '08:00', '8:00', '20:30', etc."""
+    t = t.strip()
+    parts = t.split(":")
+    hour = int(parts[0])
+    minute = int(parts[1]) if len(parts) > 1 else 0
+    return hour, minute
+
 def parse_items(html: str, day: datetime) -> list[dict]:
-    pattern = re.compile(
-        r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
-        r'<time datetime="(\d{2}:\d{2})"[^>]*>.*?</time>.*?'
-        r'<div class="div_program_title_on_channel">\s*<span>([^<]+)</span>',
-        re.DOTALL | re.IGNORECASE
-    )
-
+    times = re.findall(r'<span class="time">\s*([^<]+?)\s*</span>', html)
+    titles = re.findall(r'<h2>\s*([^<]+?)\s*</h2>', html)
     programs = []
-    page_date = day.date()
+    current_day = day
+    prev_hour = -1
 
-    for match in pattern.finditer(html):
-        start_hm, end_hm, title = match.groups()
+    for i, (t, title) in enumerate(zip(times, titles)):
         try:
-            sh, sm = map(int, start_hm.split(":"))
-            eh, em = map(int, end_hm.split(":"))
+            hour, minute = parse_time(t)
+            start = current_day.replace(hour=hour, minute=minute, second=0, microsecond=0)
 
-            # ≥20:00 pertenece al día anterior de la página
-            start_date = page_date - timedelta(days=1) if sh >= 20 else page_date
+            # Cruce de medianoche: la hora baja bruscamente
+            if prev_hour >= 0 and hour < prev_hour - 6:
+                start += timedelta(days=1)
+                current_day = start
 
-            start = datetime(start_date.year, start_date.month, start_date.day,
-                             sh, sm, tzinfo=TZ)
-            end = datetime(start_date.year, start_date.month, start_date.day,
-                           eh, em, tzinfo=TZ)
-
-            if end <= start:
-                end += timedelta(days=1)
+            if i + 1 < len(times):
+                next_h, next_m = parse_time(times[i + 1])
+                end = current_day.replace(hour=next_h, minute=next_m, second=0, microsecond=0)
+                if end <= start:
+                    end += timedelta(days=1)
+            else:
+                end = start + timedelta(minutes=60)
 
             programs.append({
                 "titulo": title.strip(),
                 "sta": start.strftime("%Y-%m-%d/%H:%M"),
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
+
+            prev_hour = hour
         except Exception:
             continue
 
@@ -66,7 +74,7 @@ def main():
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
-            html = fetch_page(date_str if i != 0 else None)
+            html = fetch_page(date_str)
             progs = parse_items(html, datetime.combine(d, datetime.min.time(), tzinfo=TZ))
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
