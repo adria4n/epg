@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "Pawn Stars / Chummobile",
-    "sta": "2026-10-31/04:00",
-    "end": "2026-10-31/04:30"
-  },
-  {
-    "titulo": "iCRIME With Elizabeth Vargas",
-    "sta": "2026-10-31/04:30",
-    "end": "2026-10-31/05:00"
-  },
-  {
     "titulo": "Paid Programming",
     "sta": "2026-10-31/05:00",
     "end": "2026-10-31/05:30"
@@ -85,19 +75,14 @@
     "end": "2026-11-01/00:00"
   },
   {
+    "titulo": "Last Man Standing / Bride of Prankenstein",
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/00:30"
+  },
+  {
     "titulo": "Last Man Standing / Grill in the Mist",
-    "sta": "2026-10-31/23:30",
-    "end": "2026-11-01/00:00"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-01/01:00",
-    "end": "2026-11-01/01:30"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-01/01:30",
-    "end": "2026-11-01/02:00"
+    "sta": "2026-11-01/00:30",
+    "end": "2026-11-01/01:00"
   },
   {
     "titulo": "Top 10 / Top 100 Weather Moments #80-61",
@@ -1538,5 +1523,15 @@
     "titulo": "Paid Programming",
     "sta": "2026-11-09/04:30",
     "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/05:30"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-09/05:30",
+    "end": "2026-11-09/06:00"
   }
 ]

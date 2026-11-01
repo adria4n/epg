@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "The VeryVera Show",
-    "sta": "2026-10-31/04:00",
-    "end": "2026-10-31/04:30"
-  },
-  {
-    "titulo": "Spanish Fly: The Next Generation",
-    "sta": "2026-10-31/04:30",
-    "end": "2026-10-31/05:00"
-  },
-  {
     "titulo": "Texans Playbook",
     "sta": "2026-10-31/05:00",
     "end": "2026-10-31/06:00"
@@ -115,14 +105,14 @@
     "end": "2026-11-01/00:05"
   },
   {
-    "titulo": "Texas Country Reporter",
-    "sta": "2026-10-31/23:35",
-    "end": "2026-11-01/00:05"
+    "titulo": "Jeopardy!",
+    "sta": "2026-11-01/00:05",
+    "end": "2026-11-01/00:35"
   },
   {
-    "titulo": "To Be Announced",
-    "sta": "2026-11-01/01:05",
-    "end": "2026-11-01/02:05"
+    "titulo": "Texas Country Reporter",
+    "sta": "2026-11-01/00:35",
+    "end": "2026-11-01/01:05"
   },
   {
     "titulo": "Everyday Heroes",
@@ -1228,5 +1218,10 @@
     "titulo": "CBS News Mornings",
     "sta": "2026-11-09/04:30",
     "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/07:00"
   }
 ]
