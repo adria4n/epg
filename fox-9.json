@@ -1,45 +1,5 @@
 [
   {
-    "titulo": "Chicago P.D.",
-    "sta": "2026-10-30/23:00",
-    "end": "2026-10-31/00:00"
-  },
-  {
-    "titulo": "Chicago P.D.",
-    "sta": "2026-10-31/00:00",
-    "end": "2026-10-31/01:00"
-  },
-  {
-    "titulo": "Last Man Standing / Trick or Treat",
-    "sta": "2026-10-31/01:00",
-    "end": "2026-10-31/01:30"
-  },
-  {
-    "titulo": "Modern Family / Kiss and Tell",
-    "sta": "2026-10-31/01:30",
-    "end": "2026-10-31/02:00"
-  },
-  {
-    "titulo": "The Neighborhood / Welcome to the Last Dance",
-    "sta": "2026-10-31/02:00",
-    "end": "2026-10-31/02:30"
-  },
-  {
-    "titulo": "The Goldbergs / A 100% True Ghost Story",
-    "sta": "2026-10-31/02:30",
-    "end": "2026-10-31/03:00"
-  },
-  {
-    "titulo": "The Conners / Of Missing Minds and Missing Fries",
-    "sta": "2026-10-31/03:00",
-    "end": "2026-10-31/03:30"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Aisha Alfa; Lou Santini; Steven Briggs; Paul Ogata",
-    "sta": "2026-10-31/03:30",
-    "end": "2026-10-31/04:00"
-  },
-  {
     "titulo": "Pawn Stars / Chummobile",
     "sta": "2026-10-31/04:00",
     "end": "2026-10-31/04:30"
@@ -125,14 +85,9 @@
     "end": "2026-11-01/00:00"
   },
   {
-    "titulo": "Last Man Standing / Bride of Prankenstein",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/00:30"
-  },
-  {
     "titulo": "Last Man Standing / Grill in the Mist",
-    "sta": "2026-11-01/00:30",
-    "end": "2026-11-01/01:00"
+    "sta": "2026-10-31/23:30",
+    "end": "2026-11-01/00:00"
   },
   {
     "titulo": "Paid Programming",
@@ -1543,5 +1498,45 @@
     "titulo": "Modern Family / Stand by Your Man",
     "sta": "2026-11-08/22:30",
     "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "The Big Bang Theory / The Comic-Con Conundrum",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-08/23:30"
+  },
+  {
+    "titulo": "The Big Bang Theory / The Comic-Con Conundrum",
+    "sta": "2026-11-08/23:30",
+    "end": "2026-11-09/00:00"
+  },
+  {
+    "titulo": "SOS: How to Survive / Teenage Castaways; Canyon Escape",
+    "sta": "2026-11-09/00:00",
+    "end": "2026-11-09/01:00"
+  },
+  {
+    "titulo": "Fast: Home Rescue / Mother and Son Bonding",
+    "sta": "2026-11-09/01:00",
+    "end": "2026-11-09/02:00"
+  },
+  {
+    "titulo": "Weird Earth / Breathing Forest and Blue Streaks",
+    "sta": "2026-11-09/02:00",
+    "end": "2026-11-09/03:00"
+  },
+  {
+    "titulo": "The Dr. Nandi Show",
+    "sta": "2026-11-09/03:00",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
   }
 ]

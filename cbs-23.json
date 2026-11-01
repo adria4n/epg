@@ -1,60 +1,5 @@
 [
   {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-10-30/22:37",
-    "end": "2026-10-30/23:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-10-30/23:07",
-    "end": "2026-10-30/23:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-10-30/23:37",
-    "end": "2026-10-31/00:07"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-10-31/00:07",
-    "end": "2026-10-31/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-10-31/00:37",
-    "end": "2026-10-31/01:00"
-  },
-  {
-    "titulo": "Whacked Out Sports",
-    "sta": "2026-10-31/01:00",
-    "end": "2026-10-31/01:30"
-  },
-  {
-    "titulo": "Whacked Out Sports",
-    "sta": "2026-10-31/01:30",
-    "end": "2026-10-31/02:00"
-  },
-  {
-    "titulo": "Military Makeover / Special Surprises for the Maneys",
-    "sta": "2026-10-31/02:00",
-    "end": "2026-10-31/02:30"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-10-31/02:30",
-    "end": "2026-10-31/03:00"
-  },
-  {
-    "titulo": "Teen Kids News",
-    "sta": "2026-10-31/03:00",
-    "end": "2026-10-31/03:30"
-  },
-  {
-    "titulo": "InvestigateTV+ Weekend",
-    "sta": "2026-10-31/03:30",
-    "end": "2026-10-31/04:00"
-  },
-  {
     "titulo": "The VeryVera Show",
     "sta": "2026-10-31/04:00",
     "end": "2026-10-31/04:30"
@@ -170,14 +115,9 @@
     "end": "2026-11-01/00:05"
   },
   {
-    "titulo": "Jeopardy!",
-    "sta": "2026-11-01/00:05",
-    "end": "2026-11-01/00:35"
-  },
-  {
     "titulo": "Texas Country Reporter",
-    "sta": "2026-11-01/00:35",
-    "end": "2026-11-01/01:05"
+    "sta": "2026-10-31/23:35",
+    "end": "2026-11-01/00:05"
   },
   {
     "titulo": "To Be Announced",
@@ -1263,5 +1203,30 @@
     "titulo": "Inside Valley Politics",
     "sta": "2026-11-08/22:30",
     "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "State of Texas",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-08/23:30"
+  },
+  {
+    "titulo": "Blue Bloods / Legacy",
+    "sta": "2026-11-08/23:30",
+    "end": "2026-11-09/00:30"
+  },
+  {
+    "titulo": "Blue Bloods / Tale of Two Cities",
+    "sta": "2026-11-09/00:30",
+    "end": "2026-11-09/01:30"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-09/01:30",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
   }
 ]

@@ -1,5 +1,90 @@
 [
   {
+    "titulo": "El Chapulín Colorado",
+    "sta": "2026-10-31/06:00",
+    "end": "2026-10-31/07:15"
+  },
+  {
+    "titulo": "Cuéntamelo ya, al fin",
+    "sta": "2026-10-31/07:15",
+    "end": "2026-10-31/09:00"
+  },
+  {
+    "titulo": "Gran desfile de Día de Muertos 2026",
+    "sta": "2026-10-31/09:00",
+    "end": "2026-10-31/11:00"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-10-31/11:00",
+    "end": "2026-10-31/13:00"
+  },
+  {
+    "titulo": "La rosa de Guadalupe, relatos de impacto",
+    "sta": "2026-10-31/13:00",
+    "end": "2026-10-31/14:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-10-31/14:30",
+    "end": "2026-10-31/19:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-10-31/19:00",
+    "end": "2026-10-31/21:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-10-31/21:00",
+    "end": "2026-11-01/00:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/00:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/00:30",
+    "end": "2026-11-01/01:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/01:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/01:30",
+    "end": "2026-11-01/02:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/02:00",
+    "end": "2026-11-01/02:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/02:30",
+    "end": "2026-11-01/03:00"
+  },
+  {
+    "titulo": "Especial de RTC",
+    "sta": "2026-11-01/03:00",
+    "end": "2026-11-01/03:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/03:30",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/04:30"
+  },
+  {
     "titulo": "Papá soltero",
     "sta": "2026-11-01/06:00",
     "end": "2026-11-01/07:00"
@@ -333,6 +418,136 @@
     "titulo": "Farmacias similares",
     "sta": "2026-11-04/05:30",
     "end": "2026-11-04/06:30"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-11-04/06:00",
+    "end": "2026-11-04/07:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/08:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/09:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-11-04/09:00",
+    "end": "2026-11-04/12:00"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-11-04/12:00",
+    "end": "2026-11-04/13:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-11-04/13:30",
+    "end": "2026-11-04/14:30"
+  },
+  {
+    "titulo": "El Chavo",
+    "sta": "2026-11-04/14:30",
+    "end": "2026-11-04/16:30"
+  },
+  {
+    "titulo": "Mi corazón es tuyo",
+    "sta": "2026-11-04/16:30",
+    "end": "2026-11-04/18:30"
+  },
+  {
+    "titulo": "Infinito amor",
+    "sta": "2026-11-04/18:30",
+    "end": "2026-11-04/19:30"
+  },
+  {
+    "titulo": "La rosa de Guadalupe",
+    "sta": "2026-11-04/19:30",
+    "end": "2026-11-04/20:30"
+  },
+  {
+    "titulo": "Sabor a ti, entre historias y secretos",
+    "sta": "2026-11-04/20:30",
+    "end": "2026-11-04/21:30"
+  },
+  {
+    "titulo": "Tierra de amor y coraje",
+    "sta": "2026-11-04/21:30",
+    "end": "2026-11-04/22:30"
+  },
+  {
+    "titulo": "En punto con Enrique Acevedo",
+    "sta": "2026-11-04/22:30",
+    "end": "2026-11-04/23:00"
+  },
+  {
+    "titulo": "Tercer grado",
+    "sta": "2026-11-04/23:00",
+    "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "Iglesia universal del Reino de Dios - Oración fuerte al Espíritu Santo",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/00:30"
+  },
+  {
+    "titulo": "Iglesia universal del Reino de Dios - Oración fuerte al Espíritu Santo",
+    "sta": "2026-11-05/00:30",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/01:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/01:30",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/02:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-05/02:30",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Crónicas",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Especial de RTC",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/05:30"
+  },
+  {
+    "titulo": "Farmacias similares",
+    "sta": "2026-11-05/05:30",
+    "end": "2026-11-05/06:30"
   },
   {
     "titulo": "Las noticias",
