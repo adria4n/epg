@@ -1078,5 +1078,140 @@
     "titulo": "Veredicto final",
     "sta": "2026-11-08/04:00",
     "end": "2026-11-08/05:00"
+  },
+  {
+    "titulo": "Hablando de Salud",
+    "sta": "2026-11-08/05:00",
+    "end": "2026-11-08/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/05:30",
+    "end": "2026-11-08/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/06:00",
+    "end": "2026-11-08/06:30"
+  },
+  {
+    "titulo": "La Dr. Polo vida sin límites",
+    "sta": "2026-11-08/06:30",
+    "end": "2026-11-08/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/07:00",
+    "end": "2026-11-08/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/07:30",
+    "end": "2026-11-08/08:00"
+  },
+  {
+    "titulo": "El que sabe, sabe / ¡El camino de Oregón, la edad de hielo, recuerdos!",
+    "sta": "2026-11-08/08:00",
+    "end": "2026-11-08/08:30"
+  },
+  {
+    "titulo": "El que sabe, sabe / ¡La ciencia detrás del miedo, el Big Bang, el Himalaya!",
+    "sta": "2026-11-08/08:30",
+    "end": "2026-11-08/09:00"
+  },
+  {
+    "titulo": "El mundo es tuyo / De punto a punto",
+    "sta": "2026-11-08/09:00",
+    "end": "2026-11-08/09:30"
+  },
+  {
+    "titulo": "El mundo es tuyo / Volando por el mundo",
+    "sta": "2026-11-08/09:30",
+    "end": "2026-11-08/10:00"
+  },
+  {
+    "titulo": "Ranger Rob / Misión nido en Big Sky Park; Paseo con bastón en Big Sky Park",
+    "sta": "2026-11-08/10:00",
+    "end": "2026-11-08/10:30"
+  },
+  {
+    "titulo": "Ranger Rob / Veo veo en Big Sky Park; Dilema equino en Big Sky Park",
+    "sta": "2026-11-08/10:30",
+    "end": "2026-11-08/11:00"
+  },
+  {
+    "titulo": "La CQ: Nuevo ingreso / Abuget",
+    "sta": "2026-11-08/11:00",
+    "end": "2026-11-08/11:30"
+  },
+  {
+    "titulo": "La CQ: Nuevo ingreso / Y doña Quique baila así",
+    "sta": "2026-11-08/11:30",
+    "end": "2026-11-08/12:00"
+  },
+  {
+    "titulo": "El Chavo / El cumpleaños del profesor Jirafales",
+    "sta": "2026-11-08/12:00",
+    "end": "2026-11-08/12:30"
+  },
+  {
+    "titulo": "Movie / Sharpshooter",
+    "sta": "2026-11-08/12:30",
+    "end": "2026-11-08/14:00"
+  },
+  {
+    "titulo": "Movie / Bad Ass",
+    "sta": "2026-11-08/14:00",
+    "end": "2026-11-08/16:00"
+  },
+  {
+    "titulo": "Movie / Accident Man",
+    "sta": "2026-11-08/16:00",
+    "end": "2026-11-08/18:00"
+  },
+  {
+    "titulo": "Movie / Hunt the Wicked",
+    "sta": "2026-11-08/18:00",
+    "end": "2026-11-08/20:00"
+  },
+  {
+    "titulo": "Movie / Mechanic: Resurrection",
+    "sta": "2026-11-08/20:00",
+    "end": "2026-11-08/22:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / De torpe, Chapulín y loco, todos tenemos un poco",
+    "sta": "2026-11-08/22:00",
+    "end": "2026-11-08/22:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Al robot se le infectaron los transistores",
+    "sta": "2026-11-08/22:30",
+    "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "Movie / Mechanic: Resurrection",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-09/01:00"
+  },
+  {
+    "titulo": "Movie / Accident Man",
+    "sta": "2026-11-09/01:00",
+    "end": "2026-11-09/03:00"
+  },
+  {
+    "titulo": "La Dr. Polo vida sin límites",
+    "sta": "2026-11-09/03:00",
+    "end": "2026-11-09/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/03:30",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/05:00"
   }
 ]

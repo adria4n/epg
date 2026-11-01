@@ -1,81 +1,6 @@
 [
   {
     "titulo": "Fútbol Americano Universitario de México",
-    "sta": "2026-10-30/01:00",
-    "end": "2026-10-30/04:00"
-  },
-  {
-    "titulo": "TNA iMPACT!",
-    "sta": "2026-10-30/04:00",
-    "end": "2026-10-30/06:00"
-  },
-  {
-    "titulo": "Noticias Claro",
-    "sta": "2026-10-30/06:00",
-    "end": "2026-10-30/08:00"
-  },
-  {
-    "titulo": "Fit for life",
-    "sta": "2026-10-30/08:00",
-    "end": "2026-10-30/08:30"
-  },
-  {
-    "titulo": "Fit for life",
-    "sta": "2026-10-30/08:30",
-    "end": "2026-10-30/09:00"
-  },
-  {
-    "titulo": "Peloteando",
-    "sta": "2026-10-30/09:00",
-    "end": "2026-10-30/11:00"
-  },
-  {
-    "titulo": "De la Pista a la Cancha",
-    "sta": "2026-10-30/11:00",
-    "end": "2026-10-30/13:00"
-  },
-  {
-    "titulo": "Checo: Never give up",
-    "sta": "2026-10-30/13:00",
-    "end": "2026-10-30/14:00"
-  },
-  {
-    "titulo": "Fútbol Portugués Primeira Liga",
-    "sta": "2026-10-30/14:00",
-    "end": "2026-10-30/16:15"
-  },
-  {
-    "titulo": "Claro Sports en W Radio",
-    "sta": "2026-10-30/16:15",
-    "end": "2026-10-30/17:00"
-  },
-  {
-    "titulo": "Deportes en Claro",
-    "sta": "2026-10-30/17:00",
-    "end": "2026-10-30/18:00"
-  },
-  {
-    "titulo": "Playbook",
-    "sta": "2026-10-30/18:00",
-    "end": "2026-10-30/19:00"
-  },
-  {
-    "titulo": "Fútbol Americano Universitario de México",
-    "sta": "2026-10-30/19:00",
-    "end": "2026-10-30/22:00"
-  },
-  {
-    "titulo": "Deportes en Claro",
-    "sta": "2026-10-30/22:00",
-    "end": "2026-10-30/23:00"
-  },
-  {
-    "titulo": "Jugando Claro",
-    "sta": "2026-10-30/23:00",
-    "end": "2026-10-31/00:00"
-  },
-  {
-    "titulo": "Fútbol Americano Universitario de México",
     "sta": "2026-10-31/00:00",
     "end": "2026-10-31/03:00"
   },
@@ -363,5 +288,90 @@
     "titulo": "Deportes en Claro",
     "sta": "2026-11-02/23:00",
     "end": "2026-11-03/00:00"
+  },
+  {
+    "titulo": "Fútbol Griego Superliga",
+    "sta": "2026-11-03/00:00",
+    "end": "2026-11-03/02:00"
+  },
+  {
+    "titulo": "Fútbol",
+    "sta": "2026-11-03/02:00",
+    "end": "2026-11-03/04:00"
+  },
+  {
+    "titulo": "TNA iMPACT!",
+    "sta": "2026-11-03/04:00",
+    "end": "2026-11-03/06:00"
+  },
+  {
+    "titulo": "Noticias Claro",
+    "sta": "2026-11-03/06:00",
+    "end": "2026-11-03/08:00"
+  },
+  {
+    "titulo": "Fit for life",
+    "sta": "2026-11-03/08:00",
+    "end": "2026-11-03/08:30"
+  },
+  {
+    "titulo": "Fit for life",
+    "sta": "2026-11-03/08:30",
+    "end": "2026-11-03/09:00"
+  },
+  {
+    "titulo": "Peloteando",
+    "sta": "2026-11-03/09:00",
+    "end": "2026-11-03/11:00"
+  },
+  {
+    "titulo": "TNA iMPACT!",
+    "sta": "2026-11-03/11:00",
+    "end": "2026-11-03/12:00"
+  },
+  {
+    "titulo": "Juegos Olímpicos de la Juventud Dakar 2026",
+    "sta": "2026-11-03/12:00",
+    "end": "2026-11-03/14:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-03/14:00",
+    "end": "2026-11-03/15:00"
+  },
+  {
+    "titulo": "Claro Sports en W Radio",
+    "sta": "2026-11-03/15:00",
+    "end": "2026-11-03/17:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-03/17:00",
+    "end": "2026-11-03/18:00"
+  },
+  {
+    "titulo": "Playbook",
+    "sta": "2026-11-03/18:00",
+    "end": "2026-11-03/19:00"
+  },
+  {
+    "titulo": "UEFA Europa & Conference League Magazine",
+    "sta": "2026-11-03/19:00",
+    "end": "2026-11-03/20:00"
+  },
+  {
+    "titulo": "Deportes en Claro",
+    "sta": "2026-11-03/20:00",
+    "end": "2026-11-03/21:00"
+  },
+  {
+    "titulo": "As en W",
+    "sta": "2026-11-03/21:00",
+    "end": "2026-11-03/22:00"
+  },
+  {
+    "titulo": "Jugando Claro",
+    "sta": "2026-11-03/22:00",
+    "end": "2026-11-03/23:00"
   }
 ]
