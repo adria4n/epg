@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Military Makeover / Special Surprises for the Maneys",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/05:30"
+  },
+  {
+    "titulo": "Everyday Heroes",
+    "sta": "2026-11-01/05:30",
+    "end": "2026-11-01/06:00"
+  },
+  {
+    "titulo": "Daily Living with Father Chapin",
+    "sta": "2026-11-01/06:00",
+    "end": "2026-11-01/06:30"
+  },
+  {
+    "titulo": "Catholic Mass",
+    "sta": "2026-11-01/06:30",
+    "end": "2026-11-01/07:00"
+  },
+  {
     "titulo": "Dr. Chris: Pet Vet / Napolean Bone-apart",
     "sta": "2026-11-01/07:00",
     "end": "2026-11-01/07:30"
@@ -1053,10 +1073,5 @@
     "titulo": "CBS News Mornings",
     "sta": "2026-11-09/04:30",
     "end": "2026-11-09/05:00"
-  },
-  {
-    "titulo": "CBS4 Morning News",
-    "sta": "2026-11-09/05:00",
-    "end": "2026-11-09/07:00"
   }
 ]
