@@ -2,11 +2,7 @@ name: Actualizar programaciones
 
 on:
   schedule:
-    - cron: "0 6 * * *"
-    - cron: "0 9 * * *"
-    - cron: "0 12 * * *"
-    - cron: "0 15 * * *"
-    - cron: "0 18 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
