@@ -49,9 +49,12 @@ def parse_items(html: str, page_tz: ZoneInfo) -> list[dict]:
         if not start_raw or not show:
             continue
 
-        title = show
-        if episode:
+        if show.lower() == "movie" and episode:
+            title = episode
+        elif episode:
             title = f"{show} / {episode}"
+        else:
+            title = show
 
         try:
             start_naive = datetime.strptime(start_raw, "%Y-%m-%d %H:%M:%S")
