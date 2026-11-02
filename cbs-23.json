@@ -1,55 +1,5 @@
 [
   {
-    "titulo": "The Equalizer / The People Aren't Ready",
-    "sta": "2026-10-31/23:05",
-    "end": "2026-11-01/00:05"
-  },
-  {
-    "titulo": "Jeopardy!",
-    "sta": "2026-11-01/00:05",
-    "end": "2026-11-01/00:35"
-  },
-  {
-    "titulo": "Texas Country Reporter",
-    "sta": "2026-11-01/00:35",
-    "end": "2026-11-01/01:05"
-  },
-  {
-    "titulo": "To Be Announced",
-    "sta": "2026-11-01/01:05",
-    "end": "2026-11-01/02:05"
-  },
-  {
-    "titulo": "Everyday Heroes",
-    "sta": "2026-11-01/02:05",
-    "end": "2026-11-01/02:35"
-  },
-  {
-    "titulo": "Expedition Texas",
-    "sta": "2026-11-01/02:35",
-    "end": "2026-11-01/03:05"
-  },
-  {
-    "titulo": "Judge Judy / Bicyclist Lands on Head!; Chicken Coop Massacre!; Kicked Out Before Moving In?",
-    "sta": "2026-11-01/03:05",
-    "end": "2026-11-01/03:35"
-  },
-  {
-    "titulo": "Judge Judy / Don't Flirt With the Judge!; Crash on a Commune!",
-    "sta": "2026-11-01/03:35",
-    "end": "2026-11-01/04:05"
-  },
-  {
-    "titulo": "Expedition Texas",
-    "sta": "2026-11-01/04:05",
-    "end": "2026-11-01/04:35"
-  },
-  {
-    "titulo": "Sport Fishing TV: State of the Ocean",
-    "sta": "2026-11-01/04:35",
-    "end": "2026-11-01/05:00"
-  },
-  {
     "titulo": "Military Makeover / Special Surprises for the Maneys",
     "sta": "2026-11-01/05:00",
     "end": "2026-11-01/05:30"
@@ -1248,5 +1198,25 @@
     "titulo": "Funny You Should Ask",
     "sta": "2026-11-09/23:37",
     "end": "2026-11-10/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-10/00:07",
+    "end": "2026-11-10/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-10/00:37",
+    "end": "2026-11-10/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-10/01:07",
+    "end": "2026-11-10/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-10/04:30",
+    "end": "2026-11-10/05:00"
   }
 ]

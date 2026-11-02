@@ -1,20 +1,5 @@
 [
   {
-    "titulo": "Mi querido viejo",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/02:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Me dejaron por fea",
-    "sta": "2026-11-01/02:00",
-    "end": "2026-11-01/03:00"
-  },
-  {
-    "titulo": "El desconocido",
-    "sta": "2026-11-01/03:00",
-    "end": "2026-11-01/05:00"
-  },
-  {
     "titulo": "Caso cerrado / La tribu",
     "sta": "2026-11-01/05:00",
     "end": "2026-11-01/05:30"
@@ -1178,5 +1163,35 @@
     "titulo": "Noticias Telemundo en la noche",
     "sta": "2026-11-09/23:35",
     "end": "2026-11-10/00:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-10/00:00",
+    "end": "2026-11-10/00:30"
+  },
+  {
+    "titulo": "Eres mi luz / Un nuevo comienzo",
+    "sta": "2026-11-10/00:30",
+    "end": "2026-11-10/01:30"
+  },
+  {
+    "titulo": "Caso cerrado / Homoparental",
+    "sta": "2026-11-10/01:30",
+    "end": "2026-11-10/02:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-10/02:00",
+    "end": "2026-11-10/03:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-10/03:00",
+    "end": "2026-11-10/04:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-10/04:00",
+    "end": "2026-11-10/05:00"
   }
 ]

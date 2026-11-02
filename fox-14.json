@@ -1,55 +1,5 @@
 [
   {
-    "titulo": "America's Funniest Home Videos",
-    "sta": "2026-10-31/23:35",
-    "end": "2026-11-01/00:05"
-  },
-  {
-    "titulo": "Two and a Half Men / Hi, Mr. Horned One",
-    "sta": "2026-11-01/00:05",
-    "end": "2026-11-01/00:35"
-  },
-  {
-    "titulo": "Two and a Half Men / That Darn Priest",
-    "sta": "2026-11-01/00:35",
-    "end": "2026-11-01/01:05"
-  },
-  {
-    "titulo": "American Mayhem",
-    "sta": "2026-11-01/01:05",
-    "end": "2026-11-01/01:35"
-  },
-  {
-    "titulo": "American Mayhem",
-    "sta": "2026-11-01/01:35",
-    "end": "2026-11-01/02:05"
-  },
-  {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-01/02:05",
-    "end": "2026-11-01/03:05"
-  },
-  {
-    "titulo": "Everyday Heroes",
-    "sta": "2026-11-01/03:05",
-    "end": "2026-11-01/03:35"
-  },
-  {
-    "titulo": "Taste Buds With Stephanie / Craft Cocktails and Whiskey Ribeye Steak",
-    "sta": "2026-11-01/03:35",
-    "end": "2026-11-01/04:03"
-  },
-  {
-    "titulo": "LOST IN / Stowe, VT - Where the Mountains Meet the Sky",
-    "sta": "2026-11-01/04:03",
-    "end": "2026-11-01/04:31"
-  },
-  {
-    "titulo": "She's in the Game",
-    "sta": "2026-11-01/04:31",
-    "end": "2026-11-01/05:00"
-  },
-  {
     "titulo": "RaceWeek",
     "sta": "2026-11-01/05:00",
     "end": "2026-11-01/05:30"
@@ -1458,5 +1408,55 @@
     "titulo": "Extra",
     "sta": "2026-11-09/23:35",
     "end": "2026-11-10/00:05"
+  },
+  {
+    "titulo": "iCRIME With Elizabeth Vargas / Kansas Officer Shooting After Traffic Stop; Car Drives Into Dollar Tree",
+    "sta": "2026-11-10/00:05",
+    "end": "2026-11-10/00:35"
+  },
+  {
+    "titulo": "Live PD Presents",
+    "sta": "2026-11-10/00:35",
+    "end": "2026-11-10/01:05"
+  },
+  {
+    "titulo": "Crime Exposé With Nancy O'Dell",
+    "sta": "2026-11-10/01:05",
+    "end": "2026-11-10/01:35"
+  },
+  {
+    "titulo": "The Simpsons / Bad Boys... For Life?",
+    "sta": "2026-11-10/01:35",
+    "end": "2026-11-10/02:05"
+  },
+  {
+    "titulo": "The Simpsons / Hardly Kirk-ing",
+    "sta": "2026-11-10/02:05",
+    "end": "2026-11-10/02:33"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-10/02:33",
+    "end": "2026-11-10/03:03"
+  },
+  {
+    "titulo": "Two and a Half Men / That Old Hose Bag Is My Mother",
+    "sta": "2026-11-10/03:03",
+    "end": "2026-11-10/03:32"
+  },
+  {
+    "titulo": "Hot Bench / Breast Intentions",
+    "sta": "2026-11-10/03:32",
+    "end": "2026-11-10/04:02"
+  },
+  {
+    "titulo": "Cutlers Court / Ballinger vs. Johnson",
+    "sta": "2026-11-10/04:02",
+    "end": "2026-11-10/04:31"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Millennial & Gen Z Money; Common Cents Investing",
+    "sta": "2026-11-10/04:31",
+    "end": "2026-11-10/05:00"
   }
 ]
