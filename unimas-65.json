@@ -1,0 +1,1192 @@
+[
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/06:00",
+    "end": "2026-11-01/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/06:30",
+    "end": "2026-11-01/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/07:00",
+    "end": "2026-11-01/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/07:30",
+    "end": "2026-11-01/08:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/08:00",
+    "end": "2026-11-01/08:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/08:30",
+    "end": "2026-11-01/09:00"
+  },
+  {
+    "titulo": "El que sabe, sabe / ¡Saltamontes, el Nilo, terremotos!",
+    "sta": "2026-11-01/09:00",
+    "end": "2026-11-01/09:30"
+  },
+  {
+    "titulo": "El que sabe, sabe / ¡Sabor, el pulpo, pozos de alquitrán!",
+    "sta": "2026-11-01/09:30",
+    "end": "2026-11-01/10:00"
+  },
+  {
+    "titulo": "El mundo es tuyo / El corazón de las ciudades",
+    "sta": "2026-11-01/10:00",
+    "end": "2026-11-01/10:30"
+  },
+  {
+    "titulo": "El mundo es tuyo / Derritiendo los hielos",
+    "sta": "2026-11-01/10:30",
+    "end": "2026-11-01/11:00"
+  },
+  {
+    "titulo": "Ranger Rob / Día de intercambio en Big Sky Park; Robot ranger en Big Sky Park",
+    "sta": "2026-11-01/11:00",
+    "end": "2026-11-01/11:30"
+  },
+  {
+    "titulo": "Ranger Rob / El gracioso Ogety en Big Sky Park; Almuerzo y lanzamiento en Big Sky Park",
+    "sta": "2026-11-01/11:30",
+    "end": "2026-11-01/12:00"
+  },
+  {
+    "titulo": "La CQ: Nuevo ingreso / Mi amigo secreto",
+    "sta": "2026-11-01/12:00",
+    "end": "2026-11-01/12:30"
+  },
+  {
+    "titulo": "La CQ: Nuevo ingreso / Girls just wanna have fun",
+    "sta": "2026-11-01/12:30",
+    "end": "2026-11-01/13:00"
+  },
+  {
+    "titulo": "El Chavo / Festejando el Día de la Amistad",
+    "sta": "2026-11-01/13:00",
+    "end": "2026-11-01/13:30"
+  },
+  {
+    "titulo": "The Outpost",
+    "sta": "2026-11-01/13:30",
+    "end": "2026-11-01/16:00"
+  },
+  {
+    "titulo": "The Informer",
+    "sta": "2026-11-01/16:00",
+    "end": "2026-11-01/18:30"
+  },
+  {
+    "titulo": "Diablo",
+    "sta": "2026-11-01/18:30",
+    "end": "2026-11-01/20:30"
+  },
+  {
+    "titulo": "The Grey",
+    "sta": "2026-11-01/20:30",
+    "end": "2026-11-01/23:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Después de Chapulín ahogado, tapen el pozo",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-01/23:30"
+  },
+  {
+    "titulo": "The Grey",
+    "sta": "2026-11-01/23:30",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "Diablo",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/04:00",
+    "end": "2026-11-02/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/04:30",
+    "end": "2026-11-02/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Perro fiel",
+    "sta": "2026-11-02/06:00",
+    "end": "2026-11-02/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / El Chavo y el lobo",
+    "sta": "2026-11-02/07:00",
+    "end": "2026-11-02/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Una de vaqueros",
+    "sta": "2026-11-02/07:30",
+    "end": "2026-11-02/08:00"
+  },
+  {
+    "titulo": "Vecinos / Un mes sin Luisito",
+    "sta": "2026-11-02/08:00",
+    "end": "2026-11-02/08:30"
+  },
+  {
+    "titulo": "Vecinos / El casino a go go",
+    "sta": "2026-11-02/08:30",
+    "end": "2026-11-02/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Al que de plano le tomaron el pelo fue a Sansón",
+    "sta": "2026-11-02/09:00",
+    "end": "2026-11-02/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Aunque la jaula sea de oro, no deja ser muy molesto eso de estar encerrado",
+    "sta": "2026-11-02/09:30",
+    "end": "2026-11-02/10:00"
+  },
+  {
+    "titulo": "El Chavo / Manos negras del chavo",
+    "sta": "2026-11-02/10:00",
+    "end": "2026-11-02/10:30"
+  },
+  {
+    "titulo": "El Chavo / La clase de inglés",
+    "sta": "2026-11-02/10:30",
+    "end": "2026-11-02/11:00"
+  },
+  {
+    "titulo": "Amigos por siempre / Un avión que se detiene",
+    "sta": "2026-11-02/11:00",
+    "end": "2026-11-02/12:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-02/12:00",
+    "end": "2026-11-02/13:00"
+  },
+  {
+    "titulo": "La Dueña / Tiempo juntos",
+    "sta": "2026-11-02/13:00",
+    "end": "2026-11-02/14:00"
+  },
+  {
+    "titulo": "La mentira / Reconciliación",
+    "sta": "2026-11-02/14:00",
+    "end": "2026-11-02/15:00"
+  },
+  {
+    "titulo": "Qué bonito amor",
+    "sta": "2026-11-02/15:00",
+    "end": "2026-11-02/16:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Familia unida",
+    "sta": "2026-11-02/16:00",
+    "end": "2026-11-02/17:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-02/17:00",
+    "end": "2026-11-02/18:00"
+  },
+  {
+    "titulo": "Como dice el dicho / En la guerra y en el amor todo se vale",
+    "sta": "2026-11-02/18:00",
+    "end": "2026-11-02/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-02/19:00",
+    "end": "2026-11-02/20:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-02/20:00",
+    "end": "2026-11-02/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-02/21:00",
+    "end": "2026-11-02/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-02/23:00",
+    "end": "2026-11-03/01:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-03/01:00",
+    "end": "2026-11-03/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-03/02:00",
+    "end": "2026-11-03/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-03/03:00",
+    "end": "2026-11-03/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-03/03:30",
+    "end": "2026-11-03/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-03/04:00",
+    "end": "2026-11-03/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-03/04:30",
+    "end": "2026-11-03/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-03/05:00",
+    "end": "2026-11-03/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Nada",
+    "sta": "2026-11-03/06:00",
+    "end": "2026-11-03/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / Aguas con las ranas",
+    "sta": "2026-11-03/07:00",
+    "end": "2026-11-03/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Teatro en la vecindad",
+    "sta": "2026-11-03/07:30",
+    "end": "2026-11-03/08:00"
+  },
+  {
+    "titulo": "Vecinos / Güelcome Jom",
+    "sta": "2026-11-03/08:00",
+    "end": "2026-11-03/08:30"
+  },
+  {
+    "titulo": "Vecinos / El misterioso vecino del wifi",
+    "sta": "2026-11-03/08:30",
+    "end": "2026-11-03/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Extraterrestres entre nosotros",
+    "sta": "2026-11-03/09:00",
+    "end": "2026-11-03/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Aunque el Cuajinais se Vista de Seda Mono se Queda",
+    "sta": "2026-11-03/09:30",
+    "end": "2026-11-03/10:00"
+  },
+  {
+    "titulo": "Amigos por siempre / El fantasma de Evangelina",
+    "sta": "2026-11-03/10:00",
+    "end": "2026-11-03/11:00"
+  },
+  {
+    "titulo": "Fútbol central",
+    "sta": "2026-11-03/11:00",
+    "end": "2026-11-03/11:30"
+  },
+  {
+    "titulo": "Fútbol UEFA Champions League / Galatasaray vs. VfB Stuttgart",
+    "sta": "2026-11-03/11:30",
+    "end": "2026-11-03/13:50"
+  },
+  {
+    "titulo": "Fútbol UEFA Champions League / Atlético de Madrid vs. Bayern Munich",
+    "sta": "2026-11-03/13:50",
+    "end": "2026-11-03/16:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-03/16:00",
+    "end": "2026-11-03/17:00"
+  },
+  {
+    "titulo": "La herencia / Regresa a mi vida",
+    "sta": "2026-11-03/17:00",
+    "end": "2026-11-03/18:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-03/18:00",
+    "end": "2026-11-03/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-03/19:00",
+    "end": "2026-11-03/20:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-03/20:00",
+    "end": "2026-11-03/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-03/21:00",
+    "end": "2026-11-03/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-03/23:00",
+    "end": "2026-11-04/01:00"
+  },
+  {
+    "titulo": "Como dice el dicho / Agua pasada no mueve molinos",
+    "sta": "2026-11-04/01:00",
+    "end": "2026-11-04/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-04/02:00",
+    "end": "2026-11-04/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-04/03:00",
+    "end": "2026-11-04/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-04/03:30",
+    "end": "2026-11-04/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-04/04:00",
+    "end": "2026-11-04/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-04/04:30",
+    "end": "2026-11-04/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-04/05:00",
+    "end": "2026-11-04/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Me haces tanto bien",
+    "sta": "2026-11-04/06:00",
+    "end": "2026-11-04/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / Dos mosqueteras y el Chavo",
+    "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Un día de suerte",
+    "sta": "2026-11-04/07:30",
+    "end": "2026-11-04/08:00"
+  },
+  {
+    "titulo": "Vecinos",
+    "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/08:30"
+  },
+  {
+    "titulo": "Vecinos / Maxicadena y candado",
+    "sta": "2026-11-04/08:30",
+    "end": "2026-11-04/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / El robo del anillo",
+    "sta": "2026-11-04/09:00",
+    "end": "2026-11-04/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Un difunto bastante muerto",
+    "sta": "2026-11-04/09:30",
+    "end": "2026-11-04/10:00"
+  },
+  {
+    "titulo": "Amigos por siempre / Amor de primos",
+    "sta": "2026-11-04/10:00",
+    "end": "2026-11-04/11:00"
+  },
+  {
+    "titulo": "Fútbol central",
+    "sta": "2026-11-04/11:00",
+    "end": "2026-11-04/11:30"
+  },
+  {
+    "titulo": "Fútbol UEFA Champions League / AEK vs. Real Madrid",
+    "sta": "2026-11-04/11:30",
+    "end": "2026-11-04/13:50"
+  },
+  {
+    "titulo": "Fútbol UEFA Champions League / Borussia Dortmund vs. Real Betis",
+    "sta": "2026-11-04/13:50",
+    "end": "2026-11-04/16:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-04/16:00",
+    "end": "2026-11-04/17:00"
+  },
+  {
+    "titulo": "La herencia / Julieta se encuentra acorralada",
+    "sta": "2026-11-04/17:00",
+    "end": "2026-11-04/18:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-04/18:00",
+    "end": "2026-11-04/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-04/19:00",
+    "end": "2026-11-04/20:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-04/20:00",
+    "end": "2026-11-04/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-04/21:00",
+    "end": "2026-11-04/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-04/23:00",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "Como dice el dicho / El que mucho abarca, poco aprieta",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Con los ojos cerrados",
+    "sta": "2026-11-05/06:00",
+    "end": "2026-11-05/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / La feria",
+    "sta": "2026-11-05/07:00",
+    "end": "2026-11-05/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / El valor de la amistad",
+    "sta": "2026-11-05/07:30",
+    "end": "2026-11-05/08:00"
+  },
+  {
+    "titulo": "Vecinos / Germán Colón",
+    "sta": "2026-11-05/08:00",
+    "end": "2026-11-05/08:30"
+  },
+  {
+    "titulo": "Vecinos / El centro de reciclaje",
+    "sta": "2026-11-05/08:30",
+    "end": "2026-11-05/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / No es lo mismo",
+    "sta": "2026-11-05/09:00",
+    "end": "2026-11-05/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / No es lo mismo las bombas de aguas que aguas con las bombas",
+    "sta": "2026-11-05/09:30",
+    "end": "2026-11-05/10:00"
+  },
+  {
+    "titulo": "El Chavo / Las mascotas",
+    "sta": "2026-11-05/10:00",
+    "end": "2026-11-05/10:30"
+  },
+  {
+    "titulo": "El Chavo / El examen de historia",
+    "sta": "2026-11-05/10:30",
+    "end": "2026-11-05/11:00"
+  },
+  {
+    "titulo": "Amigos por siempre / Cambios al reglamento",
+    "sta": "2026-11-05/11:00",
+    "end": "2026-11-05/11:55"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-05/11:55",
+    "end": "2026-11-05/12:50"
+  },
+  {
+    "titulo": "La Dueña / Terrible recuerdo",
+    "sta": "2026-11-05/12:50",
+    "end": "2026-11-05/13:50"
+  },
+  {
+    "titulo": "Fútbol UEFA Europa League / Bayer 04 Leverkusen vs. Olympique de Marsella",
+    "sta": "2026-11-05/13:50",
+    "end": "2026-11-05/16:00"
+  },
+  {
+    "titulo": "La mentira / Dando la cara a la tempestad",
+    "sta": "2026-11-05/16:00",
+    "end": "2026-11-05/17:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Problemas familiares",
+    "sta": "2026-11-05/17:00",
+    "end": "2026-11-05/18:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-05/18:00",
+    "end": "2026-11-05/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-05/19:00",
+    "end": "2026-11-05/20:00"
+  },
+  {
+    "titulo": "Primeras citas / Mi otra mitad",
+    "sta": "2026-11-05/20:00",
+    "end": "2026-11-05/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-05/21:00",
+    "end": "2026-11-05/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-05/23:00",
+    "end": "2026-11-06/01:00"
+  },
+  {
+    "titulo": "Como dice el dicho / Más vale un hoy que dos mañanas",
+    "sta": "2026-11-06/01:00",
+    "end": "2026-11-06/02:00"
+  },
+  {
+    "titulo": "Primeras citas / Mi otra mitad",
+    "sta": "2026-11-06/02:00",
+    "end": "2026-11-06/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/03:00",
+    "end": "2026-11-06/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/03:30",
+    "end": "2026-11-06/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/04:00",
+    "end": "2026-11-06/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/04:30",
+    "end": "2026-11-06/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-06/05:00",
+    "end": "2026-11-06/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Me soltaste",
+    "sta": "2026-11-06/06:00",
+    "end": "2026-11-06/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / ¡Aquí espantan!",
+    "sta": "2026-11-06/07:00",
+    "end": "2026-11-06/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Caído del Cielo",
+    "sta": "2026-11-06/07:30",
+    "end": "2026-11-06/08:00"
+  },
+  {
+    "titulo": "Vecinos / Pedro celoso",
+    "sta": "2026-11-06/08:00",
+    "end": "2026-11-06/08:30"
+  },
+  {
+    "titulo": "Vecinos / La fonditería",
+    "sta": "2026-11-06/08:30",
+    "end": "2026-11-06/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / La mordedura de serpiente",
+    "sta": "2026-11-06/09:00",
+    "end": "2026-11-06/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / De médico, Chapulín y loco, todos tenemos un poco",
+    "sta": "2026-11-06/09:30",
+    "end": "2026-11-06/10:00"
+  },
+  {
+    "titulo": "El Chavo / El saco del señor Barriga",
+    "sta": "2026-11-06/10:00",
+    "end": "2026-11-06/10:30"
+  },
+  {
+    "titulo": "El Chavo / El cachorro de doña Cleotilde",
+    "sta": "2026-11-06/10:30",
+    "end": "2026-11-06/11:00"
+  },
+  {
+    "titulo": "Amigos por siempre / La despedida del director",
+    "sta": "2026-11-06/11:00",
+    "end": "2026-11-06/12:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-06/12:00",
+    "end": "2026-11-06/13:00"
+  },
+  {
+    "titulo": "La Dueña / Disculpa",
+    "sta": "2026-11-06/13:00",
+    "end": "2026-11-06/14:00"
+  },
+  {
+    "titulo": "La mentira / Celos",
+    "sta": "2026-11-06/14:00",
+    "end": "2026-11-06/15:00"
+  },
+  {
+    "titulo": "Qué bonito amor",
+    "sta": "2026-11-06/15:00",
+    "end": "2026-11-06/16:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Las cartas",
+    "sta": "2026-11-06/16:00",
+    "end": "2026-11-06/17:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-06/17:00",
+    "end": "2026-11-06/18:00"
+  },
+  {
+    "titulo": "Como dice el dicho / El que por su gusto corre, nunca se cansa",
+    "sta": "2026-11-06/18:00",
+    "end": "2026-11-06/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-06/19:00",
+    "end": "2026-11-06/20:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-06/20:00",
+    "end": "2026-11-06/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-06/21:00",
+    "end": "2026-11-06/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-06/23:00",
+    "end": "2026-11-07/01:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-07/01:00",
+    "end": "2026-11-07/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-07/02:00",
+    "end": "2026-11-07/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/03:00",
+    "end": "2026-11-07/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/03:30",
+    "end": "2026-11-07/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/04:00",
+    "end": "2026-11-07/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/04:30",
+    "end": "2026-11-07/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-07/05:00",
+    "end": "2026-11-07/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/06:00",
+    "end": "2026-11-07/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/06:30",
+    "end": "2026-11-07/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/07:00",
+    "end": "2026-11-07/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/07:30",
+    "end": "2026-11-07/08:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/08:00",
+    "end": "2026-11-07/08:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/08:30",
+    "end": "2026-11-07/09:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/09:00",
+    "end": "2026-11-07/09:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/09:30",
+    "end": "2026-11-07/10:00"
+  },
+  {
+    "titulo": "El Chavo / La clase de higiene",
+    "sta": "2026-11-07/10:00",
+    "end": "2026-11-07/10:30"
+  },
+  {
+    "titulo": "El Chavo / La moneda del deseo",
+    "sta": "2026-11-07/10:30",
+    "end": "2026-11-07/11:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Al que de plano le tomaron el pelo fue a Sansón",
+    "sta": "2026-11-07/11:00",
+    "end": "2026-11-07/11:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Extraterrestres entre nosotros",
+    "sta": "2026-11-07/11:30",
+    "end": "2026-11-07/12:00"
+  },
+  {
+    "titulo": "Como dice el dicho / La zorra nunca se ve su cola",
+    "sta": "2026-11-07/12:00",
+    "end": "2026-11-07/13:00"
+  },
+  {
+    "titulo": "Rocky Road",
+    "sta": "2026-11-07/13:00",
+    "end": "2026-11-07/15:00"
+  },
+  {
+    "titulo": "Finding Rin Tin Tin",
+    "sta": "2026-11-07/15:00",
+    "end": "2026-11-07/17:00"
+  },
+  {
+    "titulo": "The Mechanik",
+    "sta": "2026-11-07/17:00",
+    "end": "2026-11-07/19:00"
+  },
+  {
+    "titulo": "Fortuna peligrosa",
+    "sta": "2026-11-07/19:00",
+    "end": "2026-11-07/21:00"
+  },
+  {
+    "titulo": "The Commuter",
+    "sta": "2026-11-07/21:00",
+    "end": "2026-11-07/23:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/23:00",
+    "end": "2026-11-07/23:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/23:30",
+    "end": "2026-11-08/00:00"
+  },
+  {
+    "titulo": "The Commuter",
+    "sta": "2026-11-08/00:00",
+    "end": "2026-11-08/02:00"
+  },
+  {
+    "titulo": "Fortuna peligrosa",
+    "sta": "2026-11-08/02:00",
+    "end": "2026-11-08/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/04:00",
+    "end": "2026-11-08/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/04:30",
+    "end": "2026-11-08/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-08/05:00",
+    "end": "2026-11-08/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/06:00",
+    "end": "2026-11-08/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/06:30",
+    "end": "2026-11-08/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/07:00",
+    "end": "2026-11-08/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/07:30",
+    "end": "2026-11-08/08:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/08:00",
+    "end": "2026-11-08/08:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/08:30",
+    "end": "2026-11-08/09:00"
+  },
+  {
+    "titulo": "El que sabe, sabe / ¡El camino de Oregón, la edad de hielo, recuerdos!",
+    "sta": "2026-11-08/09:00",
+    "end": "2026-11-08/09:30"
+  },
+  {
+    "titulo": "El que sabe, sabe / ¡La ciencia detrás del miedo, el Big Bang, el Himalaya!",
+    "sta": "2026-11-08/09:30",
+    "end": "2026-11-08/10:00"
+  },
+  {
+    "titulo": "El mundo es tuyo / De punto a punto",
+    "sta": "2026-11-08/10:00",
+    "end": "2026-11-08/10:30"
+  },
+  {
+    "titulo": "El mundo es tuyo / Volando por el mundo",
+    "sta": "2026-11-08/10:30",
+    "end": "2026-11-08/11:00"
+  },
+  {
+    "titulo": "Ranger Rob / Misión nido en Big Sky Park; Paseo con bastón en Big Sky Park",
+    "sta": "2026-11-08/11:00",
+    "end": "2026-11-08/11:30"
+  },
+  {
+    "titulo": "Ranger Rob / Veo veo en Big Sky Park; Dilema equino en Big Sky Park",
+    "sta": "2026-11-08/11:30",
+    "end": "2026-11-08/12:00"
+  },
+  {
+    "titulo": "La CQ: Nuevo ingreso / Abuget",
+    "sta": "2026-11-08/12:00",
+    "end": "2026-11-08/12:30"
+  },
+  {
+    "titulo": "La CQ: Nuevo ingreso / Y doña Quique baila así",
+    "sta": "2026-11-08/12:30",
+    "end": "2026-11-08/13:00"
+  },
+  {
+    "titulo": "El Chavo / El cumpleaños del profesor Jirafales",
+    "sta": "2026-11-08/13:00",
+    "end": "2026-11-08/13:30"
+  },
+  {
+    "titulo": "Sharpshooter",
+    "sta": "2026-11-08/13:30",
+    "end": "2026-11-08/15:00"
+  },
+  {
+    "titulo": "Bad Ass",
+    "sta": "2026-11-08/15:00",
+    "end": "2026-11-08/17:00"
+  },
+  {
+    "titulo": "Accident Man",
+    "sta": "2026-11-08/17:00",
+    "end": "2026-11-08/19:00"
+  },
+  {
+    "titulo": "Hunt the Wicked",
+    "sta": "2026-11-08/19:00",
+    "end": "2026-11-08/21:00"
+  },
+  {
+    "titulo": "Mechanic: Resurrection",
+    "sta": "2026-11-08/21:00",
+    "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / De torpe, Chapulín y loco, todos tenemos un poco",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-08/23:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Al robot se le infectaron los transistores",
+    "sta": "2026-11-08/23:30",
+    "end": "2026-11-09/00:00"
+  },
+  {
+    "titulo": "Mechanic: Resurrection",
+    "sta": "2026-11-09/00:00",
+    "end": "2026-11-09/02:00"
+  },
+  {
+    "titulo": "Accident Man",
+    "sta": "2026-11-09/02:00",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Regálame",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / Un festival de ambiente",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Un día en la tele",
+    "sta": "2026-11-09/07:30",
+    "end": "2026-11-09/08:00"
+  },
+  {
+    "titulo": "Vecinos / Número equivocado",
+    "sta": "2026-11-09/08:00",
+    "end": "2026-11-09/08:30"
+  },
+  {
+    "titulo": "Vecinos / Vecinos ruidosos",
+    "sta": "2026-11-09/08:30",
+    "end": "2026-11-09/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Dinero llama dinero",
+    "sta": "2026-11-09/09:00",
+    "end": "2026-11-09/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Un bandido bastante muerto",
+    "sta": "2026-11-09/09:30",
+    "end": "2026-11-09/10:00"
+  },
+  {
+    "titulo": "El Chavo / La suerte del profesor",
+    "sta": "2026-11-09/10:00",
+    "end": "2026-11-09/10:30"
+  },
+  {
+    "titulo": "El Chavo / Spaguetti para el señor Barriga",
+    "sta": "2026-11-09/10:30",
+    "end": "2026-11-09/11:00"
+  },
+  {
+    "titulo": "Amigos por siempre / Problemas del cabello",
+    "sta": "2026-11-09/11:00",
+    "end": "2026-11-09/12:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-09/12:00",
+    "end": "2026-11-09/13:00"
+  },
+  {
+    "titulo": "La Dueña / Alucinaciones",
+    "sta": "2026-11-09/13:00",
+    "end": "2026-11-09/14:00"
+  },
+  {
+    "titulo": "La mentira",
+    "sta": "2026-11-09/14:00",
+    "end": "2026-11-09/15:00"
+  },
+  {
+    "titulo": "Qué bonito amor",
+    "sta": "2026-11-09/15:00",
+    "end": "2026-11-09/16:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Turbio pasado",
+    "sta": "2026-11-09/16:00",
+    "end": "2026-11-09/17:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-09/17:00",
+    "end": "2026-11-09/18:00"
+  },
+  {
+    "titulo": "Como dice el dicho / Quien da pan a perro ajeno pierde el pan y pierde el perro",
+    "sta": "2026-11-09/18:00",
+    "end": "2026-11-09/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-09/19:00",
+    "end": "2026-11-09/20:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-09/20:00",
+    "end": "2026-11-09/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-09/21:00",
+    "end": "2026-11-09/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-09/23:00",
+    "end": "2026-11-10/01:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-10/01:00",
+    "end": "2026-11-10/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-10/02:00",
+    "end": "2026-11-10/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/03:00",
+    "end": "2026-11-10/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/03:30",
+    "end": "2026-11-10/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/04:00",
+    "end": "2026-11-10/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/04:30",
+    "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/06:00"
+  }
+]
