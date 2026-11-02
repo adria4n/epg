@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "RaceWeek",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/05:30"
+  },
+  {
+    "titulo": "Sport Fishing With Dan Hernandez",
+    "sta": "2026-11-01/05:30",
+    "end": "2026-11-01/06:00"
+  },
+  {
     "titulo": "The Armstrong Williams Show",
     "sta": "2026-11-01/06:00",
     "end": "2026-11-01/06:30"
@@ -1448,10 +1458,5 @@
     "titulo": "Business First With Angela Miles / Millennial & Gen Z Money; Common Cents Investing",
     "sta": "2026-11-10/04:31",
     "end": "2026-11-10/05:00"
-  },
-  {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-10/05:00",
-    "end": "2026-11-10/06:00"
   }
 ]
