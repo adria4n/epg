@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Hablando de Salud",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/05:30",
+    "end": "2026-11-01/06:00"
+  },
+  {
     "titulo": "Programa pagado",
     "sta": "2026-11-01/06:00",
     "end": "2026-11-01/06:30"
@@ -1218,10 +1228,5 @@
     "titulo": "Noticias 48",
     "sta": "2026-11-10/04:30",
     "end": "2026-11-10/05:00"
-  },
-  {
-    "titulo": "Esta historia me suena / Regálame",
-    "sta": "2026-11-10/05:00",
-    "end": "2026-11-10/06:00"
   }
 ]
