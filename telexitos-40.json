@@ -1,5 +1,30 @@
 [
   {
+    "titulo": "Caso cerrado / Hospital turístico; Mi desnudo es un arte",
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/02:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/02:00",
+    "end": "2026-11-01/02:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/02:30",
+    "end": "2026-11-01/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial Halloween",
+    "sta": "2026-11-01/03:00",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "12 corazones / Soltera codiciada",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/05:00"
+  },
+  {
     "titulo": "Caso cerrado / Candela",
     "sta": "2026-11-01/05:00",
     "end": "2026-11-01/05:30"
@@ -1318,45 +1343,5 @@
     "titulo": "Caso cerrado / Perdida en la tragedia; Canto orgasmo celestial",
     "sta": "2026-11-09/23:00",
     "end": "2026-11-10/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/00:00",
-    "end": "2026-11-10/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/00:30",
-    "end": "2026-11-10/01:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-10/01:00",
-    "end": "2026-11-10/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/01:30",
-    "end": "2026-11-10/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de reggaetón",
-    "sta": "2026-11-10/02:00",
-    "end": "2026-11-10/03:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de motociclistas",
-    "sta": "2026-11-10/03:00",
-    "end": "2026-11-10/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / La ley abusadora",
-    "sta": "2026-11-10/04:00",
-    "end": "2026-11-10/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/04:30",
-    "end": "2026-11-10/05:00"
   }
 ]

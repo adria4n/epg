@@ -1,5 +1,40 @@
 [
   {
+    "titulo": "Season of the Witch",
+    "sta": "2026-10-31/23:00",
+    "end": "2026-11-01/01:00"
+  },
+  {
+    "titulo": "Day Zero",
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/01:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / ¿De casualidad no han visto por aquí al hombre invisible?",
+    "sta": "2026-11-01/01:30",
+    "end": "2026-11-01/02:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / No me molestes, mosquito",
+    "sta": "2026-11-01/02:00",
+    "end": "2026-11-01/03:30"
+  },
+  {
+    "titulo": "El Chavo / Pretendiendo a don Ramón",
+    "sta": "2026-11-01/03:30",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/04:30",
+    "end": "2026-11-01/05:00"
+  },
+  {
     "titulo": "Veredicto final",
     "sta": "2026-11-01/05:00",
     "end": "2026-11-01/06:00"
@@ -1158,35 +1193,5 @@
     "titulo": "Fugitivas",
     "sta": "2026-11-09/23:00",
     "end": "2026-11-10/01:00"
-  },
-  {
-    "titulo": "¿Quién caerá?",
-    "sta": "2026-11-10/01:00",
-    "end": "2026-11-10/02:00"
-  },
-  {
-    "titulo": "Primeras citas",
-    "sta": "2026-11-10/02:00",
-    "end": "2026-11-10/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/03:00",
-    "end": "2026-11-10/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/03:30",
-    "end": "2026-11-10/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/04:00",
-    "end": "2026-11-10/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-10/04:30",
-    "end": "2026-11-10/05:00"
   }
 ]
