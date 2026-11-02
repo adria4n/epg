@@ -1,5 +1,70 @@
 [
   {
+    "titulo": "El Chapulín Colorado / No me molestes, mosquito",
+    "sta": "2026-10-31/23:00",
+    "end": "2026-10-31/23:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / ¿De casualidad no han visto por aquí al hombre invisible?",
+    "sta": "2026-10-31/23:30",
+    "end": "2026-11-01/01:00"
+  },
+  {
+    "titulo": "Day Zero",
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/02:30"
+  },
+  {
+    "titulo": "El Chavo / Pretendiendo a don Ramón",
+    "sta": "2026-11-01/02:30",
+    "end": "2026-11-01/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/03:00",
+    "end": "2026-11-01/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/03:30",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/05:00"
+  },
+  {
+    "titulo": "Hablando de Salud",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/05:30",
+    "end": "2026-11-01/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/06:00",
+    "end": "2026-11-01/06:30"
+  },
+  {
+    "titulo": "My Biotin: Avance en belleza, cabello con más volumen, piel más suave",
+    "sta": "2026-11-01/06:30",
+    "end": "2026-11-01/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/07:00",
+    "end": "2026-11-01/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/07:30",
+    "end": "2026-11-01/08:00"
+  },
+  {
     "titulo": "El que sabe, sabe / ¡Saltamontes, el Nilo, terremotos!",
     "sta": "2026-11-01/08:00",
     "end": "2026-11-01/08:30"
@@ -45,22 +110,22 @@
     "end": "2026-11-01/12:30"
   },
   {
-    "titulo": "Movie / The Outpost",
+    "titulo": "The Outpost",
     "sta": "2026-11-01/12:30",
     "end": "2026-11-01/15:00"
   },
   {
-    "titulo": "Movie / The Informer",
+    "titulo": "The Informer",
     "sta": "2026-11-01/15:00",
     "end": "2026-11-01/17:30"
   },
   {
-    "titulo": "Movie / Diablo",
+    "titulo": "Diablo",
     "sta": "2026-11-01/17:30",
     "end": "2026-11-01/19:30"
   },
   {
-    "titulo": "Movie / The Grey",
+    "titulo": "The Grey",
     "sta": "2026-11-01/19:30",
     "end": "2026-11-01/22:00"
   },
@@ -70,12 +135,12 @@
     "end": "2026-11-01/22:30"
   },
   {
-    "titulo": "Movie / The Grey",
+    "titulo": "The Grey",
     "sta": "2026-11-01/22:30",
     "end": "2026-11-02/01:00"
   },
   {
-    "titulo": "Movie / Diablo",
+    "titulo": "Diablo",
     "sta": "2026-11-02/01:00",
     "end": "2026-11-02/03:00"
   },
@@ -855,27 +920,27 @@
     "end": "2026-11-07/12:00"
   },
   {
-    "titulo": "Movie / Rocky Road",
+    "titulo": "Rocky Road",
     "sta": "2026-11-07/12:00",
     "end": "2026-11-07/14:00"
   },
   {
-    "titulo": "Movie / Finding Rin Tin Tin",
+    "titulo": "Finding Rin Tin Tin",
     "sta": "2026-11-07/14:00",
     "end": "2026-11-07/16:00"
   },
   {
-    "titulo": "Movie / The Mechanik",
+    "titulo": "The Mechanik",
     "sta": "2026-11-07/16:00",
     "end": "2026-11-07/18:00"
   },
   {
-    "titulo": "Movie / Fortuna peligrosa",
+    "titulo": "Fortuna peligrosa",
     "sta": "2026-11-07/18:00",
     "end": "2026-11-07/20:00"
   },
   {
-    "titulo": "Movie / The Commuter",
+    "titulo": "The Commuter",
     "sta": "2026-11-07/20:00",
     "end": "2026-11-07/22:00"
   },
@@ -890,12 +955,12 @@
     "end": "2026-11-07/23:00"
   },
   {
-    "titulo": "Movie / The Commuter",
+    "titulo": "The Commuter",
     "sta": "2026-11-07/23:00",
     "end": "2026-11-08/01:00"
   },
   {
-    "titulo": "Movie / Fortuna peligrosa",
+    "titulo": "Fortuna peligrosa",
     "sta": "2026-11-08/01:00",
     "end": "2026-11-08/03:00"
   },
@@ -990,27 +1055,27 @@
     "end": "2026-11-08/12:30"
   },
   {
-    "titulo": "Movie / Sharpshooter",
+    "titulo": "Sharpshooter",
     "sta": "2026-11-08/12:30",
     "end": "2026-11-08/14:00"
   },
   {
-    "titulo": "Movie / Bad Ass",
+    "titulo": "Bad Ass",
     "sta": "2026-11-08/14:00",
     "end": "2026-11-08/16:00"
   },
   {
-    "titulo": "Movie / Accident Man",
+    "titulo": "Accident Man",
     "sta": "2026-11-08/16:00",
     "end": "2026-11-08/18:00"
   },
   {
-    "titulo": "Movie / Hunt the Wicked",
+    "titulo": "Hunt the Wicked",
     "sta": "2026-11-08/18:00",
     "end": "2026-11-08/20:00"
   },
   {
-    "titulo": "Movie / Mechanic: Resurrection",
+    "titulo": "Mechanic: Resurrection",
     "sta": "2026-11-08/20:00",
     "end": "2026-11-08/22:00"
   },
@@ -1023,55 +1088,5 @@
     "titulo": "El Chapulín Colorado / Al robot se le infectaron los transistores",
     "sta": "2026-11-08/22:30",
     "end": "2026-11-08/23:00"
-  },
-  {
-    "titulo": "Movie / Mechanic: Resurrection",
-    "sta": "2026-11-08/23:00",
-    "end": "2026-11-09/01:00"
-  },
-  {
-    "titulo": "Movie / Accident Man",
-    "sta": "2026-11-09/01:00",
-    "end": "2026-11-09/03:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-09/03:00",
-    "end": "2026-11-09/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/03:30",
-    "end": "2026-11-09/04:00"
-  },
-  {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-09/04:00",
-    "end": "2026-11-09/05:00"
-  },
-  {
-    "titulo": "Esta historia me suena / Regálame",
-    "sta": "2026-11-09/05:00",
-    "end": "2026-11-09/06:00"
-  },
-  {
-    "titulo": "El Chavo Animado / Un festival de ambiente",
-    "sta": "2026-11-09/06:00",
-    "end": "2026-11-09/06:30"
-  },
-  {
-    "titulo": "El Chavo Animado / Un día en la tele",
-    "sta": "2026-11-09/06:30",
-    "end": "2026-11-09/07:00"
-  },
-  {
-    "titulo": "Vecinos / Número equivocado",
-    "sta": "2026-11-09/07:00",
-    "end": "2026-11-09/07:30"
-  },
-  {
-    "titulo": "Vecinos / Vecinos ruidosos",
-    "sta": "2026-11-09/07:30",
-    "end": "2026-11-09/08:00"
   }
 ]

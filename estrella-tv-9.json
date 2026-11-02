@@ -1,5 +1,70 @@
 [
   {
+    "titulo": "Combate Américas",
+    "sta": "2026-10-31/23:00",
+    "end": "2026-11-01/00:00"
+  },
+  {
+    "titulo": "Alarma TV fin de semana",
+    "sta": "2026-11-01/00:00",
+    "end": "2026-11-01/00:30"
+  },
+  {
+    "titulo": "Alarma TV fin de semana",
+    "sta": "2026-11-01/00:30",
+    "end": "2026-11-01/01:00"
+  },
+  {
+    "titulo": "Lo mejor de Don Cheto al aire",
+    "sta": "2026-11-01/01:00",
+    "end": "2026-11-01/02:00"
+  },
+  {
+    "titulo": "Tu-Night con Omar Chaparro / India Yuridia, Juan Pablo Medina, Lalo España",
+    "sta": "2026-11-01/02:00",
+    "end": "2026-11-01/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/04:00",
+    "end": "2026-11-01/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/04:30",
+    "end": "2026-11-01/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/05:00",
+    "end": "2026-11-01/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/05:30",
+    "end": "2026-11-01/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/06:00",
+    "end": "2026-11-01/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/06:30",
+    "end": "2026-11-01/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/07:00",
+    "end": "2026-11-01/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-01/07:30",
+    "end": "2026-11-01/08:00"
+  },
+  {
     "titulo": "Programa pagado",
     "sta": "2026-11-01/08:00",
     "end": "2026-11-01/08:30"
@@ -1158,70 +1223,5 @@
     "titulo": "Tengo talento, mucho talento",
     "sta": "2026-11-08/22:00",
     "end": "2026-11-08/23:00"
-  },
-  {
-    "titulo": "Movie / Mammoth",
-    "sta": "2026-11-08/23:00",
-    "end": "2026-11-09/01:00"
-  },
-  {
-    "titulo": "Que jalada",
-    "sta": "2026-11-09/01:00",
-    "end": "2026-11-09/01:30"
-  },
-  {
-    "titulo": "Que jalada",
-    "sta": "2026-11-09/01:30",
-    "end": "2026-11-09/02:00"
-  },
-  {
-    "titulo": "Lo mejor de Don Cheto al aire",
-    "sta": "2026-11-09/02:00",
-    "end": "2026-11-09/03:00"
-  },
-  {
-    "titulo": "Tengo talento, mucho talento Mundial: La selección",
-    "sta": "2026-11-09/03:00",
-    "end": "2026-11-09/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/04:00",
-    "end": "2026-11-09/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/04:30",
-    "end": "2026-11-09/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/05:00",
-    "end": "2026-11-09/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/05:30",
-    "end": "2026-11-09/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/06:00",
-    "end": "2026-11-09/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/06:30",
-    "end": "2026-11-09/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/07:00",
-    "end": "2026-11-09/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/07:30",
-    "end": "2026-11-09/08:00"
   }
 ]
