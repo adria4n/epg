@@ -7,7 +7,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import sys
 
-EPG_URL = "https://iptv-epg.org/files/epg-mx.xml"
+EPG_URL = "https://www.open-epg.com/files/mexico1.xml"
 CHANNEL_ID = "Golden.mx"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "golden.json"
