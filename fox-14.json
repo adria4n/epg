@@ -1,85 +1,5 @@
 [
   {
-    "titulo": "The 1% Club / Hot Wife",
-    "sta": "2026-10-31/22:05",
-    "end": "2026-10-31/23:05"
-  },
-  {
-    "titulo": "America's Funniest Home Videos",
-    "sta": "2026-10-31/23:05",
-    "end": "2026-10-31/23:35"
-  },
-  {
-    "titulo": "America's Funniest Home Videos",
-    "sta": "2026-10-31/23:35",
-    "end": "2026-11-01/00:05"
-  },
-  {
-    "titulo": "Two and a Half Men / Hi, Mr. Horned One",
-    "sta": "2026-11-01/00:05",
-    "end": "2026-11-01/00:35"
-  },
-  {
-    "titulo": "Two and a Half Men / That Darn Priest",
-    "sta": "2026-11-01/00:35",
-    "end": "2026-11-01/01:05"
-  },
-  {
-    "titulo": "American Mayhem",
-    "sta": "2026-11-01/01:05",
-    "end": "2026-11-01/01:35"
-  },
-  {
-    "titulo": "American Mayhem",
-    "sta": "2026-11-01/01:35",
-    "end": "2026-11-01/02:05"
-  },
-  {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-01/02:05",
-    "end": "2026-11-01/03:05"
-  },
-  {
-    "titulo": "Everyday Heroes",
-    "sta": "2026-11-01/03:05",
-    "end": "2026-11-01/03:35"
-  },
-  {
-    "titulo": "Taste Buds With Stephanie / Craft Cocktails and Whiskey Ribeye Steak",
-    "sta": "2026-11-01/03:35",
-    "end": "2026-11-01/04:03"
-  },
-  {
-    "titulo": "LOST IN / Stowe, VT - Where the Mountains Meet the Sky",
-    "sta": "2026-11-01/04:03",
-    "end": "2026-11-01/04:31"
-  },
-  {
-    "titulo": "She's in the Game",
-    "sta": "2026-11-01/04:31",
-    "end": "2026-11-01/05:00"
-  },
-  {
-    "titulo": "RaceWeek",
-    "sta": "2026-11-01/05:00",
-    "end": "2026-11-01/05:30"
-  },
-  {
-    "titulo": "Sport Fishing With Dan Hernandez",
-    "sta": "2026-11-01/05:30",
-    "end": "2026-11-01/06:00"
-  },
-  {
-    "titulo": "The Armstrong Williams Show",
-    "sta": "2026-11-01/06:00",
-    "end": "2026-11-01/06:30"
-  },
-  {
-    "titulo": "Open House / Kips Bay",
-    "sta": "2026-11-01/06:30",
-    "end": "2026-11-01/07:00"
-  },
-  {
     "titulo": "Xploration Awesome Planet / Ocean's Apex Predators",
     "sta": "2026-11-01/07:00",
     "end": "2026-11-01/07:30"
@@ -1293,5 +1213,70 @@
     "titulo": "KFOX14 News at Nine Weekend -- Sunday",
     "sta": "2026-11-08/22:00",
     "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "Full Measure With Sharyl Attkisson",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-08/23:30"
+  },
+  {
+    "titulo": "The Big Bang Theory / The Donation Oscillation",
+    "sta": "2026-11-08/23:30",
+    "end": "2026-11-09/00:00"
+  },
+  {
+    "titulo": "The Big Bang Theory / The D & D Vortex",
+    "sta": "2026-11-09/00:00",
+    "end": "2026-11-09/00:30"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-09/00:30",
+    "end": "2026-11-09/01:30"
+  },
+  {
+    "titulo": "In Depth With Graham Bensinger / Joey Logano",
+    "sta": "2026-11-09/01:30",
+    "end": "2026-11-09/02:00"
+  },
+  {
+    "titulo": "Greatest Sports Legends: Then and Now",
+    "sta": "2026-11-09/02:00",
+    "end": "2026-11-09/02:30"
+  },
+  {
+    "titulo": "She's in the Game",
+    "sta": "2026-11-09/02:30",
+    "end": "2026-11-09/03:00"
+  },
+  {
+    "titulo": "Spanish Fly: The Next Generation",
+    "sta": "2026-11-09/03:00",
+    "end": "2026-11-09/03:30"
+  },
+  {
+    "titulo": "Sport Fishing TV: State of the Ocean",
+    "sta": "2026-11-09/03:30",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "In Season With Gregg Ritz",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Dealing With Debt; Scam Alert",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "KFOX14 Morning News",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/07:00"
   }
 ]

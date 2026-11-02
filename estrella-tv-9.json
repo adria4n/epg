@@ -1,60 +1,5 @@
 [
   {
-    "titulo": "Combate Américas",
-    "sta": "2026-10-31/23:00",
-    "end": "2026-11-01/00:00"
-  },
-  {
-    "titulo": "Alarma TV fin de semana",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/00:30"
-  },
-  {
-    "titulo": "Alarma TV fin de semana",
-    "sta": "2026-11-01/00:30",
-    "end": "2026-11-01/01:00"
-  },
-  {
-    "titulo": "Lo mejor de Don Cheto al aire",
-    "sta": "2026-11-01/01:00",
-    "end": "2026-11-01/02:00"
-  },
-  {
-    "titulo": "Tu-Night con Omar Chaparro / India Yuridia, Juan Pablo Medina, Lalo España",
-    "sta": "2026-11-01/02:00",
-    "end": "2026-11-01/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/04:00",
-    "end": "2026-11-01/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/04:30",
-    "end": "2026-11-01/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/05:00",
-    "end": "2026-11-01/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/05:30",
-    "end": "2026-11-01/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/06:00",
-    "end": "2026-11-01/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/06:30",
-    "end": "2026-11-01/07:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-01/07:00",
     "end": "2026-11-01/07:30"
@@ -170,7 +115,7 @@
     "end": "2026-11-01/23:00"
   },
   {
-    "titulo": "Movie / 7 Días",
+    "titulo": "7 Días",
     "sta": "2026-11-01/23:00",
     "end": "2026-11-02/01:00"
   },
@@ -255,12 +200,12 @@
     "end": "2026-11-02/13:00"
   },
   {
-    "titulo": "Movie / El enamorado",
+    "titulo": "El enamorado",
     "sta": "2026-11-02/13:00",
     "end": "2026-11-02/15:00"
   },
   {
-    "titulo": "Movie / Acapulco, la vida va",
+    "titulo": "Acapulco, la vida va",
     "sta": "2026-11-02/15:00",
     "end": "2026-11-02/17:00"
   },
@@ -400,12 +345,12 @@
     "end": "2026-11-03/13:00"
   },
   {
-    "titulo": "Movie / Las hijas del Amapolo",
+    "titulo": "Las hijas del Amapolo",
     "sta": "2026-11-03/13:00",
     "end": "2026-11-03/15:00"
   },
   {
-    "titulo": "Movie / Al acecho del leopardo",
+    "titulo": "Al acecho del leopardo",
     "sta": "2026-11-03/15:00",
     "end": "2026-11-03/17:00"
   },
@@ -535,12 +480,12 @@
     "end": "2026-11-04/13:00"
   },
   {
-    "titulo": "Movie / Juan Colorado",
+    "titulo": "Juan Colorado",
     "sta": "2026-11-04/13:00",
     "end": "2026-11-04/15:00"
   },
   {
-    "titulo": "Movie / Amar",
+    "titulo": "Amar",
     "sta": "2026-11-04/15:00",
     "end": "2026-11-04/17:00"
   },
@@ -680,12 +625,12 @@
     "end": "2026-11-05/13:00"
   },
   {
-    "titulo": "Movie / Juana Gallo",
+    "titulo": "Juana Gallo",
     "sta": "2026-11-05/13:00",
     "end": "2026-11-05/15:00"
   },
   {
-    "titulo": "Movie / Amar no es querer",
+    "titulo": "Amar no es querer",
     "sta": "2026-11-05/15:00",
     "end": "2026-11-05/17:00"
   },
@@ -825,12 +770,12 @@
     "end": "2026-11-06/13:00"
   },
   {
-    "titulo": "Movie / Toña Machetes",
+    "titulo": "Toña Machetes",
     "sta": "2026-11-06/13:00",
     "end": "2026-11-06/15:00"
   },
   {
-    "titulo": "Movie / Casi treinta",
+    "titulo": "Casi treinta",
     "sta": "2026-11-06/15:00",
     "end": "2026-11-06/17:00"
   },
@@ -1223,5 +1168,60 @@
     "titulo": "Tengo talento, mucho talento",
     "sta": "2026-11-08/22:00",
     "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "Mammoth",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-09/01:00"
+  },
+  {
+    "titulo": "Que jalada",
+    "sta": "2026-11-09/01:00",
+    "end": "2026-11-09/01:30"
+  },
+  {
+    "titulo": "Que jalada",
+    "sta": "2026-11-09/01:30",
+    "end": "2026-11-09/02:00"
+  },
+  {
+    "titulo": "Lo mejor de Don Cheto al aire",
+    "sta": "2026-11-09/02:00",
+    "end": "2026-11-09/03:00"
+  },
+  {
+    "titulo": "Tengo talento, mucho talento Mundial: La selección",
+    "sta": "2026-11-09/03:00",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/05:30",
+    "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/06:30",
+    "end": "2026-11-09/07:00"
   }
 ]
