@@ -1,196 +1,6 @@
 [
   {
     "titulo": "Programa pagado",
-    "sta": "2026-10-31/05:00",
-    "end": "2026-10-31/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/05:30",
-    "end": "2026-10-31/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/06:00",
-    "end": "2026-10-31/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/06:30",
-    "end": "2026-10-31/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/07:00",
-    "end": "2026-10-31/07:30"
-  },
-  {
-    "titulo": "Sunny Bunnies",
-    "sta": "2026-10-31/07:30",
-    "end": "2026-10-31/08:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/08:00",
-    "end": "2026-10-31/08:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/08:30",
-    "end": "2026-10-31/09:00"
-  },
-  {
-    "titulo": "El secreto natural de la salud masculina para una próstata sana.",
-    "sta": "2026-10-31/09:00",
-    "end": "2026-10-31/09:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/09:30",
-    "end": "2026-10-31/10:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/10:00",
-    "end": "2026-10-31/10:30"
-  },
-  {
-    "titulo": "Ideal Prostate+ proporciona alivio natural seguro",
-    "sta": "2026-10-31/10:30",
-    "end": "2026-10-31/11:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/11:00",
-    "end": "2026-10-31/11:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/11:30",
-    "end": "2026-10-31/12:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/12:00",
-    "end": "2026-10-31/12:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/12:30",
-    "end": "2026-10-31/13:00"
-  },
-  {
-    "titulo": "Lagrimita y Costel",
-    "sta": "2026-10-31/13:00",
-    "end": "2026-10-31/14:00"
-  },
-  {
-    "titulo": "Lo mejor de Don Cheto al aire",
-    "sta": "2026-10-31/14:00",
-    "end": "2026-10-31/15:00"
-  },
-  {
-    "titulo": "Punto final",
-    "sta": "2026-10-31/15:00",
-    "end": "2026-10-31/16:00"
-  },
-  {
-    "titulo": "Los secretos del universo / Hacia la Luna, y más allá",
-    "sta": "2026-10-31/16:00",
-    "end": "2026-10-31/17:00"
-  },
-  {
-    "titulo": "Descifrando el código / El código de la mafia",
-    "sta": "2026-10-31/17:00",
-    "end": "2026-10-31/18:00"
-  },
-  {
-    "titulo": "Historias delirantes / Niños perdidos",
-    "sta": "2026-10-31/18:00",
-    "end": "2026-10-31/19:00"
-  },
-  {
-    "titulo": "Historias delirantes / Justicia divina",
-    "sta": "2026-10-31/19:00",
-    "end": "2026-10-31/20:00"
-  },
-  {
-    "titulo": "Historias delirantes / Infidelidad",
-    "sta": "2026-10-31/20:00",
-    "end": "2026-10-31/21:00"
-  },
-  {
-    "titulo": "Historias delirantes / Pasión que mata",
-    "sta": "2026-10-31/21:00",
-    "end": "2026-10-31/22:00"
-  },
-  {
-    "titulo": "Historias delirantes / Cambio de costumbre",
-    "sta": "2026-10-31/22:00",
-    "end": "2026-10-31/23:00"
-  },
-  {
-    "titulo": "Combate Américas",
-    "sta": "2026-10-31/23:00",
-    "end": "2026-11-01/00:00"
-  },
-  {
-    "titulo": "Alarma TV fin de semana",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/00:30"
-  },
-  {
-    "titulo": "Alarma TV fin de semana",
-    "sta": "2026-11-01/00:30",
-    "end": "2026-11-01/01:00"
-  },
-  {
-    "titulo": "Tu-Night con Omar Chaparro / India Yuridia, Juan Pablo Medina, Lalo España",
-    "sta": "2026-11-01/02:00",
-    "end": "2026-11-01/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/04:00",
-    "end": "2026-11-01/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/04:30",
-    "end": "2026-11-01/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/05:00",
-    "end": "2026-11-01/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/05:30",
-    "end": "2026-11-01/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/06:00",
-    "end": "2026-11-01/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/06:30",
-    "end": "2026-11-01/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/07:00",
-    "end": "2026-11-01/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/07:30",
-    "end": "2026-11-01/08:00"
-  },
-  {
-    "titulo": "Programa pagado",
     "sta": "2026-11-01/08:00",
     "end": "2026-11-01/08:30"
   },
@@ -1393,5 +1203,25 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-09/05:30",
     "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/06:30",
+    "end": "2026-11-09/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/07:30",
+    "end": "2026-11-09/08:00"
   }
 ]

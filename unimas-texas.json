@@ -1,160 +1,5 @@
 [
   {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/05:00",
-    "end": "2026-10-31/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/05:30",
-    "end": "2026-10-31/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/06:00",
-    "end": "2026-10-31/06:30"
-  },
-  {
-    "titulo": "Muévete sin dolor ¿Rigidez? Solución desde la raíz",
-    "sta": "2026-10-31/06:30",
-    "end": "2026-10-31/07:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-10-31/07:00",
-    "end": "2026-10-31/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/07:30",
-    "end": "2026-10-31/08:00"
-  },
-  {
-    "titulo": "El Chavo / Los pasteles de la Chilindrina",
-    "sta": "2026-10-31/08:00",
-    "end": "2026-10-31/08:30"
-  },
-  {
-    "titulo": "Movie / La leyenda del Chupacabras",
-    "sta": "2026-10-31/08:30",
-    "end": "2026-10-31/10:00"
-  },
-  {
-    "titulo": "Movie / El Halcón",
-    "sta": "2026-10-31/10:00",
-    "end": "2026-10-31/11:30"
-  },
-  {
-    "titulo": "Movie / Day Zero",
-    "sta": "2026-10-31/11:30",
-    "end": "2026-10-31/13:00"
-  },
-  {
-    "titulo": "MLB esta semana",
-    "sta": "2026-10-31/13:00",
-    "end": "2026-10-31/14:00"
-  },
-  {
-    "titulo": "Como dice el dicho / Es mejor encender una vela que maldecir la oscuridad",
-    "sta": "2026-10-31/14:00",
-    "end": "2026-10-31/15:00"
-  },
-  {
-    "titulo": "Movie / The Haunting in Connecticut 2: Ghosts of Georgia",
-    "sta": "2026-10-31/15:00",
-    "end": "2026-10-31/17:00"
-  },
-  {
-    "titulo": "Movie / Season of the Witch",
-    "sta": "2026-10-31/17:00",
-    "end": "2026-10-31/19:00"
-  },
-  {
-    "titulo": "Movie / Drive Angry",
-    "sta": "2026-10-31/19:00",
-    "end": "2026-10-31/21:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/21:00",
-    "end": "2026-10-31/21:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-10-31/21:30",
-    "end": "2026-10-31/22:00"
-  },
-  {
-    "titulo": "Movie / Season of the Witch",
-    "sta": "2026-10-31/22:00",
-    "end": "2026-10-31/23:00"
-  },
-  {
-    "titulo": "El Chapulín Colorado / No me molestes, mosquito",
-    "sta": "2026-10-31/23:00",
-    "end": "2026-10-31/23:30"
-  },
-  {
-    "titulo": "El Chapulín Colorado / ¿De casualidad no han visto por aquí al hombre invisible?",
-    "sta": "2026-10-31/23:30",
-    "end": "2026-11-01/01:00"
-  },
-  {
-    "titulo": "Movie / Day Zero",
-    "sta": "2026-11-01/00:00",
-    "end": "2026-11-01/01:30"
-  },
-  {
-    "titulo": "El Chavo / Pretendiendo a don Ramón",
-    "sta": "2026-11-01/02:30",
-    "end": "2026-11-01/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/03:00",
-    "end": "2026-11-01/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/03:30",
-    "end": "2026-11-01/04:00"
-  },
-  {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-01/04:00",
-    "end": "2026-11-01/05:00"
-  },
-  {
-    "titulo": "Hablando de Salud",
-    "sta": "2026-11-01/05:00",
-    "end": "2026-11-01/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/05:30",
-    "end": "2026-11-01/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/06:00",
-    "end": "2026-11-01/06:30"
-  },
-  {
-    "titulo": "My Biotin: Avance en belleza, cabello con más volumen, piel más suave",
-    "sta": "2026-11-01/06:30",
-    "end": "2026-11-01/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/07:00",
-    "end": "2026-11-01/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-01/07:30",
-    "end": "2026-11-01/08:00"
-  },
-  {
     "titulo": "El que sabe, sabe / ¡Saltamontes, el Nilo, terremotos!",
     "sta": "2026-11-01/08:00",
     "end": "2026-11-01/08:30"
@@ -1208,5 +1053,25 @@
     "titulo": "Esta historia me suena / Regálame",
     "sta": "2026-11-09/05:00",
     "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "El Chavo Animado / Un festival de ambiente",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/06:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Un día en la tele",
+    "sta": "2026-11-09/06:30",
+    "end": "2026-11-09/07:00"
+  },
+  {
+    "titulo": "Vecinos / Número equivocado",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/07:30"
+  },
+  {
+    "titulo": "Vecinos / Vecinos ruidosos",
+    "sta": "2026-11-09/07:30",
+    "end": "2026-11-09/08:00"
   }
 ]
