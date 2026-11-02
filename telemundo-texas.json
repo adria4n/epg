@@ -1,121 +1,6 @@
 [
   {
     "titulo": "El pelotazo",
-    "sta": "2026-10-30/22:00",
-    "end": "2026-10-30/22:30"
-  },
-  {
-    "titulo": "Ada Masalı",
-    "sta": "2026-10-30/22:30",
-    "end": "2026-10-30/23:30"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-10-30/23:30",
-    "end": "2026-10-31/00:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-10-31/00:00",
-    "end": "2026-10-31/01:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-10-31/01:00",
-    "end": "2026-10-31/02:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-10-31/02:00",
-    "end": "2026-10-31/03:00"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-10-31/03:00",
-    "end": "2026-10-31/03:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-10-31/03:30",
-    "end": "2026-10-31/04:00"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-10-31/04:00",
-    "end": "2026-10-31/04:30"
-  },
-  {
-    "titulo": "Operation Smile",
-    "sta": "2026-10-31/04:30",
-    "end": "2026-10-31/05:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-10-31/05:00",
-    "end": "2026-10-31/06:00"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-10-31/06:00",
-    "end": "2026-10-31/06:25"
-  },
-  {
-    "titulo": "Premier League Soccer",
-    "sta": "2026-10-31/06:25",
-    "end": "2026-10-31/08:30"
-  },
-  {
-    "titulo": "Bundesliga Soccer",
-    "sta": "2026-10-31/08:30",
-    "end": "2026-10-31/10:30"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-10-31/10:30",
-    "end": "2026-10-31/11:25"
-  },
-  {
-    "titulo": "Bundesliga Soccer",
-    "sta": "2026-10-31/11:25",
-    "end": "2026-10-31/13:30"
-  },
-  {
-    "titulo": "Italian Serie A Soccer",
-    "sta": "2026-10-31/13:30",
-    "end": "2026-10-31/16:00"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-10-31/16:00",
-    "end": "2026-10-31/16:30"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-10-31/16:30",
-    "end": "2026-10-31/17:00"
-  },
-  {
-    "titulo": "Las Tias",
-    "sta": "2026-10-31/17:00",
-    "end": "2026-10-31/19:00"
-  },
-  {
-    "titulo": "Liga MX Soccer",
-    "sta": "2026-10-31/19:00",
-    "end": "2026-10-31/21:00"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-10-31/21:00",
-    "end": "2026-10-31/21:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-10-31/21:30",
-    "end": "2026-10-31/22:00"
-  },
-  {
-    "titulo": "El pelotazo",
     "sta": "2026-10-31/22:00",
     "end": "2026-10-31/22:30"
   },
@@ -1022,6 +907,136 @@
   {
     "titulo": "Noticias Telemundo en la noche",
     "sta": "2026-11-07/22:30",
+    "end": "2026-11-07/23:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-07/23:00",
     "end": "2026-11-07/23:30"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres",
+    "sta": "2026-11-07/23:30",
+    "end": "2026-11-08/00:30"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-08/00:30",
+    "end": "2026-11-08/01:30"
+  },
+  {
+    "titulo": "Dios los cría",
+    "sta": "2026-11-08/01:30",
+    "end": "2026-11-08/03:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-08/03:30",
+    "end": "2026-11-08/04:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-08/04:00",
+    "end": "2026-11-08/04:30"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-08/04:30",
+    "end": "2026-11-08/05:00"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-08/05:00",
+    "end": "2026-11-08/05:30"
+  },
+  {
+    "titulo": "La Dr. Polo vida sin límites",
+    "sta": "2026-11-08/05:30",
+    "end": "2026-11-08/06:00"
+  },
+  {
+    "titulo": "Earth Odyssey With Dylan Dreyer",
+    "sta": "2026-11-08/06:00",
+    "end": "2026-11-08/06:30"
+  },
+  {
+    "titulo": "Harlem Globetrotters: Play It Forward",
+    "sta": "2026-11-08/06:30",
+    "end": "2026-11-08/07:00"
+  },
+  {
+    "titulo": "The Great American Journey",
+    "sta": "2026-11-08/07:00",
+    "end": "2026-11-08/07:30"
+  },
+  {
+    "titulo": "Fútbol estelar",
+    "sta": "2026-11-08/07:30",
+    "end": "2026-11-08/07:55"
+  },
+  {
+    "titulo": "Premier League Soccer",
+    "sta": "2026-11-08/07:55",
+    "end": "2026-11-08/10:00"
+  },
+  {
+    "titulo": "Premier League Soccer",
+    "sta": "2026-11-08/10:00",
+    "end": "2026-11-08/12:30"
+  },
+  {
+    "titulo": "3er Tiempo",
+    "sta": "2026-11-08/12:30",
+    "end": "2026-11-08/13:00"
+  },
+  {
+    "titulo": "Fútbol estelar",
+    "sta": "2026-11-08/13:00",
+    "end": "2026-11-08/13:30"
+  },
+  {
+    "titulo": "Italian Serie A Soccer",
+    "sta": "2026-11-08/13:30",
+    "end": "2026-11-08/16:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres",
+    "sta": "2026-11-08/16:00",
+    "end": "2026-11-08/17:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-08/17:00",
+    "end": "2026-11-08/17:30"
+  },
+  {
+    "titulo": "Noticias Telemundo fin de semana",
+    "sta": "2026-11-08/17:30",
+    "end": "2026-11-08/18:00"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-08/18:00",
+    "end": "2026-11-08/18:58"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-08/18:58",
+    "end": "2026-11-08/21:00"
+  },
+  {
+    "titulo": "Pica y se extiende",
+    "sta": "2026-11-08/21:00",
+    "end": "2026-11-08/22:00"
+  },
+  {
+    "titulo": "Noticias Telemundo fin de semana",
+    "sta": "2026-11-08/22:00",
+    "end": "2026-11-08/22:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-08/22:30",
+    "end": "2026-11-08/23:30"
   }
 ]
