@@ -32,43 +32,38 @@ def format_dt(dt: datetime) -> str:
 def process_programs(programs: list) -> list:
     if not programs:
         return []
-
     programs = sorted(programs, key=lambda p: int(p.get("time_GMT", 0)))
     result = []
-
     for i, prog in enumerate(programs):
         name = prog.get("name") or "Sin título"
         ts_str = prog.get("time_GMT")
         if not ts_str:
             continue
-
         start_dt = unix_to_cdmx(ts_str)
-
         if i + 1 < len(programs) and programs[i + 1].get("time_GMT"):
             end_dt = unix_to_cdmx(programs[i + 1]["time_GMT"])
         else:
             end_dt = start_dt + timedelta(minutes=60)
-
         result.append({
             "titulo": name,
             "sta": format_dt(start_dt),
             "end": format_dt(end_dt)
         })
-
     return result
 
 def main():
     now = datetime.now(TZ)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
-
-    days = [today + timedelta(days=i) for i in range(-1, 8)]
-
     all_programs = []
-    for day in days:
-        all_programs.extend(fetch_day(day))
-
+    i = -1
+    while True:
+        day = today + timedelta(days=i)
+        progs = fetch_day(day)
+        if not progs:
+            break
+        all_programs.extend(progs)
+        i += 1
     epg = process_programs(all_programs)
-
     seen = set()
     unique = []
     for item in epg:
@@ -76,10 +71,8 @@ def main():
         if key not in seen:
             seen.add(key)
             unique.append(item)
-
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
-
     print(f"Guardado {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
 
 if __name__ == "__main__":
