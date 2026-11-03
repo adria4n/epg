@@ -10,7 +10,7 @@ import sys
 CHANNEL_SLUG = "sony_mexico"
 BASE_URL = f"https://www.gatotv.com/canal/{CHANNEL_SLUG}"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "sony.json"
+OUTPUT_FILE = "sony_mexico.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def fetch_page(date_str: str) -> str:
@@ -23,6 +23,7 @@ def fetch_page(date_str: str) -> str:
 def parse_items(html: str, day: datetime) -> list[dict]:
     rows = re.findall(r'<tr class="tbl_EPG_row[^"]*">(.*?)</tr>', html, re.DOTALL)
     programs = []
+    current_day = day
     for row in rows:
         times = re.findall(r'<time datetime="([^"]+)">', row)
         title_match = re.search(r'<span>([^<]+)</span>', row)
@@ -31,15 +32,22 @@ def parse_items(html: str, day: datetime) -> list[dict]:
         title = title_match.group(1).strip()
         start_h, start_m = map(int, times[0].split(":"))
         end_h, end_m = map(int, times[1].split(":"))
-        start = day.replace(hour=start_h, minute=start_m, second=0, microsecond=0)
-        end = day.replace(hour=end_h, minute=end_m, second=0, microsecond=0)
+        start = current_day.replace(hour=start_h, minute=start_m, second=0, microsecond=0)
+        end = current_day.replace(hour=end_h, minute=end_m, second=0, microsecond=0)
         if end <= start:
             end += timedelta(days=1)
+        if programs and start_h < 6 and programs[-1]["sta"].endswith(f"{programs[-1]['_start'].hour:02d}:{programs[-1]['_start'].minute:02d}") and programs[-1]["_start"].hour >= 20:
+            start += timedelta(days=1)
+            end += timedelta(days=1)
+            current_day = start
         programs.append({
             "titulo": title,
             "sta": start.strftime("%Y-%m-%d/%H:%M"),
             "end": end.strftime("%Y-%m-%d/%H:%M"),
+            "_start": start,
         })
+    for p in programs:
+        p.pop("_start", None)
     return programs
 
 def main():
