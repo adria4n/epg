@@ -13,7 +13,7 @@ OUTPUT_FILE = "sony-mexico.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE = "https://www.gatotv.com/canal/sony_mexico"
 
-DAYS_RANGE = range(-1, 7)  # ayer hasta +6 días
+DAYS_RANGE = range(-1, 7)
 
 def fetch(url: str) -> str:
     print(f"Descargando {url}...", file=sys.stderr)
@@ -21,8 +21,8 @@ def fetch(url: str) -> str:
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def parse_time_12h(time_str: str, base_date: datetime) -> datetime | None:
-    """Convierte '11:40 PM' o '1:34 AM' a datetime con la fecha base."""
+def parse_time_12h(time_str: str) -> tuple[int, int] | None:
+    """Regresa (hour_24, minute) desde '11:40 PM' o '1:34 AM'."""
     time_str = time_str.strip().upper()
     m = re.match(r'(\d{1,2}):(\d{2})\s*(AM|PM)', time_str)
     if not m:
@@ -32,9 +32,9 @@ def parse_time_12h(time_str: str, base_date: datetime) -> datetime | None:
         hour += 12
     if ampm == "AM" and hour == 12:
         hour = 0
-    return base_date.replace(hour=hour, minute=minute, second=0, microsecond=0)
+    return hour, minute
 
-def extract_programs(html: str, day: datetime) -> list[dict]:
+def extract_programs(html: str, page_date: datetime) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     programs = []
     seen = set()
@@ -49,12 +49,9 @@ def extract_programs(html: str, day: datetime) -> list[dict]:
 
         start_str = cells[0].get_text(strip=True)
         end_str = cells[1].get_text(strip=True)
-        title = cells[2].get_text(" ", strip=True)
+        title = re.sub(r'\s+', ' ', cells[2].get_text(" ", strip=True)).strip()
 
-        # Limpiar título (quitar espacios extra y saltos)
-        title = re.sub(r'\s+', ' ', title).strip()
-
-        if not start_str or not title or "Horarios" in start_str:
+        if not start_str or not title or "Horario" in start_str:
             continue
 
         key = (start_str, end_str, title)
@@ -62,19 +59,29 @@ def extract_programs(html: str, day: datetime) -> list[dict]:
             continue
         seen.add(key)
 
-        start = parse_time_12h(start_str, day)
-        end = parse_time_12h(end_str, day)
-
-        if not start:
+        start_hm = parse_time_12h(start_str)
+        end_hm = parse_time_12h(end_str)
+        if not start_hm:
             continue
 
-        # Si el end es menor que start, es del día siguiente
-        if end and end <= start:
-            end += timedelta(days=1)
+        sh, sm = start_hm
+        eh, em = end_hm if end_hm else (sh, sm)
 
-        # Si no hay end, asumir 30 min
-        if not end:
-            end = start + timedelta(minutes=30)
+        # Si empieza en PM tarde y termina en AM, el start es del día anterior
+        crosses_midnight = (sh >= 12 and eh < 12) or (eh < sh)
+        
+        if crosses_midnight and sh >= 18:
+            # Empezó la noche anterior
+            start_date = page_date - timedelta(days=1)
+        else:
+            start_date = page_date
+
+        start = start_date.replace(hour=sh, minute=sm, second=0, microsecond=0)
+        
+        end_date = start_date
+        if eh < sh or (eh == sh and em <= sm):
+            end_date = start_date + timedelta(days=1)
+        end = end_date.replace(hour=eh, minute=em, second=0, microsecond=0)
 
         programs.append({
             "titulo": title,
