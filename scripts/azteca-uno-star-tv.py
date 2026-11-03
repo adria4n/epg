@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 CHANNEL = "101"
 ID = ""
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "startv-epg.json"
+OUTPUT_FILE = "azteca-uno.json"
 
 def fetch_epg(context, host, uuid, cid, lineup, now):
     all_items = []
