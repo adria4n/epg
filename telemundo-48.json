@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Noticias Telemundo fin de semana",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-01/23:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-01/23:30",
+    "end": "2026-11-02/00:00"
+  },
+  {
     "titulo": "El pelotazo",
     "sta": "2026-11-02/00:00",
     "end": "2026-11-02/00:30"
@@ -140,17 +150,17 @@
     "end": "2026-11-03/02:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-03/02:00",
     "end": "2026-11-03/03:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-03/03:00",
     "end": "2026-11-03/04:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Ayuda virtual para votar",
     "sta": "2026-11-03/04:00",
     "end": "2026-11-03/05:00"
   },
@@ -1173,15 +1183,5 @@
     "titulo": "Lejos de ti",
     "sta": "2026-11-10/22:00",
     "end": "2026-11-10/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-10/23:00",
-    "end": "2026-11-10/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-10/23:35",
-    "end": "2026-11-11/00:00"
   }
 ]

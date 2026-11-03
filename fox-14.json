@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Full Measure With Sharyl Attkisson / Europe's Immigration Crisis Stretches the EU's Welfare State to the Breaking Point",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-01/23:30"
+  },
+  {
+    "titulo": "The Big Bang Theory / The VCR Illumination",
+    "sta": "2026-11-01/23:30",
+    "end": "2026-11-02/00:00"
+  },
+  {
     "titulo": "The Big Bang Theory / The Paintball Scattering",
     "sta": "2026-11-02/00:00",
     "end": "2026-11-02/00:30"
@@ -1225,7 +1235,7 @@
     "end": "2026-11-09/16:30"
   },
   {
-    "titulo": "Flip Side",
+    "titulo": "Flip Side / Got the Green Light",
     "sta": "2026-11-09/16:30",
     "end": "2026-11-09/17:00"
   },
@@ -1395,7 +1405,7 @@
     "end": "2026-11-10/16:30"
   },
   {
-    "titulo": "Flip Side / Play It Cool",
+    "titulo": "Flip Side",
     "sta": "2026-11-10/16:30",
     "end": "2026-11-10/17:00"
   },
@@ -1438,15 +1448,5 @@
     "titulo": "KFOX14 News at 9",
     "sta": "2026-11-10/22:00",
     "end": "2026-11-10/23:05"
-  },
-  {
-    "titulo": "Inside Edition",
-    "sta": "2026-11-10/23:05",
-    "end": "2026-11-10/23:35"
-  },
-  {
-    "titulo": "Extra",
-    "sta": "2026-11-10/23:35",
-    "end": "2026-11-11/00:05"
   }
 ]

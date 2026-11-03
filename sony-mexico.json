@@ -1,777 +1,787 @@
 [
   {
+    "titulo": "El Justiciero: Capítulo Final",
+    "sta": "2026-11-01/23:55",
+    "end": "2026-11-02/01:59"
+  },
+  {
     "titulo": "Son como niños 2",
-    "sta": "2026-11-01/21:40",
-    "end": "2026-11-01/23:34"
+    "sta": "2026-11-02/00:40",
+    "end": "2026-11-02/02:34"
   },
   {
     "titulo": "Hércules",
-    "sta": "2026-11-01/22:59",
-    "end": "2026-11-02/00:49"
+    "sta": "2026-11-02/01:59",
+    "end": "2026-11-02/03:49"
   },
   {
     "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 5",
-    "sta": "2026-11-02/00:49",
-    "end": "2026-11-02/01:19"
+    "sta": "2026-11-02/03:49",
+    "end": "2026-11-02/04:19"
   },
   {
     "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 6",
-    "sta": "2026-11-02/01:19",
-    "end": "2026-11-02/01:49"
+    "sta": "2026-11-02/04:19",
+    "end": "2026-11-02/04:49"
   },
   {
     "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 7",
-    "sta": "2026-11-02/01:49",
-    "end": "2026-11-02/02:19"
+    "sta": "2026-11-02/04:49",
+    "end": "2026-11-02/05:19"
   },
   {
     "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 8",
-    "sta": "2026-11-02/02:19",
-    "end": "2026-11-02/02:49"
+    "sta": "2026-11-02/05:19",
+    "end": "2026-11-02/05:49"
   },
   {
     "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 5",
-    "sta": "2026-11-02/02:49",
-    "end": "2026-11-02/03:20"
+    "sta": "2026-11-02/05:49",
+    "end": "2026-11-02/06:20"
   },
   {
     "titulo": "Betty's call Temporada 8 | Episodio 17",
-    "sta": "2026-11-02/03:20",
-    "end": "2026-11-02/04:10"
+    "sta": "2026-11-02/06:20",
+    "end": "2026-11-02/07:10"
   },
   {
     "titulo": "Betty's call Temporada 8 | Episodio 18",
-    "sta": "2026-11-02/04:10",
-    "end": "2026-11-02/05:00"
+    "sta": "2026-11-02/07:10",
+    "end": "2026-11-02/08:00"
   },
   {
     "titulo": "The Good Doctor Temporada 2 | Episodio 15",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:50"
+    "sta": "2026-11-02/08:00",
+    "end": "2026-11-02/08:50"
   },
   {
     "titulo": "The Good Doctor Temporada 2 | Episodio 16",
-    "sta": "2026-11-02/05:50",
-    "end": "2026-11-02/06:40"
+    "sta": "2026-11-02/08:50",
+    "end": "2026-11-02/09:40"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 4",
-    "sta": "2026-11-02/06:40",
-    "end": "2026-11-02/07:04"
+    "sta": "2026-11-02/09:40",
+    "end": "2026-11-02/10:04"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 4",
-    "sta": "2026-11-02/07:04",
-    "end": "2026-11-02/07:34"
+    "sta": "2026-11-02/10:04",
+    "end": "2026-11-02/10:34"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 5",
-    "sta": "2026-11-02/07:34",
-    "end": "2026-11-02/08:04"
+    "sta": "2026-11-02/10:34",
+    "end": "2026-11-02/11:04"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 6",
-    "sta": "2026-11-02/08:04",
-    "end": "2026-11-02/08:34"
+    "sta": "2026-11-02/11:04",
+    "end": "2026-11-02/11:34"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 7",
-    "sta": "2026-11-02/08:34",
-    "end": "2026-11-02/09:04"
+    "sta": "2026-11-02/11:34",
+    "end": "2026-11-02/12:04"
   },
   {
     "titulo": "Dioses de Egipto",
-    "sta": "2026-11-02/09:04",
-    "end": "2026-11-02/11:19"
+    "sta": "2026-11-02/12:04",
+    "end": "2026-11-02/14:19"
   },
   {
     "titulo": "Juegos del Hambre Sinsajo, 2",
-    "sta": "2026-11-02/11:19",
-    "end": "2026-11-02/13:50"
+    "sta": "2026-11-02/14:19",
+    "end": "2026-11-02/16:50"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 5",
-    "sta": "2026-11-02/13:50",
-    "end": "2026-11-02/14:20"
+    "sta": "2026-11-02/16:50",
+    "end": "2026-11-02/17:20"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 6",
-    "sta": "2026-11-02/14:20",
-    "end": "2026-11-02/14:50"
+    "sta": "2026-11-02/17:20",
+    "end": "2026-11-02/17:50"
   },
   {
     "titulo": "Regreso del todopoderoso",
-    "sta": "2026-11-02/14:50",
-    "end": "2026-11-02/16:35"
+    "sta": "2026-11-02/17:50",
+    "end": "2026-11-02/19:35"
   },
   {
     "titulo": "Gigantes de Acero",
-    "sta": "2026-11-02/16:35",
-    "end": "2026-11-02/19:00"
+    "sta": "2026-11-02/19:35",
+    "end": "2026-11-02/22:00"
   },
   {
     "titulo": "El día de la Independencia",
-    "sta": "2026-11-02/19:00",
-    "end": "2026-11-02/21:40"
+    "sta": "2026-11-02/22:00",
+    "end": "2026-11-03/00:40"
   },
   {
     "titulo": "Titanic",
-    "sta": "2026-11-02/19:34",
-    "end": "2026-11-02/23:14"
+    "sta": "2026-11-02/22:34",
+    "end": "2026-11-03/02:14"
   },
   {
     "titulo": "Son como niños 2",
-    "sta": "2026-11-02/21:40",
-    "end": "2026-11-02/23:34"
+    "sta": "2026-11-03/00:40",
+    "end": "2026-11-03/02:34"
   },
   {
     "titulo": "Juegos del Hambre Sinsajo, 2",
-    "sta": "2026-11-02/23:34",
-    "end": "2026-11-03/02:05"
+    "sta": "2026-11-03/02:34",
+    "end": "2026-11-03/05:05"
   },
   {
     "titulo": "Betty's call Temporada 8 | Episodio 19",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/04:00"
-  },
-  {
-    "titulo": "Betty's call Temporada 8 | Episodio 20",
-    "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/05:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 2 | Episodio 17",
-    "sta": "2026-11-03/05:00",
-    "end": "2026-11-03/06:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 2 | Episodio 18",
     "sta": "2026-11-03/06:00",
     "end": "2026-11-03/07:00"
   },
   {
-    "titulo": "Vecinos Temporada 10 | Episodio 7",
+    "titulo": "Betty's call Temporada 8 | Episodio 20",
     "sta": "2026-11-03/07:00",
-    "end": "2026-11-03/07:30"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 8",
-    "sta": "2026-11-03/07:30",
     "end": "2026-11-03/08:00"
   },
   {
-    "titulo": "Vecinos Temporada 10 | Episodio 9",
+    "titulo": "The Good Doctor Temporada 2 | Episodio 17",
     "sta": "2026-11-03/08:00",
-    "end": "2026-11-03/08:30"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 10",
-    "sta": "2026-11-03/08:30",
     "end": "2026-11-03/09:00"
   },
   {
-    "titulo": "Jack y Jill",
+    "titulo": "The Good Doctor Temporada 2 | Episodio 18",
     "sta": "2026-11-03/09:00",
-    "end": "2026-11-03/10:44"
-  },
-  {
-    "titulo": "Regreso del todopoderoso",
-    "sta": "2026-11-03/10:44",
-    "end": "2026-11-03/12:29"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 6",
-    "sta": "2026-11-03/12:29",
-    "end": "2026-11-03/13:00"
+    "end": "2026-11-03/10:00"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 7",
-    "sta": "2026-11-03/13:00",
-    "end": "2026-11-03/13:30"
+    "sta": "2026-11-03/10:00",
+    "end": "2026-11-03/10:30"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 8",
-    "sta": "2026-11-03/13:30",
-    "end": "2026-11-03/14:00"
+    "sta": "2026-11-03/10:30",
+    "end": "2026-11-03/11:00"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 9",
-    "sta": "2026-11-03/14:00",
-    "end": "2026-11-03/14:30"
+    "sta": "2026-11-03/11:00",
+    "end": "2026-11-03/11:30"
   },
   {
     "titulo": "Vecinos Temporada 10 | Episodio 10",
-    "sta": "2026-11-03/14:30",
-    "end": "2026-11-03/15:00"
-  },
-  {
-    "titulo": "El día de la Independencia",
-    "sta": "2026-11-03/15:00",
-    "end": "2026-11-03/17:40"
-  },
-  {
-    "titulo": "Son como niños 2",
-    "sta": "2026-11-03/17:40",
-    "end": "2026-11-03/19:34"
-  },
-  {
-    "titulo": "Titanic",
-    "sta": "2026-11-03/19:34",
-    "end": "2026-11-03/23:14"
-  },
-  {
-    "titulo": "¿Que pasó Ayer? Parte 3",
-    "sta": "2026-11-03/22:50",
-    "end": "2026-11-04/00:44"
-  },
-  {
-    "titulo": "Ladrona de Identidades",
-    "sta": "2026-11-03/23:14",
-    "end": "2026-11-04/01:19"
-  },
-  {
-    "titulo": "The Nanny Temporada 3 | Episodio 22",
-    "sta": "2026-11-04/01:19",
-    "end": "2026-11-04/01:50"
-  },
-  {
-    "titulo": "The Nanny Temporada 3 | Episodio 23",
-    "sta": "2026-11-04/01:50",
-    "end": "2026-11-04/02:20"
-  },
-  {
-    "titulo": "Grey's Anatomy Temporada 21 | Episodio 11",
-    "sta": "2026-11-04/02:20",
-    "end": "2026-11-04/03:10"
-  },
-  {
-    "titulo": "Betty's call Temporada 8 | Episodio 21",
-    "sta": "2026-11-04/03:10",
-    "end": "2026-11-04/04:00"
-  },
-  {
-    "titulo": "Betty's call Temporada 8 | Episodio 22",
-    "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 1",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/05:50"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 2",
-    "sta": "2026-11-04/05:50",
-    "end": "2026-11-04/06:50"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 11",
-    "sta": "2026-11-04/06:50",
-    "end": "2026-11-04/07:14"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 10",
-    "sta": "2026-11-04/07:14",
-    "end": "2026-11-04/07:44"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 11",
-    "sta": "2026-11-04/07:44",
-    "end": "2026-11-04/08:14"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 12",
-    "sta": "2026-11-04/08:14",
-    "end": "2026-11-04/08:44"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 13",
-    "sta": "2026-11-04/08:44",
-    "end": "2026-11-04/09:14"
-  },
-  {
-    "titulo": "Navidad en Conway",
-    "sta": "2026-11-04/09:14",
-    "end": "2026-11-04/11:09"
-  },
-  {
-    "titulo": "Hombres de Negro",
-    "sta": "2026-11-04/11:09",
-    "end": "2026-11-04/12:55"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 10",
-    "sta": "2026-11-04/12:55",
-    "end": "2026-11-04/13:25"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 11",
-    "sta": "2026-11-04/13:25",
-    "end": "2026-11-04/13:55"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 12",
-    "sta": "2026-11-04/13:55",
-    "end": "2026-11-04/14:25"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 13",
-    "sta": "2026-11-04/14:25",
-    "end": "2026-11-04/14:55"
-  },
-  {
-    "titulo": "Shazam!",
-    "sta": "2026-11-04/14:55",
-    "end": "2026-11-04/17:25"
-  },
-  {
-    "titulo": "Space Jam el juego del siglo",
-    "sta": "2026-11-04/17:25",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Luna de Miel en Familia",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/21:10"
-  },
-  {
-    "titulo": "Los Locos Addams 2",
-    "sta": "2026-11-04/21:10",
-    "end": "2026-11-04/22:50"
-  },
-  {
-    "titulo": "Arrástrame al Infierno",
-    "sta": "2026-11-04/22:44",
-    "end": "2026-11-05/00:34"
-  },
-  {
-    "titulo": "¿Que pasó Ayer? Parte 3",
-    "sta": "2026-11-04/22:50",
-    "end": "2026-11-05/00:44"
-  },
-  {
-    "titulo": "The Nanny Temporada 3 | Episodio 24",
-    "sta": "2026-11-05/00:44",
-    "end": "2026-11-05/01:14"
-  },
-  {
-    "titulo": "The Nanny Temporada 3 | Episodio 26",
-    "sta": "2026-11-05/01:14",
-    "end": "2026-11-05/01:44"
-  },
-  {
-    "titulo": "The Nanny Temporada 3 | Episodio 25",
-    "sta": "2026-11-05/01:44",
-    "end": "2026-11-05/02:14"
-  },
-  {
-    "titulo": "Grey's Anatomy Temporada 21 | Episodio 12",
-    "sta": "2026-11-05/02:14",
-    "end": "2026-11-05/03:14"
-  },
-  {
-    "titulo": "Betty's call Temporada 8 | Episodio 23",
-    "sta": "2026-11-05/03:14",
-    "end": "2026-11-05/04:10"
-  },
-  {
-    "titulo": "Betty's call Temporada 8 | Episodio 24",
-    "sta": "2026-11-05/04:10",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 3",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 4",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 5",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/07:54"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 13",
-    "sta": "2026-11-05/07:54",
-    "end": "2026-11-05/08:24"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 14",
-    "sta": "2026-11-05/08:24",
-    "end": "2026-11-05/08:54"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 15",
-    "sta": "2026-11-05/08:54",
-    "end": "2026-11-05/09:24"
-  },
-  {
-    "titulo": "Vecinos Temporada 11 | Episodio 1",
-    "sta": "2026-11-05/09:24",
-    "end": "2026-11-05/09:54"
-  },
-  {
-    "titulo": "Milagros del cielo",
-    "sta": "2026-11-05/09:54",
-    "end": "2026-11-05/11:54"
-  },
-  {
-    "titulo": "Tormenta mortal",
-    "sta": "2026-11-05/11:54",
-    "end": "2026-11-05/13:44"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 13",
-    "sta": "2026-11-05/13:44",
-    "end": "2026-11-05/14:14"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 14",
-    "sta": "2026-11-05/14:14",
-    "end": "2026-11-05/14:44"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 15",
-    "sta": "2026-11-05/14:44",
-    "end": "2026-11-05/15:15"
-  },
-  {
-    "titulo": "Space Jam el juego del siglo",
-    "sta": "2026-11-05/15:15",
-    "end": "2026-11-05/16:50"
-  },
-  {
-    "titulo": "Luna de Miel en Familia",
-    "sta": "2026-11-05/16:50",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Arrástrame al Infierno",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:50"
-  },
-  {
-    "titulo": "La Momia",
-    "sta": "2026-11-05/20:50",
-    "end": "2026-11-05/22:44"
-  },
-  {
-    "titulo": "El Valle de la Venganza",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/23:00"
-  },
-  {
-    "titulo": "Arrástrame al Infierno",
-    "sta": "2026-11-05/22:44",
-    "end": "2026-11-06/00:34"
-  },
-  {
-    "titulo": "The Nanny Temporada 3 | Episodio 25",
-    "sta": "2026-11-06/00:34",
-    "end": "2026-11-06/01:04"
-  },
-  {
-    "titulo": "The Nanny Temporada 4 | Episodio 3",
-    "sta": "2026-11-06/01:04",
-    "end": "2026-11-06/01:34"
-  },
-  {
-    "titulo": "The Nanny Temporada 4 | Episodio 2",
-    "sta": "2026-11-06/01:34",
-    "end": "2026-11-06/02:04"
-  },
-  {
-    "titulo": "Grey's Anatomy Temporada 21 | Episodio 13",
-    "sta": "2026-11-06/02:04",
-    "end": "2026-11-06/03:00"
-  },
-  {
-    "titulo": "Betty's call Temporada 9 | Episodio 1",
-    "sta": "2026-11-06/03:00",
-    "end": "2026-11-06/04:00"
-  },
-  {
-    "titulo": "Betty's call Temporada 9 | Episodio 2",
-    "sta": "2026-11-06/04:00",
-    "end": "2026-11-06/05:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 5",
-    "sta": "2026-11-06/05:00",
-    "end": "2026-11-06/06:00"
-  },
-  {
-    "titulo": "The Good Doctor Temporada 3 | Episodio 6",
-    "sta": "2026-11-06/06:00",
-    "end": "2026-11-06/06:50"
-  },
-  {
-    "titulo": "Vecinos Temporada 10 | Episodio 15",
-    "sta": "2026-11-06/06:50",
-    "end": "2026-11-06/07:20"
-  },
-  {
-    "titulo": "Vecinos Temporada 11 | Episodio 1",
-    "sta": "2026-11-06/07:20",
-    "end": "2026-11-06/07:50"
-  },
-  {
-    "titulo": "Vecinos Temporada 11 | Episodio 2",
-    "sta": "2026-11-06/07:50",
-    "end": "2026-11-06/08:20"
-  },
-  {
-    "titulo": "Vecinos Temporada 11 | Episodio 3",
-    "sta": "2026-11-06/08:20",
-    "end": "2026-11-06/08:50"
-  },
-  {
-    "titulo": "Vecinos Temporada 11 | Episodio 4",
-    "sta": "2026-11-06/08:50",
-    "end": "2026-11-06/09:20"
-  },
-  {
-    "titulo": "Hombres de Negro 2",
-    "sta": "2026-11-06/09:20",
-    "end": "2026-11-06/10:54"
-  },
-  {
-    "titulo": "Operación regalo",
-    "sta": "2026-11-06/10:54",
-    "end": "2026-11-06/12:40"
-  },
-  {
-    "titulo": "La Mujer Rey",
-    "sta": "2026-11-06/12:40",
-    "end": "2026-11-06/15:10"
-  },
-  {
-    "titulo": "Hércules",
-    "sta": "2026-11-06/15:10",
-    "end": "2026-11-06/17:00"
-  },
-  {
-    "titulo": "El Valle de la Venganza",
-    "sta": "2026-11-06/17:00",
-    "end": "2026-11-06/19:00"
-  },
-  {
-    "titulo": "Depredadores",
-    "sta": "2026-11-06/19:00",
-    "end": "2026-11-06/21:00"
-  },
-  {
-    "titulo": "El protector",
-    "sta": "2026-11-06/21:24",
-    "end": "2026-11-06/23:34"
-  },
-  {
-    "titulo": "M3gan",
-    "sta": "2026-11-06/23:00",
-    "end": "2026-11-07/00:54"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 14",
-    "sta": "2026-11-07/00:54",
-    "end": "2026-11-07/01:25"
-  },
-  {
-    "titulo": "The Nanny Temporada 4 | Episodio 3",
-    "sta": "2026-11-07/01:25",
-    "end": "2026-11-07/01:55"
-  },
-  {
-    "titulo": "The Nanny Temporada 4 | Episodio 4",
-    "sta": "2026-11-07/01:55",
-    "end": "2026-11-07/02:25"
-  },
-  {
-    "titulo": "Grey's Anatomy Temporada 21 | Episodio 14",
-    "sta": "2026-11-07/02:25",
-    "end": "2026-11-07/03:20"
-  },
-  {
-    "titulo": "Betty's call Temporada 9 | Episodio 3",
-    "sta": "2026-11-07/03:20",
-    "end": "2026-11-07/04:10"
-  },
-  {
-    "titulo": "Betty's call Temporada 9 | Episodio 4",
-    "sta": "2026-11-07/04:10",
-    "end": "2026-11-07/05:00"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 11",
-    "sta": "2026-11-07/05:00",
-    "end": "2026-11-07/05:24"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 12",
-    "sta": "2026-11-07/05:24",
-    "end": "2026-11-07/05:49"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 13",
-    "sta": "2026-11-07/05:49",
-    "end": "2026-11-07/06:19"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 14",
-    "sta": "2026-11-07/06:19",
-    "end": "2026-11-07/06:49"
-  },
-  {
-    "titulo": "My wife and kids Temporada 5 | Episodio 15",
-    "sta": "2026-11-07/06:49",
-    "end": "2026-11-07/07:20"
-  },
-  {
-    "titulo": "Operación regalo",
-    "sta": "2026-11-07/07:20",
-    "end": "2026-11-07/09:05"
+    "sta": "2026-11-03/11:30",
+    "end": "2026-11-03/12:00"
   },
   {
     "titulo": "Jack y Jill",
-    "sta": "2026-11-07/09:05",
-    "end": "2026-11-07/10:50"
+    "sta": "2026-11-03/12:00",
+    "end": "2026-11-03/13:44"
   },
   {
-    "titulo": "La Mujer Rey",
-    "sta": "2026-11-07/10:50",
-    "end": "2026-11-07/13:20"
+    "titulo": "Regreso del todopoderoso",
+    "sta": "2026-11-03/13:44",
+    "end": "2026-11-03/15:29"
   },
   {
-    "titulo": "Viaje al centro de la tierra",
-    "sta": "2026-11-07/13:20",
-    "end": "2026-11-07/15:00"
+    "titulo": "Vecinos Temporada 10 | Episodio 6",
+    "sta": "2026-11-03/15:29",
+    "end": "2026-11-03/16:00"
   },
   {
-    "titulo": "Depredadores",
-    "sta": "2026-11-07/15:00",
-    "end": "2026-11-07/17:00"
+    "titulo": "Vecinos Temporada 10 | Episodio 7",
+    "sta": "2026-11-03/16:00",
+    "end": "2026-11-03/16:30"
   },
   {
-    "titulo": "Nico",
-    "sta": "2026-11-07/17:00",
-    "end": "2026-11-07/18:54"
+    "titulo": "Vecinos Temporada 10 | Episodio 8",
+    "sta": "2026-11-03/16:30",
+    "end": "2026-11-03/17:00"
   },
   {
-    "titulo": "El Fugitivo",
-    "sta": "2026-11-07/18:54",
-    "end": "2026-11-07/21:24"
+    "titulo": "Vecinos Temporada 10 | Episodio 9",
+    "sta": "2026-11-03/17:00",
+    "end": "2026-11-03/17:30"
   },
   {
-    "titulo": "El protector",
-    "sta": "2026-11-07/21:24",
-    "end": "2026-11-07/23:34"
+    "titulo": "Vecinos Temporada 10 | Episodio 10",
+    "sta": "2026-11-03/17:30",
+    "end": "2026-11-03/18:00"
   },
   {
-    "titulo": "El Especialista",
-    "sta": "2026-11-07/22:50",
-    "end": "2026-11-08/00:54"
+    "titulo": "El día de la Independencia",
+    "sta": "2026-11-03/18:00",
+    "end": "2026-11-03/20:40"
   },
   {
-    "titulo": "Duro de matar",
-    "sta": "2026-11-07/23:34",
-    "end": "2026-11-08/01:24"
+    "titulo": "Son como niños 2",
+    "sta": "2026-11-03/20:40",
+    "end": "2026-11-03/22:34"
+  },
+  {
+    "titulo": "Titanic",
+    "sta": "2026-11-03/22:34",
+    "end": "2026-11-04/02:14"
+  },
+  {
+    "titulo": "Los Locos Addams 2",
+    "sta": "2026-11-04/00:10",
+    "end": "2026-11-04/01:50"
+  },
+  {
+    "titulo": "Ladrona de Identidades",
+    "sta": "2026-11-04/02:14",
+    "end": "2026-11-04/04:19"
+  },
+  {
+    "titulo": "The Nanny Temporada 3 | Episodio 22",
+    "sta": "2026-11-04/04:19",
+    "end": "2026-11-04/04:50"
+  },
+  {
+    "titulo": "The Nanny Temporada 3 | Episodio 23",
+    "sta": "2026-11-04/04:50",
+    "end": "2026-11-04/05:20"
+  },
+  {
+    "titulo": "Grey's Anatomy Temporada 21 | Episodio 11",
+    "sta": "2026-11-04/05:20",
+    "end": "2026-11-04/06:10"
+  },
+  {
+    "titulo": "Betty's call Temporada 8 | Episodio 21",
+    "sta": "2026-11-04/06:10",
+    "end": "2026-11-04/07:00"
+  },
+  {
+    "titulo": "Betty's call Temporada 8 | Episodio 22",
+    "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/08:00"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 1",
+    "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/08:50"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 2",
+    "sta": "2026-11-04/08:50",
+    "end": "2026-11-04/09:50"
   },
   {
     "titulo": "My wife and kids Temporada 5 | Episodio 11",
-    "sta": "2026-11-08/01:24",
-    "end": "2026-11-08/01:54"
+    "sta": "2026-11-04/09:50",
+    "end": "2026-11-04/10:14"
   },
   {
-    "titulo": "My wife and kids Temporada 5 | Episodio 12",
-    "sta": "2026-11-08/01:54",
-    "end": "2026-11-08/02:24"
+    "titulo": "Vecinos Temporada 10 | Episodio 10",
+    "sta": "2026-11-04/10:14",
+    "end": "2026-11-04/10:44"
   },
   {
-    "titulo": "My wife and kids Temporada 5 | Episodio 13",
-    "sta": "2026-11-08/02:24",
-    "end": "2026-11-08/02:54"
+    "titulo": "Vecinos Temporada 10 | Episodio 11",
+    "sta": "2026-11-04/10:44",
+    "end": "2026-11-04/11:14"
   },
   {
-    "titulo": "My wife and kids Temporada 5 | Episodio 14",
-    "sta": "2026-11-08/02:54",
-    "end": "2026-11-08/03:19"
+    "titulo": "Vecinos Temporada 10 | Episodio 12",
+    "sta": "2026-11-04/11:14",
+    "end": "2026-11-04/11:44"
   },
   {
-    "titulo": "Betty's call Temporada 9 | Episodio 1",
-    "sta": "2026-11-08/03:19",
-    "end": "2026-11-08/04:10"
+    "titulo": "Vecinos Temporada 10 | Episodio 13",
+    "sta": "2026-11-04/11:44",
+    "end": "2026-11-04/12:14"
   },
   {
-    "titulo": "Betty's call Temporada 9 | Episodio 2",
-    "sta": "2026-11-08/04:10",
-    "end": "2026-11-08/05:00"
+    "titulo": "Navidad en Conway",
+    "sta": "2026-11-04/12:14",
+    "end": "2026-11-04/14:09"
   },
   {
-    "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 9",
-    "sta": "2026-11-08/05:00",
-    "end": "2026-11-08/05:30"
+    "titulo": "Hombres de Negro",
+    "sta": "2026-11-04/14:09",
+    "end": "2026-11-04/15:55"
   },
   {
-    "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 10",
-    "sta": "2026-11-08/05:30",
-    "end": "2026-11-08/06:00"
+    "titulo": "Vecinos Temporada 10 | Episodio 10",
+    "sta": "2026-11-04/15:55",
+    "end": "2026-11-04/16:25"
   },
   {
-    "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 11",
-    "sta": "2026-11-08/06:00",
-    "end": "2026-11-08/06:30"
+    "titulo": "Vecinos Temporada 10 | Episodio 11",
+    "sta": "2026-11-04/16:25",
+    "end": "2026-11-04/16:55"
   },
   {
-    "titulo": "Morbius",
-    "sta": "2026-11-08/06:30",
-    "end": "2026-11-08/08:25"
+    "titulo": "Vecinos Temporada 10 | Episodio 12",
+    "sta": "2026-11-04/16:55",
+    "end": "2026-11-04/17:25"
+  },
+  {
+    "titulo": "Vecinos Temporada 10 | Episodio 13",
+    "sta": "2026-11-04/17:25",
+    "end": "2026-11-04/17:55"
+  },
+  {
+    "titulo": "Shazam!",
+    "sta": "2026-11-04/17:55",
+    "end": "2026-11-04/20:25"
+  },
+  {
+    "titulo": "Space Jam el juego del siglo",
+    "sta": "2026-11-04/20:25",
+    "end": "2026-11-04/22:00"
+  },
+  {
+    "titulo": "Luna de Miel en Familia",
+    "sta": "2026-11-04/22:00",
+    "end": "2026-11-05/00:10"
+  },
+  {
+    "titulo": "La Momia",
+    "sta": "2026-11-04/23:50",
+    "end": "2026-11-05/01:44"
+  },
+  {
+    "titulo": "Los Locos Addams 2",
+    "sta": "2026-11-05/00:10",
+    "end": "2026-11-05/01:50"
+  },
+  {
+    "titulo": "¿Que pasó Ayer? Parte 3",
+    "sta": "2026-11-05/01:50",
+    "end": "2026-11-05/03:44"
+  },
+  {
+    "titulo": "The Nanny Temporada 3 | Episodio 24",
+    "sta": "2026-11-05/03:44",
+    "end": "2026-11-05/04:14"
+  },
+  {
+    "titulo": "The Nanny Temporada 3 | Episodio 26",
+    "sta": "2026-11-05/04:14",
+    "end": "2026-11-05/04:44"
+  },
+  {
+    "titulo": "The Nanny Temporada 3 | Episodio 25",
+    "sta": "2026-11-05/04:44",
+    "end": "2026-11-05/05:14"
+  },
+  {
+    "titulo": "Grey's Anatomy Temporada 21 | Episodio 12",
+    "sta": "2026-11-05/05:14",
+    "end": "2026-11-05/06:14"
+  },
+  {
+    "titulo": "Betty's call Temporada 8 | Episodio 23",
+    "sta": "2026-11-05/06:14",
+    "end": "2026-11-05/07:10"
+  },
+  {
+    "titulo": "Betty's call Temporada 8 | Episodio 24",
+    "sta": "2026-11-05/07:10",
+    "end": "2026-11-05/08:00"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 3",
+    "sta": "2026-11-05/08:00",
+    "end": "2026-11-05/09:00"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 4",
+    "sta": "2026-11-05/09:00",
+    "end": "2026-11-05/10:00"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 5",
+    "sta": "2026-11-05/10:00",
+    "end": "2026-11-05/10:54"
+  },
+  {
+    "titulo": "Vecinos Temporada 10 | Episodio 13",
+    "sta": "2026-11-05/10:54",
+    "end": "2026-11-05/11:24"
+  },
+  {
+    "titulo": "Vecinos Temporada 10 | Episodio 14",
+    "sta": "2026-11-05/11:24",
+    "end": "2026-11-05/11:54"
+  },
+  {
+    "titulo": "Vecinos Temporada 10 | Episodio 15",
+    "sta": "2026-11-05/11:54",
+    "end": "2026-11-05/12:24"
+  },
+  {
+    "titulo": "Vecinos Temporada 11 | Episodio 1",
+    "sta": "2026-11-05/12:24",
+    "end": "2026-11-05/12:54"
   },
   {
     "titulo": "Milagros del cielo",
-    "sta": "2026-11-08/08:25",
-    "end": "2026-11-08/10:30"
+    "sta": "2026-11-05/12:54",
+    "end": "2026-11-05/14:54"
   },
   {
     "titulo": "Tormenta mortal",
-    "sta": "2026-11-08/10:30",
-    "end": "2026-11-08/12:20"
+    "sta": "2026-11-05/14:54",
+    "end": "2026-11-05/16:44"
   },
   {
-    "titulo": "Uncharted: Fuera del Mapa",
-    "sta": "2026-11-08/12:20",
-    "end": "2026-11-08/14:30"
+    "titulo": "Vecinos Temporada 10 | Episodio 13",
+    "sta": "2026-11-05/16:44",
+    "end": "2026-11-05/17:14"
   },
   {
-    "titulo": "La caida de la Casa Blanca",
-    "sta": "2026-11-08/14:30",
-    "end": "2026-11-08/17:00"
+    "titulo": "Vecinos Temporada 10 | Episodio 14",
+    "sta": "2026-11-05/17:14",
+    "end": "2026-11-05/17:44"
+  },
+  {
+    "titulo": "Vecinos Temporada 10 | Episodio 15",
+    "sta": "2026-11-05/17:44",
+    "end": "2026-11-05/18:15"
+  },
+  {
+    "titulo": "Space Jam el juego del siglo",
+    "sta": "2026-11-05/18:15",
+    "end": "2026-11-05/19:50"
+  },
+  {
+    "titulo": "Luna de Miel en Familia",
+    "sta": "2026-11-05/19:50",
+    "end": "2026-11-05/22:00"
+  },
+  {
+    "titulo": "Arrástrame al Infierno",
+    "sta": "2026-11-05/22:00",
+    "end": "2026-11-05/23:50"
+  },
+  {
+    "titulo": "La Momia",
+    "sta": "2026-11-05/23:50",
+    "end": "2026-11-06/01:44"
+  },
+  {
+    "titulo": "El Valle de la Venganza",
+    "sta": "2026-11-06/00:00",
+    "end": "2026-11-06/02:00"
+  },
+  {
+    "titulo": "Arrástrame al Infierno",
+    "sta": "2026-11-06/01:44",
+    "end": "2026-11-06/03:34"
+  },
+  {
+    "titulo": "The Nanny Temporada 3 | Episodio 25",
+    "sta": "2026-11-06/03:34",
+    "end": "2026-11-06/04:04"
+  },
+  {
+    "titulo": "The Nanny Temporada 4 | Episodio 3",
+    "sta": "2026-11-06/04:04",
+    "end": "2026-11-06/04:34"
+  },
+  {
+    "titulo": "The Nanny Temporada 4 | Episodio 2",
+    "sta": "2026-11-06/04:34",
+    "end": "2026-11-06/05:04"
+  },
+  {
+    "titulo": "Grey's Anatomy Temporada 21 | Episodio 13",
+    "sta": "2026-11-06/05:04",
+    "end": "2026-11-06/06:00"
+  },
+  {
+    "titulo": "Betty's call Temporada 9 | Episodio 1",
+    "sta": "2026-11-06/06:00",
+    "end": "2026-11-06/07:00"
+  },
+  {
+    "titulo": "Betty's call Temporada 9 | Episodio 2",
+    "sta": "2026-11-06/07:00",
+    "end": "2026-11-06/08:00"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 5",
+    "sta": "2026-11-06/08:00",
+    "end": "2026-11-06/09:00"
+  },
+  {
+    "titulo": "The Good Doctor Temporada 3 | Episodio 6",
+    "sta": "2026-11-06/09:00",
+    "end": "2026-11-06/09:50"
+  },
+  {
+    "titulo": "Vecinos Temporada 10 | Episodio 15",
+    "sta": "2026-11-06/09:50",
+    "end": "2026-11-06/10:20"
+  },
+  {
+    "titulo": "Vecinos Temporada 11 | Episodio 1",
+    "sta": "2026-11-06/10:20",
+    "end": "2026-11-06/10:50"
+  },
+  {
+    "titulo": "Vecinos Temporada 11 | Episodio 2",
+    "sta": "2026-11-06/10:50",
+    "end": "2026-11-06/11:20"
+  },
+  {
+    "titulo": "Vecinos Temporada 11 | Episodio 3",
+    "sta": "2026-11-06/11:20",
+    "end": "2026-11-06/11:50"
+  },
+  {
+    "titulo": "Vecinos Temporada 11 | Episodio 4",
+    "sta": "2026-11-06/11:50",
+    "end": "2026-11-06/12:20"
+  },
+  {
+    "titulo": "Hombres de Negro 2",
+    "sta": "2026-11-06/12:20",
+    "end": "2026-11-06/13:54"
+  },
+  {
+    "titulo": "Operación regalo",
+    "sta": "2026-11-06/13:54",
+    "end": "2026-11-06/15:40"
+  },
+  {
+    "titulo": "La Mujer Rey",
+    "sta": "2026-11-06/15:40",
+    "end": "2026-11-06/18:10"
+  },
+  {
+    "titulo": "Hércules",
+    "sta": "2026-11-06/18:10",
+    "end": "2026-11-06/20:00"
+  },
+  {
+    "titulo": "El Valle de la Venganza",
+    "sta": "2026-11-06/20:00",
+    "end": "2026-11-06/22:00"
+  },
+  {
+    "titulo": "Depredadores",
+    "sta": "2026-11-06/22:00",
+    "end": "2026-11-07/00:00"
+  },
+  {
+    "titulo": "El Valle de la Venganza",
+    "sta": "2026-11-07/00:00",
+    "end": "2026-11-07/02:00"
   },
   {
     "titulo": "El protector",
-    "sta": "2026-11-08/17:00",
-    "end": "2026-11-08/19:10"
+    "sta": "2026-11-07/00:24",
+    "end": "2026-11-07/02:34"
   },
   {
-    "titulo": "Cobra",
-    "sta": "2026-11-08/19:10",
-    "end": "2026-11-08/20:50"
+    "titulo": "M3gan",
+    "sta": "2026-11-07/02:00",
+    "end": "2026-11-07/03:54"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 14",
+    "sta": "2026-11-07/03:54",
+    "end": "2026-11-07/04:25"
+  },
+  {
+    "titulo": "The Nanny Temporada 4 | Episodio 3",
+    "sta": "2026-11-07/04:25",
+    "end": "2026-11-07/04:55"
+  },
+  {
+    "titulo": "The Nanny Temporada 4 | Episodio 4",
+    "sta": "2026-11-07/04:55",
+    "end": "2026-11-07/05:25"
+  },
+  {
+    "titulo": "Grey's Anatomy Temporada 21 | Episodio 14",
+    "sta": "2026-11-07/05:25",
+    "end": "2026-11-07/06:20"
+  },
+  {
+    "titulo": "Betty's call Temporada 9 | Episodio 3",
+    "sta": "2026-11-07/06:20",
+    "end": "2026-11-07/07:10"
+  },
+  {
+    "titulo": "Betty's call Temporada 9 | Episodio 4",
+    "sta": "2026-11-07/07:10",
+    "end": "2026-11-07/08:00"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 11",
+    "sta": "2026-11-07/08:00",
+    "end": "2026-11-07/08:24"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 12",
+    "sta": "2026-11-07/08:24",
+    "end": "2026-11-07/08:49"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 13",
+    "sta": "2026-11-07/08:49",
+    "end": "2026-11-07/09:19"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 14",
+    "sta": "2026-11-07/09:19",
+    "end": "2026-11-07/09:49"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 15",
+    "sta": "2026-11-07/09:49",
+    "end": "2026-11-07/10:20"
+  },
+  {
+    "titulo": "Operación regalo",
+    "sta": "2026-11-07/10:20",
+    "end": "2026-11-07/12:05"
+  },
+  {
+    "titulo": "Jack y Jill",
+    "sta": "2026-11-07/12:05",
+    "end": "2026-11-07/13:50"
+  },
+  {
+    "titulo": "La Mujer Rey",
+    "sta": "2026-11-07/13:50",
+    "end": "2026-11-07/16:20"
+  },
+  {
+    "titulo": "Viaje al centro de la tierra",
+    "sta": "2026-11-07/16:20",
+    "end": "2026-11-07/18:00"
+  },
+  {
+    "titulo": "Depredadores",
+    "sta": "2026-11-07/18:00",
+    "end": "2026-11-07/20:00"
+  },
+  {
+    "titulo": "Nico",
+    "sta": "2026-11-07/20:00",
+    "end": "2026-11-07/21:54"
+  },
+  {
+    "titulo": "El Fugitivo",
+    "sta": "2026-11-07/21:54",
+    "end": "2026-11-08/00:24"
   },
   {
     "titulo": "Infierno bajo tierra",
-    "sta": "2026-11-08/20:50",
-    "end": "2026-11-08/22:50"
+    "sta": "2026-11-07/23:50",
+    "end": "2026-11-08/01:50"
   },
   {
-    "titulo": "El Especialista",
-    "sta": "2026-11-08/22:50",
-    "end": "2026-11-09/00:54"
+    "titulo": "El protector",
+    "sta": "2026-11-08/00:24",
+    "end": "2026-11-08/02:34"
+  },
+  {
+    "titulo": "Duro de matar",
+    "sta": "2026-11-08/02:34",
+    "end": "2026-11-08/04:24"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 11",
+    "sta": "2026-11-08/04:24",
+    "end": "2026-11-08/04:54"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 12",
+    "sta": "2026-11-08/04:54",
+    "end": "2026-11-08/05:24"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 13",
+    "sta": "2026-11-08/05:24",
+    "end": "2026-11-08/05:54"
+  },
+  {
+    "titulo": "My wife and kids Temporada 5 | Episodio 14",
+    "sta": "2026-11-08/05:54",
+    "end": "2026-11-08/06:19"
+  },
+  {
+    "titulo": "Betty's call Temporada 9 | Episodio 1",
+    "sta": "2026-11-08/06:19",
+    "end": "2026-11-08/07:10"
+  },
+  {
+    "titulo": "Betty's call Temporada 9 | Episodio 2",
+    "sta": "2026-11-08/07:10",
+    "end": "2026-11-08/08:00"
   },
   {
     "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 9",
-    "sta": "2026-11-09/00:54",
-    "end": "2026-11-09/01:24"
+    "sta": "2026-11-08/08:00",
+    "end": "2026-11-08/08:30"
+  },
+  {
+    "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 10",
+    "sta": "2026-11-08/08:30",
+    "end": "2026-11-08/09:00"
+  },
+  {
+    "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 11",
+    "sta": "2026-11-08/09:00",
+    "end": "2026-11-08/09:30"
+  },
+  {
+    "titulo": "Morbius",
+    "sta": "2026-11-08/09:30",
+    "end": "2026-11-08/11:25"
+  },
+  {
+    "titulo": "Milagros del cielo",
+    "sta": "2026-11-08/11:25",
+    "end": "2026-11-08/13:30"
+  },
+  {
+    "titulo": "Tormenta mortal",
+    "sta": "2026-11-08/13:30",
+    "end": "2026-11-08/15:20"
+  },
+  {
+    "titulo": "Uncharted: Fuera del Mapa",
+    "sta": "2026-11-08/15:20",
+    "end": "2026-11-08/17:30"
+  },
+  {
+    "titulo": "La caida de la Casa Blanca",
+    "sta": "2026-11-08/17:30",
+    "end": "2026-11-08/20:00"
+  },
+  {
+    "titulo": "El protector",
+    "sta": "2026-11-08/20:00",
+    "end": "2026-11-08/22:10"
+  },
+  {
+    "titulo": "Cobra",
+    "sta": "2026-11-08/22:10",
+    "end": "2026-11-08/23:50"
+  },
+  {
+    "titulo": "Infierno bajo tierra",
+    "sta": "2026-11-08/23:50",
+    "end": "2026-11-09/01:50"
+  },
+  {
+    "titulo": "El Especialista",
+    "sta": "2026-11-09/01:50",
+    "end": "2026-11-09/03:54"
+  },
+  {
+    "titulo": "Enloqueciendo Contigo Temporada 1 | Episodio 9",
+    "sta": "2026-11-09/03:54",
+    "end": "2026-11-09/04:24"
   }
 ]
