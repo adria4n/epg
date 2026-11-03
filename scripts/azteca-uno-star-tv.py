@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 CHANNEL = "101"
 ID = ""
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno.json"
+OUTPUT_FILE = "azteca-uno-star-tv.json"
 
 def build_title(item):
     title = item.get("title", "")
