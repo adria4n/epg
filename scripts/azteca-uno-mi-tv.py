@@ -55,16 +55,21 @@ def parse_items(html: str, day: datetime) -> list[dict]:
 def main():
     all_programs = []
     today = datetime.now(TZ).date()
-    for i in range(-1, 7):
+    i = -1
+    while True:
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
             html = fetch_page(date_str)
             progs = parse_items(html, datetime.combine(d, datetime.min.time(), tzinfo=TZ))
+            if not progs:
+                break
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
+            break
+        i += 1
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
