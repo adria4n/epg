@@ -1,952 +1,1112 @@
 [
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "CV directo",
     "sta": "2026-11-02/00:00",
     "end": "2026-11-02/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/00:30",
     "end": "2026-11-02/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/01:00",
     "end": "2026-11-02/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/01:30",
     "end": "2026-11-02/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/02:00",
     "end": "2026-11-02/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/02:30",
     "end": "2026-11-02/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/03:00",
     "end": "2026-11-02/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/03:30",
     "end": "2026-11-02/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
+    "titulo": "CV directo",
     "sta": "2026-11-02/04:00",
-    "end": "2026-11-02/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-02/04:15",
     "end": "2026-11-02/04:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-02/04:30",
     "end": "2026-11-02/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "CV directo",
     "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/06:00"
+    "end": "2026-11-02/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-02/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-02/05:30",
+    "end": "2026-11-02/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-02/06:30",
     "end": "2026-11-02/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/09:00"
+    "end": "2026-11-02/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-02/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-02/08:00",
+    "end": "2026-11-02/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-02/09:30",
     "end": "2026-11-02/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-02/11:00",
+    "end": "2026-11-02/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-02/12:00",
     "end": "2026-11-02/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-02/13:00",
     "end": "2026-11-02/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-02/14:00",
     "end": "2026-11-02/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-02/15:00",
-    "end": "2026-11-02/16:30"
+    "end": "2026-11-02/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-02/16:30",
-    "end": "2026-11-02/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-02/17:30",
+    "end": "2026-11-02/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-02/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-02/19:00",
     "end": "2026-11-02/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-02/20:30",
+    "end": "2026-11-02/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-02/21:30",
     "end": "2026-11-02/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-02/22:30",
-    "end": "2026-11-02/23:15"
+    "end": "2026-11-02/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-02/23:15",
-    "end": "2026-11-02/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-02/23:10",
+    "end": "2026-11-02/23:40"
   },
   {
-    "titulo": "Los Protagonistas",
-    "sta": "2026-11-02/23:30",
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-02/23:40",
+    "end": "2026-11-03/00:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-03/00:00",
     "end": "2026-11-03/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/00:30",
     "end": "2026-11-03/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/01:00",
     "end": "2026-11-03/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/01:30",
     "end": "2026-11-03/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/02:00",
     "end": "2026-11-03/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/02:30",
     "end": "2026-11-03/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/03:00",
     "end": "2026-11-03/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-03/03:30",
     "end": "2026-11-03/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
+    "titulo": "CV directo",
     "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-03/04:15",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-03/04:30",
     "end": "2026-11-03/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-03/05:00",
-    "end": "2026-11-03/06:00"
+    "end": "2026-11-03/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-03/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-03/05:30",
+    "end": "2026-11-03/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-03/06:30",
     "end": "2026-11-03/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-03/07:00",
-    "end": "2026-11-03/09:00"
+    "end": "2026-11-03/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-03/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-03/08:00",
+    "end": "2026-11-03/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-03/09:30",
     "end": "2026-11-03/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-03/11:00",
+    "end": "2026-11-03/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-03/12:00",
     "end": "2026-11-03/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-03/13:00",
     "end": "2026-11-03/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-03/14:00",
     "end": "2026-11-03/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-03/15:00",
-    "end": "2026-11-03/16:30"
+    "end": "2026-11-03/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-03/16:30",
-    "end": "2026-11-03/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-03/17:30",
+    "end": "2026-11-03/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-03/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-03/19:00",
     "end": "2026-11-03/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-03/20:30",
+    "end": "2026-11-03/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-03/21:30",
     "end": "2026-11-03/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-03/22:30",
-    "end": "2026-11-03/23:15"
+    "end": "2026-11-03/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-03/23:15",
-    "end": "2026-11-03/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-03/23:10",
+    "end": "2026-11-03/23:40"
   },
   {
-    "titulo": "Los Protagonistas",
-    "sta": "2026-11-03/23:30",
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-03/23:40",
+    "end": "2026-11-04/00:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-04/00:00",
     "end": "2026-11-04/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/00:30",
     "end": "2026-11-04/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/01:00",
     "end": "2026-11-04/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/01:30",
     "end": "2026-11-04/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/02:00",
     "end": "2026-11-04/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/02:30",
     "end": "2026-11-04/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/03:00",
     "end": "2026-11-04/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-04/03:30",
     "end": "2026-11-04/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
+    "titulo": "CV directo",
     "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-04/04:15",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/04:30",
     "end": "2026-11-04/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/06:00"
+    "end": "2026-11-04/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-04/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-04/05:30",
+    "end": "2026-11-04/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-04/06:30",
     "end": "2026-11-04/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/09:00"
+    "end": "2026-11-04/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-04/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-04/09:30",
     "end": "2026-11-04/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-04/11:00",
+    "end": "2026-11-04/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-04/12:00",
     "end": "2026-11-04/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-04/13:00",
     "end": "2026-11-04/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-04/14:00",
     "end": "2026-11-04/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:30"
+    "end": "2026-11-04/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-04/16:30",
-    "end": "2026-11-04/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-04/17:30",
+    "end": "2026-11-04/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-04/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-04/19:00",
     "end": "2026-11-04/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-04/20:30",
+    "end": "2026-11-04/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-04/21:30",
     "end": "2026-11-04/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-04/22:30",
-    "end": "2026-11-04/23:15"
+    "end": "2026-11-04/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-04/23:15",
-    "end": "2026-11-04/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-04/23:10",
+    "end": "2026-11-04/23:40"
   },
   {
-    "titulo": "Tolerancia cero",
-    "sta": "2026-11-04/23:30",
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-04/23:40",
+    "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/00:30",
     "end": "2026-11-05/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/01:00",
     "end": "2026-11-05/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/01:30",
     "end": "2026-11-05/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/02:00",
     "end": "2026-11-05/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/02:30",
     "end": "2026-11-05/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/03:00",
     "end": "2026-11-05/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-05/03:30",
     "end": "2026-11-05/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
+    "titulo": "CV directo",
     "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-05/04:15",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/04:30",
     "end": "2026-11-05/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
+    "end": "2026-11-05/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-05/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-05/05:30",
+    "end": "2026-11-05/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-05/06:30",
     "end": "2026-11-05/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/09:00"
+    "end": "2026-11-05/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-05/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-05/08:00",
+    "end": "2026-11-05/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-05/09:30",
     "end": "2026-11-05/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-05/11:00",
+    "end": "2026-11-05/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-05/12:00",
     "end": "2026-11-05/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-05/13:00",
     "end": "2026-11-05/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-05/14:00",
     "end": "2026-11-05/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/16:30"
+    "end": "2026-11-05/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-05/16:30",
-    "end": "2026-11-05/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-05/17:30",
+    "end": "2026-11-05/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-05/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-05/19:00",
     "end": "2026-11-05/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-05/20:30",
+    "end": "2026-11-05/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-05/21:30",
     "end": "2026-11-05/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-05/22:30",
-    "end": "2026-11-05/23:15"
+    "end": "2026-11-05/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-05/23:15",
-    "end": "2026-11-05/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-05/23:10",
+    "end": "2026-11-05/23:40"
   },
   {
-    "titulo": "Los Protagonistas",
-    "sta": "2026-11-05/23:30",
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-05/23:40",
+    "end": "2026-11-06/00:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/00:30",
     "end": "2026-11-06/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/01:00",
     "end": "2026-11-06/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/01:30",
     "end": "2026-11-06/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/02:00",
     "end": "2026-11-06/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/02:30",
     "end": "2026-11-06/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/03:00",
     "end": "2026-11-06/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-06/03:30",
     "end": "2026-11-06/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
+    "titulo": "CV directo",
     "sta": "2026-11-06/04:00",
-    "end": "2026-11-06/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-06/04:15",
-    "end": "2026-11-06/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-06/04:30",
     "end": "2026-11-06/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-06/05:00",
-    "end": "2026-11-06/06:00"
+    "end": "2026-11-06/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-06/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-06/05:30",
+    "end": "2026-11-06/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-06/06:30",
     "end": "2026-11-06/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-06/07:00",
-    "end": "2026-11-06/09:00"
+    "end": "2026-11-06/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-06/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-06/08:00",
+    "end": "2026-11-06/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-06/09:30",
     "end": "2026-11-06/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-06/11:00",
+    "end": "2026-11-06/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-06/12:00",
     "end": "2026-11-06/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-06/13:00",
     "end": "2026-11-06/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-06/14:00",
     "end": "2026-11-06/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-06/15:00",
-    "end": "2026-11-06/16:30"
+    "end": "2026-11-06/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-06/16:30",
-    "end": "2026-11-06/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-06/17:30",
+    "end": "2026-11-06/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-06/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-06/19:00",
     "end": "2026-11-06/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-06/20:30",
+    "end": "2026-11-06/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-06/21:30",
     "end": "2026-11-06/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-06/22:30",
-    "end": "2026-11-06/23:15"
+    "end": "2026-11-06/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-06/23:15",
-    "end": "2026-11-06/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-06/23:10",
+    "end": "2026-11-06/23:40"
   },
   {
-    "titulo": "Los Protagonistas",
-    "sta": "2026-11-06/23:30",
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-06/23:40",
+    "end": "2026-11-07/00:00"
+  },
+  {
+    "titulo": "Farmacias Similares",
+    "sta": "2026-11-07/00:00",
     "end": "2026-11-07/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/00:30",
     "end": "2026-11-07/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/01:00",
     "end": "2026-11-07/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/01:30",
     "end": "2026-11-07/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/02:00",
     "end": "2026-11-07/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/02:30",
     "end": "2026-11-07/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/03:00",
     "end": "2026-11-07/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/03:30",
     "end": "2026-11-07/04:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/04:00",
     "end": "2026-11-07/04:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-07/04:30",
     "end": "2026-11-07/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "CV directo",
     "sta": "2026-11-07/05:00",
-    "end": "2026-11-07/06:00"
+    "end": "2026-11-07/05:30"
   },
   {
-    "titulo": "Piernas de oro",
-    "sta": "2026-11-07/06:00",
+    "titulo": "CV directo",
+    "sta": "2026-11-07/05:30",
+    "end": "2026-11-07/05:50"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-07/05:50",
+    "end": "2026-11-07/06:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-07/06:30",
+    "end": "2026-11-07/07:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-07/07:00",
+    "end": "2026-11-07/07:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-07/07:30",
     "end": "2026-11-07/08:00"
   },
   {
-    "titulo": "Hechos Sábado",
+    "titulo": "CV directo",
     "sta": "2026-11-07/08:00",
+    "end": "2026-11-07/08:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-07/08:30",
     "end": "2026-11-07/09:00"
   },
   {
-    "titulo": "Venga la alegría, fin de semana",
+    "titulo": "CV directo",
     "sta": "2026-11-07/09:00",
-    "end": "2026-11-07/11:00"
+    "end": "2026-11-07/09:45"
   },
   {
-    "titulo": "Venga la alegría, fin de semana",
-    "sta": "2026-11-07/11:00",
-    "end": "2026-11-07/13:00"
+    "titulo": "Sale el sol para todos",
+    "sta": "2026-11-07/09:45",
+    "end": "2026-11-07/10:30"
   },
   {
-    "titulo": "Sábado al extremo",
-    "sta": "2026-11-07/13:00",
+    "titulo": "Pareja de emergencia",
+    "sta": "2026-11-07/10:30",
+    "end": "2026-11-07/11:30"
+  },
+  {
+    "titulo": "Pareja de emergencia",
+    "sta": "2026-11-07/11:30",
+    "end": "2026-11-07/12:45"
+  },
+  {
+    "titulo": "Al fin de primera mano",
+    "sta": "2026-11-07/12:45",
     "end": "2026-11-07/15:00"
   },
   {
-    "titulo": "Yo soy Betty, la fea",
+    "titulo": "Buenos días, condesita",
     "sta": "2026-11-07/15:00",
-    "end": "2026-11-07/16:00"
-  },
-  {
-    "titulo": "Yo soy Betty, la fea",
-    "sta": "2026-11-07/16:00",
     "end": "2026-11-07/17:00"
   },
   {
-    "titulo": "Yo soy Betty, la fea",
+    "titulo": "Como dos gotas de agua",
     "sta": "2026-11-07/17:00",
-    "end": "2026-11-07/18:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres",
-    "sta": "2026-11-07/18:00",
     "end": "2026-11-07/19:00"
   },
   {
-    "titulo": "Lo que callamos las mujeres",
+    "titulo": "Lo mejor de Rocio a tu lado",
     "sta": "2026-11-07/19:00",
     "end": "2026-11-07/20:00"
   },
   {
-    "titulo": "Lo que callamos las mujeres",
+    "titulo": "El minuto que cambió mi destino sin censura",
     "sta": "2026-11-07/20:00",
-    "end": "2026-11-07/21:00"
+    "end": "2026-11-07/21:30"
   },
   {
-    "titulo": "Acércate a Rocío al límite",
-    "sta": "2026-11-07/21:00",
-    "end": "2026-11-07/23:00"
+    "titulo": "Mentes únicas",
+    "sta": "2026-11-07/21:30",
+    "end": "2026-11-07/22:00"
   },
   {
-    "titulo": "Supertitlán",
-    "sta": "2026-11-07/23:00",
+    "titulo": "Más terco que una mula",
+    "sta": "2026-11-07/22:00",
     "end": "2026-11-08/00:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/00:00",
     "end": "2026-11-08/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/00:30",
     "end": "2026-11-08/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/01:00",
     "end": "2026-11-08/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/01:30",
     "end": "2026-11-08/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/02:00",
     "end": "2026-11-08/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/02:30",
     "end": "2026-11-08/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/03:00",
     "end": "2026-11-08/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/03:30",
     "end": "2026-11-08/04:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/04:00",
     "end": "2026-11-08/04:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-08/04:30",
     "end": "2026-11-08/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "CV directo",
     "sta": "2026-11-08/05:00",
-    "end": "2026-11-08/06:00"
+    "end": "2026-11-08/05:30"
   },
   {
-    "titulo": "Músico, poeta y loco",
-    "sta": "2026-11-08/06:00",
+    "titulo": "CV directo",
+    "sta": "2026-11-08/05:30",
+    "end": "2026-11-08/05:50"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-08/05:50",
+    "end": "2026-11-08/06:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-08/06:30",
+    "end": "2026-11-08/07:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-08/07:00",
+    "end": "2026-11-08/07:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-08/07:30",
     "end": "2026-11-08/08:00"
   },
   {
-    "titulo": "Hechos Domingo",
+    "titulo": "CV directo",
     "sta": "2026-11-08/08:00",
+    "end": "2026-11-08/08:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-08/08:30",
     "end": "2026-11-08/09:00"
   },
   {
-    "titulo": "Venga la alegría, fin de semana",
+    "titulo": "CV directo",
     "sta": "2026-11-08/09:00",
-    "end": "2026-11-08/11:00"
+    "end": "2026-11-08/09:35"
   },
   {
-    "titulo": "Venga la alegría, fin de semana",
-    "sta": "2026-11-08/11:00",
-    "end": "2026-11-08/13:00"
+    "titulo": "La semana de pisa y corre",
+    "sta": "2026-11-08/09:35",
+    "end": "2026-11-08/12:00"
   },
   {
-    "titulo": "Domingo al extremo",
-    "sta": "2026-11-08/13:00",
-    "end": "2026-11-08/15:00"
+    "titulo": "Lab 3.1",
+    "sta": "2026-11-08/12:00",
+    "end": "2026-11-08/12:30"
   },
   {
-    "titulo": "100 mexicanos",
-    "sta": "2026-11-08/15:00",
+    "titulo": "Lo mejor de Rocio a tu lado",
+    "sta": "2026-11-08/12:30",
+    "end": "2026-11-08/14:15"
+  },
+  {
+    "titulo": "Amenaza en el mar",
+    "sta": "2026-11-08/14:15",
     "end": "2026-11-08/16:00"
   },
   {
-    "titulo": "100 mexicanos",
+    "titulo": "Alma Mater",
     "sta": "2026-11-08/16:00",
-    "end": "2026-11-08/17:00"
+    "end": "2026-11-08/17:30"
   },
   {
-    "titulo": "¿Quién quiere ser millonario?",
-    "sta": "2026-11-08/17:00",
-    "end": "2026-11-08/18:00"
+    "titulo": "Acorralado",
+    "sta": "2026-11-08/17:30",
+    "end": "2026-11-08/19:30"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-08/18:00",
-    "end": "2026-11-08/20:00"
+    "titulo": "Los reyes de la calle",
+    "sta": "2026-11-08/19:30",
+    "end": "2026-11-08/21:30"
   },
   {
-    "titulo": "La granja VIP",
-    "sta": "2026-11-08/20:00",
-    "end": "2026-11-08/23:00"
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-08/21:30",
+    "end": "2026-11-08/23:30"
   },
   {
-    "titulo": "La Resolana",
-    "sta": "2026-11-08/23:00",
+    "titulo": "CV directo",
+    "sta": "2026-11-08/23:30",
+    "end": "2026-11-09/00:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-09/00:00",
     "end": "2026-11-09/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/00:30",
     "end": "2026-11-09/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/01:00",
     "end": "2026-11-09/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/01:30",
     "end": "2026-11-09/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/02:00",
     "end": "2026-11-09/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/02:30",
     "end": "2026-11-09/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/03:00",
     "end": "2026-11-09/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/03:30",
     "end": "2026-11-09/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
+    "titulo": "CV directo",
     "sta": "2026-11-09/04:00",
-    "end": "2026-11-09/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-09/04:15",
     "end": "2026-11-09/04:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "CV directo",
     "sta": "2026-11-09/04:30",
     "end": "2026-11-09/05:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "CV directo",
     "sta": "2026-11-09/05:00",
-    "end": "2026-11-09/06:00"
+    "end": "2026-11-09/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-09/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-09/05:30",
+    "end": "2026-11-09/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-09/06:30",
     "end": "2026-11-09/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-09/07:00",
-    "end": "2026-11-09/09:00"
+    "end": "2026-11-09/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-09/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-09/08:00",
+    "end": "2026-11-09/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-09/09:30",
     "end": "2026-11-09/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-09/11:00",
+    "end": "2026-11-09/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-09/12:00",
     "end": "2026-11-09/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-09/13:00",
     "end": "2026-11-09/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-09/14:00",
     "end": "2026-11-09/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-09/15:00",
-    "end": "2026-11-09/16:30"
+    "end": "2026-11-09/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-09/16:30",
-    "end": "2026-11-09/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-09/17:30",
+    "end": "2026-11-09/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-09/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-09/19:00",
     "end": "2026-11-09/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-09/20:30",
+    "end": "2026-11-09/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-09/21:30",
     "end": "2026-11-09/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-09/22:30",
-    "end": "2026-11-09/23:15"
+    "end": "2026-11-09/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-09/23:15",
-    "end": "2026-11-09/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-09/23:10",
+    "end": "2026-11-09/23:40"
   },
   {
-    "titulo": "Los Protagonistas",
-    "sta": "2026-11-09/23:30",
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/23:40",
+    "end": "2026-11-10/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/00:00",
     "end": "2026-11-10/00:30"
   },
   {
@@ -985,88 +1145,103 @@
     "end": "2026-11-10/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
-    "sta": "2026-11-10/04:00",
-    "end": "2026-11-10/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-10/04:15",
-    "end": "2026-11-10/04:30"
-  },
-  {
     "titulo": "Programa pagado",
-    "sta": "2026-11-10/04:30",
+    "sta": "2026-11-10/04:00",
     "end": "2026-11-10/05:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-10/05:00",
-    "end": "2026-11-10/06:00"
+    "end": "2026-11-10/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-10/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-10/05:30",
+    "end": "2026-11-10/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-10/06:30",
     "end": "2026-11-10/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-10/07:00",
-    "end": "2026-11-10/09:00"
+    "end": "2026-11-10/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-10/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-10/08:00",
+    "end": "2026-11-10/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-10/09:30",
     "end": "2026-11-10/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-10/11:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-10/12:00",
     "end": "2026-11-10/13:00"
   },
   {
-    "titulo": "Ventaneando",
+    "titulo": "Historias de un milagro",
     "sta": "2026-11-10/13:00",
     "end": "2026-11-10/14:00"
   },
   {
-    "titulo": "Hechos Meridiano",
+    "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-10/14:00",
     "end": "2026-11-10/15:00"
   },
   {
-    "titulo": "Al extremo",
+    "titulo": "De primera mano",
     "sta": "2026-11-10/15:00",
-    "end": "2026-11-10/16:30"
+    "end": "2026-11-10/17:30"
   },
   {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-10/16:30",
-    "end": "2026-11-10/18:30"
+    "titulo": "Legado de amor",
+    "sta": "2026-11-10/17:30",
+    "end": "2026-11-10/19:00"
   },
   {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-10/18:30",
+    "titulo": "Jesús",
+    "sta": "2026-11-10/19:00",
     "end": "2026-11-10/20:30"
   },
   {
-    "titulo": "La granja VIP",
+    "titulo": "Destino roto",
     "sta": "2026-11-10/20:30",
+    "end": "2026-11-10/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-10/21:30",
     "end": "2026-11-10/22:30"
   },
   {
-    "titulo": "Hechos noche",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-10/22:30",
-    "end": "2026-11-10/23:15"
+    "end": "2026-11-10/23:10"
   },
   {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-10/23:15",
-    "end": "2026-11-10/23:30"
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-10/23:10",
+    "end": "2026-11-10/23:40"
   },
   {
-    "titulo": "Los Protagonistas",
-    "sta": "2026-11-10/23:30",
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/23:40",
+    "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/00:00",
     "end": "2026-11-11/00:30"
   },
   {
@@ -1105,118 +1280,48 @@
     "end": "2026-11-11/04:00"
   },
   {
-    "titulo": "Barras de ajuste",
-    "sta": "2026-11-11/04:00",
-    "end": "2026-11-11/04:15"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-11/04:15",
-    "end": "2026-11-11/04:30"
-  },
-  {
     "titulo": "Programa pagado",
-    "sta": "2026-11-11/04:30",
+    "sta": "2026-11-11/04:00",
     "end": "2026-11-11/05:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Imagen Noticias con Nacho Lozano",
     "sta": "2026-11-11/05:00",
-    "end": "2026-11-11/06:00"
+    "end": "2026-11-11/05:30"
   },
   {
-    "titulo": "Hechos Contigo",
-    "sta": "2026-11-11/06:00",
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-11/05:30",
+    "end": "2026-11-11/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-11/06:30",
     "end": "2026-11-11/07:00"
   },
   {
-    "titulo": "Hechos AM",
+    "titulo": "Imagen Noticias con Francisco Zea",
     "sta": "2026-11-11/07:00",
-    "end": "2026-11-11/09:00"
+    "end": "2026-11-11/08:00"
   },
   {
-    "titulo": "Venga la alegría",
-    "sta": "2026-11-11/09:00",
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-11/08:00",
+    "end": "2026-11-11/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-11/09:30",
     "end": "2026-11-11/11:00"
   },
   {
-    "titulo": "Venga la alegría",
+    "titulo": "Sale el sol",
     "sta": "2026-11-11/11:00",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-11/12:00",
     "end": "2026-11-11/13:00"
-  },
-  {
-    "titulo": "Ventaneando",
-    "sta": "2026-11-11/13:00",
-    "end": "2026-11-11/14:00"
-  },
-  {
-    "titulo": "Hechos Meridiano",
-    "sta": "2026-11-11/14:00",
-    "end": "2026-11-11/15:00"
-  },
-  {
-    "titulo": "Al extremo",
-    "sta": "2026-11-11/15:00",
-    "end": "2026-11-11/16:30"
-  },
-  {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-11/16:30",
-    "end": "2026-11-11/18:30"
-  },
-  {
-    "titulo": "Exatlón México",
-    "sta": "2026-11-11/18:30",
-    "end": "2026-11-11/20:30"
-  },
-  {
-    "titulo": "La granja VIP",
-    "sta": "2026-11-11/20:30",
-    "end": "2026-11-11/22:30"
-  },
-  {
-    "titulo": "Hechos noche",
-    "sta": "2026-11-11/22:30",
-    "end": "2026-11-11/23:15"
-  },
-  {
-    "titulo": "Buenas noches con Anna Lu",
-    "sta": "2026-11-11/23:15",
-    "end": "2026-11-11/23:30"
-  },
-  {
-    "titulo": "Tolerancia cero",
-    "sta": "2026-11-11/23:30",
-    "end": "2026-11-12/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/00:30",
-    "end": "2026-11-12/01:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/01:00",
-    "end": "2026-11-12/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/01:30",
-    "end": "2026-11-12/02:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/02:00",
-    "end": "2026-11-12/02:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/02:30",
-    "end": "2026-11-12/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/03:00",
-    "end": "2026-11-12/03:30"
   }
 ]
