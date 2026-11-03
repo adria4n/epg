@@ -40,12 +40,7 @@ def parse_items(html: str, day: datetime) -> list[dict]:
                     end += timedelta(days=1)
             else:
                 end = start + timedelta(minutes=60)
-            programs.append({
-                "titulo": title.strip(),
-                "sta": start.strftime("%Y-%m-%d/%H:%M"),
-                "end": end.strftime("%Y-%m-%d/%H:%M"),
-                "_start": start,
-            })
+            programs.append({"titulo": title.strip(), "sta": start.strftime("%Y-%m-%d/%H:%M"), "end": end.strftime("%Y-%m-%d/%H:%M"), "_start": start})
         except Exception:
             continue
     for p in programs:
@@ -63,6 +58,7 @@ def main():
             html = fetch_page(date_str)
             progs = parse_items(html, datetime.combine(d, datetime.min.time(), tzinfo=TZ))
             if not progs:
+                print(f"  {date_str}: sin programas, terminando", file=sys.stderr)
                 break
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
