@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 CHANNEL = ""
-ID = "1558"
+ID = "1557"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "fox-mas.json"
 
