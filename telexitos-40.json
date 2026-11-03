@@ -1,6 +1,16 @@
 [
   {
     "titulo": "Programa pagado",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/05:30"
+  },
+  {
+    "titulo": "¿Accidente automovilistico? Consulta legal gratuita",
+    "sta": "2026-11-02/05:30",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/06:30"
   },
@@ -1193,5 +1203,145 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-10/05:30",
     "end": "2026-11-10/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/06:00",
+    "end": "2026-11-10/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/06:30",
+    "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/07:00",
+    "end": "2026-11-10/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/07:30",
+    "end": "2026-11-10/08:00"
+  },
+  {
+    "titulo": "Caso cerrado / La imperfección; Golpeada por español",
+    "sta": "2026-11-10/08:00",
+    "end": "2026-11-10/09:00"
+  },
+  {
+    "titulo": "Caso cerrado / Bebé en depósito; El esquizofrénico",
+    "sta": "2026-11-10/09:00",
+    "end": "2026-11-10/10:00"
+  },
+  {
+    "titulo": "Caso cerrado / Traición pornoson; En el nombre del padre y de los hijos",
+    "sta": "2026-11-10/10:00",
+    "end": "2026-11-10/11:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / La bruja de la cuadra",
+    "sta": "2026-11-10/11:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / La felicidad no se compra",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/13:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Yolanda, amor clandestino",
+    "sta": "2026-11-10/13:00",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "El final del paraíso",
+    "sta": "2026-11-10/14:00",
+    "end": "2026-11-10/15:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Silvia: Sin filtros",
+    "sta": "2026-11-10/15:00",
+    "end": "2026-11-10/16:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Cinthia: ¿Y si no hay mañana?",
+    "sta": "2026-11-10/16:00",
+    "end": "2026-11-10/17:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-10/17:00",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/19:00"
+  },
+  {
+    "titulo": "Caso cerrado / Te aprovechaste de mi secuestro; Inglés caliente",
+    "sta": "2026-11-10/19:00",
+    "end": "2026-11-10/20:00"
+  },
+  {
+    "titulo": "Caso cerrado / Los fluidos: Cola de sirena",
+    "sta": "2026-11-10/20:00",
+    "end": "2026-11-10/21:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-10/21:00",
+    "end": "2026-11-10/22:00"
+  },
+  {
+    "titulo": "El final del paraíso",
+    "sta": "2026-11-10/22:00",
+    "end": "2026-11-10/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Traición de hermana; Se me quemó la Navidad",
+    "sta": "2026-11-10/23:00",
+    "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/00:00",
+    "end": "2026-11-11/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/00:30",
+    "end": "2026-11-11/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/01:00",
+    "end": "2026-11-11/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/01:30",
+    "end": "2026-11-11/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de juguetes caros",
+    "sta": "2026-11-11/02:00",
+    "end": "2026-11-11/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de lencería",
+    "sta": "2026-11-11/03:00",
+    "end": "2026-11-11/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / Operación tumba",
+    "sta": "2026-11-11/04:00",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
   }
 ]

@@ -1,141 +1,6 @@
 [
   {
     "titulo": "El pelotazo",
-    "sta": "2026-10-31/22:00",
-    "end": "2026-10-31/22:30"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-10-31/22:30",
-    "end": "2026-10-31/23:00"
-  },
-  {
-    "titulo": "Mi querido viejo",
-    "sta": "2026-10-31/23:00",
-    "end": "2026-11-01/01:00"
-  },
-  {
-    "titulo": "Acércate a Rocío",
-    "sta": "2026-11-01/01:00",
-    "end": "2026-11-01/02:00"
-  },
-  {
-    "titulo": "El Desconocido",
-    "sta": "2026-11-01/02:00",
-    "end": "2026-11-01/04:00"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-11-01/04:00",
-    "end": "2026-11-01/04:30"
-  },
-  {
-    "titulo": "Operation Smile",
-    "sta": "2026-11-01/04:30",
-    "end": "2026-11-01/05:00"
-  },
-  {
-    "titulo": "Operation Smile",
-    "sta": "2026-11-01/05:00",
-    "end": "2026-11-01/05:30"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-01/05:30",
-    "end": "2026-11-01/06:00"
-  },
-  {
-    "titulo": "Operation Smile",
-    "sta": "2026-11-01/06:00",
-    "end": "2026-11-01/06:30"
-  },
-  {
-    "titulo": "Operation Smile",
-    "sta": "2026-11-01/06:30",
-    "end": "2026-11-01/07:00"
-  },
-  {
-    "titulo": "Wild Child",
-    "sta": "2026-11-01/07:00",
-    "end": "2026-11-01/07:30"
-  },
-  {
-    "titulo": "Earth Odyssey With Dylan Dreyer",
-    "sta": "2026-11-01/07:30",
-    "end": "2026-11-01/08:00"
-  },
-  {
-    "titulo": "Harlem Globetrotters: Play It Forward",
-    "sta": "2026-11-01/08:00",
-    "end": "2026-11-01/08:30"
-  },
-  {
-    "titulo": "The Great American Journey",
-    "sta": "2026-11-01/08:30",
-    "end": "2026-11-01/09:00"
-  },
-  {
-    "titulo": "Mutual of Omaha's Wild Kingdom Protecting the Wild",
-    "sta": "2026-11-01/09:00",
-    "end": "2026-11-01/10:00"
-  },
-  {
-    "titulo": "Premier League Soccer",
-    "sta": "2026-11-01/10:00",
-    "end": "2026-11-01/12:30"
-  },
-  {
-    "titulo": "3er Tiempo",
-    "sta": "2026-11-01/12:30",
-    "end": "2026-11-01/13:00"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-01/13:00",
-    "end": "2026-11-01/13:30"
-  },
-  {
-    "titulo": "Italian Serie A Soccer",
-    "sta": "2026-11-01/13:30",
-    "end": "2026-11-01/16:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres",
-    "sta": "2026-11-01/16:00",
-    "end": "2026-11-01/17:00"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-11-01/17:00",
-    "end": "2026-11-01/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-01/17:30",
-    "end": "2026-11-01/18:01"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-01/18:01",
-    "end": "2026-11-01/20:00"
-  },
-  {
-    "titulo": "Coco",
-    "sta": "2026-11-01/20:00",
-    "end": "2026-11-01/22:00"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-01/22:00",
-    "end": "2026-11-01/22:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-01/22:30",
-    "end": "2026-11-01/23:00"
-  },
-  {
-    "titulo": "El pelotazo",
     "sta": "2026-11-01/23:00",
     "end": "2026-11-01/23:30"
   },
@@ -1037,6 +902,131 @@
   {
     "titulo": "Noticias Telemundo en la noche",
     "sta": "2026-11-08/22:30",
+    "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-08/23:00",
     "end": "2026-11-08/23:30"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-08/23:30",
+    "end": "2026-11-09/00:30"
+  },
+  {
+    "titulo": "Close Range",
+    "sta": "2026-11-09/00:30",
+    "end": "2026-11-09/02:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-09/02:00",
+    "end": "2026-11-09/03:00"
+  },
+  {
+    "titulo": "Pica y se extiende",
+    "sta": "2026-11-09/03:00",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "Noticias Telemundo AHORA",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/07:00"
+  },
+  {
+    "titulo": "Hoy día",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/10:30"
+  },
+  {
+    "titulo": "Reina de corazones",
+    "sta": "2026-11-09/10:30",
+    "end": "2026-11-09/11:00"
+  },
+  {
+    "titulo": "Santa Diabla",
+    "sta": "2026-11-09/11:00",
+    "end": "2026-11-09/11:30"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-09/11:30",
+    "end": "2026-11-09/12:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-09/12:00",
+    "end": "2026-11-09/13:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-09/13:00",
+    "end": "2026-11-09/14:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-09/14:00",
+    "end": "2026-11-09/15:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-09/15:00",
+    "end": "2026-11-09/16:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-09/16:00",
+    "end": "2026-11-09/17:00"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-09/17:00",
+    "end": "2026-11-09/17:30"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-09/17:30",
+    "end": "2026-11-09/18:00"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-09/18:00",
+    "end": "2026-11-09/20:00"
+  },
+  {
+    "titulo": "El señor de los cielos",
+    "sta": "2026-11-09/20:00",
+    "end": "2026-11-09/21:00"
+  },
+  {
+    "titulo": "Uzak Sehir",
+    "sta": "2026-11-09/21:00",
+    "end": "2026-11-09/22:00"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-09/22:00",
+    "end": "2026-11-09/22:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-09/22:35",
+    "end": "2026-11-09/23:35"
   }
 ]

@@ -1108,5 +1108,145 @@
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-10/05:00",
     "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-10/07:00",
+    "end": "2026-11-10/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / How 'Bout Them Dawgs!",
+    "sta": "2026-11-10/09:00",
+    "end": "2026-11-10/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / I Love It!",
+    "sta": "2026-11-10/09:30",
+    "end": "2026-11-10/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-10/10:00",
+    "end": "2026-11-10/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-10/11:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-10/12:30",
+    "end": "2026-11-10/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-10/13:00",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-10/14:00",
+    "end": "2026-11-10/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Lingerie Loyalty",
+    "sta": "2026-11-10/15:00",
+    "end": "2026-11-10/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Car Theft Connection and Beyoncé Boys",
+    "sta": "2026-11-10/15:30",
+    "end": "2026-11-10/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Target Practice Vandalism; Ex-Girlfriend Warrant",
+    "sta": "2026-11-10/16:00",
+    "end": "2026-11-10/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Ex-Vandalism & Drug Trafficking?; Bowling Wii Disaster",
+    "sta": "2026-11-10/16:30",
+    "end": "2026-11-10/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-10/17:00",
+    "end": "2026-11-10/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-10/17:30",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune / Visit Florida",
+    "sta": "2026-11-10/18:30",
+    "end": "2026-11-10/19:00"
+  },
+  {
+    "titulo": "NCIS / Speechless",
+    "sta": "2026-11-10/19:00",
+    "end": "2026-11-10/20:00"
+  },
+  {
+    "titulo": "NCIS: New York / True Love",
+    "sta": "2026-11-10/20:00",
+    "end": "2026-11-10/21:00"
+  },
+  {
+    "titulo": "NCIS: Origins / Baila Esta Cumbia",
+    "sta": "2026-11-10/21:00",
+    "end": "2026-11-10/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-10/22:00",
+    "end": "2026-11-10/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-10/22:35",
+    "end": "2026-11-10/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-10/23:05",
+    "end": "2026-11-10/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-10/23:37",
+    "end": "2026-11-11/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-11/00:07",
+    "end": "2026-11-11/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-11/00:37",
+    "end": "2026-11-11/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-11/01:07",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
   }
 ]

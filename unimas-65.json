@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/06:00"
+  },
+  {
     "titulo": "Esta historia me suena / Perro fiel",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/07:00"
@@ -1063,5 +1068,140 @@
     "titulo": "Veredicto final",
     "sta": "2026-11-10/05:00",
     "end": "2026-11-10/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Cómo te voy a olvidar",
+    "sta": "2026-11-10/06:00",
+    "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / Un buen recado",
+    "sta": "2026-11-10/07:00",
+    "end": "2026-11-10/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / El repartidor de pizzas",
+    "sta": "2026-11-10/07:30",
+    "end": "2026-11-10/08:00"
+  },
+  {
+    "titulo": "Vecinos / Frankie regresa",
+    "sta": "2026-11-10/08:00",
+    "end": "2026-11-10/08:30"
+  },
+  {
+    "titulo": "Vecinos / La llegada de Vanessa",
+    "sta": "2026-11-10/08:30",
+    "end": "2026-11-10/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Colección de rateros",
+    "sta": "2026-11-10/09:00",
+    "end": "2026-11-10/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / La ley del chipote chillón",
+    "sta": "2026-11-10/09:30",
+    "end": "2026-11-10/10:00"
+  },
+  {
+    "titulo": "El Chavo / Clases de geometría y aritmética",
+    "sta": "2026-11-10/10:00",
+    "end": "2026-11-10/10:30"
+  },
+  {
+    "titulo": "El Chavo / El bolero",
+    "sta": "2026-11-10/10:30",
+    "end": "2026-11-10/11:00"
+  },
+  {
+    "titulo": "Amigos por siempre / La nueva institutriz",
+    "sta": "2026-11-10/11:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/13:00"
+  },
+  {
+    "titulo": "La Dueña / Un hijo",
+    "sta": "2026-11-10/13:00",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "La mentira / Ataque al corazón",
+    "sta": "2026-11-10/14:00",
+    "end": "2026-11-10/15:00"
+  },
+  {
+    "titulo": "Qué bonito amor",
+    "sta": "2026-11-10/15:00",
+    "end": "2026-11-10/16:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Enamorados",
+    "sta": "2026-11-10/16:00",
+    "end": "2026-11-10/17:00"
+  },
+  {
+    "titulo": "La encrucijada",
+    "sta": "2026-11-10/17:00",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "Como dice el dicho / Bebido el vino, perdido el tino",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/19:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-10/19:00",
+    "end": "2026-11-10/20:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-10/20:00",
+    "end": "2026-11-10/21:00"
+  },
+  {
+    "titulo": "El túnel del amor",
+    "sta": "2026-11-10/21:00",
+    "end": "2026-11-10/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-10/23:00",
+    "end": "2026-11-11/01:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-11/01:00",
+    "end": "2026-11-11/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-11/02:00",
+    "end": "2026-11-11/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/03:00",
+    "end": "2026-11-11/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/03:30",
+    "end": "2026-11-11/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/04:00",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
   }
 ]

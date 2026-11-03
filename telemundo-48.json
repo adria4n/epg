@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Caso cerrado / Padres helicóptero",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/05:30",
+    "end": "2026-11-02/06:00"
+  },
+  {
     "titulo": "Al rojo vivo",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/07:00"
@@ -1058,5 +1068,130 @@
     "titulo": "Noticias Telemundo en la noche",
     "sta": "2026-11-10/05:30",
     "end": "2026-11-10/06:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-10/06:00",
+    "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "Noticias Telemundo AHORA",
+    "sta": "2026-11-10/07:00",
+    "end": "2026-11-10/08:00"
+  },
+  {
+    "titulo": "Hoy día",
+    "sta": "2026-11-10/08:00",
+    "end": "2026-11-10/11:30"
+  },
+  {
+    "titulo": "Acceso total",
+    "sta": "2026-11-10/11:30",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "Santa Diabla",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/12:30"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-10/12:30",
+    "end": "2026-11-10/13:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-10/13:00",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-10/14:00",
+    "end": "2026-11-10/15:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-10/15:00",
+    "end": "2026-11-10/16:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-10/16:00",
+    "end": "2026-11-10/17:00"
+  },
+  {
+    "titulo": "Noticias Telemundo 48 a las 4pm",
+    "sta": "2026-11-10/17:00",
+    "end": "2026-11-10/17:30"
+  },
+  {
+    "titulo": "Noticias Telemundo 48 a las 4:30pm",
+    "sta": "2026-11-10/17:30",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "Noticias Telemundo 48: El Paso",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/18:30"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-10/18:30",
+    "end": "2026-11-10/19:00"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-10/19:00",
+    "end": "2026-11-10/21:00"
+  },
+  {
+    "titulo": "El señor de los cielos",
+    "sta": "2026-11-10/21:00",
+    "end": "2026-11-10/22:00"
+  },
+  {
+    "titulo": "Lejos de ti",
+    "sta": "2026-11-10/22:00",
+    "end": "2026-11-10/23:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 48",
+    "sta": "2026-11-10/23:00",
+    "end": "2026-11-10/23:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-10/23:35",
+    "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-11/00:00",
+    "end": "2026-11-11/00:30"
+  },
+  {
+    "titulo": "Lejos de ti",
+    "sta": "2026-11-11/00:30",
+    "end": "2026-11-11/01:30"
+  },
+  {
+    "titulo": "Caso cerrado / El proyecto",
+    "sta": "2026-11-11/01:30",
+    "end": "2026-11-11/02:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/02:00",
+    "end": "2026-11-11/03:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/03:00",
+    "end": "2026-11-11/04:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-11/04:00",
+    "end": "2026-11-11/05:00"
   }
 ]

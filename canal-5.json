@@ -1,70 +1,5 @@
 [
   {
-    "titulo": "Especial de R.T.C",
-    "sta": "2026-11-01/04:30",
-    "end": "2026-11-01/05:00"
-  },
-  {
-    "titulo": "Cronicas",
-    "sta": "2026-11-01/05:00",
-    "end": "2026-11-01/05:30"
-  },
-  {
-    "titulo": "PJ Masks: Héroes en Pijamas",
-    "sta": "2026-11-01/06:00",
-    "end": "2026-11-01/06:55"
-  },
-  {
-    "titulo": "Getafe vs. Sevilla",
-    "sta": "2026-11-01/06:55",
-    "end": "2026-11-01/09:00"
-  },
-  {
-    "titulo": "Las Tortugas Ninja",
-    "sta": "2026-11-01/09:00",
-    "end": "2026-11-01/10:00"
-  },
-  {
-    "titulo": "La Princesa Encantada",
-    "sta": "2026-11-01/10:00",
-    "end": "2026-11-01/11:30"
-  },
-  {
-    "titulo": "La razón de estar contigo",
-    "sta": "2026-11-01/11:30",
-    "end": "2026-11-01/13:30"
-  },
-  {
-    "titulo": "Fórmula 1 GP México",
-    "sta": "2026-11-01/13:30",
-    "end": "2026-11-01/16:00"
-  },
-  {
-    "titulo": "Un vampiro mentiroso",
-    "sta": "2026-11-01/16:00",
-    "end": "2026-11-01/17:00"
-  },
-  {
-    "titulo": "El barco fantasma",
-    "sta": "2026-11-01/17:00",
-    "end": "2026-11-01/19:00"
-  },
-  {
-    "titulo": "Cruz Azul vs. León",
-    "sta": "2026-11-01/19:00",
-    "end": "2026-11-01/21:10"
-  },
-  {
-    "titulo": "Ghostbusters: El Legado",
-    "sta": "2026-11-01/21:10",
-    "end": "2026-11-01/23:45"
-  },
-  {
-    "titulo": "Se rentan Cuartos",
-    "sta": "2026-11-01/23:45",
-    "end": "2026-11-02/00:00"
-  },
-  {
     "titulo": "Cronicas",
     "sta": "2026-11-02/03:00",
     "end": "2026-11-02/03:30"
@@ -348,5 +283,70 @@
     "titulo": "Contacto deportivo",
     "sta": "2026-11-04/23:30",
     "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Especial de R.T.C",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "PJ Masks: Héroes en Pijamas",
+    "sta": "2026-11-05/06:00",
+    "end": "2026-11-05/06:30"
+  },
+  {
+    "titulo": "Peppa Pig",
+    "sta": "2026-11-05/06:30",
+    "end": "2026-11-05/07:00"
+  },
+  {
+    "titulo": "Bely y Beto",
+    "sta": "2026-11-05/07:00",
+    "end": "2026-11-05/08:00"
+  },
+  {
+    "titulo": "Ve, perro. ¡Ve!",
+    "sta": "2026-11-05/08:00",
+    "end": "2026-11-05/08:30"
+  },
+  {
+    "titulo": "Masha y el Oso",
+    "sta": "2026-11-05/08:30",
+    "end": "2026-11-05/09:00"
+  },
+  {
+    "titulo": "Kung Fu Panda La Leyenda Po",
+    "sta": "2026-11-05/09:00",
+    "end": "2026-11-05/10:00"
+  },
+  {
+    "titulo": "Los Pingüinos de Madagascar",
+    "sta": "2026-11-05/10:00",
+    "end": "2026-11-05/11:00"
+  },
+  {
+    "titulo": "Scooby-Doo y ¿Quién Crees Tú?",
+    "sta": "2026-11-05/11:00",
+    "end": "2026-11-05/12:30"
+  },
+  {
+    "titulo": "Bob Esponja",
+    "sta": "2026-11-05/12:30",
+    "end": "2026-11-05/14:00"
+  },
+  {
+    "titulo": "El chavo animado",
+    "sta": "2026-11-05/14:00",
+    "end": "2026-11-05/15:30"
+  },
+  {
+    "titulo": "¿Cuál es el bueno?",
+    "sta": "2026-11-05/15:30",
+    "end": "2026-11-05/17:30"
   }
 ]
