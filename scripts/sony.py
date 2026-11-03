@@ -12,6 +12,7 @@ TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "sony-mexico.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 BASE = "https://www.gatotv.com/canal/sony_mexico"
+HOUR_OFFSET = -1  # Ajuste: servidor US (UTC-5) → México (UTC-6)
 
 DAYS_RANGE = range(-1, 7)
 
@@ -34,7 +35,6 @@ def parse_time_12h(time_str: str) -> tuple[int, int] | None:
     return hour, minute
 
 def get_title(row) -> str:
-    # Formato normal
     title_el = row.select_one(".div_program_title_on_channel")
     episode_el = row.select_one(".div_episode_programa_on_channel strong")
     if title_el:
@@ -44,11 +44,9 @@ def get_title(row) -> str:
             if ep:
                 title = f"{title} {ep}"
         return title
-    # Formato alterno (películas con link/imagen)
     a = row.select_one("td a[title]")
     if a and a.get("title"):
         return a["title"].strip()
-    # Fallback
     cells = row.find_all("td")
     if len(cells) >= 3:
         return re.sub(r'\s+', ' ', cells[2].get_text(" ", strip=True)).strip()
@@ -94,6 +92,10 @@ def extract_programs(html: str, page_date: datetime) -> list[dict]:
         start = start_date.replace(hour=sh, minute=sm, second=0, microsecond=0)
         end_date = start_date + timedelta(days=1) if (eh < sh or (eh == sh and em <= sm)) else start_date
         end = end_date.replace(hour=eh, minute=em, second=0, microsecond=0)
+
+        # Ajuste de -1 hora (servidor US → México)
+        start += timedelta(hours=HOUR_OFFSET)
+        end += timedelta(hours=HOUR_OFFSET)
 
         programs.append({
             "titulo": title,
