@@ -1,0 +1,977 @@
+[
+  {
+    "titulo": "La última palabra",
+    "sta": "2026-11-01/22:00",
+    "end": "2026-11-02/00:08"
+  },
+  {
+    "titulo": "La primera profecía",
+    "sta": "2026-11-02/00:08",
+    "end": "2026-11-02/02:30"
+  },
+  {
+    "titulo": "Amor sin barreras",
+    "sta": "2026-11-02/02:30",
+    "end": "2026-11-02/05:07"
+  },
+  {
+    "titulo": "Sin rodeos",
+    "sta": "2026-11-02/05:07",
+    "end": "2026-11-02/06:35"
+  },
+  {
+    "titulo": "Scrubs / T8 E1 My Jerks",
+    "sta": "2026-11-02/06:35",
+    "end": "2026-11-02/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E1 My Jerks",
+    "sta": "2026-11-02/07:00",
+    "end": "2026-11-02/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E2 My Last Words",
+    "sta": "2026-11-02/07:26",
+    "end": "2026-11-02/08:14"
+  },
+  {
+    "titulo": "Sin rodeos",
+    "sta": "2026-11-02/08:14",
+    "end": "2026-11-02/10:00"
+  },
+  {
+    "titulo": "Poder sin límites",
+    "sta": "2026-11-02/10:00",
+    "end": "2026-11-02/11:41"
+  },
+  {
+    "titulo": "Violación de domicilio",
+    "sta": "2026-11-02/11:41",
+    "end": "2026-11-02/14:03"
+  },
+  {
+    "titulo": "La sociedad de los poetas muertos",
+    "sta": "2026-11-02/14:03",
+    "end": "2026-11-02/16:44"
+  },
+  {
+    "titulo": "Soy el número cuatro",
+    "sta": "2026-11-02/16:44",
+    "end": "2026-11-02/18:49"
+  },
+  {
+    "titulo": "Yo, robot",
+    "sta": "2026-11-02/18:49",
+    "end": "2026-11-02/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E3 El doble de Bart",
+    "sta": "2026-11-02/20:57",
+    "end": "2026-11-02/21:26"
+  },
+  {
+    "titulo": "Los Simpson / T20 E4 Especial de Noche de Brujas XIX",
+    "sta": "2026-11-02/21:26",
+    "end": "2026-11-02/22:00"
+  },
+  {
+    "titulo": "La Reina del Concurso",
+    "sta": "2026-11-02/22:00",
+    "end": "2026-11-02/23:59"
+  },
+  {
+    "titulo": "La noche mágica",
+    "sta": "2026-11-02/23:59",
+    "end": "2026-11-03/01:55"
+  },
+  {
+    "titulo": "Mente siniestra",
+    "sta": "2026-11-03/01:55",
+    "end": "2026-11-03/03:39"
+  },
+  {
+    "titulo": "Alerta Roja",
+    "sta": "2026-11-03/03:39",
+    "end": "2026-11-03/05:52"
+  },
+  {
+    "titulo": "Scrubs / T8 E3 My Saving Grace",
+    "sta": "2026-11-03/05:52",
+    "end": "2026-11-03/06:14"
+  },
+  {
+    "titulo": "Scrubs / T8 E4 My Happy Place",
+    "sta": "2026-11-03/06:14",
+    "end": "2026-11-03/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E3 My Saving Grace",
+    "sta": "2026-11-03/07:00",
+    "end": "2026-11-03/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E4 My Happy Place",
+    "sta": "2026-11-03/07:26",
+    "end": "2026-11-03/07:55"
+  },
+  {
+    "titulo": "Scrubs / T8 E9 My Absence",
+    "sta": "2026-11-03/07:55",
+    "end": "2026-11-03/08:21"
+  },
+  {
+    "titulo": "Scrubs / T8 E10 My Comedy Show",
+    "sta": "2026-11-03/08:21",
+    "end": "2026-11-03/09:19"
+  },
+  {
+    "titulo": "Splash",
+    "sta": "2026-11-03/09:19",
+    "end": "2026-11-03/11:31"
+  },
+  {
+    "titulo": "Soy el número cuatro",
+    "sta": "2026-11-03/11:31",
+    "end": "2026-11-03/13:40"
+  },
+  {
+    "titulo": "Violación de domicilio",
+    "sta": "2026-11-03/13:40",
+    "end": "2026-11-03/16:02"
+  },
+  {
+    "titulo": "El día que la Tierra se detuvo",
+    "sta": "2026-11-03/16:02",
+    "end": "2026-11-03/18:05"
+  },
+  {
+    "titulo": "Maze Runner: La cura mortal",
+    "sta": "2026-11-03/18:05",
+    "end": "2026-11-03/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E5 Curvas peligrosas",
+    "sta": "2026-11-03/20:57",
+    "end": "2026-11-03/21:27"
+  },
+  {
+    "titulo": "Los Simpson / T20 E6 Intercambio de palabras",
+    "sta": "2026-11-03/21:27",
+    "end": "2026-11-03/21:59"
+  },
+  {
+    "titulo": "Maze Runner: correr o morir",
+    "sta": "2026-11-03/21:59",
+    "end": "2026-11-04/00:10"
+  },
+  {
+    "titulo": "La primera profecía",
+    "sta": "2026-11-04/00:10",
+    "end": "2026-11-04/02:32"
+  },
+  {
+    "titulo": "Amor sin barreras",
+    "sta": "2026-11-04/02:32",
+    "end": "2026-11-04/05:09"
+  },
+  {
+    "titulo": "Scrubs / T8 E5 My ABC's",
+    "sta": "2026-11-04/05:09",
+    "end": "2026-11-04/05:34"
+  },
+  {
+    "titulo": "Scrubs / T8 E6 My Cookie Pants",
+    "sta": "2026-11-04/05:34",
+    "end": "2026-11-04/05:56"
+  },
+  {
+    "titulo": "Scrubs / T9 E1 Our First Day of School",
+    "sta": "2026-11-04/05:56",
+    "end": "2026-11-04/06:18"
+  },
+  {
+    "titulo": "Scrubs / T9 E2 Our Drunk Friend",
+    "sta": "2026-11-04/06:18",
+    "end": "2026-11-04/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E5 My ABC's",
+    "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/07:54"
+  },
+  {
+    "titulo": "Scrubs / T8 E14 My Soul on Fire Part 1",
+    "sta": "2026-11-04/07:54",
+    "end": "2026-11-04/08:26"
+  },
+  {
+    "titulo": "Alerta Roja",
+    "sta": "2026-11-04/08:26",
+    "end": "2026-11-04/10:59"
+  },
+  {
+    "titulo": "Poder sin límites",
+    "sta": "2026-11-04/10:59",
+    "end": "2026-11-04/12:36"
+  },
+  {
+    "titulo": "Espiando a los vecinos",
+    "sta": "2026-11-04/12:36",
+    "end": "2026-11-04/14:37"
+  },
+  {
+    "titulo": "Yo, robot",
+    "sta": "2026-11-04/14:37",
+    "end": "2026-11-04/16:50"
+  },
+  {
+    "titulo": "Recetas de amor",
+    "sta": "2026-11-04/16:50",
+    "end": "2026-11-04/18:57"
+  },
+  {
+    "titulo": "La Reina del Concurso",
+    "sta": "2026-11-04/18:57",
+    "end": "2026-11-04/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E7 MyPods y dinamita",
+    "sta": "2026-11-04/20:57",
+    "end": "2026-11-04/21:28"
+  },
+  {
+    "titulo": "Los Simpson / T20 E8 Burns y las abejas",
+    "sta": "2026-11-04/21:28",
+    "end": "2026-11-04/22:00"
+  },
+  {
+    "titulo": "Cascanueces",
+    "sta": "2026-11-04/22:00",
+    "end": "2026-11-05/00:09"
+  },
+  {
+    "titulo": "Mente siniestra",
+    "sta": "2026-11-05/00:09",
+    "end": "2026-11-05/02:13"
+  },
+  {
+    "titulo": "La noche mágica",
+    "sta": "2026-11-05/02:13",
+    "end": "2026-11-05/03:52"
+  },
+  {
+    "titulo": "Al mejor postor",
+    "sta": "2026-11-05/03:52",
+    "end": "2026-11-05/05:29"
+  },
+  {
+    "titulo": "Scrubs / T8 E7 My New Role",
+    "sta": "2026-11-05/05:29",
+    "end": "2026-11-05/05:54"
+  },
+  {
+    "titulo": "Scrubs / T8 E8 My Lawyer's in Love",
+    "sta": "2026-11-05/05:54",
+    "end": "2026-11-05/06:16"
+  },
+  {
+    "titulo": "Scrubs / T8 E15 My Soul on Fire Part 2",
+    "sta": "2026-11-05/06:16",
+    "end": "2026-11-05/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E7 My New Role",
+    "sta": "2026-11-05/07:00",
+    "end": "2026-11-05/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E8 My Lawyer's in Love",
+    "sta": "2026-11-05/07:26",
+    "end": "2026-11-05/08:24"
+  },
+  {
+    "titulo": "Splash",
+    "sta": "2026-11-05/08:24",
+    "end": "2026-11-05/10:34"
+  },
+  {
+    "titulo": "La sociedad de los poetas muertos",
+    "sta": "2026-11-05/10:34",
+    "end": "2026-11-05/13:10"
+  },
+  {
+    "titulo": "Amor sin barreras",
+    "sta": "2026-11-05/13:10",
+    "end": "2026-11-05/16:10"
+  },
+  {
+    "titulo": "El planeta de los simios: La guerra",
+    "sta": "2026-11-05/16:10",
+    "end": "2026-11-05/18:51"
+  },
+  {
+    "titulo": "La última palabra",
+    "sta": "2026-11-05/18:51",
+    "end": "2026-11-05/20:58"
+  },
+  {
+    "titulo": "Los Simpson / T20 E9 Lisa, la reina del drama",
+    "sta": "2026-11-05/20:58",
+    "end": "2026-11-05/21:28"
+  },
+  {
+    "titulo": "Los Simpson / T20 E10 Cambia mi vida, por favor",
+    "sta": "2026-11-05/21:28",
+    "end": "2026-11-05/22:00"
+  },
+  {
+    "titulo": "Nadie podrá salvarte",
+    "sta": "2026-11-05/22:00",
+    "end": "2026-11-05/23:57"
+  },
+  {
+    "titulo": "You Should Have Left",
+    "sta": "2026-11-05/23:57",
+    "end": "2026-11-06/01:51"
+  },
+  {
+    "titulo": "La primera profecía",
+    "sta": "2026-11-06/01:51",
+    "end": "2026-11-06/03:56"
+  },
+  {
+    "titulo": "Scrubs / T8 E9 My Absence",
+    "sta": "2026-11-06/03:56",
+    "end": "2026-11-06/04:21"
+  },
+  {
+    "titulo": "Scrubs / T8 E10 My Comedy Show",
+    "sta": "2026-11-06/04:21",
+    "end": "2026-11-06/04:43"
+  },
+  {
+    "titulo": "Al mejor postor",
+    "sta": "2026-11-06/04:43",
+    "end": "2026-11-06/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E9 My Absence",
+    "sta": "2026-11-06/07:00",
+    "end": "2026-11-06/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E10 My Comedy Show",
+    "sta": "2026-11-06/07:26",
+    "end": "2026-11-06/08:36"
+  },
+  {
+    "titulo": "Reefa",
+    "sta": "2026-11-06/08:36",
+    "end": "2026-11-06/10:33"
+  },
+  {
+    "titulo": "Poder sin límites",
+    "sta": "2026-11-06/10:33",
+    "end": "2026-11-06/12:09"
+  },
+  {
+    "titulo": "Violación de domicilio",
+    "sta": "2026-11-06/12:09",
+    "end": "2026-11-06/14:42"
+  },
+  {
+    "titulo": "Soy el número cuatro",
+    "sta": "2026-11-06/14:42",
+    "end": "2026-11-06/16:47"
+  },
+  {
+    "titulo": "Yo, robot",
+    "sta": "2026-11-06/16:47",
+    "end": "2026-11-06/18:56"
+  },
+  {
+    "titulo": "El día que la Tierra se detuvo",
+    "sta": "2026-11-06/18:56",
+    "end": "2026-11-06/20:58"
+  },
+  {
+    "titulo": "Los Simpson / T20 E11 Cómo se ganó la prueba",
+    "sta": "2026-11-06/20:58",
+    "end": "2026-11-06/21:28"
+  },
+  {
+    "titulo": "Los Simpson / T20 E12 No más préstamos, naturalmente",
+    "sta": "2026-11-06/21:28",
+    "end": "2026-11-06/22:00"
+  },
+  {
+    "titulo": "Mesa de regalos",
+    "sta": "2026-11-06/22:00",
+    "end": "2026-11-06/23:57"
+  },
+  {
+    "titulo": "Nadie podrá salvarte",
+    "sta": "2026-11-06/23:57",
+    "end": "2026-11-07/01:55"
+  },
+  {
+    "titulo": "Amor sin barreras",
+    "sta": "2026-11-07/01:55",
+    "end": "2026-11-07/04:29"
+  },
+  {
+    "titulo": "Scrubs / T8 E11 My Nah Nah Nah",
+    "sta": "2026-11-07/04:29",
+    "end": "2026-11-07/04:54"
+  },
+  {
+    "titulo": "Scrubs / T8 E12 Their Story II",
+    "sta": "2026-11-07/04:54",
+    "end": "2026-11-07/05:18"
+  },
+  {
+    "titulo": "Sin rodeos",
+    "sta": "2026-11-07/05:18",
+    "end": "2026-11-07/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E11 My Nah Nah Nah",
+    "sta": "2026-11-07/07:00",
+    "end": "2026-11-07/07:31"
+  },
+  {
+    "titulo": "Scrubs / T8 E12 Their Story II",
+    "sta": "2026-11-07/07:31",
+    "end": "2026-11-07/09:00"
+  },
+  {
+    "titulo": "Alerta Roja",
+    "sta": "2026-11-07/09:00",
+    "end": "2026-11-07/11:33"
+  },
+  {
+    "titulo": "Espiando a los vecinos",
+    "sta": "2026-11-07/11:33",
+    "end": "2026-11-07/13:33"
+  },
+  {
+    "titulo": "Recetas de amor",
+    "sta": "2026-11-07/13:33",
+    "end": "2026-11-07/15:46"
+  },
+  {
+    "titulo": "Cascanueces",
+    "sta": "2026-11-07/15:46",
+    "end": "2026-11-07/17:50"
+  },
+  {
+    "titulo": "La última palabra",
+    "sta": "2026-11-07/17:50",
+    "end": "2026-11-07/19:57"
+  },
+  {
+    "titulo": "El día que la Tierra se detuvo",
+    "sta": "2026-11-07/19:57",
+    "end": "2026-11-07/22:00"
+  },
+  {
+    "titulo": "Kingsman: El servicio secreto",
+    "sta": "2026-11-07/22:00",
+    "end": "2026-11-08/00:32"
+  },
+  {
+    "titulo": "Kingsman: El círculo dorado",
+    "sta": "2026-11-08/00:32",
+    "end": "2026-11-08/03:19"
+  },
+  {
+    "titulo": "La noche mágica",
+    "sta": "2026-11-08/03:19",
+    "end": "2026-11-08/04:58"
+  },
+  {
+    "titulo": "Scrubs / T8 E13 My Full Moon",
+    "sta": "2026-11-08/04:58",
+    "end": "2026-11-08/05:20"
+  },
+  {
+    "titulo": "Scrubs / T8 E14 My Soul on Fire Part 1",
+    "sta": "2026-11-08/05:20",
+    "end": "2026-11-08/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E13 My Full Moon",
+    "sta": "2026-11-08/07:00",
+    "end": "2026-11-08/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E14 My Soul on Fire Part 1",
+    "sta": "2026-11-08/07:26",
+    "end": "2026-11-08/08:23"
+  },
+  {
+    "titulo": "Sin rodeos",
+    "sta": "2026-11-08/08:23",
+    "end": "2026-11-08/10:05"
+  },
+  {
+    "titulo": "La sociedad de los poetas muertos",
+    "sta": "2026-11-08/10:05",
+    "end": "2026-11-08/12:45"
+  },
+  {
+    "titulo": "Alta fidelidad",
+    "sta": "2026-11-08/12:45",
+    "end": "2026-11-08/14:55"
+  },
+  {
+    "titulo": "La Reina del Concurso",
+    "sta": "2026-11-08/14:55",
+    "end": "2026-11-08/16:56"
+  },
+  {
+    "titulo": "Mesa de regalos",
+    "sta": "2026-11-08/16:56",
+    "end": "2026-11-08/18:52"
+  },
+  {
+    "titulo": "Cascanueces",
+    "sta": "2026-11-08/18:52",
+    "end": "2026-11-08/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E13 Maggie se ha ido",
+    "sta": "2026-11-08/20:57",
+    "end": "2026-11-08/21:27"
+  },
+  {
+    "titulo": "Los Simpson / T20 E14 En el nombre del abuelo",
+    "sta": "2026-11-08/21:27",
+    "end": "2026-11-08/22:00"
+  },
+  {
+    "titulo": "Los Simpson: La película",
+    "sta": "2026-11-08/22:00",
+    "end": "2026-11-08/23:45"
+  },
+  {
+    "titulo": "Alien vs. depredador",
+    "sta": "2026-11-08/23:45",
+    "end": "2026-11-09/01:38"
+  },
+  {
+    "titulo": "Max Payne",
+    "sta": "2026-11-09/01:38",
+    "end": "2026-11-09/03:18"
+  },
+  {
+    "titulo": "Alerta Roja",
+    "sta": "2026-11-09/03:18",
+    "end": "2026-11-09/05:28"
+  },
+  {
+    "titulo": "Scrubs / T8 E15 My Soul on Fire Part 2",
+    "sta": "2026-11-09/05:28",
+    "end": "2026-11-09/05:53"
+  },
+  {
+    "titulo": "Scrubs / T8 E16 My Cuz",
+    "sta": "2026-11-09/05:53",
+    "end": "2026-11-09/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E15 My Soul on Fire Part 2",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E16 My Cuz",
+    "sta": "2026-11-09/07:26",
+    "end": "2026-11-09/08:40"
+  },
+  {
+    "titulo": "Alerta Roja",
+    "sta": "2026-11-09/08:40",
+    "end": "2026-11-09/11:06"
+  },
+  {
+    "titulo": "Poder sin límites",
+    "sta": "2026-11-09/11:06",
+    "end": "2026-11-09/12:46"
+  },
+  {
+    "titulo": "Ramona and Beezus",
+    "sta": "2026-11-09/12:46",
+    "end": "2026-11-09/14:49"
+  },
+  {
+    "titulo": "Alien vs. depredador",
+    "sta": "2026-11-09/14:49",
+    "end": "2026-11-09/16:39"
+  },
+  {
+    "titulo": "El transportador 2",
+    "sta": "2026-11-09/16:39",
+    "end": "2026-11-09/18:24"
+  },
+  {
+    "titulo": "El planeta de los simios: La guerra",
+    "sta": "2026-11-09/18:24",
+    "end": "2026-11-09/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E15 Boda desastrosa",
+    "sta": "2026-11-09/20:57",
+    "end": "2026-11-09/21:27"
+  },
+  {
+    "titulo": "Los Simpson / T20 E16 El gran pequeño amor de Moe",
+    "sta": "2026-11-09/21:27",
+    "end": "2026-11-09/22:00"
+  },
+  {
+    "titulo": "Día de la independencia: Contraataque",
+    "sta": "2026-11-09/22:00",
+    "end": "2026-11-10/00:14"
+  },
+  {
+    "titulo": "Poor Things",
+    "sta": "2026-11-10/00:14",
+    "end": "2026-11-10/03:10"
+  },
+  {
+    "titulo": "60 segundos",
+    "sta": "2026-11-10/03:10",
+    "end": "2026-11-10/05:08"
+  },
+  {
+    "titulo": "Scrubs / T8 E17 My Chief Concern",
+    "sta": "2026-11-10/05:08",
+    "end": "2026-11-10/05:30"
+  },
+  {
+    "titulo": "Scrubs / T8 E18 My Finale, (Part 1)",
+    "sta": "2026-11-10/05:30",
+    "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E17 My Chief Concern",
+    "sta": "2026-11-10/07:00",
+    "end": "2026-11-10/07:26"
+  },
+  {
+    "titulo": "Scrubs / T8 E18 My Finale, (Part 1)",
+    "sta": "2026-11-10/07:26",
+    "end": "2026-11-10/08:08"
+  },
+  {
+    "titulo": "Sin rodeos",
+    "sta": "2026-11-10/08:08",
+    "end": "2026-11-10/09:55"
+  },
+  {
+    "titulo": "Alta fidelidad",
+    "sta": "2026-11-10/09:55",
+    "end": "2026-11-10/12:04"
+  },
+  {
+    "titulo": "Espiando a los vecinos",
+    "sta": "2026-11-10/12:04",
+    "end": "2026-11-10/14:06"
+  },
+  {
+    "titulo": "High Strung Free Dance",
+    "sta": "2026-11-10/14:06",
+    "end": "2026-11-10/16:13"
+  },
+  {
+    "titulo": "Recetas de amor",
+    "sta": "2026-11-10/16:13",
+    "end": "2026-11-10/18:28"
+  },
+  {
+    "titulo": "Kingsman: El servicio secreto",
+    "sta": "2026-11-10/18:28",
+    "end": "2026-11-10/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E17 Los buenos, los tristes y las drogas",
+    "sta": "2026-11-10/20:57",
+    "end": "2026-11-10/21:27"
+  },
+  {
+    "titulo": "Los Simpson / T20 E18 Papá no sabe nada",
+    "sta": "2026-11-10/21:27",
+    "end": "2026-11-10/22:00"
+  },
+  {
+    "titulo": "Kingsman: El círculo dorado",
+    "sta": "2026-11-10/22:00",
+    "end": "2026-11-11/00:50"
+  },
+  {
+    "titulo": "Nadie podrá salvarte",
+    "sta": "2026-11-11/00:50",
+    "end": "2026-11-11/02:47"
+  },
+  {
+    "titulo": "Poor Things",
+    "sta": "2026-11-11/02:47",
+    "end": "2026-11-11/05:14"
+  },
+  {
+    "titulo": "Scrubs / T8 E19 My Finale (Part 2)",
+    "sta": "2026-11-11/05:14",
+    "end": "2026-11-11/05:36"
+  },
+  {
+    "titulo": "Scrubs / T9 E1 Our First Day of School",
+    "sta": "2026-11-11/05:36",
+    "end": "2026-11-11/07:00"
+  },
+  {
+    "titulo": "Scrubs / T8 E19 My Finale (Part 2)",
+    "sta": "2026-11-11/07:00",
+    "end": "2026-11-11/07:26"
+  },
+  {
+    "titulo": "Scrubs / T9 E1 Our First Day of School",
+    "sta": "2026-11-11/07:26",
+    "end": "2026-11-11/08:05"
+  },
+  {
+    "titulo": "Algo azul",
+    "sta": "2026-11-11/08:05",
+    "end": "2026-11-11/09:55"
+  },
+  {
+    "titulo": "Ramona and Beezus",
+    "sta": "2026-11-11/09:55",
+    "end": "2026-11-11/11:56"
+  },
+  {
+    "titulo": "High Strung Free Dance",
+    "sta": "2026-11-11/11:56",
+    "end": "2026-11-11/14:03"
+  },
+  {
+    "titulo": "Say It Isn't So",
+    "sta": "2026-11-11/14:03",
+    "end": "2026-11-11/16:02"
+  },
+  {
+    "titulo": "El planeta de los simios: La guerra",
+    "sta": "2026-11-11/16:02",
+    "end": "2026-11-11/18:38"
+  },
+  {
+    "titulo": "Día de la independencia: Contraataque",
+    "sta": "2026-11-11/18:38",
+    "end": "2026-11-11/20:57"
+  },
+  {
+    "titulo": "Los Simpson / T20 E19 Waverly Hills, 9021-D'Oh",
+    "sta": "2026-11-11/20:57",
+    "end": "2026-11-11/21:27"
+  },
+  {
+    "titulo": "Los Simpson / T20 E20 Cuatro grandes mujeres y manicuras",
+    "sta": "2026-11-11/21:27",
+    "end": "2026-11-11/22:00"
+  },
+  {
+    "titulo": "Los Simpson: La película",
+    "sta": "2026-11-11/22:00",
+    "end": "2026-11-11/23:45"
+  },
+  {
+    "titulo": "Max Payne",
+    "sta": "2026-11-11/23:45",
+    "end": "2026-11-12/01:45"
+  },
+  {
+    "titulo": "60 segundos",
+    "sta": "2026-11-12/01:45",
+    "end": "2026-11-12/03:44"
+  },
+  {
+    "titulo": "Reefa",
+    "sta": "2026-11-12/03:44",
+    "end": "2026-11-12/05:21"
+  },
+  {
+    "titulo": "Scrubs / T9 E2 Our Drunk Friend",
+    "sta": "2026-11-12/05:21",
+    "end": "2026-11-12/05:46"
+  },
+  {
+    "titulo": "Scrubs / T9 E3 Our Role Models",
+    "sta": "2026-11-12/05:46",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "Scrubs / T9 E2 Our Drunk Friend",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/07:26"
+  },
+  {
+    "titulo": "Scrubs / T9 E3 Our Role Models",
+    "sta": "2026-11-12/07:26",
+    "end": "2026-11-12/09:04"
+  },
+  {
+    "titulo": "Alerta Roja",
+    "sta": "2026-11-12/09:04",
+    "end": "2026-11-12/11:41"
+  },
+  {
+    "titulo": "Alta fidelidad",
+    "sta": "2026-11-12/11:41",
+    "end": "2026-11-12/13:51"
+  },
+  {
+    "titulo": "Poder sin límites",
+    "sta": "2026-11-12/13:51",
+    "end": "2026-11-12/15:30"
+  },
+  {
+    "titulo": "El transportador 2",
+    "sta": "2026-11-12/15:30",
+    "end": "2026-11-12/17:11"
+  },
+  {
+    "titulo": "Alien vs. depredador",
+    "sta": "2026-11-12/17:11",
+    "end": "2026-11-12/19:03"
+  },
+  {
+    "titulo": "Mesa de regalos",
+    "sta": "2026-11-12/19:03",
+    "end": "2026-11-12/20:58"
+  },
+  {
+    "titulo": "Los Simpson / T20 E21 Homérica",
+    "sta": "2026-11-12/20:58",
+    "end": "2026-11-12/21:28"
+  },
+  {
+    "titulo": "Los Simpson / T21 E1 Homero, el grande",
+    "sta": "2026-11-12/21:28",
+    "end": "2026-11-12/22:00"
+  },
+  {
+    "titulo": "La propuesta",
+    "sta": "2026-11-12/22:00",
+    "end": "2026-11-13/00:10"
+  },
+  {
+    "titulo": "Bajo la misma estrella",
+    "sta": "2026-11-13/00:10",
+    "end": "2026-11-13/02:38"
+  },
+  {
+    "titulo": "Max Payne",
+    "sta": "2026-11-13/02:38",
+    "end": "2026-11-13/04:21"
+  },
+  {
+    "titulo": "Scrubs / T9 E4 Our Histories",
+    "sta": "2026-11-13/04:21",
+    "end": "2026-11-13/04:45"
+  },
+  {
+    "titulo": "Scrubs / T9 E5 Our Mysteries",
+    "sta": "2026-11-13/04:45",
+    "end": "2026-11-13/05:07"
+  },
+  {
+    "titulo": "Sin rodeos",
+    "sta": "2026-11-13/05:07",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "Scrubs / T9 E4 Our Histories",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/07:22"
+  },
+  {
+    "titulo": "Scrubs / T9 E5 Our Mysteries",
+    "sta": "2026-11-13/07:22",
+    "end": "2026-11-13/07:49"
+  },
+  {
+    "titulo": "Splash",
+    "sta": "2026-11-13/07:49",
+    "end": "2026-11-13/09:57"
+  },
+  {
+    "titulo": "Poder sin límites",
+    "sta": "2026-11-13/09:57",
+    "end": "2026-11-13/11:35"
+  },
+  {
+    "titulo": "Say It Isn't So",
+    "sta": "2026-11-13/11:35",
+    "end": "2026-11-13/13:34"
+  },
+  {
+    "titulo": "La última canción",
+    "sta": "2026-11-13/13:34",
+    "end": "2026-11-13/15:47"
+  },
+  {
+    "titulo": "Kingsman: El servicio secreto",
+    "sta": "2026-11-13/15:47",
+    "end": "2026-11-13/18:13"
+  },
+  {
+    "titulo": "Kingsman: El círculo dorado",
+    "sta": "2026-11-13/18:13",
+    "end": "2026-11-13/21:02"
+  },
+  {
+    "titulo": "Los Simpson / T21 E2 Bart se gana una z",
+    "sta": "2026-11-13/21:02",
+    "end": "2026-11-13/21:32"
+  },
+  {
+    "titulo": "Los Simpson / T21 E3 La gran esperanza",
+    "sta": "2026-11-13/21:32",
+    "end": "2026-11-13/22:00"
+  },
+  {
+    "titulo": "Vacation Friends 2",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-14/00:08"
+  },
+  {
+    "titulo": "La propuesta",
+    "sta": "2026-11-14/00:08",
+    "end": "2026-11-14/02:19"
+  },
+  {
+    "titulo": "60 segundos",
+    "sta": "2026-11-14/02:19",
+    "end": "2026-11-14/04:18"
+  },
+  {
+    "titulo": "Scrubs / T9 E6 Our New Girl-Bro",
+    "sta": "2026-11-14/04:18",
+    "end": "2026-11-14/04:42"
+  },
+  {
+    "titulo": "Scrubs / T9 E7 Our White Coats",
+    "sta": "2026-11-14/04:42",
+    "end": "2026-11-14/05:04"
+  },
+  {
+    "titulo": "Henry y Klauss: Maestros de la Magia",
+    "sta": "2026-11-14/05:04",
+    "end": "2026-11-14/07:00"
+  },
+  {
+    "titulo": "Scrubs / T9 E6 Our New Girl-Bro",
+    "sta": "2026-11-14/07:00",
+    "end": "2026-11-14/07:26"
+  }
+]
