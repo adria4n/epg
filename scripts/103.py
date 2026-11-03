@@ -11,6 +11,23 @@ ID = ""
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "mvshub-epg.json"
 
+def fetch_epg(context, uuid, cid, now):
+    all_items = []
+    for day_offset in range(-1, 6):
+        day = now + timedelta(days=day_offset)
+        from_ms = int(day.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
+        url = f"https://edge.prod.ovp.ses.com:9443/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/220?page=0&size=100&dateFrom={from_ms}"
+        try:
+            resp = context.request.get(url)
+            if resp.status == 200:
+                j = resp.json()
+                items = j.get("contents", {}).get("content", [])
+                all_items.extend(items)
+                print(f"  {day.date()}: {len(items)} programas", file=sys.stderr)
+        except Exception as e:
+            print(f"  Error {day.date()}: {e}", file=sys.stderr)
+    return all_items
+
 def scrape():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
@@ -38,33 +55,26 @@ def scrape():
             }
         """)
         uuid = info.get("uuid")
-        if ID.strip():
-            cid = ID.strip()
-        elif CHANNEL.strip():
-            cid = info.get("mapping", {}).get(CHANNEL)
-        else:
-            cid = None
-        if not uuid or not cid:
-            print(f"No se obtuvo uuid o canal {CHANNEL or ID}", file=sys.stderr)
+        if not uuid:
+            print("No se obtuvo UUID", file=sys.stderr)
             browser.close()
             return []
-        print(f"UUID: {uuid} | CID: {cid}", file=sys.stderr)
-        all_items = []
         now = datetime.now(TZ)
-        for day_offset in range(-1, 6):
-            day = now + timedelta(days=day_offset)
-            from_ms = int(day.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
-            url = f"https://edge.prod.ovp.ses.com:9443/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/220?page=0&size=100&dateFrom={from_ms}"
-            try:
-                resp = context.request.get(url)
-                if resp.status == 200:
-                    j = resp.json()
-                    items = j.get("contents", {}).get("content", [])
-                    all_items.extend(items)
-                    print(f"  {day.date()}: {len(items)} programas", file=sys.stderr)
-            except Exception as e:
-                print(f"  Error {day.date()}: {e}", file=sys.stderr)
+        all_items = []
+        cid = None
+        if ID.strip():
+            cid = ID.strip()
+            print(f"Intentando con ID: {cid}", file=sys.stderr)
+            all_items = fetch_epg(context, uuid, cid, now)
+        if not all_items and CHANNEL.strip():
+            cid = info.get("mapping", {}).get(CHANNEL)
+            if cid:
+                print(f"ID falló o vacío, intentando con CHANNEL {CHANNEL} → {cid}", file=sys.stderr)
+                all_items = fetch_epg(context, uuid, cid, now)
         browser.close()
+        if not all_items:
+            print("Sin datos", file=sys.stderr)
+            return []
         seen = set()
         programs = []
         for item in all_items:
@@ -85,7 +95,7 @@ def scrape():
                 "end": end_dt.strftime("%Y-%m-%d/%H:%M"),
             })
         programs.sort(key=lambda x: x["sta"])
-        print(f"Total: {len(programs)} programas", file=sys.stderr)
+        print(f"Total: {len(programs)} programas (CID: {cid})", file=sys.stderr)
         return programs
 
 def main():
