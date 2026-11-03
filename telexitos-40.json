@@ -1,16 +1,6 @@
 [
   {
     "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:30"
-  },
-  {
-    "titulo": "¿Accidente automovilistico? Consulta legal gratuita",
-    "sta": "2026-11-02/05:30",
-    "end": "2026-11-02/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/06:30"
   },
@@ -220,12 +210,12 @@
     "end": "2026-11-03/17:00"
   },
   {
-    "titulo": "Acércate a Rocío / Quiero que se comporte como mujer",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-03/17:00",
     "end": "2026-11-03/18:00"
   },
   {
-    "titulo": "Acércate a Rocío / Mantiene a mi hijo con su cuerpo",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-03/18:00",
     "end": "2026-11-03/19:00"
   },
@@ -240,7 +230,7 @@
     "end": "2026-11-03/21:00"
   },
   {
-    "titulo": "Acércate a Rocío / Da la vida por un hombre",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-03/21:00",
     "end": "2026-11-03/22:00"
   },
@@ -370,12 +360,12 @@
     "end": "2026-11-04/17:00"
   },
   {
-    "titulo": "Acércate a Rocío / Da la vida por un hombre",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-04/17:00",
     "end": "2026-11-04/18:00"
   },
   {
-    "titulo": "Acércate a Rocío / Me voy a divorciar de mi familia",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-04/18:00",
     "end": "2026-11-04/19:00"
   },
@@ -390,7 +380,7 @@
     "end": "2026-11-04/21:00"
   },
   {
-    "titulo": "Acércate a Rocío / Me embaracé de mi ex",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-04/21:00",
     "end": "2026-11-04/22:00"
   },
@@ -670,7 +660,7 @@
     "end": "2026-11-06/17:00"
   },
   {
-    "titulo": "Acércate a Rocío / Mi hija se enredó con un casado",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-06/17:00",
     "end": "2026-11-06/18:00"
   },
@@ -685,7 +675,7 @@
     "end": "2026-11-06/21:00"
   },
   {
-    "titulo": "Acércate a Rocío / Mi vecina es una ratera",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-06/21:00",
     "end": "2026-11-06/22:00"
   },
@@ -1343,5 +1333,15 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-11/04:30",
     "end": "2026-11-11/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/05:00",
+    "end": "2026-11-11/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/05:30",
+    "end": "2026-11-11/06:00"
   }
 ]
