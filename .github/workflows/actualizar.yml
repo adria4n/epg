@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install requests pdfplumber playwright
+          pip install requests pdfplumber playwright beautifulsoup4
 
       - name: Install Playwright browsers
         run: |
