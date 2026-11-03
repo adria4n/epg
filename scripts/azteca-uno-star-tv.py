@@ -9,14 +9,14 @@ from playwright.sync_api import sync_playwright
 CHANNEL = "101"
 ID = ""
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno-star-tv.json"
+OUTPUT_FILE = "startv-epg.json"
 
-def fetch_epg(context, uuid, cid, now):
+def fetch_epg(context, host, uuid, cid, lineup, now):
     all_items = []
     for day_offset in range(-1, 6):
         day = now + timedelta(days=day_offset)
         from_ms = int(day.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
-        url = f"https://edgelb.stargroup.com.mx/web/startv/#spa/epg/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/2342?page=0&size=100&dateFrom={from_ms}"
+        url = f"{host}/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/{lineup}?page=0&size=100&dateFrom={from_ms}"
         try:
             resp = context.request.get(url)
             if resp.status == 200:
@@ -30,19 +30,30 @@ def fetch_epg(context, uuid, cid, now):
 
 def scrape():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context()
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            locale="es-MX"
+        )
         page = context.new_page()
         print("Cargando...", file=sys.stderr)
-        page.goto("https://mvshub.com.mx/#spa/epg", wait_until="networkidle", timeout=60000)
+        page.goto("https://edgelb.stargroup.com.mx/web/startv/#spa/login", wait_until="networkidle", timeout=60000)
+        page.wait_for_timeout(3000)
+        page.get_by_text("EXPLORAR CANALES").click()
         page.wait_for_timeout(5000)
+        page.close()
+        page = context.new_page()
+        page.goto("https://edgelb.stargroup.com.mx/web/startv/#spa/epg", wait_until="networkidle", timeout=60000)
+        page.wait_for_timeout(6000)
         info = page.evaluate("""
             () => {
+                let host = null;
                 let uuid = null;
+                let lineup = null;
                 const entries = performance.getEntriesByType("resource");
                 for (const e of entries) {
-                    const m = e.name.match(/epgcache\\/list\\/([a-f0-9-]{36})/);
-                    if (m) { uuid = m[1]; break; }
+                    const m = e.name.match(/(https?:\\/\\/[^/]+)\\/xtv-ws-client\\/api\\/epgcache\\/list\\/([a-f0-9-]{36})\\/\\d+\\/(\\d+)/);
+                    if (m) { host = m[1]; uuid = m[2]; lineup = m[3]; break; }
                 }
                 const mapping = {};
                 document.querySelectorAll(".epg-channel").forEach(ch => {
@@ -51,26 +62,29 @@ def scrape():
                     const idm = img.match(/\\/images\\/(\\d+)\\/CH_LOGO\\//);
                     if (num && idm) mapping[num] = idm[1];
                 });
-                return {uuid, mapping};
+                return {host, uuid, lineup, mapping};
             }
         """)
+        host = info.get("host")
         uuid = info.get("uuid")
-        if not uuid:
-            print("No se obtuvo UUID", file=sys.stderr)
+        lineup = info.get("lineup")
+        if not host or not uuid or not lineup:
+            print("No se obtuvo host, UUID o lineup", file=sys.stderr)
             browser.close()
             return []
+        print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
         now = datetime.now(TZ)
         all_items = []
         cid = None
         if ID.strip():
             cid = ID.strip()
             print(f"Intentando con ID: {cid}", file=sys.stderr)
-            all_items = fetch_epg(context, uuid, cid, now)
+            all_items = fetch_epg(context, host, uuid, cid, lineup, now)
         if not all_items and CHANNEL.strip():
             cid = info.get("mapping", {}).get(CHANNEL)
             if cid:
                 print(f"ID falló o vacío, intentando con CHANNEL {CHANNEL} → {cid}", file=sys.stderr)
-                all_items = fetch_epg(context, uuid, cid, now)
+                all_items = fetch_epg(context, host, uuid, cid, lineup, now)
         browser.close()
         if not all_items:
             print("Sin datos", file=sys.stderr)
