@@ -1,10 +1,5 @@
 [
   {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/06:00"
-  },
-  {
     "titulo": "KFOX14 Morning News",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/07:00"
@@ -1283,5 +1278,10 @@
     "titulo": "Business First With Angela Miles / Millennial & Gen Z Money; Common Cents Investing",
     "sta": "2026-11-10/04:31",
     "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/06:00"
   }
 ]

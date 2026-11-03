@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "Caso cerrado / Padres helicóptero",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:30",
-    "end": "2026-11-02/06:00"
-  },
-  {
     "titulo": "Al rojo vivo",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/07:00"
@@ -1058,5 +1048,15 @@
     "titulo": "La mesa caliente",
     "sta": "2026-11-10/04:00",
     "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Caso cerrado / Estafa universitaria",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/05:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-10/05:30",
+    "end": "2026-11-10/06:00"
   }
 ]
