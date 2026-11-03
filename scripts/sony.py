@@ -22,7 +22,6 @@ def fetch(url: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 def parse_time_12h(time_str: str) -> tuple[int, int] | None:
-    """Regresa (hour_24, minute) desde '11:40 PM' o '1:34 AM'."""
     time_str = time_str.strip().upper()
     m = re.match(r'(\d{1,2}):(\d{2})\s*(AM|PM)', time_str)
     if not m:
@@ -34,24 +33,43 @@ def parse_time_12h(time_str: str) -> tuple[int, int] | None:
         hour = 0
     return hour, minute
 
+def get_title(row) -> str:
+    # Formato normal
+    title_el = row.select_one(".div_program_title_on_channel")
+    episode_el = row.select_one(".div_episode_programa_on_channel strong")
+    if title_el:
+        title = title_el.get_text(strip=True)
+        if episode_el:
+            ep = episode_el.get_text(strip=True)
+            if ep:
+                title = f"{title} {ep}"
+        return title
+    # Formato alterno (películas con link/imagen)
+    a = row.select_one("td a[title]")
+    if a and a.get("title"):
+        return a["title"].strip()
+    # Fallback
+    cells = row.find_all("td")
+    if len(cells) >= 3:
+        return re.sub(r'\s+', ' ', cells[2].get_text(" ", strip=True)).strip()
+    return ""
+
 def extract_programs(html: str, page_date: datetime) -> list[dict]:
     soup = BeautifulSoup(html, "html.parser")
     programs = []
     seen = set()
 
-    for time_el in soup.find_all("time"):
-        row = time_el.find_parent("tr")
-        if not row:
-            continue
-        cells = row.find_all("td")
-        if len(cells) < 3:
+    rows = soup.select("tr.tbl_EPG_row, tr.tbl_EPG_rowAlternate")
+    for row in rows:
+        times = row.find_all("time")
+        if len(times) < 2:
             continue
 
-        start_str = cells[0].get_text(strip=True)
-        end_str = cells[1].get_text(strip=True)
-        title = re.sub(r'\s+', ' ', cells[2].get_text(" ", strip=True)).strip()
+        start_str = times[0].get_text(strip=True)
+        end_str = times[1].get_text(strip=True)
+        title = get_title(row)
 
-        if not start_str or not title or "Horario" in start_str:
+        if not start_str or not title:
             continue
 
         key = (start_str, end_str, title)
@@ -67,20 +85,14 @@ def extract_programs(html: str, page_date: datetime) -> list[dict]:
         sh, sm = start_hm
         eh, em = end_hm if end_hm else (sh, sm)
 
-        # Si empieza en PM tarde y termina en AM, el start es del día anterior
         crosses_midnight = (sh >= 12 and eh < 12) or (eh < sh)
-        
         if crosses_midnight and sh >= 18:
-            # Empezó la noche anterior
             start_date = page_date - timedelta(days=1)
         else:
             start_date = page_date
 
         start = start_date.replace(hour=sh, minute=sm, second=0, microsecond=0)
-        
-        end_date = start_date
-        if eh < sh or (eh == sh and em <= sm):
-            end_date = start_date + timedelta(days=1)
+        end_date = start_date + timedelta(days=1) if (eh < sh or (eh == sh and em <= sm)) else start_date
         end = end_date.replace(hour=eh, minute=em, second=0, microsecond=0)
 
         programs.append({
