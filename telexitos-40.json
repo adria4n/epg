@@ -1,55 +1,5 @@
 [
   {
-    "titulo": "Caso cerrado / El rostro maldito; Modelo de Instagram",
-    "sta": "2026-11-01/23:00",
-    "end": "2026-11-02/00:00"
-  },
-  {
-    "titulo": "Caso cerrado / A pagar child support; Taxi",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/01:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/01:30",
-    "end": "2026-11-02/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de hombres",
-    "sta": "2026-11-02/02:00",
-    "end": "2026-11-02/03:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de salsa",
-    "sta": "2026-11-02/03:00",
-    "end": "2026-11-02/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / Talento desperdiciado",
-    "sta": "2026-11-02/04:00",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:30"
-  },
-  {
-    "titulo": "¿Accidente automovilistico? Consulta legal gratuita",
-    "sta": "2026-11-02/05:30",
-    "end": "2026-11-02/06:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/06:30"
@@ -1188,5 +1138,60 @@
     "titulo": "El final del paraíso",
     "sta": "2026-11-09/22:00",
     "end": "2026-11-09/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Perdida en la tragedia; Canto orgasmo celestial",
+    "sta": "2026-11-09/23:00",
+    "end": "2026-11-10/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/00:00",
+    "end": "2026-11-10/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/00:30",
+    "end": "2026-11-10/01:00"
+  },
+  {
+    "titulo": "La Dr. Polo vida sin límites",
+    "sta": "2026-11-10/01:00",
+    "end": "2026-11-10/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/01:30",
+    "end": "2026-11-10/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de reggaetón",
+    "sta": "2026-11-10/02:00",
+    "end": "2026-11-10/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de motociclistas",
+    "sta": "2026-11-10/03:00",
+    "end": "2026-11-10/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / La ley abusadora",
+    "sta": "2026-11-10/04:00",
+    "end": "2026-11-10/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/04:30",
+    "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/05:30",
+    "end": "2026-11-10/06:00"
   }
 ]

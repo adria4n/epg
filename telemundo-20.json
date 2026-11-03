@@ -1,45 +1,5 @@
 [
   {
-    "titulo": "Coco",
-    "sta": "2026-11-01/23:00",
-    "end": "2026-11-02/01:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 20 a las 11pm",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/01:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-02/01:30",
-    "end": "2026-11-02/02:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-02/02:00",
-    "end": "2026-11-02/02:30"
-  },
-  {
-    "titulo": "Behind Enemy Lines",
-    "sta": "2026-11-02/02:30",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:30",
-    "end": "2026-11-02/06:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/06:30"
@@ -1143,5 +1103,55 @@
     "titulo": "Juego de villanos",
     "sta": "2026-11-09/21:00",
     "end": "2026-11-09/23:00"
+  },
+  {
+    "titulo": "El señor de los cielos",
+    "sta": "2026-11-09/23:00",
+    "end": "2026-11-10/00:00"
+  },
+  {
+    "titulo": "Lejos de ti",
+    "sta": "2026-11-10/00:00",
+    "end": "2026-11-10/01:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 11pm",
+    "sta": "2026-11-10/01:00",
+    "end": "2026-11-10/01:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-10/01:35",
+    "end": "2026-11-10/02:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-10/02:00",
+    "end": "2026-11-10/02:30"
+  },
+  {
+    "titulo": "Eres mi luz / Un nuevo comienzo",
+    "sta": "2026-11-10/02:30",
+    "end": "2026-11-10/03:30"
+  },
+  {
+    "titulo": "Caso cerrado / Homoparental",
+    "sta": "2026-11-10/03:30",
+    "end": "2026-11-10/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/04:00",
+    "end": "2026-11-10/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/04:30",
+    "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/06:00"
   }
 ]

@@ -1,35 +1,5 @@
 [
   {
-    "titulo": "The Grey",
-    "sta": "2026-11-01/22:30",
-    "end": "2026-11-02/01:00"
-  },
-  {
-    "titulo": "Diablo",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/03:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-02/03:00",
-    "end": "2026-11-02/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/03:30",
-    "end": "2026-11-02/04:00"
-  },
-  {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-02/04:00",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "Esta historia me suena / Perro fiel",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/06:00"
-  },
-  {
     "titulo": "El Chavo Animado / El Chavo y el lobo",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/06:30"
@@ -1083,5 +1053,55 @@
     "titulo": "Fugitivas",
     "sta": "2026-11-09/22:00",
     "end": "2026-11-10/00:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Dinero llama dinero",
+    "sta": "2026-11-10/00:00",
+    "end": "2026-11-10/00:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Un bandido bastante muerto",
+    "sta": "2026-11-10/00:30",
+    "end": "2026-11-10/01:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Ese niño no debe nacer",
+    "sta": "2026-11-10/01:00",
+    "end": "2026-11-10/02:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/02:00",
+    "end": "2026-11-10/02:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/02:30",
+    "end": "2026-11-10/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/03:00",
+    "end": "2026-11-10/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/03:30",
+    "end": "2026-11-10/04:00"
+  },
+  {
+    "titulo": "Noticias 48",
+    "sta": "2026-11-10/04:00",
+    "end": "2026-11-10/04:30"
+  },
+  {
+    "titulo": "Noticias 48",
+    "sta": "2026-11-10/04:30",
+    "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Regálame",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/06:00"
   }
 ]
