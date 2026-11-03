@@ -1,25 +1,5 @@
 [
   {
-    "titulo": "Blue Bloods / Erasing History",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/01:00"
-  },
-  {
-    "titulo": "Blue Bloods / School of Hard Knocks",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/02:00"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-02/02:00",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-02/05:00",
     "end": "2026-11-02/07:00"
@@ -1248,5 +1228,25 @@
     "titulo": "Funny You Should Ask",
     "sta": "2026-11-10/23:37",
     "end": "2026-11-11/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-11/00:07",
+    "end": "2026-11-11/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-11/00:37",
+    "end": "2026-11-11/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-11/01:07",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
   }
 ]

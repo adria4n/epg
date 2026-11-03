@@ -1,13 +1,28 @@
 [
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/00:00",
+    "end": "2026-11-02/03:00"
+  },
+  {
     "titulo": "Cronicas",
     "sta": "2026-11-02/03:00",
     "end": "2026-11-02/03:30"
   },
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/03:30",
+    "end": "2026-11-02/04:30"
+  },
+  {
     "titulo": "Especial de R.T.C",
     "sta": "2026-11-02/04:30",
     "end": "2026-11-02/05:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/06:00"
   },
   {
     "titulo": "PJ Masks: Héroes en Pijamas",
@@ -95,9 +110,19 @@
     "end": "2026-11-03/00:00"
   },
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-03/00:00",
+    "end": "2026-11-03/03:00"
+  },
+  {
     "titulo": "Cronicas",
     "sta": "2026-11-03/03:00",
     "end": "2026-11-03/03:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-03/03:30",
+    "end": "2026-11-03/04:30"
   },
   {
     "titulo": "Especial de R.T.C",
@@ -185,9 +210,19 @@
     "end": "2026-11-04/00:00"
   },
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/00:00",
+    "end": "2026-11-04/01:00"
+  },
+  {
     "titulo": "Estatus",
     "sta": "2026-11-04/01:00",
     "end": "2026-11-04/01:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/01:30",
+    "end": "2026-11-04/03:00"
   },
   {
     "titulo": "Cronicas",
@@ -195,9 +230,19 @@
     "end": "2026-11-04/04:00"
   },
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/04:00",
+    "end": "2026-11-04/04:30"
+  },
+  {
     "titulo": "Especial de R.T.C",
     "sta": "2026-11-04/04:30",
     "end": "2026-11-04/05:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-04/05:00",
+    "end": "2026-11-04/06:00"
   },
   {
     "titulo": "PJ Masks: Héroes en Pijamas",
@@ -285,14 +330,29 @@
     "end": "2026-11-05/00:00"
   },
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/03:00"
+  },
+  {
     "titulo": "Cronicas",
     "sta": "2026-11-05/03:00",
     "end": "2026-11-05/03:30"
   },
   {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:30"
+  },
+  {
     "titulo": "Especial de R.T.C",
     "sta": "2026-11-05/04:30",
     "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
   },
   {
     "titulo": "PJ Masks: Héroes en Pijamas",
@@ -348,5 +408,30 @@
     "titulo": "¿Cuál es el bueno?",
     "sta": "2026-11-05/15:30",
     "end": "2026-11-05/17:30"
+  },
+  {
+    "titulo": "Contrato de Corazones",
+    "sta": "2026-11-05/17:30",
+    "end": "2026-11-05/18:30"
+  },
+  {
+    "titulo": "Ricky Ricón",
+    "sta": "2026-11-05/18:30",
+    "end": "2026-11-05/20:30"
+  },
+  {
+    "titulo": "Me caigo de risa",
+    "sta": "2026-11-05/20:30",
+    "end": "2026-11-05/22:30"
+  },
+  {
+    "titulo": "La ley y el orden UVE",
+    "sta": "2026-11-05/22:30",
+    "end": "2026-11-05/23:30"
+  },
+  {
+    "titulo": "Contacto deportivo",
+    "sta": "2026-11-05/23:30",
+    "end": "2026-11-06/00:00"
   }
 ]
