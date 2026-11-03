@@ -6,7 +6,8 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CHANNEL = "101"
+CHANNEL = "103"
+ID = ""
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "mvshub-epg.json"
 
@@ -37,9 +38,14 @@ def scrape():
             }
         """)
         uuid = info.get("uuid")
-        cid = info.get("mapping", {}).get(CHANNEL)
+        if ID.strip():
+            cid = ID.strip()
+        elif CHANNEL.strip():
+            cid = info.get("mapping", {}).get(CHANNEL)
+        else:
+            cid = None
         if not uuid or not cid:
-            print(f"No se obtuvo uuid o canal {CHANNEL}", file=sys.stderr)
+            print(f"No se obtuvo uuid o canal {CHANNEL or ID}", file=sys.stderr)
             browser.close()
             return []
         print(f"UUID: {uuid} | CID: {cid}", file=sys.stderr)
