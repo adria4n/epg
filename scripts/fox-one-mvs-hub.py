@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 CHANNEL = ""
-ID = "1741"
+ID = "578"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "fox-one-mvs-hub.json"
 
@@ -118,11 +118,7 @@ def scrape():
             seen.add(key)
             sta = datetime.fromtimestamp(start / 1000, TZ)
             end_dt = datetime.fromtimestamp(end / 1000, TZ)
-            programs.append({
-                "titulo": title,
-                "sta": sta.strftime("%Y-%m-%d/%H:%M"),
-                "end": end_dt.strftime("%Y-%m-%d/%H:%M"),
-            })
+            programs.append({"titulo": title, "sta": sta.strftime("%Y-%m-%d/%H:%M"), "end": end_dt.strftime("%Y-%m-%d/%H:%M")})
         programs.sort(key=lambda x: x["sta"])
         print(f"Total: {len(programs)} programas (CID: {cid})", file=sys.stderr)
         return programs
