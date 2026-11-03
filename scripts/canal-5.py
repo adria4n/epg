@@ -25,72 +25,39 @@ def fetch(url: str) -> str:
     with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def extract_from_html(html: str, day_date: datetime.date) -> list[dict]:
+def extract_programs(html: str) -> list[dict]:
+    m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return []
+
     programs = []
-    lines = re.findall(
-        r'(\d{1,2}:\d{2})\s*(?:<[^>]*>)*\s*([^\n<]{3,80}?)(?:\s*\((\d+[^)]*)\))?',
-        html
-    )
-    
-    for match in lines:
-        time_str = match[0].strip()
-        title = re.sub(r'\s+', ' ', match[1]).strip()
-        if not title or len(title) < 3:
+    for item in data.get("@graph", []):
+        if item.get("@type") != "ItemList":
             continue
-        if any(x in title.lower() for x in ['madrugada', 'mañana', 'tarde', 'noche', 'ahora']):
-            continue
-            
-        try:
-            hour, minute = map(int, time_str.split(':'))
-            start = datetime(day_date.year, day_date.month, day_date.day, hour, minute, tzinfo=TZ)
-            end = start + timedelta(minutes=30)
+        for el in item.get("itemListElement", []):
+            ev = el.get("item", {})
+            if ev.get("@type") != "BroadcastEvent":
+                continue
+            title = ev.get("name", "").strip()
+            start = ev.get("startDate")
+            end = ev.get("endDate")
+            if not (title and start and end):
+                continue
+            try:
+                st = datetime.fromisoformat(start)
+                en = datetime.fromisoformat(end)
+            except Exception:
+                continue
             programs.append({
                 "titulo": title,
-                "sta": start.strftime("%Y-%m-%d/%H:%M"),
-                "end": end.strftime("%Y-%m-%d/%H:%M"),
-                "_start": start,
+                "sta": st.strftime("%Y-%m-%d/%H:%M"),
+                "end": en.strftime("%Y-%m-%d/%H:%M"),
+                "_start": st,
             })
-        except Exception:
-            continue
-    
-    return programs
-
-def extract_programs(html: str, day_date: datetime.date) -> list[dict]:
-    programs = []
-    
-    m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
-    if m:
-        try:
-            data = json.loads(m.group(1))
-            for item in data.get("@graph", []):
-                if item.get("@type") != "ItemList":
-                    continue
-                for el in item.get("itemListElement", []):
-                    ev = el.get("item", {})
-                    if ev.get("@type") != "BroadcastEvent":
-                        continue
-                    title = ev.get("name", "").strip()
-                    start = ev.get("startDate")
-                    end = ev.get("endDate")
-                    if not (title and start and end):
-                        continue
-                    try:
-                        st = datetime.fromisoformat(start)
-                        en = datetime.fromisoformat(end)
-                        programs.append({
-                            "titulo": title,
-                            "sta": st.strftime("%Y-%m-%d/%H:%M"),
-                            "end": en.strftime("%Y-%m-%d/%H:%M"),
-                            "_start": st,
-                        })
-                    except Exception:
-                        continue
-        except json.JSONDecodeError:
-            pass
-    
-    if not programs:
-        programs = extract_from_html(html, day_date)
-    
     return programs
 
 def main():
@@ -99,12 +66,10 @@ def main():
 
     for offset, slug in DAYS.items():
         d = today + timedelta(days=offset)
-        url = f"{BASE}{slug}/" if slug else f"{BASE}"
-        if not url.endswith("/"):
-            url += "/"
+        url = f"{BASE}/{slug}/" if slug else f"{BASE}/"
         try:
             html = fetch(url)
-            progs = extract_programs(html, d)
+            progs = extract_programs(html)
             all_programs.extend(progs)
             print(f"  {d}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
