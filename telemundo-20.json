@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/06:00",
+    "end": "2026-11-02/06:30"
+  },
+  {
+    "titulo": "Noticias Telemundo fin de semana",
+    "sta": "2026-11-02/06:30",
+    "end": "2026-11-02/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/07:00",
+    "end": "2026-11-02/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/07:30",
+    "end": "2026-11-02/08:00"
+  },
+  {
     "titulo": "Acceso total",
     "sta": "2026-11-02/08:00",
     "end": "2026-11-02/08:30"
@@ -35,17 +55,17 @@
     "end": "2026-11-02/15:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-02/15:00",
     "end": "2026-11-02/16:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-02/16:00",
     "end": "2026-11-02/17:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Ayuda virtual para votar",
     "sta": "2026-11-02/17:00",
     "end": "2026-11-02/18:00"
   },
@@ -75,7 +95,7 @@
     "end": "2026-11-02/21:01"
   },
   {
-    "titulo": "Juego de villanos",
+    "titulo": "Juego de villanos / Curvas peligrosas",
     "sta": "2026-11-02/21:01",
     "end": "2026-11-02/23:00"
   },
@@ -1283,25 +1303,5 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-11/05:30",
     "end": "2026-11-11/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/06:00",
-    "end": "2026-11-11/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/06:30",
-    "end": "2026-11-11/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/07:00",
-    "end": "2026-11-11/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/07:30",
-    "end": "2026-11-11/08:00"
   }
 ]
