@@ -25,6 +25,8 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install requests pdfplumber playwright beautifulsoup4
+          sudo apt-get update
+          sudo apt-get install -y xvfb
 
       - name: Install Playwright browsers
         run: |
@@ -37,7 +39,7 @@ jobs:
           for script in scripts/*.py; do
             if [ -f "$script" ]; then
               echo "▶ Ejecutando $script"
-              python "$script" &
+              xvfb-run --auto-servernum python "$script" &
             fi
           done
           wait
