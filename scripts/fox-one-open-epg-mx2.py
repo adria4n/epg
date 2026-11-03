@@ -10,7 +10,7 @@ import sys
 EPG_URL = "https://www.open-epg.com/files/mexico2.xml"
 CHANNEL_ID = "PAY TV FOX.mx"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "fox-one.json"
+OUTPUT_FILE = "fox-one-open-epg.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 
 def fetch_xml() -> str:
