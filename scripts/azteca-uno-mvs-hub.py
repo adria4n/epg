@@ -6,10 +6,10 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CHANNEL = "103"
+CHANNEL = "101"
 ID = ""
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "imagen-tv.json"
+OUTPUT_FILE = "azteca-uno.json"
 
 def fetch_epg(context, uuid, cid, now):
     all_items = []
