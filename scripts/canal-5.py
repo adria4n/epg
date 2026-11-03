@@ -2,70 +2,93 @@
 
 import json
 import urllib.request
-import xml.etree.ElementTree as ET
-from datetime import datetime
+import re
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
-EPG_URL = "https://iptv-epg.org/files/epg-mx.xml"
-CHANNEL_ID = "Canal5.mx"
-TZ_TARGET = ZoneInfo("America/Mexico_City")
+TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "canal-5.json"
-USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+BASE = "https://www.formulatv.com/mx/programacion/canal-5/"
 
-def fetch_xml() -> str:
-    print(f"Descargando {EPG_URL}...", file=sys.stderr)
-    req = urllib.request.Request(EPG_URL, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=60) as resp:
+DAYS = {
+    -1: "ayer",
+    0: "",
+    1: "manana",
+    2: "pasadomanana",
+}
+
+def fetch(url: str) -> str:
+    print(f"Descargando {url}...", file=sys.stderr)
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=45) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def parse_epg(xml_data: str) -> list[dict]:
-    root = ET.fromstring(xml_data)
+def extract_programs(html: str) -> list[dict]:
+    m = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except json.JSONDecodeError:
+        return []
+
     programs = []
-
-    for prog in root.findall("programme"):
-        if prog.get("channel") != CHANNEL_ID:
+    for item in data.get("@graph", []):
+        if item.get("@type") != "ItemList":
             continue
-
-        title_el = prog.find("title")
-        title = title_el.text.strip() if title_el is not None and title_el.text else "Sin título"
-
-        start_raw = prog.get("start", "")
-        stop_raw = prog.get("stop", "")
-
-        if not start_raw or not stop_raw:
-            continue
-
-        try:
-            start_utc = datetime.strptime(start_raw, "%Y%m%d%H%M%S %z")
-            end_utc = datetime.strptime(stop_raw, "%Y%m%d%H%M%S %z")
-
-            start = start_utc.astimezone(TZ_TARGET)
-            end = end_utc.astimezone(TZ_TARGET)
-
+        for el in item.get("itemListElement", []):
+            ev = el.get("item", {})
+            if ev.get("@type") != "BroadcastEvent":
+                continue
+            title = ev.get("name", "").strip()
+            start = ev.get("startDate")
+            end = ev.get("endDate")
+            if not (title and start and end):
+                continue
+            try:
+                st = datetime.fromisoformat(start)
+                en = datetime.fromisoformat(end)
+            except Exception:
+                continue
             programs.append({
                 "titulo": title,
-                "sta": start.strftime("%Y-%m-%d/%H:%M"),
-                "end": end.strftime("%Y-%m-%d/%H:%M"),
+                "sta": st.strftime("%Y-%m-%d/%H:%M"),
+                "end": en.strftime("%Y-%m-%d/%H:%M"),
+                "_start": st,
             })
-        except Exception:
-            continue
-
     return programs
 
 def main():
-    try:
-        xml_data = fetch_xml()
-        programs = parse_epg(xml_data)
-        programs.sort(key=lambda x: x["sta"])
+    all_programs = []
+    today = datetime.now(TZ).date()
 
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(programs, f, indent=2, ensure_ascii=False)
+    for offset, slug in DAYS.items():
+        d = today + timedelta(days=offset)
+        url = f"{BASE}/{slug}/" if slug else f"{BASE}/"
+        try:
+            html = fetch(url)
+            progs = extract_programs(html)
+            all_programs.extend(progs)
+            print(f"  {d}: {len(progs)} programas", file=sys.stderr)
+        except Exception as e:
+            print(f"  Error en {d}: {e}", file=sys.stderr)
 
-        print(f"Listo: {len(programs)} programas en {OUTPUT_FILE}", file=sys.stderr)
-    except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
-        sys.exit(1)
+    all_programs.sort(key=lambda x: x["_start"])
+    seen = set()
+    unique = []
+    for p in all_programs:
+        key = p["sta"]
+        if key not in seen:
+            seen.add(key)
+            p.pop("_start", None)
+            unique.append(p)
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(unique, f, indent=2, ensure_ascii=False)
+
+    print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
