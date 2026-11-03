@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 CHANNEL = ""
 ID = "1741"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno-mvs-hub.json"
+OUTPUT_FILE = "fox-one-mvs-hub.json"
 
 def build_title(item):
     title = item.get("title", "")
