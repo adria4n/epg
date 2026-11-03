@@ -7,76 +7,58 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
 CHANNEL = "103"
+CHANNEL_MAP = {"101": "969", "103": "724", "106": "783", "120": "1444", "134": "1447", "145": "1442", "200": "604", "204": "612", "206": "613"}
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "mvshub-103.json"
+OUTPUT_FILE = "mvshub-epg.json"
 
-def scrape_channel(channel_number: str) -> list[dict]:
+def scrape():
+    cid = CHANNEL_MAP.get(CHANNEL)
+    if not cid:
+        print(f"Canal {CHANNEL} no mapeado", file=sys.stderr)
+        return []
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        print(f"Cargando EPG...", file=sys.stderr)
+        print("Cargando...", file=sys.stderr)
         page.goto("https://mvshub.com.mx/#spa/epg", wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(6000)
+        page.wait_for_timeout(4000)
+        now_ms = int(datetime.now(TZ).timestamp() * 1000)
+        from_ms = now_ms - 6 * 3600 * 1000
         data = page.evaluate("""
-            (targetChannel) => {
-                const channels = document.querySelectorAll('.epg-channel');
-                const scheduleRows = document.querySelectorAll('.epg-schedules');
-                let channelIdx = -1;
-                channels.forEach((ch, idx) => {
-                    const num = ch.querySelector('.number')?.innerText?.trim();
-                    if (num === targetChannel) channelIdx = idx;
-                });
-                if (channelIdx === -1 || !scheduleRows[channelIdx]) return {error: true};
-                const row = scheduleRows[channelIdx];
-                const progs = [];
-                row.querySelectorAll('.epg-schedule').forEach(prog => {
-                    const content = prog.querySelector('.epg-schedule-content');
-                    const fullText = content ? content.innerText : prog.innerText;
-                    const lines = fullText.split('\\n').map(l => l.trim()).filter(Boolean);
-                    const title = lines[0] || '';
-                    if (title) {
-                        const rect = prog.getBoundingClientRect();
-                        const parentRect = row.getBoundingClientRect();
-                        progs.push({
-                            titulo: title,
-                            left: rect.left - parentRect.left,
-                            width: rect.width
-                        });
-                    }
-                });
-                return {programs: progs};
+            async ([cid, fromMs]) => {
+                const url = `https://edge.prod.ovp.ses.com:9443/xtv-ws-client/api/epgcache/list/f3ba0f40-5b31-40f4-9ec2-28fd441e3427/\( {cid}/220?page=0&size=200&dateFrom= \){fromMs}`;
+                const r = await fetch(url);
+                const j = await r.json();
+                const items = j.contents?.content || j.content || [];
+                return items.map(i => ({
+                    titulo: i.title || "",
+                    start: i.startDateTime,
+                    end: i.endDateTime
+                }));
             }
-        """, channel_number)
+        """, [cid, from_ms])
         browser.close()
-        if data.get("error"):
-            print(f"Canal {channel_number} no encontrado", file=sys.stderr)
-            return []
-        now = datetime.now(TZ)
-        base = now.replace(minute=0, second=0, microsecond=0) - timedelta(hours=2)
         programs = []
-        progs_data = data.get("programs", [])
-        if not progs_data:
-            return []
-        total_width = sum(p["width"] for p in progs_data) or 1
-        current = base
-        for p in progs_data:
-            duration_min = max(15, int((p["width"] / total_width) * 6 * 60))
-            end = current + timedelta(minutes=duration_min)
+        for item in data:
+            if not item.get("titulo"):
+                continue
+            sta = datetime.fromtimestamp(item["start"] / 1000, TZ)
+            end = datetime.fromtimestamp(item["end"] / 1000, TZ)
             programs.append({
-                "titulo": p["titulo"],
-                "sta": current.strftime("%Y-%m-%d/%H:%M"),
+                "titulo": item["titulo"],
+                "sta": sta.strftime("%Y-%m-%d/%H:%M"),
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
-            current = end
-        print(f"Canal {channel_number}: {len(programs)} programas", file=sys.stderr)
+        programs.sort(key=lambda x: x["sta"])
+        print(f"Canal {CHANNEL}: {len(programs)} programas", file=sys.stderr)
         return programs
 
 def main():
-    programs = scrape_channel(CHANNEL)
+    programs = scrape()
     if programs:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(programs, f, indent=2, ensure_ascii=False)
-        print(f"Listo: {len(programs)} programas en {OUTPUT_FILE}", file=sys.stderr)
+        print(f"Listo: {len(programs)} en {OUTPUT_FILE}", file=sys.stderr)
     else:
         print("Sin resultados", file=sys.stderr)
 
