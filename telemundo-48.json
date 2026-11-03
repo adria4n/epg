@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Caso cerrado / Padres helicóptero",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/05:30",
+    "end": "2026-11-02/06:00"
+  },
+  {
     "titulo": "Al rojo vivo",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/07:00"
@@ -30,17 +40,17 @@
     "end": "2026-11-02/13:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-02/13:00",
     "end": "2026-11-02/14:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-02/14:00",
     "end": "2026-11-02/15:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Ayuda virtual para votar",
     "sta": "2026-11-02/15:00",
     "end": "2026-11-02/16:00"
   },
@@ -70,7 +80,7 @@
     "end": "2026-11-02/19:01"
   },
   {
-    "titulo": "Juego de villanos",
+    "titulo": "Juego de villanos / Curvas peligrosas",
     "sta": "2026-11-02/19:01",
     "end": "2026-11-02/21:00"
   },
@@ -110,17 +120,17 @@
     "end": "2026-11-03/02:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-03/02:00",
     "end": "2026-11-03/03:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
     "sta": "2026-11-03/03:00",
     "end": "2026-11-03/04:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Ayuda virtual para votar",
     "sta": "2026-11-03/04:00",
     "end": "2026-11-03/05:00"
   },
@@ -1183,15 +1193,5 @@
     "titulo": "La mesa caliente",
     "sta": "2026-11-11/04:00",
     "end": "2026-11-11/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / La doula",
-    "sta": "2026-11-11/05:00",
-    "end": "2026-11-11/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-11/05:30",
-    "end": "2026-11-11/06:00"
   }
 ]
