@@ -11,6 +11,23 @@ ID = ""
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-uno-mvs-hub.json"
 
+def build_title(item):
+    title = item.get("title", "")
+    season = item.get("seasonNumber")
+    episode = item.get("episodeNumber")
+    ep_title = item.get("episodeTitle", "")
+    parts = []
+    if season and season > 0:
+        parts.append(f"T{season}")
+    if episode and episode > 0:
+        parts.append(f"E{episode}")
+    extra = " ".join(parts)
+    if ep_title:
+        extra = f"{extra} {ep_title}".strip() if extra else ep_title
+    if extra:
+        return f"{title} / {extra}"
+    return title
+
 def fetch_epg(context, host, uuid, cid, lineup, now):
     all_items = []
     for day_offset in range(-1, 6):
@@ -83,7 +100,7 @@ def scrape():
         seen = set()
         programs = []
         for item in all_items:
-            title = item.get("title", "")
+            title = build_title(item)
             start = item.get("startDateTime")
             end = item.get("endDateTime")
             if not title or not start:
