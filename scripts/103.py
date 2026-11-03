@@ -2,7 +2,7 @@
 
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
@@ -13,7 +13,8 @@ OUTPUT_FILE = "mvshub-epg.json"
 def scrape():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        context = browser.new_context()
+        page = context.new_page()
         print("Cargando...", file=sys.stderr)
         page.goto("https://mvshub.com.mx/#spa/epg", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(5000)
@@ -42,35 +43,43 @@ def scrape():
             browser.close()
             return []
         print(f"UUID: {uuid} | CID: {cid}", file=sys.stderr)
-        now_ms = int(datetime.now(TZ).timestamp() * 1000)
-        from_ms = now_ms - 8 * 3600 * 1000
-        data = page.evaluate("""
-            async ([uuid, cid, fromMs]) => {
-                const url = `https://edge.prod.ovp.ses.com:9443/xtv-ws-client/api/epgcache/list/\( {uuid}/ \){cid}/220?page=0&size=200&dateFrom=${fromMs}`;
-                const r = await fetch(url);
-                const j = await r.json();
-                const items = j.contents?.content || [];
-                return items.map(i => ({
-                    titulo: i.title || "",
-                    start: i.startDateTime,
-                    end: i.endDateTime
-                }));
-            }
-        """, [uuid, cid, from_ms])
+        all_items = []
+        now = datetime.now(TZ)
+        for day_offset in range(-1, 6):
+            day = now + timedelta(days=day_offset)
+            from_ms = int(day.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
+            url = f"https://edge.prod.ovp.ses.com:9443/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/220?page=0&size=100&dateFrom={from_ms}"
+            try:
+                resp = context.request.get(url)
+                if resp.status == 200:
+                    j = resp.json()
+                    items = j.get("contents", {}).get("content", [])
+                    all_items.extend(items)
+                    print(f"  {day.date()}: {len(items)} programas", file=sys.stderr)
+            except Exception as e:
+                print(f"  Error {day.date()}: {e}", file=sys.stderr)
         browser.close()
+        seen = set()
         programs = []
-        for item in data:
-            if not item.get("titulo"):
+        for item in all_items:
+            title = item.get("title", "")
+            start = item.get("startDateTime")
+            end = item.get("endDateTime")
+            if not title or not start:
                 continue
-            sta = datetime.fromtimestamp(item["start"] / 1000, TZ)
-            end = datetime.fromtimestamp(item["end"] / 1000, TZ)
+            key = str(start)
+            if key in seen:
+                continue
+            seen.add(key)
+            sta = datetime.fromtimestamp(start / 1000, TZ)
+            end_dt = datetime.fromtimestamp(end / 1000, TZ)
             programs.append({
-                "titulo": item["titulo"],
+                "titulo": title,
                 "sta": sta.strftime("%Y-%m-%d/%H:%M"),
-                "end": end.strftime("%Y-%m-%d/%H:%M"),
+                "end": end_dt.strftime("%Y-%m-%d/%H:%M"),
             })
         programs.sort(key=lambda x: x["sta"])
-        print(f"Canal {CHANNEL}: {len(programs)} programas", file=sys.stderr)
+        print(f"Total: {len(programs)} programas", file=sys.stderr)
         return programs
 
 def main():
