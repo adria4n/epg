@@ -17,7 +17,6 @@ def scrape():
         print("Cargando...", file=sys.stderr)
         page.goto("https://mvshub.com.mx/#spa/epg", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(5000)
-
         info = page.evaluate("""
             () => {
                 let uuid = null;
@@ -36,18 +35,15 @@ def scrape():
                 return {uuid, mapping};
             }
         """)
-
         uuid = info.get("uuid")
         cid = info.get("mapping", {}).get(CHANNEL)
         if not uuid or not cid:
             print(f"No se obtuvo uuid o canal {CHANNEL}", file=sys.stderr)
             browser.close()
             return []
-
         print(f"UUID: {uuid} | CID: {cid}", file=sys.stderr)
         now_ms = int(datetime.now(TZ).timestamp() * 1000)
         from_ms = now_ms - 8 * 3600 * 1000
-
         data = page.evaluate("""
             async ([uuid, cid, fromMs]) => {
                 const url = `https://edge.prod.ovp.ses.com:9443/xtv-ws-client/api/epgcache/list/\( {uuid}/ \){cid}/220?page=0&size=200&dateFrom=${fromMs}`;
@@ -61,9 +57,7 @@ def scrape():
                 }));
             }
         """, [uuid, cid, from_ms])
-
         browser.close()
-
         programs = []
         for item in data:
             if not item.get("titulo"):
