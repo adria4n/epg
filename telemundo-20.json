@@ -1,5 +1,65 @@
 [
   {
+    "titulo": "Coco",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-02/01:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 11pm",
+    "sta": "2026-11-02/01:00",
+    "end": "2026-11-02/01:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-02/01:30",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/02:30"
+  },
+  {
+    "titulo": "Behind Enemy Lines",
+    "sta": "2026-11-02/02:30",
+    "end": "2026-11-02/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/04:30",
+    "end": "2026-11-02/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/05:30",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/06:00",
+    "end": "2026-11-02/06:30"
+  },
+  {
+    "titulo": "Noticias Telemundo fin de semana",
+    "sta": "2026-11-02/06:30",
+    "end": "2026-11-02/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/07:00",
+    "end": "2026-11-02/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/07:30",
+    "end": "2026-11-02/08:00"
+  },
+  {
     "titulo": "Acceso total",
     "sta": "2026-11-02/08:00",
     "end": "2026-11-02/08:30"
@@ -1233,75 +1293,5 @@
     "titulo": "El señor de los cielos",
     "sta": "2026-11-10/23:00",
     "end": "2026-11-11/00:00"
-  },
-  {
-    "titulo": "Lejos de ti",
-    "sta": "2026-11-11/00:00",
-    "end": "2026-11-11/01:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 20 a las 11pm",
-    "sta": "2026-11-11/01:00",
-    "end": "2026-11-11/01:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-11/01:35",
-    "end": "2026-11-11/02:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-11/02:00",
-    "end": "2026-11-11/02:30"
-  },
-  {
-    "titulo": "Lejos de ti",
-    "sta": "2026-11-11/02:30",
-    "end": "2026-11-11/03:30"
-  },
-  {
-    "titulo": "Caso cerrado / El proyecto",
-    "sta": "2026-11-11/03:30",
-    "end": "2026-11-11/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/04:00",
-    "end": "2026-11-11/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/04:30",
-    "end": "2026-11-11/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/05:00",
-    "end": "2026-11-11/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/05:30",
-    "end": "2026-11-11/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/06:00",
-    "end": "2026-11-11/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/06:30",
-    "end": "2026-11-11/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/07:00",
-    "end": "2026-11-11/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/07:30",
-    "end": "2026-11-11/08:00"
   }
 ]
