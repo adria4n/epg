@@ -1,5 +1,45 @@
 [
   {
+    "titulo": "Caso cerrado / El rostro maldito; Modelo de Instagram",
+    "sta": "2026-11-01/23:00",
+    "end": "2026-11-02/00:00"
+  },
+  {
+    "titulo": "Caso cerrado / A pagar child support; Taxi",
+    "sta": "2026-11-02/00:00",
+    "end": "2026-11-02/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/01:00",
+    "end": "2026-11-02/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/01:30",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de hombres",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de salsa",
+    "sta": "2026-11-02/03:00",
+    "end": "2026-11-02/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / Talento desperdiciado",
+    "sta": "2026-11-02/04:00",
+    "end": "2026-11-02/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/04:30",
+    "end": "2026-11-02/05:00"
+  },
+  {
     "titulo": "Programa pagado",
     "sta": "2026-11-02/05:00",
     "end": "2026-11-02/05:30"
@@ -70,12 +110,12 @@
     "end": "2026-11-02/17:00"
   },
   {
-    "titulo": "Acércate a Rocío",
+    "titulo": "Acércate a Rocío / Por desquite se metió con el tío",
     "sta": "2026-11-02/17:00",
     "end": "2026-11-02/18:00"
   },
   {
-    "titulo": "Acércate a Rocío",
+    "titulo": "Acércate a Rocío / Somos la mina de oro de mi familia",
     "sta": "2026-11-02/18:00",
     "end": "2026-11-02/19:00"
   },
@@ -90,7 +130,7 @@
     "end": "2026-11-02/21:00"
   },
   {
-    "titulo": "Acércate a Rocío",
+    "titulo": "Acércate a Rocío / Quiero que se comporte como mujer",
     "sta": "2026-11-02/21:00",
     "end": "2026-11-02/22:00"
   },
@@ -220,12 +260,12 @@
     "end": "2026-11-03/17:00"
   },
   {
-    "titulo": "Acércate a Rocío",
+    "titulo": "Acércate a Rocío / Quiero que se comporte como mujer",
     "sta": "2026-11-03/17:00",
     "end": "2026-11-03/18:00"
   },
   {
-    "titulo": "Acércate a Rocío",
+    "titulo": "Acércate a Rocío / Mantiene a mi hijo con su cuerpo",
     "sta": "2026-11-03/18:00",
     "end": "2026-11-03/19:00"
   },
@@ -240,7 +280,7 @@
     "end": "2026-11-03/21:00"
   },
   {
-    "titulo": "Acércate a Rocío",
+    "titulo": "Acércate a Rocío / Da la vida por un hombre",
     "sta": "2026-11-03/21:00",
     "end": "2026-11-03/22:00"
   },
@@ -370,12 +410,12 @@
     "end": "2026-11-04/17:00"
   },
   {
-    "titulo": "Acércate a Rocío / Da la vida por un hombre",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-04/17:00",
     "end": "2026-11-04/18:00"
   },
   {
-    "titulo": "Acércate a Rocío / Me voy a divorciar de mi familia",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-04/18:00",
     "end": "2026-11-04/19:00"
   },
@@ -390,7 +430,7 @@
     "end": "2026-11-04/21:00"
   },
   {
-    "titulo": "Acércate a Rocío / Me embaracé de mi ex",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-04/21:00",
     "end": "2026-11-04/22:00"
   },
@@ -1298,50 +1338,5 @@
     "titulo": "El final del paraíso",
     "sta": "2026-11-10/22:00",
     "end": "2026-11-10/23:00"
-  },
-  {
-    "titulo": "Caso cerrado / Traición de hermana; Se me quemó la Navidad",
-    "sta": "2026-11-10/23:00",
-    "end": "2026-11-11/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/00:00",
-    "end": "2026-11-11/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/00:30",
-    "end": "2026-11-11/01:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/01:00",
-    "end": "2026-11-11/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/01:30",
-    "end": "2026-11-11/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de juguetes caros",
-    "sta": "2026-11-11/02:00",
-    "end": "2026-11-11/03:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de lencería",
-    "sta": "2026-11-11/03:00",
-    "end": "2026-11-11/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / Operación tumba",
-    "sta": "2026-11-11/04:00",
-    "end": "2026-11-11/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-11/04:30",
-    "end": "2026-11-11/05:00"
   }
 ]
