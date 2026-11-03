@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CHANNEL = "103"
+CHANNEL = "101"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "mvshub-epg.json"
 
