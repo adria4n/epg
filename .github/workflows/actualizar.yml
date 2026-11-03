@@ -37,9 +37,10 @@ jobs:
           for script in scripts/*.py; do
             if [ -f "$script" ]; then
               echo "▶ Ejecutando $script"
-              python "$script"
+              python "$script" &
             fi
           done
+          wait
 
       - name: Check for changes
         id: changes
