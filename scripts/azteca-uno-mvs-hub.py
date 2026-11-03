@@ -9,7 +9,7 @@ from playwright.sync_api import sync_playwright
 CHANNEL = "103"
 ID = ""
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "mvshub-epg.json"
+OUTPUT_FILE = "imagen-tv.json"
 
 def fetch_epg(context, uuid, cid, now):
     all_items = []
