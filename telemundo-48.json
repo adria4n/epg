@@ -1,5 +1,25 @@
 [
   {
+    "titulo": "Caso cerrado / Padres helicóptero",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-02/05:30",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-02/06:00",
+    "end": "2026-11-02/07:00"
+  },
+  {
+    "titulo": "Noticias Telemundo AHORA",
+    "sta": "2026-11-02/07:00",
+    "end": "2026-11-02/08:00"
+  },
+  {
     "titulo": "Hoy día",
     "sta": "2026-11-02/08:00",
     "end": "2026-11-02/11:30"
@@ -1173,25 +1193,5 @@
     "titulo": "La mesa caliente",
     "sta": "2026-11-11/04:00",
     "end": "2026-11-11/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / La doula",
-    "sta": "2026-11-11/05:00",
-    "end": "2026-11-11/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-11/05:30",
-    "end": "2026-11-11/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-11/06:00",
-    "end": "2026-11-11/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-11/07:00",
-    "end": "2026-11-11/08:00"
   }
 ]
