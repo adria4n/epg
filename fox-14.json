@@ -1,5 +1,55 @@
 [
   {
+    "titulo": "The Big Bang Theory / The Paintball Scattering",
+    "sta": "2026-11-02/00:00",
+    "end": "2026-11-02/00:30"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-02/00:30",
+    "end": "2026-11-02/01:30"
+  },
+  {
+    "titulo": "In Depth With Graham Bensinger / Dan Hurley",
+    "sta": "2026-11-02/01:30",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "Greatest Sports Legends: Then and Now",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/02:30"
+  },
+  {
+    "titulo": "She's in the Game",
+    "sta": "2026-11-02/02:30",
+    "end": "2026-11-02/03:00"
+  },
+  {
+    "titulo": "Spanish Fly: The Next Generation",
+    "sta": "2026-11-02/03:00",
+    "end": "2026-11-02/03:30"
+  },
+  {
+    "titulo": "Sport Fishing TV: State of the Ocean",
+    "sta": "2026-11-02/03:30",
+    "end": "2026-11-02/04:00"
+  },
+  {
+    "titulo": "In Season With Gregg Ritz",
+    "sta": "2026-11-02/04:00",
+    "end": "2026-11-02/04:30"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Dealing With Debt; Scam Alert",
+    "sta": "2026-11-02/04:30",
+    "end": "2026-11-02/05:00"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/06:00"
+  },
+  {
     "titulo": "KFOX14 Morning News",
     "sta": "2026-11-02/06:00",
     "end": "2026-11-02/07:00"
@@ -1175,7 +1225,7 @@
     "end": "2026-11-09/16:30"
   },
   {
-    "titulo": "Flip Side",
+    "titulo": "Flip Side / Got the Green Light",
     "sta": "2026-11-09/16:30",
     "end": "2026-11-09/17:00"
   },
@@ -1398,60 +1448,5 @@
     "titulo": "Extra",
     "sta": "2026-11-10/23:35",
     "end": "2026-11-11/00:05"
-  },
-  {
-    "titulo": "iCRIME With Elizabeth Vargas / Man Arrested after Violent Outburst in Richmond McDonald's; Woman and 2-Year-Old Child Escape",
-    "sta": "2026-11-11/00:05",
-    "end": "2026-11-11/00:35"
-  },
-  {
-    "titulo": "Live PD Presents",
-    "sta": "2026-11-11/00:35",
-    "end": "2026-11-11/01:05"
-  },
-  {
-    "titulo": "Crime Exposé With Nancy O'Dell",
-    "sta": "2026-11-11/01:05",
-    "end": "2026-11-11/01:35"
-  },
-  {
-    "titulo": "The Simpsons / Sashes to Sashes",
-    "sta": "2026-11-11/01:35",
-    "end": "2026-11-11/02:05"
-  },
-  {
-    "titulo": "The Simpsons / Gorgeous Grampa",
-    "sta": "2026-11-11/02:05",
-    "end": "2026-11-11/02:33"
-  },
-  {
-    "titulo": "Extra",
-    "sta": "2026-11-11/02:33",
-    "end": "2026-11-11/03:03"
-  },
-  {
-    "titulo": "Two and a Half Men / Squab, Squab, Squab, Squab, Squab",
-    "sta": "2026-11-11/03:03",
-    "end": "2026-11-11/03:32"
-  },
-  {
-    "titulo": "Hot Bench / The Jewelry Joust!",
-    "sta": "2026-11-11/03:32",
-    "end": "2026-11-11/04:02"
-  },
-  {
-    "titulo": "Cutlers Court / Mike vs. Jordan",
-    "sta": "2026-11-11/04:02",
-    "end": "2026-11-11/04:31"
-  },
-  {
-    "titulo": "Business First With Angela Miles / Marriage & Money Tips for Military Couples; On the Job Tips for Our Veterans",
-    "sta": "2026-11-11/04:31",
-    "end": "2026-11-11/05:00"
-  },
-  {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-11/05:00",
-    "end": "2026-11-11/06:00"
   }
 ]
