@@ -30,7 +30,8 @@ def build_title(item):
 
 def fetch_epg(context, host, uuid, cid, lineup, now):
     all_items = []
-    for day_offset in range(-1, 6):
+    day_offset = -1
+    while True:
         day = now + timedelta(days=day_offset)
         from_ms = int(day.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
         url = f"{host}/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/{lineup}?page=0&size=100&dateFrom={from_ms}"
@@ -39,10 +40,16 @@ def fetch_epg(context, host, uuid, cid, lineup, now):
             if resp.status == 200:
                 j = resp.json()
                 items = j.get("contents", {}).get("content", [])
+                if not items:
+                    break
                 all_items.extend(items)
                 print(f"  {day.date()}: {len(items)} programas", file=sys.stderr)
+            else:
+                break
         except Exception as e:
             print(f"  Error {day.date()}: {e}", file=sys.stderr)
+            break
+        day_offset += 1
     return all_items
 
 def scrape():
