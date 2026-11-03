@@ -6,10 +6,10 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CHANNEL = "101"
+CHANNEL = "253"
 ID = ""
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno.json"
+OUTPUT_FILE = "azteca-un253o.json"
 
 def build_title(item):
     title = item.get("title", "")
