@@ -30,32 +30,24 @@ def get_page_timezone(html: str) -> ZoneInfo:
         return ZoneInfo("America/New_York")
 
 def parse_items(html: str, page_tz: ZoneInfo) -> list[dict]:
-    blocks = re.findall(
-        r'<div[^>]*class="[^"]*list-group-item[^"]*"[^>]*>.*?</div>',
-        html,
-        re.DOTALL,
-    )
+    blocks = re.findall(r'<div[^>]*class="[^"]*list-group-item[^"]*"[^>]*>.*?</div>', html, re.DOTALL)
     programs = []
     for block in blocks:
         def attr(name: str) -> str:
             m = re.search(rf'data-{name}="([^"]*)"', block, re.I)
             return m.group(1).strip() if m else ""
-
         show = attr("showName")
         episode = attr("episodeTitle")
         start_raw = attr("st")
         duration = attr("duration")
-
         if not start_raw or not show:
             continue
-
         if show.lower() == "movie" and episode:
             title = episode
         elif episode:
             title = f"{show} / {episode}"
         else:
             title = show
-
         try:
             start_naive = datetime.strptime(start_raw, "%Y-%m-%d %H:%M:%S")
             start_page = start_naive.replace(tzinfo=page_tz)
@@ -64,13 +56,7 @@ def parse_items(html: str, page_tz: ZoneInfo) -> list[dict]:
             end = start + timedelta(minutes=mins)
         except Exception:
             continue
-
-        programs.append({
-            "titulo": title,
-            "sta": start.strftime("%Y-%m-%d/%H:%M"),
-            "end": end.strftime("%Y-%m-%d/%H:%M"),
-        })
-
+        programs.append({"titulo": title, "sta": start.strftime("%Y-%m-%d/%H:%M"), "end": end.strftime("%Y-%m-%d/%H:%M")})
     return programs
 
 def main():
@@ -85,6 +71,7 @@ def main():
             page_tz = get_page_timezone(html)
             progs = parse_items(html, page_tz)
             if not progs:
+                print(f"  {date_str}: sin programas, terminando", file=sys.stderr)
                 break
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
@@ -92,19 +79,11 @@ def main():
             print(f"  Error en {date_str}: {e}", file=sys.stderr)
             break
         i += 1
-
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
-    unique = []
-    for p in all_programs:
-        key = p["sta"]
-        if key not in seen:
-            seen.add(key)
-            unique.append(p)
-
+    unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
-
     print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
 
 if __name__ == "__main__":
