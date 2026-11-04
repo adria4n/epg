@@ -8,7 +8,7 @@ from playwright.sync_api import sync_playwright
 
 ID = "2381"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno-mvs-hub.json"
+OUTPUT_FILE = "azteca-uno-star-tv.json"
 
 def build_title(item):
     title = item.get("title", "")
@@ -54,11 +54,20 @@ def fetch_epg(context, host, uuid, cid, lineup, now):
 def scrape():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context()
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            locale="es-MX"
+        )
         page = context.new_page()
         print("Cargando...", file=sys.stderr)
-        page.goto("https://mvshub.com.mx/#spa/epg", wait_until="networkidle", timeout=60000)
+        page.goto("https://edgelb.stargroup.com.mx/web/startv/#spa/login", wait_until="networkidle", timeout=60000)
+        page.wait_for_timeout(3000)
+        page.get_by_text("EXPLORAR CANALES").click()
         page.wait_for_timeout(5000)
+        page.close()
+        page = context.new_page()
+        page.goto("https://edgelb.stargroup.com.mx/web/startv/#spa/epg", wait_until="networkidle", timeout=60000)
+        page.wait_for_timeout(6000)
         info = page.evaluate("""
             () => {
                 let host = null;
