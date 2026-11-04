@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CHANNEL = "101"
-ID = ""
+CHANNEL = ""
+ID = "2381"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-uno-star-tv.json"
 
