@@ -6,8 +6,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CHANNEL = "101"
-ID = ""
+ID = "969"
 TZ = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "azteca-uno-mvs-hub.json"
 
@@ -70,14 +69,7 @@ def scrape():
                     const m = e.name.match(/(https?:\\/\\/[^/]+)\\/xtv-ws-client\\/api\\/epgcache\\/list\\/([a-f0-9-]{36})\\/\\d+\\/(\\d+)/);
                     if (m) { host = m[1]; uuid = m[2]; lineup = m[3]; break; }
                 }
-                const mapping = {};
-                document.querySelectorAll(".epg-channel").forEach(ch => {
-                    const num = ch.querySelector(".number")?.innerText?.trim();
-                    const img = ch.querySelector("img")?.src || "";
-                    const idm = img.match(/\\/images\\/(\\d+)\\/CH_LOGO\\//);
-                    if (num && idm) mapping[num] = idm[1];
-                });
-                return {host, uuid, lineup, mapping};
+                return {host, uuid, lineup};
             }
         """)
         host = info.get("host")
@@ -89,17 +81,9 @@ def scrape():
             return []
         print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
         now = datetime.now(TZ)
-        all_items = []
-        cid = None
-        if ID.strip():
-            cid = ID.strip()
-            print(f"Intentando con ID: {cid}", file=sys.stderr)
-            all_items = fetch_epg(context, host, uuid, cid, lineup, now)
-        if not all_items and CHANNEL.strip():
-            cid = info.get("mapping", {}).get(CHANNEL)
-            if cid:
-                print(f"ID falló o vacío, intentando con CHANNEL {CHANNEL} → {cid}", file=sys.stderr)
-                all_items = fetch_epg(context, host, uuid, cid, lineup, now)
+        cid = ID.strip()
+        print(f"Usando ID: {cid}", file=sys.stderr)
+        all_items = fetch_epg(context, host, uuid, cid, lineup, now)
         browser.close()
         if not all_items:
             print("Sin datos", file=sys.stderr)
