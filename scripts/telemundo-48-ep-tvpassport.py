@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
-SITE_ID = "telemundo-ktmdtv-el-paso-tx/13106"
+SITE_ID = "telemundo-ktdo-el-paso-tx/3113"
 BASE_URL = f"https://www.tvpassport.com/tv-listings/stations/{SITE_ID}"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "telemundo-48.json"
