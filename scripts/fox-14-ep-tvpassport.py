@@ -71,6 +71,7 @@ def main():
             page_tz = get_page_timezone(html)
             progs = parse_items(html, page_tz)
             if not progs:
+                print(f"  {date_str}: sin programas, terminando", file=sys.stderr)
                 break
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
