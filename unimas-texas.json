@@ -1,55 +1,5 @@
 [
   {
-    "titulo": "Fugitivas",
-    "sta": "2026-11-02/22:00",
-    "end": "2026-11-03/00:00"
-  },
-  {
-    "titulo": "El Chapulín Colorado / Al que de plano le tomaron el pelo fue a Sansón",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/00:30"
-  },
-  {
-    "titulo": "El Chapulín Colorado / Aunque la jaula sea de oro, no deja ser muy molesto eso de estar encerrado",
-    "sta": "2026-11-03/00:30",
-    "end": "2026-11-03/01:00"
-  },
-  {
-    "titulo": "La herencia / Los celos de Pedro alejan a la familia",
-    "sta": "2026-11-03/01:00",
-    "end": "2026-11-03/02:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/02:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/02:30",
-    "end": "2026-11-03/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/03:30",
-    "end": "2026-11-03/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/04:30",
-    "end": "2026-11-03/05:00"
-  },
-  {
     "titulo": "Esta historia me suena / Nada",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/06:00"
@@ -1268,5 +1218,50 @@
     "titulo": "Fugitivas",
     "sta": "2026-11-11/22:00",
     "end": "2026-11-12/00:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Los antiguos piratas del Caribe solo de vez en cuando",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/00:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Los antiguos Piratas del Caribe solo de vez en cuando desviaban a Cuba",
+    "sta": "2026-11-12/00:30",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "La herencia / Un nuevo bebé",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/02:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/02:30",
+    "end": "2026-11-12/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/03:00",
+    "end": "2026-11-12/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/03:30",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
   }
 ]

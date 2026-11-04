@@ -1,55 +1,5 @@
 [
   {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-02/23:00",
-    "end": "2026-11-03/00:00"
-  },
-  {
-    "titulo": "Noticiero: Cierre de edición",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/00:30"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-03/00:30",
-    "end": "2026-11-03/01:00"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-03/01:00",
-    "end": "2026-11-03/01:30"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-03/01:30",
-    "end": "2026-11-03/02:00"
-  },
-  {
-    "titulo": "Tengo talento, mucho talento Kids",
-    "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/03:00"
-  },
-  {
-    "titulo": "Noticiero: Cierre de edición",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/03:30"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-03/03:30",
-    "end": "2026-11-03/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/04:30",
-    "end": "2026-11-03/05:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/05:30"
@@ -550,23 +500,23 @@
     "end": "2026-11-06/19:30"
   },
   {
-    "titulo": "Pre-Game Liga Mx",
+    "titulo": "Noticiero Estrella TV",
     "sta": "2026-11-06/19:30",
     "end": "2026-11-06/20:00"
   },
   {
-    "titulo": "Fútbol Mexicano Femenino Primera División / FC Juárez vs. Monterrey",
+    "titulo": "24 horas",
     "sta": "2026-11-06/20:00",
-    "end": "2026-11-06/22:00"
+    "end": "2026-11-06/20:30"
   },
   {
-    "titulo": "Post-Game Liga MX",
-    "sta": "2026-11-06/22:00",
-    "end": "2026-11-06/22:30"
+    "titulo": "Pre-Game Liga Mx",
+    "sta": "2026-11-06/20:30",
+    "end": "2026-11-06/21:00"
   },
   {
-    "titulo": "Noticiero Estrella TV",
-    "sta": "2026-11-06/22:30",
+    "titulo": "Fútbol Mexicano Femenino Primera División / FC Juárez vs. Monterrey",
+    "sta": "2026-11-06/21:00",
     "end": "2026-11-06/23:00"
   },
   {
@@ -1343,5 +1293,55 @@
     "titulo": "Tengo talento, mucho talento",
     "sta": "2026-11-11/22:00",
     "end": "2026-11-11/23:00"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-11/23:00",
+    "end": "2026-11-12/00:00"
+  },
+  {
+    "titulo": "Noticiero: Cierre de edición",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/00:30"
+  },
+  {
+    "titulo": "24 horas",
+    "sta": "2026-11-12/00:30",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/01:30"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-12/01:30",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "Tengo talento, mucho talento",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/03:00"
+  },
+  {
+    "titulo": "Noticiero: Cierre de edición",
+    "sta": "2026-11-12/03:00",
+    "end": "2026-11-12/03:30"
+  },
+  {
+    "titulo": "24 horas",
+    "sta": "2026-11-12/03:30",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
   }
 ]
