@@ -1082,26 +1082,26 @@
   {
     "titulo": "Los espartanos con José Pablo Coello",
     "sta": "2026-11-13/17:00",
-    "end": "2026-11-13/18:00"
+    "end": "2026-11-13/17:55"
   },
   {
-    "titulo": "Netbusters",
-    "sta": "2026-11-13/18:00",
-    "end": "2026-11-13/18:30"
+    "titulo": "Baloncesto Universitario / Northern Iowa vs. Michigan State",
+    "sta": "2026-11-13/17:55",
+    "end": "2026-11-13/20:00"
   },
   {
-    "titulo": "NFL GameDay",
-    "sta": "2026-11-13/18:30",
-    "end": "2026-11-13/19:00"
+    "titulo": "Cleatus Fantasy Football Show",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/21:00"
   },
   {
-    "titulo": "Fútbol Americano Universitario / Illinois vs. UCLA",
-    "sta": "2026-11-13/19:00",
-    "end": "2026-11-13/22:30"
+    "titulo": "Lucha Libre AAA / E471",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/22:00"
   },
   {
     "titulo": "FOX 365",
-    "sta": "2026-11-13/22:30",
+    "sta": "2026-11-13/22:00",
     "end": "2026-11-13/23:00"
   },
   {
@@ -1258,5 +1258,105 @@
     "titulo": "Fútbol Americano NFL / Los Angeles Rams vs. Arizona Cardinals",
     "sta": "2026-11-15/15:00",
     "end": "2026-11-15/18:00"
+  },
+  {
+    "titulo": "FOX NFL Sunday",
+    "sta": "2026-11-15/18:00",
+    "end": "2026-11-15/19:00"
+  },
+  {
+    "titulo": "UEFA Champions League Magazine",
+    "sta": "2026-11-15/19:00",
+    "end": "2026-11-15/19:30"
+  },
+  {
+    "titulo": "Netbusters",
+    "sta": "2026-11-15/19:30",
+    "end": "2026-11-15/20:00"
+  },
+  {
+    "titulo": "El Chiringuito",
+    "sta": "2026-11-15/20:00",
+    "end": "2026-11-15/22:00"
+  },
+  {
+    "titulo": "FOX 365",
+    "sta": "2026-11-15/22:00",
+    "end": "2026-11-15/23:00"
+  },
+  {
+    "titulo": "Cuadro titular",
+    "sta": "2026-11-15/23:00",
+    "end": "2026-11-16/00:00"
+  },
+  {
+    "titulo": "FOX 365",
+    "sta": "2026-11-16/00:00",
+    "end": "2026-11-16/01:00"
+  },
+  {
+    "titulo": "Cuadro titular",
+    "sta": "2026-11-16/01:00",
+    "end": "2026-11-16/02:00"
+  },
+  {
+    "titulo": "FOX 365",
+    "sta": "2026-11-16/02:00",
+    "end": "2026-11-16/03:00"
+  },
+  {
+    "titulo": "El Chiringuito",
+    "sta": "2026-11-16/03:00",
+    "end": "2026-11-16/05:00"
+  },
+  {
+    "titulo": "Cuadro titular",
+    "sta": "2026-11-16/05:00",
+    "end": "2026-11-16/06:00"
+  },
+  {
+    "titulo": "FOX 365",
+    "sta": "2026-11-16/06:00",
+    "end": "2026-11-16/07:00"
+  },
+  {
+    "titulo": "Cuadro titular",
+    "sta": "2026-11-16/07:00",
+    "end": "2026-11-16/08:00"
+  },
+  {
+    "titulo": "FOX 365",
+    "sta": "2026-11-16/08:00",
+    "end": "2026-11-16/09:00"
+  },
+  {
+    "titulo": "El Chiringuito",
+    "sta": "2026-11-16/09:00",
+    "end": "2026-11-16/11:00"
+  },
+  {
+    "titulo": "Fútbol Americano NFL / Minnesota Vikings vs. Green Bay Packers",
+    "sta": "2026-11-16/11:00",
+    "end": "2026-11-16/14:00"
+  },
+  {
+    "titulo": "FOX NFL Weekly / T1 E10",
+    "sta": "2026-11-16/14:00",
+    "end": "2026-11-16/15:00"
+  },
+  {
+    "titulo": "Mother Soccer",
+    "sta": "2026-11-16/15:00",
+    "end": "2026-11-16/16:00"
+  },
+  {
+    "titulo": "Referentes",
+    "sta": "2026-11-16/16:00",
+    "end": "2026-11-16/17:00"
+  },
+  {
+    "titulo": "Los espartanos con José Pablo Coello",
+    "sta": "2026-11-16/17:00",
+    "end": "2026-11-16/18:00"
   }
 ]
