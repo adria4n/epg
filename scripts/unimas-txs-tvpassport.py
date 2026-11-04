@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
-SITE_ID = "unimas-kxtx-dt2-dallas-tx/13544"
+SITE_ID = "unimas-kfth-houston-tx/2556"
 BASE_URL = f"https://www.tvpassport.com/tv-listings/stations/{SITE_ID}"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
 OUTPUT_FILE = "unimas-texas.json"
