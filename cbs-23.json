@@ -1,40 +1,5 @@
 [
   {
-    "titulo": "Comics Unleashed With Byron Allen / Raye Schiller; Andrew Sleighter; Kareem Matthews; Charles Engle",
-    "sta": "2026-11-02/22:35",
-    "end": "2026-11-02/23:05"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Katherine Blanford; Ryan Niemiller; Rickey Smiley; Jonny Loquasto",
-    "sta": "2026-11-02/23:05",
-    "end": "2026-11-02/23:37"
-  },
-  {
-    "titulo": "Funny You Should Ask / Jamie Kennedy; Loni Love; Adam Carolla; Byron Allen; Michelle Collins; Gary Owen",
-    "sta": "2026-11-02/23:37",
-    "end": "2026-11-03/00:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-03/00:07",
-    "end": "2026-11-03/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-03/00:37",
-    "end": "2026-11-03/01:07"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-03/01:07",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-03/04:30",
-    "end": "2026-11-03/05:00"
-  },
-  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/07:00"
@@ -1108,5 +1073,35 @@
     "titulo": "Comics Unleashed With Byron Allen",
     "sta": "2026-11-10/22:35",
     "end": "2026-11-10/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-10/23:05",
+    "end": "2026-11-10/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-10/23:37",
+    "end": "2026-11-11/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-11/00:07",
+    "end": "2026-11-11/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-11/00:37",
+    "end": "2026-11-11/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-11/01:07",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
   }
 ]
