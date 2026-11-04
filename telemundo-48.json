@@ -1,1187 +1,187 @@
 [
   {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/00:30"
-  },
-  {
-    "titulo": "Transporter 2",
-    "sta": "2026-11-02/00:30",
-    "end": "2026-11-02/02:30"
-  },
-  {
-    "titulo": "Como México No Hay Dos",
-    "sta": "2026-11-02/02:30",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Padres helicóptero",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:30",
-    "end": "2026-11-02/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-02/06:00",
-    "end": "2026-11-02/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-02/08:00",
-    "end": "2026-11-02/11:30"
-  },
-  {
-    "titulo": "Acceso total",
-    "sta": "2026-11-02/11:30",
-    "end": "2026-11-02/12:00"
-  },
-  {
-    "titulo": "Santa Diabla",
-    "sta": "2026-11-02/12:00",
-    "end": "2026-11-02/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-02/12:30",
-    "end": "2026-11-02/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
-    "sta": "2026-11-02/13:00",
-    "end": "2026-11-02/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
-    "sta": "2026-11-02/14:00",
-    "end": "2026-11-02/15:00"
-  },
-  {
-    "titulo": "La mesa caliente / Ayuda virtual para votar",
-    "sta": "2026-11-02/15:00",
-    "end": "2026-11-02/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-02/16:00",
-    "end": "2026-11-02/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-02/17:00",
-    "end": "2026-11-02/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-02/17:30",
-    "end": "2026-11-02/18:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48: El Paso",
-    "sta": "2026-11-02/18:00",
-    "end": "2026-11-02/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-02/18:30",
-    "end": "2026-11-02/19:01"
-  },
-  {
-    "titulo": "Juego de villanos / Curvas peligrosas",
-    "sta": "2026-11-02/19:01",
-    "end": "2026-11-02/21:00"
-  },
-  {
-    "titulo": "El señor de los cielos / El negocio evoluciona",
-    "sta": "2026-11-02/21:00",
-    "end": "2026-11-02/22:00"
-  },
-  {
-    "titulo": "Lejos de ti / Frente a frente",
-    "sta": "2026-11-02/22:00",
-    "end": "2026-11-02/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-02/23:00",
-    "end": "2026-11-02/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-02/23:35",
-    "end": "2026-11-03/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/00:30"
-  },
-  {
-    "titulo": "Eres mi luz / Corren las noticias",
-    "sta": "2026-11-03/00:30",
-    "end": "2026-11-03/01:30"
-  },
-  {
-    "titulo": "Caso cerrado / Niña online",
-    "sta": "2026-11-03/01:30",
-    "end": "2026-11-03/02:00"
-  },
-  {
-    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
-    "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/03:00"
-  },
-  {
-    "titulo": "En casa con Telemundo / Guerra entre Yailin y Laury Saavedra",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/04:00"
-  },
-  {
-    "titulo": "La mesa caliente / Ayuda virtual para votar",
-    "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Testosterona femenina",
-    "sta": "2026-11-03/05:00",
-    "end": "2026-11-03/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-03/05:30",
-    "end": "2026-11-03/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-03/06:00",
-    "end": "2026-11-03/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-03/07:00",
-    "end": "2026-11-03/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-03/08:00",
-    "end": "2026-11-03/11:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-03/11:00",
-    "end": "2026-11-03/11:30"
-  },
-  {
-    "titulo": "Acceso total",
-    "sta": "2026-11-03/11:30",
-    "end": "2026-11-03/12:00"
-  },
-  {
-    "titulo": "Caso cerrado / Mujeres pandilleras",
-    "sta": "2026-11-03/12:00",
-    "end": "2026-11-03/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-03/12:30",
-    "end": "2026-11-03/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-03/13:00",
-    "end": "2026-11-03/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-03/14:00",
-    "end": "2026-11-03/15:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-03/15:00",
-    "end": "2026-11-03/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-03/16:00",
-    "end": "2026-11-03/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-03/17:00",
-    "end": "2026-11-03/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-03/17:30",
-    "end": "2026-11-03/18:00"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-03/18:00",
-    "end": "2026-11-03/19:00"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-03/19:00",
-    "end": "2026-11-03/20:00"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-03/20:00",
-    "end": "2026-11-03/20:30"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-03/20:30",
-    "end": "2026-11-03/22:00"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-03/22:00",
-    "end": "2026-11-03/22:30"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-03/22:30",
-    "end": "2026-11-04/00:00"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/01:30"
-  },
-  {
-    "titulo": "Examen a Trump: Decisión 2026",
-    "sta": "2026-11-04/01:30",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/04:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Mellizos vs. madre",
+    "titulo": "BBC News",
     "sta": "2026-11-04/05:00",
     "end": "2026-11-04/05:30"
   },
   {
-    "titulo": "Caso cerrado / ¿Hotel o burdel?; Secuestro por la culata",
+    "titulo": "NHK Newsline",
     "sta": "2026-11-04/05:30",
     "end": "2026-11-04/06:00"
   },
   {
-    "titulo": "Al rojo vivo",
+    "titulo": "Sit and Be Fit / Diabetes and Peripheral Neuropathy",
     "sta": "2026-11-04/06:00",
+    "end": "2026-11-04/06:30"
+  },
+  {
+    "titulo": "Kentucky Health / Non-Medical Psychiatric Treatment: What's New",
+    "sta": "2026-11-04/06:30",
     "end": "2026-11-04/07:00"
   },
   {
-    "titulo": "Noticias Telemundo AHORA",
+    "titulo": "Fons & Porter's Love of Quilting / Lavender Roads",
     "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/07:30"
+  },
+  {
+    "titulo": "America's Heartland",
+    "sta": "2026-11-04/07:30",
     "end": "2026-11-04/08:00"
   },
   {
-    "titulo": "Hoy día",
+    "titulo": "Ask This Old House / Smart Thermostat Wires; Bluestone Cleaning",
     "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/08:30"
+  },
+  {
+    "titulo": "Fork & Hammer / Second Helpings",
+    "sta": "2026-11-04/08:30",
+    "end": "2026-11-04/09:00"
+  },
+  {
+    "titulo": "Rick Steves' Europe / Rome: Baroque Brilliance",
+    "sta": "2026-11-04/09:00",
+    "end": "2026-11-04/09:30"
+  },
+  {
+    "titulo": "Kentucky Life / Cowan Creek Mountain Music School, World Champ Stone Skipper, Harlan Hubbard Experience",
+    "sta": "2026-11-04/09:30",
+    "end": "2026-11-04/10:00"
+  },
+  {
+    "titulo": "Weekends With Yankee / Little-Known New England",
+    "sta": "2026-11-04/10:00",
+    "end": "2026-11-04/10:30"
+  },
+  {
+    "titulo": "Journeys in Japan",
+    "sta": "2026-11-04/10:30",
+    "end": "2026-11-04/11:00"
+  },
+  {
+    "titulo": "Jazzy Vegetarian / It's Tofu-licious!",
+    "sta": "2026-11-04/11:00",
     "end": "2026-11-04/11:30"
   },
   {
-    "titulo": "Acceso total",
+    "titulo": "Modern Pioneering With Georgia Pellegrini / Yaupon",
     "sta": "2026-11-04/11:30",
     "end": "2026-11-04/12:00"
   },
   {
-    "titulo": "Santa Diabla",
+    "titulo": "America's Test Kitchen / Two Pasta Classics",
     "sta": "2026-11-04/12:00",
     "end": "2026-11-04/12:30"
   },
   {
-    "titulo": "Noticias Telemundo mediodía",
+    "titulo": "Cook's Country / Takeout at Home",
     "sta": "2026-11-04/12:30",
     "end": "2026-11-04/13:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "Kentucky Life / Cowan Creek Mountain Music School, World Champ Stone Skipper, Harlan Hubbard Experience",
     "sta": "2026-11-04/13:00",
+    "end": "2026-11-04/13:30"
+  },
+  {
+    "titulo": "Weekends With Yankee / Little-Known New England",
+    "sta": "2026-11-04/13:30",
     "end": "2026-11-04/14:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "Journeys in Japan",
     "sta": "2026-11-04/14:00",
+    "end": "2026-11-04/14:30"
+  },
+  {
+    "titulo": "Rick Steves' Europe / Rome: Baroque Brilliance",
+    "sta": "2026-11-04/14:30",
     "end": "2026-11-04/15:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "Ask This Old House / Smart Thermostat Wires; Bluestone Cleaning",
     "sta": "2026-11-04/15:00",
+    "end": "2026-11-04/15:30"
+  },
+  {
+    "titulo": "Fork & Hammer / Second Helpings",
+    "sta": "2026-11-04/15:30",
     "end": "2026-11-04/16:00"
   },
   {
-    "titulo": "Al rojo vivo",
+    "titulo": "America's Test Kitchen / Two Pasta Classics",
     "sta": "2026-11-04/16:00",
+    "end": "2026-11-04/16:30"
+  },
+  {
+    "titulo": "Cook's Country / Takeout at Home",
+    "sta": "2026-11-04/16:30",
     "end": "2026-11-04/17:00"
   },
   {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
+    "titulo": "Antiques Roadshow / Spokane Hour 1",
     "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-04/17:30",
     "end": "2026-11-04/18:00"
   },
   {
-    "titulo": "Noticias Telemundo 48: El Paso",
+    "titulo": "Pati Jinich Explores PanAmericana / New Mexico & Colorado -- Life Along the Rio",
     "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/18:30"
+    "end": "2026-11-04/19:00"
   },
   {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/19:01"
+    "titulo": "Professor T / Retreat",
+    "sta": "2026-11-04/19:00",
+    "end": "2026-11-04/20:00"
   },
   {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-04/19:01",
+    "titulo": "Maigret on Masterpiece / Maigret's Revolver, Part One",
+    "sta": "2026-11-04/20:00",
     "end": "2026-11-04/21:00"
   },
   {
-    "titulo": "El señor de los cielos / Pacto, ambición y traición",
+    "titulo": "The Gold on Masterpiece",
     "sta": "2026-11-04/21:00",
     "end": "2026-11-04/22:00"
   },
   {
-    "titulo": "Lejos de ti / La última opción",
+    "titulo": "Kentucky Edition",
     "sta": "2026-11-04/22:00",
+    "end": "2026-11-04/22:30"
+  },
+  {
+    "titulo": "Samantha Brown's Places to Love / Budapest, Hungary",
+    "sta": "2026-11-04/22:30",
     "end": "2026-11-04/23:00"
   },
   {
-    "titulo": "Noticiero Telemundo 48",
+    "titulo": "Rick Steves Best of Rome",
     "sta": "2026-11-04/23:00",
-    "end": "2026-11-04/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-04/23:35",
     "end": "2026-11-05/00:00"
   },
   {
-    "titulo": "El pelotazo",
+    "titulo": "Rick Steves Best of London",
     "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
+    "end": "2026-11-05/01:00"
   },
   {
-    "titulo": "Eres mi luz / Una meta cumplida",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "Caso cerrado / El cartel de las ex",
-    "sta": "2026-11-05/01:30",
+    "titulo": "Rick Steves Best of Paris",
+    "sta": "2026-11-05/01:00",
     "end": "2026-11-05/02:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "Rick Steves Best of Rome",
     "sta": "2026-11-05/02:00",
     "end": "2026-11-05/03:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "History Detectives / WPA Mural Studies; George Washington Miniature; Japanese Balloon Bomb",
     "sta": "2026-11-05/03:00",
     "end": "2026-11-05/04:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "WW2 Women on the Frontline / Behind Enemy Lines",
     "sta": "2026-11-05/04:00",
     "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Pánico gay",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-05/05:30",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-05/08:00",
-    "end": "2026-11-05/11:30"
-  },
-  {
-    "titulo": "Acceso total",
-    "sta": "2026-11-05/11:30",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "Santa Diabla",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-05/12:30",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48: El Paso",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-05/18:30",
-    "end": "2026-11-05/19:01"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-05/19:01",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "El señor de los cielos / Alerta entre los Casillas",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "Lejos de ti / Es cosa del pasado",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-05/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-05/23:35",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-06/00:00",
-    "end": "2026-11-06/00:30"
-  },
-  {
-    "titulo": "Eres mi luz / Como la pólvora",
-    "sta": "2026-11-06/00:30",
-    "end": "2026-11-06/01:30"
-  },
-  {
-    "titulo": "Caso cerrado / Amor a la muerte",
-    "sta": "2026-11-06/01:30",
-    "end": "2026-11-06/02:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-06/02:00",
-    "end": "2026-11-06/03:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-06/03:00",
-    "end": "2026-11-06/04:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-06/04:00",
-    "end": "2026-11-06/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Turismo sexual",
-    "sta": "2026-11-06/05:00",
-    "end": "2026-11-06/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-06/05:30",
-    "end": "2026-11-06/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-06/06:00",
-    "end": "2026-11-06/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-06/07:00",
-    "end": "2026-11-06/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-06/08:00",
-    "end": "2026-11-06/11:30"
-  },
-  {
-    "titulo": "Desocupar los albergues",
-    "sta": "2026-11-06/11:30",
-    "end": "2026-11-06/12:00"
-  },
-  {
-    "titulo": "Santa Diabla",
-    "sta": "2026-11-06/12:00",
-    "end": "2026-11-06/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-06/12:30",
-    "end": "2026-11-06/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-06/13:00",
-    "end": "2026-11-06/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-06/14:00",
-    "end": "2026-11-06/15:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-06/15:00",
-    "end": "2026-11-06/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-06/16:00",
-    "end": "2026-11-06/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-06/17:00",
-    "end": "2026-11-06/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-06/17:30",
-    "end": "2026-11-06/18:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48: El Paso",
-    "sta": "2026-11-06/18:00",
-    "end": "2026-11-06/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-06/18:30",
-    "end": "2026-11-06/19:01"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-06/19:01",
-    "end": "2026-11-06/21:00"
-  },
-  {
-    "titulo": "El señor de los cielos",
-    "sta": "2026-11-06/21:00",
-    "end": "2026-11-06/22:00"
-  },
-  {
-    "titulo": "Lejos de ti / El pacto",
-    "sta": "2026-11-06/22:00",
-    "end": "2026-11-06/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-06/23:00",
-    "end": "2026-11-06/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-06/23:35",
-    "end": "2026-11-07/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-07/00:00",
-    "end": "2026-11-07/00:30"
-  },
-  {
-    "titulo": "Eres mi luz / El anillo",
-    "sta": "2026-11-07/00:30",
-    "end": "2026-11-07/01:30"
-  },
-  {
-    "titulo": "Caso cerrado / Novio peligroso",
-    "sta": "2026-11-07/01:30",
-    "end": "2026-11-07/02:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-07/02:00",
-    "end": "2026-11-07/03:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-07/03:00",
-    "end": "2026-11-07/04:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-07/04:00",
-    "end": "2026-11-07/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Gelatina mágica",
-    "sta": "2026-11-07/05:00",
-    "end": "2026-11-07/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-07/05:30",
-    "end": "2026-11-07/06:00"
-  },
-  {
-    "titulo": "Caso cerrado / Una fantasía bestial",
-    "sta": "2026-11-07/06:00",
-    "end": "2026-11-07/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-07/06:30",
-    "end": "2026-11-07/07:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-07/07:00",
-    "end": "2026-11-07/07:30"
-  },
-  {
-    "titulo": "Pequeños en la naturaleza / Héroes de los hábitats más calurosos",
-    "sta": "2026-11-07/07:30",
-    "end": "2026-11-07/08:00"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-07/08:00",
-    "end": "2026-11-07/08:25"
-  },
-  {
-    "titulo": "Fútbol Bundesliga / 1. FSV Mainz 05 vs. Bayern Munich",
-    "sta": "2026-11-07/08:25",
-    "end": "2026-11-07/10:30"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-07/10:30",
-    "end": "2026-11-07/11:25"
-  },
-  {
-    "titulo": "Fútbol Premier League / Nottingham Forest vs. Manchester City",
-    "sta": "2026-11-07/11:25",
-    "end": "2026-11-07/13:30"
-  },
-  {
-    "titulo": "Fútbol Serie A / Roma vs. Sassuolo",
-    "sta": "2026-11-07/13:30",
-    "end": "2026-11-07/16:00"
-  },
-  {
-    "titulo": "Caso cerrado / Fish spa chupitos",
-    "sta": "2026-11-07/16:00",
-    "end": "2026-11-07/16:30"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-07/16:30",
-    "end": "2026-11-07/16:55"
-  },
-  {
-    "titulo": "Fútbol Mexicano Primera División / Tigres UANL vs. Cruz Azul",
-    "sta": "2026-11-07/16:55",
-    "end": "2026-11-07/19:00"
-  },
-  {
-    "titulo": "Dateline / El hallazgo en Black Rock Canyon",
-    "sta": "2026-11-07/19:00",
-    "end": "2026-11-07/20:00"
-  },
-  {
-    "titulo": "Jumanji: Welcome to the Jungle",
-    "sta": "2026-11-07/20:00",
-    "end": "2026-11-07/22:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres",
-    "sta": "2026-11-07/22:00",
-    "end": "2026-11-07/23:00"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-07/23:00",
-    "end": "2026-11-07/23:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-07/23:30",
-    "end": "2026-11-08/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-08/00:00",
-    "end": "2026-11-08/00:30"
-  },
-  {
-    "titulo": "Caso cerrado / El secreto peligroso; Culpa y capricho",
-    "sta": "2026-11-08/00:30",
-    "end": "2026-11-08/01:30"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres",
-    "sta": "2026-11-08/01:30",
-    "end": "2026-11-08/02:30"
-  },
-  {
-    "titulo": "Dios los cría",
-    "sta": "2026-11-08/02:30",
-    "end": "2026-11-08/04:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-08/04:30",
-    "end": "2026-11-08/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Hija enfurecida",
-    "sta": "2026-11-08/05:00",
-    "end": "2026-11-08/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/05:30",
-    "end": "2026-11-08/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-08/06:00",
-    "end": "2026-11-08/06:30"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-08/06:30",
-    "end": "2026-11-08/07:00"
-  },
-  {
-    "titulo": "Exploración planeta Tierra con Dylan Dreyer / Los animales emblemáticos de India",
-    "sta": "2026-11-08/07:00",
-    "end": "2026-11-08/07:30"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-08/07:30",
-    "end": "2026-11-08/07:55"
-  },
-  {
-    "titulo": "Fútbol Premier League / Sunderland vs. Chelsea",
-    "sta": "2026-11-08/07:55",
-    "end": "2026-11-08/10:00"
-  },
-  {
-    "titulo": "Fútbol Premier League / Manchester United vs. Aston Villa",
-    "sta": "2026-11-08/10:00",
-    "end": "2026-11-08/12:30"
-  },
-  {
-    "titulo": "Tercer tiempo",
-    "sta": "2026-11-08/12:30",
-    "end": "2026-11-08/13:00"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-08/13:00",
-    "end": "2026-11-08/13:30"
-  },
-  {
-    "titulo": "Fútbol Serie A / Fiorentina vs. Juventus",
-    "sta": "2026-11-08/13:30",
-    "end": "2026-11-08/16:00"
-  },
-  {
-    "titulo": "Harlem Globetrotters: Ganando con la comunidad / Precisión magistral",
-    "sta": "2026-11-08/16:00",
-    "end": "2026-11-08/16:30"
-  },
-  {
-    "titulo": "Explorando Estados Unidos / Sueños sin límites",
-    "sta": "2026-11-08/16:30",
-    "end": "2026-11-08/17:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres",
-    "sta": "2026-11-08/17:00",
-    "end": "2026-11-08/18:00"
-  },
-  {
-    "titulo": "Caso cerrado / Pillada por los pelos",
-    "sta": "2026-11-08/18:00",
-    "end": "2026-11-08/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-08/18:30",
-    "end": "2026-11-08/19:00"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-08/19:00",
-    "end": "2026-11-08/19:58"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-08/19:58",
-    "end": "2026-11-08/22:00"
-  },
-  {
-    "titulo": "Pica y se extiende",
-    "sta": "2026-11-08/22:00",
-    "end": "2026-11-08/23:00"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-08/23:00",
-    "end": "2026-11-08/23:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-08/23:30",
-    "end": "2026-11-09/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-09/00:00",
-    "end": "2026-11-09/00:30"
-  },
-  {
-    "titulo": "Caso cerrado / El arrepentido",
-    "sta": "2026-11-09/00:30",
-    "end": "2026-11-09/01:30"
-  },
-  {
-    "titulo": "Close Range",
-    "sta": "2026-11-09/01:30",
-    "end": "2026-11-09/03:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Mi papá me quiere fuera de casa",
-    "sta": "2026-11-09/03:00",
-    "end": "2026-11-09/04:00"
-  },
-  {
-    "titulo": "Pica y se extiende",
-    "sta": "2026-11-09/04:00",
-    "end": "2026-11-09/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Un ángel malo; C.I.",
-    "sta": "2026-11-09/05:00",
-    "end": "2026-11-09/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-09/05:30",
-    "end": "2026-11-09/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-09/06:00",
-    "end": "2026-11-09/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-09/07:00",
-    "end": "2026-11-09/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-09/08:00",
-    "end": "2026-11-09/11:30"
-  },
-  {
-    "titulo": "Acceso total",
-    "sta": "2026-11-09/11:30",
-    "end": "2026-11-09/12:00"
-  },
-  {
-    "titulo": "Santa Diabla",
-    "sta": "2026-11-09/12:00",
-    "end": "2026-11-09/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-09/12:30",
-    "end": "2026-11-09/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-09/13:00",
-    "end": "2026-11-09/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-09/14:00",
-    "end": "2026-11-09/15:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-09/15:00",
-    "end": "2026-11-09/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-09/16:00",
-    "end": "2026-11-09/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-09/17:00",
-    "end": "2026-11-09/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-09/17:30",
-    "end": "2026-11-09/18:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48: El Paso",
-    "sta": "2026-11-09/18:00",
-    "end": "2026-11-09/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-09/18:30",
-    "end": "2026-11-09/19:00"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-09/19:00",
-    "end": "2026-11-09/21:00"
-  },
-  {
-    "titulo": "El señor de los cielos",
-    "sta": "2026-11-09/21:00",
-    "end": "2026-11-09/22:00"
-  },
-  {
-    "titulo": "Lejos de ti",
-    "sta": "2026-11-09/22:00",
-    "end": "2026-11-09/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-09/23:00",
-    "end": "2026-11-09/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-09/23:35",
-    "end": "2026-11-10/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-10/00:00",
-    "end": "2026-11-10/00:30"
-  },
-  {
-    "titulo": "Eres mi luz / Un nuevo comienzo",
-    "sta": "2026-11-10/00:30",
-    "end": "2026-11-10/01:30"
-  },
-  {
-    "titulo": "Caso cerrado / Homoparental",
-    "sta": "2026-11-10/01:30",
-    "end": "2026-11-10/02:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-10/02:00",
-    "end": "2026-11-10/03:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-10/03:00",
-    "end": "2026-11-10/04:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-10/04:00",
-    "end": "2026-11-10/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Estafa universitaria",
-    "sta": "2026-11-10/05:00",
-    "end": "2026-11-10/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-10/05:30",
-    "end": "2026-11-10/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-10/06:00",
-    "end": "2026-11-10/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-10/07:00",
-    "end": "2026-11-10/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-10/08:00",
-    "end": "2026-11-10/11:30"
-  },
-  {
-    "titulo": "Acceso total",
-    "sta": "2026-11-10/11:30",
-    "end": "2026-11-10/12:00"
-  },
-  {
-    "titulo": "Santa Diabla",
-    "sta": "2026-11-10/12:00",
-    "end": "2026-11-10/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-10/12:30",
-    "end": "2026-11-10/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-10/13:00",
-    "end": "2026-11-10/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-10/14:00",
-    "end": "2026-11-10/15:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-10/15:00",
-    "end": "2026-11-10/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-10/16:00",
-    "end": "2026-11-10/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-10/17:00",
-    "end": "2026-11-10/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-10/17:30",
-    "end": "2026-11-10/18:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48: El Paso",
-    "sta": "2026-11-10/18:00",
-    "end": "2026-11-10/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-10/18:30",
-    "end": "2026-11-10/19:00"
-  },
-  {
-    "titulo": "Juego de villanos",
-    "sta": "2026-11-10/19:00",
-    "end": "2026-11-10/21:00"
-  },
-  {
-    "titulo": "El señor de los cielos",
-    "sta": "2026-11-10/21:00",
-    "end": "2026-11-10/22:00"
-  },
-  {
-    "titulo": "Lejos de ti",
-    "sta": "2026-11-10/22:00",
-    "end": "2026-11-10/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-10/23:00",
-    "end": "2026-11-10/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-10/23:35",
-    "end": "2026-11-11/00:00"
   }
 ]

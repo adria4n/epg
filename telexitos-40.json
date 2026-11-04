@@ -1,185 +1,5 @@
 [
   {
-    "titulo": "Caso cerrado / A pagar child support; Taxi",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/01:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/01:30",
-    "end": "2026-11-02/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de hombres",
-    "sta": "2026-11-02/02:00",
-    "end": "2026-11-02/03:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de salsa",
-    "sta": "2026-11-02/03:00",
-    "end": "2026-11-02/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / Talento desperdiciado",
-    "sta": "2026-11-02/04:00",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/05:30"
-  },
-  {
-    "titulo": "¿Accidente automovilistico? Consulta legal gratuita",
-    "sta": "2026-11-02/05:30",
-    "end": "2026-11-02/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/06:00",
-    "end": "2026-11-02/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/06:30",
-    "end": "2026-11-02/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-02/07:30",
-    "end": "2026-11-02/08:00"
-  },
-  {
-    "titulo": "Caso cerrado / Fértil agresión; En el nombre de Daniela",
-    "sta": "2026-11-02/08:00",
-    "end": "2026-11-02/09:00"
-  },
-  {
-    "titulo": "Caso cerrado / El abc del diablo; Padre roba novia",
-    "sta": "2026-11-02/09:00",
-    "end": "2026-11-02/10:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres / Esperanza y Milagros, hasta alcanzar el cielo",
-    "sta": "2026-11-02/10:00",
-    "end": "2026-11-02/11:00"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-02/11:00",
-    "end": "2026-11-02/11:30"
-  },
-  {
-    "titulo": "Fútbol Serie A / Sassuolo vs. Fiorentina",
-    "sta": "2026-11-02/11:30",
-    "end": "2026-11-02/13:30"
-  },
-  {
-    "titulo": "Fútbol estelar",
-    "sta": "2026-11-02/13:30",
-    "end": "2026-11-02/14:00"
-  },
-  {
-    "titulo": "Fútbol Premier League / Newcastle United vs. Everton",
-    "sta": "2026-11-02/14:00",
-    "end": "2026-11-02/16:00"
-  },
-  {
-    "titulo": "Un día para vivir / El juez",
-    "sta": "2026-11-02/16:00",
-    "end": "2026-11-02/17:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Por desquite se metió con el tío",
-    "sta": "2026-11-02/17:00",
-    "end": "2026-11-02/18:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Somos la mina de oro de mi familia",
-    "sta": "2026-11-02/18:00",
-    "end": "2026-11-02/19:00"
-  },
-  {
-    "titulo": "Caso cerrado / Madrastra; Sangre esclava",
-    "sta": "2026-11-02/19:00",
-    "end": "2026-11-02/20:00"
-  },
-  {
-    "titulo": "Caso cerrado / Por un GPS; Soy artista pa' q lo sepas",
-    "sta": "2026-11-02/20:00",
-    "end": "2026-11-02/21:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Quiero que se comporte como mujer",
-    "sta": "2026-11-02/21:00",
-    "end": "2026-11-02/22:00"
-  },
-  {
-    "titulo": "El final del paraíso / En la boca del lobo",
-    "sta": "2026-11-02/22:00",
-    "end": "2026-11-02/23:00"
-  },
-  {
-    "titulo": "Caso cerrado / Amor y trabajo, mala combinación: Víctima culpable",
-    "sta": "2026-11-02/23:00",
-    "end": "2026-11-03/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/00:30",
-    "end": "2026-11-03/01:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-03/01:00",
-    "end": "2026-11-03/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/01:30",
-    "end": "2026-11-03/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial Vicente Fernández",
-    "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/03:00"
-  },
-  {
-    "titulo": "12 corazones / Más sabe el diablo especial",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / Lazarillo de Gogó",
-    "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/04:30",
-    "end": "2026-11-03/05:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/05:30"
@@ -1338,5 +1158,1025 @@
     "titulo": "Caso cerrado / Traición de hermana; Se me quemó la Navidad",
     "sta": "2026-11-10/23:00",
     "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/00:00",
+    "end": "2026-11-11/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/00:30",
+    "end": "2026-11-11/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/01:00",
+    "end": "2026-11-11/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/01:30",
+    "end": "2026-11-11/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de juguetes caros",
+    "sta": "2026-11-11/02:00",
+    "end": "2026-11-11/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de lencería",
+    "sta": "2026-11-11/03:00",
+    "end": "2026-11-11/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / Operación tumba",
+    "sta": "2026-11-11/04:00",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/05:00",
+    "end": "2026-11-11/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/05:30",
+    "end": "2026-11-11/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/06:00",
+    "end": "2026-11-11/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/06:30",
+    "end": "2026-11-11/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/07:00",
+    "end": "2026-11-11/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/07:30",
+    "end": "2026-11-11/08:00"
+  },
+  {
+    "titulo": "Caso cerrado / La ley abusadora; Tenemos el control",
+    "sta": "2026-11-11/08:00",
+    "end": "2026-11-11/09:00"
+  },
+  {
+    "titulo": "Caso cerrado / Hijastro estafador; Vetada por congregación",
+    "sta": "2026-11-11/09:00",
+    "end": "2026-11-11/10:00"
+  },
+  {
+    "titulo": "Caso cerrado / Keep calm; Viuda de tu amante",
+    "sta": "2026-11-11/10:00",
+    "end": "2026-11-11/11:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / Los ojos de una madre",
+    "sta": "2026-11-11/11:00",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / Regreso inesperado",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/13:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Bella, mi hermanita",
+    "sta": "2026-11-11/13:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "El final del paraíso",
+    "sta": "2026-11-11/14:00",
+    "end": "2026-11-11/15:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Claudia: ¿Me has visto?",
+    "sta": "2026-11-11/15:00",
+    "end": "2026-11-11/16:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Lía: Pulso vital",
+    "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-11/17:00",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-11/18:00",
+    "end": "2026-11-11/19:00"
+  },
+  {
+    "titulo": "Caso cerrado / Mi hermana no está bien; El cáncer de los músicos",
+    "sta": "2026-11-11/19:00",
+    "end": "2026-11-11/20:00"
+  },
+  {
+    "titulo": "Caso cerrado / Adúltero viral; Sugar baby violada",
+    "sta": "2026-11-11/20:00",
+    "end": "2026-11-11/21:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-11/21:00",
+    "end": "2026-11-11/22:00"
+  },
+  {
+    "titulo": "Será anunciado",
+    "sta": "2026-11-11/22:00",
+    "end": "2026-11-11/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Muerte famosa; Reclamando a mi hija",
+    "sta": "2026-11-11/23:00",
+    "end": "2026-11-12/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/00:30",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/01:30",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial bachelor - Verizon",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de gala con Mitzy",
+    "sta": "2026-11-12/03:00",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / La gorda fitness",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/05:30",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/06:30",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/07:30",
+    "end": "2026-11-12/08:00"
+  },
+  {
+    "titulo": "Caso cerrado / La mujer semental; Me fabricaron un caso",
+    "sta": "2026-11-12/08:00",
+    "end": "2026-11-12/09:00"
+  },
+  {
+    "titulo": "Caso cerrado / Tumba compartida; Hijos americanos",
+    "sta": "2026-11-12/09:00",
+    "end": "2026-11-12/10:00"
+  },
+  {
+    "titulo": "Caso cerrado / El sobreviviente; Tatuando mulas",
+    "sta": "2026-11-12/10:00",
+    "end": "2026-11-12/11:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / La vida entre mis brazos",
+    "sta": "2026-11-12/11:00",
+    "end": "2026-11-12/12:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / Libertad robada",
+    "sta": "2026-11-12/12:00",
+    "end": "2026-11-12/13:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Daniela, me equivoqué de cuerpo",
+    "sta": "2026-11-12/13:00",
+    "end": "2026-11-12/14:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Tamara, expuesta",
+    "sta": "2026-11-12/14:00",
+    "end": "2026-11-12/15:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Cielo: Un cambio de ruta inesperado",
+    "sta": "2026-11-12/15:00",
+    "end": "2026-11-12/16:00"
+  },
+  {
+    "titulo": "Será anunciado",
+    "sta": "2026-11-12/16:00",
+    "end": "2026-11-12/17:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-12/17:00",
+    "end": "2026-11-12/18:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-12/18:00",
+    "end": "2026-11-12/19:00"
+  },
+  {
+    "titulo": "Caso cerrado / El niño o la casa; Guantes rosados",
+    "sta": "2026-11-12/19:00",
+    "end": "2026-11-12/20:00"
+  },
+  {
+    "titulo": "Caso cerrado / Drag queen abusado; Gota a gota",
+    "sta": "2026-11-12/20:00",
+    "end": "2026-11-12/21:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-12/21:00",
+    "end": "2026-11-12/22:00"
+  },
+  {
+    "titulo": "Será anunciado",
+    "sta": "2026-11-12/22:00",
+    "end": "2026-11-12/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Perseguido por el pasado; Persiguiendo la verdad",
+    "sta": "2026-11-12/23:00",
+    "end": "2026-11-13/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/00:00",
+    "end": "2026-11-13/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/00:30",
+    "end": "2026-11-13/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/01:00",
+    "end": "2026-11-13/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/01:30",
+    "end": "2026-11-13/02:00"
+  },
+  {
+    "titulo": "12 corazones / Green special",
+    "sta": "2026-11-13/02:00",
+    "end": "2026-11-13/03:00"
+  },
+  {
+    "titulo": "12 corazones / Soltero más codiciado",
+    "sta": "2026-11-13/03:00",
+    "end": "2026-11-13/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / Doméstica explotada",
+    "sta": "2026-11-13/04:00",
+    "end": "2026-11-13/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:30",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/05:30",
+    "end": "2026-11-13/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/06:00",
+    "end": "2026-11-13/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/06:30",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/07:30",
+    "end": "2026-11-13/08:00"
+  },
+  {
+    "titulo": "Caso cerrado / Discriminación a la vista; Solo cenizas",
+    "sta": "2026-11-13/08:00",
+    "end": "2026-11-13/09:00"
+  },
+  {
+    "titulo": "Caso cerrado / Enterrado dos veces; Bebés tóxicos",
+    "sta": "2026-11-13/09:00",
+    "end": "2026-11-13/10:00"
+  },
+  {
+    "titulo": "Caso cerrado / Bebé al horno; Amor equino",
+    "sta": "2026-11-13/10:00",
+    "end": "2026-11-13/11:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / El trofeo",
+    "sta": "2026-11-13/11:00",
+    "end": "2026-11-13/12:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / Ángel",
+    "sta": "2026-11-13/12:00",
+    "end": "2026-11-13/13:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Esther, ayúdate que yo te ayudaré",
+    "sta": "2026-11-13/13:00",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Fabiola, una luz",
+    "sta": "2026-11-13/14:00",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Monse: Si me engañas, te mato o me mato",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/16:00"
+  },
+  {
+    "titulo": "Será anunciado",
+    "sta": "2026-11-13/16:00",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Caso cerrado / El irresponsable; Voyerista enamorado",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/20:00"
+  },
+  {
+    "titulo": "Caso cerrado / Tres strippers y un chulo; Manutención de barriga",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/22:00"
+  },
+  {
+    "titulo": "Será anunciado",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-13/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Refugio seguro; Falso crimen de odio",
+    "sta": "2026-11-13/23:00",
+    "end": "2026-11-14/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/00:00",
+    "end": "2026-11-14/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/00:30",
+    "end": "2026-11-14/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/01:00",
+    "end": "2026-11-14/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/01:30",
+    "end": "2026-11-14/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial norteño",
+    "sta": "2026-11-14/02:00",
+    "end": "2026-11-14/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de escuela",
+    "sta": "2026-11-14/03:00",
+    "end": "2026-11-14/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / Hija contra madre",
+    "sta": "2026-11-14/04:00",
+    "end": "2026-11-14/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/04:30",
+    "end": "2026-11-14/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/05:00",
+    "end": "2026-11-14/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/05:30",
+    "end": "2026-11-14/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/06:00",
+    "end": "2026-11-14/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/06:30",
+    "end": "2026-11-14/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/07:00",
+    "end": "2026-11-14/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/07:30",
+    "end": "2026-11-14/08:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/08:00",
+    "end": "2026-11-14/08:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/08:30",
+    "end": "2026-11-14/09:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/09:00",
+    "end": "2026-11-14/09:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/09:30",
+    "end": "2026-11-14/10:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/10:00",
+    "end": "2026-11-14/10:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/10:30",
+    "end": "2026-11-14/11:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-14/11:00",
+    "end": "2026-11-14/13:00"
+  },
+  {
+    "titulo": "Caso cerrado / Vivienda robada; Las fiancées del marinero",
+    "sta": "2026-11-14/13:00",
+    "end": "2026-11-14/14:00"
+  },
+  {
+    "titulo": "Caso cerrado / ADN violento; Momo imagen diabólica",
+    "sta": "2026-11-14/14:00",
+    "end": "2026-11-14/15:00"
+  },
+  {
+    "titulo": "Caso cerrado / La niña emoticones; Gimnasia y proteína",
+    "sta": "2026-11-14/15:00",
+    "end": "2026-11-14/16:00"
+  },
+  {
+    "titulo": "Caso cerrado / El bebé de la Bella Durmiente; Gaucho con las bolas grandes",
+    "sta": "2026-11-14/16:00",
+    "end": "2026-11-14/17:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-14/17:00",
+    "end": "2026-11-14/17:30"
+  },
+  {
+    "titulo": "Caso cerrado / Papá está vivo",
+    "sta": "2026-11-14/17:30",
+    "end": "2026-11-14/18:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-14/18:00",
+    "end": "2026-11-14/19:00"
+  },
+  {
+    "titulo": "Acércate a Rocío al límite",
+    "sta": "2026-11-14/19:00",
+    "end": "2026-11-14/21:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-14/21:00",
+    "end": "2026-11-14/22:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-14/22:00",
+    "end": "2026-11-15/00:00"
+  },
+  {
+    "titulo": "Caso cerrado / Poseído por mamá; Fish spa chupitos",
+    "sta": "2026-11-15/00:00",
+    "end": "2026-11-15/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/01:00",
+    "end": "2026-11-15/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/01:30",
+    "end": "2026-11-15/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de épocas - Verizon",
+    "sta": "2026-11-15/02:00",
+    "end": "2026-11-15/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de antro",
+    "sta": "2026-11-15/03:00",
+    "end": "2026-11-15/04:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-15/04:00",
+    "end": "2026-11-15/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/04:30",
+    "end": "2026-11-15/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/05:00",
+    "end": "2026-11-15/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/05:30",
+    "end": "2026-11-15/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/06:00",
+    "end": "2026-11-15/06:30"
+  },
+  {
+    "titulo": "El secreto natural de la salud masculina para una próstata sana.",
+    "sta": "2026-11-15/06:30",
+    "end": "2026-11-15/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/07:00",
+    "end": "2026-11-15/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/07:30",
+    "end": "2026-11-15/08:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/08:00",
+    "end": "2026-11-15/08:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/08:30",
+    "end": "2026-11-15/09:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/09:00",
+    "end": "2026-11-15/09:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/09:30",
+    "end": "2026-11-15/10:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/10:00",
+    "end": "2026-11-15/10:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/10:30",
+    "end": "2026-11-15/11:00"
+  },
+  {
+    "titulo": "Xploration DIY Sci",
+    "sta": "2026-11-15/11:00",
+    "end": "2026-11-15/11:30"
+  },
+  {
+    "titulo": "Xploration Animal Science",
+    "sta": "2026-11-15/11:30",
+    "end": "2026-11-15/12:00"
+  },
+  {
+    "titulo": "Xploration Nature Knows Best",
+    "sta": "2026-11-15/12:00",
+    "end": "2026-11-15/12:30"
+  },
+  {
+    "titulo": "Xploration Awesome Planet",
+    "sta": "2026-11-15/12:30",
+    "end": "2026-11-15/13:00"
+  },
+  {
+    "titulo": "Xploration Earth 2050",
+    "sta": "2026-11-15/13:00",
+    "end": "2026-11-15/13:30"
+  },
+  {
+    "titulo": "Xploration Outer Space",
+    "sta": "2026-11-15/13:30",
+    "end": "2026-11-15/14:00"
+  },
+  {
+    "titulo": "Life's Funniest Moments",
+    "sta": "2026-11-15/14:00",
+    "end": "2026-11-15/14:30"
+  },
+  {
+    "titulo": "Life's Funniest Moments",
+    "sta": "2026-11-15/14:30",
+    "end": "2026-11-15/15:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-15/15:00",
+    "end": "2026-11-15/17:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-15/17:00",
+    "end": "2026-11-15/20:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-15/20:00",
+    "end": "2026-11-15/22:30"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-15/22:30",
+    "end": "2026-11-15/23:30"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-15/23:30",
+    "end": "2026-11-16/00:30"
+  },
+  {
+    "titulo": "Life's Funniest Moments",
+    "sta": "2026-11-16/00:30",
+    "end": "2026-11-16/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/01:00",
+    "end": "2026-11-16/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/01:30",
+    "end": "2026-11-16/02:00"
+  },
+  {
+    "titulo": "12 corazones",
+    "sta": "2026-11-16/02:00",
+    "end": "2026-11-16/03:00"
+  },
+  {
+    "titulo": "12 corazones",
+    "sta": "2026-11-16/03:00",
+    "end": "2026-11-16/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/05:00",
+    "end": "2026-11-16/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/05:30",
+    "end": "2026-11-16/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/06:00",
+    "end": "2026-11-16/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/06:30",
+    "end": "2026-11-16/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/07:00",
+    "end": "2026-11-16/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/07:30",
+    "end": "2026-11-16/08:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-16/08:00",
+    "end": "2026-11-16/09:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena",
+    "sta": "2026-11-16/09:00",
+    "end": "2026-11-16/10:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena",
+    "sta": "2026-11-16/10:00",
+    "end": "2026-11-16/11:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-16/11:00",
+    "end": "2026-11-16/13:00"
+  },
+  {
+    "titulo": "Bajo el mismo cielo",
+    "sta": "2026-11-16/13:00",
+    "end": "2026-11-16/15:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena",
+    "sta": "2026-11-16/15:00",
+    "end": "2026-11-16/16:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-16/16:00",
+    "end": "2026-11-16/17:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres",
+    "sta": "2026-11-16/17:00",
+    "end": "2026-11-16/18:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-16/18:00",
+    "end": "2026-11-16/19:00"
+  },
+  {
+    "titulo": "Lo mejor de Caso Cerrado",
+    "sta": "2026-11-16/19:00",
+    "end": "2026-11-16/20:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-16/20:00",
+    "end": "2026-11-16/21:00"
+  },
+  {
+    "titulo": "Tercer Milenio 360 Internacional",
+    "sta": "2026-11-16/21:00",
+    "end": "2026-11-16/22:00"
+  },
+  {
+    "titulo": "Life's Funniest Moments",
+    "sta": "2026-11-16/22:00",
+    "end": "2026-11-16/22:30"
+  },
+  {
+    "titulo": "Life's Funniest Moments",
+    "sta": "2026-11-16/22:30",
+    "end": "2026-11-16/23:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-16/23:00",
+    "end": "2026-11-17/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/00:00",
+    "end": "2026-11-17/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/00:30",
+    "end": "2026-11-17/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/01:00",
+    "end": "2026-11-17/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/01:30",
+    "end": "2026-11-17/02:00"
+  },
+  {
+    "titulo": "12 corazones",
+    "sta": "2026-11-17/02:00",
+    "end": "2026-11-17/03:00"
+  },
+  {
+    "titulo": "12 corazones",
+    "sta": "2026-11-17/03:00",
+    "end": "2026-11-17/04:00"
+  },
+  {
+    "titulo": "Life's Funniest Moments",
+    "sta": "2026-11-17/04:00",
+    "end": "2026-11-17/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/04:30",
+    "end": "2026-11-17/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/05:00",
+    "end": "2026-11-17/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/05:30",
+    "end": "2026-11-17/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/06:00",
+    "end": "2026-11-17/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/06:30",
+    "end": "2026-11-17/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/07:00",
+    "end": "2026-11-17/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/07:30",
+    "end": "2026-11-17/08:00"
+  },
+  {
+    "titulo": "Caso cerrado / El cambiazo; Talento desperdiciado",
+    "sta": "2026-11-17/08:00",
+    "end": "2026-11-17/09:00"
+  },
+  {
+    "titulo": "Caso cerrado / Yo soy gay; Sin clítoris",
+    "sta": "2026-11-17/09:00",
+    "end": "2026-11-17/10:00"
+  },
+  {
+    "titulo": "Caso cerrado / En silencio; Comida militar",
+    "sta": "2026-11-17/10:00",
+    "end": "2026-11-17/11:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / El hijo arrepentido",
+    "sta": "2026-11-17/11:00",
+    "end": "2026-11-17/12:00"
+  },
+  {
+    "titulo": "Historias de la Virgen morena / El despertar",
+    "sta": "2026-11-17/12:00",
+    "end": "2026-11-17/13:00"
+  },
+  {
+    "titulo": "Lo que callamos las mujeres / Adriana, latidos de esperanza",
+    "sta": "2026-11-17/13:00",
+    "end": "2026-11-17/14:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-17/14:00",
+    "end": "2026-11-17/15:00"
+  },
+  {
+    "titulo": "Acércate a Rocío",
+    "sta": "2026-11-17/15:00",
+    "end": "2026-11-17/16:00"
+  },
+  {
+    "titulo": "Caso cerrado / Engaño por papeles; Sonrisa vertical",
+    "sta": "2026-11-17/16:00",
+    "end": "2026-11-17/17:00"
+  },
+  {
+    "titulo": "Caso cerrado / Descuido involuntario",
+    "sta": "2026-11-17/17:00",
+    "end": "2026-11-17/17:30"
+  },
+  {
+    "titulo": "U.S. Soccer / EE. UU. vs. Haití",
+    "sta": "2026-11-17/17:30",
+    "end": "2026-11-17/20:00"
   }
 ]

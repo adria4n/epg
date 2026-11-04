@@ -1,1107 +1,2097 @@
 [
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/01:00"
+    "titulo": "El precio de la historia / T17 E27 Bala perdida",
+    "sta": "2026-11-01/23:49",
+    "end": "2026-11-02/00:36"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/02:00"
+    "titulo": "El precio de la historia / T17 E4 Rick y los rompecorazones",
+    "sta": "2026-11-02/00:36",
+    "end": "2026-11-02/01:21"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-02/02:00",
-    "end": "2026-11-02/03:00"
+    "titulo": "El precio de la historia / T17 E13 WWII: Visor de bombardeo",
+    "sta": "2026-11-02/01:21",
+    "end": "2026-11-02/02:04"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-02/03:00",
-    "end": "2026-11-02/05:00"
+    "titulo": "El precio de la historia / T23 E8 La horda de oro y plata",
+    "sta": "2026-11-02/02:04",
+    "end": "2026-11-02/02:48"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-02/05:00",
+    "titulo": "Lo mejor de El precio de la historia / T1 E1 Muscle cars y barras de oro",
+    "sta": "2026-11-02/02:48",
+    "end": "2026-11-02/03:30"
+  },
+  {
+    "titulo": "El precio de la historia / T21 E11 Indiana Jones por un día",
+    "sta": "2026-11-02/03:30",
+    "end": "2026-11-02/04:13"
+  },
+  {
+    "titulo": "El precio de la historia / T22 E4 Empeños de sueño",
+    "sta": "2026-11-02/04:13",
+    "end": "2026-11-02/04:56"
+  },
+  {
+    "titulo": "El precio de la historia / T13 E10 Grandes Negociaciones",
+    "sta": "2026-11-02/04:56",
+    "end": "2026-11-02/05:18"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E27 Bala perdida",
+    "sta": "2026-11-02/05:18",
     "end": "2026-11-02/06:00"
   },
   {
-    "titulo": "Cuadro titular",
+    "titulo": "Atlántida Revelada",
     "sta": "2026-11-02/06:00",
-    "end": "2026-11-02/07:00"
+    "end": "2026-11-02/07:27"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/08:00"
+    "titulo": "El precio de la historia / T17 E9 Negocios por interés",
+    "sta": "2026-11-02/07:27",
+    "end": "2026-11-02/08:12"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-02/08:00",
-    "end": "2026-11-02/09:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E14 Grandes negocios de Chum",
+    "sta": "2026-11-02/08:12",
+    "end": "2026-11-02/08:58"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-02/09:00",
-    "end": "2026-11-02/10:00"
+    "titulo": "Cazadores de tesoros / T22 E15 El regreso del impala",
+    "sta": "2026-11-02/08:58",
+    "end": "2026-11-02/09:44"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-02/10:00",
-    "end": "2026-11-02/12:00"
+    "titulo": "Gigantes de la comida / T5 E2 Revolución del helado",
+    "sta": "2026-11-02/09:44",
+    "end": "2026-11-02/10:32"
   },
   {
-    "titulo": "Fútbol Bundesliga / Bayern Munich vs. Borussia Dortmund",
-    "sta": "2026-11-02/12:00",
-    "end": "2026-11-02/14:00"
+    "titulo": "La evidencia está entre nosotros / T3 E1 Dinosaurios modernos y luces en Noruega",
+    "sta": "2026-11-02/10:32",
+    "end": "2026-11-02/11:19"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E8",
-    "sta": "2026-11-02/14:00",
-    "end": "2026-11-02/15:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E3 Cuerpos asombrosos",
+    "sta": "2026-11-02/11:19",
+    "end": "2026-11-02/12:06"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-02/15:00",
-    "end": "2026-11-02/16:00"
+    "titulo": "Malvinas: La retirada",
+    "sta": "2026-11-02/12:06",
+    "end": "2026-11-02/13:56"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-02/16:00",
-    "end": "2026-11-02/17:00"
+    "titulo": "El precio de la historia / T17 E15 Explotan los negocios",
+    "sta": "2026-11-02/13:56",
+    "end": "2026-11-02/14:43"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-02/17:00",
-    "end": "2026-11-02/18:00"
+    "titulo": "El precio de la historia / T17 E14 Elfo de Harry Potter",
+    "sta": "2026-11-02/14:43",
+    "end": "2026-11-02/15:30"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E8",
-    "sta": "2026-11-02/18:00",
-    "end": "2026-11-02/19:00"
+    "titulo": "El precio de la historia / T20 E10 ¿Sí o no?",
+    "sta": "2026-11-02/15:30",
+    "end": "2026-11-02/16:17"
   },
   {
-    "titulo": "Lucha Libre AAA / E478",
-    "sta": "2026-11-02/19:00",
-    "end": "2026-11-02/20:00"
+    "titulo": "El precio de la historia / T20 E7 El maestro de la carretera Rick",
+    "sta": "2026-11-02/16:17",
+    "end": "2026-11-02/17:04"
   },
   {
-    "titulo": "Bundesliga Highlights Show",
-    "sta": "2026-11-02/20:00",
+    "titulo": "Lo mejor de El precio de la historia / T2 E13 Navidad en Las Vegas",
+    "sta": "2026-11-02/17:04",
+    "end": "2026-11-02/17:51"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E9 Solo para fanáticos",
+    "sta": "2026-11-02/17:51",
+    "end": "2026-11-02/18:38"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E1 Muscle cars y barras de oro",
+    "sta": "2026-11-02/18:38",
+    "end": "2026-11-02/19:25"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros / T24 Premio o estafa",
+    "sta": "2026-11-02/19:25",
+    "end": "2026-11-02/20:13"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros / T23 Los mejores tesoros sobre ruedas de la historia",
+    "sta": "2026-11-02/20:13",
     "end": "2026-11-02/21:00"
   },
   {
-    "titulo": "Código Fox Fútbol",
+    "titulo": "Lo mejor de Cazadores de tesoros",
     "sta": "2026-11-02/21:00",
-    "end": "2026-11-02/22:00"
+    "end": "2026-11-02/21:47"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-02/22:00",
-    "end": "2026-11-02/23:00"
+    "titulo": "Lo mejor de El precio de la historia / T4 E20 Los vaqueros",
+    "sta": "2026-11-02/21:47",
+    "end": "2026-11-02/22:34"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-02/23:00",
-    "end": "2026-11-03/00:00"
+    "titulo": "Lo mejor de El precio de la historia / T2 E13 Navidad en Las Vegas",
+    "sta": "2026-11-02/22:34",
+    "end": "2026-11-02/23:21"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E8",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/01:00"
+    "titulo": "El precio de la historia",
+    "sta": "2026-11-02/23:21",
+    "end": "2026-11-03/00:06"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-03/01:00",
-    "end": "2026-11-03/02:00"
+    "titulo": "El precio de la historia / T17 E25 Buenos compañeros",
+    "sta": "2026-11-03/00:06",
+    "end": "2026-11-03/00:51"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/03:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E8 Experimentos extraños",
+    "sta": "2026-11-03/00:51",
+    "end": "2026-11-03/01:35"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/05:00"
+    "titulo": "Lo mejor de El precio de la historia / T4 E10 Reliquias de la Segunda Guerra Mundial",
+    "sta": "2026-11-03/01:35",
+    "end": "2026-11-03/02:19"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-03/05:00",
+    "titulo": "Lo mejor de El precio de la historia / T2 E1 Negocio jonrón",
+    "sta": "2026-11-03/02:19",
+    "end": "2026-11-03/03:03"
+  },
+  {
+    "titulo": "El precio de la historia / T16 E19 Mc Chumlee feliz",
+    "sta": "2026-11-03/03:03",
+    "end": "2026-11-03/03:47"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T20 E16 La van de Aerosmith",
+    "sta": "2026-11-03/03:47",
+    "end": "2026-11-03/04:31"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T23 E8 Recolectando a toda velocidad",
+    "sta": "2026-11-03/04:31",
+    "end": "2026-11-03/05:16"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros",
+    "sta": "2026-11-03/05:16",
     "end": "2026-11-03/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "¿El último Papa?",
     "sta": "2026-11-03/06:00",
-    "end": "2026-11-03/07:00"
+    "end": "2026-11-03/07:27"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-03/07:00",
-    "end": "2026-11-03/08:00"
+    "titulo": "El precio de la historia / T7 E10 La oferta",
+    "sta": "2026-11-03/07:27",
+    "end": "2026-11-03/08:11"
   },
   {
-    "titulo": "Código Fox Fútbol",
-    "sta": "2026-11-03/08:00",
-    "end": "2026-11-03/08:50"
+    "titulo": "Lo mejor de El precio de la historia / T3 E17 Empeño de estrellas",
+    "sta": "2026-11-03/08:11",
+    "end": "2026-11-03/08:55"
   },
   {
-    "titulo": "Fútbol UEFA Youth League / Atlético de Madrid Sub-19 vs. Bayern Munich Sub-19",
-    "sta": "2026-11-03/08:50",
-    "end": "2026-11-03/11:00"
+    "titulo": "Cazadores de tesoros / T22 E13 El Fuerte Knox de los juguetes",
+    "sta": "2026-11-03/08:55",
+    "end": "2026-11-03/09:40"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-03/11:00",
-    "end": "2026-11-03/13:00"
+    "titulo": "Gigantes de la comida / T5 E5 Que hagan pastel",
+    "sta": "2026-11-03/09:40",
+    "end": "2026-11-03/10:26"
   },
   {
-    "titulo": "Ligue 1 HL Show",
-    "sta": "2026-11-03/13:00",
-    "end": "2026-11-03/13:30"
+    "titulo": "La evidencia está entre nosotros / T3 E2 El asesino de pie grande y la escultura de hielo",
+    "sta": "2026-11-03/10:26",
+    "end": "2026-11-03/11:12"
   },
   {
-    "titulo": "Fútbol Bundesliga / Discovery: Bundesliga 3",
-    "sta": "2026-11-03/13:30",
-    "end": "2026-11-03/13:45"
+    "titulo": "La evidencia está entre nosotros / T3 E3 Lobos gigantes y choque en Marte",
+    "sta": "2026-11-03/11:12",
+    "end": "2026-11-03/11:58"
   },
   {
-    "titulo": "Fútbol UEFA Champions League / Atlético de Madrid vs. Bayern Munich",
-    "sta": "2026-11-03/13:45",
-    "end": "2026-11-03/16:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E2 Muertes bizarras",
+    "sta": "2026-11-03/11:58",
+    "end": "2026-11-03/12:45"
   },
   {
-    "titulo": "Post Champions",
-    "sta": "2026-11-03/16:00",
-    "end": "2026-11-03/17:00"
+    "titulo": "Democracia",
+    "sta": "2026-11-03/12:45",
+    "end": "2026-11-03/13:57"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-03/17:00",
-    "end": "2026-11-03/18:00"
+    "titulo": "La evidencia está entre nosotros / T4 E9 El misterio del Falcón 9, escalador demoníaco y feto alienígena de Leningrado",
+    "sta": "2026-11-03/13:57",
+    "end": "2026-11-03/14:44"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-03/18:00",
-    "end": "2026-11-03/19:00"
+    "titulo": "La evidencia está entre nosotros / T4 E10 Gusano en el cielo, restos esqueléticos misteriosos y sonidos misteriosos de tesalónica",
+    "sta": "2026-11-03/14:44",
+    "end": "2026-11-03/15:31"
   },
   {
-    "titulo": "Fútbol UEFA Champions League / Villarreal CF vs. Paris Saint-Germain",
-    "sta": "2026-11-03/19:00",
+    "titulo": "No identificado / T1 E1 Infiltrados",
+    "sta": "2026-11-03/15:31",
+    "end": "2026-11-03/16:18"
+  },
+  {
+    "titulo": "No identificado / T2 E1 Ovni en combate",
+    "sta": "2026-11-03/16:18",
+    "end": "2026-11-03/17:04"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T1 E1 Lugares malditos",
+    "sta": "2026-11-03/17:04",
+    "end": "2026-11-03/17:52"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T4 E9 Hazañas de superhumanos",
+    "sta": "2026-11-03/17:52",
+    "end": "2026-11-03/18:40"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T2 E5 Mil maneras de morir",
+    "sta": "2026-11-03/18:40",
+    "end": "2026-11-03/19:27"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd",
+    "sta": "2026-11-03/19:27",
+    "end": "2026-11-03/20:14"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros",
+    "sta": "2026-11-03/20:14",
     "end": "2026-11-03/21:00"
   },
   {
-    "titulo": "Cleatus Fantasy Football Show",
+    "titulo": "Alienígenas ancestrales",
     "sta": "2026-11-03/21:00",
-    "end": "2026-11-03/22:00"
+    "end": "2026-11-03/21:48"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-03/22:00",
-    "end": "2026-11-03/23:00"
+    "titulo": "Alienígenas ancestrales / T13 E10 Centinelas",
+    "sta": "2026-11-03/21:48",
+    "end": "2026-11-03/22:36"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-03/23:00",
-    "end": "2026-11-04/00:00"
+    "titulo": "Alienígenas ancestrales / T20 E12 Desbloqueando los portales estelares",
+    "sta": "2026-11-03/22:36",
+    "end": "2026-11-03/23:24"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/01:00"
+    "titulo": "Alienígenas ancestrales / T20 E14 La búsqueda de inteligencia extraterrestre",
+    "sta": "2026-11-03/23:24",
+    "end": "2026-11-04/00:12"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/02:00"
+    "titulo": "El precio de la historia / T18 E7 Documentales desde la luna",
+    "sta": "2026-11-04/00:12",
+    "end": "2026-11-04/00:56"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/03:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E9 Lo que no vemos allá abajo",
+    "sta": "2026-11-04/00:56",
+    "end": "2026-11-04/01:41"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/05:00"
+    "titulo": "Alienígenas ancestrales / T5 E12 Los monolitos",
+    "sta": "2026-11-04/01:41",
+    "end": "2026-11-04/02:24"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-04/05:00",
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-04/02:24",
+    "end": "2026-11-04/03:07"
+  },
+  {
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-04/03:07",
+    "end": "2026-11-04/03:50"
+  },
+  {
+    "titulo": "Grandes misterios de la historia / T3 E1 La cámara de ámbar",
+    "sta": "2026-11-04/03:50",
+    "end": "2026-11-04/04:33"
+  },
+  {
+    "titulo": "Grandes misterios de la historia / T3 E9 El manuscrito Voynich",
+    "sta": "2026-11-04/04:33",
+    "end": "2026-11-04/05:16"
+  },
+  {
+    "titulo": "Grandes misterios de la historia / T4 E2 ¿Quién es el asesino del Zodiaco?",
+    "sta": "2026-11-04/05:16",
     "end": "2026-11-04/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Fuera de la Biblia / E1 Enigmas prohibidos de la Biblia",
     "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/07:00"
+    "end": "2026-11-04/06:49"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/08:00"
+    "titulo": "Fuera de la Biblia / E2 Secretos de los Apóstoles",
+    "sta": "2026-11-04/06:49",
+    "end": "2026-11-04/07:38"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-04/08:00",
-    "end": "2026-11-04/08:50"
+    "titulo": "El precio de la historia / T17 E16 Cruzando el océano",
+    "sta": "2026-11-04/07:38",
+    "end": "2026-11-04/08:24"
   },
   {
-    "titulo": "Fútbol UEFA Youth League / Borussia Dortmund U19 vs. Real Betis",
-    "sta": "2026-11-04/08:50",
-    "end": "2026-11-04/11:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E18 Historia literaria",
+    "sta": "2026-11-04/08:24",
+    "end": "2026-11-04/09:10"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/13:00"
+    "titulo": "Cazadores de tesoros / T22 E12 Hollywood en Texas",
+    "sta": "2026-11-04/09:10",
+    "end": "2026-11-04/09:57"
   },
   {
-    "titulo": "Netbusters",
-    "sta": "2026-11-04/13:00",
-    "end": "2026-11-04/13:30"
+    "titulo": "Gigantes de la comida / T5 E3 El ascenso de las gaseosas: El nacimiento",
+    "sta": "2026-11-04/09:57",
+    "end": "2026-11-04/10:45"
   },
   {
-    "titulo": "Fútbol Bundesliga / Discovery",
-    "sta": "2026-11-04/13:30",
-    "end": "2026-11-04/13:45"
+    "titulo": "La evidencia está entre nosotros / T3 E3 Lobos gigantes y choque en Marte",
+    "sta": "2026-11-04/10:45",
+    "end": "2026-11-04/11:32"
   },
   {
-    "titulo": "Fútbol UEFA Champions League / FC Porto vs. Napoli",
-    "sta": "2026-11-04/13:45",
-    "end": "2026-11-04/16:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E1 Lugares extraños",
+    "sta": "2026-11-04/11:32",
+    "end": "2026-11-04/12:19"
   },
   {
-    "titulo": "Post Champions",
-    "sta": "2026-11-04/16:00",
-    "end": "2026-11-04/17:00"
+    "titulo": "Civilización perdida",
+    "sta": "2026-11-04/12:19",
+    "end": "2026-11-04/13:54"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/18:00"
+    "titulo": "Cazadores de tesoros / T23 E11 Buscando en Selma",
+    "sta": "2026-11-04/13:54",
+    "end": "2026-11-04/14:42"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/19:00"
+    "titulo": "Cazadores de tesoros / T22 E12 Hollywood en Texas",
+    "sta": "2026-11-04/14:42",
+    "end": "2026-11-04/15:30"
   },
   {
-    "titulo": "Fútbol UEFA Champions League / RB Leipzig vs. Manchester City",
-    "sta": "2026-11-04/19:00",
+    "titulo": "Lo mejor de Cazadores de tesoros",
+    "sta": "2026-11-04/15:30",
+    "end": "2026-11-04/16:17"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T26 Poder a pedal",
+    "sta": "2026-11-04/16:17",
+    "end": "2026-11-04/17:04"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T22 E5 Hamburguesas y salones de baile",
+    "sta": "2026-11-04/17:04",
+    "end": "2026-11-04/17:52"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T23 E1 Monopatines y bolos",
+    "sta": "2026-11-04/17:52",
+    "end": "2026-11-04/18:40"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros / T24 Olas y ruedas",
+    "sta": "2026-11-04/18:40",
+    "end": "2026-11-04/19:27"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T4 E15 La casa de empeño de Navidades pasadas",
+    "sta": "2026-11-04/19:27",
+    "end": "2026-11-04/20:14"
+  },
+  {
+    "titulo": "El precio de la historia / T24 E8",
+    "sta": "2026-11-04/20:14",
     "end": "2026-11-04/21:00"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E8",
+    "titulo": "History's Greatest Machines With Dolph Lundgren / T1 E1",
     "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
+    "end": "2026-11-04/21:47"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/23:00"
+    "titulo": "Lo mejor de El precio de la historia / T1 E1 Muscle cars y barras de oro",
+    "sta": "2026-11-04/21:47",
+    "end": "2026-11-04/22:34"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-05/00:00"
+    "titulo": "El precio de la historia / T16 E15 Dodge Demon",
+    "sta": "2026-11-04/22:34",
+    "end": "2026-11-04/23:20"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/01:00"
+    "titulo": "El precio de la historia / T20 E3 El auto de Grease",
+    "sta": "2026-11-04/23:20",
+    "end": "2026-11-05/00:07"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/02:00"
+    "titulo": "El precio de la historia / T18 E10 Béisbol bajo la lupa",
+    "sta": "2026-11-05/00:07",
+    "end": "2026-11-05/00:51"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E7 Rituales inusuales",
+    "sta": "2026-11-05/00:51",
+    "end": "2026-11-05/01:36"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/05:00"
+    "titulo": "Inexplicable, con William Shatner / T1 E5 Rituales bizarros",
+    "sta": "2026-11-05/01:36",
+    "end": "2026-11-05/02:20"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-05/05:00",
+    "titulo": "Inexplicable, con William Shatner / T7 E1 La edad dorada de los piratas",
+    "sta": "2026-11-05/02:20",
+    "end": "2026-11-05/03:04"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T4 E10 El eslabón perdido",
+    "sta": "2026-11-05/03:04",
+    "end": "2026-11-05/03:48"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros",
+    "sta": "2026-11-05/03:48",
+    "end": "2026-11-05/04:32"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T4 E9 El misterio del Falcón 9, escalador demoníaco y feto alienígena de Leningrado",
+    "sta": "2026-11-05/04:32",
+    "end": "2026-11-05/05:16"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T3 E1 Dinosaurios modernos y luces en Noruega",
+    "sta": "2026-11-05/05:16",
     "end": "2026-11-05/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Malvinas: La retirada",
     "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/07:00"
+    "end": "2026-11-05/07:46"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/08:00"
+    "titulo": "El precio de la historia / T12 E29 Compras Caras",
+    "sta": "2026-11-05/07:46",
+    "end": "2026-11-05/08:09"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-05/08:00",
-    "end": "2026-11-05/09:00"
+    "titulo": "El precio de la historia / T12 E30 Gangsters",
+    "sta": "2026-11-05/08:09",
+    "end": "2026-11-05/08:32"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-05/09:00",
-    "end": "2026-11-05/10:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E19 Transacciones locas",
+    "sta": "2026-11-05/08:32",
+    "end": "2026-11-05/09:19"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-05/10:00",
-    "end": "2026-11-05/12:00"
+    "titulo": "Cazadores de tesoros / T22 E11 El gran Texano",
+    "sta": "2026-11-05/09:19",
+    "end": "2026-11-05/10:03"
   },
   {
-    "titulo": "Fútbol UEFA Champions League / AEK vs. Real Madrid",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/14:00"
+    "titulo": "Gigantes de la comida / T5 E6 Locura por los dulces baratos",
+    "sta": "2026-11-05/10:03",
+    "end": "2026-11-05/10:50"
   },
   {
-    "titulo": "Netbusters",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/14:30"
+    "titulo": "La evidencia está entre nosotros / T3 E4 El pez cara de humano y los pájaros suicidas",
+    "sta": "2026-11-05/10:50",
+    "end": "2026-11-05/11:36"
   },
   {
-    "titulo": "Bundesliga Weekly",
-    "sta": "2026-11-05/14:30",
-    "end": "2026-11-05/15:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E6 Súper humanos",
+    "sta": "2026-11-05/11:36",
+    "end": "2026-11-05/12:23"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/16:00"
+    "titulo": "El ADN de Jesús: La búsqueda",
+    "sta": "2026-11-05/12:23",
+    "end": "2026-11-05/13:52"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/17:00"
+    "titulo": "Grandes misterios de la historia / T3 E7 El vuelo de Malasia 370",
+    "sta": "2026-11-05/13:52",
+    "end": "2026-11-05/14:39"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/18:00"
+    "titulo": "Grandes misterios de la historia / T3 E4 El hombre de Somerton",
+    "sta": "2026-11-05/14:39",
+    "end": "2026-11-05/15:26"
   },
   {
-    "titulo": "FOX NFL Thursday Night Football",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
+    "titulo": "Inexplicable, con William Shatner / T4 E9 Hazañas de superhumanos",
+    "sta": "2026-11-05/15:26",
+    "end": "2026-11-05/16:14"
   },
   {
-    "titulo": "Fútbol Americano NFL / Jacksonville Jaguars vs. Baltimore Ravens",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/22:30"
+    "titulo": "Inexplicable, con William Shatner / T4 E7 Tumbas misteriosas",
+    "sta": "2026-11-05/16:14",
+    "end": "2026-11-05/17:02"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-05/22:30",
-    "end": "2026-11-05/23:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E7 Rituales inusuales",
+    "sta": "2026-11-05/17:02",
+    "end": "2026-11-05/17:49"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-06/00:00"
+    "titulo": "Increíble con Dan Aykroyd / T2 E5 Mil maneras de morir",
+    "sta": "2026-11-05/17:49",
+    "end": "2026-11-05/18:36"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-06/00:00",
-    "end": "2026-11-06/01:00"
+    "titulo": "La evidencia está entre nosotros / T4 E9 El misterio del Falcón 9, escalador demoníaco y feto alienígena de Leningrado",
+    "sta": "2026-11-05/18:36",
+    "end": "2026-11-05/19:23"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-06/01:00",
-    "end": "2026-11-06/02:00"
+    "titulo": "La evidencia está entre nosotros",
+    "sta": "2026-11-05/19:23",
+    "end": "2026-11-05/20:09"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-06/02:00",
-    "end": "2026-11-06/03:00"
+    "titulo": "MysteryQuest / T1 E7 Alcatraz: La Roca",
+    "sta": "2026-11-05/20:09",
+    "end": "2026-11-05/21:00"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-06/03:00",
-    "end": "2026-11-06/05:00"
+    "titulo": "Grandes misterios de la historia / T7 E4",
+    "sta": "2026-11-05/21:00",
+    "end": "2026-11-05/21:47"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-06/05:00",
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E19",
+    "sta": "2026-11-05/21:47",
+    "end": "2026-11-05/22:33"
+  },
+  {
+    "titulo": "Inexplicable",
+    "sta": "2026-11-05/22:33",
+    "end": "2026-11-05/23:21"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T4 E7 Tumbas misteriosas",
+    "sta": "2026-11-05/23:21",
+    "end": "2026-11-06/00:09"
+  },
+  {
+    "titulo": "El precio de la historia / T18 E3 Planeando un gran negocio",
+    "sta": "2026-11-06/00:09",
+    "end": "2026-11-06/00:54"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T2 E5 Mil maneras de morir",
+    "sta": "2026-11-06/00:54",
+    "end": "2026-11-06/01:39"
+  },
+  {
+    "titulo": "Grandes escapes con Morgan Freeman / T2 E4 La revuelta de Sobibor",
+    "sta": "2026-11-06/01:39",
+    "end": "2026-11-06/02:21"
+  },
+  {
+    "titulo": "Grandes escapes con Morgan Freeman / T1 E1 Alcatraz",
+    "sta": "2026-11-06/02:21",
+    "end": "2026-11-06/03:03"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo",
+    "sta": "2026-11-06/03:03",
+    "end": "2026-11-06/03:46"
+  },
+  {
+    "titulo": "El secreto de Skinwalker / T1 E5 Curvas peligrosas",
+    "sta": "2026-11-06/03:46",
+    "end": "2026-11-06/04:31"
+  },
+  {
+    "titulo": "El secreto de Skinwalker / T1 E6 Escabando",
+    "sta": "2026-11-06/04:31",
+    "end": "2026-11-06/05:16"
+  },
+  {
+    "titulo": "El secreto de Skinwalker / T1 E7 Observación",
+    "sta": "2026-11-06/05:16",
     "end": "2026-11-06/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Superbombas",
     "sta": "2026-11-06/06:00",
-    "end": "2026-11-06/07:00"
+    "end": "2026-11-06/07:30"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-06/07:00",
-    "end": "2026-11-06/08:00"
+    "titulo": "El precio de la historia / T19 E12 El príncipe empeñador",
+    "sta": "2026-11-06/07:30",
+    "end": "2026-11-06/08:16"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-06/08:00",
-    "end": "2026-11-06/09:00"
+    "titulo": "Lo mejor de El precio de la historia / T2 E13 Navidad en Las Vegas",
+    "sta": "2026-11-06/08:16",
+    "end": "2026-11-06/09:01"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-06/09:00",
-    "end": "2026-11-06/10:00"
+    "titulo": "Cazadores de tesoros / T22 E19 Los secretos del hotel",
+    "sta": "2026-11-06/09:01",
+    "end": "2026-11-06/09:47"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-06/10:00",
-    "end": "2026-11-06/12:00"
+    "titulo": "Gigantes de la comida / T5 E4 Amanecer en un vaso",
+    "sta": "2026-11-06/09:47",
+    "end": "2026-11-06/10:33"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-06/12:00",
-    "end": "2026-11-06/13:00"
+    "titulo": "La evidencia está entre nosotros / T3 E5 El pie grande de la montaña de mármol y los susurros de la mina Waldek",
+    "sta": "2026-11-06/10:33",
+    "end": "2026-11-06/11:20"
   },
   {
-    "titulo": "Bundesliga Weekly",
-    "sta": "2026-11-06/13:00",
-    "end": "2026-11-06/13:20"
+    "titulo": "Increíble con Dan Aykroyd / T1 E4 Armas insólitas",
+    "sta": "2026-11-06/11:20",
+    "end": "2026-11-06/12:07"
   },
   {
-    "titulo": "Fútbol Bundesliga / VfB Stuttgart vs. Werder Bremen",
-    "sta": "2026-11-06/13:20",
-    "end": "2026-11-06/15:30"
+    "titulo": "La 2da Guerra Desde el Espacio",
+    "sta": "2026-11-06/12:07",
+    "end": "2026-11-06/13:42"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-06/15:30",
-    "end": "2026-11-06/16:00"
+    "titulo": "MonsterQuest",
+    "sta": "2026-11-06/13:42",
+    "end": "2026-11-06/14:32"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-06/16:00",
-    "end": "2026-11-06/17:00"
+    "titulo": "MonsterQuest / T4 E4 Abejas gigantes asesinas",
+    "sta": "2026-11-06/14:32",
+    "end": "2026-11-06/15:22"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-06/17:00",
-    "end": "2026-11-06/18:00"
+    "titulo": "MysteryQuest / T1 E7 Alcatraz: La Roca",
+    "sta": "2026-11-06/15:22",
+    "end": "2026-11-06/16:13"
   },
   {
-    "titulo": "Fútbol Mexicano Femenino Primera División / Guadalajara vs. Club América",
-    "sta": "2026-11-06/18:00",
+    "titulo": "MysteryQuest / T1 E10 El regreso al horror de Amityville",
+    "sta": "2026-11-06/16:13",
+    "end": "2026-11-06/17:04"
+  },
+  {
+    "titulo": "Misterios del pantano",
+    "sta": "2026-11-06/17:04",
+    "end": "2026-11-06/17:52"
+  },
+  {
+    "titulo": "Misterios del pantano / T2 E1 Cerdos voodoo",
+    "sta": "2026-11-06/17:52",
+    "end": "2026-11-06/18:40"
+  },
+  {
+    "titulo": "Triángulo de las Bermudas: Aguas malditas / T1 E4 Espías en lo profundo",
+    "sta": "2026-11-06/18:40",
+    "end": "2026-11-06/19:27"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T1 E2 Tesoros ocultos",
+    "sta": "2026-11-06/19:27",
+    "end": "2026-11-06/20:14"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E19",
+    "sta": "2026-11-06/20:14",
     "end": "2026-11-06/21:00"
   },
   {
-    "titulo": "Fútbol Mexicano Femenino Primera División / FC Juárez vs. Monterrey",
+    "titulo": "Increíble con Dan Aykroyd",
     "sta": "2026-11-06/21:00",
-    "end": "2026-11-06/23:00"
+    "end": "2026-11-06/21:47"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-06/23:00",
-    "end": "2026-11-07/00:00"
+    "titulo": "Increíble con Dan Aykroyd / T3 E3",
+    "sta": "2026-11-06/21:47",
+    "end": "2026-11-06/22:34"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-07/00:00",
-    "end": "2026-11-07/01:00"
+    "titulo": "Expedientes desclasificados con David Duchovny",
+    "sta": "2026-11-06/22:34",
+    "end": "2026-11-06/23:21"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-07/01:00",
-    "end": "2026-11-07/02:00"
+    "titulo": "History's Greatest Machines With Dolph Lundgren / T1 E1",
+    "sta": "2026-11-06/23:21",
+    "end": "2026-11-07/00:11"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-07/02:00",
-    "end": "2026-11-07/03:00"
+    "titulo": "El precio de la historia / T14 E22 Las Vegas",
+    "sta": "2026-11-07/00:11",
+    "end": "2026-11-07/00:33"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-07/03:00",
-    "end": "2026-11-07/04:00"
+    "titulo": "Increíble con Dan Aykroyd / T2 E1 Vino desde arriba",
+    "sta": "2026-11-07/00:33",
+    "end": "2026-11-07/01:18"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-07/04:00",
-    "end": "2026-11-07/05:00"
+    "titulo": "El peregrino / T1 E1 Ucrania: Las heridas de la guerra",
+    "sta": "2026-11-07/01:18",
+    "end": "2026-11-07/02:06"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-07/05:00",
+    "titulo": "El peregrino / T1 E2 México y los rituales del Día de los Muertos",
+    "sta": "2026-11-07/02:06",
+    "end": "2026-11-07/02:54"
+  },
+  {
+    "titulo": "MonsterQuest",
+    "sta": "2026-11-07/02:54",
+    "end": "2026-11-07/03:40"
+  },
+  {
+    "titulo": "MonsterQuest / T4 E4 Abejas gigantes asesinas",
+    "sta": "2026-11-07/03:40",
+    "end": "2026-11-07/04:26"
+  },
+  {
+    "titulo": "MysteryQuest",
+    "sta": "2026-11-07/04:26",
+    "end": "2026-11-07/05:13"
+  },
+  {
+    "titulo": "MysteryQuest / T1 E6 El ascenso del Cuarto Reich",
+    "sta": "2026-11-07/05:13",
     "end": "2026-11-07/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "El precio de la historia / T17 E18 Para fanáticos del baseball",
     "sta": "2026-11-07/06:00",
-    "end": "2026-11-07/07:00"
+    "end": "2026-11-07/06:46"
   },
   {
-    "titulo": "Premier League Stories",
-    "sta": "2026-11-07/07:00",
+    "titulo": "El precio de la historia",
+    "sta": "2026-11-07/06:46",
     "end": "2026-11-07/07:30"
   },
   {
-    "titulo": "Premier League Big Interview",
+    "titulo": "Lo mejor de El precio de la historia / T1 E12 Empeños del lejano oeste",
     "sta": "2026-11-07/07:30",
-    "end": "2026-11-07/08:00"
+    "end": "2026-11-07/08:13"
   },
   {
-    "titulo": "Fútbol Bundesliga / Discovery: Bundesliga 1",
-    "sta": "2026-11-07/08:00",
-    "end": "2026-11-07/08:20"
+    "titulo": "Lo mejor de El precio de la historia / T5 E3 Empeño de cómics",
+    "sta": "2026-11-07/08:13",
+    "end": "2026-11-07/08:56"
   },
   {
-    "titulo": "Fútbol Bundesliga / 1. FSV Mainz 05 vs. Bayern Munich",
-    "sta": "2026-11-07/08:20",
-    "end": "2026-11-07/10:30"
+    "titulo": "Lo mejor de El precio de la historia / T2 E1 Negocio jonrón",
+    "sta": "2026-11-07/08:56",
+    "end": "2026-11-07/09:40"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-07/10:30",
-    "end": "2026-11-07/11:20"
+    "titulo": "El precio de la historia / T17 E10 Ship Happens",
+    "sta": "2026-11-07/09:40",
+    "end": "2026-11-07/10:23"
   },
   {
-    "titulo": "Fútbol Bundesliga / VfB Stuttgart vs. Werder Bremen",
-    "sta": "2026-11-07/11:20",
-    "end": "2026-11-07/13:30"
+    "titulo": "El precio de la historia / T17 E12 Bonanza",
+    "sta": "2026-11-07/10:23",
+    "end": "2026-11-07/11:09"
   },
   {
-    "titulo": "Fútbol Ligue 1 / Paris Saint-Germain vs. ESTAC Troyes",
-    "sta": "2026-11-07/13:30",
-    "end": "2026-11-07/16:00"
+    "titulo": "El precio de la historia / T12 E32 Uno en un millón",
+    "sta": "2026-11-07/11:09",
+    "end": "2026-11-07/11:33"
   },
   {
-    "titulo": "La Previa: Liga MX",
-    "sta": "2026-11-07/16:00",
-    "end": "2026-11-07/16:45"
+    "titulo": "El precio de la historia / T12 E41 Basura o tesoro",
+    "sta": "2026-11-07/11:33",
+    "end": "2026-11-07/11:57"
   },
   {
-    "titulo": "Fútbol Mexicano Primera División / Tigres UANL vs. Cruz Azul",
-    "sta": "2026-11-07/16:45",
-    "end": "2026-11-07/19:00"
+    "titulo": "El precio de la historia / T12 E43 Restauraciones Extraordinarias",
+    "sta": "2026-11-07/11:57",
+    "end": "2026-11-07/12:21"
   },
   {
-    "titulo": "Lucha Libre AAA / E478",
-    "sta": "2026-11-07/19:00",
-    "end": "2026-11-07/20:00"
+    "titulo": "El precio de la historia / T18 E2 Rick va con el viento",
+    "sta": "2026-11-07/12:21",
+    "end": "2026-11-07/13:08"
   },
   {
-    "titulo": "Lucha Libre AAA / E471",
-    "sta": "2026-11-07/20:00",
+    "titulo": "El precio de la historia / T23 E1 Empeña mi corazón",
+    "sta": "2026-11-07/13:08",
+    "end": "2026-11-07/13:55"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T5 E21",
+    "sta": "2026-11-07/13:55",
+    "end": "2026-11-07/14:42"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T7 E1 La edad dorada de los piratas",
+    "sta": "2026-11-07/14:42",
+    "end": "2026-11-07/15:30"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / Lo mejor de: Caos de monstruos",
+    "sta": "2026-11-07/15:30",
+    "end": "2026-11-07/16:18"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T1 E7 Descubrimientos bestiales",
+    "sta": "2026-11-07/16:18",
+    "end": "2026-11-07/17:05"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E19",
+    "sta": "2026-11-07/17:05",
+    "end": "2026-11-07/17:51"
+  },
+  {
+    "titulo": "History's Greatest Machines With Dolph Lundgren / T1 E1",
+    "sta": "2026-11-07/17:51",
+    "end": "2026-11-07/18:38"
+  },
+  {
+    "titulo": "El precio de la historia / T22 E5 Peones y rosas",
+    "sta": "2026-11-07/18:38",
+    "end": "2026-11-07/19:25"
+  },
+  {
+    "titulo": "El precio de la historia / T19 E11 Declaración de independencia",
+    "sta": "2026-11-07/19:25",
+    "end": "2026-11-07/20:12"
+  },
+  {
+    "titulo": "Inexplicable: Más allá de la evidencia",
+    "sta": "2026-11-07/20:12",
     "end": "2026-11-07/21:00"
   },
   {
-    "titulo": "Cleatus Fantasy Football Show",
+    "titulo": "Expedientes desclasificados con David Duchovny",
     "sta": "2026-11-07/21:00",
-    "end": "2026-11-07/22:00"
+    "end": "2026-11-07/21:47"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-07/22:00",
-    "end": "2026-11-07/23:00"
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-07/21:47",
+    "end": "2026-11-07/22:35"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-07/23:00",
-    "end": "2026-11-08/00:00"
+    "titulo": "Alienígenas ancestrales / T18 E14 En el lugar: Investigaciones ovni",
+    "sta": "2026-11-07/22:35",
+    "end": "2026-11-07/23:22"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-08/00:00",
-    "end": "2026-11-08/01:00"
+    "titulo": "Alienígenas ancestrales / T21 E10",
+    "sta": "2026-11-07/23:22",
+    "end": "2026-11-08/00:10"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-08/01:00",
-    "end": "2026-11-08/02:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E7 Cercano oeste",
+    "sta": "2026-11-08/00:10",
+    "end": "2026-11-08/00:55"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-08/02:00",
-    "end": "2026-11-08/03:00"
+    "titulo": "Lo mejor de El precio de la historia / T4 E9 Negocios por la patria",
+    "sta": "2026-11-08/00:55",
+    "end": "2026-11-08/01:39"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-08/03:00",
-    "end": "2026-11-08/04:00"
+    "titulo": "Lo mejor de El precio de la historia / T5 E2 Negocios de costa a costa",
+    "sta": "2026-11-08/01:39",
+    "end": "2026-11-08/02:22"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-08/04:00",
-    "end": "2026-11-08/05:00"
+    "titulo": "Lo mejor de El precio de la historia / T5 E3 Empeño de cómics",
+    "sta": "2026-11-08/02:22",
+    "end": "2026-11-08/03:06"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-08/05:00",
+    "titulo": "El precio de la historia / T20 E10 ¿Sí o no?",
+    "sta": "2026-11-08/03:06",
+    "end": "2026-11-08/03:50"
+  },
+  {
+    "titulo": "El precio de la historia / T20 E7 El maestro de la carretera Rick",
+    "sta": "2026-11-08/03:50",
+    "end": "2026-11-08/04:34"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E20 Tratos dulces",
+    "sta": "2026-11-08/04:34",
+    "end": "2026-11-08/05:17"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E10 Ship Happens",
+    "sta": "2026-11-08/05:17",
     "end": "2026-11-08/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Lo mejor de El precio de la historia / T5 E1 Empeño icónico",
     "sta": "2026-11-08/06:00",
-    "end": "2026-11-08/07:00"
+    "end": "2026-11-08/06:44"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-08/07:00",
+    "titulo": "Lo mejor de El precio de la historia / T5 E2 Negocios de costa a costa",
+    "sta": "2026-11-08/06:44",
+    "end": "2026-11-08/07:28"
+  },
+  {
+    "titulo": "El precio de la historia / T12 E43 Restauraciones Extraordinarias",
+    "sta": "2026-11-08/07:28",
     "end": "2026-11-08/07:50"
   },
   {
-    "titulo": "Fútbol Premier League / Ipswich Town vs. Bournemouth",
+    "titulo": "El precio de la historia / T20 E10 ¿Sí o no?",
     "sta": "2026-11-08/07:50",
-    "end": "2026-11-08/10:00"
+    "end": "2026-11-08/08:34"
   },
   {
-    "titulo": "Premier League Stories",
-    "sta": "2026-11-08/10:00",
-    "end": "2026-11-08/10:30"
+    "titulo": "El precio de la historia / T21 E2 Hasta la vista baby",
+    "sta": "2026-11-08/08:34",
+    "end": "2026-11-08/09:18"
   },
   {
-    "titulo": "NFL GameDay",
-    "sta": "2026-11-08/10:30",
-    "end": "2026-11-08/11:00"
+    "titulo": "El precio de la historia / T20 E3 El auto de Grease",
+    "sta": "2026-11-08/09:18",
+    "end": "2026-11-08/10:03"
   },
   {
-    "titulo": "FOX NFL Sunday",
-    "sta": "2026-11-08/11:00",
-    "end": "2026-11-08/12:00"
+    "titulo": "Lo mejor de El precio de la historia / T1 E15 Harrison contra Harrison",
+    "sta": "2026-11-08/10:03",
+    "end": "2026-11-08/10:50"
   },
   {
-    "titulo": "Fútbol Americano NFL / New York Jets vs. Kansas City Chiefs",
-    "sta": "2026-11-08/12:00",
-    "end": "2026-11-08/15:00"
+    "titulo": "Lo mejor de El precio de la historia / T1 E14 Solo para Rick",
+    "sta": "2026-11-08/10:50",
+    "end": "2026-11-08/11:38"
   },
   {
-    "titulo": "Fútbol Americano NFL / Arizona Cardinals vs. Seattle Seahawks",
-    "sta": "2026-11-08/15:00",
-    "end": "2026-11-08/18:00"
+    "titulo": "El precio de la historia / T17 E1 El revólver",
+    "sta": "2026-11-08/11:38",
+    "end": "2026-11-08/12:25"
   },
   {
-    "titulo": "Fútbol Mexicano Primera División / Querétaro vs. Puebla",
-    "sta": "2026-11-08/18:00",
-    "end": "2026-11-08/20:00"
+    "titulo": "El precio de la historia / T17 E6 Tragamonedas y robots",
+    "sta": "2026-11-08/12:25",
+    "end": "2026-11-08/13:12"
   },
   {
-    "titulo": "UEFA Champions League Magazine / E10",
-    "sta": "2026-11-08/20:00",
-    "end": "2026-11-08/20:30"
+    "titulo": "El precio de la historia / T14 E14 El viejo Ronald",
+    "sta": "2026-11-08/13:12",
+    "end": "2026-11-08/13:36"
   },
   {
-    "titulo": "Premier League Stories",
-    "sta": "2026-11-08/20:30",
-    "end": "2026-11-08/21:00"
+    "titulo": "El precio de la historia / T18 E2 Rick va con el viento",
+    "sta": "2026-11-08/13:36",
+    "end": "2026-11-08/14:23"
   },
   {
-    "titulo": "Lucha Libre AAA / E471",
-    "sta": "2026-11-08/21:00",
-    "end": "2026-11-08/22:00"
+    "titulo": "El precio de la historia / T14 E27 Súper trato",
+    "sta": "2026-11-08/14:23",
+    "end": "2026-11-08/14:47"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-08/22:00",
-    "end": "2026-11-08/23:00"
+    "titulo": "El precio de la historia / T18 E12 Dame rock",
+    "sta": "2026-11-08/14:47",
+    "end": "2026-11-08/15:34"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-08/23:00",
-    "end": "2026-11-09/00:00"
+    "titulo": "El precio de la historia / T19 E11 Declaración de independencia",
+    "sta": "2026-11-08/15:34",
+    "end": "2026-11-08/16:21"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-09/00:00",
-    "end": "2026-11-09/01:00"
+    "titulo": "El precio de la historia / T14 E14 El viejo Ronald",
+    "sta": "2026-11-08/16:21",
+    "end": "2026-11-08/16:45"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-09/01:00",
-    "end": "2026-11-09/02:00"
+    "titulo": "El precio de la historia / T14 E30 Dinero para empeñar",
+    "sta": "2026-11-08/16:45",
+    "end": "2026-11-08/17:09"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-09/02:00",
-    "end": "2026-11-09/03:00"
+    "titulo": "El precio de la historia en la carretera / T2 E8 Carreras de caballos en Louisville",
+    "sta": "2026-11-08/17:09",
+    "end": "2026-11-08/18:37"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-09/03:00",
-    "end": "2026-11-09/05:00"
+    "titulo": "El precio de la historia / T24 E8",
+    "sta": "2026-11-08/18:37",
+    "end": "2026-11-08/19:23"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-09/05:00",
+    "titulo": "Lo mejor de El precio de la historia / T2 E11 Restauraciones de Rick",
+    "sta": "2026-11-08/19:23",
+    "end": "2026-11-08/20:10"
+  },
+  {
+    "titulo": "Gigantes de la industria: Megamarcas / T3 E10 Reinventando la rueda",
+    "sta": "2026-11-08/20:10",
+    "end": "2026-11-08/20:58"
+  },
+  {
+    "titulo": "Gigantes de la industria: Megamarcas / T3 E8",
+    "sta": "2026-11-08/20:58",
+    "end": "2026-11-08/21:46"
+  },
+  {
+    "titulo": "Gigantes de la industria: Megamarcas",
+    "sta": "2026-11-08/21:46",
+    "end": "2026-11-08/22:34"
+  },
+  {
+    "titulo": "Gigantes de la industria: Megamarcas / T3 E5",
+    "sta": "2026-11-08/22:34",
+    "end": "2026-11-08/23:22"
+  },
+  {
+    "titulo": "Gigantes de la industria: Megamarcas",
+    "sta": "2026-11-08/23:22",
+    "end": "2026-11-09/00:11"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E1 Muscle cars y barras de oro",
+    "sta": "2026-11-09/00:11",
+    "end": "2026-11-09/00:56"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E2 Grandes puntajes",
+    "sta": "2026-11-09/00:56",
+    "end": "2026-11-09/01:39"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E14 El viejo Ronald",
+    "sta": "2026-11-09/01:39",
+    "end": "2026-11-09/02:01"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E30 Dinero para empeñar",
+    "sta": "2026-11-09/02:01",
+    "end": "2026-11-09/02:23"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E3 Superarmas, superganancias",
+    "sta": "2026-11-09/02:23",
+    "end": "2026-11-09/03:07"
+  },
+  {
+    "titulo": "El precio de la historia en la carretera / T2 E7 Tampa paga bien",
+    "sta": "2026-11-09/03:07",
+    "end": "2026-11-09/04:34"
+  },
+  {
+    "titulo": "El precio de la historia en la carretera / T2 E2 El estado del sol",
+    "sta": "2026-11-09/04:34",
     "end": "2026-11-09/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Desaparecidos",
     "sta": "2026-11-09/06:00",
-    "end": "2026-11-09/07:00"
+    "end": "2026-11-09/07:28"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-09/07:00",
-    "end": "2026-11-09/08:00"
+    "titulo": "El precio de la historia / T17 E24 Caja fuerte",
+    "sta": "2026-11-09/07:28",
+    "end": "2026-11-09/08:13"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-09/08:00",
-    "end": "2026-11-09/09:00"
+    "titulo": "El precio de la historia / T15 E8 La Biblia del 1500",
+    "sta": "2026-11-09/08:13",
+    "end": "2026-11-09/08:35"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-09/09:00",
-    "end": "2026-11-09/11:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E9 Solo para fanáticos",
+    "sta": "2026-11-09/08:35",
+    "end": "2026-11-09/09:20"
   },
   {
-    "titulo": "Fútbol Americano NFL / Dallas Cowboys vs. Indianapolis Colts",
-    "sta": "2026-11-09/11:00",
-    "end": "2026-11-09/14:00"
+    "titulo": "Cazadores de tesoros / T22 E16 Bajo los escombros",
+    "sta": "2026-11-09/09:20",
+    "end": "2026-11-09/10:05"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E9",
-    "sta": "2026-11-09/14:00",
-    "end": "2026-11-09/15:00"
+    "titulo": "Gigantes de la comida / T5 E7 Campeones del desayuno",
+    "sta": "2026-11-09/10:05",
+    "end": "2026-11-09/10:53"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-09/15:00",
-    "end": "2026-11-09/16:00"
+    "titulo": "La evidencia está entre nosotros / T3 E6 El monstruo del lago y el rey rata",
+    "sta": "2026-11-09/10:53",
+    "end": "2026-11-09/11:39"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-09/16:00",
-    "end": "2026-11-09/17:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E5 Inventos extraordinarios",
+    "sta": "2026-11-09/11:39",
+    "end": "2026-11-09/12:26"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-09/17:00",
-    "end": "2026-11-09/18:00"
+    "titulo": "La caída de el Chapo",
+    "sta": "2026-11-09/12:26",
+    "end": "2026-11-09/13:57"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E9",
-    "sta": "2026-11-09/18:00",
-    "end": "2026-11-09/19:00"
+    "titulo": "El precio de la historia / T17 E14 Elfo de Harry Potter",
+    "sta": "2026-11-09/13:57",
+    "end": "2026-11-09/14:44"
   },
   {
-    "titulo": "Fútbol Mexicano Femenino Primera División / Guadalajara vs. Club América",
-    "sta": "2026-11-09/19:00",
+    "titulo": "El precio de la historia / T17 E21 Ídolo del béisbol",
+    "sta": "2026-11-09/14:44",
+    "end": "2026-11-09/15:31"
+  },
+  {
+    "titulo": "El precio de la historia / T20 E7 El maestro de la carretera Rick",
+    "sta": "2026-11-09/15:31",
+    "end": "2026-11-09/16:18"
+  },
+  {
+    "titulo": "El precio de la historia / T21 E9 Los pantalones de Keith Richards",
+    "sta": "2026-11-09/16:18",
+    "end": "2026-11-09/17:05"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E9 Solo para fanáticos",
+    "sta": "2026-11-09/17:05",
+    "end": "2026-11-09/17:52"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E20 Tratos dulces",
+    "sta": "2026-11-09/17:52",
+    "end": "2026-11-09/18:39"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E8 Negocio de gangsters",
+    "sta": "2026-11-09/18:39",
+    "end": "2026-11-09/19:26"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros / T24 Las gemas ocultas de América",
+    "sta": "2026-11-09/19:26",
+    "end": "2026-11-09/20:13"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros / T23 Motores magníficos",
+    "sta": "2026-11-09/20:13",
     "end": "2026-11-09/21:00"
   },
   {
-    "titulo": "Código Fox Fútbol",
+    "titulo": "Lo mejor de Cazadores de tesoros",
     "sta": "2026-11-09/21:00",
-    "end": "2026-11-09/22:00"
+    "end": "2026-11-09/21:47"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-09/22:00",
-    "end": "2026-11-09/23:00"
+    "titulo": "Lo mejor de El precio de la historia / T5 E1 Empeño icónico",
+    "sta": "2026-11-09/21:47",
+    "end": "2026-11-09/22:34"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-09/23:00",
-    "end": "2026-11-10/00:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E9 Solo para fanáticos",
+    "sta": "2026-11-09/22:34",
+    "end": "2026-11-09/23:21"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E9",
-    "sta": "2026-11-10/00:00",
-    "end": "2026-11-10/01:00"
+    "titulo": "El precio de la historia",
+    "sta": "2026-11-09/23:21",
+    "end": "2026-11-10/00:08"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-10/01:00",
-    "end": "2026-11-10/02:00"
+    "titulo": "El precio de la historia / T18 E8 Necesidad de velocidad",
+    "sta": "2026-11-10/00:08",
+    "end": "2026-11-10/00:53"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-10/02:00",
-    "end": "2026-11-10/03:00"
+    "titulo": "Increíble con Dan Aykroyd / T2 E2 Dulce venganza",
+    "sta": "2026-11-10/00:53",
+    "end": "2026-11-10/01:38"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-10/03:00",
-    "end": "2026-11-10/05:00"
+    "titulo": "Lo mejor de El precio de la historia / T4 E9 Negocios por la patria",
+    "sta": "2026-11-10/01:38",
+    "end": "2026-11-10/02:21"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-10/05:00",
+    "titulo": "Lo mejor de El precio de la historia / T3 E3 Reliquias inusuales",
+    "sta": "2026-11-10/02:21",
+    "end": "2026-11-10/03:04"
+  },
+  {
+    "titulo": "El precio de la historia / T16 E14 Un trato de arte: Picasso",
+    "sta": "2026-11-10/03:04",
+    "end": "2026-11-10/03:47"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T20 E15 Una pareja de alto octanaje",
+    "sta": "2026-11-10/03:47",
+    "end": "2026-11-10/04:31"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T22 E21 Dulce miel",
+    "sta": "2026-11-10/04:31",
+    "end": "2026-11-10/05:15"
+  },
+  {
+    "titulo": "Lo mejor de Cazadores de tesoros",
+    "sta": "2026-11-10/05:15",
     "end": "2026-11-10/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Mengele",
     "sta": "2026-11-10/06:00",
-    "end": "2026-11-10/07:00"
+    "end": "2026-11-10/07:34"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-10/07:00",
-    "end": "2026-11-10/08:00"
+    "titulo": "El precio de la historia / T17 E27 Bala perdida",
+    "sta": "2026-11-10/07:34",
+    "end": "2026-11-10/08:20"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-10/08:00",
-    "end": "2026-11-10/09:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E20 Tratos dulces",
+    "sta": "2026-11-10/08:20",
+    "end": "2026-11-10/09:06"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-10/09:00",
-    "end": "2026-11-10/10:00"
+    "titulo": "Cazadores de tesoros / T22 E17 Cazando violines",
+    "sta": "2026-11-10/09:06",
+    "end": "2026-11-10/09:53"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-10/10:00",
-    "end": "2026-11-10/12:00"
+    "titulo": "Gigantes de la comida / T5 E9 Leyendas de la lonchera",
+    "sta": "2026-11-10/09:53",
+    "end": "2026-11-10/10:40"
   },
   {
-    "titulo": "Código Fox Fútbol",
-    "sta": "2026-11-10/12:00",
-    "end": "2026-11-10/13:00"
+    "titulo": "La evidencia está entre nosotros / T3 E7 Escobas voladoras no identificadas vs volcanes",
+    "sta": "2026-11-10/10:40",
+    "end": "2026-11-10/11:28"
   },
   {
-    "titulo": "Ligue 1 HL Show",
-    "sta": "2026-11-10/13:00",
-    "end": "2026-11-10/13:30"
+    "titulo": "Increíble con Dan Aykroyd / T1 E10 Sobreviviendo lo imposible",
+    "sta": "2026-11-10/11:28",
+    "end": "2026-11-10/12:16"
   },
   {
-    "titulo": "Bundesliga Highlights Show",
-    "sta": "2026-11-10/13:30",
-    "end": "2026-11-10/14:30"
+    "titulo": "La caída de Pablo Escobar",
+    "sta": "2026-11-10/12:16",
+    "end": "2026-11-10/13:51"
   },
   {
-    "titulo": "Ligue 1 HL Show",
-    "sta": "2026-11-10/14:30",
-    "end": "2026-11-10/15:00"
+    "titulo": "La evidencia está entre nosotros / T4 E10 Gusano en el cielo, restos esqueléticos misteriosos y sonidos misteriosos de tesalónica",
+    "sta": "2026-11-10/13:51",
+    "end": "2026-11-10/14:38"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-10/15:00",
-    "end": "2026-11-10/16:00"
+    "titulo": "La evidencia está entre nosotros / T5 E9 Aliens en el sol, megalodón en Japón y la cueva extraterrestre",
+    "sta": "2026-11-10/14:38",
+    "end": "2026-11-10/15:25"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-10/16:00",
+    "titulo": "No identificado / T1 E2 Lluvia de ovnis",
+    "sta": "2026-11-10/15:25",
+    "end": "2026-11-10/16:12"
+  },
+  {
+    "titulo": "No identificado / T2 E4 Amenaza al planeta",
+    "sta": "2026-11-10/16:12",
     "end": "2026-11-10/17:00"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
+    "titulo": "Inexplicable, con William Shatner / T1 E2 Estructuras desconocidas",
     "sta": "2026-11-10/17:00",
-    "end": "2026-11-10/18:00"
+    "end": "2026-11-10/17:48"
   },
   {
-    "titulo": "Salón de la fama",
-    "sta": "2026-11-10/18:00",
-    "end": "2026-11-10/20:00"
+    "titulo": "Inexplicable, con William Shatner / T4 E7 Tumbas misteriosas",
+    "sta": "2026-11-10/17:48",
+    "end": "2026-11-10/18:36"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-10/20:00",
-    "end": "2026-11-10/21:00"
+    "titulo": "Increíble con Dan Aykroyd / T2 E1 Vino desde arriba",
+    "sta": "2026-11-10/18:36",
+    "end": "2026-11-10/19:23"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-10/21:00",
-    "end": "2026-11-10/22:00"
+    "titulo": "Increíble con Dan Aykroyd",
+    "sta": "2026-11-10/19:23",
+    "end": "2026-11-10/20:10"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-10/22:00",
-    "end": "2026-11-10/23:00"
+    "titulo": "La evidencia está entre nosotros / T5 E18",
+    "sta": "2026-11-10/20:10",
+    "end": "2026-11-10/20:56"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-10/23:00",
-    "end": "2026-11-11/00:00"
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-10/20:56",
+    "end": "2026-11-10/21:44"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-11/00:00",
-    "end": "2026-11-11/01:00"
+    "titulo": "Alienígenas ancestrales / T13 E6 Área 52",
+    "sta": "2026-11-10/21:44",
+    "end": "2026-11-10/22:32"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-11/01:00",
-    "end": "2026-11-11/02:00"
+    "titulo": "Alienígenas ancestrales / T5 E12 Los monolitos",
+    "sta": "2026-11-10/22:32",
+    "end": "2026-11-10/23:19"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-11/02:00",
-    "end": "2026-11-11/03:00"
+    "titulo": "Alienígenas ancestrales / T13 E2 Da Vinci: Códigos prohibidos",
+    "sta": "2026-11-10/23:19",
+    "end": "2026-11-11/00:07"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-11/03:00",
-    "end": "2026-11-11/05:00"
+    "titulo": "El precio de la historia / T18 E6 Remeras vintage de rock",
+    "sta": "2026-11-11/00:07",
+    "end": "2026-11-11/00:51"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-11/05:00",
+    "titulo": "Increíble con Dan Aykroyd / T2 E3 Seres fantásticos",
+    "sta": "2026-11-11/00:51",
+    "end": "2026-11-11/01:36"
+  },
+  {
+    "titulo": "Alienígenas ancestrales / T17 E3 Los 10 encubrimientos más grandes",
+    "sta": "2026-11-11/01:36",
+    "end": "2026-11-11/02:20"
+  },
+  {
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-11/02:20",
+    "end": "2026-11-11/03:04"
+  },
+  {
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-11/03:04",
+    "end": "2026-11-11/03:48"
+  },
+  {
+    "titulo": "Grandes misterios de la historia / T3 E7 El vuelo de Malasia 370",
+    "sta": "2026-11-11/03:48",
+    "end": "2026-11-11/04:32"
+  },
+  {
+    "titulo": "Grandes misterios de la historia / T3 E10 Jack el destripador",
+    "sta": "2026-11-11/04:32",
+    "end": "2026-11-11/05:16"
+  },
+  {
+    "titulo": "Grandes misterios de la historia / T4 E8 El tesoro perdido de Barbanegra",
+    "sta": "2026-11-11/05:16",
     "end": "2026-11-11/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Oro Rojo",
     "sta": "2026-11-11/06:00",
-    "end": "2026-11-11/07:00"
+    "end": "2026-11-11/07:29"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-11/07:00",
-    "end": "2026-11-11/08:00"
+    "titulo": "El precio de la historia / T17 E25 Buenos compañeros",
+    "sta": "2026-11-11/07:29",
+    "end": "2026-11-11/08:15"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-11/08:00",
-    "end": "2026-11-11/09:00"
+    "titulo": "Lo mejor de El precio de la historia / T3 E5 Buena comida",
+    "sta": "2026-11-11/08:15",
+    "end": "2026-11-11/09:01"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-11/09:00",
-    "end": "2026-11-11/10:00"
+    "titulo": "Cazadores de tesoros / T22 E18 En el paraíso",
+    "sta": "2026-11-11/09:01",
+    "end": "2026-11-11/09:48"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-11/10:00",
-    "end": "2026-11-11/12:00"
+    "titulo": "Gigantes de la comida / T5 E8 Planeta Mars",
+    "sta": "2026-11-11/09:48",
+    "end": "2026-11-11/10:37"
   },
   {
-    "titulo": "Cleatus Fantasy Football Show",
-    "sta": "2026-11-11/12:00",
-    "end": "2026-11-11/13:00"
+    "titulo": "La evidencia está entre nosotros / T3 E8 El monstruo de la Isla Hook y el fantasma del carguero de Somalia",
+    "sta": "2026-11-11/10:37",
+    "end": "2026-11-11/11:25"
   },
   {
-    "titulo": "FOX NFL Weekly / T1 E9",
-    "sta": "2026-11-11/13:00",
-    "end": "2026-11-11/14:00"
+    "titulo": "Increíble con Dan Aykroyd / T1 E8 Experimentos extraños",
+    "sta": "2026-11-11/11:25",
+    "end": "2026-11-11/12:13"
   },
   {
-    "titulo": "Ligue 1 HL Show",
-    "sta": "2026-11-11/14:00",
-    "end": "2026-11-11/14:30"
+    "titulo": "Las cinco familias: capos de la mafia / T1 E1 La muerte de las viejas reglas",
+    "sta": "2026-11-11/12:13",
+    "end": "2026-11-11/13:47"
   },
   {
-    "titulo": "Netbusters",
-    "sta": "2026-11-11/14:30",
-    "end": "2026-11-11/15:00"
+    "titulo": "Cazadores de tesoros / T23 E12 Un mustang en el granero",
+    "sta": "2026-11-11/13:47",
+    "end": "2026-11-11/14:35"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-11/15:00",
-    "end": "2026-11-11/16:00"
+    "titulo": "Cazadores de tesoros / T22 E11 El gran Texano",
+    "sta": "2026-11-11/14:35",
+    "end": "2026-11-11/15:23"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-11/16:00",
-    "end": "2026-11-11/17:00"
+    "titulo": "Lo mejor de Cazadores de tesoros",
+    "sta": "2026-11-11/15:23",
+    "end": "2026-11-11/16:11"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-11/17:00",
-    "end": "2026-11-11/18:00"
+    "titulo": "Cazadores de tesoros",
+    "sta": "2026-11-11/16:11",
+    "end": "2026-11-11/16:59"
   },
   {
-    "titulo": "Fútbol Mexicano Primera División / Tigres UANL vs. Cruz Azul",
-    "sta": "2026-11-11/18:00",
-    "end": "2026-11-11/20:00"
+    "titulo": "Cazadores de tesoros / T22 E8 Hot rods de Hollywood",
+    "sta": "2026-11-11/16:59",
+    "end": "2026-11-11/17:48"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-11/20:00",
-    "end": "2026-11-11/22:00"
+    "titulo": "Cazadores de tesoros / T23 E6 Cazando por San Francisco",
+    "sta": "2026-11-11/17:48",
+    "end": "2026-11-11/18:37"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-11/22:00",
-    "end": "2026-11-11/23:00"
+    "titulo": "Lo mejor de Cazadores de tesoros / T23 Motores magníficos",
+    "sta": "2026-11-11/18:37",
+    "end": "2026-11-11/19:26"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-11/23:00",
-    "end": "2026-11-12/00:00"
+    "titulo": "Lo mejor de El precio de la historia / T4 E9 Negocios por la patria",
+    "sta": "2026-11-11/19:26",
+    "end": "2026-11-11/20:13"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-12/00:00",
-    "end": "2026-11-12/01:00"
+    "titulo": "El precio de la historia",
+    "sta": "2026-11-11/20:13",
+    "end": "2026-11-11/21:00"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-12/01:00",
-    "end": "2026-11-12/02:00"
+    "titulo": "History's Greatest Machines With Dolph Lundgren / T1 E2",
+    "sta": "2026-11-11/21:00",
+    "end": "2026-11-11/21:46"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-12/02:00",
-    "end": "2026-11-12/03:00"
+    "titulo": "El precio de la historia / T17 E5 Nintendo clásico",
+    "sta": "2026-11-11/21:46",
+    "end": "2026-11-11/22:33"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-12/03:00",
-    "end": "2026-11-12/05:00"
+    "titulo": "El precio de la historia / T20 E7 El maestro de la carretera Rick",
+    "sta": "2026-11-11/22:33",
+    "end": "2026-11-11/23:20"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-12/05:00",
+    "titulo": "Lo mejor de El precio de la historia / T2 E2 Encuentro cercano de ciencia ficción",
+    "sta": "2026-11-11/23:20",
+    "end": "2026-11-12/00:06"
+  },
+  {
+    "titulo": "El precio de la historia / T18 E18 Érase una vez en Hollywood",
+    "sta": "2026-11-12/00:06",
+    "end": "2026-11-12/00:50"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T2 E15",
+    "sta": "2026-11-12/00:50",
+    "end": "2026-11-12/01:35"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T1 E6 Vida después de la muerte",
+    "sta": "2026-11-12/01:35",
+    "end": "2026-11-12/02:19"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T7 E3 Los perdidos",
+    "sta": "2026-11-12/02:19",
+    "end": "2026-11-12/03:03"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T1 E8 Sobrevivir a lo imposible",
+    "sta": "2026-11-12/03:03",
+    "end": "2026-11-12/03:48"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T5 E2",
+    "sta": "2026-11-12/03:48",
+    "end": "2026-11-12/04:32"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T4 E10 Gusano en el cielo, restos esqueléticos misteriosos y sonidos misteriosos de tesalónica",
+    "sta": "2026-11-12/04:32",
+    "end": "2026-11-12/05:16"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T3 E2 El asesino de pie grande y la escultura de hielo",
+    "sta": "2026-11-12/05:16",
     "end": "2026-11-12/06:00"
   },
   {
-    "titulo": "FOX 365",
+    "titulo": "Fuga de Alcatraz: La evidencia perdida",
     "sta": "2026-11-12/06:00",
-    "end": "2026-11-12/07:00"
+    "end": "2026-11-12/07:30"
   },
   {
-    "titulo": "Cuadro titular",
-    "sta": "2026-11-12/07:00",
-    "end": "2026-11-12/08:00"
+    "titulo": "El precio de la historia / T18 E7 Documentales desde la luna",
+    "sta": "2026-11-12/07:30",
+    "end": "2026-11-12/08:15"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-12/08:00",
-    "end": "2026-11-12/09:00"
+    "titulo": "El precio de la historia / T20 En el nombre del padre",
+    "sta": "2026-11-12/08:15",
+    "end": "2026-11-12/09:01"
   },
   {
-    "titulo": "FOX 365",
-    "sta": "2026-11-12/09:00",
-    "end": "2026-11-12/10:00"
+    "titulo": "Cazadores de tesoros / T22 E20 Tesoros radiactivos",
+    "sta": "2026-11-12/09:01",
+    "end": "2026-11-12/09:48"
   },
   {
-    "titulo": "El Chiringuito",
-    "sta": "2026-11-12/10:00",
-    "end": "2026-11-12/12:00"
+    "titulo": "Gigantes de la comida / T5 E2 Revolución del helado",
+    "sta": "2026-11-12/09:48",
+    "end": "2026-11-12/10:37"
   },
   {
-    "titulo": "UEFA Champions League Magazine",
-    "sta": "2026-11-12/12:00",
-    "end": "2026-11-12/12:30"
+    "titulo": "La evidencia está entre nosotros / T3 E9 El ovni de Panamá y el mar sangriento",
+    "sta": "2026-11-12/10:37",
+    "end": "2026-11-12/11:24"
   },
   {
-    "titulo": "Fútbol UEFA Champions League / Villarreal CF vs. Paris Saint-Germain",
-    "sta": "2026-11-12/12:30",
-    "end": "2026-11-12/14:30"
+    "titulo": "Increíble con Dan Aykroyd / T1 E9 Lo que no vemos allá abajo",
+    "sta": "2026-11-12/11:24",
+    "end": "2026-11-12/12:12"
   },
   {
-    "titulo": "Bundesliga Weekly",
-    "sta": "2026-11-12/14:30",
-    "end": "2026-11-12/15:00"
+    "titulo": "Las cinco familias: capos de la mafia / T1 E2 Ascenso de los nuevos capos",
+    "sta": "2026-11-12/12:12",
+    "end": "2026-11-12/13:47"
   },
   {
-    "titulo": "Mother Soccer",
-    "sta": "2026-11-12/15:00",
-    "end": "2026-11-12/16:00"
+    "titulo": "Grandes misterios de la historia / T3 E4 El hombre de Somerton",
+    "sta": "2026-11-12/13:47",
+    "end": "2026-11-12/14:35"
   },
   {
-    "titulo": "Referentes",
-    "sta": "2026-11-12/16:00",
-    "end": "2026-11-12/17:00"
+    "titulo": "Grandes misterios de la historia / T3 E9 El manuscrito Voynich",
+    "sta": "2026-11-12/14:35",
+    "end": "2026-11-12/15:23"
   },
   {
-    "titulo": "Los espartanos con José Pablo Coello",
-    "sta": "2026-11-12/17:00",
-    "end": "2026-11-12/18:00"
+    "titulo": "Inexplicable, con William Shatner / T4 E7 Tumbas misteriosas",
+    "sta": "2026-11-12/15:23",
+    "end": "2026-11-12/16:12"
   },
   {
-    "titulo": "FOX NFL Thursday Night Football",
-    "sta": "2026-11-12/18:00",
-    "end": "2026-11-12/19:00"
+    "titulo": "Inexplicable, con William Shatner / T4 E10 El eslabón perdido",
+    "sta": "2026-11-12/16:12",
+    "end": "2026-11-12/17:01"
   },
   {
-    "titulo": "Fútbol Americano NFL / Washington Commanders vs. New York Giants",
-    "sta": "2026-11-12/19:00",
-    "end": "2026-11-12/22:00"
+    "titulo": "Increíble con Dan Aykroyd / T2 E5 Mil maneras de morir",
+    "sta": "2026-11-12/17:01",
+    "end": "2026-11-12/17:49"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T2 E1 Vino desde arriba",
+    "sta": "2026-11-12/17:49",
+    "end": "2026-11-12/18:36"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros",
+    "sta": "2026-11-12/18:36",
+    "end": "2026-11-12/19:23"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T5 E18",
+    "sta": "2026-11-12/19:23",
+    "end": "2026-11-12/20:09"
+  },
+  {
+    "titulo": "MysteryQuest / T1 E10 El regreso al horror de Amityville",
+    "sta": "2026-11-12/20:09",
+    "end": "2026-11-12/21:00"
+  },
+  {
+    "titulo": "Grandes misterios de la historia con Laurence Fishburne",
+    "sta": "2026-11-12/21:00",
+    "end": "2026-11-12/21:48"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E16",
+    "sta": "2026-11-12/21:48",
+    "end": "2026-11-12/22:36"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T1 E1 Lugares malditos",
+    "sta": "2026-11-12/22:36",
+    "end": "2026-11-12/23:25"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T4 E10 El eslabón perdido",
+    "sta": "2026-11-12/23:25",
+    "end": "2026-11-13/00:14"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E27 Súper trato",
+    "sta": "2026-11-13/00:14",
+    "end": "2026-11-13/00:38"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T2 E7 Juegos extraños",
+    "sta": "2026-11-13/00:38",
+    "end": "2026-11-13/01:24"
+  },
+  {
+    "titulo": "Grandes escapes con Morgan Freeman / T2 E7 Túneles hacia la libertad",
+    "sta": "2026-11-13/01:24",
+    "end": "2026-11-13/02:10"
+  },
+  {
+    "titulo": "Grandes escapes con Morgan Freeman / T1 E2 Los túneles de Dannemora",
+    "sta": "2026-11-13/02:10",
+    "end": "2026-11-13/02:56"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E10 Los hallazgos más letales",
+    "sta": "2026-11-13/02:56",
+    "end": "2026-11-13/03:40"
+  },
+  {
+    "titulo": "El secreto de Skinwalker / T1 E6 Escabando",
+    "sta": "2026-11-13/03:40",
+    "end": "2026-11-13/04:27"
+  },
+  {
+    "titulo": "El secreto de Skinwalker / T1 E7 Observación",
+    "sta": "2026-11-13/04:27",
+    "end": "2026-11-13/05:14"
+  },
+  {
+    "titulo": "El secreto de Skinwalker / T1 E8 Revelaciones",
+    "sta": "2026-11-13/05:14",
+    "end": "2026-11-13/06:00"
+  },
+  {
+    "titulo": "Operación de espionaje / E1",
+    "sta": "2026-11-13/06:00",
+    "end": "2026-11-13/06:49"
+  },
+  {
+    "titulo": "Operación de espionaje / E2",
+    "sta": "2026-11-13/06:49",
+    "end": "2026-11-13/07:34"
+  },
+  {
+    "titulo": "El precio de la historia / T18 E10 Béisbol bajo la lupa",
+    "sta": "2026-11-13/07:34",
+    "end": "2026-11-13/08:18"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E12 Negocios invaluables",
+    "sta": "2026-11-13/08:18",
+    "end": "2026-11-13/09:03"
+  },
+  {
+    "titulo": "Cazadores de tesoros / T23 E8 Recolectando a toda velocidad",
+    "sta": "2026-11-13/09:03",
+    "end": "2026-11-13/09:49"
+  },
+  {
+    "titulo": "Gigantes de la comida / T5 E5 Que hagan pastel",
+    "sta": "2026-11-13/09:49",
+    "end": "2026-11-13/10:35"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros / T3 E10 El monstruo cocodrilo y el perro fantasma",
+    "sta": "2026-11-13/10:35",
+    "end": "2026-11-13/11:22"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T1 E7 Rituales inusuales",
+    "sta": "2026-11-13/11:22",
+    "end": "2026-11-13/12:09"
+  },
+  {
+    "titulo": "Las cinco familias: capos de la mafia / T1 E3 El último Don",
+    "sta": "2026-11-13/12:09",
+    "end": "2026-11-13/13:42"
+  },
+  {
+    "titulo": "MonsterQuest / T4 E4 Abejas gigantes asesinas",
+    "sta": "2026-11-13/13:42",
+    "end": "2026-11-13/14:32"
+  },
+  {
+    "titulo": "MonsterQuest / T4 E5 Hombre polilla",
+    "sta": "2026-11-13/14:32",
+    "end": "2026-11-13/15:22"
+  },
+  {
+    "titulo": "MysteryQuest / T1 E10 El regreso al horror de Amityville",
+    "sta": "2026-11-13/15:22",
+    "end": "2026-11-13/16:13"
+  },
+  {
+    "titulo": "MysteryQuest / T1 E4 La ciudad perdida de Atlántida",
+    "sta": "2026-11-13/16:13",
+    "end": "2026-11-13/17:04"
+  },
+  {
+    "titulo": "Misterios del pantano / T2 E1 Cerdos voodoo",
+    "sta": "2026-11-13/17:04",
+    "end": "2026-11-13/17:52"
+  },
+  {
+    "titulo": "Misterios del pantano / T2 E6 Mono zorrillo",
+    "sta": "2026-11-13/17:52",
+    "end": "2026-11-13/18:39"
+  },
+  {
+    "titulo": "Triángulo de las Bermudas: Aguas malditas / T2 E3 Hacia la tormenta magnética",
+    "sta": "2026-11-13/18:39",
+    "end": "2026-11-13/19:26"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T1 E5 Descubrimientos sagrados",
+    "sta": "2026-11-13/19:26",
+    "end": "2026-11-13/20:13"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E16",
+    "sta": "2026-11-13/20:13",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T3 E9",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/21:46"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T3 E1",
+    "sta": "2026-11-13/21:46",
+    "end": "2026-11-13/22:32"
+  },
+  {
+    "titulo": "Expedientes desclasificados con David Duchovny",
+    "sta": "2026-11-13/22:32",
+    "end": "2026-11-13/23:19"
+  },
+  {
+    "titulo": "History's Greatest Machines With Dolph Lundgren / T1 E2",
+    "sta": "2026-11-13/23:19",
+    "end": "2026-11-14/00:08"
+  },
+  {
+    "titulo": "El precio de la historia / T15 E7 Samurais",
+    "sta": "2026-11-14/00:08",
+    "end": "2026-11-14/00:31"
+  },
+  {
+    "titulo": "Increíble con Dan Aykroyd / T2 E4 Lugares inusuales",
+    "sta": "2026-11-14/00:31",
+    "end": "2026-11-14/01:16"
+  },
+  {
+    "titulo": "El peregrino / T1 E2 México y los rituales del Día de los Muertos",
+    "sta": "2026-11-14/01:16",
+    "end": "2026-11-14/02:04"
+  },
+  {
+    "titulo": "El peregrino / T1 E3 Brasil: Rituales religiosos y paganos",
+    "sta": "2026-11-14/02:04",
+    "end": "2026-11-14/02:54"
+  },
+  {
+    "titulo": "MonsterQuest / T4 E4 Abejas gigantes asesinas",
+    "sta": "2026-11-14/02:54",
+    "end": "2026-11-14/03:40"
+  },
+  {
+    "titulo": "MonsterQuest / T4 E5 Hombre polilla",
+    "sta": "2026-11-14/03:40",
+    "end": "2026-11-14/04:26"
+  },
+  {
+    "titulo": "MysteryQuest / T1 E6 El ascenso del Cuarto Reich",
+    "sta": "2026-11-14/04:26",
+    "end": "2026-11-14/05:13"
+  },
+  {
+    "titulo": "MysteryQuest / T1 E9 Stonehenge",
+    "sta": "2026-11-14/05:13",
+    "end": "2026-11-14/06:00"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E2 La nada misma",
+    "sta": "2026-11-14/06:00",
+    "end": "2026-11-14/06:46"
+  },
+  {
+    "titulo": "El precio de la historia / T24 E6",
+    "sta": "2026-11-14/06:46",
+    "end": "2026-11-14/07:32"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E15 Harrison contra Harrison",
+    "sta": "2026-11-14/07:32",
+    "end": "2026-11-14/08:18"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T2 E1 Negocio jonrón",
+    "sta": "2026-11-14/08:18",
+    "end": "2026-11-14/09:04"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E3 Reliquias inusuales",
+    "sta": "2026-11-14/09:04",
+    "end": "2026-11-14/09:50"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E13 WWII: Visor de bombardeo",
+    "sta": "2026-11-14/09:50",
+    "end": "2026-11-14/10:36"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E17 El asesinato de JFK",
+    "sta": "2026-11-14/10:36",
+    "end": "2026-11-14/11:26"
+  },
+  {
+    "titulo": "El precio de la historia / T12 E43 Restauraciones Extraordinarias",
+    "sta": "2026-11-14/11:26",
+    "end": "2026-11-14/11:50"
+  },
+  {
+    "titulo": "El precio de la historia / T12 E44 Hallazgos Famosos",
+    "sta": "2026-11-14/11:50",
+    "end": "2026-11-14/12:15"
+  },
+  {
+    "titulo": "El precio de la historia / T19 E12 El príncipe empeñador",
+    "sta": "2026-11-14/12:15",
+    "end": "2026-11-14/13:03"
+  },
+  {
+    "titulo": "El precio de la historia",
+    "sta": "2026-11-14/13:03",
+    "end": "2026-11-14/13:51"
+  },
+  {
+    "titulo": "La evidencia está entre nosotros",
+    "sta": "2026-11-14/13:51",
+    "end": "2026-11-14/14:39"
+  },
+  {
+    "titulo": "Inexplicable, con William Shatner / T7 E3 Los perdidos",
+    "sta": "2026-11-14/14:39",
+    "end": "2026-11-14/15:28"
+  },
+  {
+    "titulo": "Inexplicable / T1 E6 Lo mejor de: Señales de vida alienígena",
+    "sta": "2026-11-14/15:28",
+    "end": "2026-11-14/16:17"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T1 E8 Oscuro y mortal",
+    "sta": "2026-11-14/16:17",
+    "end": "2026-11-14/17:04"
+  },
+  {
+    "titulo": "Misterios inexplorados con Danny Trejo / T2 E16",
+    "sta": "2026-11-14/17:04",
+    "end": "2026-11-14/17:51"
+  },
+  {
+    "titulo": "History's Greatest Machines With Dolph Lundgren / T1 E2",
+    "sta": "2026-11-14/17:51",
+    "end": "2026-11-14/18:37"
+  },
+  {
+    "titulo": "El precio de la historia / T22 E7 Dile hola a mi pequeño caddy",
+    "sta": "2026-11-14/18:37",
+    "end": "2026-11-14/19:24"
+  },
+  {
+    "titulo": "El precio de la historia / T19 E13 Más rápido que un velociraptor",
+    "sta": "2026-11-14/19:24",
+    "end": "2026-11-14/20:10"
+  },
+  {
+    "titulo": "Inexplicable: Más allá de la evidencia",
+    "sta": "2026-11-14/20:10",
+    "end": "2026-11-14/20:58"
+  },
+  {
+    "titulo": "Expedientes desclasificados con David Duchovny",
+    "sta": "2026-11-14/20:58",
+    "end": "2026-11-14/21:46"
+  },
+  {
+    "titulo": "Alienígenas ancestrales",
+    "sta": "2026-11-14/21:46",
+    "end": "2026-11-14/22:33"
+  },
+  {
+    "titulo": "Alienígenas ancestrales / T18 E15 En el lugar: Objetos misteriosos",
+    "sta": "2026-11-14/22:33",
+    "end": "2026-11-14/23:20"
+  },
+  {
+    "titulo": "Alienígenas ancestrales / T13 E2 Da Vinci: Códigos prohibidos",
+    "sta": "2026-11-14/23:20",
+    "end": "2026-11-15/00:08"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E13 Todo legal",
+    "sta": "2026-11-15/00:08",
+    "end": "2026-11-15/00:53"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T4 E13 El rey de Las Vegas",
+    "sta": "2026-11-15/00:53",
+    "end": "2026-11-15/01:38"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T5 E3 Empeño de cómics",
+    "sta": "2026-11-15/01:38",
+    "end": "2026-11-15/02:21"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E1 Muscle cars y barras de oro",
+    "sta": "2026-11-15/02:21",
+    "end": "2026-11-15/03:05"
+  },
+  {
+    "titulo": "El precio de la historia / T20 E7 El maestro de la carretera Rick",
+    "sta": "2026-11-15/03:05",
+    "end": "2026-11-15/03:48"
+  },
+  {
+    "titulo": "El precio de la historia / T21 E9 Los pantalones de Keith Richards",
+    "sta": "2026-11-15/03:48",
+    "end": "2026-11-15/04:32"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T3 E5 Buena comida",
+    "sta": "2026-11-15/04:32",
+    "end": "2026-11-15/05:16"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E13 WWII: Visor de bombardeo",
+    "sta": "2026-11-15/05:16",
+    "end": "2026-11-15/06:00"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T1 E14 Solo para Rick",
+    "sta": "2026-11-15/06:00",
+    "end": "2026-11-15/06:44"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T2 E1 Negocio jonrón",
+    "sta": "2026-11-15/06:44",
+    "end": "2026-11-15/07:28"
+  },
+  {
+    "titulo": "El precio de la historia / T12 E44 Hallazgos Famosos",
+    "sta": "2026-11-15/07:28",
+    "end": "2026-11-15/07:50"
+  },
+  {
+    "titulo": "El precio de la historia / T20 E7 El maestro de la carretera Rick",
+    "sta": "2026-11-15/07:50",
+    "end": "2026-11-15/08:34"
+  },
+  {
+    "titulo": "El precio de la historia / T21 E2 Hasta la vista baby",
+    "sta": "2026-11-15/08:34",
+    "end": "2026-11-15/09:17"
+  },
+  {
+    "titulo": "El precio de la historia / T20 E3 El auto de Grease",
+    "sta": "2026-11-15/09:17",
+    "end": "2026-11-15/10:01"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T2 E9 El invierno está llegando",
+    "sta": "2026-11-15/10:01",
+    "end": "2026-11-15/10:48"
+  },
+  {
+    "titulo": "Lo mejor de El precio de la historia / T2 E7 Rick sabe más",
+    "sta": "2026-11-15/10:48",
+    "end": "2026-11-15/11:34"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E5 Nintendo clásico",
+    "sta": "2026-11-15/11:34",
+    "end": "2026-11-15/12:21"
+  },
+  {
+    "titulo": "El precio de la historia / T17 E18 Para fanáticos del baseball",
+    "sta": "2026-11-15/12:21",
+    "end": "2026-11-15/13:10"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E30 Dinero para empeñar",
+    "sta": "2026-11-15/13:10",
+    "end": "2026-11-15/13:34"
+  },
+  {
+    "titulo": "El precio de la historia / T19 E12 El príncipe empeñador",
+    "sta": "2026-11-15/13:34",
+    "end": "2026-11-15/14:21"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E22 Las Vegas",
+    "sta": "2026-11-15/14:21",
+    "end": "2026-11-15/14:45"
+  },
+  {
+    "titulo": "El precio de la historia / T19 E11 Declaración de independencia",
+    "sta": "2026-11-15/14:45",
+    "end": "2026-11-15/15:32"
+  },
+  {
+    "titulo": "El precio de la historia / T19 E13 Más rápido que un velociraptor",
+    "sta": "2026-11-15/15:32",
+    "end": "2026-11-15/16:18"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E30 Dinero para empeñar",
+    "sta": "2026-11-15/16:18",
+    "end": "2026-11-15/16:42"
+  },
+  {
+    "titulo": "El precio de la historia / T14 E27 Súper trato",
+    "sta": "2026-11-15/16:42",
+    "end": "2026-11-15/17:06"
+  },
+  {
+    "titulo": "El precio de la historia en la carretera / T2 E6 Las riquezas de Rhode Island",
+    "sta": "2026-11-15/17:06",
+    "end": "2026-11-15/18:36"
   }
 ]

@@ -1,170 +1,5 @@
 [
   {
-    "titulo": "Blue Bloods / Erasing History",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/01:00"
-  },
-  {
-    "titulo": "Blue Bloods / School of Hard Knocks",
-    "sta": "2026-11-02/01:00",
-    "end": "2026-11-02/02:00"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-02/02:00",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "CBS4 Morning News",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/07:00"
-  },
-  {
-    "titulo": "CBS Mornings",
-    "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/09:00"
-  },
-  {
-    "titulo": "The Perfect Line / Lots of Dog People",
-    "sta": "2026-11-02/09:00",
-    "end": "2026-11-02/09:30"
-  },
-  {
-    "titulo": "The Perfect Line / Open Your Eyes!",
-    "sta": "2026-11-02/09:30",
-    "end": "2026-11-02/10:00"
-  },
-  {
-    "titulo": "The Price Is Right",
-    "sta": "2026-11-02/10:00",
-    "end": "2026-11-02/11:00"
-  },
-  {
-    "titulo": "The Young and the Restless",
-    "sta": "2026-11-02/11:00",
-    "end": "2026-11-02/12:00"
-  },
-  {
-    "titulo": "CBS4 News Live at Noon",
-    "sta": "2026-11-02/12:00",
-    "end": "2026-11-02/12:30"
-  },
-  {
-    "titulo": "The Bold and the Beautiful",
-    "sta": "2026-11-02/12:30",
-    "end": "2026-11-02/13:00"
-  },
-  {
-    "titulo": "Beyond the Gates",
-    "sta": "2026-11-02/13:00",
-    "end": "2026-11-02/14:00"
-  },
-  {
-    "titulo": "Let's Make a Deal",
-    "sta": "2026-11-02/14:00",
-    "end": "2026-11-02/15:00"
-  },
-  {
-    "titulo": "Judy Justice / Birthday Bash Turns Brutal",
-    "sta": "2026-11-02/15:00",
-    "end": "2026-11-02/15:30"
-  },
-  {
-    "titulo": "Judy Justice / Voicemails and Vengeance and Death-Defying Motorcycle Chase",
-    "sta": "2026-11-02/15:30",
-    "end": "2026-11-02/16:00"
-  },
-  {
-    "titulo": "Judge Judy / Three-Timing Boyfriend?",
-    "sta": "2026-11-02/16:00",
-    "end": "2026-11-02/16:30"
-  },
-  {
-    "titulo": "Judge Judy / Violent Hissy Fit Caught on Tape; Hospital Bed Handout",
-    "sta": "2026-11-02/16:30",
-    "end": "2026-11-02/17:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 5pm",
-    "sta": "2026-11-02/17:00",
-    "end": "2026-11-02/17:30"
-  },
-  {
-    "titulo": "CBS Evening News",
-    "sta": "2026-11-02/17:30",
-    "end": "2026-11-02/18:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 6pm",
-    "sta": "2026-11-02/18:00",
-    "end": "2026-11-02/18:30"
-  },
-  {
-    "titulo": "Wheel of Fortune / Wheel Loves L.A.",
-    "sta": "2026-11-02/18:30",
-    "end": "2026-11-02/19:00"
-  },
-  {
-    "titulo": "FBI / Atonement",
-    "sta": "2026-11-02/19:00",
-    "end": "2026-11-02/20:01"
-  },
-  {
-    "titulo": "CIA / Real Intelligence",
-    "sta": "2026-11-02/20:01",
-    "end": "2026-11-02/21:00"
-  },
-  {
-    "titulo": "Harlan Coben's Final Twist / Caught on Camera",
-    "sta": "2026-11-02/21:00",
-    "end": "2026-11-02/22:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 10pm",
-    "sta": "2026-11-02/22:00",
-    "end": "2026-11-02/22:35"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Raye Schiller; Andrew Sleighter; Kareem Matthews; Charles Engle",
-    "sta": "2026-11-02/22:35",
-    "end": "2026-11-02/23:05"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Katherine Blanford; Ryan Niemiller; Rickey Smiley; Jonny Loquasto",
-    "sta": "2026-11-02/23:05",
-    "end": "2026-11-02/23:37"
-  },
-  {
-    "titulo": "Funny You Should Ask / Jamie Kennedy; Loni Love; Adam Carolla; Byron Allen; Michelle Collins; Gary Owen",
-    "sta": "2026-11-02/23:37",
-    "end": "2026-11-03/00:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-03/00:07",
-    "end": "2026-11-03/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-03/00:37",
-    "end": "2026-11-03/01:07"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-03/01:07",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-03/04:30",
-    "end": "2026-11-03/05:00"
-  },
-  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/07:00"
@@ -1248,5 +1083,995 @@
     "titulo": "Funny You Should Ask",
     "sta": "2026-11-10/23:37",
     "end": "2026-11-11/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-11/00:07",
+    "end": "2026-11-11/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-11/00:37",
+    "end": "2026-11-11/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-11/01:07",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-11/05:00",
+    "end": "2026-11-11/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-11/07:00",
+    "end": "2026-11-11/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / Thank You for Your Service!",
+    "sta": "2026-11-11/09:00",
+    "end": "2026-11-11/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Think Positively!",
+    "sta": "2026-11-11/09:30",
+    "end": "2026-11-11/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-11/10:00",
+    "end": "2026-11-11/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-11/11:00",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-11/12:30",
+    "end": "2026-11-11/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-11/13:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-11/14:00",
+    "end": "2026-11-11/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Hairpin Turn",
+    "sta": "2026-11-11/15:00",
+    "end": "2026-11-11/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Motorcycle Mania and Ding Dong Damages",
+    "sta": "2026-11-11/15:30",
+    "end": "2026-11-11/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Windshield Wiper Attack; Crash, Brake and Bills",
+    "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Fight Over a Harley; Super-Glued Computer",
+    "sta": "2026-11-11/16:30",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-11/17:00",
+    "end": "2026-11-11/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-11/17:30",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-11/18:00",
+    "end": "2026-11-11/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune / Visit Florida",
+    "sta": "2026-11-11/18:30",
+    "end": "2026-11-11/19:00"
+  },
+  {
+    "titulo": "Survivor / Load the Ark, Two by Two",
+    "sta": "2026-11-11/19:00",
+    "end": "2026-11-11/20:30"
+  },
+  {
+    "titulo": "The Amazing Race / Million Dollar Moves",
+    "sta": "2026-11-11/20:30",
+    "end": "2026-11-11/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-11/22:00",
+    "end": "2026-11-11/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-11/22:35",
+    "end": "2026-11-11/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-11/23:05",
+    "end": "2026-11-11/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-11/23:37",
+    "end": "2026-11-12/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-12/00:07",
+    "end": "2026-11-12/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-12/00:37",
+    "end": "2026-11-12/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-12/01:07",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / The Perfect Line Bus",
+    "sta": "2026-11-12/09:00",
+    "end": "2026-11-12/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Bingo Babies",
+    "sta": "2026-11-12/09:30",
+    "end": "2026-11-12/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-12/10:00",
+    "end": "2026-11-12/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-12/11:00",
+    "end": "2026-11-12/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-12/12:00",
+    "end": "2026-11-12/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-12/12:30",
+    "end": "2026-11-12/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-12/13:00",
+    "end": "2026-11-12/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-12/14:00",
+    "end": "2026-11-12/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Mother vs Teen Son and Horse Ranch Rumble",
+    "sta": "2026-11-12/15:00",
+    "end": "2026-11-12/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Yorkie Attack Caught on Video",
+    "sta": "2026-11-12/15:30",
+    "end": "2026-11-12/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Fake Designer Bag Scam?",
+    "sta": "2026-11-12/16:00",
+    "end": "2026-11-12/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Vow Renewal Video up in Flames; Arrest and Sexual Advances?",
+    "sta": "2026-11-12/16:30",
+    "end": "2026-11-12/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-12/17:00",
+    "end": "2026-11-12/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-12/17:30",
+    "end": "2026-11-12/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-12/18:00",
+    "end": "2026-11-12/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune / Visit Florida",
+    "sta": "2026-11-12/18:30",
+    "end": "2026-11-12/19:00"
+  },
+  {
+    "titulo": "Georgie & Mandy's First Marriage / A Ten-Year Reunion and an Outta-the-Box Thinker",
+    "sta": "2026-11-12/19:00",
+    "end": "2026-11-12/19:31"
+  },
+  {
+    "titulo": "Eternally Yours / Eternal Sunshine of Phyllis's Mind",
+    "sta": "2026-11-12/19:31",
+    "end": "2026-11-12/20:01"
+  },
+  {
+    "titulo": "Elsbeth / All About Eats",
+    "sta": "2026-11-12/20:01",
+    "end": "2026-11-12/21:00"
+  },
+  {
+    "titulo": "Cupertino / Yungwood",
+    "sta": "2026-11-12/21:00",
+    "end": "2026-11-12/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-12/22:00",
+    "end": "2026-11-12/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-12/22:35",
+    "end": "2026-11-12/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-12/23:05",
+    "end": "2026-11-12/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-12/23:37",
+    "end": "2026-11-13/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-13/00:07",
+    "end": "2026-11-13/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-13/00:37",
+    "end": "2026-11-13/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-13/01:07",
+    "end": "2026-11-13/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-13/04:30",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / It's a Mystery to Me",
+    "sta": "2026-11-13/09:00",
+    "end": "2026-11-13/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Cold Hard Cash",
+    "sta": "2026-11-13/09:30",
+    "end": "2026-11-13/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-13/10:00",
+    "end": "2026-11-13/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-13/11:00",
+    "end": "2026-11-13/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-13/12:00",
+    "end": "2026-11-13/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-13/12:30",
+    "end": "2026-11-13/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-13/13:00",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-13/14:00",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Cat Scratch Tales and Feline Feud",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Romantic Denial",
+    "sta": "2026-11-13/15:30",
+    "end": "2026-11-13/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Risque Internet Pics; Terrorist Facebook Threats",
+    "sta": "2026-11-13/16:00",
+    "end": "2026-11-13/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Pregnancy Test Vandalism; Punched in Face by Teen",
+    "sta": "2026-11-13/16:30",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-13/17:30",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune / Visit Florida",
+    "sta": "2026-11-13/18:30",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Sheriff Country / Close to the Chest",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/20:00"
+  },
+  {
+    "titulo": "Fire Country / Church and State",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Boston Blue / Bloodlines",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-13/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-13/22:35",
+    "end": "2026-11-13/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-13/23:05",
+    "end": "2026-11-13/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-13/23:37",
+    "end": "2026-11-14/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-14/00:07",
+    "end": "2026-11-14/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/00:37",
+    "end": "2026-11-14/01:07"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/01:07",
+    "end": "2026-11-14/01:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/01:37",
+    "end": "2026-11-14/02:00"
+  },
+  {
+    "titulo": "Whacked Out Sports",
+    "sta": "2026-11-14/02:00",
+    "end": "2026-11-14/02:30"
+  },
+  {
+    "titulo": "Whacked Out Sports",
+    "sta": "2026-11-14/02:30",
+    "end": "2026-11-14/03:00"
+  },
+  {
+    "titulo": "Military Makeover / The Maney Family's Big Reveal",
+    "sta": "2026-11-14/03:00",
+    "end": "2026-11-14/03:30"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/03:30",
+    "end": "2026-11-14/04:00"
+  },
+  {
+    "titulo": "Teen Kids News",
+    "sta": "2026-11-14/04:00",
+    "end": "2026-11-14/04:30"
+  },
+  {
+    "titulo": "InvestigateTV+ Weekend",
+    "sta": "2026-11-14/04:30",
+    "end": "2026-11-14/05:00"
+  },
+  {
+    "titulo": "The VeryVera Show",
+    "sta": "2026-11-14/05:00",
+    "end": "2026-11-14/05:30"
+  },
+  {
+    "titulo": "Spanish Fly: The Next Generation",
+    "sta": "2026-11-14/05:30",
+    "end": "2026-11-14/06:00"
+  },
+  {
+    "titulo": "Texans Playbook",
+    "sta": "2026-11-14/06:00",
+    "end": "2026-11-14/07:00"
+  },
+  {
+    "titulo": "CBS Saturday Morning",
+    "sta": "2026-11-14/07:00",
+    "end": "2026-11-14/09:00"
+  },
+  {
+    "titulo": "Lucky Dog: Paws With Purpose / Dandelion",
+    "sta": "2026-11-14/09:00",
+    "end": "2026-11-14/09:30"
+  },
+  {
+    "titulo": "Lucky Dog: Down Under / Cookie & Bobby and Milly",
+    "sta": "2026-11-14/09:30",
+    "end": "2026-11-14/10:00"
+  },
+  {
+    "titulo": "Hope in the Wild / Correctamundo, It's the Fawns",
+    "sta": "2026-11-14/10:00",
+    "end": "2026-11-14/10:30"
+  },
+  {
+    "titulo": "The Visioneers With Zay Harding / Charged and Planted",
+    "sta": "2026-11-14/10:30",
+    "end": "2026-11-14/11:00"
+  },
+  {
+    "titulo": "NWSL Soccer / Semifinal: Teams TBA",
+    "sta": "2026-11-14/11:00",
+    "end": "2026-11-14/13:30"
+  },
+  {
+    "titulo": "College Football Today",
+    "sta": "2026-11-14/13:30",
+    "end": "2026-11-14/14:30"
+  },
+  {
+    "titulo": "College Football / Teams TBA",
+    "sta": "2026-11-14/14:30",
+    "end": "2026-11-14/18:00"
+  },
+  {
+    "titulo": "Postgame Show",
+    "sta": "2026-11-14/18:00",
+    "end": "2026-11-14/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune",
+    "sta": "2026-11-14/18:30",
+    "end": "2026-11-14/19:00"
+  },
+  {
+    "titulo": "CBS Presents Nickelodeon Kids' Choice Awards",
+    "sta": "2026-11-14/19:00",
+    "end": "2026-11-14/20:30"
+  },
+  {
+    "titulo": "Eternally Yours / Pilot",
+    "sta": "2026-11-14/20:30",
+    "end": "2026-11-14/21:00"
+  },
+  {
+    "titulo": "48 Hours",
+    "sta": "2026-11-14/21:00",
+    "end": "2026-11-14/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-14/22:00",
+    "end": "2026-11-14/22:35"
+  },
+  {
+    "titulo": "Expedition Texas",
+    "sta": "2026-11-14/22:35",
+    "end": "2026-11-14/23:05"
+  },
+  {
+    "titulo": "The Equalizer / When Worlds Collide",
+    "sta": "2026-11-14/23:05",
+    "end": "2026-11-15/00:05"
+  },
+  {
+    "titulo": "The Equalizer / Separated",
+    "sta": "2026-11-15/00:05",
+    "end": "2026-11-15/01:05"
+  },
+  {
+    "titulo": "Jeopardy!",
+    "sta": "2026-11-15/01:05",
+    "end": "2026-11-15/01:35"
+  },
+  {
+    "titulo": "Texas Country Reporter",
+    "sta": "2026-11-15/01:35",
+    "end": "2026-11-15/02:05"
+  },
+  {
+    "titulo": "Judge Judy / Love Triangle Assault!; Can't Buy Me Love!",
+    "sta": "2026-11-15/02:05",
+    "end": "2026-11-15/02:35"
+  },
+  {
+    "titulo": "Judge Judy / Caught Cheating?; Landlord 101!",
+    "sta": "2026-11-15/02:35",
+    "end": "2026-11-15/03:05"
+  },
+  {
+    "titulo": "She's in the Game",
+    "sta": "2026-11-15/03:05",
+    "end": "2026-11-15/03:35"
+  },
+  {
+    "titulo": "Sports Stars of Tomorrow",
+    "sta": "2026-11-15/03:35",
+    "end": "2026-11-15/04:05"
+  },
+  {
+    "titulo": "Expedition Texas",
+    "sta": "2026-11-15/04:05",
+    "end": "2026-11-15/04:35"
+  },
+  {
+    "titulo": "Sport Fishing TV: State of the Ocean",
+    "sta": "2026-11-15/04:35",
+    "end": "2026-11-15/05:00"
+  },
+  {
+    "titulo": "Military Makeover / The Maney Family's Big Reveal",
+    "sta": "2026-11-15/05:00",
+    "end": "2026-11-15/05:30"
+  },
+  {
+    "titulo": "Everyday Heroes",
+    "sta": "2026-11-15/05:30",
+    "end": "2026-11-15/06:00"
+  },
+  {
+    "titulo": "Daily Living with Father Chapin",
+    "sta": "2026-11-15/06:00",
+    "end": "2026-11-15/06:30"
+  },
+  {
+    "titulo": "Catholic Mass",
+    "sta": "2026-11-15/06:30",
+    "end": "2026-11-15/07:00"
+  },
+  {
+    "titulo": "Dr. Chris: Pet Vet / Turtle Race",
+    "sta": "2026-11-15/07:00",
+    "end": "2026-11-15/07:30"
+  },
+  {
+    "titulo": "The Open Road With Dr. Chris / Challenge Accepted",
+    "sta": "2026-11-15/07:30",
+    "end": "2026-11-15/08:00"
+  },
+  {
+    "titulo": "CBS News Sunday Morning",
+    "sta": "2026-11-15/08:00",
+    "end": "2026-11-15/09:30"
+  },
+  {
+    "titulo": "Face the Nation",
+    "sta": "2026-11-15/09:30",
+    "end": "2026-11-15/10:30"
+  },
+  {
+    "titulo": "Livingway Church",
+    "sta": "2026-11-15/10:30",
+    "end": "2026-11-15/11:00"
+  },
+  {
+    "titulo": "The NFL Today",
+    "sta": "2026-11-15/11:00",
+    "end": "2026-11-15/12:00"
+  },
+  {
+    "titulo": "NFL Football",
+    "sta": "2026-11-15/12:00",
+    "end": "2026-11-15/15:00"
+  },
+  {
+    "titulo": "NFL Today Postgame",
+    "sta": "2026-11-15/15:00",
+    "end": "2026-11-15/15:30"
+  },
+  {
+    "titulo": "NFL Today Postgame",
+    "sta": "2026-11-15/15:30",
+    "end": "2026-11-15/16:00"
+  },
+  {
+    "titulo": "Courage in Sports",
+    "sta": "2026-11-15/16:00",
+    "end": "2026-11-15/17:00"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-15/17:00",
+    "end": "2026-11-15/17:30"
+  },
+  {
+    "titulo": "CBS4 News Live at 5:30pm",
+    "sta": "2026-11-15/17:30",
+    "end": "2026-11-15/18:00"
+  },
+  {
+    "titulo": "60 Minutes",
+    "sta": "2026-11-15/18:00",
+    "end": "2026-11-15/19:00"
+  },
+  {
+    "titulo": "Marshals / Roughstock",
+    "sta": "2026-11-15/19:00",
+    "end": "2026-11-15/20:00"
+  },
+  {
+    "titulo": "Tracker / Blind Spot",
+    "sta": "2026-11-15/20:00",
+    "end": "2026-11-15/21:00"
+  },
+  {
+    "titulo": "Cupertino / Celeste",
+    "sta": "2026-11-15/21:00",
+    "end": "2026-11-15/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-15/22:00",
+    "end": "2026-11-15/22:30"
+  },
+  {
+    "titulo": "Inside Valley Politics",
+    "sta": "2026-11-15/22:30",
+    "end": "2026-11-15/23:00"
+  },
+  {
+    "titulo": "State of Texas",
+    "sta": "2026-11-15/23:00",
+    "end": "2026-11-15/23:30"
+  },
+  {
+    "titulo": "Blue Bloods / Close Calls",
+    "sta": "2026-11-15/23:30",
+    "end": "2026-11-16/00:30"
+  },
+  {
+    "titulo": "Blue Bloods / Friendship, Love, and Loyalty",
+    "sta": "2026-11-16/00:30",
+    "end": "2026-11-16/01:30"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-16/01:30",
+    "end": "2026-11-16/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-16/04:30",
+    "end": "2026-11-16/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-16/05:00",
+    "end": "2026-11-16/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-16/07:00",
+    "end": "2026-11-16/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / Deborah's Family Showdown",
+    "sta": "2026-11-16/09:00",
+    "end": "2026-11-16/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Queen for a Day",
+    "sta": "2026-11-16/09:30",
+    "end": "2026-11-16/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-16/10:00",
+    "end": "2026-11-16/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-16/11:00",
+    "end": "2026-11-16/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-16/12:00",
+    "end": "2026-11-16/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-16/12:30",
+    "end": "2026-11-16/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-16/13:00",
+    "end": "2026-11-16/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-16/14:00",
+    "end": "2026-11-16/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Wheels of Wrath (Part 1)",
+    "sta": "2026-11-16/15:00",
+    "end": "2026-11-16/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Wheels of Wrath (Part 2)",
+    "sta": "2026-11-16/15:30",
+    "end": "2026-11-16/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Father Hates Daughter's Boyfriend",
+    "sta": "2026-11-16/16:00",
+    "end": "2026-11-16/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Teen Too High to Drive?; Pit Bull Bites Dog Sitter",
+    "sta": "2026-11-16/16:30",
+    "end": "2026-11-16/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-16/17:00",
+    "end": "2026-11-16/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-16/17:30",
+    "end": "2026-11-16/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-16/18:00",
+    "end": "2026-11-16/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune",
+    "sta": "2026-11-16/18:30",
+    "end": "2026-11-16/19:00"
+  },
+  {
+    "titulo": "FBI / Posterity",
+    "sta": "2026-11-16/19:00",
+    "end": "2026-11-16/20:01"
+  },
+  {
+    "titulo": "CIA / Inside Men",
+    "sta": "2026-11-16/20:01",
+    "end": "2026-11-16/21:00"
+  },
+  {
+    "titulo": "Harlan Coben's Final Twist / Blood in the Ozarks",
+    "sta": "2026-11-16/21:00",
+    "end": "2026-11-16/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-16/22:00",
+    "end": "2026-11-16/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-16/22:35",
+    "end": "2026-11-16/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-16/23:05",
+    "end": "2026-11-16/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-16/23:37",
+    "end": "2026-11-17/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-17/00:07",
+    "end": "2026-11-17/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-17/00:37",
+    "end": "2026-11-17/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-17/01:07",
+    "end": "2026-11-17/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-17/04:30",
+    "end": "2026-11-17/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-17/05:00",
+    "end": "2026-11-17/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-17/07:00",
+    "end": "2026-11-17/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / Ranch Fan Man",
+    "sta": "2026-11-17/09:00",
+    "end": "2026-11-17/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Build That Line",
+    "sta": "2026-11-17/09:30",
+    "end": "2026-11-17/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-17/10:00",
+    "end": "2026-11-17/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-17/11:00",
+    "end": "2026-11-17/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-17/12:00",
+    "end": "2026-11-17/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-17/12:30",
+    "end": "2026-11-17/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-17/13:00",
+    "end": "2026-11-17/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-17/14:00",
+    "end": "2026-11-17/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Sugar Tank Sabotage",
+    "sta": "2026-11-17/15:00",
+    "end": "2026-11-17/15:30"
+  },
+  {
+    "titulo": "Judy Justice / LAPD Comic Book Clash",
+    "sta": "2026-11-17/15:30",
+    "end": "2026-11-17/16:00"
+  },
+  {
+    "titulo": "Judge Judy / The Wedding That Never Happened; Single Mom Shake-Up",
+    "sta": "2026-11-17/16:00",
+    "end": "2026-11-17/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Mother/Daughter No Love Lost",
+    "sta": "2026-11-17/16:30",
+    "end": "2026-11-17/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-17/17:00",
+    "end": "2026-11-17/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-17/17:30",
+    "end": "2026-11-17/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-17/18:00",
+    "end": "2026-11-17/18:30"
   }
 ]

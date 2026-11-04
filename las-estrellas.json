@@ -938,5 +938,80 @@
     "titulo": "Farmacias similares",
     "sta": "2026-11-10/05:30",
     "end": "2026-11-10/06:30"
+  },
+  {
+    "titulo": "Las noticias",
+    "sta": "2026-11-10/06:00",
+    "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-10/07:00",
+    "end": "2026-11-10/08:00"
+  },
+  {
+    "titulo": "Despierta",
+    "sta": "2026-11-10/08:00",
+    "end": "2026-11-10/09:00"
+  },
+  {
+    "titulo": "Hoy",
+    "sta": "2026-11-10/09:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "¡Cuéntamelo ya!",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/13:30"
+  },
+  {
+    "titulo": "Como dice el dicho",
+    "sta": "2026-11-10/13:30",
+    "end": "2026-11-10/14:30"
+  },
+  {
+    "titulo": "El Chavo",
+    "sta": "2026-11-10/14:30",
+    "end": "2026-11-10/16:30"
+  },
+  {
+    "titulo": "Rubí",
+    "sta": "2026-11-10/16:30",
+    "end": "2026-11-10/18:30"
+  },
+  {
+    "titulo": "El renacer de Luna",
+    "sta": "2026-11-10/18:30",
+    "end": "2026-11-10/19:30"
+  },
+  {
+    "titulo": "La rosa de Guadalupe",
+    "sta": "2026-11-10/19:30",
+    "end": "2026-11-10/20:30"
+  },
+  {
+    "titulo": "Sabor a ti, entre historias y secretos",
+    "sta": "2026-11-10/20:30",
+    "end": "2026-11-10/21:30"
+  },
+  {
+    "titulo": "Tierra de amor y coraje",
+    "sta": "2026-11-10/21:30",
+    "end": "2026-11-10/22:30"
+  },
+  {
+    "titulo": "En punto con Enrique Acevedo",
+    "sta": "2026-11-10/22:30",
+    "end": "2026-11-10/23:00"
+  },
+  {
+    "titulo": "Traicionados",
+    "sta": "2026-11-10/23:00",
+    "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "Iglesia universal del Reino de Dios - Oración fuerte al Espíritu Santo",
+    "sta": "2026-11-11/00:00",
+    "end": "2026-11-11/01:00"
   }
 ]
