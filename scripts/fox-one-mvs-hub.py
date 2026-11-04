@@ -41,7 +41,6 @@ def fetch_epg(context, host, uuid, cid, lineup, now):
                 j = resp.json()
                 items = j.get("contents", {}).get("content", [])
                 if not items:
-                    print(f"  {day.date()}: sin programas, terminando", file=sys.stderr)
                     break
                 all_items.extend(items)
                 print(f"  {day.date()}: {len(items)} programas", file=sys.stderr)
@@ -61,7 +60,26 @@ def scrape():
         print("Cargando...", file=sys.stderr)
         page.goto("https://mvshub.com.mx/#spa/epg", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(5000)
-        info = page.evaluate("""() => { let host = null; let uuid = null; let lineup = null; const entries = performance.getEntriesByType("resource"); for (const e of entries) { const m = e.name.match(/(https?:\\/\\/[^/]+)\\/xtv-ws-client\\/api\\/epgcache\\/list\\/([a-f0-9-]{36})\\/\\d+\\/(\\d+)/); if (m) { host = m[1]; uuid = m[2]; lineup = m[3]; break; } } const mapping = {}; document.querySelectorAll(".epg-channel").forEach(ch => { const num = ch.querySelector(".number")?.innerText?.trim(); const img = ch.querySelector("img")?.src || ""; const idm = img.match(/\\/images\\/(\\d+)\\/CH_LOGO\\//); if (num && idm) mapping[num] = idm[1]; }); return {host, uuid, lineup, mapping}; }""")
+        info = page.evaluate("""
+            () => {
+                let host = null;
+                let uuid = null;
+                let lineup = null;
+                const entries = performance.getEntriesByType("resource");
+                for (const e of entries) {
+                    const m = e.name.match(/(https?:\\/\\/[^/]+)\\/xtv-ws-client\\/api\\/epgcache\\/list\\/([a-f0-9-]{36})\\/\\d+\\/(\\d+)/);
+                    if (m) { host = m[1]; uuid = m[2]; lineup = m[3]; break; }
+                }
+                const mapping = {};
+                document.querySelectorAll(".epg-channel").forEach(ch => {
+                    const num = ch.querySelector(".number")?.innerText?.trim();
+                    const img = ch.querySelector("img")?.src || "";
+                    const idm = img.match(/\\/images\\/(\\d+)\\/CH_LOGO\\//);
+                    if (num && idm) mapping[num] = idm[1];
+                });
+                return {host, uuid, lineup, mapping};
+            }
+        """)
         host = info.get("host")
         uuid = info.get("uuid")
         lineup = info.get("lineup")
@@ -100,7 +118,11 @@ def scrape():
             seen.add(key)
             sta = datetime.fromtimestamp(start / 1000, TZ)
             end_dt = datetime.fromtimestamp(end / 1000, TZ)
-            programs.append({"titulo": title, "sta": sta.strftime("%Y-%m-%d/%H:%M"), "end": end_dt.strftime("%Y-%m-%d/%H:%M")})
+            programs.append({
+                "titulo": title,
+                "sta": sta.strftime("%Y-%m-%d/%H:%M"),
+                "end": end_dt.strftime("%Y-%m-%d/%H:%M"),
+            })
         programs.sort(key=lambda x: x["sta"])
         print(f"Total: {len(programs)} programas (CID: {cid})", file=sys.stderr)
         return programs
