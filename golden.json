@@ -1,25 +1,5 @@
 [
   {
-    "titulo": "Las aventuras del doctor Dolittle",
-    "sta": "2026-11-02/18:46",
-    "end": "2026-11-02/20:30"
-  },
-  {
-    "titulo": "Mundo Jurásico: Dominio",
-    "sta": "2026-11-02/20:30",
-    "end": "2026-11-02/23:06"
-  },
-  {
-    "titulo": "Uncharted: fuera del mapa",
-    "sta": "2026-11-02/23:06",
-    "end": "2026-11-03/01:13"
-  },
-  {
-    "titulo": "Mi novio es un zombie",
-    "sta": "2026-11-03/01:13",
-    "end": "2026-11-03/02:59"
-  },
-  {
     "titulo": "El club de la pelea",
     "sta": "2026-11-03/02:59",
     "end": "2026-11-03/05:35"
@@ -293,5 +273,70 @@
     "titulo": "Miss Simpatía 2: Armada y fabulosa",
     "sta": "2026-11-07/16:27",
     "end": "2026-11-07/18:31"
+  },
+  {
+    "titulo": "La familia de mi novia",
+    "sta": "2026-11-07/18:31",
+    "end": "2026-11-07/20:30"
+  },
+  {
+    "titulo": "Los Fockers",
+    "sta": "2026-11-07/20:30",
+    "end": "2026-11-07/22:37"
+  },
+  {
+    "titulo": "El profesor chiflado",
+    "sta": "2026-11-07/22:37",
+    "end": "2026-11-08/00:20"
+  },
+  {
+    "titulo": "American Pie",
+    "sta": "2026-11-08/00:20",
+    "end": "2026-11-08/02:05"
+  },
+  {
+    "titulo": "12 años de esclavitud",
+    "sta": "2026-11-08/02:05",
+    "end": "2026-11-08/04:31"
+  },
+  {
+    "titulo": "Resistencia",
+    "sta": "2026-11-08/04:31",
+    "end": "2026-11-08/06:44"
+  },
+  {
+    "titulo": "Zapatos rojos y los siete enanos",
+    "sta": "2026-11-08/06:44",
+    "end": "2026-11-08/08:21"
+  },
+  {
+    "titulo": "La leyenda de la Llorona",
+    "sta": "2026-11-08/08:21",
+    "end": "2026-11-08/09:44"
+  },
+  {
+    "titulo": "La leyenda del Charro Negro",
+    "sta": "2026-11-08/09:44",
+    "end": "2026-11-08/11:17"
+  },
+  {
+    "titulo": "El profesor chiflado",
+    "sta": "2026-11-08/11:17",
+    "end": "2026-11-08/13:00"
+  },
+  {
+    "titulo": "Los pequeños traviesos",
+    "sta": "2026-11-08/13:00",
+    "end": "2026-11-08/14:31"
+  },
+  {
+    "titulo": "La familia de mi novia",
+    "sta": "2026-11-08/14:31",
+    "end": "2026-11-08/16:30"
+  },
+  {
+    "titulo": "Los Fockers",
+    "sta": "2026-11-08/16:30",
+    "end": "2026-11-08/18:37"
   }
 ]

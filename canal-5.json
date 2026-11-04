@@ -1,116 +1,6 @@
 [
   {
     "titulo": "Infomerciales",
-    "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/03:00"
-  },
-  {
-    "titulo": "Cronicas",
-    "sta": "2026-11-02/03:00",
-    "end": "2026-11-02/03:30"
-  },
-  {
-    "titulo": "Infomerciales",
-    "sta": "2026-11-02/03:30",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "Especial de R.T.C",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/05:00"
-  },
-  {
-    "titulo": "Infomerciales",
-    "sta": "2026-11-02/05:00",
-    "end": "2026-11-02/06:00"
-  },
-  {
-    "titulo": "PJ Masks: Héroes en Pijamas",
-    "sta": "2026-11-02/06:00",
-    "end": "2026-11-02/06:30"
-  },
-  {
-    "titulo": "Peppa Pig",
-    "sta": "2026-11-02/06:30",
-    "end": "2026-11-02/07:00"
-  },
-  {
-    "titulo": "Bebés llorones",
-    "sta": "2026-11-02/07:00",
-    "end": "2026-11-02/07:30"
-  },
-  {
-    "titulo": "Bely y Beto",
-    "sta": "2026-11-02/07:30",
-    "end": "2026-11-02/08:00"
-  },
-  {
-    "titulo": "Ve, perro. ¡Ve!",
-    "sta": "2026-11-02/08:00",
-    "end": "2026-11-02/08:30"
-  },
-  {
-    "titulo": "Masha y el Oso",
-    "sta": "2026-11-02/08:30",
-    "end": "2026-11-02/09:00"
-  },
-  {
-    "titulo": "Kung Fu Panda La Leyenda Po",
-    "sta": "2026-11-02/09:00",
-    "end": "2026-11-02/10:00"
-  },
-  {
-    "titulo": "Los Pingüinos de Madagascar",
-    "sta": "2026-11-02/10:00",
-    "end": "2026-11-02/11:00"
-  },
-  {
-    "titulo": "Scooby-Doo y ¿Quién Crees Tú?",
-    "sta": "2026-11-02/11:00",
-    "end": "2026-11-02/12:30"
-  },
-  {
-    "titulo": "Bob Esponja",
-    "sta": "2026-11-02/12:30",
-    "end": "2026-11-02/14:00"
-  },
-  {
-    "titulo": "El chavo animado",
-    "sta": "2026-11-02/14:00",
-    "end": "2026-11-02/15:30"
-  },
-  {
-    "titulo": "¿Cuál es el bueno?",
-    "sta": "2026-11-02/15:30",
-    "end": "2026-11-02/17:30"
-  },
-  {
-    "titulo": "Contrato de Corazones",
-    "sta": "2026-11-02/17:30",
-    "end": "2026-11-02/18:30"
-  },
-  {
-    "titulo": "Las crónicas de Spiderwick",
-    "sta": "2026-11-02/18:30",
-    "end": "2026-11-02/20:30"
-  },
-  {
-    "titulo": "Me caigo de risa",
-    "sta": "2026-11-02/20:30",
-    "end": "2026-11-02/22:30"
-  },
-  {
-    "titulo": "La ley y el orden UVE",
-    "sta": "2026-11-02/22:30",
-    "end": "2026-11-02/23:30"
-  },
-  {
-    "titulo": "Contacto deportivo",
-    "sta": "2026-11-02/23:30",
-    "end": "2026-11-03/00:00"
-  },
-  {
-    "titulo": "Infomerciales",
     "sta": "2026-11-03/00:00",
     "end": "2026-11-03/03:00"
   },
@@ -433,5 +323,115 @@
     "titulo": "Contacto deportivo",
     "sta": "2026-11-05/23:30",
     "end": "2026-11-06/00:00"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-06/00:00",
+    "end": "2026-11-06/01:00"
+  },
+  {
+    "titulo": "México Nuevo Siglo",
+    "sta": "2026-11-06/01:00",
+    "end": "2026-11-06/02:00"
+  },
+  {
+    "titulo": "Paid Programing",
+    "sta": "2026-11-06/02:00",
+    "end": "2026-11-06/03:00"
+  },
+  {
+    "titulo": "Cronicas",
+    "sta": "2026-11-06/03:00",
+    "end": "2026-11-06/03:30"
+  },
+  {
+    "titulo": "Infomerciales",
+    "sta": "2026-11-06/03:30",
+    "end": "2026-11-06/06:00"
+  },
+  {
+    "titulo": "PJ Masks: Héroes en Pijamas",
+    "sta": "2026-11-06/06:00",
+    "end": "2026-11-06/06:30"
+  },
+  {
+    "titulo": "Peppa Pig",
+    "sta": "2026-11-06/06:30",
+    "end": "2026-11-06/07:00"
+  },
+  {
+    "titulo": "Bebés llorones",
+    "sta": "2026-11-06/07:00",
+    "end": "2026-11-06/07:30"
+  },
+  {
+    "titulo": "Bely y Beto",
+    "sta": "2026-11-06/07:30",
+    "end": "2026-11-06/08:00"
+  },
+  {
+    "titulo": "Ve, perro. ¡Ve!",
+    "sta": "2026-11-06/08:00",
+    "end": "2026-11-06/08:30"
+  },
+  {
+    "titulo": "Masha y el Oso",
+    "sta": "2026-11-06/08:30",
+    "end": "2026-11-06/09:00"
+  },
+  {
+    "titulo": "Kung Fu Panda La Leyenda Po",
+    "sta": "2026-11-06/09:00",
+    "end": "2026-11-06/10:00"
+  },
+  {
+    "titulo": "Los Pingüinos de Madagascar",
+    "sta": "2026-11-06/10:00",
+    "end": "2026-11-06/11:00"
+  },
+  {
+    "titulo": "Scooby-Doo y ¿Quién Crees Tú?",
+    "sta": "2026-11-06/11:00",
+    "end": "2026-11-06/12:30"
+  },
+  {
+    "titulo": "Bob Esponja",
+    "sta": "2026-11-06/12:30",
+    "end": "2026-11-06/14:00"
+  },
+  {
+    "titulo": "El chavo animado",
+    "sta": "2026-11-06/14:00",
+    "end": "2026-11-06/15:30"
+  },
+  {
+    "titulo": "¿Cuál es el bueno?",
+    "sta": "2026-11-06/15:30",
+    "end": "2026-11-06/17:30"
+  },
+  {
+    "titulo": "Contrato de Corazones",
+    "sta": "2026-11-06/17:30",
+    "end": "2026-11-06/18:30"
+  },
+  {
+    "titulo": "La nueva Cenicienta",
+    "sta": "2026-11-06/18:30",
+    "end": "2026-11-06/20:30"
+  },
+  {
+    "titulo": "Me caigo de risa",
+    "sta": "2026-11-06/20:30",
+    "end": "2026-11-06/22:30"
+  },
+  {
+    "titulo": "La ley y el orden UVE",
+    "sta": "2026-11-06/22:30",
+    "end": "2026-11-06/23:30"
+  },
+  {
+    "titulo": "Se rentan Cuartos",
+    "sta": "2026-11-06/23:30",
+    "end": "2026-11-07/00:00"
   }
 ]

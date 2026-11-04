@@ -1103,5 +1103,145 @@
     "titulo": "CBS News Mornings",
     "sta": "2026-11-11/04:30",
     "end": "2026-11-11/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-11/05:00",
+    "end": "2026-11-11/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-11/07:00",
+    "end": "2026-11-11/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / Thank You for Your Service!",
+    "sta": "2026-11-11/09:00",
+    "end": "2026-11-11/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Think Positively!",
+    "sta": "2026-11-11/09:30",
+    "end": "2026-11-11/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-11/10:00",
+    "end": "2026-11-11/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-11/11:00",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-11/12:30",
+    "end": "2026-11-11/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-11/13:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-11/14:00",
+    "end": "2026-11-11/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Hairpin Turn",
+    "sta": "2026-11-11/15:00",
+    "end": "2026-11-11/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Motorcycle Mania and Ding Dong Damages",
+    "sta": "2026-11-11/15:30",
+    "end": "2026-11-11/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Windshield Wiper Attack; Crash, Brake and Bills",
+    "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Fight Over a Harley; Super-Glued Computer",
+    "sta": "2026-11-11/16:30",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-11/17:00",
+    "end": "2026-11-11/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-11/17:30",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-11/18:00",
+    "end": "2026-11-11/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune / Visit Florida",
+    "sta": "2026-11-11/18:30",
+    "end": "2026-11-11/19:00"
+  },
+  {
+    "titulo": "Survivor / Load the Ark, Two by Two",
+    "sta": "2026-11-11/19:00",
+    "end": "2026-11-11/20:30"
+  },
+  {
+    "titulo": "The Amazing Race / Million Dollar Moves",
+    "sta": "2026-11-11/20:30",
+    "end": "2026-11-11/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-11/22:00",
+    "end": "2026-11-11/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-11/22:35",
+    "end": "2026-11-11/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-11/23:05",
+    "end": "2026-11-11/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-11/23:37",
+    "end": "2026-11-12/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-12/00:07",
+    "end": "2026-11-12/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-12/00:37",
+    "end": "2026-11-12/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-12/01:07",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
   }
 ]
