@@ -162,76 +162,71 @@
   {
     "titulo": "Lucha Libre AAA",
     "sta": "2026-11-05/10:30",
-    "end": "2026-11-05/11:20"
-  },
-  {
-    "titulo": "Saudi Pro League / Al Qadsiah vs. Al Fayha, Fecha 13, Prince Saud bin Jalawi Stadium",
-    "sta": "2026-11-05/11:20",
-    "end": "2026-11-05/13:30"
+    "end": "2026-11-05/11:30"
   },
   {
     "titulo": "UEFA Champions League / Shakhtar (Ucr) vs. Sporting CP (Por), Fecha 4, Stamford Bridge",
+    "sta": "2026-11-05/11:30",
+    "end": "2026-11-05/13:30"
+  },
+  {
+    "titulo": "UEFA Champions League / Atl. de Madrid (Esp) vs. Bayern Múnich (Ale), Fecha 4 - Fase de Liga, Riyadh Air Metropolitano",
     "sta": "2026-11-05/13:30",
     "end": "2026-11-05/15:30"
   },
   {
-    "titulo": "UEFA Champions League / Atl. de Madrid (Esp) vs. Bayern Múnich (Ale), Fecha 4 - Fase de Liga, Riyadh Air Metropolitano",
+    "titulo": "UEFA Champions League / Villarreal (Esp) vs. Paris Saint-Germain (Fra), Fecha 4 - Fase de Liga, Estadio de la Cerámica",
     "sta": "2026-11-05/15:30",
     "end": "2026-11-05/17:30"
   },
   {
-    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
+    "titulo": "UEFA Champions League / Bodo/Glimt (Nor) vs. LOSC Lille (Fra), Fecha 4, Aspmyra Stadion",
     "sta": "2026-11-05/17:30",
     "end": "2026-11-05/19:30"
   },
   {
-    "titulo": "UEFA Champions League / Villarreal (Esp) vs. Paris Saint-Germain (Fra), Fecha 4 - Fase de Liga, Estadio de la Cerámica",
+    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
     "sta": "2026-11-05/19:30",
     "end": "2026-11-05/21:30"
   },
   {
-    "titulo": "UEFA Champions League / Bodo/Glimt (Nor) vs. LOSC Lille (Fra), Fecha 4, Aspmyra Stadion",
+    "titulo": "UEFA Champions League / RB Leipzig (Ale) vs. Manchester City (Ing), Fecha 4 - Fase de Liga, Leipzig Red Bull Arena",
     "sta": "2026-11-05/21:30",
     "end": "2026-11-05/23:30"
   },
   {
-    "titulo": "Bundesliga Weekly",
+    "titulo": "UEFA Champions League / PSV (Ned) vs. Club Brugge (Bel), Fecha 4, Philips Stadion",
     "sta": "2026-11-05/23:30",
-    "end": "2026-11-06/00:00"
+    "end": "2026-11-06/01:30"
+  },
+  {
+    "titulo": "UEFA Champions League / Viking (Nor) vs. Sabah Baku (Aze), Fecha 4 - Fase de Liga, SR-Bank Arena",
+    "sta": "2026-11-06/01:30",
+    "end": "2026-11-06/03:30"
+  },
+  {
+    "titulo": "UEFA Youth League / Atl. de Madrid (Esp) vs. Bayern München (Ger)",
+    "sta": "2026-11-06/03:30",
+    "end": "2026-11-06/05:30"
+  },
+  {
+    "titulo": "UEFA Youth League / Borussia Dortmund (Ger) vs. Real Betis Balompié (Esp)",
+    "sta": "2026-11-06/05:30",
+    "end": "2026-11-06/07:30"
   },
   {
     "titulo": "UEFA Champions League / FC Porto (Por) vs. Napoli (Ita), Fecha 4 - Fase de Liga, Estádio do Dragão",
-    "sta": "2026-11-06/00:00",
-    "end": "2026-11-06/02:00"
+    "sta": "2026-11-06/07:30",
+    "end": "2026-11-06/09:30"
   },
   {
-    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
-    "sta": "2026-11-06/02:00",
-    "end": "2026-11-06/04:00"
+    "titulo": "UEFA Champions League / Atl. de Madrid (Esp) vs. Bayern Múnich (Ale), Fecha 4 - Fase de Liga, Riyadh Air Metropolitano",
+    "sta": "2026-11-06/09:30",
+    "end": "2026-11-06/11:30"
   },
   {
-    "titulo": "UEFA Champions League / RB Leipzig (Ale) vs. Manchester City (Ing), Fecha 4 - Fase de Liga, Leipzig Red Bull Arena",
-    "sta": "2026-11-06/04:00",
-    "end": "2026-11-06/06:00"
-  },
-  {
-    "titulo": "UEFA Champions League / PSV (Ned) vs. Club Brugge (Bel), Fecha 4, Philips Stadion",
-    "sta": "2026-11-06/06:00",
-    "end": "2026-11-06/08:00"
-  },
-  {
-    "titulo": "Lucha Libre AAA",
-    "sta": "2026-11-06/08:00",
-    "end": "2026-11-06/08:45"
-  },
-  {
-    "titulo": "Saudi Pro League / Al Hazem vs. Al Nassr Riyadh, Fecha 13, Al-Hazem Club Stadium",
-    "sta": "2026-11-06/08:45",
-    "end": "2026-11-06/11:20"
-  },
-  {
-    "titulo": "Saudi Pro League / Al-Ittihad FC vs. Neom SC, Fecha 13, King Abdullah Sports City",
-    "sta": "2026-11-06/11:20",
+    "titulo": "UEFA Champions League / Villarreal (Esp) vs. Paris Saint-Germain (Fra), Fecha 4 - Fase de Liga, Estadio de la Cerámica",
+    "sta": "2026-11-06/11:30",
     "end": "2026-11-06/13:30"
   },
   {
@@ -260,12 +255,12 @@
     "end": "2026-11-07/00:00"
   },
   {
-    "titulo": "Saudi Pro League / Al Hazem vs. Al Nassr Riyadh, Fecha 13, Al-Hazem Club Stadium",
+    "titulo": "Liga MX Femenil / Guadalajara vs. América",
     "sta": "2026-11-07/00:00",
     "end": "2026-11-07/02:00"
   },
   {
-    "titulo": "Saudi Pro League / Al-Ittihad FC vs. Neom SC, Fecha 13, King Abdullah Sports City",
+    "titulo": "Liga MX Femenil / Juárez vs. Monterrey, Fecha 14 - Grupo A, Estadio Olímpico Benito Juárez",
     "sta": "2026-11-07/02:00",
     "end": "2026-11-07/04:00"
   },
@@ -295,8 +290,13 @@
     "end": "2026-11-07/13:30"
   },
   {
-    "titulo": "NCAA Football / Nebraska vs. Illinois",
+    "titulo": "National Football League / Jacksonville Jaguars vs. Baltimore Ravens, Fecha 9, M&T Bank Stadium",
     "sta": "2026-11-07/13:30",
+    "end": "2026-11-07/16:30"
+  },
+  {
+    "titulo": "NFL GameDay",
+    "sta": "2026-11-07/16:30",
     "end": "2026-11-07/17:00"
   },
   {
@@ -305,7 +305,7 @@
     "end": "2026-11-07/18:00"
   },
   {
-    "titulo": "NCAA Basketball Masculino / Nebraska vs. Providence",
+    "titulo": "NCAA Basketball Masculino / Providence vs. Nebraska",
     "sta": "2026-11-07/18:00",
     "end": "2026-11-07/20:00"
   },
@@ -513,5 +513,30 @@
     "titulo": "A confirmar",
     "sta": "2026-11-17/16:00",
     "end": "2026-11-18/04:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-18/04:00",
+    "end": "2026-11-18/15:00"
+  },
+  {
+    "titulo": "Post - UEFA Champions League",
+    "sta": "2026-11-18/15:00",
+    "end": "2026-11-18/16:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-18/16:00",
+    "end": "2026-11-18/20:00"
+  },
+  {
+    "titulo": "Post - UEFA Champions League",
+    "sta": "2026-11-18/20:00",
+    "end": "2026-11-18/21:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-18/21:00",
+    "end": "2026-11-19/09:00"
   }
 ]

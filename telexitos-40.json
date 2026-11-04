@@ -1,50 +1,5 @@
 [
   {
-    "titulo": "Caso cerrado / Amor y trabajo, mala combinación: Víctima culpable",
-    "sta": "2026-11-02/23:00",
-    "end": "2026-11-03/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/00:30",
-    "end": "2026-11-03/01:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-03/01:00",
-    "end": "2026-11-03/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/01:30",
-    "end": "2026-11-03/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial Vicente Fernández",
-    "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/03:00"
-  },
-  {
-    "titulo": "12 corazones / Más sabe el diablo especial",
-    "sta": "2026-11-03/03:00",
-    "end": "2026-11-03/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / Lazarillo de Gogó",
-    "sta": "2026-11-03/04:00",
-    "end": "2026-11-03/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/04:30",
-    "end": "2026-11-03/05:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-03/05:00",
     "end": "2026-11-03/05:30"
@@ -950,7 +905,7 @@
     "end": "2026-11-09/05:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "¿Accidente automovilistico? Consulta legal gratuita",
     "sta": "2026-11-09/05:30",
     "end": "2026-11-09/06:00"
   },
@@ -990,12 +945,12 @@
     "end": "2026-11-09/11:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / Una semilla de fe",
+    "titulo": "Historias de la Virgen morena / Después de la tormenta",
     "sta": "2026-11-09/11:00",
     "end": "2026-11-09/12:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / Después de la tormenta",
+    "titulo": "Historias de la Virgen morena / La bruja de la cuadra",
     "sta": "2026-11-09/12:00",
     "end": "2026-11-09/13:00"
   },
@@ -1348,5 +1303,50 @@
     "titulo": "Será anunciado",
     "sta": "2026-11-11/22:00",
     "end": "2026-11-11/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Muerte famosa; Reclamando a mi hija",
+    "sta": "2026-11-11/23:00",
+    "end": "2026-11-12/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/00:30",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/01:30",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial bachelor - Verizon",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de gala con Mitzy",
+    "sta": "2026-11-12/03:00",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / La gorda fitness",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
   }
 ]
