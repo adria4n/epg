@@ -28,10 +28,9 @@ def main():
         page.on("request", on_request)
         
         print("Abriendo...", file=sys.stderr)
-        page.goto("https://www.izzigo.tv/webclient/", timeout=90000)
-        page.wait_for_timeout(3000)
+        page.goto("https://www.izzigo.tv/webclient/", wait_until="domcontentloaded", timeout=120000)
+        page.wait_for_timeout(5000)
         
-        # Login
         print("Login...", file=sys.stderr)
         inputs = page.query_selector_all("input")
         for inp in inputs:
@@ -43,26 +42,23 @@ def main():
                 inp.fill(PASSWORD)
         
         page.keyboard.press("Enter")
-        page.wait_for_timeout(5000)
+        page.wait_for_timeout(8000)
         
-        # Ir a TV en vivo
         print("Buscando TV en vivo...", file=sys.stderr)
-        for text in ["TV", "En vivo", "Live", "Canales"]:
+        for text in ["TV", "En vivo", "Live", "Canales", "Inicio"]:
             try:
                 page.click(f"text={text}", timeout=3000)
+                page.wait_for_timeout(2000)
                 break
             except:
                 pass
         
-        page.wait_for_timeout(5000)
-        
-        # Click en un canal
         try:
-            page.click('[class*="channel"], [class*="card"]', timeout=5000)
+            page.click('[class*="channel"], [class*="card"], [class*="item"]', timeout=5000)
         except:
             pass
         
-        page.wait_for_timeout(10000)
+        page.wait_for_timeout(15000)
         
         browser.close()
         
