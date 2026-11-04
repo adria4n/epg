@@ -44,11 +44,7 @@ def process_programs(programs: list) -> list:
             end_dt = unix_to_cdmx(programs[i + 1]["time_GMT"])
         else:
             end_dt = start_dt + timedelta(minutes=60)
-        result.append({
-            "titulo": name,
-            "sta": format_dt(start_dt),
-            "end": format_dt(end_dt)
-        })
+        result.append({"titulo": name, "sta": format_dt(start_dt), "end": format_dt(end_dt)})
     return result
 
 def main():
@@ -60,8 +56,10 @@ def main():
         day = today + timedelta(days=i)
         progs = fetch_day(day)
         if not progs:
+            print(f"  {day.date()}: sin programas, terminando", file=sys.stderr)
             break
         all_programs.extend(progs)
+        print(f"  {day.date()}: {len(progs)} programas", file=sys.stderr)
         i += 1
     epg = process_programs(all_programs)
     seen = set()
