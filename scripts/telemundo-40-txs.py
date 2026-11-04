@@ -50,17 +50,10 @@ def process_programs(programs: list) -> list:
 def main():
     now = datetime.now(TZ)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    days = [today + timedelta(days=i) for i in range(-1, 8)]
     all_programs = []
-    i = -1
-    while True:
-        day = today + timedelta(days=i)
-        progs = fetch_day(day)
-        if not progs:
-            print(f"  {day.date()}: sin programas, terminando", file=sys.stderr)
-            break
-        all_programs.extend(progs)
-        print(f"  {day.date()}: {len(progs)} programas", file=sys.stderr)
-        i += 1
+    for day in days:
+        all_programs.extend(fetch_day(day))
     epg = process_programs(all_programs)
     seen = set()
     unique = []
