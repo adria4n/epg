@@ -1,84 +1,77 @@
 #!/usr/bin/env python3
 
 import json
-import urllib.request
-import urllib.parse
-from datetime import datetime
-from zoneinfo import ZoneInfo
 import sys
+from playwright.sync_api import sync_playwright
 
 USERNAME = "isra@arcagroup.com.mx"
 PASSWORD = "Jehova773"
-TZ = ZoneInfo("America/Mexico_City")
-
-DEVICE_ID = "b9f63bb2-b4c9-4d6b-8820-c20c7f10127b"
-PROFILE_ID = "18836121"
-MODULE_ID = "/E5EoryV"
-
-def login():
-    url = "https://www.izzigo.tv/managetv/core/user/login"
-    data = urllib.parse.urlencode({"username": USERNAME, "password": PASSWORD}).encode()
-    req = urllib.request.Request(url, data=data, headers={
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "Content-Type": "application/x-www-form-urlencoded"
-    })
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
-
-def get_license(token, content_id):
-    provisioning = {
-        "provisioning": [{
-            "system": "verimatrix",
-            "data": [{"name": "vuid", "value": DEVICE_ID}]
-        }]
-    }
-    params = {
-        "drm": "WV",
-        "packaging": "DASH",
-        "provisioningData": urllib.parse.quote(json.dumps(provisioning)),
-        "url": f"multirights://elemental/SVC/{content_id}",
-        "userSessionToken": token
-    }
-    url = f"https://be-cdn.izzigo.tv/streamlocators/getLicenseUrlByContent?{urllib.parse.urlencode(params)}"
-    
-    headers = {
-        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
-        "Authorization": token,
-        "IRIS-HW-DEVICE-ID": DEVICE_ID,
-        "IRIS-DEVICE-STATUS": "ACTIVE",
-        "IRIS-APP-VERSION": "11.6.22(0)_prd",
-        "IRIS-PROFILE-ID": PROFILE_ID,
-        "IRIS-APP-NAME": "izzi go",
-        "IRIS-DEVICE-TYPE": "LINUX/CHROME",
-        "IRIS-DEVICE-REGION": "METRO",
-        "IRIS-DEVICE-CLASS": "PC",
-        "IRIS-MODULE-ID": MODULE_ID,
-        "Origin": "https://www.izzigo.tv",
-        "Referer": "https://www.izzigo.tv/"
-    }
-    
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+OUTPUT_FILE = "izzi-license.json"
 
 def main():
-    print("Login...", file=sys.stderr)
-    resp = login()
-    if resp.get("err") != 0:
-        print(f"Error: {resp.get('mes')}", file=sys.stderr)
-        return
-    token = resp.get("userSessionToken")
-    print(f"Token OK", file=sys.stderr)
-    
-    # Cambia el content_id según el canal
-    content_id = "601333"
-    print(f"Obteniendo licencia para {content_id}...", file=sys.stderr)
-    
-    try:
-        license_resp = get_license(token, content_id)
-        print(json.dumps(license_resp, indent=2))
-    except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120.0.0.0 Mobile Safari/537.36",
+            viewport={"width": 412, "height": 915}
+        )
+        page = context.new_page()
+        
+        license_url = None
+        
+        def on_request(req):
+            nonlocal license_url
+            if "multi-sec.izzigo.tv" in req.url:
+                license_url = req.url
+                print(f"Licencia: {req.url[:80]}...", file=sys.stderr)
+        
+        page.on("request", on_request)
+        
+        print("Abriendo...", file=sys.stderr)
+        page.goto("https://www.izzigo.tv/webclient/", timeout=90000)
+        page.wait_for_timeout(3000)
+        
+        # Login
+        print("Login...", file=sys.stderr)
+        inputs = page.query_selector_all("input")
+        for inp in inputs:
+            t = (inp.get_attribute("type") or "").lower()
+            p = (inp.get_attribute("placeholder") or "").lower()
+            if "mail" in t or "usuario" in p or "correo" in p:
+                inp.fill(USERNAME)
+            elif t == "password" or "contraseña" in p:
+                inp.fill(PASSWORD)
+        
+        page.keyboard.press("Enter")
+        page.wait_for_timeout(5000)
+        
+        # Ir a TV en vivo
+        print("Buscando TV en vivo...", file=sys.stderr)
+        for text in ["TV", "En vivo", "Live", "Canales"]:
+            try:
+                page.click(f"text={text}", timeout=3000)
+                break
+            except:
+                pass
+        
+        page.wait_for_timeout(5000)
+        
+        # Click en un canal
+        try:
+            page.click('[class*="channel"], [class*="card"]', timeout=5000)
+        except:
+            pass
+        
+        page.wait_for_timeout(10000)
+        
+        browser.close()
+        
+        if license_url:
+            with open(OUTPUT_FILE, "w") as f:
+                json.dump({"license_url": license_url}, f, indent=2)
+            print(f"Guardado en {OUTPUT_FILE}", file=sys.stderr)
+        else:
+            print("No se encontró licencia", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
