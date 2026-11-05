@@ -7,11 +7,14 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import sys
 
+CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/kwulllm1dc8rotb1249oa/iptv-epg-org.txt?rlkey=fw2pbn7y8hp7bqic9jk17wg3r"
 EPG_URL = "https://iptv-epg.org/files/epg-mx.xml"
-CHANNEL_ID = "Golden.mx"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "golden.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+def load_canales():
+    with urllib.request.urlopen(CANALES_URL) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 def fetch_xml() -> str:
     print(f"Descargando {EPG_URL}...", file=sys.stderr)
@@ -19,12 +22,12 @@ def fetch_xml() -> str:
     with urllib.request.urlopen(req, timeout=60) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
-def parse_epg(xml_data: str) -> list[dict]:
+def parse_epg(xml_data: str, channel_id: str) -> list[dict]:
     root = ET.fromstring(xml_data)
     programs = []
 
     for prog in root.findall("programme"):
-        if prog.get("channel") != CHANNEL_ID:
+        if prog.get("channel") != channel_id:
             continue
 
         title_el = prog.find("title")
@@ -54,15 +57,17 @@ def parse_epg(xml_data: str) -> list[dict]:
     return programs
 
 def main():
+    canales = load_canales()
     try:
         xml_data = fetch_xml()
-        programs = parse_epg(xml_data)
-        programs.sort(key=lambda x: x["sta"])
-
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(programs, f, indent=2, ensure_ascii=False)
-
-        print(f"Listo: {len(programs)} programas en {OUTPUT_FILE}", file=sys.stderr)
+        for canal in canales:
+            channel_id = canal.get("id", "")
+            outfile = canal.get("json", f"{channel_id}.json")
+            programs = parse_epg(xml_data, channel_id)
+            programs.sort(key=lambda x: x["sta"])
+            with open(outfile, "w", encoding="utf-8") as f:
+                json.dump(programs, f, indent=2, ensure_ascii=False)
+            print(f"Listo: {len(programs)} programas en {outfile}", file=sys.stderr)
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
