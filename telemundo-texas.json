@@ -585,7 +585,7 @@
     "end": "2026-11-07/07:00"
   },
   {
-    "titulo": "Paid Programming",
+    "titulo": "Planeta Tierra",
     "sta": "2026-11-07/07:00",
     "end": "2026-11-07/07:30"
   },
@@ -620,28 +620,33 @@
     "end": "2026-11-07/16:00"
   },
   {
-    "titulo": "Caso cerrado",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-07/16:00",
-    "end": "2026-11-07/16:30"
+    "end": "2026-11-07/17:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-07/17:00",
+    "end": "2026-11-07/17:30"
   },
   {
     "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-07/16:30",
-    "end": "2026-11-07/16:55"
-  },
-  {
-    "titulo": "Liga MX Soccer",
-    "sta": "2026-11-07/16:55",
-    "end": "2026-11-07/19:00"
+    "sta": "2026-11-07/17:30",
+    "end": "2026-11-07/17:55"
   },
   {
     "titulo": "Dateline",
-    "sta": "2026-11-07/19:00",
-    "end": "2026-11-07/20:00"
+    "sta": "2026-11-07/17:55",
+    "end": "2026-11-07/18:55"
   },
   {
-    "titulo": "Jumanji: Welcome to the Jungle",
-    "sta": "2026-11-07/20:00",
+    "titulo": "Liga MX Soccer",
+    "sta": "2026-11-07/18:55",
+    "end": "2026-11-07/21:00"
+  },
+  {
+    "titulo": "Dateline",
+    "sta": "2026-11-07/21:00",
     "end": "2026-11-07/22:00"
   },
   {
@@ -660,13 +665,8 @@
     "end": "2026-11-07/23:30"
   },
   {
-    "titulo": "Lo que callamos las mujeres",
+    "titulo": "Rocky Balboa",
     "sta": "2026-11-07/23:30",
-    "end": "2026-11-08/00:30"
-  },
-  {
-    "titulo": "Caso cerrado",
-    "sta": "2026-11-08/00:30",
     "end": "2026-11-08/01:30"
   },
   {
@@ -1037,6 +1037,136 @@
   {
     "titulo": "Noticias Telemundo en la noche",
     "sta": "2026-11-10/22:35",
-    "end": "2026-11-10/23:35"
+    "end": "2026-11-10/23:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-10/23:00",
+    "end": "2026-11-10/23:30"
+  },
+  {
+    "titulo": "Uzak Sehir",
+    "sta": "2026-11-10/23:30",
+    "end": "2026-11-11/00:30"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-11/00:30",
+    "end": "2026-11-11/01:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/01:00",
+    "end": "2026-11-11/02:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/02:00",
+    "end": "2026-11-11/03:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-11/03:00",
+    "end": "2026-11-11/04:00"
+  },
+  {
+    "titulo": "Caso cerrado",
+    "sta": "2026-11-11/04:00",
+    "end": "2026-11-11/04:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-11/04:30",
+    "end": "2026-11-11/05:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-11/05:00",
+    "end": "2026-11-11/06:00"
+  },
+  {
+    "titulo": "Noticias Telemundo AHORA",
+    "sta": "2026-11-11/06:00",
+    "end": "2026-11-11/07:00"
+  },
+  {
+    "titulo": "Hoy día",
+    "sta": "2026-11-11/07:00",
+    "end": "2026-11-11/10:30"
+  },
+  {
+    "titulo": "Reina de corazones",
+    "sta": "2026-11-11/10:30",
+    "end": "2026-11-11/11:00"
+  },
+  {
+    "titulo": "Santa Diabla",
+    "sta": "2026-11-11/11:00",
+    "end": "2026-11-11/11:30"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-11/11:30",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/13:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/13:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-11/14:00",
+    "end": "2026-11-11/15:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-11/15:00",
+    "end": "2026-11-11/16:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-11/17:00",
+    "end": "2026-11-11/17:30"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-11/17:30",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-11/18:00",
+    "end": "2026-11-11/20:00"
+  },
+  {
+    "titulo": "El señor de los cielos",
+    "sta": "2026-11-11/20:00",
+    "end": "2026-11-11/21:00"
+  },
+  {
+    "titulo": "Uzak Sehir",
+    "sta": "2026-11-11/21:00",
+    "end": "2026-11-11/22:00"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-11/22:00",
+    "end": "2026-11-11/22:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-11/22:35",
+    "end": "2026-11-11/23:35"
   }
 ]

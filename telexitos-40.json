@@ -1,116 +1,6 @@
 [
   {
     "titulo": "Programa pagado",
-    "sta": "2026-11-03/05:00",
-    "end": "2026-11-03/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/05:30",
-    "end": "2026-11-03/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/06:00",
-    "end": "2026-11-03/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/06:30",
-    "end": "2026-11-03/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/07:00",
-    "end": "2026-11-03/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-03/07:30",
-    "end": "2026-11-03/08:00"
-  },
-  {
-    "titulo": "Caso cerrado / Niñas en tráfico; Mal educada",
-    "sta": "2026-11-03/08:00",
-    "end": "2026-11-03/09:00"
-  },
-  {
-    "titulo": "Caso cerrado / Hombre pequeño abusado; Doble traición",
-    "sta": "2026-11-03/09:00",
-    "end": "2026-11-03/10:00"
-  },
-  {
-    "titulo": "Caso cerrado / Barrigas en discordia; La premonición",
-    "sta": "2026-11-03/10:00",
-    "end": "2026-11-03/11:00"
-  },
-  {
-    "titulo": "Historias de la Virgen morena / Enséñame humildad",
-    "sta": "2026-11-03/11:00",
-    "end": "2026-11-03/12:00"
-  },
-  {
-    "titulo": "Historias de la Virgen morena / Lazos recuperados",
-    "sta": "2026-11-03/12:00",
-    "end": "2026-11-03/13:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres / Jimena y Azul, lazos de sangre",
-    "sta": "2026-11-03/13:00",
-    "end": "2026-11-03/14:00"
-  },
-  {
-    "titulo": "El final del paraíso / En la boca del lobo",
-    "sta": "2026-11-03/14:00",
-    "end": "2026-11-03/15:00"
-  },
-  {
-    "titulo": "Lo que callamos las mujeres / Asunción: Decidir una vida",
-    "sta": "2026-11-03/15:00",
-    "end": "2026-11-03/16:00"
-  },
-  {
-    "titulo": "Un día para vivir / Ella",
-    "sta": "2026-11-03/16:00",
-    "end": "2026-11-03/17:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Quiero que se comporte como mujer",
-    "sta": "2026-11-03/17:00",
-    "end": "2026-11-03/18:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Mantiene a mi hijo con su cuerpo",
-    "sta": "2026-11-03/18:00",
-    "end": "2026-11-03/19:00"
-  },
-  {
-    "titulo": "Caso cerrado / Mil puñaladas; Me cortó el amor",
-    "sta": "2026-11-03/19:00",
-    "end": "2026-11-03/20:00"
-  },
-  {
-    "titulo": "Caso cerrado / Bajeza familiar; Pijama party",
-    "sta": "2026-11-03/20:00",
-    "end": "2026-11-03/21:00"
-  },
-  {
-    "titulo": "Acércate a Rocío / Da la vida por un hombre",
-    "sta": "2026-11-03/21:00",
-    "end": "2026-11-03/22:00"
-  },
-  {
-    "titulo": "El final del paraíso / La pelea final",
-    "sta": "2026-11-03/22:00",
-    "end": "2026-11-03/23:00"
-  },
-  {
-    "titulo": "Caso cerrado / Con traición no hay senos nuevos; Lazarillo de gogó",
-    "sta": "2026-11-03/23:00",
-    "end": "2026-11-04/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
     "sta": "2026-11-04/00:00",
     "end": "2026-11-04/00:30"
   },
@@ -180,17 +70,17 @@
     "end": "2026-11-04/08:00"
   },
   {
-    "titulo": "Escape perfecto / Para la fiesta de XV años",
+    "titulo": "Caso cerrado / De perro a bestia; No hacía falta",
     "sta": "2026-11-04/08:00",
     "end": "2026-11-04/09:00"
   },
   {
-    "titulo": "Caso cerrado / De perro a bestia; No hacía falta",
+    "titulo": "Caso cerrado / Engaño inesperado; Peligroso soldado",
     "sta": "2026-11-04/09:00",
     "end": "2026-11-04/10:00"
   },
   {
-    "titulo": "Caso cerrado / Descaro sin límite; Borracha por necesidad",
+    "titulo": "Caso cerrado / Venganza tardía; Sabías que la mataría y callaste",
     "sta": "2026-11-04/10:00",
     "end": "2026-11-04/11:00"
   },
@@ -350,7 +240,7 @@
     "end": "2026-11-05/12:00"
   },
   {
-    "titulo": "Historias de la Virgen morena",
+    "titulo": "Historias de la Virgen morena / Día de las Madres",
     "sta": "2026-11-05/12:00",
     "end": "2026-11-05/13:00"
   },
@@ -495,12 +385,12 @@
     "end": "2026-11-06/11:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / Día de las Madres",
+    "titulo": "Historias de la Virgen morena / La vida empieza hoy",
     "sta": "2026-11-06/11:00",
     "end": "2026-11-06/12:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / La vida empieza hoy",
+    "titulo": "Historias de la Virgen morena / Una semilla de fe",
     "sta": "2026-11-06/12:00",
     "end": "2026-11-06/13:00"
   },
@@ -670,7 +560,7 @@
     "end": "2026-11-07/15:00"
   },
   {
-    "titulo": "Caso cerrado / El último show",
+    "titulo": "Caso cerrado / El último show; Haz de mí lo que quieras",
     "sta": "2026-11-07/15:00",
     "end": "2026-11-07/16:00"
   },
@@ -1095,12 +985,12 @@
     "end": "2026-11-10/11:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / La bruja de la cuadra",
+    "titulo": "Historias de la Virgen morena / La felicidad no se compra",
     "sta": "2026-11-10/11:00",
     "end": "2026-11-10/12:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / La felicidad no se compra",
+    "titulo": "Historias de la Virgen morena / Los ojos de una madre",
     "sta": "2026-11-10/12:00",
     "end": "2026-11-10/13:00"
   },
@@ -1170,7 +1060,7 @@
     "end": "2026-11-11/01:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "La Dr. Polo vida sin límites",
     "sta": "2026-11-11/01:00",
     "end": "2026-11-11/01:30"
   },
@@ -1245,12 +1135,12 @@
     "end": "2026-11-11/11:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / Los ojos de una madre",
+    "titulo": "Historias de la Virgen morena / Regreso inesperado",
     "sta": "2026-11-11/11:00",
     "end": "2026-11-11/12:00"
   },
   {
-    "titulo": "Historias de la Virgen morena / Regreso inesperado",
+    "titulo": "Historias de la Virgen morena / La vida entre mis brazos",
     "sta": "2026-11-11/12:00",
     "end": "2026-11-11/13:00"
   },
@@ -1308,45 +1198,5 @@
     "titulo": "Caso cerrado / Muerte famosa; Reclamando a mi hija",
     "sta": "2026-11-11/23:00",
     "end": "2026-11-12/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/00:00",
-    "end": "2026-11-12/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/00:30",
-    "end": "2026-11-12/01:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/01:00",
-    "end": "2026-11-12/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/01:30",
-    "end": "2026-11-12/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial bachelor - Verizon",
-    "sta": "2026-11-12/02:00",
-    "end": "2026-11-12/03:00"
-  },
-  {
-    "titulo": "12 corazones / Especial de gala con Mitzy",
-    "sta": "2026-11-12/03:00",
-    "end": "2026-11-12/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / La gorda fitness",
-    "sta": "2026-11-12/04:00",
-    "end": "2026-11-12/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-12/04:30",
-    "end": "2026-11-12/05:00"
   }
 ]
