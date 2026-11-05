@@ -128,7 +128,6 @@ def main():
     for canal in canales:
         cid = str(canal.get("id", "")).strip()
         outfile = canal.get("json", f"{cid}.json")
-        print(f"\n=== {canal.get('nombre', '?')} (ID {cid}) → {outfile} ===", file=sys.stderr)
         programs = scrape(cid)
         if programs:
             with open(outfile, "w", encoding="utf-8") as f:
