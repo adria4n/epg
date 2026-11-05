@@ -1,12 +1,12 @@
 [
   {
     "nombre": "Azteca Uno",
-    "json": "azteca-uno-star-tv-stream.json",
+    "json": "azteca-uno-star-tv.json",
     "id":2381
   },
   {
     "nombre": "Las estrellas",
-    "json": "las-estrellas-star-tv-stream.json",
+    "json": "las-estrellas-star-tv.json",
     "id":2126
   }
 ]
