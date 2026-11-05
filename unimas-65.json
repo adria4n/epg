@@ -1,40 +1,5 @@
 [
   {
-    "titulo": "Fugitivas",
-    "sta": "2026-11-03/23:00",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "Como dice el dicho / Agua pasada no mueve molinos",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "Primeras citas",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-04/03:30",
-    "end": "2026-11-04/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-04/04:30",
-    "end": "2026-11-04/05:00"
-  },
-  {
     "titulo": "Veredicto final",
     "sta": "2026-11-04/05:00",
     "end": "2026-11-04/06:00"
@@ -1078,5 +1043,170 @@
     "titulo": "El túnel del amor",
     "sta": "2026-11-11/21:00",
     "end": "2026-11-11/23:00"
+  },
+  {
+    "titulo": "Fugitivas",
+    "sta": "2026-11-11/23:00",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "Primeras citas",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/03:00",
+    "end": "2026-11-12/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/03:30",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Pasos de cero",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / No te vayas Ñoño",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Invierno en la vecindad",
+    "sta": "2026-11-12/07:30",
+    "end": "2026-11-12/08:00"
+  },
+  {
+    "titulo": "Vecinos / Las cosas de don Roque",
+    "sta": "2026-11-12/08:00",
+    "end": "2026-11-12/08:30"
+  },
+  {
+    "titulo": "Vecinos / El tamalero",
+    "sta": "2026-11-12/08:30",
+    "end": "2026-11-12/09:00"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Cuando los gemelos no son buenos cuates",
+    "sta": "2026-11-12/09:00",
+    "end": "2026-11-12/09:30"
+  },
+  {
+    "titulo": "El Chapulín Colorado / Las momias no se venden a, pero como se vendan",
+    "sta": "2026-11-12/09:30",
+    "end": "2026-11-12/10:00"
+  },
+  {
+    "titulo": "El Chavo / La congestión",
+    "sta": "2026-11-12/10:00",
+    "end": "2026-11-12/10:30"
+  },
+  {
+    "titulo": "El Chavo / La mosca en el café",
+    "sta": "2026-11-12/10:30",
+    "end": "2026-11-12/11:00"
+  },
+  {
+    "titulo": "Amigos por siempre / Expulsado por ser hijo adoptivo",
+    "sta": "2026-11-12/11:00",
+    "end": "2026-11-12/12:00"
+  },
+  {
+    "titulo": "Corazón salvaje",
+    "sta": "2026-11-12/12:00",
+    "end": "2026-11-12/13:00"
+  },
+  {
+    "titulo": "La Dueña / Una pista",
+    "sta": "2026-11-12/13:00",
+    "end": "2026-11-12/14:00"
+  },
+  {
+    "titulo": "La mentira / Nicole",
+    "sta": "2026-11-12/14:00",
+    "end": "2026-11-12/15:00"
+  },
+  {
+    "titulo": "Qué bonito amor",
+    "sta": "2026-11-12/15:00",
+    "end": "2026-11-12/16:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Muerte anunciada",
+    "sta": "2026-11-12/16:00",
+    "end": "2026-11-12/17:00"
+  },
+  {
+    "titulo": "¿Quién caerá?",
+    "sta": "2026-11-12/17:00",
+    "end": "2026-11-12/18:00"
+  },
+  {
+    "titulo": "Noche de estrellas: Latin Grammy",
+    "sta": "2026-11-12/18:00",
+    "end": "2026-11-12/19:00"
+  },
+  {
+    "titulo": "Noche de estrellas: Latin Grammy",
+    "sta": "2026-11-12/19:00",
+    "end": "2026-11-12/20:00"
+  },
+  {
+    "titulo": "Latin Grammy 2026",
+    "sta": "2026-11-12/20:00",
+    "end": "2026-11-12/23:00"
+  },
+  {
+    "titulo": "Noche de estrellas: Latin Grammy",
+    "sta": "2026-11-12/23:00",
+    "end": "2026-11-13/00:00"
+  },
+  {
+    "titulo": "Latin Grammy 2026",
+    "sta": "2026-11-13/00:00",
+    "end": "2026-11-13/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/03:00",
+    "end": "2026-11-13/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/03:30",
+    "end": "2026-11-13/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:00",
+    "end": "2026-11-13/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:30",
+    "end": "2026-11-13/05:00"
   }
 ]

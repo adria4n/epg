@@ -1,70 +1,5 @@
 [
   {
-    "titulo": "KFOX14 News at 9",
-    "sta": "2026-11-03/22:00",
-    "end": "2026-11-03/23:05"
-  },
-  {
-    "titulo": "Inside Edition / Data Centers",
-    "sta": "2026-11-03/23:05",
-    "end": "2026-11-03/23:35"
-  },
-  {
-    "titulo": "Extra",
-    "sta": "2026-11-03/23:35",
-    "end": "2026-11-04/00:05"
-  },
-  {
-    "titulo": "iCRIME With Elizabeth Vargas / Car Theft Suspect Slashes K-9 With Knife; Arsonist Torches Tesla Inside Detroit parking Garage",
-    "sta": "2026-11-04/00:05",
-    "end": "2026-11-04/00:35"
-  },
-  {
-    "titulo": "Live PD Presents",
-    "sta": "2026-11-04/00:35",
-    "end": "2026-11-04/01:05"
-  },
-  {
-    "titulo": "Crime Exposé With Nancy O'Dell",
-    "sta": "2026-11-04/01:05",
-    "end": "2026-11-04/01:35"
-  },
-  {
-    "titulo": "The Simpsons / Estranger Things",
-    "sta": "2026-11-04/01:35",
-    "end": "2026-11-04/02:05"
-  },
-  {
-    "titulo": "The Simpsons / To Cur With Love",
-    "sta": "2026-11-04/02:05",
-    "end": "2026-11-04/02:33"
-  },
-  {
-    "titulo": "Extra",
-    "sta": "2026-11-04/02:33",
-    "end": "2026-11-04/03:03"
-  },
-  {
-    "titulo": "Two and a Half Men / It Was Mame, Mom",
-    "sta": "2026-11-04/03:03",
-    "end": "2026-11-04/03:32"
-  },
-  {
-    "titulo": "Hot Bench / Hair Today, Gone Tomorrow",
-    "sta": "2026-11-04/03:32",
-    "end": "2026-11-04/04:02"
-  },
-  {
-    "titulo": "Cutlers Court / Ferreira vs. Ferreira",
-    "sta": "2026-11-04/04:02",
-    "end": "2026-11-04/04:31"
-  },
-  {
-    "titulo": "Business First With Angela Miles / Marriage & Money; On the Job Tips",
-    "sta": "2026-11-04/04:31",
-    "end": "2026-11-04/05:00"
-  },
-  {
     "titulo": "The National News Desk",
     "sta": "2026-11-04/05:00",
     "end": "2026-11-04/06:00"
@@ -1288,5 +1223,235 @@
     "titulo": "KFOX14 News at 9",
     "sta": "2026-11-11/22:00",
     "end": "2026-11-11/23:05"
+  },
+  {
+    "titulo": "Inside Edition",
+    "sta": "2026-11-11/23:05",
+    "end": "2026-11-11/23:35"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-11/23:35",
+    "end": "2026-11-12/00:05"
+  },
+  {
+    "titulo": "iCRIME With Elizabeth Vargas / Four Teens Invade Popular Streamer's Home; Wild Hermes handbag heist",
+    "sta": "2026-11-12/00:05",
+    "end": "2026-11-12/00:35"
+  },
+  {
+    "titulo": "Live PD Presents",
+    "sta": "2026-11-12/00:35",
+    "end": "2026-11-12/01:05"
+  },
+  {
+    "titulo": "Crime Exposé With Nancy O'Dell",
+    "sta": "2026-11-12/01:05",
+    "end": "2026-11-12/01:35"
+  },
+  {
+    "titulo": "The Simpsons / The Day of the Jack-up",
+    "sta": "2026-11-12/01:35",
+    "end": "2026-11-12/02:05"
+  },
+  {
+    "titulo": "The Simpsons / Love Is a Many Splintered Thing",
+    "sta": "2026-11-12/02:05",
+    "end": "2026-11-12/02:33"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-12/02:33",
+    "end": "2026-11-12/03:03"
+  },
+  {
+    "titulo": "Two and a Half Men / Does This Smell Funny to You?",
+    "sta": "2026-11-12/03:03",
+    "end": "2026-11-12/03:32"
+  },
+  {
+    "titulo": "Hot Bench / Unsettled Sisters",
+    "sta": "2026-11-12/03:32",
+    "end": "2026-11-12/04:02"
+  },
+  {
+    "titulo": "Cutlers Court / Neuman-Sample vs. Pilotti",
+    "sta": "2026-11-12/04:02",
+    "end": "2026-11-12/04:31"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Movies & Money; Bond Market Money Report",
+    "sta": "2026-11-12/04:31",
+    "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "KFOX14 Morning News",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "KFOX14 Morning News 6-8A",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/09:00"
+  },
+  {
+    "titulo": "KFOX14 Morning News 8-9A",
+    "sta": "2026-11-12/09:00",
+    "end": "2026-11-12/10:00"
+  },
+  {
+    "titulo": "ARC El Paso",
+    "sta": "2026-11-12/10:00",
+    "end": "2026-11-12/11:00"
+  },
+  {
+    "titulo": "Daytime",
+    "sta": "2026-11-12/11:00",
+    "end": "2026-11-12/12:00"
+  },
+  {
+    "titulo": "The People's Court",
+    "sta": "2026-11-12/12:00",
+    "end": "2026-11-12/13:00"
+  },
+  {
+    "titulo": "Divorce Court / Janise Sutton vs. Tyaree Sutton: Silent Treatment",
+    "sta": "2026-11-12/13:00",
+    "end": "2026-11-12/13:30"
+  },
+  {
+    "titulo": "Hot Bench",
+    "sta": "2026-11-12/13:30",
+    "end": "2026-11-12/14:00"
+  },
+  {
+    "titulo": "Judge Mathis",
+    "sta": "2026-11-12/14:00",
+    "end": "2026-11-12/15:00"
+  },
+  {
+    "titulo": "America's Funniest Home Videos",
+    "sta": "2026-11-12/15:00",
+    "end": "2026-11-12/15:30"
+  },
+  {
+    "titulo": "America's Funniest Home Videos",
+    "sta": "2026-11-12/15:30",
+    "end": "2026-11-12/16:00"
+  },
+  {
+    "titulo": "Family Feud",
+    "sta": "2026-11-12/16:00",
+    "end": "2026-11-12/16:30"
+  },
+  {
+    "titulo": "Flip Side / Winning With the Falcons",
+    "sta": "2026-11-12/16:30",
+    "end": "2026-11-12/17:00"
+  },
+  {
+    "titulo": "Family Feud",
+    "sta": "2026-11-12/17:00",
+    "end": "2026-11-12/17:30"
+  },
+  {
+    "titulo": "Family Feud",
+    "sta": "2026-11-12/17:30",
+    "end": "2026-11-12/18:00"
+  },
+  {
+    "titulo": "KFOX14 News at Five",
+    "sta": "2026-11-12/18:00",
+    "end": "2026-11-12/19:00"
+  },
+  {
+    "titulo": "The Big Bang Theory / The Luminous Fish Effect",
+    "sta": "2026-11-12/19:00",
+    "end": "2026-11-12/19:30"
+  },
+  {
+    "titulo": "The Big Bang Theory / The Einstein Approximation",
+    "sta": "2026-11-12/19:30",
+    "end": "2026-11-12/20:00"
+  },
+  {
+    "titulo": "Hell's Kitchen / Thumb-thing's Cooking",
+    "sta": "2026-11-12/20:00",
+    "end": "2026-11-12/21:02"
+  },
+  {
+    "titulo": "Special Forces: World's Toughest Test / Interrogation",
+    "sta": "2026-11-12/21:02",
+    "end": "2026-11-12/22:00"
+  },
+  {
+    "titulo": "KFOX14 News at 9",
+    "sta": "2026-11-12/22:00",
+    "end": "2026-11-12/23:05"
+  },
+  {
+    "titulo": "Inside Edition",
+    "sta": "2026-11-12/23:05",
+    "end": "2026-11-12/23:35"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-12/23:35",
+    "end": "2026-11-13/00:05"
+  },
+  {
+    "titulo": "iCRIME With Elizabeth Vargas / Fight in Dick's Westfield Mall; Thief Caught Dancing on Security Footage",
+    "sta": "2026-11-13/00:05",
+    "end": "2026-11-13/00:35"
+  },
+  {
+    "titulo": "Live PD Presents",
+    "sta": "2026-11-13/00:35",
+    "end": "2026-11-13/01:05"
+  },
+  {
+    "titulo": "Crime Exposé With Nancy O'Dell",
+    "sta": "2026-11-13/01:05",
+    "end": "2026-11-13/01:35"
+  },
+  {
+    "titulo": "The Simpsons / Aunt Misbehavin'",
+    "sta": "2026-11-13/01:35",
+    "end": "2026-11-13/02:05"
+  },
+  {
+    "titulo": "The Simpsons / What Animated Women Want",
+    "sta": "2026-11-13/02:05",
+    "end": "2026-11-13/02:33"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-13/02:33",
+    "end": "2026-11-13/03:03"
+  },
+  {
+    "titulo": "Two and a Half Men / Weekend in Bangkok With Two Olympic Gymnasts",
+    "sta": "2026-11-13/03:03",
+    "end": "2026-11-13/03:32"
+  },
+  {
+    "titulo": "Hot Bench / Family Truckus",
+    "sta": "2026-11-13/03:32",
+    "end": "2026-11-13/04:02"
+  },
+  {
+    "titulo": "Cutlers Court / The DNA Verdict",
+    "sta": "2026-11-13/04:02",
+    "end": "2026-11-13/04:31"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Top That Trade Game With Alan Knuckman & Phil Flynn",
+    "sta": "2026-11-13/04:31",
+    "end": "2026-11-13/05:00"
   }
 ]
