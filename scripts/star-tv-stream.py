@@ -7,12 +7,12 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CANALES_URL = "https://raw.githubusercontent.com/adria4n/epg/refs/heads/main/epg/canales-star-tv-stream.txt"
+CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/g31egmv8b3ik4esbe3vlq/star-tv-stream.json?rlkey=gz8qjwx3qgj6qogtsvmtjqzi1"
 TZ = ZoneInfo("America/Mexico_City")
 
 def load_canales():
     try:
-        with urllib.request.urlopen(CANALES_URL) as resp:
+        with urllib.request.urlopen(CANALES_URL, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         print(f"Cargados {len(data)} canales", file=sys.stderr)
         return data
@@ -61,7 +61,7 @@ def fetch_epg(context, host, uuid, cid, lineup, now):
         day_offset += 1
     return all_items
 
-def get_session_info():
+def scrape(cid):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
@@ -69,7 +69,7 @@ def get_session_info():
             locale="es-MX"
         )
         page = context.new_page()
-        print("Cargando sesión...", file=sys.stderr)
+        print("Cargando...", file=sys.stderr)
         page.goto("https://edgelb.stargroup.com.mx/web/startv/#spa/login", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(3000)
         page.get_by_text("EXPLORAR CANALES").click()
@@ -91,68 +91,61 @@ def get_session_info():
                 return {host, uuid, lineup};
             }
         """)
+        host = info.get("host")
+        uuid = info.get("uuid")
+        lineup = info.get("lineup")
+        if not host or not uuid or not lineup:
+            print("No se obtuvo host, UUID o lineup", file=sys.stderr)
+            browser.close()
+            return []
+        print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
+        now = datetime.now(TZ)
+        print(f"Usando ID: {cid}", file=sys.stderr)
+        all_items = fetch_epg(context, host, uuid, cid, lineup, now)
         browser.close()
-        return info.get("host"), info.get("uuid"), info.get("lineup")
-
-def scrape_canal(context, host, uuid, lineup, cid):
-    now = datetime.now(TZ)
-    print(f"Usando ID: {cid}", file=sys.stderr)
-    all_items = fetch_epg(context, host, uuid, cid, lineup, now)
-    if not all_items:
-        return []
-    seen = set()
-    programs = []
-    for item in all_items:
-        title = build_title(item)
-        start = item.get("startDateTime")
-        end = item.get("endDateTime")
-        if not title or not start:
-            continue
-        key = str(start)
-        if key in seen:
-            continue
-        seen.add(key)
-        sta = datetime.fromtimestamp(start / 1000, TZ)
-        end_dt = datetime.fromtimestamp(end / 1000, TZ)
-        programs.append({
-            "titulo": title,
-            "sta": sta.strftime("%Y-%m-%d/%H:%M"),
-            "end": end_dt.strftime("%Y-%m-%d/%H:%M"),
-        })
-    programs.sort(key=lambda x: x["sta"])
-    return programs
+        if not all_items:
+            print("Sin datos", file=sys.stderr)
+            return []
+        seen = set()
+        programs = []
+        for item in all_items:
+            title = build_title(item)
+            start = item.get("startDateTime")
+            end = item.get("endDateTime")
+            if not title or not start:
+                continue
+            key = str(start)
+            if key in seen:
+                continue
+            seen.add(key)
+            sta = datetime.fromtimestamp(start / 1000, TZ)
+            end_dt = datetime.fromtimestamp(end / 1000, TZ)
+            programs.append({
+                "titulo": title,
+                "sta": sta.strftime("%Y-%m-%d/%H:%M"),
+                "end": end_dt.strftime("%Y-%m-%d/%H:%M"),
+            })
+        programs.sort(key=lambda x: x["sta"])
+        print(f"Total: {len(programs)} programas (CID: {cid})", file=sys.stderr)
+        return programs
 
 def main():
     canales = load_canales()
     if not canales:
         print("No hay canales", file=sys.stderr)
         return
-
-    host, uuid, lineup = get_session_info()
-    if not host or not uuid or not lineup:
-        print("No se obtuvo host, UUID o lineup", file=sys.stderr)
-        return
-    print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            locale="es-MX"
-        )
-        for canal in canales:
-            nombre = canal.get("nombre", "?")
-            cid = str(canal.get("id", "")).strip()
-            outfile = canal.get("json", f"{cid}.json")
-            print(f"\n=== {nombre} (ID {cid}) → {outfile} ===", file=sys.stderr)
-            programs = scrape_canal(context, host, uuid, lineup, cid)
-            if programs:
-                with open(outfile, "w", encoding="utf-8") as f:
-                    json.dump(programs, f, indent=2, ensure_ascii=False)
-                print(f"Listo: {len(programs)} programas en {outfile}", file=sys.stderr)
-            else:
-                print(f"Sin datos para {nombre}", file=sys.stderr)
-        browser.close()
+    for canal in canales:
+        nombre = canal.get("nombre", "?")
+        cid = str(canal.get("id", "")).strip()
+        outfile = canal.get("json", f"{cid}.json")
+        print(f"\n=== {nombre} (ID {cid}) → {outfile} ===", file=sys.stderr)
+        programs = scrape(cid)
+        if programs:
+            with open(outfile, "w", encoding="utf-8") as f:
+                json.dump(programs, f, indent=2, ensure_ascii=False)
+            print(f"Listo: {len(programs)} en {outfile}", file=sys.stderr)
+        else:
+            print(f"Sin resultados para {nombre}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
