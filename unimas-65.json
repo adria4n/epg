@@ -1,25 +1,5 @@
 [
   {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "Esta historia me suena / Me haces tanto bien",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "El Chavo Animado / Dos mosqueteras y el Chavo",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/07:30"
-  },
-  {
-    "titulo": "El Chavo Animado / Un día de suerte",
-    "sta": "2026-11-04/07:30",
-    "end": "2026-11-04/08:00"
-  },
-  {
     "titulo": "Vecinos",
     "sta": "2026-11-04/08:00",
     "end": "2026-11-04/08:30"
@@ -1078,5 +1058,25 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-12/04:30",
     "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Pasos de cero",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / No te vayas Ñoño",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / Invierno en la vecindad",
+    "sta": "2026-11-12/07:30",
+    "end": "2026-11-12/08:00"
   }
 ]

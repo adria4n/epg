@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "KFOX14 Morning News",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/07:00"
-  },
-  {
     "titulo": "KFOX14 Morning News 6-8A",
     "sta": "2026-11-04/07:00",
     "end": "2026-11-04/09:00"
@@ -1283,5 +1273,20 @@
     "titulo": "Business First With Angela Miles / Movies & Money; Bond Market Money Report",
     "sta": "2026-11-12/04:31",
     "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "KFOX14 Morning News",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/07:00"
+  },
+  {
+    "titulo": "KFOX14 Morning News 6-8A",
+    "sta": "2026-11-12/07:00",
+    "end": "2026-11-12/09:00"
   }
 ]
