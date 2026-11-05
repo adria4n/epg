@@ -11,14 +11,8 @@ CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/g31egmv8b3ik4esbe3vlq/st
 TZ = ZoneInfo("America/Mexico_City")
 
 def load_canales():
-    try:
-        with urllib.request.urlopen(CANALES_URL, timeout=30) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        print(f"Cargados {len(data)} canales", file=sys.stderr)
-        return data
-    except Exception as e:
-        print(f"Error cargando canales: {e}", file=sys.stderr)
-        return []
+    with urllib.request.urlopen(CANALES_URL) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 def build_title(item):
     title = item.get("title", "")
@@ -131,21 +125,17 @@ def scrape(cid):
 
 def main():
     canales = load_canales()
-    if not canales:
-        print("No hay canales", file=sys.stderr)
-        return
     for canal in canales:
-        nombre = canal.get("nombre", "?")
         cid = str(canal.get("id", "")).strip()
         outfile = canal.get("json", f"{cid}.json")
-        print(f"\n=== {nombre} (ID {cid}) → {outfile} ===", file=sys.stderr)
+        print(f"\n=== {canal.get('nombre', '?')} (ID {cid}) → {outfile} ===", file=sys.stderr)
         programs = scrape(cid)
         if programs:
             with open(outfile, "w", encoding="utf-8") as f:
                 json.dump(programs, f, indent=2, ensure_ascii=False)
             print(f"Listo: {len(programs)} en {outfile}", file=sys.stderr)
         else:
-            print(f"Sin resultados para {nombre}", file=sys.stderr)
+            print("Sin resultados", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
