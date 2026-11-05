@@ -2,13 +2,17 @@
 
 import json
 import sys
+import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-ID = "969"
+CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/984awaw2wrq64549g1fmi/mvs-hub.txt?rlkey=6x99irvj1y58u5ekd094rk1fz"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno-mvs-hub.json"
+
+def load_canales():
+    with urllib.request.urlopen(CANALES_URL) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 def build_title(item):
     title = item.get("title", "")
@@ -51,7 +55,7 @@ def fetch_epg(context, host, uuid, cid, lineup, now):
         day_offset += 1
     return all_items
 
-def scrape():
+def scrape(cid):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context()
@@ -81,7 +85,6 @@ def scrape():
             return []
         print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
         now = datetime.now(TZ)
-        cid = ID.strip()
         print(f"Usando ID: {cid}", file=sys.stderr)
         all_items = fetch_epg(context, host, uuid, cid, lineup, now)
         browser.close()
@@ -112,13 +115,17 @@ def scrape():
         return programs
 
 def main():
-    programs = scrape()
-    if programs:
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(programs, f, indent=2, ensure_ascii=False)
-        print(f"Listo: {len(programs)} en {OUTPUT_FILE}", file=sys.stderr)
-    else:
-        print("Sin resultados", file=sys.stderr)
+    canales = load_canales()
+    for canal in canales:
+        cid = str(canal.get("id", "")).strip()
+        outfile = canal.get("json", f"{cid}.json")
+        programs = scrape(cid)
+        if programs:
+            with open(outfile, "w", encoding="utf-8") as f:
+                json.dump(programs, f, indent=2, ensure_ascii=False)
+            print(f"Listo: {len(programs)} en {outfile}", file=sys.stderr)
+        else:
+            print("Sin resultados", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
