@@ -1,40 +1,5 @@
 [
   {
-    "titulo": "Noticias Estrella TV: Decisión 2026",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/01:30"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-04/01:30",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "Tengo talento, mucho talento Kids",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "100 latinos dijeron",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-04/04:30",
-    "end": "2026-11-04/05:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-04/05:00",
     "end": "2026-11-04/05:30"
@@ -1198,5 +1163,50 @@
     "titulo": "Alarma TV",
     "sta": "2026-11-11/23:00",
     "end": "2026-11-12/00:00"
+  },
+  {
+    "titulo": "Noticiero: Cierre de edición",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/00:30"
+  },
+  {
+    "titulo": "24 horas",
+    "sta": "2026-11-12/00:30",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/01:30"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-12/01:30",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "Tengo talento, mucho talento",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/03:00"
+  },
+  {
+    "titulo": "Noticiero: Cierre de edición",
+    "sta": "2026-11-12/03:00",
+    "end": "2026-11-12/03:30"
+  },
+  {
+    "titulo": "24 horas",
+    "sta": "2026-11-12/03:30",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/04:30",
+    "end": "2026-11-12/05:00"
   }
 ]

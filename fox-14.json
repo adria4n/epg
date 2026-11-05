@@ -1,60 +1,5 @@
 [
   {
-    "titulo": "Extra",
-    "sta": "2026-11-03/23:35",
-    "end": "2026-11-04/00:05"
-  },
-  {
-    "titulo": "iCRIME With Elizabeth Vargas / Car Theft Suspect Slashes K-9 With Knife; Arsonist Torches Tesla Inside Detroit parking Garage",
-    "sta": "2026-11-04/00:05",
-    "end": "2026-11-04/00:35"
-  },
-  {
-    "titulo": "Live PD Presents",
-    "sta": "2026-11-04/00:35",
-    "end": "2026-11-04/01:05"
-  },
-  {
-    "titulo": "Crime Exposé With Nancy O'Dell",
-    "sta": "2026-11-04/01:05",
-    "end": "2026-11-04/01:35"
-  },
-  {
-    "titulo": "The Simpsons / Estranger Things",
-    "sta": "2026-11-04/01:35",
-    "end": "2026-11-04/02:05"
-  },
-  {
-    "titulo": "The Simpsons / To Cur With Love",
-    "sta": "2026-11-04/02:05",
-    "end": "2026-11-04/02:33"
-  },
-  {
-    "titulo": "Extra",
-    "sta": "2026-11-04/02:33",
-    "end": "2026-11-04/03:03"
-  },
-  {
-    "titulo": "Two and a Half Men / It Was Mame, Mom",
-    "sta": "2026-11-04/03:03",
-    "end": "2026-11-04/03:32"
-  },
-  {
-    "titulo": "Hot Bench / Hair Today, Gone Tomorrow",
-    "sta": "2026-11-04/03:32",
-    "end": "2026-11-04/04:02"
-  },
-  {
-    "titulo": "Cutlers Court / Ferreira vs. Ferreira",
-    "sta": "2026-11-04/04:02",
-    "end": "2026-11-04/04:31"
-  },
-  {
-    "titulo": "Business First With Angela Miles / Marriage & Money; On the Job Tips",
-    "sta": "2026-11-04/04:31",
-    "end": "2026-11-04/05:00"
-  },
-  {
     "titulo": "The National News Desk",
     "sta": "2026-11-04/05:00",
     "end": "2026-11-04/06:00"
@@ -1288,5 +1233,55 @@
     "titulo": "Extra",
     "sta": "2026-11-11/23:35",
     "end": "2026-11-12/00:05"
+  },
+  {
+    "titulo": "iCRIME With Elizabeth Vargas / Four Teens Invade Popular Streamer's Home; Wild Hermes handbag heist",
+    "sta": "2026-11-12/00:05",
+    "end": "2026-11-12/00:35"
+  },
+  {
+    "titulo": "Live PD Presents",
+    "sta": "2026-11-12/00:35",
+    "end": "2026-11-12/01:05"
+  },
+  {
+    "titulo": "Crime Exposé With Nancy O'Dell",
+    "sta": "2026-11-12/01:05",
+    "end": "2026-11-12/01:35"
+  },
+  {
+    "titulo": "The Simpsons / The Day of the Jack-up",
+    "sta": "2026-11-12/01:35",
+    "end": "2026-11-12/02:05"
+  },
+  {
+    "titulo": "The Simpsons / Love Is a Many Splintered Thing",
+    "sta": "2026-11-12/02:05",
+    "end": "2026-11-12/02:33"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-12/02:33",
+    "end": "2026-11-12/03:03"
+  },
+  {
+    "titulo": "Two and a Half Men / Does This Smell Funny to You?",
+    "sta": "2026-11-12/03:03",
+    "end": "2026-11-12/03:32"
+  },
+  {
+    "titulo": "Hot Bench / Unsettled Sisters",
+    "sta": "2026-11-12/03:32",
+    "end": "2026-11-12/04:02"
+  },
+  {
+    "titulo": "Cutlers Court / Neuman-Sample vs. Pilotti",
+    "sta": "2026-11-12/04:02",
+    "end": "2026-11-12/04:31"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Movies & Money; Bond Market Money Report",
+    "sta": "2026-11-12/04:31",
+    "end": "2026-11-12/05:00"
   }
 ]
