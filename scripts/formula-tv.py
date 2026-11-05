@@ -8,10 +8,10 @@ from zoneinfo import ZoneInfo
 import sys
 from bs4 import BeautifulSoup
 
+CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/x4wyqmstcso2k4qu0uonm/formula-tv.txt?rlkey=s2kh6yhjoxzn6oo9ijidjy488"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno-formula-tv.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-BASE = "https://www.formulatv.com/mx/programacion/canal-azteca-uno/"
+BASE = "https://www.formulatv.com/mx/programacion/"
 
 DAYS = {
     -1: "ayer",
@@ -19,6 +19,10 @@ DAYS = {
     1: "manana",
     2: "pasadomanana",
 }
+
+def load_canales():
+    with urllib.request.urlopen(CANALES_URL) as resp:
+        return json.loads(resp.read().decode("utf-8"))
 
 def fetch(url: str) -> str:
     print(f"Descargando {url}...", file=sys.stderr)
@@ -74,13 +78,14 @@ def extract_programs(html: str) -> list[dict]:
 
     return programs
 
-def main():
+def scrape(channel, outfile):
     all_programs = []
     today = datetime.now(TZ).date()
+    channel_base = f"{BASE}{channel}/"
 
     for offset, slug in DAYS.items():
         d = today + timedelta(days=offset)
-        url = f"{BASE}{slug}/" if slug else BASE
+        url = f"{channel_base}{slug}/" if slug else channel_base
         try:
             html = fetch(url)
             progs = extract_programs(html)
@@ -99,10 +104,17 @@ def main():
             p.pop("_start", None)
             unique.append(p)
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(outfile, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
 
-    print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
+    print(f"Listo: {len(unique)} programas en {outfile}", file=sys.stderr)
+
+def main():
+    canales = load_canales()
+    for canal in canales:
+        channel = canal.get("id", "")
+        outfile = canal.get("json", f"{channel}.json")
+        scrape(channel, outfile)
 
 if __name__ == "__main__":
     main()
