@@ -7,15 +7,17 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 
-CHANNEL = "azteca-13"
-BASE_URL = f"https://mi.tv/mx/async/channel/{CHANNEL}"
+CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/uou6gl9albplewc5v0pnk/mi-tv.txt?rlkey=8uroll28a4wsgrs8q1ow1s58m"
 TZ = ZoneInfo("America/Mexico_City")
-OUTPUT_FILE = "azteca-uno-mi-tv.json"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 UTC_OFFSET = -360
 
-def fetch_page(date_str: str) -> str:
-    url = f"{BASE_URL}/{date_str}/{UTC_OFFSET}"
+def load_canales():
+    with urllib.request.urlopen(CANALES_URL) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+def fetch_page(channel: str, date_str: str) -> str:
+    url = f"https://mi.tv/mx/async/channel/{channel}/{date_str}/{UTC_OFFSET}"
     print(f"Descargando {url}...", file=sys.stderr)
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=45) as resp:
@@ -47,14 +49,14 @@ def parse_items(html: str, day: datetime) -> list[dict]:
         p.pop("_start", None)
     return programs
 
-def main():
+def scrape(channel, outfile):
     all_programs = []
     today = datetime.now(TZ).date()
     for i in range(-1, 7):
         d = today + timedelta(days=i)
         date_str = d.strftime("%Y-%m-%d")
         try:
-            html = fetch_page(date_str)
+            html = fetch_page(channel, date_str)
             progs = parse_items(html, datetime.combine(d, datetime.min.time(), tzinfo=TZ))
             all_programs.extend(progs)
             print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
@@ -63,9 +65,16 @@ def main():
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(outfile, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
-    print(f"Listo: {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
+    print(f"Listo: {len(unique)} programas en {outfile}", file=sys.stderr)
+
+def main():
+    canales = load_canales()
+    for canal in canales:
+        channel = canal.get("id", "")
+        outfile = canal.get("json", f"{channel}.json")
+        scrape(channel, outfile)
 
 if __name__ == "__main__":
     main()
