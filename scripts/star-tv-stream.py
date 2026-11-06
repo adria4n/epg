@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 
-CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/g31egmv8b3ik4esbe3vlq/star-tv-stream.json?rlkey=gz8qjwx3qgj6qogtsvmtjqzi1"
+CANALES_URL = "https://dl.dropbox.com/scl/fi/g31egmv8b3ik4esbe3vlq/star-tv-stream.txt?rlkey=gz8qjwx3qgj6qogtsvmtjqzi1"
 TZ = ZoneInfo("America/Mexico_City")
 
 def load_canales():
