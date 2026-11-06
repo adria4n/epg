@@ -1,5 +1,15 @@
 [
   {
+    "titulo": "Caso cerrado / Pánico gay",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/05:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-05/05:30",
+    "end": "2026-11-05/06:00"
+  },
+  {
     "titulo": "Al rojo vivo",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/07:00"
@@ -730,7 +740,7 @@
     "end": "2026-11-10/21:00"
   },
   {
-    "titulo": "El señor de los cielos",
+    "titulo": "El señor de los cielos / La caída se aproxima",
     "sta": "2026-11-10/21:00",
     "end": "2026-11-10/22:00"
   },
@@ -1173,15 +1183,5 @@
     "titulo": "La mesa caliente",
     "sta": "2026-11-14/04:00",
     "end": "2026-11-14/05:00"
-  },
-  {
-    "titulo": "Caso cerrado / Que se saque los ojos",
-    "sta": "2026-11-14/05:00",
-    "end": "2026-11-14/05:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-14/05:30",
-    "end": "2026-11-14/06:00"
   }
 ]

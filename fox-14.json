@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
     "titulo": "KFOX14 Morning News",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/07:00"
@@ -300,7 +305,7 @@
     "end": "2026-11-07/03:32"
   },
   {
-    "titulo": "Inside Edition",
+    "titulo": "Inside Edition / Hotel Carpets",
     "sta": "2026-11-07/03:32",
     "end": "2026-11-07/04:02"
   },
@@ -1423,15 +1428,5 @@
     "titulo": "iCRIME With Elizabeth Vargas / Soccer Brawl Cup; Women Steal Over $1000 Worth of Stanley Cups From Dicks Sporting Goods",
     "sta": "2026-11-14/04:30",
     "end": "2026-11-14/05:00"
-  },
-  {
-    "titulo": "Live PD Presents",
-    "sta": "2026-11-14/05:00",
-    "end": "2026-11-14/05:30"
-  },
-  {
-    "titulo": "Crime Exposé With Nancy O'Dell",
-    "sta": "2026-11-14/05:30",
-    "end": "2026-11-14/06:00"
   }
 ]
