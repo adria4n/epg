@@ -6,6 +6,7 @@ import re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/a2blnq1tk33ebl4vdo2pb/tv-passport.txt?rlkey=cgacvhhoouph3w66y4wkkmr5x"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
@@ -73,22 +74,36 @@ def scrape(site_id, outfile):
             page_tz = get_page_timezone(html)
             progs = parse_items(html, page_tz)
             all_programs.extend(progs)
-            print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
+            print(f"  {site_id} {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
-            print(f"  Error en {date_str}: {e}", file=sys.stderr)
+            print(f"  Error en {site_id} {date_str}: {e}", file=sys.stderr)
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
     with open(outfile, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
     print(f"Listo: {len(unique)} programas en {outfile}", file=sys.stderr)
+    return len(unique)
 
 def main():
     canales = load_canales()
-    for canal in canales:
-        site_id = canal.get("id", "")
-        outfile = canal.get("json", f"{site_id.split('/')[-1]}.json")
-        scrape(site_id, outfile)
+    print(f"Procesando {len(canales)} canales en paralelo (sin límite)...", file=sys.stderr)
+
+    with ThreadPoolExecutor() as executor:
+        futures = {
+            executor.submit(
+                scrape,
+                canal.get("id", ""),
+                canal.get("json", f"{canal.get('id', '').split('/')[-1]}.json")
+            ): canal
+            for canal in canales
+        }
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                canal = futures[future]
+                print(f"Error en canal {canal.get('id')}: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
