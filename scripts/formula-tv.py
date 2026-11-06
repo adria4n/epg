@@ -113,9 +113,9 @@ def scrape(channel, outfile):
 
 def main():
     canales = load_canales()
-    print(f"Procesando {len(canales)} canales en paralelo...", file=sys.stderr)
+    print(f"Procesando {len(canales)} canales en paralelo (sin límite)...", file=sys.stderr)
 
-    with ThreadPoolExecutor(max_workers=min(8, len(canales))) as executor:
+    with ThreadPoolExecutor() as executor:  # sin max_workers = todos al mismo tiempo
         futures = {
             executor.submit(scrape, canal.get("id", ""), canal.get("json", f"{canal.get('id', '')}.json")): canal
             for canal in canales
