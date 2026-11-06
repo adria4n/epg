@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 CANALES_URL = "https://dl.dropbox.com/scl/fi/3ozsncb3zq5n2tby5h80o/open-epg-mx1.txt?rlkey=p4nkc3df79xn3coslgyf5uxrp"
 EPG_URL = "https://www.open-epg.com/files/mexico1.xml"
@@ -56,18 +57,33 @@ def parse_epg(xml_data: str, channel_id: str) -> list[dict]:
 
     return programs
 
+def process_canal(xml_data: str, canal: dict):
+    channel_id = canal.get("id", "")
+    outfile = canal.get("json", f"{channel_id}.json")
+    programs = parse_epg(xml_data, channel_id)
+    programs.sort(key=lambda x: x["sta"])
+    with open(outfile, "w", encoding="utf-8") as f:
+        json.dump(programs, f, indent=2, ensure_ascii=False)
+    print(f"Listo: {len(programs)} programas en {outfile}", file=sys.stderr)
+    return len(programs)
+
 def main():
     canales = load_canales()
     try:
         xml_data = fetch_xml()
-        for canal in canales:
-            channel_id = canal.get("id", "")
-            outfile = canal.get("json", f"{channel_id}.json")
-            programs = parse_epg(xml_data, channel_id)
-            programs.sort(key=lambda x: x["sta"])
-            with open(outfile, "w", encoding="utf-8") as f:
-                json.dump(programs, f, indent=2, ensure_ascii=False)
-            print(f"Listo: {len(programs)} programas en {outfile}", file=sys.stderr)
+        print(f"Procesando {len(canales)} canales en paralelo (sin límite)...", file=sys.stderr)
+
+        with ThreadPoolExecutor() as executor:
+            futures = {
+                executor.submit(process_canal, xml_data, canal): canal
+                for canal in canales
+            }
+            for future in as_completed(futures):
+                try:
+                    future.result()
+                except Exception as e:
+                    canal = futures[future]
+                    print(f"Error en canal {canal.get('id')}: {e}", file=sys.stderr)
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
