@@ -7,7 +7,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import sys
 
-CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/kwulllm1dc8rotb1249oa/iptv-epg-org.txt?rlkey=fw2pbn7y8hp7bqic9jk17wg3r"
+CANALES_URL = "https://dl.dropbox.com/scl/fi/kwulllm1dc8rotb1249oa/iptv-epg-org-mx.txt?rlkey=fw2pbn7y8hp7bqic9jk17wg3r"
 EPG_URL = "https://iptv-epg.org/files/epg-mx.xml"
 TZ_TARGET = ZoneInfo("America/Mexico_City")
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
