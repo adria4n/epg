@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
     "titulo": "KFOX14 Morning News",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/07:00"
@@ -1278,10 +1283,5 @@
     "titulo": "Business First With Angela Miles / Top That Trade Game With Alan Knuckman & Phil Flynn",
     "sta": "2026-11-13/04:31",
     "end": "2026-11-13/05:00"
-  },
-  {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-13/05:00",
-    "end": "2026-11-13/06:00"
   }
 ]

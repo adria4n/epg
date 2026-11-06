@@ -1,0 +1,1762 @@
+[
+  {
+    "titulo": "Un lugar en el sol",
+    "sta": "2026-11-03/23:05",
+    "end": "2026-11-04/00:50"
+  },
+  {
+    "titulo": "Bajo el volcán",
+    "sta": "2026-11-04/00:50",
+    "end": "2026-11-04/02:40"
+  },
+  {
+    "titulo": "Diálogos por la democracia / Arlín Medrano",
+    "sta": "2026-11-04/02:40",
+    "end": "2026-11-04/03:40"
+  },
+  {
+    "titulo": "TV Médica / Enfermedad isquémica del corazón",
+    "sta": "2026-11-04/03:40",
+    "end": "2026-11-04/04:30"
+  },
+  {
+    "titulo": "Maestros olvidados, oficios que sobreviven / T4 De aquí a la eternidad, Pablo Rodríguez, panteonero",
+    "sta": "2026-11-04/04:30",
+    "end": "2026-11-04/05:05"
+  },
+  {
+    "titulo": "México lindo / T2 Sabor y baile",
+    "sta": "2026-11-04/05:05",
+    "end": "2026-11-04/05:30"
+  },
+  {
+    "titulo": "En forma / Terapias naturales con respaldo de la ciencia",
+    "sta": "2026-11-04/05:30",
+    "end": "2026-11-04/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-04/06:10",
+    "end": "2026-11-04/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-04/07:10",
+    "end": "2026-11-04/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-04/07:30",
+    "end": "2026-11-04/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-04/09:15",
+    "end": "2026-11-04/10:15"
+  },
+  {
+    "titulo": "Ancestras / La reina roja de Palenque",
+    "sta": "2026-11-04/10:15",
+    "end": "2026-11-04/11:15"
+  },
+  {
+    "titulo": "Antropológicas / La reforma y la república itinerante",
+    "sta": "2026-11-04/11:15",
+    "end": "2026-11-04/12:05"
+  },
+  {
+    "titulo": "Francofonía en México",
+    "sta": "2026-11-04/12:05",
+    "end": "2026-11-04/12:50"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-04/12:50",
+    "end": "2026-11-04/14:28"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-04/14:28",
+    "end": "2026-11-04/14:30"
+  },
+  {
+    "titulo": "Ancestras / La reina roja de Palenque",
+    "sta": "2026-11-04/14:30",
+    "end": "2026-11-04/15:30"
+  },
+  {
+    "titulo": "Chanoc vs. Las tarántulas",
+    "sta": "2026-11-04/15:30",
+    "end": "2026-11-04/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-04/16:58",
+    "end": "2026-11-04/17:00"
+  },
+  {
+    "titulo": "Derecho de réplica",
+    "sta": "2026-11-04/17:00",
+    "end": "2026-11-04/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-04/18:00",
+    "end": "2026-11-04/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-04/19:00",
+    "end": "2026-11-04/20:00"
+  },
+  {
+    "titulo": "Versiones públicas",
+    "sta": "2026-11-04/20:00",
+    "end": "2026-11-04/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-04/21:00",
+    "end": "2026-11-04/22:00"
+  },
+  {
+    "titulo": "Los secretos de la corrupción",
+    "sta": "2026-11-04/22:00",
+    "end": "2026-11-04/22:30"
+  },
+  {
+    "titulo": "Viaje al paraíso",
+    "sta": "2026-11-04/22:30",
+    "end": "2026-11-05/00:05"
+  },
+  {
+    "titulo": "Astucia",
+    "sta": "2026-11-05/00:05",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "El esqueleto de la señora Morales",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Ancestras / La reina roja de Palenque",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Francofonía en México",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:10"
+  },
+  {
+    "titulo": "Antropológicas / La reforma y la república itinerante",
+    "sta": "2026-11-05/05:10",
+    "end": "2026-11-05/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-05/06:10",
+    "end": "2026-11-05/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-05/07:10",
+    "end": "2026-11-05/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-05/07:30",
+    "end": "2026-11-05/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-05/09:15",
+    "end": "2026-11-05/10:15"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano / Diego Rivera. Un artista en la encrucijada",
+    "sta": "2026-11-05/10:15",
+    "end": "2026-11-05/11:15"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-05/11:15",
+    "end": "2026-11-05/11:35"
+  },
+  {
+    "titulo": "Una historia de película / Cine mexicano de acción",
+    "sta": "2026-11-05/11:35",
+    "end": "2026-11-05/12:05"
+  },
+  {
+    "titulo": "Encuadre Iberoamericano / T5 E11 El rock en el cine Iberoamericano",
+    "sta": "2026-11-05/12:05",
+    "end": "2026-11-05/13:03"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-05/13:03",
+    "end": "2026-11-05/13:05"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T2 E10 La delgada línea amarilla",
+    "sta": "2026-11-05/13:05",
+    "end": "2026-11-05/14:05"
+  },
+  {
+    "titulo": "Astucia",
+    "sta": "2026-11-05/14:05",
+    "end": "2026-11-05/16:00"
+  },
+  {
+    "titulo": "Salud y deporte / Beisbol 5",
+    "sta": "2026-11-05/16:00",
+    "end": "2026-11-05/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-05/16:58",
+    "end": "2026-11-05/17:00"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano / Diego Rivera. Un artista en la encrucijada",
+    "sta": "2026-11-05/17:00",
+    "end": "2026-11-05/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-05/18:00",
+    "end": "2026-11-05/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-05/19:00",
+    "end": "2026-11-05/20:00"
+  },
+  {
+    "titulo": "Largo aliento",
+    "sta": "2026-11-05/20:00",
+    "end": "2026-11-05/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-05/21:00",
+    "end": "2026-11-05/22:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T6 La reserva",
+    "sta": "2026-11-05/22:00",
+    "end": "2026-11-05/23:00"
+  },
+  {
+    "titulo": "Esperanza",
+    "sta": "2026-11-05/23:00",
+    "end": "2026-11-06/01:30"
+  },
+  {
+    "titulo": "Rastro de muerte",
+    "sta": "2026-11-06/01:30",
+    "end": "2026-11-06/03:25"
+  },
+  {
+    "titulo": "Viaje al paraíso",
+    "sta": "2026-11-06/03:25",
+    "end": "2026-11-06/05:00"
+  },
+  {
+    "titulo": "Encuadre Iberoamericano / T5 E11 El rock en el cine Iberoamericano",
+    "sta": "2026-11-06/05:00",
+    "end": "2026-11-06/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-06/06:10",
+    "end": "2026-11-06/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-06/07:10",
+    "end": "2026-11-06/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-06/07:30",
+    "end": "2026-11-06/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-06/09:15",
+    "end": "2026-11-06/10:15"
+  },
+  {
+    "titulo": "La única y verdadera historia de la cumbia chilanga / T1 E5 Hay cumbia para rato",
+    "sta": "2026-11-06/10:15",
+    "end": "2026-11-06/11:15"
+  },
+  {
+    "titulo": "Operación mamut",
+    "sta": "2026-11-06/11:15",
+    "end": "2026-11-06/12:15"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-06/12:15",
+    "end": "2026-11-06/13:38"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-06/13:38",
+    "end": "2026-11-06/13:40"
+  },
+  {
+    "titulo": "Mulli / T1 E1 Historia",
+    "sta": "2026-11-06/13:40",
+    "end": "2026-11-06/14:10"
+  },
+  {
+    "titulo": "A la conquista del sabor / T1 E4 Estimulantes",
+    "sta": "2026-11-06/14:10",
+    "end": "2026-11-06/15:10"
+  },
+  {
+    "titulo": "La única y verdadera historia de la cumbia chilanga / T1 E5 Hay cumbia para rato",
+    "sta": "2026-11-06/15:10",
+    "end": "2026-11-06/16:08"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-06/16:08",
+    "end": "2026-11-06/16:10"
+  },
+  {
+    "titulo": "Amapola del camino",
+    "sta": "2026-11-06/16:10",
+    "end": "2026-11-06/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-06/18:00",
+    "end": "2026-11-06/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-06/19:00",
+    "end": "2026-11-06/20:00"
+  },
+  {
+    "titulo": "Abierta mente",
+    "sta": "2026-11-06/20:00",
+    "end": "2026-11-06/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-06/21:00",
+    "end": "2026-11-06/22:00"
+  },
+  {
+    "titulo": "Caminar el país / T2 Universidades para el Bienestar \"Benito Juárez\".",
+    "sta": "2026-11-06/22:00",
+    "end": "2026-11-06/22:30"
+  },
+  {
+    "titulo": "Rastro de muerte",
+    "sta": "2026-11-06/22:30",
+    "end": "2026-11-07/00:25"
+  },
+  {
+    "titulo": "Rumbo al Ariel / Crónica menor / Techiq",
+    "sta": "2026-11-07/00:25",
+    "end": "2026-11-07/01:30"
+  },
+  {
+    "titulo": "Astucia",
+    "sta": "2026-11-07/01:30",
+    "end": "2026-11-07/03:20"
+  },
+  {
+    "titulo": "Amapola del camino",
+    "sta": "2026-11-07/03:20",
+    "end": "2026-11-07/05:05"
+  },
+  {
+    "titulo": "Antropológicas / La reforma y la república itinerante",
+    "sta": "2026-11-07/05:05",
+    "end": "2026-11-07/05:50"
+  },
+  {
+    "titulo": "Radio inmersiva / Opus 94 Belén Ruíz.",
+    "sta": "2026-11-07/05:50",
+    "end": "2026-11-07/07:00"
+  },
+  {
+    "titulo": "La única y verdadera historia de la cumbia chilanga / T1 E5 Hay cumbia para rato",
+    "sta": "2026-11-07/07:00",
+    "end": "2026-11-07/08:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T2 E10 La delgada línea amarilla",
+    "sta": "2026-11-07/08:00",
+    "end": "2026-11-07/09:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-07/09:00",
+    "end": "2026-11-07/10:00"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-07/10:00",
+    "end": "2026-11-07/10:55"
+  },
+  {
+    "titulo": "Chanoc contra las tarántulas",
+    "sta": "2026-11-07/10:55",
+    "end": "2026-11-07/12:25"
+  },
+  {
+    "titulo": "TV Médica / Enfermedad isquémica del corazón",
+    "sta": "2026-11-07/12:25",
+    "end": "2026-11-07/13:15"
+  },
+  {
+    "titulo": "Rituales de México / Voladores de papantla",
+    "sta": "2026-11-07/13:15",
+    "end": "2026-11-07/14:15"
+  },
+  {
+    "titulo": "La única y verdadera historia de la cumbia chilanga / T1 E5 Hay cumbia para rato",
+    "sta": "2026-11-07/14:15",
+    "end": "2026-11-07/15:15"
+  },
+  {
+    "titulo": "FIC54 / T1 E3 Orquesta Típica Yukalpetén",
+    "sta": "2026-11-07/15:15",
+    "end": "2026-11-07/17:00"
+  },
+  {
+    "titulo": "Catorce al Hilvana / Ximbo",
+    "sta": "2026-11-07/17:00",
+    "end": "2026-11-07/18:00"
+  },
+  {
+    "titulo": "Una trayectoria, una colección / T3 Maribel Portela",
+    "sta": "2026-11-07/18:00",
+    "end": "2026-11-07/18:30"
+  },
+  {
+    "titulo": "En grande / T2 E45",
+    "sta": "2026-11-07/18:30",
+    "end": "2026-11-07/19:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T6 El norte sobre el vacío",
+    "sta": "2026-11-07/19:00",
+    "end": "2026-11-07/20:00"
+  },
+  {
+    "titulo": "TV Migrante informa",
+    "sta": "2026-11-07/20:00",
+    "end": "2026-11-07/20:30"
+  },
+  {
+    "titulo": "Aquí entre nos / ¿Qué es la justicia?- Complejo Cultural Los Pinos",
+    "sta": "2026-11-07/20:30",
+    "end": "2026-11-07/21:00"
+  },
+  {
+    "titulo": "Ama de casa / T2 Faby, madres buscadoras",
+    "sta": "2026-11-07/21:00",
+    "end": "2026-11-07/22:00"
+  },
+  {
+    "titulo": "Cartas para la libertad / T3 E3 Erick",
+    "sta": "2026-11-07/22:00",
+    "end": "2026-11-07/22:50"
+  },
+  {
+    "titulo": "Chanoc contra las tarántulas",
+    "sta": "2026-11-07/22:50",
+    "end": "2026-11-08/00:20"
+  },
+  {
+    "titulo": "Esperanza",
+    "sta": "2026-11-08/00:20",
+    "end": "2026-11-08/02:50"
+  },
+  {
+    "titulo": "Viaje al paraíso",
+    "sta": "2026-11-08/02:50",
+    "end": "2026-11-08/04:25"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T6 El norte sobre el vacío",
+    "sta": "2026-11-08/04:25",
+    "end": "2026-11-08/05:25"
+  },
+  {
+    "titulo": "Encuadre Iberoamericano / T5 E11 El rock en el cine Iberoamericano",
+    "sta": "2026-11-08/05:25",
+    "end": "2026-11-08/06:35"
+  },
+  {
+    "titulo": "Ama de casa / T2 Esmeralda, el oficio de la sepultura",
+    "sta": "2026-11-08/06:35",
+    "end": "2026-11-08/07:25"
+  },
+  {
+    "titulo": "Relatos / ¿Cómo morimos?",
+    "sta": "2026-11-08/07:25",
+    "end": "2026-11-08/08:25"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-08/08:25",
+    "end": "2026-11-08/09:50"
+  },
+  {
+    "titulo": "Amapola del camino",
+    "sta": "2026-11-08/09:50",
+    "end": "2026-11-08/11:40"
+  },
+  {
+    "titulo": "Una historia de película / Cine mexicano de acción",
+    "sta": "2026-11-08/11:40",
+    "end": "2026-11-08/12:10"
+  },
+  {
+    "titulo": "A la conquista del sabor / T1 E4 Estimulantes",
+    "sta": "2026-11-08/12:10",
+    "end": "2026-11-08/13:10"
+  },
+  {
+    "titulo": "Antropológicas / La reforma y la república itinerante",
+    "sta": "2026-11-08/13:10",
+    "end": "2026-11-08/14:00"
+  },
+  {
+    "titulo": "Ancestras / La reina roja de Palenque",
+    "sta": "2026-11-08/14:00",
+    "end": "2026-11-08/15:00"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano / Diego Rivera. Un artista en la encrucijada",
+    "sta": "2026-11-08/15:00",
+    "end": "2026-11-08/16:00"
+  },
+  {
+    "titulo": "FIC54 / Orquesta Moderna. Dir. Rosino Serrano (Explanada de la Alhóndiga)",
+    "sta": "2026-11-08/16:00",
+    "end": "2026-11-08/18:00"
+  },
+  {
+    "titulo": "Radio inmersiva / Reactor Fakir & los psíquicos + Electrify.",
+    "sta": "2026-11-08/18:00",
+    "end": "2026-11-08/19:00"
+  },
+  {
+    "titulo": "Versiones públicas",
+    "sta": "2026-11-08/19:00",
+    "end": "2026-11-08/20:00"
+  },
+  {
+    "titulo": "Ventana al mundo",
+    "sta": "2026-11-08/20:00",
+    "end": "2026-11-08/20:30"
+  },
+  {
+    "titulo": "Los secretos de la corrupción",
+    "sta": "2026-11-08/20:30",
+    "end": "2026-11-08/21:00"
+  },
+  {
+    "titulo": "Debate público",
+    "sta": "2026-11-08/21:00",
+    "end": "2026-11-08/22:00"
+  },
+  {
+    "titulo": "Viaje al paraíso",
+    "sta": "2026-11-08/22:00",
+    "end": "2026-11-08/23:35"
+  },
+  {
+    "titulo": "Amapola del camino",
+    "sta": "2026-11-08/23:35",
+    "end": "2026-11-09/01:20"
+  },
+  {
+    "titulo": "Chanoc contra las tarántulas",
+    "sta": "2026-11-09/01:20",
+    "end": "2026-11-09/02:50"
+  },
+  {
+    "titulo": "Fandango",
+    "sta": "2026-11-09/02:50",
+    "end": "2026-11-09/04:25"
+  },
+  {
+    "titulo": "Leer, una hora inesperada / T13 E9",
+    "sta": "2026-11-09/04:25",
+    "end": "2026-11-09/05:25"
+  },
+  {
+    "titulo": "Eco Latinoamérica",
+    "sta": "2026-11-09/05:25",
+    "end": "2026-11-09/05:55"
+  },
+  {
+    "titulo": "Tesoros de México / Ciudad prehispánica de Teotihuacán",
+    "sta": "2026-11-09/05:55",
+    "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-09/07:30",
+    "end": "2026-11-09/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-09/09:15",
+    "end": "2026-11-09/10:15"
+  },
+  {
+    "titulo": "Mujeres haciendo historia / T3 Mujeres en el muralismo",
+    "sta": "2026-11-09/10:15",
+    "end": "2026-11-09/10:45"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-09/10:45",
+    "end": "2026-11-09/11:30"
+  },
+  {
+    "titulo": "Consulta directa / Esclerosis múltiple",
+    "sta": "2026-11-09/11:30",
+    "end": "2026-11-09/12:30"
+  },
+  {
+    "titulo": "¿Cómo le hago? / Para vivir con un hipertenso",
+    "sta": "2026-11-09/12:30",
+    "end": "2026-11-09/13:00"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-09/13:00",
+    "end": "2026-11-09/14:38"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-09/14:38",
+    "end": "2026-11-09/14:40"
+  },
+  {
+    "titulo": "Chanoc contra las tarántulas",
+    "sta": "2026-11-09/14:40",
+    "end": "2026-11-09/16:10"
+  },
+  {
+    "titulo": "Cartas para la libertad / T3 Nayeli",
+    "sta": "2026-11-09/16:10",
+    "end": "2026-11-09/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-09/16:58",
+    "end": "2026-11-09/17:00"
+  },
+  {
+    "titulo": "Abierta mente",
+    "sta": "2026-11-09/17:00",
+    "end": "2026-11-09/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-09/18:00",
+    "end": "2026-11-09/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-09/19:00",
+    "end": "2026-11-09/20:00"
+  },
+  {
+    "titulo": "TV Migrante informa",
+    "sta": "2026-11-09/20:00",
+    "end": "2026-11-09/20:30"
+  },
+  {
+    "titulo": "Pulsar / T2 E4 Hate en redes sociales",
+    "sta": "2026-11-09/20:30",
+    "end": "2026-11-09/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-09/21:00",
+    "end": "2026-11-09/22:00"
+  },
+  {
+    "titulo": "Conversatorios desde la Fil Zócalo / Palestina: el genocidio en curso",
+    "sta": "2026-11-09/22:00",
+    "end": "2026-11-09/23:00"
+  },
+  {
+    "titulo": "Fandango",
+    "sta": "2026-11-09/23:00",
+    "end": "2026-11-10/00:35"
+  },
+  {
+    "titulo": "Viaje al paraíso",
+    "sta": "2026-11-10/00:35",
+    "end": "2026-11-10/02:10"
+  },
+  {
+    "titulo": "Anoche soñé contigo",
+    "sta": "2026-11-10/02:10",
+    "end": "2026-11-10/03:40"
+  },
+  {
+    "titulo": "Cartas para la libertad / T3 Nayeli",
+    "sta": "2026-11-10/03:40",
+    "end": "2026-11-10/04:30"
+  },
+  {
+    "titulo": "Consulta directa / Osteoporosis",
+    "sta": "2026-11-10/04:30",
+    "end": "2026-11-10/05:30"
+  },
+  {
+    "titulo": "En forma",
+    "sta": "2026-11-10/05:30",
+    "end": "2026-11-10/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-10/06:10",
+    "end": "2026-11-10/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-10/07:10",
+    "end": "2026-11-10/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-10/07:30",
+    "end": "2026-11-10/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-10/09:15",
+    "end": "2026-11-10/10:15"
+  },
+  {
+    "titulo": "Ama de casa / T2 Faby, madres buscadoras",
+    "sta": "2026-11-10/10:15",
+    "end": "2026-11-10/11:05"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-10/11:05",
+    "end": "2026-11-10/12:10"
+  },
+  {
+    "titulo": "Ventana al mundo",
+    "sta": "2026-11-10/12:10",
+    "end": "2026-11-10/12:40"
+  },
+  {
+    "titulo": "TV Médica / Detección oportuna del cáncer en la infancia",
+    "sta": "2026-11-10/12:40",
+    "end": "2026-11-10/13:28"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-10/13:28",
+    "end": "2026-11-10/13:30"
+  },
+  {
+    "titulo": "Mucho+Q2",
+    "sta": "2026-11-10/13:30",
+    "end": "2026-11-10/14:30"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-10/14:30",
+    "end": "2026-11-10/15:35"
+  },
+  {
+    "titulo": "Maestros olvidados, oficios que sobreviven / T1 Barbero - Aniceto Vargas",
+    "sta": "2026-11-10/15:35",
+    "end": "2026-11-10/16:03"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-10/16:03",
+    "end": "2026-11-10/16:05"
+  },
+  {
+    "titulo": "Astucia",
+    "sta": "2026-11-10/16:05",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-10/19:00",
+    "end": "2026-11-10/20:00"
+  },
+  {
+    "titulo": "Debate público",
+    "sta": "2026-11-10/20:00",
+    "end": "2026-11-10/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-10/21:00",
+    "end": "2026-11-10/22:00"
+  },
+  {
+    "titulo": "Rumbo al Ariel / Crónica menor / Techiq",
+    "sta": "2026-11-10/22:00",
+    "end": "2026-11-10/23:05"
+  },
+  {
+    "titulo": "Anoche soñé contigo",
+    "sta": "2026-11-10/23:05",
+    "end": "2026-11-11/00:35"
+  },
+  {
+    "titulo": "Fandango",
+    "sta": "2026-11-11/00:35",
+    "end": "2026-11-11/02:10"
+  },
+  {
+    "titulo": "Esperanza",
+    "sta": "2026-11-11/02:10",
+    "end": "2026-11-11/04:40"
+  },
+  {
+    "titulo": "Diálogos por la democracia",
+    "sta": "2026-11-11/04:40",
+    "end": "2026-11-11/05:40"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-11/05:40",
+    "end": "2026-11-11/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-11/06:10",
+    "end": "2026-11-11/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-11/07:10",
+    "end": "2026-11-11/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-11/07:30",
+    "end": "2026-11-11/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-11/09:15",
+    "end": "2026-11-11/10:15"
+  },
+  {
+    "titulo": "Ancestras / Eréndira, princesa guerrera",
+    "sta": "2026-11-11/10:15",
+    "end": "2026-11-11/11:40"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-11/11:40",
+    "end": "2026-11-11/12:15"
+  },
+  {
+    "titulo": "Maximiliano de México, sueños de poder",
+    "sta": "2026-11-11/12:15",
+    "end": "2026-11-11/13:13"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-11/13:13",
+    "end": "2026-11-11/13:15"
+  },
+  {
+    "titulo": "Francofonía en México",
+    "sta": "2026-11-11/13:15",
+    "end": "2026-11-11/13:45"
+  },
+  {
+    "titulo": "Ancestras / Eréndira, princesa guerrera",
+    "sta": "2026-11-11/13:45",
+    "end": "2026-11-11/15:05"
+  },
+  {
+    "titulo": "Amapola del camino",
+    "sta": "2026-11-11/15:05",
+    "end": "2026-11-11/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-11/16:58",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "Derecho de réplica",
+    "sta": "2026-11-11/17:00",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-11/18:00",
+    "end": "2026-11-11/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-11/19:00",
+    "end": "2026-11-11/20:00"
+  },
+  {
+    "titulo": "Versiones públicas",
+    "sta": "2026-11-11/20:00",
+    "end": "2026-11-11/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-11/21:00",
+    "end": "2026-11-11/22:00"
+  },
+  {
+    "titulo": "Los secretos de la corrupción",
+    "sta": "2026-11-11/22:00",
+    "end": "2026-11-11/22:30"
+  },
+  {
+    "titulo": "Esperanza",
+    "sta": "2026-11-11/22:30",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "Otaola o la república del exilio",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/02:55"
+  },
+  {
+    "titulo": "Rastro de muerte",
+    "sta": "2026-11-12/02:55",
+    "end": "2026-11-12/04:50"
+  },
+  {
+    "titulo": "Maximiliano de México, sueños de poder",
+    "sta": "2026-11-12/04:50",
+    "end": "2026-11-12/05:50"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-12/05:50",
+    "end": "2026-11-12/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-12/06:10",
+    "end": "2026-11-12/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-12/07:10",
+    "end": "2026-11-12/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-12/07:30",
+    "end": "2026-11-12/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-12/09:15",
+    "end": "2026-11-12/10:15"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano / T1 E9 Sor Juana Inés de la Cruz, la peor de todas",
+    "sta": "2026-11-12/10:15",
+    "end": "2026-11-12/11:15"
+  },
+  {
+    "titulo": "Historia es presente / T1 Sor Juana, la musa disruptiva",
+    "sta": "2026-11-12/11:15",
+    "end": "2026-11-12/12:15"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-12/12:15",
+    "end": "2026-11-12/13:23"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-12/13:23",
+    "end": "2026-11-12/13:25"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T2 E11 Luz silenciosa",
+    "sta": "2026-11-12/13:25",
+    "end": "2026-11-12/14:25"
+  },
+  {
+    "titulo": "Una historia de película / Cine de albures, ficheras y figuras musicales",
+    "sta": "2026-11-12/14:25",
+    "end": "2026-11-12/14:55"
+  },
+  {
+    "titulo": "Encuadre Iberoamericano / La milicia en el Cine Iberoamericano",
+    "sta": "2026-11-12/14:55",
+    "end": "2026-11-12/15:55"
+  },
+  {
+    "titulo": "Rumbo al Ariel / Crónica menor / Techiq",
+    "sta": "2026-11-12/15:55",
+    "end": "2026-11-12/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-12/16:58",
+    "end": "2026-11-12/17:00"
+  },
+  {
+    "titulo": "Salud y deporte / Actívate contra la diabetes",
+    "sta": "2026-11-12/17:00",
+    "end": "2026-11-12/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-12/18:00",
+    "end": "2026-11-12/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-12/19:00",
+    "end": "2026-11-12/20:00"
+  },
+  {
+    "titulo": "Largo aliento",
+    "sta": "2026-11-12/20:00",
+    "end": "2026-11-12/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-12/21:00",
+    "end": "2026-11-12/22:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T6 El norte sobre el vacío",
+    "sta": "2026-11-12/22:00",
+    "end": "2026-11-12/23:00"
+  },
+  {
+    "titulo": "Rastro de muerte",
+    "sta": "2026-11-12/23:00",
+    "end": "2026-11-13/00:55"
+  },
+  {
+    "titulo": "Reina y rey",
+    "sta": "2026-11-13/00:55",
+    "end": "2026-11-13/02:30"
+  },
+  {
+    "titulo": "El organillero",
+    "sta": "2026-11-13/02:30",
+    "end": "2026-11-13/04:10"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano / T1 E9 Sor Juana Inés de la Cruz, la peor de todas",
+    "sta": "2026-11-13/04:10",
+    "end": "2026-11-13/05:10"
+  },
+  {
+    "titulo": "Visión futuro",
+    "sta": "2026-11-13/05:10",
+    "end": "2026-11-13/05:40"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-13/05:40",
+    "end": "2026-11-13/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-13/06:10",
+    "end": "2026-11-13/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-13/07:10",
+    "end": "2026-11-13/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-13/07:30",
+    "end": "2026-11-13/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-13/09:15",
+    "end": "2026-11-13/10:15"
+  },
+  {
+    "titulo": "Conversatorios desde la Fil Zócalo / Palestina: el genocidio en curso",
+    "sta": "2026-11-13/10:15",
+    "end": "2026-11-13/11:15"
+  },
+  {
+    "titulo": "Operación mamut",
+    "sta": "2026-11-13/11:15",
+    "end": "2026-11-13/12:15"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-13/12:15",
+    "end": "2026-11-13/13:48"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-13/13:48",
+    "end": "2026-11-13/13:50"
+  },
+  {
+    "titulo": "Mulli / Mole de matuma - Ixtenco",
+    "sta": "2026-11-13/13:50",
+    "end": "2026-11-13/14:20"
+  },
+  {
+    "titulo": "A la conquista del sabor / T1 E5 Frutas",
+    "sta": "2026-11-13/14:20",
+    "end": "2026-11-13/15:20"
+  },
+  {
+    "titulo": "El organillero",
+    "sta": "2026-11-13/15:20",
+    "end": "2026-11-13/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-13/16:58",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "XEB 103 Aniversario de la B grande de México",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/20:00"
+  },
+  {
+    "titulo": "Abierta mente",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/22:00"
+  },
+  {
+    "titulo": "Caminar el país / T2 Cuidado ambiental Comunitario",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-13/22:30"
+  },
+  {
+    "titulo": "Gucha'chi",
+    "sta": "2026-11-13/22:30",
+    "end": "2026-11-14/00:00"
+  },
+  {
+    "titulo": "Fandango",
+    "sta": "2026-11-14/00:00",
+    "end": "2026-11-14/01:35"
+  },
+  {
+    "titulo": "Anoche soñé contigo",
+    "sta": "2026-11-14/01:35",
+    "end": "2026-11-14/03:05"
+  },
+  {
+    "titulo": "Reina y rey",
+    "sta": "2026-11-14/03:05",
+    "end": "2026-11-14/04:40"
+  },
+  {
+    "titulo": "Maximiliano de México, sueños de poder",
+    "sta": "2026-11-14/04:40",
+    "end": "2026-11-14/05:40"
+  },
+  {
+    "titulo": "¡Escápate!",
+    "sta": "2026-11-14/05:40",
+    "end": "2026-11-14/07:20"
+  },
+  {
+    "titulo": "Radio inmersiva / Reactor Fakir & los psíquicos + Electrify.",
+    "sta": "2026-11-14/07:20",
+    "end": "2026-11-14/08:20"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-14/08:20",
+    "end": "2026-11-14/09:20"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-14/09:20",
+    "end": "2026-11-14/10:15"
+  },
+  {
+    "titulo": "TV Médica / Detección oportuna del cáncer en la infancia",
+    "sta": "2026-11-14/10:15",
+    "end": "2026-11-14/11:05"
+  },
+  {
+    "titulo": "Reina y rey",
+    "sta": "2026-11-14/11:05",
+    "end": "2026-11-14/12:45"
+  },
+  {
+    "titulo": "Rumbo al Ariel / Crónica menor / Techiq",
+    "sta": "2026-11-14/12:45",
+    "end": "2026-11-14/13:50"
+  },
+  {
+    "titulo": "Maximiliano de México, sueños de poder",
+    "sta": "2026-11-14/13:50",
+    "end": "2026-11-14/14:50"
+  },
+  {
+    "titulo": "Francofonía en México",
+    "sta": "2026-11-14/14:50",
+    "end": "2026-11-14/15:20"
+  },
+  {
+    "titulo": "FIC54 / Natalia Cruz y la Istmeña",
+    "sta": "2026-11-14/15:20",
+    "end": "2026-11-14/17:00"
+  },
+  {
+    "titulo": "Catorce al Hilvana / Pedrina",
+    "sta": "2026-11-14/17:00",
+    "end": "2026-11-14/18:00"
+  },
+  {
+    "titulo": "Una trayectoria, una colección / T3 Ariosto Otero",
+    "sta": "2026-11-14/18:00",
+    "end": "2026-11-14/18:30"
+  },
+  {
+    "titulo": "En grande / T2 E46",
+    "sta": "2026-11-14/18:30",
+    "end": "2026-11-14/19:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T6 La zona",
+    "sta": "2026-11-14/19:00",
+    "end": "2026-11-14/20:00"
+  },
+  {
+    "titulo": "TV Migrante informa",
+    "sta": "2026-11-14/20:00",
+    "end": "2026-11-14/20:30"
+  },
+  {
+    "titulo": "Aquí entre nos / ¿Son importantes las mascotas? Centro Cultural Universitario",
+    "sta": "2026-11-14/20:30",
+    "end": "2026-11-14/21:00"
+  },
+  {
+    "titulo": "Ama de casa / T2 Marcelina, trabajadoras del hogar",
+    "sta": "2026-11-14/21:00",
+    "end": "2026-11-14/22:00"
+  },
+  {
+    "titulo": "Cartas para la libertad / T3 Lupita",
+    "sta": "2026-11-14/22:00",
+    "end": "2026-11-14/22:50"
+  },
+  {
+    "titulo": "El tres de copas",
+    "sta": "2026-11-14/22:50",
+    "end": "2026-11-15/00:40"
+  },
+  {
+    "titulo": "Anoche soñé contigo",
+    "sta": "2026-11-15/00:40",
+    "end": "2026-11-15/02:10"
+  },
+  {
+    "titulo": "Gucha'chi",
+    "sta": "2026-11-15/02:10",
+    "end": "2026-11-15/03:40"
+  },
+  {
+    "titulo": "El organillero",
+    "sta": "2026-11-15/03:40",
+    "end": "2026-11-15/05:20"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine? / T6 La zona",
+    "sta": "2026-11-15/05:20",
+    "end": "2026-11-15/06:30"
+  },
+  {
+    "titulo": "Encuadre Iberoamericano / La milicia en el Cine Iberoamericano",
+    "sta": "2026-11-15/06:30",
+    "end": "2026-11-15/07:30"
+  },
+  {
+    "titulo": "A la conquista del sabor / T1 E5 Frutas",
+    "sta": "2026-11-15/07:30",
+    "end": "2026-11-15/08:30"
+  },
+  {
+    "titulo": "Maestros olvidados, oficios que sobreviven / T1 Barbero - Aniceto Vargas",
+    "sta": "2026-11-15/08:30",
+    "end": "2026-11-15/09:00"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-15/09:00",
+    "end": "2026-11-15/10:35"
+  },
+  {
+    "titulo": "El organillero",
+    "sta": "2026-11-15/10:35",
+    "end": "2026-11-15/12:05"
+  },
+  {
+    "titulo": "Una historia de película / Cine de albures, ficheras y figuras musicales",
+    "sta": "2026-11-15/12:05",
+    "end": "2026-11-15/12:35"
+  },
+  {
+    "titulo": "XEB 103 Aniversario de la B grande de México",
+    "sta": "2026-11-15/12:35",
+    "end": "2026-11-15/13:35"
+  },
+  {
+    "titulo": "Ancestras / Eréndira, princesa guerrera",
+    "sta": "2026-11-15/13:35",
+    "end": "2026-11-15/14:55"
+  },
+  {
+    "titulo": "Historia es presente / T1 Sor Juana, la musa disruptiva",
+    "sta": "2026-11-15/14:55",
+    "end": "2026-11-15/15:55"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano / T1 E9 Sor Juana Inés de la Cruz, la peor de todas",
+    "sta": "2026-11-15/15:55",
+    "end": "2026-11-15/16:55"
+  },
+  {
+    "titulo": "FIC54 / Coro del Teatro del Bicentenario - Réquiem de Maurice Duruflé",
+    "sta": "2026-11-15/16:55",
+    "end": "2026-11-15/18:00"
+  },
+  {
+    "titulo": "Radio inmersiva / Horizonte / Estrellas perdidas / Cuarteto mexicano de jazz.",
+    "sta": "2026-11-15/18:00",
+    "end": "2026-11-15/19:00"
+  },
+  {
+    "titulo": "Versiones públicas",
+    "sta": "2026-11-15/19:00",
+    "end": "2026-11-15/20:00"
+  },
+  {
+    "titulo": "Ventana al mundo",
+    "sta": "2026-11-15/20:00",
+    "end": "2026-11-15/20:30"
+  },
+  {
+    "titulo": "Los secretos de la corrupción",
+    "sta": "2026-11-15/20:30",
+    "end": "2026-11-15/21:00"
+  },
+  {
+    "titulo": "Debate público",
+    "sta": "2026-11-15/21:00",
+    "end": "2026-11-15/22:00"
+  },
+  {
+    "titulo": "Fandango",
+    "sta": "2026-11-15/22:00",
+    "end": "2026-11-15/23:35"
+  },
+  {
+    "titulo": "Otaola o la república del exilio",
+    "sta": "2026-11-15/23:35",
+    "end": "2026-11-16/01:35"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-16/01:35",
+    "end": "2026-11-16/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-16/07:30",
+    "end": "2026-11-16/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-16/09:15",
+    "end": "2026-11-16/10:15"
+  },
+  {
+    "titulo": "Mujeres haciendo historia / T3",
+    "sta": "2026-11-16/10:15",
+    "end": "2026-11-16/10:45"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-16/10:45",
+    "end": "2026-11-16/11:30"
+  },
+  {
+    "titulo": "Consulta directa",
+    "sta": "2026-11-16/11:30",
+    "end": "2026-11-16/12:30"
+  },
+  {
+    "titulo": "¿Cómo le hago?",
+    "sta": "2026-11-16/12:30",
+    "end": "2026-11-16/13:00"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-16/13:00",
+    "end": "2026-11-16/14:38"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-16/14:38",
+    "end": "2026-11-16/16:00"
+  },
+  {
+    "titulo": "Relatos",
+    "sta": "2026-11-16/16:00",
+    "end": "2026-11-16/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-16/16:58",
+    "end": "2026-11-16/17:00"
+  },
+  {
+    "titulo": "Abierta mente",
+    "sta": "2026-11-16/17:00",
+    "end": "2026-11-16/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-16/18:00",
+    "end": "2026-11-16/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-16/19:00",
+    "end": "2026-11-16/20:00"
+  },
+  {
+    "titulo": "TV Migrante",
+    "sta": "2026-11-16/20:00",
+    "end": "2026-11-16/20:30"
+  },
+  {
+    "titulo": "La era del engaño",
+    "sta": "2026-11-16/20:30",
+    "end": "2026-11-16/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-16/21:00",
+    "end": "2026-11-16/22:00"
+  },
+  {
+    "titulo": "Nuestras conquistas",
+    "sta": "2026-11-16/22:00",
+    "end": "2026-11-16/23:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-16/23:00",
+    "end": "2026-11-17/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-17/06:10",
+    "end": "2026-11-17/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-17/07:10",
+    "end": "2026-11-17/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-17/07:30",
+    "end": "2026-11-17/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-17/09:15",
+    "end": "2026-11-17/10:15"
+  },
+  {
+    "titulo": "Ama de casa / T2",
+    "sta": "2026-11-17/10:15",
+    "end": "2026-11-17/11:05"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-17/11:05",
+    "end": "2026-11-17/11:40"
+  },
+  {
+    "titulo": "Ventana al mundo",
+    "sta": "2026-11-17/11:40",
+    "end": "2026-11-17/12:10"
+  },
+  {
+    "titulo": "Ventana al mundo",
+    "sta": "2026-11-17/12:10",
+    "end": "2026-11-17/12:40"
+  },
+  {
+    "titulo": "TV Médica",
+    "sta": "2026-11-17/12:40",
+    "end": "2026-11-17/13:28"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-17/13:28",
+    "end": "2026-11-17/13:30"
+  },
+  {
+    "titulo": "Mucho+Q2",
+    "sta": "2026-11-17/13:30",
+    "end": "2026-11-17/14:30"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-17/14:30",
+    "end": "2026-11-17/16:23"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-17/16:23",
+    "end": "2026-11-17/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-17/18:00",
+    "end": "2026-11-17/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-17/19:00",
+    "end": "2026-11-17/20:00"
+  },
+  {
+    "titulo": "Debate público",
+    "sta": "2026-11-17/20:00",
+    "end": "2026-11-17/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-17/21:00",
+    "end": "2026-11-17/22:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-17/22:00",
+    "end": "2026-11-18/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-18/06:10",
+    "end": "2026-11-18/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-18/07:10",
+    "end": "2026-11-18/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-18/07:30",
+    "end": "2026-11-18/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-18/09:15",
+    "end": "2026-11-18/10:15"
+  },
+  {
+    "titulo": "Ancestras",
+    "sta": "2026-11-18/10:15",
+    "end": "2026-11-18/11:15"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-18/11:15",
+    "end": "2026-11-18/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-18/16:58",
+    "end": "2026-11-18/17:00"
+  },
+  {
+    "titulo": "Derecho de réplica",
+    "sta": "2026-11-18/17:00",
+    "end": "2026-11-18/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-18/18:00",
+    "end": "2026-11-18/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-18/19:00",
+    "end": "2026-11-18/20:00"
+  },
+  {
+    "titulo": "Versiones públicas",
+    "sta": "2026-11-18/20:00",
+    "end": "2026-11-18/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-18/21:00",
+    "end": "2026-11-18/22:00"
+  },
+  {
+    "titulo": "Los secretos de la corrupción",
+    "sta": "2026-11-18/22:00",
+    "end": "2026-11-18/22:30"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-18/22:30",
+    "end": "2026-11-19/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-19/06:10",
+    "end": "2026-11-19/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-19/07:10",
+    "end": "2026-11-19/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-19/07:30",
+    "end": "2026-11-19/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-19/09:15",
+    "end": "2026-11-19/10:15"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano",
+    "sta": "2026-11-19/10:15",
+    "end": "2026-11-19/11:15"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-19/11:15",
+    "end": "2026-11-19/13:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-19/13:58",
+    "end": "2026-11-19/14:00"
+  },
+  {
+    "titulo": "Una historia de película",
+    "sta": "2026-11-19/14:00",
+    "end": "2026-11-19/14:30"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-19/14:30",
+    "end": "2026-11-19/16:00"
+  },
+  {
+    "titulo": "Salud y deporte",
+    "sta": "2026-11-19/16:00",
+    "end": "2026-11-19/16:58"
+  },
+  {
+    "titulo": "Corte informativo",
+    "sta": "2026-11-19/16:58",
+    "end": "2026-11-19/17:00"
+  },
+  {
+    "titulo": "Grandes figuras del arte mexicano",
+    "sta": "2026-11-19/17:00",
+    "end": "2026-11-19/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-19/18:00",
+    "end": "2026-11-19/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-19/19:00",
+    "end": "2026-11-19/20:00"
+  },
+  {
+    "titulo": "Largo aliento",
+    "sta": "2026-11-19/20:00",
+    "end": "2026-11-19/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-19/21:00",
+    "end": "2026-11-19/22:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine?",
+    "sta": "2026-11-19/22:00",
+    "end": "2026-11-19/23:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-19/23:00",
+    "end": "2026-11-20/06:10"
+  }
+]
