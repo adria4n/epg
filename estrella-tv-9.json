@@ -1,50 +1,5 @@
 [
   {
-    "titulo": "Noticiero: Cierre de edición",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "Tengo talento, mucho talento Kids",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "Noticiero: Cierre de edición",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/05:30"
@@ -1208,5 +1163,50 @@
     "titulo": "Alarma TV",
     "sta": "2026-11-12/23:00",
     "end": "2026-11-13/00:00"
+  },
+  {
+    "titulo": "Noticiero: Cierre de edición",
+    "sta": "2026-11-13/00:00",
+    "end": "2026-11-13/00:30"
+  },
+  {
+    "titulo": "24 horas",
+    "sta": "2026-11-13/00:30",
+    "end": "2026-11-13/01:00"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-13/01:00",
+    "end": "2026-11-13/01:30"
+  },
+  {
+    "titulo": "Alarma TV",
+    "sta": "2026-11-13/01:30",
+    "end": "2026-11-13/02:00"
+  },
+  {
+    "titulo": "Tengo talento, mucho talento",
+    "sta": "2026-11-13/02:00",
+    "end": "2026-11-13/03:00"
+  },
+  {
+    "titulo": "Noticiero: Cierre de edición",
+    "sta": "2026-11-13/03:00",
+    "end": "2026-11-13/03:30"
+  },
+  {
+    "titulo": "24 horas",
+    "sta": "2026-11-13/03:30",
+    "end": "2026-11-13/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:00",
+    "end": "2026-11-13/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:30",
+    "end": "2026-11-13/05:00"
   }
 ]
