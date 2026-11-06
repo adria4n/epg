@@ -5,6 +5,7 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE_URL = "https://d3ur398j0yj7gx.cloudfront.net/ajax/program_guide/feed/block/{year}/{month:02d}/{day:02d}"
 TZ = ZoneInfo("America/Mexico_City")
@@ -51,9 +52,19 @@ def main():
     now = datetime.now(TZ)
     today = now.replace(hour=0, minute=0, second=0, microsecond=0)
     days = [today + timedelta(days=i) for i in range(-1, 8)]
+
     all_programs = []
-    for day in days:
-        all_programs.extend(fetch_day(day))
+    print(f"Descargando {len(days)} días en paralelo...", file=sys.stderr)
+
+    with ThreadPoolExecutor() as executor:
+        futures = {executor.submit(fetch_day, day): day for day in days}
+        for future in as_completed(futures):
+            try:
+                all_programs.extend(future.result())
+            except Exception as e:
+                day = futures[future]
+                print(f"Error procesando día {day.date()}: {e}", file=sys.stderr)
+
     epg = process_programs(all_programs)
     seen = set()
     unique = []
@@ -62,6 +73,7 @@ def main():
         if key not in seen:
             seen.add(key)
             unique.append(item)
+
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
     print(f"Guardado {len(unique)} programas en {OUTPUT_FILE}", file=sys.stderr)
