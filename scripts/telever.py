@@ -103,10 +103,6 @@ def parse_pdf_schedule(pdf_path):
                 end = minutes_to_dt(d, end_mins)
                 if end <= start:
                     continue
-                if end.hour == 0 and end.minute == 0 and start_mins > 0:
-                    pass
-                if start_mins == 0 and end_mins == 0:
-                    continue
                 key = (start, end, title, d)
                 if key in seen:
                     continue
