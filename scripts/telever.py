@@ -21,8 +21,9 @@ def download_pdf(url, dest="temp_programacion.pdf"):
 def clean_title(raw):
     title = str(raw).replace("\n", " ").strip()
     title = re.sub(r'\s+', ' ', title)
-    for word in ["GRABADO", "REPETICIÓN", "REPETICION", "LOCAL", "VIVO", "B-15"]:
-        title = re.sub(rf'\b{word}\b', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\b(GRABADO|REPETICIÓN|REPETICION|EN VIVO|VIVO|LOCAL)\b', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s+(A|B|AA|B-15|B15|C|D)\s*$', '', title)
+    title = re.sub(r'\s+(A|B)\b', ' ', title)
     title = re.sub(r'\s+', ' ', title).strip(" -.,")
     if not title:
         return ""
@@ -33,17 +34,46 @@ def parse_pdf_schedule(pdf_path):
     base_date = datetime(2026, 11, 2, tzinfo=TZ)
     with pdfplumber.open(pdf_path) as pdf:
         page = pdf.pages[0]
-        tables = page.extract_tables()
-        if not tables:
+        words = page.extract_words(x_tolerance=2, y_tolerance=3, keep_blank_chars=False)
+        if not words:
             return []
-        table = tables[0]
+        words = sorted(words, key=lambda w: (round(w["top"] / 5) * 5, w["x0"]))
+        rows = []
+        for w in words:
+            placed = False
+            for r in rows:
+                if abs(w["top"] - r[0]["top"]) < 8:
+                    r.append(w)
+                    placed = True
+                    break
+            if not placed:
+                rows.append([w])
+        rows = sorted(rows, key=lambda r: min(w["top"] for w in r))
+        header_idx = -1
+        header_xs = []
+        for idx, r in enumerate(rows):
+            texts = [w["text"].upper() for w in r]
+            joined = " ".join(texts)
+            if "LUNES" in joined and "MARTES" in joined:
+                header_idx = idx
+                header_xs = sorted([w["x0"] for w in r if w["text"].upper() in ["LUNES", "MARTES", "MIERCOLES", "MIÉRCOLES", "JUEVES", "VIERNES", "SABADO", "SÁBADO", "DOMINGO"]])
+                break
+        if header_idx == -1:
+            return []
+        col_bounds = []
+        for i, x in enumerate(header_xs):
+            x_start = x - 10
+            x_end = header_xs[i + 1] - 10 if i + 1 < len(header_xs) else page.width
+            col_bounds.append((x_start, x_end))
+        time_x_limit = header_xs[0] - 10
         last_hour = 0
-        for row in table[1:]:
-            if not row or not row[0]:
-                continue
-            time_str = str(row[0]).strip()
-            m_full = re.match(r'^(\d{1,2}):(\d{2})$', time_str)
-            m_min = re.match(r'^:(\d{2})$', time_str)
+        last_titles = [""] * 7
+        for r in rows[header_idx + 1:]:
+            r_sorted = sorted(r, key=lambda w: w["x0"])
+            time_words = [w for w in r_sorted if w["x0"] < time_x_limit]
+            time_text = "".join([w["text"] for w in time_words]).strip()
+            m_full = re.match(r'^(\d{1,2}):(\d{2})$', time_text)
+            m_min = re.match(r'^:(\d{2})$', time_text)
             if m_full:
                 hour = int(m_full.group(1))
                 minute = int(m_full.group(2))
@@ -56,12 +86,18 @@ def parse_pdf_schedule(pdf_path):
             if not (0 <= hour <= 23 and 0 <= minute <= 59):
                 continue
             for day_offset in range(7):
-                cell = row[day_offset + 1] if day_offset + 1 < len(row) else None
-                if not cell or not str(cell).strip():
+                xs, xe = col_bounds[day_offset]
+                cell_words = [w for w in r_sorted if xs <= w["x0"] < xe]
+                cell_text = " ".join([w["text"] for w in sorted(cell_words, key=lambda w: w["x0"])])
+                cell_text = cell_text.strip()
+                if not cell_text:
                     continue
-                title = clean_title(cell)
+                title = clean_title(cell_text)
                 if len(title) < 3:
                     continue
+                if title == last_titles[day_offset]:
+                    continue
+                last_titles[day_offset] = title
                 start = base_date.replace(hour=hour, minute=minute, second=0, microsecond=0) + timedelta(days=day_offset)
                 programs_por_dia[day_offset].append((start, title))
     programs = []
@@ -101,7 +137,7 @@ def main():
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(programs, f, indent=2, ensure_ascii=False)
         print(f"Listo: {len(programs)} programas en {OUTPUT_FILE}", file=sys.stderr)
-        for p in programs[:15]:
+        for p in programs[:20]:
             print(f"  {p['sta']} - {p['end']} - {p['titulo']}", file=sys.stderr)
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
