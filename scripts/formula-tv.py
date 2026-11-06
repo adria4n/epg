@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
 from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/x4wyqmstcso2k4qu0uonm/formula-tv.txt?rlkey=s2kh6yhjoxzn6oo9ijidjy488"
 TZ = ZoneInfo("America/Mexico_City")
@@ -90,9 +91,9 @@ def scrape(channel, outfile):
             html = fetch(url)
             progs = extract_programs(html)
             all_programs.extend(progs)
-            print(f"  {d}: {len(progs)} programas", file=sys.stderr)
+            print(f"  {channel} {d}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
-            print(f"  Error en {d}: {e}", file=sys.stderr)
+            print(f"  Error en {channel} {d}: {e}", file=sys.stderr)
 
     all_programs.sort(key=lambda x: x["_start"])
     seen = set()
@@ -108,13 +109,23 @@ def scrape(channel, outfile):
         json.dump(unique, f, indent=2, ensure_ascii=False)
 
     print(f"Listo: {len(unique)} programas en {outfile}", file=sys.stderr)
+    return len(unique)
 
 def main():
     canales = load_canales()
-    for canal in canales:
-        channel = canal.get("id", "")
-        outfile = canal.get("json", f"{channel}.json")
-        scrape(channel, outfile)
+    print(f"Procesando {len(canales)} canales en paralelo...", file=sys.stderr)
+
+    with ThreadPoolExecutor(max_workers=min(8, len(canales))) as executor:
+        futures = {
+            executor.submit(scrape, canal.get("id", ""), canal.get("json", f"{canal.get('id', '')}.json")): canal
+            for canal in canales
+        }
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                canal = futures[future]
+                print(f"Error en canal {canal.get('id')}: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
