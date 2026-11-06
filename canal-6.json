@@ -1,0 +1,1337 @@
+[
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-04/00:00",
+    "end": "2026-11-04/01:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-04/01:00",
+    "end": "2026-11-04/02:00"
+  },
+  {
+    "titulo": "El Curubito",
+    "sta": "2026-11-04/02:00",
+    "end": "2026-11-04/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-04/03:30",
+    "end": "2026-11-04/04:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-04/04:00",
+    "end": "2026-11-04/04:30"
+  },
+  {
+    "titulo": "Mensaje de la felicidad",
+    "sta": "2026-11-04/04:30",
+    "end": "2026-11-04/05:00"
+  },
+  {
+    "titulo": "Telediario express",
+    "sta": "2026-11-04/05:00",
+    "end": "2026-11-04/06:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-04/06:00",
+    "end": "2026-11-04/07:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-04/07:00",
+    "end": "2026-11-04/08:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-04/08:00",
+    "end": "2026-11-04/09:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-04/09:00",
+    "end": "2026-11-04/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-04/10:00",
+    "end": "2026-11-04/11:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-04/11:00",
+    "end": "2026-11-04/11:03"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-04/11:03",
+    "end": "2026-11-04/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-04/12:00",
+    "end": "2026-11-04/13:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-04/13:00",
+    "end": "2026-11-04/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-04/14:00",
+    "end": "2026-11-04/15:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-04/15:00",
+    "end": "2026-11-04/16:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-04/16:00",
+    "end": "2026-11-04/16:03"
+  },
+  {
+    "titulo": "Tocando al corazón",
+    "sta": "2026-11-04/16:03",
+    "end": "2026-11-04/17:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-04/17:00",
+    "end": "2026-11-04/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-04/18:00",
+    "end": "2026-11-04/19:00"
+  },
+  {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-04/19:00",
+    "end": "2026-11-04/20:00"
+  },
+  {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-04/20:00",
+    "end": "2026-11-04/21:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-04/21:00",
+    "end": "2026-11-04/22:00"
+  },
+  {
+    "titulo": "El gran casting",
+    "sta": "2026-11-04/22:00",
+    "end": "2026-11-04/23:00"
+  },
+  {
+    "titulo": "El gran casting",
+    "sta": "2026-11-04/23:00",
+    "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "El gran casting",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "El Curubito",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Mensaje de la felicidad",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Telediario express",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-05/06:00",
+    "end": "2026-11-05/07:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-05/07:00",
+    "end": "2026-11-05/08:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-05/08:00",
+    "end": "2026-11-05/09:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-05/09:00",
+    "end": "2026-11-05/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-05/10:00",
+    "end": "2026-11-05/11:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-05/11:00",
+    "end": "2026-11-05/11:03"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-05/11:03",
+    "end": "2026-11-05/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-05/12:00",
+    "end": "2026-11-05/13:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-05/13:00",
+    "end": "2026-11-05/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-05/14:00",
+    "end": "2026-11-05/15:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-05/15:00",
+    "end": "2026-11-05/16:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-05/16:00",
+    "end": "2026-11-05/16:03"
+  },
+  {
+    "titulo": "Tocando al corazón",
+    "sta": "2026-11-05/16:03",
+    "end": "2026-11-05/17:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-05/17:00",
+    "end": "2026-11-05/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-05/18:00",
+    "end": "2026-11-05/19:00"
+  },
+  {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-05/19:00",
+    "end": "2026-11-05/20:00"
+  },
+  {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-05/20:00",
+    "end": "2026-11-05/21:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-05/21:00",
+    "end": "2026-11-05/22:00"
+  },
+  {
+    "titulo": "SNSerio",
+    "sta": "2026-11-05/22:00",
+    "end": "2026-11-05/23:00"
+  },
+  {
+    "titulo": "SNSerio",
+    "sta": "2026-11-05/23:00",
+    "end": "2026-11-05/23:30"
+  },
+  {
+    "titulo": "Buenas noches Don Fematt",
+    "sta": "2026-11-05/23:30",
+    "end": "2026-11-06/01:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-06/01:00",
+    "end": "2026-11-06/02:00"
+  },
+  {
+    "titulo": "El Curubito",
+    "sta": "2026-11-06/02:00",
+    "end": "2026-11-06/03:30"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-06/03:30",
+    "end": "2026-11-06/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/04:00",
+    "end": "2026-11-06/04:30"
+  },
+  {
+    "titulo": "Mensaje de la felicidad",
+    "sta": "2026-11-06/04:30",
+    "end": "2026-11-06/05:00"
+  },
+  {
+    "titulo": "Telediario express",
+    "sta": "2026-11-06/05:00",
+    "end": "2026-11-06/06:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-06/06:00",
+    "end": "2026-11-06/07:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-06/07:00",
+    "end": "2026-11-06/08:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-06/08:00",
+    "end": "2026-11-06/09:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-06/09:00",
+    "end": "2026-11-06/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-06/10:00",
+    "end": "2026-11-06/11:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-06/11:00",
+    "end": "2026-11-06/11:03"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-06/11:03",
+    "end": "2026-11-06/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-06/12:00",
+    "end": "2026-11-06/13:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-06/13:00",
+    "end": "2026-11-06/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-06/14:00",
+    "end": "2026-11-06/15:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-06/15:00",
+    "end": "2026-11-06/16:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-06/16:00",
+    "end": "2026-11-06/16:03"
+  },
+  {
+    "titulo": "Tocando al corazón",
+    "sta": "2026-11-06/16:03",
+    "end": "2026-11-06/17:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-06/17:00",
+    "end": "2026-11-06/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-06/18:00",
+    "end": "2026-11-06/19:00"
+  },
+  {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-06/19:00",
+    "end": "2026-11-06/20:00"
+  },
+  {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-06/20:00",
+    "end": "2026-11-06/21:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-06/21:00",
+    "end": "2026-11-06/22:00"
+  },
+  {
+    "titulo": "Es Show El Musical",
+    "sta": "2026-11-06/22:00",
+    "end": "2026-11-06/23:00"
+  },
+  {
+    "titulo": "Es Show El Musical",
+    "sta": "2026-11-06/23:00",
+    "end": "2026-11-07/00:00"
+  },
+  {
+    "titulo": "Orbital",
+    "sta": "2026-11-07/00:00",
+    "end": "2026-11-07/01:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-07/01:00",
+    "end": "2026-11-07/02:00"
+  },
+  {
+    "titulo": "China al minuto",
+    "sta": "2026-11-07/02:00",
+    "end": "2026-11-07/02:15"
+  },
+  {
+    "titulo": "Fuera de control",
+    "sta": "2026-11-07/02:15",
+    "end": "2026-11-07/02:30"
+  },
+  {
+    "titulo": "Buenas noches Don Fematt",
+    "sta": "2026-11-07/02:30",
+    "end": "2026-11-07/04:00"
+  },
+  {
+    "titulo": "Energía y vida",
+    "sta": "2026-11-07/04:00",
+    "end": "2026-11-07/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-07/04:30",
+    "end": "2026-11-07/05:30"
+  },
+  {
+    "titulo": "Energía y vida",
+    "sta": "2026-11-07/05:30",
+    "end": "2026-11-07/06:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-07/06:00",
+    "end": "2026-11-07/07:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-07/07:00",
+    "end": "2026-11-07/08:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-07/08:00",
+    "end": "2026-11-07/09:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-07/09:00",
+    "end": "2026-11-07/10:00"
+  },
+  {
+    "titulo": "Vivalavi fin de semana",
+    "sta": "2026-11-07/10:00",
+    "end": "2026-11-07/11:00"
+  },
+  {
+    "titulo": "Vivalavi fin de semana",
+    "sta": "2026-11-07/11:00",
+    "end": "2026-11-07/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino fin de semana",
+    "sta": "2026-11-07/12:00",
+    "end": "2026-11-07/13:00"
+  },
+  {
+    "titulo": "Telediario vespertino fin de semana",
+    "sta": "2026-11-07/13:00",
+    "end": "2026-11-07/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino fin de semana",
+    "sta": "2026-11-07/14:00",
+    "end": "2026-11-07/15:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-07/15:00",
+    "end": "2026-11-07/16:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-07/16:00",
+    "end": "2026-11-07/17:00"
+  },
+  {
+    "titulo": "Homenaje",
+    "sta": "2026-11-07/17:00",
+    "end": "2026-11-07/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-07/18:00",
+    "end": "2026-11-07/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno: Fin de semana",
+    "sta": "2026-11-07/19:00",
+    "end": "2026-11-07/20:00"
+  },
+  {
+    "titulo": "Telediario nocturno: Fin de semana",
+    "sta": "2026-11-07/20:00",
+    "end": "2026-11-07/21:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-07/21:00",
+    "end": "2026-11-07/22:00"
+  },
+  {
+    "titulo": "Gruperisimo",
+    "sta": "2026-11-07/22:00",
+    "end": "2026-11-07/23:00"
+  },
+  {
+    "titulo": "Gruperisimo",
+    "sta": "2026-11-07/23:00",
+    "end": "2026-11-08/00:00"
+  },
+  {
+    "titulo": "Fuera del Control",
+    "sta": "2026-11-08/00:00",
+    "end": "2026-11-08/01:00"
+  },
+  {
+    "titulo": "Orbital",
+    "sta": "2026-11-08/01:00",
+    "end": "2026-11-08/02:00"
+  },
+  {
+    "titulo": "Es Show El Musical",
+    "sta": "2026-11-08/02:00",
+    "end": "2026-11-08/03:00"
+  },
+  {
+    "titulo": "Es Show El Musical",
+    "sta": "2026-11-08/03:00",
+    "end": "2026-11-08/04:00"
+  },
+  {
+    "titulo": "Energía y vida",
+    "sta": "2026-11-08/04:00",
+    "end": "2026-11-08/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-08/04:30",
+    "end": "2026-11-08/05:30"
+  },
+  {
+    "titulo": "Energía y vida",
+    "sta": "2026-11-08/05:30",
+    "end": "2026-11-08/06:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-08/06:00",
+    "end": "2026-11-08/07:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-08/07:00",
+    "end": "2026-11-08/08:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-08/08:00",
+    "end": "2026-11-08/09:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-08/09:00",
+    "end": "2026-11-08/10:00"
+  },
+  {
+    "titulo": "Rumbo al campeonato",
+    "sta": "2026-11-08/10:00",
+    "end": "2026-11-08/11:30"
+  },
+  {
+    "titulo": "Zona Raiders",
+    "sta": "2026-11-08/11:30",
+    "end": "2026-11-08/12:00"
+  },
+  {
+    "titulo": "Gruperisimo",
+    "sta": "2026-11-08/12:00",
+    "end": "2026-11-08/13:00"
+  },
+  {
+    "titulo": "Gruperisimo",
+    "sta": "2026-11-08/13:00",
+    "end": "2026-11-08/14:00"
+  },
+  {
+    "titulo": "Paketemociones",
+    "sta": "2026-11-08/14:00",
+    "end": "2026-11-08/15:00"
+  },
+  {
+    "titulo": "Pantallazo",
+    "sta": "2026-11-08/15:00",
+    "end": "2026-11-08/16:00"
+  },
+  {
+    "titulo": "LM52",
+    "sta": "2026-11-08/16:00",
+    "end": "2026-11-08/17:00"
+  },
+  {
+    "titulo": "El gran casting",
+    "sta": "2026-11-08/17:00",
+    "end": "2026-11-08/18:00"
+  },
+  {
+    "titulo": "Budo Sento Championship",
+    "sta": "2026-11-08/18:00",
+    "end": "2026-11-08/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno: Fin de semana",
+    "sta": "2026-11-08/19:00",
+    "end": "2026-11-08/20:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-08/20:00",
+    "end": "2026-11-08/21:00"
+  },
+  {
+    "titulo": "MT Express",
+    "sta": "2026-11-08/21:00",
+    "end": "2026-11-08/21:30"
+  },
+  {
+    "titulo": "SNSerio",
+    "sta": "2026-11-08/21:30",
+    "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "Okus pokus, las magadas de \"la Mole\"",
+    "sta": "2026-11-08/23:00",
+    "end": "2026-11-09/00:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-09/00:00",
+    "end": "2026-11-09/01:00"
+  },
+  {
+    "titulo": "Cuando los ángeles caen",
+    "sta": "2026-11-09/01:00",
+    "end": "2026-11-09/02:00"
+  },
+  {
+    "titulo": "El Curubito",
+    "sta": "2026-11-09/02:00",
+    "end": "2026-11-09/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-09/03:30",
+    "end": "2026-11-09/04:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-09/04:00",
+    "end": "2026-11-09/04:30"
+  },
+  {
+    "titulo": "Mensaje de la felicidad",
+    "sta": "2026-11-09/04:30",
+    "end": "2026-11-09/05:00"
+  },
+  {
+    "titulo": "Telediario express",
+    "sta": "2026-11-09/05:00",
+    "end": "2026-11-09/06:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-09/10:00",
+    "end": "2026-11-09/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-09/12:00",
+    "end": "2026-11-09/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-09/14:00",
+    "end": "2026-11-09/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-09/15:00",
+    "end": "2026-11-09/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-09/16:00",
+    "end": "2026-11-09/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-09/17:00",
+    "end": "2026-11-09/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-09/18:00",
+    "end": "2026-11-09/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno Monterrey",
+    "sta": "2026-11-09/19:00",
+    "end": "2026-11-09/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-09/21:00",
+    "end": "2026-11-09/21:30"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-09/21:30",
+    "end": "2026-11-10/00:00"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-10/00:00",
+    "end": "2026-11-10/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-10/01:00",
+    "end": "2026-11-10/04:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-10/04:00",
+    "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/06:00"
+  },
+  {
+    "titulo": "Telediario matutino Saltillo",
+    "sta": "2026-11-10/06:00",
+    "end": "2026-11-10/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-10/10:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino Saltillo",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-10/14:00",
+    "end": "2026-11-10/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-10/15:00",
+    "end": "2026-11-10/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-10/16:00",
+    "end": "2026-11-10/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-10/17:00",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno Monterrey",
+    "sta": "2026-11-10/19:00",
+    "end": "2026-11-10/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-10/21:00",
+    "end": "2026-11-10/21:30"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-10/21:30",
+    "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-11/00:00",
+    "end": "2026-11-11/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-11/01:00",
+    "end": "2026-11-11/04:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-11/04:00",
+    "end": "2026-11-11/05:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-11/05:00",
+    "end": "2026-11-11/06:00"
+  },
+  {
+    "titulo": "Telediario matutino Saltillo",
+    "sta": "2026-11-11/06:00",
+    "end": "2026-11-11/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-11/10:00",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino Saltillo",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-11/14:00",
+    "end": "2026-11-11/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-11/15:00",
+    "end": "2026-11-11/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-11/17:00",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-11/18:00",
+    "end": "2026-11-11/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno Monterrey",
+    "sta": "2026-11-11/19:00",
+    "end": "2026-11-11/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-11/21:00",
+    "end": "2026-11-11/21:30"
+  },
+  {
+    "titulo": "Hey familia",
+    "sta": "2026-11-11/21:30",
+    "end": "2026-11-12/00:00"
+  },
+  {
+    "titulo": "Hey familia",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-12/01:00",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/05:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-12/05:00",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "Telediario matutino Saltillo",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-12/10:00",
+    "end": "2026-11-12/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino Saltillo",
+    "sta": "2026-11-12/12:00",
+    "end": "2026-11-12/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-12/14:00",
+    "end": "2026-11-12/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-12/15:00",
+    "end": "2026-11-12/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-12/16:00",
+    "end": "2026-11-12/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-12/17:00",
+    "end": "2026-11-12/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-12/18:00",
+    "end": "2026-11-12/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno Monterrey",
+    "sta": "2026-11-12/19:00",
+    "end": "2026-11-12/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-12/21:00",
+    "end": "2026-11-12/21:30"
+  },
+  {
+    "titulo": "Menos serio Q SNSerio",
+    "sta": "2026-11-12/21:30",
+    "end": "2026-11-13/00:00"
+  },
+  {
+    "titulo": "Menos serio Q SNSerio",
+    "sta": "2026-11-13/00:00",
+    "end": "2026-11-13/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/01:00",
+    "end": "2026-11-13/04:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-13/04:00",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/06:00"
+  },
+  {
+    "titulo": "Telediario matutino Saltillo",
+    "sta": "2026-11-13/06:00",
+    "end": "2026-11-13/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-13/10:00",
+    "end": "2026-11-13/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino Saltillo",
+    "sta": "2026-11-13/12:00",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-13/14:00",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-13/16:00",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Será anunciado",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/21:30"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-13/21:30",
+    "end": "2026-11-13/23:30"
+  },
+  {
+    "titulo": "Buenas noches Don Fematt",
+    "sta": "2026-11-13/23:30",
+    "end": "2026-11-14/00:00"
+  },
+  {
+    "titulo": "Buenas noches Don Fematt",
+    "sta": "2026-11-14/00:00",
+    "end": "2026-11-14/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/01:00",
+    "end": "2026-11-14/05:00"
+  },
+  {
+    "titulo": "Orbital",
+    "sta": "2026-11-14/05:00",
+    "end": "2026-11-14/06:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-14/06:00",
+    "end": "2026-11-14/10:00"
+  },
+  {
+    "titulo": "Vivalavi de Sábado",
+    "sta": "2026-11-14/10:00",
+    "end": "2026-11-14/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino fin de semana",
+    "sta": "2026-11-14/12:00",
+    "end": "2026-11-14/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-14/15:00",
+    "end": "2026-11-14/16:00"
+  },
+  {
+    "titulo": "Especial de homenajes",
+    "sta": "2026-11-14/16:00",
+    "end": "2026-11-14/17:00"
+  },
+  {
+    "titulo": "Nuestro hogar en México",
+    "sta": "2026-11-14/17:00",
+    "end": "2026-11-14/18:00"
+  },
+  {
+    "titulo": "Los caza minihogares",
+    "sta": "2026-11-14/18:00",
+    "end": "2026-11-14/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno: Fin de semana",
+    "sta": "2026-11-14/19:00",
+    "end": "2026-11-14/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-14/21:00",
+    "end": "2026-11-14/22:00"
+  },
+  {
+    "titulo": "Lucha Libre AAA",
+    "sta": "2026-11-14/22:00",
+    "end": "2026-11-14/23:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-14/23:00",
+    "end": "2026-11-15/00:00"
+  },
+  {
+    "titulo": "Fuera del Control",
+    "sta": "2026-11-15/00:00",
+    "end": "2026-11-15/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-15/01:00",
+    "end": "2026-11-15/05:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-15/05:00",
+    "end": "2026-11-15/06:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-15/06:00",
+    "end": "2026-11-15/10:00"
+  },
+  {
+    "titulo": "Rumbo al campeonato",
+    "sta": "2026-11-15/10:00",
+    "end": "2026-11-15/11:00"
+  },
+  {
+    "titulo": "Multimedios Deportes Dominical",
+    "sta": "2026-11-15/11:00",
+    "end": "2026-11-15/12:00"
+  },
+  {
+    "titulo": "Aficionados",
+    "sta": "2026-11-15/12:00",
+    "end": "2026-11-15/14:00"
+  },
+  {
+    "titulo": "Paketemociones",
+    "sta": "2026-11-15/14:00",
+    "end": "2026-11-15/15:00"
+  },
+  {
+    "titulo": "Orbital",
+    "sta": "2026-11-15/15:00",
+    "end": "2026-11-15/16:00"
+  },
+  {
+    "titulo": "Cocinando con fuego",
+    "sta": "2026-11-15/16:00",
+    "end": "2026-11-15/17:00"
+  },
+  {
+    "titulo": "Locos por el ahorro",
+    "sta": "2026-11-15/17:00",
+    "end": "2026-11-15/18:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-15/18:00",
+    "end": "2026-11-15/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno de fin de semana",
+    "sta": "2026-11-15/19:00",
+    "end": "2026-11-15/20:00"
+  },
+  {
+    "titulo": "Nuevos cambios",
+    "sta": "2026-11-15/20:00",
+    "end": "2026-11-15/21:00"
+  },
+  {
+    "titulo": "Pantallazo",
+    "sta": "2026-11-15/21:00",
+    "end": "2026-11-15/23:00"
+  },
+  {
+    "titulo": "Hey familia",
+    "sta": "2026-11-15/23:00",
+    "end": "2026-11-16/00:00"
+  },
+  {
+    "titulo": "Hey familia",
+    "sta": "2026-11-16/00:00",
+    "end": "2026-11-16/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/01:00",
+    "end": "2026-11-16/04:00"
+  },
+  {
+    "titulo": "Inaudito",
+    "sta": "2026-11-16/04:00",
+    "end": "2026-11-16/05:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-16/05:00",
+    "end": "2026-11-16/06:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-16/06:00",
+    "end": "2026-11-16/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-16/10:00",
+    "end": "2026-11-16/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-16/12:00",
+    "end": "2026-11-16/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-16/14:00",
+    "end": "2026-11-16/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-16/15:00",
+    "end": "2026-11-16/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-16/16:00",
+    "end": "2026-11-16/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-16/17:00",
+    "end": "2026-11-16/18:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-16/18:00",
+    "end": "2026-11-16/19:00"
+  },
+  {
+    "titulo": "Telediario nocturno Monterrey",
+    "sta": "2026-11-16/19:00",
+    "end": "2026-11-16/21:00"
+  },
+  {
+    "titulo": "Multimedios deportes",
+    "sta": "2026-11-16/21:00",
+    "end": "2026-11-16/21:30"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-16/21:30",
+    "end": "2026-11-17/00:00"
+  },
+  {
+    "titulo": "Es show",
+    "sta": "2026-11-17/00:00",
+    "end": "2026-11-17/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/01:00",
+    "end": "2026-11-17/04:00"
+  },
+  {
+    "titulo": "C4 en alerta",
+    "sta": "2026-11-17/04:00",
+    "end": "2026-11-17/05:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-17/05:00",
+    "end": "2026-11-17/06:00"
+  },
+  {
+    "titulo": "Telediario matutino Saltillo",
+    "sta": "2026-11-17/06:00",
+    "end": "2026-11-17/10:00"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-17/10:00",
+    "end": "2026-11-17/12:00"
+  },
+  {
+    "titulo": "Telediario vespertino Saltillo",
+    "sta": "2026-11-17/12:00",
+    "end": "2026-11-17/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-17/14:00",
+    "end": "2026-11-17/15:00"
+  },
+  {
+    "titulo": "Futbol al Día",
+    "sta": "2026-11-17/15:00",
+    "end": "2026-11-17/16:00"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-17/16:00",
+    "end": "2026-11-17/17:00"
+  },
+  {
+    "titulo": "Telediario en el 6",
+    "sta": "2026-11-17/17:00",
+    "end": "2026-11-17/18:00"
+  }
+]
