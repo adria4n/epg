@@ -1,110 +1,5 @@
 [
   {
-    "titulo": "Fuera del aire",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/08:00"
-  },
-  {
-    "titulo": "Sold Out / Incógnito, Gran Bretaña",
-    "sta": "2026-11-04/08:00",
-    "end": "2026-11-04/09:00"
-  },
-  {
-    "titulo": "A puro chile / El chile domesticado",
-    "sta": "2026-11-04/09:00",
-    "end": "2026-11-04/09:30"
-  },
-  {
-    "titulo": "Enlaces - Ventana abierta al mundo digital",
-    "sta": "2026-11-04/09:30",
-    "end": "2026-11-04/10:00"
-  },
-  {
-    "titulo": "Ventana mirador universitario",
-    "sta": "2026-11-04/10:00",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "Los imprescindibles: Los aventureros del arte moderno / Medianoche en París 1939-1945",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "Italiana",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/12:30"
-  },
-  {
-    "titulo": "Música en escena: Música Antigua / Arias y duetos de la Italia del siglo XVII",
-    "sta": "2026-11-04/12:30",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "A puro chile / El chile domesticado",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/14:30"
-  },
-  {
-    "titulo": "La UNAM responde",
-    "sta": "2026-11-04/14:30",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "54 Festival Internacional Cervantino / Trío de mujeres Tamaulipecas",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:30"
-  },
-  {
-    "titulo": "Especial 5 aniversario Lutuoso de Mario Lavista / Luz propia. La escritura musical, 70 años",
-    "sta": "2026-11-04/16:30",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "Diálogos por la democracia / Con John M. Ackerman",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/18:30"
-  },
-  {
-    "titulo": "La UNAM responde",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Italiana",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/19:30"
-  },
-  {
-    "titulo": "Los imprescindibles: Los aventureros del arte moderno / Medianoche en París 1939-1945",
-    "sta": "2026-11-04/19:30",
-    "end": "2026-11-04/20:30"
-  },
-  {
-    "titulo": "#EnTrending",
-    "sta": "2026-11-04/20:30",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "Clic cultural",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/21:30"
-  },
-  {
-    "titulo": "La ópera y nuevos públicos / Cómo nació la ópera",
-    "sta": "2026-11-04/21:30",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "El último hombre sobre la Tierra",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/23:30"
-  },
-  {
-    "titulo": "Tiempo de Filmoteca UNAM",
-    "sta": "2026-11-04/23:30",
-    "end": "2026-11-04/23:45"
-  },
-  {
     "titulo": "#EnTrending",
     "sta": "2026-11-04/23:45",
     "end": "2026-11-05/00:15"
@@ -350,7 +245,7 @@
     "end": "2026-11-07/13:30"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Polémicas globales",
+    "titulo": "Polémicas globales",
     "sta": "2026-11-07/13:30",
     "end": "2026-11-07/14:00"
   },
@@ -455,7 +350,7 @@
     "end": "2026-11-08/11:30"
   },
   {
-    "titulo": "Chaplin / Su nuevo empleo",
+    "titulo": "Charlot cambia de oficio",
     "sta": "2026-11-08/11:30",
     "end": "2026-11-08/12:00"
   },
@@ -480,7 +375,7 @@
     "end": "2026-11-08/17:00"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Pensar los museos en México / El contrapunto: educación y estudios de público en los museos",
+    "titulo": "Pensar los museos en México / El contrapunto: educación y estudios de público en los museos",
     "sta": "2026-11-08/17:00",
     "end": "2026-11-08/17:30"
   },
@@ -500,7 +395,7 @@
     "end": "2026-11-08/19:30"
   },
   {
-    "titulo": "Diálogos por la democracia / Con John M. Ackerman",
+    "titulo": "Diálogos por la democracia",
     "sta": "2026-11-08/19:30",
     "end": "2026-11-08/20:30"
   },
@@ -550,7 +445,7 @@
     "end": "2026-11-09/12:00"
   },
   {
-    "titulo": "Chaplin / Su nuevo empleo",
+    "titulo": "Charlot cambia de oficio",
     "sta": "2026-11-09/12:00",
     "end": "2026-11-09/12:30"
   },
@@ -590,7 +485,7 @@
     "end": "2026-11-09/19:00"
   },
   {
-    "titulo": "Chaplin / Su nuevo empleo",
+    "titulo": "Charlot cambia de oficio",
     "sta": "2026-11-09/19:00",
     "end": "2026-11-09/19:30"
   },
@@ -600,7 +495,7 @@
     "end": "2026-11-09/20:30"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Polémicas globales",
+    "titulo": "Polémicas globales",
     "sta": "2026-11-09/20:30",
     "end": "2026-11-09/21:00"
   },
@@ -620,7 +515,7 @@
     "end": "2026-11-10/00:00"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Polémicas globales",
+    "titulo": "Polémicas globales",
     "sta": "2026-11-10/00:00",
     "end": "2026-11-10/00:25"
   },
@@ -700,7 +595,7 @@
     "end": "2026-11-10/20:30"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Pensar los museos en México / Retos y perspectivas de la gestión contemporánea de los museos",
+    "titulo": "Pensar los museos en México / Retos y perspectivas de la gestión contemporánea de los museos",
     "sta": "2026-11-10/20:30",
     "end": "2026-11-10/21:00"
   },
@@ -720,7 +615,7 @@
     "end": "2026-11-11/00:00"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Pensar los museos en México / Retos y perspectivas de la gestión contemporánea de los museos",
+    "titulo": "Pensar los museos en México / Retos y perspectivas de la gestión contemporánea de los museos",
     "sta": "2026-11-11/00:00",
     "end": "2026-11-11/00:30"
   },
@@ -790,12 +685,12 @@
     "end": "2026-11-11/17:00"
   },
   {
-    "titulo": "Especial natalicio - Carlos Fuentes / Carlos Fuentes",
+    "titulo": "Especial natalicio - Carlos Fuentes",
     "sta": "2026-11-11/17:00",
     "end": "2026-11-11/17:30"
   },
   {
-    "titulo": "Diálogos por la democracia / Con John M. Ackerman",
+    "titulo": "Diálogos por la democracia",
     "sta": "2026-11-11/17:30",
     "end": "2026-11-11/18:30"
   },
@@ -1080,7 +975,7 @@
     "end": "2026-11-14/13:30"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Polémicas globales",
+    "titulo": "Polémicas globales",
     "sta": "2026-11-14/13:30",
     "end": "2026-11-14/14:00"
   },
@@ -1190,7 +1085,7 @@
     "end": "2026-11-15/11:30"
   },
   {
-    "titulo": "Chaplin / En el parque",
+    "titulo": "In the Park",
     "sta": "2026-11-15/11:30",
     "end": "2026-11-15/12:00"
   },
@@ -1215,7 +1110,7 @@
     "end": "2026-11-15/17:00"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Pensar los museos en México / Retos y perspectivas de la gestión contemporánea de los museos",
+    "titulo": "Pensar los museos en México / Retos y perspectivas de la gestión contemporánea de los museos",
     "sta": "2026-11-15/17:00",
     "end": "2026-11-15/17:30"
   },
@@ -1235,7 +1130,7 @@
     "end": "2026-11-15/19:30"
   },
   {
-    "titulo": "Diálogos por la democracia / Con John M. Ackerman",
+    "titulo": "Diálogos por la democracia",
     "sta": "2026-11-15/19:30",
     "end": "2026-11-15/20:30"
   },
@@ -1285,7 +1180,7 @@
     "end": "2026-11-16/12:00"
   },
   {
-    "titulo": "Chaplin / En el parque",
+    "titulo": "In the Park",
     "sta": "2026-11-16/12:00",
     "end": "2026-11-16/12:30"
   },
@@ -1325,7 +1220,7 @@
     "end": "2026-11-16/19:00"
   },
   {
-    "titulo": "Chaplin / En el parque",
+    "titulo": "In the Park",
     "sta": "2026-11-16/19:00",
     "end": "2026-11-16/19:30"
   },
@@ -1335,7 +1230,7 @@
     "end": "2026-11-16/20:30"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Polémicas globales",
+    "titulo": "Polémicas globales",
     "sta": "2026-11-16/20:30",
     "end": "2026-11-16/21:00"
   },
@@ -1355,7 +1250,7 @@
     "end": "2026-11-17/00:00"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Polémicas globales",
+    "titulo": "Polémicas globales",
     "sta": "2026-11-17/00:00",
     "end": "2026-11-17/00:25"
   },
@@ -1430,7 +1325,7 @@
     "end": "2026-11-17/20:30"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Pensar los museos en México / Los museos universitarios de arte. Museo Universitario del Chopo",
+    "titulo": "Pensar los museos en México / Los museos universitarios de arte - Museo Universi",
     "sta": "2026-11-17/20:30",
     "end": "2026-11-17/21:00"
   },
@@ -1450,7 +1345,7 @@
     "end": "2026-11-18/00:15"
   },
   {
-    "titulo": "Observatorio cotidiano presenta: Pensar los museos en México / Los museos universitarios de arte. Museo Universitario del Chopo",
+    "titulo": "Pensar los museos en México / Los museos universitarios de arte - Museo Universitario del Chopo",
     "sta": "2026-11-18/00:15",
     "end": "2026-11-18/00:45"
   },
@@ -1515,7 +1410,7 @@
     "end": "2026-11-18/17:30"
   },
   {
-    "titulo": "Diálogos por la democracia / Con John M. Ackerman",
+    "titulo": "Diálogos por la democracia",
     "sta": "2026-11-18/17:30",
     "end": "2026-11-18/18:30"
   },
@@ -1663,5 +1558,105 @@
     "titulo": "Campanas rojas",
     "sta": "2026-11-19/22:00",
     "end": "2026-11-20/00:15"
+  },
+  {
+    "titulo": "Tiempo de Filmoteca UNAM",
+    "sta": "2026-11-20/00:15",
+    "end": "2026-11-20/00:30"
+  },
+  {
+    "titulo": "Media 20.1",
+    "sta": "2026-11-20/00:30",
+    "end": "2026-11-20/01:00"
+  },
+  {
+    "titulo": "Fuera del aire",
+    "sta": "2026-11-20/01:00",
+    "end": "2026-11-20/08:00"
+  },
+  {
+    "titulo": "Eurojazz / El 5º elemento (México)",
+    "sta": "2026-11-20/08:00",
+    "end": "2026-11-20/09:30"
+  },
+  {
+    "titulo": "La lista de Erick / Otoño te quiero",
+    "sta": "2026-11-20/09:30",
+    "end": "2026-11-20/10:00"
+  },
+  {
+    "titulo": "Ventana mirador universitario",
+    "sta": "2026-11-20/10:00",
+    "end": "2026-11-20/11:00"
+  },
+  {
+    "titulo": "Historia: Un siglo en película / La nueva regla de las familias poderosas de Estados Unidos",
+    "sta": "2026-11-20/11:00",
+    "end": "2026-11-20/12:00"
+  },
+  {
+    "titulo": "Sherlock Holmes / El caso del verdugo alegre (1955)",
+    "sta": "2026-11-20/12:00",
+    "end": "2026-11-20/12:30"
+  },
+  {
+    "titulo": "La matiné / El dulce aroma del éxito de Alexander Mackendrick",
+    "sta": "2026-11-20/12:30",
+    "end": "2026-11-20/14:15"
+  },
+  {
+    "titulo": "Patrimonio mundial / La ciudad vieja de La Habana, Cuba",
+    "sta": "2026-11-20/14:15",
+    "end": "2026-11-20/14:30"
+  },
+  {
+    "titulo": "La UNAM responde",
+    "sta": "2026-11-20/14:30",
+    "end": "2026-11-20/15:00"
+  },
+  {
+    "titulo": "Ópera: Rossini / Moisés y el faraón",
+    "sta": "2026-11-20/15:00",
+    "end": "2026-11-20/18:00"
+  },
+  {
+    "titulo": "Maestros detrás de las ideas / Jorge Rickards Campbell. La física de las radiacionesy los aceleradores de partículas",
+    "sta": "2026-11-20/18:00",
+    "end": "2026-11-20/18:30"
+  },
+  {
+    "titulo": "La UNAM responde",
+    "sta": "2026-11-20/18:30",
+    "end": "2026-11-20/19:00"
+  },
+  {
+    "titulo": "Sherlock Holmes / El caso del verdugo alegre (1955)",
+    "sta": "2026-11-20/19:00",
+    "end": "2026-11-20/19:30"
+  },
+  {
+    "titulo": "Historia: Un siglo en película / La nueva regla de las familias poderosas de Estados Unidos",
+    "sta": "2026-11-20/19:30",
+    "end": "2026-11-20/20:30"
+  },
+  {
+    "titulo": "Revista de la Universidad",
+    "sta": "2026-11-20/20:30",
+    "end": "2026-11-20/21:00"
+  },
+  {
+    "titulo": "Confidencial. Historias de feminismo, pasión y poder",
+    "sta": "2026-11-20/21:00",
+    "end": "2026-11-20/22:00"
+  },
+  {
+    "titulo": "8 1/2 Women",
+    "sta": "2026-11-20/22:00",
+    "end": "2026-11-21/00:00"
+  },
+  {
+    "titulo": "Tiempo de Filmoteca UNAM",
+    "sta": "2026-11-21/00:00",
+    "end": "2026-11-21/00:15"
   }
 ]

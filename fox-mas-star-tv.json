@@ -1,70 +1,5 @@
 [
   {
-    "titulo": "UEFA Champions League / Villarreal (Esp) vs. Paris Saint-Germain (Fra), Fecha 4 - Fase de Liga, Estadio de la Cerámica",
-    "sta": "2026-11-03/23:00",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "UEFA Champions League / Shakhtar (Ucr) vs. Sporting CP (Por), Fecha 4, Stamford Bridge",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "Bundesliga / Bayern Múnich vs. Borussia Dortmund, Fecha 8, Allianz Arena",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "Bundesliga / Union Berlin vs. Colonia, Fecha 8, An der Alten Försterei",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "Bundesliga / Eintracht Frankfurt vs. Hamburgo, Fecha 8, Deutsche Bank Park",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/09:00"
-  },
-  {
-    "titulo": "Ligue 1 / Le Havre vs. Paris Saint-Germain, Fecha 9, Stade Océane",
-    "sta": "2026-11-04/09:00",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "Previa - UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/11:30"
-  },
-  {
-    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
-    "sta": "2026-11-04/11:30",
-    "end": "2026-11-04/13:45"
-  },
-  {
-    "titulo": "UEFA Champions League / RB Leipzig (Ale) vs. Manchester City (Ing), Fecha 4 - Fase de Liga, Leipzig Red Bull Arena",
-    "sta": "2026-11-04/13:45",
-    "end": "2026-11-04/16:00"
-  },
-  {
-    "titulo": "Post - UEFA Champions League / RB Leipzig (Ale) vs. Manchester City (Ing), Fecha 4, Red Bull Arena",
-    "sta": "2026-11-04/16:00",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "UEFA Champions League / FC Porto (Por) vs. Napoli (Ita), Fecha 4 - Fase de Liga, Estádio do Dragão",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Major League Baseball - Plays of the Week",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/19:20"
-  },
-  {
-    "titulo": "Liga Mexicana del Pacífico / Algodoneros de Guasave vs. Charros de Jalisco",
-    "sta": "2026-11-04/19:20",
-    "end": "2026-11-04/22:30"
-  },
-  {
     "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
     "sta": "2026-11-04/22:30",
     "end": "2026-11-05/00:30"
@@ -175,13 +110,13 @@
     "end": "2026-11-06/18:00"
   },
   {
-    "titulo": "Previa - Liga MX / Necaxa vs. Tijuana, Fecha 16, Estadio Victoria",
+    "titulo": "Bundesliga Highlights Show",
     "sta": "2026-11-06/18:00",
-    "end": "2026-11-06/18:45"
+    "end": "2026-11-06/18:50"
   },
   {
     "titulo": "Liga MX / Necaxa vs. Tijuana, Fecha 16, Estadio Victoria",
-    "sta": "2026-11-06/18:45",
+    "sta": "2026-11-06/18:50",
     "end": "2026-11-06/21:00"
   },
   {
@@ -190,7 +125,7 @@
     "end": "2026-11-07/00:00"
   },
   {
-    "titulo": "Liga MX Femenil / Guadalajara vs. América",
+    "titulo": "Liga MX Femenil / Guadalajara vs. América, Fecha 14 - Grupo B, Estadio Akron",
     "sta": "2026-11-07/00:00",
     "end": "2026-11-07/02:00"
   },
@@ -225,18 +160,18 @@
     "end": "2026-11-07/13:30"
   },
   {
-    "titulo": "National Football League / Jacksonville Jaguars vs. Baltimore Ravens, Fecha 9, M&T Bank Stadium",
+    "titulo": "Premier League Stories",
     "sta": "2026-11-07/13:30",
-    "end": "2026-11-07/16:30"
-  },
-  {
-    "titulo": "NFL GameDay",
-    "sta": "2026-11-07/16:30",
-    "end": "2026-11-07/17:00"
+    "end": "2026-11-07/14:00"
   },
   {
     "titulo": "Lucha Libre AAA",
-    "sta": "2026-11-07/17:00",
+    "sta": "2026-11-07/14:00",
+    "end": "2026-11-07/15:00"
+  },
+  {
+    "titulo": "National Football League / Jacksonville Jaguars vs. Baltimore Ravens, Fecha 9, M&T Bank Stadium",
+    "sta": "2026-11-07/15:00",
     "end": "2026-11-07/18:00"
   },
   {
@@ -245,17 +180,22 @@
     "end": "2026-11-07/20:00"
   },
   {
-    "titulo": "Bundesliga / Borussia Dortmund vs. SV Elversberg, Fecha 9, Signal Iduna Park",
+    "titulo": "Lucha Libre AAA",
     "sta": "2026-11-07/20:00",
-    "end": "2026-11-07/22:00"
+    "end": "2026-11-07/21:00"
   },
   {
-    "titulo": "Bundesliga / Mainz 05 vs. Bayern Múnich, Fecha 9, Mewa Arena",
-    "sta": "2026-11-07/22:00",
+    "titulo": "Bundesliga / Mainz 05 vs. Bayern Múnich, Fecha 9, MEWA Arena",
+    "sta": "2026-11-07/21:00",
+    "end": "2026-11-07/23:00"
+  },
+  {
+    "titulo": "Lucha Libre AAA",
+    "sta": "2026-11-07/23:00",
     "end": "2026-11-08/00:00"
   },
   {
-    "titulo": "Bundesliga / Stuttgart vs. Werder Bremen, Fecha 9, MHPArena",
+    "titulo": "Bundesliga / Stuttgart vs. Werder Bremen, Fecha 9, MHP Arena",
     "sta": "2026-11-08/00:00",
     "end": "2026-11-08/02:00"
   },
@@ -327,101 +267,401 @@
   {
     "titulo": "National Football League / Dallas Cowboys vs. Indianapolis Colts, Fecha 9, Lucas Oil Stadium",
     "sta": "2026-11-09/04:00",
-    "end": "2026-11-09/06:00"
+    "end": "2026-11-09/07:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-09/06:00",
-    "end": "2026-11-09/09:00"
+    "titulo": "National Football League / Arizona Cardinals vs. Seattle Seahawks, Fecha 9, Lumen Field",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/10:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-09/09:00",
-    "end": "2026-11-09/21:00"
+    "titulo": "NASCAR Craftsman Trucks",
+    "sta": "2026-11-09/10:00",
+    "end": "2026-11-09/12:30"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-09/21:00",
+    "titulo": "NASCAR O'Reilly",
+    "sta": "2026-11-09/12:30",
+    "end": "2026-11-09/15:30"
+  },
+  {
+    "titulo": "NCAA Basketball Masculino / Providence vs. Nebraska",
+    "sta": "2026-11-09/15:30",
+    "end": "2026-11-09/17:25"
+  },
+  {
+    "titulo": "NCAA Basketball Masculino / Syracuse vs. Indiana",
+    "sta": "2026-11-09/17:25",
+    "end": "2026-11-09/19:30"
+  },
+  {
+    "titulo": "NASCAR Cup Series",
+    "sta": "2026-11-09/19:30",
+    "end": "2026-11-09/23:30"
+  },
+  {
+    "titulo": "E1 Series / Luanda",
+    "sta": "2026-11-09/23:30",
+    "end": "2026-11-10/01:00"
+  },
+  {
+    "titulo": "Premier League / Leeds Utd. vs. Tottenham Hotspur, Fecha 10, Elland Road",
+    "sta": "2026-11-10/01:00",
+    "end": "2026-11-10/03:00"
+  },
+  {
+    "titulo": "Premier League / Fulham vs. Newcastle Utd., Fecha 10, Craven Cottage",
+    "sta": "2026-11-10/03:00",
+    "end": "2026-11-10/05:00"
+  },
+  {
+    "titulo": "Premier League / Nottingham Forest vs. Manchester City, Fecha 10, City Ground",
+    "sta": "2026-11-10/05:00",
+    "end": "2026-11-10/07:00"
+  },
+  {
+    "titulo": "Premier League / Sunderland vs. Chelsea, Fecha 10, Stadium of Light",
+    "sta": "2026-11-10/07:00",
     "end": "2026-11-10/09:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Premier League / Ipswich Town vs. Bournemouth, Fecha 10, Portman Road",
     "sta": "2026-11-10/09:00",
-    "end": "2026-11-10/15:00"
+    "end": "2026-11-10/11:00"
   },
   {
-    "titulo": "Post - UEFA Champions League",
-    "sta": "2026-11-10/15:00",
+    "titulo": "Lucha Libre AAA",
+    "sta": "2026-11-10/11:00",
+    "end": "2026-11-10/12:00"
+  },
+  {
+    "titulo": "Bundesliga / Hamburgo vs. Borussia M'gladbach, Fecha 9, Volksparkstadion",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "Bundesliga / Borussia Dortmund vs. SV Elversberg, Fecha 9, Signal Iduna Park",
+    "sta": "2026-11-10/14:00",
     "end": "2026-11-10/16:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Bundesliga / Mainz 05 vs. Bayern Múnich, Fecha 9, MEWA Arena",
     "sta": "2026-11-10/16:00",
+    "end": "2026-11-10/18:00"
+  },
+  {
+    "titulo": "Bundesliga / Stuttgart vs. Werder Bremen, Fecha 9, MHP Arena",
+    "sta": "2026-11-10/18:00",
+    "end": "2026-11-10/20:00"
+  },
+  {
+    "titulo": "Bundesliga / Friburgo vs. Union Berlin, Fecha 9, Europa-Park Stadion",
+    "sta": "2026-11-10/20:00",
+    "end": "2026-11-10/22:00"
+  },
+  {
+    "titulo": "NCAA Basketball Masculino / Syracuse vs. Indiana",
+    "sta": "2026-11-10/22:00",
+    "end": "2026-11-11/00:00"
+  },
+  {
+    "titulo": "Ligue 1 / Toulouse FC vs. RC Strasbourg, Fecha 10, Stadium Municipal",
+    "sta": "2026-11-11/00:00",
+    "end": "2026-11-11/02:00"
+  },
+  {
+    "titulo": "Ligue 1 / Paris Saint-Germain vs. Troyes, Fecha 10, Parc des Princes",
+    "sta": "2026-11-11/02:00",
     "end": "2026-11-11/04:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Ligue 1 / Le Mans vs. AS Monaco, Fecha 10, Stade Marie-Marvingt",
     "sta": "2026-11-11/04:00",
-    "end": "2026-11-11/15:00"
+    "end": "2026-11-11/06:00"
   },
   {
-    "titulo": "Post - UEFA Champions League",
-    "sta": "2026-11-11/15:00",
+    "titulo": "Ligue 1 / RC Lens vs. Olympique de Marseille, Fecha 10, Stade Bollaert-Delelis",
+    "sta": "2026-11-11/06:00",
+    "end": "2026-11-11/08:00"
+  },
+  {
+    "titulo": "UEFA Champions League / Shakhtar (Ucr) vs. Sporting CP (Por), Fecha 4, Stamford Bridge",
+    "sta": "2026-11-11/08:00",
+    "end": "2026-11-11/10:00"
+  },
+  {
+    "titulo": "UEFA Champions League / Villarreal (Esp) vs. Paris Saint-Germain (Fra), Fecha 4 - Fase de Liga, Estadio de la Cerámica",
+    "sta": "2026-11-11/10:00",
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "UEFA Champions League / Atl. de Madrid (Esp) vs. Bayern Múnich (Ale), Fecha 4 - Fase de Liga, Riyadh Air Metropolitano",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "Liga MX Femenil / Pachuca vs. Puebla, Fecha 14 - Grupo B, Estadio Miguel Hidalgo",
+    "sta": "2026-11-11/14:00",
     "end": "2026-11-11/16:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Liga MX Femenil / Juárez vs. Monterrey, Fecha 14 - Grupo A, Estadio Olímpico Benito Juárez",
     "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/18:00"
+  },
+  {
+    "titulo": "Liga MX Femenil / Guadalajara vs. América, Fecha 14 - Grupo B, Estadio Akron",
+    "sta": "2026-11-11/18:00",
     "end": "2026-11-11/20:00"
   },
   {
-    "titulo": "Post - UEFA Champions League",
+    "titulo": "Major League Baseball - Plays of the Week",
     "sta": "2026-11-11/20:00",
-    "end": "2026-11-11/21:00"
+    "end": "2026-11-11/20:20"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-11/21:00",
-    "end": "2026-11-12/09:00"
+    "titulo": "Liga Mexicana del Pacífico / Yaquis de Obregón vs. Naranjeros de Hermosillo",
+    "sta": "2026-11-11/20:20",
+    "end": "2026-11-11/23:30"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-12/09:00",
-    "end": "2026-11-12/21:00"
+    "titulo": "Major League Baseball - Plays of the Week",
+    "sta": "2026-11-11/23:30",
+    "end": "2026-11-12/00:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-12/21:00",
+    "titulo": "UEFA Champions League / Bodo/Glimt (Nor) vs. LOSC Lille (Fra), Fecha 4, Aspmyra Stadion",
+    "sta": "2026-11-12/00:00",
+    "end": "2026-11-12/02:00"
+  },
+  {
+    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
+    "sta": "2026-11-12/02:00",
+    "end": "2026-11-12/04:00"
+  },
+  {
+    "titulo": "UEFA Champions League / RB Leipzig (Ale) vs. Manchester City (Ing), Fecha 4 - Fase de Liga, Leipzig Red Bull Arena",
+    "sta": "2026-11-12/04:00",
+    "end": "2026-11-12/06:00"
+  },
+  {
+    "titulo": "UEFA Champions League / FC Porto (Por) vs. Napoli (Ita), Fecha 4 - Fase de Liga, Estádio do Dragão",
+    "sta": "2026-11-12/06:00",
+    "end": "2026-11-12/08:00"
+  },
+  {
+    "titulo": "UEFA Champions League / PSV (Ned) vs. Club Brugge (Bel), Fecha 4, Philips Stadion",
+    "sta": "2026-11-12/08:00",
+    "end": "2026-11-12/10:00"
+  },
+  {
+    "titulo": "UEFA Champions League / Viking (Nor) vs. Sabah Baku (Aze), Fecha 4 - Fase de Liga, SR-Bank Arena",
+    "sta": "2026-11-12/10:00",
+    "end": "2026-11-12/12:00"
+  },
+  {
+    "titulo": "Liga Mexicana del Pacífico / Yaquis de Obregón vs. Naranjeros de Hermosillo",
+    "sta": "2026-11-12/12:00",
+    "end": "2026-11-12/15:00"
+  },
+  {
+    "titulo": "NASCAR Craftsman Trucks",
+    "sta": "2026-11-12/15:00",
+    "end": "2026-11-12/17:30"
+  },
+  {
+    "titulo": "NASCAR O'Reilly",
+    "sta": "2026-11-12/17:30",
+    "end": "2026-11-12/20:30"
+  },
+  {
+    "titulo": "NASCAR Cup Series",
+    "sta": "2026-11-12/20:30",
+    "end": "2026-11-13/00:30"
+  },
+  {
+    "titulo": "World Endurance Championship / 6 Horas de Monza",
+    "sta": "2026-11-13/00:30",
+    "end": "2026-11-13/03:30"
+  },
+  {
+    "titulo": "E1 Series / Luanda",
+    "sta": "2026-11-13/03:30",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Liga MX Femenil",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "Liga MX Femenil",
+    "sta": "2026-11-13/07:00",
     "end": "2026-11-13/09:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Liga MX Femenil",
     "sta": "2026-11-13/09:00",
-    "end": "2026-11-13/21:00"
+    "end": "2026-11-13/11:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-13/21:00",
-    "end": "2026-11-14/09:00"
+    "titulo": "Premier League / Leeds Utd. vs. Tottenham Hotspur, Fecha 10, Elland Road",
+    "sta": "2026-11-13/11:00",
+    "end": "2026-11-13/13:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-14/09:00",
+    "titulo": "Premier League / Fulham vs. Newcastle Utd., Fecha 10, Craven Cottage",
+    "sta": "2026-11-13/13:00",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "Premier League / Nottingham Forest vs. Manchester City, Fecha 10, City Ground",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "National Football League / Washington Commanders vs. New York Giants, Fecha 10, Meadowlands Stadium",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/20:00"
+  },
+  {
+    "titulo": "NCAA Football / Illinois vs. UCLA",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/23:30"
+  },
+  {
+    "titulo": "Lucha Libre AAA",
+    "sta": "2026-11-13/23:30",
+    "end": "2026-11-14/00:30"
+  },
+  {
+    "titulo": "Premier League / Sunderland vs. Chelsea, Fecha 10, Stadium of Light",
+    "sta": "2026-11-14/00:30",
+    "end": "2026-11-14/02:30"
+  },
+  {
+    "titulo": "Premier League / Ipswich Town vs. Bournemouth, Fecha 10, Portman Road",
+    "sta": "2026-11-14/02:30",
+    "end": "2026-11-14/04:30"
+  },
+  {
+    "titulo": "Lucha Libre AAA",
+    "sta": "2026-11-14/04:30",
+    "end": "2026-11-14/05:30"
+  },
+  {
+    "titulo": "Professional Fighters League / Chicago",
+    "sta": "2026-11-14/05:30",
+    "end": "2026-11-14/08:00"
+  },
+  {
+    "titulo": "Professional Fighters League / Dubai",
+    "sta": "2026-11-14/08:00",
+    "end": "2026-11-14/13:00"
+  },
+  {
+    "titulo": "Bundesliga / Hamburgo vs. Borussia M'gladbach, Fecha 9, Volksparkstadion",
+    "sta": "2026-11-14/13:00",
+    "end": "2026-11-14/15:00"
+  },
+  {
+    "titulo": "Bundesliga / Borussia Dortmund vs. SV Elversberg, Fecha 9, Signal Iduna Park",
+    "sta": "2026-11-14/15:00",
+    "end": "2026-11-14/16:50"
+  },
+  {
+    "titulo": "Liga MX / Querétaro vs. Monterrey, Fecha 7, Estadio La Corregidora",
+    "sta": "2026-11-14/16:50",
+    "end": "2026-11-14/19:00"
+  },
+  {
+    "titulo": "Bundesliga / Stuttgart vs. Werder Bremen, Fecha 9, MHP Arena",
+    "sta": "2026-11-14/19:00",
     "end": "2026-11-14/21:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Bundesliga / Friburgo vs. Union Berlin, Fecha 9, Europa-Park Stadion",
     "sta": "2026-11-14/21:00",
+    "end": "2026-11-14/23:00"
+  },
+  {
+    "titulo": "Lucha Libre AAA / Puebla",
+    "sta": "2026-11-14/23:00",
+    "end": "2026-11-15/00:00"
+  },
+  {
+    "titulo": "Liga Mexicana del Pacífico",
+    "sta": "2026-11-15/00:00",
+    "end": "2026-11-15/03:00"
+  },
+  {
+    "titulo": "Ligue 1 / Toulouse FC vs. RC Strasbourg, Fecha 10, Stadium Municipal",
+    "sta": "2026-11-15/03:00",
+    "end": "2026-11-15/05:00"
+  },
+  {
+    "titulo": "Ligue 1 / Paris Saint-Germain vs. Troyes, Fecha 10, Parc des Princes",
+    "sta": "2026-11-15/05:00",
+    "end": "2026-11-15/07:00"
+  },
+  {
+    "titulo": "Ligue 1 / Le Mans vs. AS Monaco, Fecha 10, Stade Marie-Marvingt",
+    "sta": "2026-11-15/07:00",
     "end": "2026-11-15/09:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Ligue 1 / RC Lens vs. Olympique de Marseille, Fecha 10, Stade Bollaert-Delelis",
     "sta": "2026-11-15/09:00",
+    "end": "2026-11-15/11:00"
+  },
+  {
+    "titulo": "Fox NFL Sunday MX",
+    "sta": "2026-11-15/11:00",
+    "end": "2026-11-15/12:00"
+  },
+  {
+    "titulo": "National Football League / Minnesota Vikings vs. Green Bay Packers, Fecha 10, Lambeau Field",
+    "sta": "2026-11-15/12:00",
+    "end": "2026-11-15/15:00"
+  },
+  {
+    "titulo": "National Football League / Seattle Seahawks vs. Las Vegas Raiders, Fecha 10, Allegiant Stadium",
+    "sta": "2026-11-15/15:00",
+    "end": "2026-11-15/18:00"
+  },
+  {
+    "titulo": "Fox NFL Sunday MX",
+    "sta": "2026-11-15/18:00",
+    "end": "2026-11-15/19:00"
+  },
+  {
+    "titulo": "Liga MX Femenil",
+    "sta": "2026-11-15/19:00",
     "end": "2026-11-15/21:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Arkema Premiére League / Montpellier FC vs. FC Fleury",
     "sta": "2026-11-15/21:00",
+    "end": "2026-11-15/23:00"
+  },
+  {
+    "titulo": "Arkema Premiére League / Olympique de Marseille vs. Paris Saint-Germain",
+    "sta": "2026-11-15/23:00",
+    "end": "2026-11-16/01:00"
+  },
+  {
+    "titulo": "National Football League / Buffalo Bills vs. New York Jets, Fecha 10, Meadowlands Stadium",
+    "sta": "2026-11-16/01:00",
+    "end": "2026-11-16/04:00"
+  },
+  {
+    "titulo": "National Football League / Minnesota Vikings vs. Green Bay Packers, Fecha 10, Lambeau Field",
+    "sta": "2026-11-16/04:00",
+    "end": "2026-11-16/06:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-16/06:00",
     "end": "2026-11-16/09:00"
   },
   {
@@ -483,5 +723,15 @@
     "titulo": "A confirmar",
     "sta": "2026-11-19/21:00",
     "end": "2026-11-20/09:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/09:00",
+    "end": "2026-11-20/21:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/21:00",
+    "end": "2026-11-21/09:00"
   }
 ]

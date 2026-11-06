@@ -1,5 +1,50 @@
 [
   {
+    "titulo": "El señor de los cielos / Pacto, ambición y traición",
+    "sta": "2026-11-04/23:00",
+    "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "Lejos de ti / La última opción",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 11pm",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/01:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-05/01:35",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/02:30"
+  },
+  {
+    "titulo": "Eres mi luz / Una meta cumplida",
+    "sta": "2026-11-05/02:30",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Caso cerrado / El cartel de las ex",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
     "titulo": "Programa pagado",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/05:30"
@@ -65,17 +110,17 @@
     "end": "2026-11-05/15:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
     "sta": "2026-11-05/15:00",
     "end": "2026-11-05/16:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
     "sta": "2026-11-05/16:00",
     "end": "2026-11-05/17:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Crecer entre redes sociales",
     "sta": "2026-11-05/17:00",
     "end": "2026-11-05/18:00"
   },
@@ -105,7 +150,7 @@
     "end": "2026-11-05/21:01"
   },
   {
-    "titulo": "Juego de villanos",
+    "titulo": "Juego de villanos / La estrategia fracasa",
     "sta": "2026-11-05/21:01",
     "end": "2026-11-05/23:00"
   },
@@ -1158,5 +1203,120 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-13/04:30",
     "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/05:30",
+    "end": "2026-11-13/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/06:00",
+    "end": "2026-11-13/06:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/06:30",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/07:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/07:30",
+    "end": "2026-11-13/08:00"
+  },
+  {
+    "titulo": "Acceso total",
+    "sta": "2026-11-13/08:00",
+    "end": "2026-11-13/08:30"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 11pm",
+    "sta": "2026-11-13/08:30",
+    "end": "2026-11-13/09:00"
+  },
+  {
+    "titulo": "Noticias Telemundo AHORA",
+    "sta": "2026-11-13/09:00",
+    "end": "2026-11-13/10:00"
+  },
+  {
+    "titulo": "Hoy día",
+    "sta": "2026-11-13/10:00",
+    "end": "2026-11-13/13:30"
+  },
+  {
+    "titulo": "Reina de corazones",
+    "sta": "2026-11-13/13:30",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "Santa Diabla",
+    "sta": "2026-11-13/14:00",
+    "end": "2026-11-13/14:30"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-13/14:30",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/16:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-13/16:00",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 5PM",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/19:30"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 5:30PM",
+    "sta": "2026-11-13/19:30",
+    "end": "2026-11-13/20:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 6pm",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/20:30"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-13/20:30",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/21:58"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-13/21:58",
+    "end": "2026-11-14/00:00"
   }
 ]

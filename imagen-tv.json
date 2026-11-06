@@ -1,141 +1,6 @@
 [
   {
     "titulo": "Farmacias Similares",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/00:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/00:30",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/01:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/01:30",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/02:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/02:30",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/03:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/03:30",
-    "end": "2026-11-04/04:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "Imagen Noticias con Nacho Lozano",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/05:30"
-  },
-  {
-    "titulo": "Imagen noticias",
-    "sta": "2026-11-04/05:30",
-    "end": "2026-11-04/06:30"
-  },
-  {
-    "titulo": "Imagen Noticias con Francisco Zea",
-    "sta": "2026-11-04/06:30",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "Imagen Noticias con Francisco Zea",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/08:00"
-  },
-  {
-    "titulo": "De pisa y corre",
-    "sta": "2026-11-04/08:00",
-    "end": "2026-11-04/09:30"
-  },
-  {
-    "titulo": "Sale el sol",
-    "sta": "2026-11-04/09:30",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "Sale el sol",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "Rocío a tu lado",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/13:00"
-  },
-  {
-    "titulo": "Historias de un milagro",
-    "sta": "2026-11-04/13:00",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "Imagen noticias con Crystal Mendívil",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "De primera mano",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "Legado de amor",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Jesús",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:30"
-  },
-  {
-    "titulo": "Destino roto",
-    "sta": "2026-11-04/20:30",
-    "end": "2026-11-04/21:30"
-  },
-  {
-    "titulo": "Me prohíbo amarte",
-    "sta": "2026-11-04/21:30",
-    "end": "2026-11-04/22:30"
-  },
-  {
-    "titulo": "Imagen Noticias con Nacho Lozano",
-    "sta": "2026-11-04/22:30",
-    "end": "2026-11-04/23:10"
-  },
-  {
-    "titulo": "¡Qué importa!",
-    "sta": "2026-11-04/23:10",
-    "end": "2026-11-04/23:40"
-  },
-  {
-    "titulo": "Farmacias Similares",
-    "sta": "2026-11-04/23:40",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Farmacias Similares",
     "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:30"
   },
@@ -1888,5 +1753,140 @@
     "titulo": "Madre",
     "sta": "2026-11-17/17:30",
     "end": "2026-11-17/19:00"
+  },
+  {
+    "titulo": "El rico y Lázaro",
+    "sta": "2026-11-17/19:00",
+    "end": "2026-11-17/20:30"
+  },
+  {
+    "titulo": "Escóndeme",
+    "sta": "2026-11-17/20:30",
+    "end": "2026-11-17/21:30"
+  },
+  {
+    "titulo": "Por un amor",
+    "sta": "2026-11-17/21:30",
+    "end": "2026-11-17/22:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Nacho Lozano",
+    "sta": "2026-11-17/22:30",
+    "end": "2026-11-17/23:10"
+  },
+  {
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-17/23:10",
+    "end": "2026-11-17/23:40"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-17/23:40",
+    "end": "2026-11-18/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/00:00",
+    "end": "2026-11-18/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/00:30",
+    "end": "2026-11-18/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/01:00",
+    "end": "2026-11-18/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/01:30",
+    "end": "2026-11-18/02:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/02:00",
+    "end": "2026-11-18/02:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/02:30",
+    "end": "2026-11-18/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/03:00",
+    "end": "2026-11-18/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/03:30",
+    "end": "2026-11-18/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/04:00",
+    "end": "2026-11-18/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/04:30",
+    "end": "2026-11-18/05:00"
+  },
+  {
+    "titulo": "Las 5 de primera mano",
+    "sta": "2026-11-18/05:00",
+    "end": "2026-11-18/05:30"
+  },
+  {
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-18/05:30",
+    "end": "2026-11-18/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-18/06:30",
+    "end": "2026-11-18/07:00"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-18/07:00",
+    "end": "2026-11-18/08:00"
+  },
+  {
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-18/08:00",
+    "end": "2026-11-18/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-18/09:30",
+    "end": "2026-11-18/11:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-18/11:30",
+    "end": "2026-11-18/12:30"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-18/12:30",
+    "end": "2026-11-18/14:00"
+  },
+  {
+    "titulo": "Imagen noticias con Crystal Mendívil",
+    "sta": "2026-11-18/14:00",
+    "end": "2026-11-18/15:00"
+  },
+  {
+    "titulo": "De primera mano",
+    "sta": "2026-11-18/15:00",
+    "end": "2026-11-18/17:30"
+  },
+  {
+    "titulo": "Madre",
+    "sta": "2026-11-18/17:30",
+    "end": "2026-11-18/19:00"
   }
 ]

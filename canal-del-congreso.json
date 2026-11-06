@@ -1,146 +1,6 @@
 [
   {
     "titulo": "Himno Nacional",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/00:05"
-  },
-  {
-    "titulo": "Fin de transmisión",
-    "sta": "2026-11-04/00:05",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "Himno Nacional",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/06:05"
-  },
-  {
-    "titulo": "Noticias del Congreso",
-    "sta": "2026-11-04/06:05",
-    "end": "2026-11-04/07:05"
-  },
-  {
-    "titulo": "Salud mental: Conexiones / Salud mental",
-    "sta": "2026-11-04/07:05",
-    "end": "2026-11-04/07:37"
-  },
-  {
-    "titulo": "Flor indígena / T1 E6 Guerreros por tradición",
-    "sta": "2026-11-04/07:37",
-    "end": "2026-11-04/08:08"
-  },
-  {
-    "titulo": "El corazón de los pueblos / San Pablo Chimalpa",
-    "sta": "2026-11-04/08:08",
-    "end": "2026-11-04/08:40"
-  },
-  {
-    "titulo": "Prefijo-E / El origen de internet",
-    "sta": "2026-11-04/08:40",
-    "end": "2026-11-04/09:10"
-  },
-  {
-    "titulo": "Kidvalues / Condenados",
-    "sta": "2026-11-04/09:10",
-    "end": "2026-11-04/09:20"
-  },
-  {
-    "titulo": "200 años de Jalisco / Fundación de la Nueva Galicia",
-    "sta": "2026-11-04/09:20",
-    "end": "2026-11-04/09:52"
-  },
-  {
-    "titulo": "En la banqueta / Nueva Ley Catastral",
-    "sta": "2026-11-04/09:52",
-    "end": "2026-11-04/10:23"
-  },
-  {
-    "titulo": "Rostros e historias / Floricultora de Cempasúchil",
-    "sta": "2026-11-04/10:23",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "Sesión Ordinaria del Senado de la República",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/15:20"
-  },
-  {
-    "titulo": "La primera mujer / Silvia Torres Castilleja",
-    "sta": "2026-11-04/15:20",
-    "end": "2026-11-04/15:55"
-  },
-  {
-    "titulo": "Personalidades / Inés Sainz",
-    "sta": "2026-11-04/15:55",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "Kidvalues / Condenados",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/17:10"
-  },
-  {
-    "titulo": "Cápsula - 1 patrimonio",
-    "sta": "2026-11-04/17:10",
-    "end": "2026-11-04/17:15"
-  },
-  {
-    "titulo": "15 minutos ante la historia / Los primeros tlatoanis",
-    "sta": "2026-11-04/17:15",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "Avance informativo",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/17:35"
-  },
-  {
-    "titulo": "Estudio Takeover / Rodrigo Montalvo (Director musical)",
-    "sta": "2026-11-04/17:35",
-    "end": "2026-11-04/18:08"
-  },
-  {
-    "titulo": "Historias e histerias / René Franco - Parte 1",
-    "sta": "2026-11-04/18:08",
-    "end": "2026-11-04/18:40"
-  },
-  {
-    "titulo": "Cultura en San Lázaro",
-    "sta": "2026-11-04/18:40",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Mesa de diálogo / Uniendo caminos por una política social igualitaria",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:00"
-  },
-  {
-    "titulo": "Noticias del Congreso",
-    "sta": "2026-11-04/20:00",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "Mujeres Imprescindibles del Parlamento Mexicano / Sandra Patricia Palacios (Morena)",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "Los indispensables / Francisco Labastida Ochoa (Economista y político)",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/23:00"
-  },
-  {
-    "titulo": "The Film Tours México / Metro y arquitecturas transformadas",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-04/23:30"
-  },
-  {
-    "titulo": "Cultura es tendencia / Styllist Álvaro",
-    "sta": "2026-11-04/23:30",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Himno Nacional",
     "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:05"
   },
@@ -285,58 +145,78 @@
     "end": "2026-11-06/07:05"
   },
   {
-    "titulo": "El corazón de los pueblos",
+    "titulo": "El corazón de los pueblos / San Pablo Chimalpa",
     "sta": "2026-11-06/07:05",
-    "end": "2026-11-06/07:40"
+    "end": "2026-11-06/07:36"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-06/07:40",
-    "end": "2026-11-06/08:10"
+    "titulo": "Materia prima / ¿Cómo se hace un libro?",
+    "sta": "2026-11-06/07:36",
+    "end": "2026-11-06/08:07"
   },
   {
-    "titulo": "Parques naturales de Argentina",
-    "sta": "2026-11-06/08:10",
-    "end": "2026-11-06/08:45"
+    "titulo": "Parques naturales de Argentina / Reserva el Morejón - UNLAM",
+    "sta": "2026-11-06/08:07",
+    "end": "2026-11-06/08:36"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-06/08:45",
+    "titulo": "Rostros e historias / Alejandro Sánchez, Diablero",
+    "sta": "2026-11-06/08:36",
     "end": "2026-11-06/09:00"
   },
   {
-    "titulo": "Kidvalues",
+    "titulo": "Comisión de Seguridad Social / Comparecencia de los titulares del sector salud",
     "sta": "2026-11-06/09:00",
-    "end": "2026-11-06/09:15"
+    "end": "2026-11-06/15:30"
   },
   {
-    "titulo": "Memoria y olvido",
-    "sta": "2026-11-06/09:15",
-    "end": "2026-11-06/09:50"
+    "titulo": "Foro",
+    "sta": "2026-11-06/15:30",
+    "end": "2026-11-06/16:50"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-06/09:50",
+    "titulo": "La capital de los museos / Museo del gato",
+    "sta": "2026-11-06/16:50",
     "end": "2026-11-06/17:00"
   },
   {
-    "titulo": "En la banqueta",
+    "titulo": "En la banqueta / Acceso de jóvenes al empleo",
     "sta": "2026-11-06/17:00",
-    "end": "2026-11-06/17:32"
+    "end": "2026-11-06/17:35"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-06/17:32",
-    "end": "2026-11-06/18:00"
+    "titulo": "Avance informativo",
+    "sta": "2026-11-06/17:35",
+    "end": "2026-11-06/17:40"
   },
   {
-    "titulo": "Cultura y +",
-    "sta": "2026-11-06/18:00",
-    "end": "2026-11-06/19:00"
+    "titulo": "The Film Tours / Santa Maria la Rivera",
+    "sta": "2026-11-06/17:40",
+    "end": "2026-11-06/18:05"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-06/19:00",
+    "titulo": "Cultura y + / Sobrenatural (Xochimilco)",
+    "sta": "2026-11-06/18:05",
+    "end": "2026-11-06/18:35"
+  },
+  {
+    "titulo": "Narcóticos anónimos",
+    "sta": "2026-11-06/18:35",
+    "end": "2026-11-06/18:40"
+  },
+  {
+    "titulo": "Mujeres que inspiran / Martha Pg Martel (Productora de eventos)",
+    "sta": "2026-11-06/18:40",
+    "end": "2026-11-06/19:15"
+  },
+  {
+    "titulo": "La capital de los museos / Museo del gato",
+    "sta": "2026-11-06/19:15",
+    "end": "2026-11-06/19:25"
+  },
+  {
+    "titulo": "Estudio Takeover / Rodrigo Montalvo (Director musical)",
+    "sta": "2026-11-06/19:25",
     "end": "2026-11-06/20:00"
   },
   {
@@ -345,22 +225,32 @@
     "end": "2026-11-06/21:05"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Laboratorio de corales / La ciencia de la restauración",
     "sta": "2026-11-06/21:05",
+    "end": "2026-11-06/21:30"
+  },
+  {
+    "titulo": "Parlamento abierto",
+    "sta": "2026-11-06/21:30",
     "end": "2026-11-06/22:05"
   },
   {
-    "titulo": "Historias e histerias",
+    "titulo": "Historias e histerias / Nacho Rettally - Parte 2",
     "sta": "2026-11-06/22:05",
+    "end": "2026-11-06/22:35"
+  },
+  {
+    "titulo": "Narcóticos anónimos",
+    "sta": "2026-11-06/22:35",
     "end": "2026-11-06/22:40"
   },
   {
-    "titulo": "Los indispensables",
+    "titulo": "Los indispensables / Francisco Labastida Ochoa (Economista y político)",
     "sta": "2026-11-06/22:40",
     "end": "2026-11-06/23:45"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Entrevista / Élmer Mendoza, Premio Excelencia en Letras de Humanidades 2026",
     "sta": "2026-11-06/23:45",
     "end": "2026-11-07/00:00"
   },
@@ -1978,5 +1868,105 @@
     "titulo": "Himno Nacional",
     "sta": "2026-11-20/00:00",
     "end": "2026-11-20/00:05"
+  },
+  {
+    "titulo": "Fin de transmisión",
+    "sta": "2026-11-20/00:05",
+    "end": "2026-11-20/06:00"
+  },
+  {
+    "titulo": "Himno Nacional",
+    "sta": "2026-11-20/06:00",
+    "end": "2026-11-20/06:05"
+  },
+  {
+    "titulo": "Noticias del Congreso",
+    "sta": "2026-11-20/06:05",
+    "end": "2026-11-20/07:05"
+  },
+  {
+    "titulo": "El corazón de los pueblos",
+    "sta": "2026-11-20/07:05",
+    "end": "2026-11-20/07:40"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/07:40",
+    "end": "2026-11-20/08:10"
+  },
+  {
+    "titulo": "Parques naturales de Argentina",
+    "sta": "2026-11-20/08:10",
+    "end": "2026-11-20/08:45"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/08:45",
+    "end": "2026-11-20/09:00"
+  },
+  {
+    "titulo": "Kidvalues",
+    "sta": "2026-11-20/09:00",
+    "end": "2026-11-20/09:15"
+  },
+  {
+    "titulo": "Memoria y olvido",
+    "sta": "2026-11-20/09:15",
+    "end": "2026-11-20/09:50"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/09:50",
+    "end": "2026-11-20/17:00"
+  },
+  {
+    "titulo": "En la banqueta",
+    "sta": "2026-11-20/17:00",
+    "end": "2026-11-20/17:32"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/17:32",
+    "end": "2026-11-20/18:00"
+  },
+  {
+    "titulo": "Cultura y +",
+    "sta": "2026-11-20/18:00",
+    "end": "2026-11-20/19:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/19:00",
+    "end": "2026-11-20/20:00"
+  },
+  {
+    "titulo": "Noticias del Congreso",
+    "sta": "2026-11-20/20:00",
+    "end": "2026-11-20/21:05"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/21:05",
+    "end": "2026-11-20/22:05"
+  },
+  {
+    "titulo": "Historias e histerias",
+    "sta": "2026-11-20/22:05",
+    "end": "2026-11-20/22:40"
+  },
+  {
+    "titulo": "Los indispensables",
+    "sta": "2026-11-20/22:40",
+    "end": "2026-11-20/23:45"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/23:45",
+    "end": "2026-11-21/00:00"
+  },
+  {
+    "titulo": "Himno Nacional",
+    "sta": "2026-11-21/00:00",
+    "end": "2026-11-21/00:05"
   }
 ]

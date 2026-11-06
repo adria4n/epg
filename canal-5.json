@@ -1,151 +1,6 @@
 [
   {
     "titulo": "Inova",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/00:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/00:30",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "Estatus",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/01:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/01:30",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/02:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/02:30",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "Crónicas",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/03:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/03:30",
-    "end": "2026-11-04/04:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/04:00",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Especial de RTC",
-    "sta": "2026-11-04/04:30",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/05:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/05:30",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "PJ Masks: héroes en pijamas",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/06:30"
-  },
-  {
-    "titulo": "Peppa Pig",
-    "sta": "2026-11-04/06:30",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "Bebés llorones: lágrimas mágicas",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/07:30"
-  },
-  {
-    "titulo": "Bely y Beto",
-    "sta": "2026-11-04/07:30",
-    "end": "2026-11-04/08:00"
-  },
-  {
-    "titulo": "Ve, perro. ¡Ve!",
-    "sta": "2026-11-04/08:00",
-    "end": "2026-11-04/08:30"
-  },
-  {
-    "titulo": "Masha y el oso",
-    "sta": "2026-11-04/08:30",
-    "end": "2026-11-04/09:00"
-  },
-  {
-    "titulo": "Kung Fu Panda: la leyenda de Po",
-    "sta": "2026-11-04/09:00",
-    "end": "2026-11-04/10:00"
-  },
-  {
-    "titulo": "Pingüinos de Madagascar",
-    "sta": "2026-11-04/10:00",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "Scooby-Doo y ¿quién crees tú?",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/12:30"
-  },
-  {
-    "titulo": "Bob Esponja",
-    "sta": "2026-11-04/12:30",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "El Chavo animado",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:30"
-  },
-  {
-    "titulo": "¿Cuál es el bueno? / T2",
-    "sta": "2026-11-04/15:30",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "Contrato de corazones, tú y yo",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/18:30"
-  },
-  {
-    "titulo": "Los pequeños traviesos al rescate",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/20:30"
-  },
-  {
-    "titulo": "Me caigo de risa / T12",
-    "sta": "2026-11-04/20:30",
-    "end": "2026-11-04/22:30"
-  },
-  {
-    "titulo": "La ley y el orden: unidad de victimas especiales / T25",
-    "sta": "2026-11-04/22:30",
-    "end": "2026-11-04/23:30"
-  },
-  {
-    "titulo": "Contacto deportivo",
-    "sta": "2026-11-04/23:30",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Inova",
     "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:30"
   },
@@ -2158,5 +2013,135 @@
     "titulo": "Inova",
     "sta": "2026-11-20/00:00",
     "end": "2026-11-20/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/00:30",
+    "end": "2026-11-20/01:00"
+  },
+  {
+    "titulo": "México nuevo siglo",
+    "sta": "2026-11-20/01:00",
+    "end": "2026-11-20/02:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-20/02:00",
+    "end": "2026-11-20/02:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-20/02:30",
+    "end": "2026-11-20/03:00"
+  },
+  {
+    "titulo": "Crónicas",
+    "sta": "2026-11-20/03:00",
+    "end": "2026-11-20/03:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-20/03:30",
+    "end": "2026-11-20/04:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-20/04:00",
+    "end": "2026-11-20/04:30"
+  },
+  {
+    "titulo": "Especial de RTC",
+    "sta": "2026-11-20/04:30",
+    "end": "2026-11-20/05:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/05:00",
+    "end": "2026-11-20/05:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/05:30",
+    "end": "2026-11-20/06:00"
+  },
+  {
+    "titulo": "PJ Masks: héroes en pijamas",
+    "sta": "2026-11-20/06:00",
+    "end": "2026-11-20/06:30"
+  },
+  {
+    "titulo": "Peppa Pig",
+    "sta": "2026-11-20/06:30",
+    "end": "2026-11-20/07:00"
+  },
+  {
+    "titulo": "Bebés llorones: lágrimas mágicas",
+    "sta": "2026-11-20/07:00",
+    "end": "2026-11-20/07:30"
+  },
+  {
+    "titulo": "La casa de muñecas de Gabby",
+    "sta": "2026-11-20/07:30",
+    "end": "2026-11-20/08:00"
+  },
+  {
+    "titulo": "Kamp Koral: Bob Esponja, primeros años",
+    "sta": "2026-11-20/08:00",
+    "end": "2026-11-20/08:30"
+  },
+  {
+    "titulo": "Tiny Toons Looniversidad",
+    "sta": "2026-11-20/08:30",
+    "end": "2026-11-20/09:00"
+  },
+  {
+    "titulo": "Kung Fu Panda: la leyenda de Po",
+    "sta": "2026-11-20/09:00",
+    "end": "2026-11-20/10:00"
+  },
+  {
+    "titulo": "The Croods: Family Tree",
+    "sta": "2026-11-20/10:00",
+    "end": "2026-11-20/11:30"
+  },
+  {
+    "titulo": "Jurassic World: Chaos Theory",
+    "sta": "2026-11-20/11:30",
+    "end": "2026-11-20/13:00"
+  },
+  {
+    "titulo": "Los Jóvenes Titanes en acción",
+    "sta": "2026-11-20/13:00",
+    "end": "2026-11-20/14:30"
+  },
+  {
+    "titulo": "Miraculous: las aventuras de Ladybug",
+    "sta": "2026-11-20/14:30",
+    "end": "2026-11-20/16:00"
+  },
+  {
+    "titulo": "Bob Esponja",
+    "sta": "2026-11-20/16:00",
+    "end": "2026-11-20/17:30"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/17:30",
+    "end": "2026-11-20/19:00"
+  },
+  {
+    "titulo": "Cuando fui bonita",
+    "sta": "2026-11-20/19:00",
+    "end": "2026-11-20/20:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/20:00",
+    "end": "2026-11-21/00:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/00:00",
+    "end": "2026-11-21/00:30"
   }
 ]

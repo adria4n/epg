@@ -1,131 +1,6 @@
 [
   {
     "titulo": "Un día anocheció",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/00:30"
-  },
-  {
-    "titulo": "Culturas veintidós",
-    "sta": "2026-11-04/00:30",
-    "end": "2026-11-04/01:30"
-  },
-  {
-    "titulo": "46 Muestra Nacional de Teatro (MNT)",
-    "sta": "2026-11-04/01:30",
-    "end": "2026-11-04/02:30"
-  },
-  {
-    "titulo": "Shorts México / Camelia /El eco de las olas /En algún lugar dentro de mí /Adiós Mixho",
-    "sta": "2026-11-04/02:30",
-    "end": "2026-11-04/03:30"
-  },
-  {
-    "titulo": "Historia",
-    "sta": "2026-11-04/03:30",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Inspiración en la gran área de la bahía de China",
-    "sta": "2026-11-04/04:30",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "Fin de transmisión",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/06:30"
-  },
-  {
-    "titulo": "Culturas veintidós",
-    "sta": "2026-11-04/06:30",
-    "end": "2026-11-04/07:30"
-  },
-  {
-    "titulo": "La conferencia del pueblo",
-    "sta": "2026-11-04/07:30",
-    "end": "2026-11-04/09:30"
-  },
-  {
-    "titulo": "Masiosare",
-    "sta": "2026-11-04/09:30",
-    "end": "2026-11-04/10:30"
-  },
-  {
-    "titulo": "Pantalla de cristal",
-    "sta": "2026-11-04/10:30",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "Mañanera 360º",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "El cancionero y sus amigos",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/13:00"
-  },
-  {
-    "titulo": "La lista de Erick / Nicaragua: la ruta de las leyendas",
-    "sta": "2026-11-04/13:00",
-    "end": "2026-11-04/13:30"
-  },
-  {
-    "titulo": "SanaMente",
-    "sta": "2026-11-04/13:30",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "Inspiración en la gran área de la bahía de China",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/14:30"
-  },
-  {
-    "titulo": "¡Clic clac!",
-    "sta": "2026-11-04/14:30",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "Expedientes olvidados / Aguas blancas",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/18:00"
-  },
-  {
-    "titulo": "La dichosa palabra",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Culturas Veintidós",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:00"
-  },
-  {
-    "titulo": "Masiosare",
-    "sta": "2026-11-04/20:00",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "Punto de referencia",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "Concierto - Flor y luz",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/23:00"
-  },
-  {
-    "titulo": "Grandes figuras del arte mexicano / T1 E3 María Félix, María bonita, María del alma",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Un día anocheció",
     "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:30"
   },
@@ -1913,5 +1788,125 @@
     "titulo": "Los de abajo",
     "sta": "2026-11-19/22:30",
     "end": "2026-11-20/00:30"
+  },
+  {
+    "titulo": "Cultura veintidós",
+    "sta": "2026-11-20/00:30",
+    "end": "2026-11-20/01:30"
+  },
+  {
+    "titulo": "Léemelo / Dolores Fonzi",
+    "sta": "2026-11-20/01:30",
+    "end": "2026-11-20/02:30"
+  },
+  {
+    "titulo": "Los de abajo",
+    "sta": "2026-11-20/02:30",
+    "end": "2026-11-20/04:30"
+  },
+  {
+    "titulo": "Ciudadanos inteligentes",
+    "sta": "2026-11-20/04:30",
+    "end": "2026-11-20/05:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-20/05:00",
+    "end": "2026-11-20/06:00"
+  },
+  {
+    "titulo": "Termina transmisión",
+    "sta": "2026-11-20/06:00",
+    "end": "2026-11-20/06:30"
+  },
+  {
+    "titulo": "Cultura veintidós",
+    "sta": "2026-11-20/06:30",
+    "end": "2026-11-20/07:30"
+  },
+  {
+    "titulo": "Masiosare",
+    "sta": "2026-11-20/07:30",
+    "end": "2026-11-20/08:30"
+  },
+  {
+    "titulo": "Memoria viva de ciertos días / Zapata y Villa",
+    "sta": "2026-11-20/08:30",
+    "end": "2026-11-20/09:00"
+  },
+  {
+    "titulo": "Hugo Brehme, un México idílico",
+    "sta": "2026-11-20/09:00",
+    "end": "2026-11-20/10:00"
+  },
+  {
+    "titulo": "Desfile cívico militar del 116 Aniversario de la Revolución Mexicana",
+    "sta": "2026-11-20/10:00",
+    "end": "2026-11-20/12:30"
+  },
+  {
+    "titulo": "Luces, cámara... ¡Revolución! Toscanito, coleccionista",
+    "sta": "2026-11-20/12:30",
+    "end": "2026-11-20/13:30"
+  },
+  {
+    "titulo": "Alimentos terrenales / Pancho Villa",
+    "sta": "2026-11-20/13:30",
+    "end": "2026-11-20/14:00"
+  },
+  {
+    "titulo": "Ciudadanos inteligentes",
+    "sta": "2026-11-20/14:00",
+    "end": "2026-11-20/14:30"
+  },
+  {
+    "titulo": "¡Clic clac!",
+    "sta": "2026-11-20/14:30",
+    "end": "2026-11-20/17:00"
+  },
+  {
+    "titulo": "México inmortal con Rosy Arango / Revolución mexicana",
+    "sta": "2026-11-20/17:00",
+    "end": "2026-11-20/18:00"
+  },
+  {
+    "titulo": "Hugo Brehme, un México idílico",
+    "sta": "2026-11-20/18:00",
+    "end": "2026-11-20/19:00"
+  },
+  {
+    "titulo": "Cultura veintidós",
+    "sta": "2026-11-20/19:00",
+    "end": "2026-11-20/20:00"
+  },
+  {
+    "titulo": "Masiosare",
+    "sta": "2026-11-20/20:00",
+    "end": "2026-11-20/21:00"
+  },
+  {
+    "titulo": "Punto de referencia",
+    "sta": "2026-11-20/21:00",
+    "end": "2026-11-20/22:00"
+  },
+  {
+    "titulo": "¡Llegamos todas! / T3 Rocío Mejía",
+    "sta": "2026-11-20/22:00",
+    "end": "2026-11-20/22:30"
+  },
+  {
+    "titulo": "Luces, cámara... ¡Revolución! Toscanito, coleccionista",
+    "sta": "2026-11-20/22:30",
+    "end": "2026-11-20/23:30"
+  },
+  {
+    "titulo": "Memoria viva de ciertos días / Zapata y Villa",
+    "sta": "2026-11-20/23:30",
+    "end": "2026-11-21/00:00"
+  },
+  {
+    "titulo": "Los que hacen nuestro cine / Trilogía revolución",
+    "sta": "2026-11-21/00:00",
+    "end": "2026-11-21/00:30"
   }
 ]

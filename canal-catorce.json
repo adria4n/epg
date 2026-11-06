@@ -1,130 +1,5 @@
 [
   {
-    "titulo": "Un lugar en el sol",
-    "sta": "2026-11-03/23:05",
-    "end": "2026-11-04/00:50"
-  },
-  {
-    "titulo": "Bajo el volcán",
-    "sta": "2026-11-04/00:50",
-    "end": "2026-11-04/02:40"
-  },
-  {
-    "titulo": "Diálogos por la democracia / Arlín Medrano",
-    "sta": "2026-11-04/02:40",
-    "end": "2026-11-04/03:40"
-  },
-  {
-    "titulo": "TV Médica / Enfermedad isquémica del corazón",
-    "sta": "2026-11-04/03:40",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Maestros olvidados, oficios que sobreviven / T4 De aquí a la eternidad, Pablo Rodríguez, panteonero",
-    "sta": "2026-11-04/04:30",
-    "end": "2026-11-04/05:05"
-  },
-  {
-    "titulo": "México lindo / T2 Sabor y baile",
-    "sta": "2026-11-04/05:05",
-    "end": "2026-11-04/05:30"
-  },
-  {
-    "titulo": "En forma / Terapias naturales con respaldo de la ciencia",
-    "sta": "2026-11-04/05:30",
-    "end": "2026-11-04/06:10"
-  },
-  {
-    "titulo": "Punto de referencia - Tu noticiero",
-    "sta": "2026-11-04/06:10",
-    "end": "2026-11-04/07:10"
-  },
-  {
-    "titulo": "Noticiario France 24",
-    "sta": "2026-11-04/07:10",
-    "end": "2026-11-04/07:30"
-  },
-  {
-    "titulo": "Conferencia matutina presidencial",
-    "sta": "2026-11-04/07:30",
-    "end": "2026-11-04/09:15"
-  },
-  {
-    "titulo": "Mañanera 360º",
-    "sta": "2026-11-04/09:15",
-    "end": "2026-11-04/10:15"
-  },
-  {
-    "titulo": "Ancestras / La reina roja de Palenque",
-    "sta": "2026-11-04/10:15",
-    "end": "2026-11-04/11:15"
-  },
-  {
-    "titulo": "Antropológicas / La reforma y la república itinerante",
-    "sta": "2026-11-04/11:15",
-    "end": "2026-11-04/12:05"
-  },
-  {
-    "titulo": "Francofonía en México",
-    "sta": "2026-11-04/12:05",
-    "end": "2026-11-04/12:50"
-  },
-  {
-    "titulo": "Noticiario France 24",
-    "sta": "2026-11-04/12:50",
-    "end": "2026-11-04/14:28"
-  },
-  {
-    "titulo": "Corte informativo",
-    "sta": "2026-11-04/14:28",
-    "end": "2026-11-04/14:30"
-  },
-  {
-    "titulo": "Ancestras / La reina roja de Palenque",
-    "sta": "2026-11-04/14:30",
-    "end": "2026-11-04/15:30"
-  },
-  {
-    "titulo": "Chanoc vs. Las tarántulas",
-    "sta": "2026-11-04/15:30",
-    "end": "2026-11-04/16:58"
-  },
-  {
-    "titulo": "Corte informativo",
-    "sta": "2026-11-04/16:58",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "Derecho de réplica",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/18:00"
-  },
-  {
-    "titulo": "Informativo 14",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Mañanera 360º",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:00"
-  },
-  {
-    "titulo": "Versiones públicas",
-    "sta": "2026-11-04/20:00",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "Punto de referencia - Tu noticiero",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "Los secretos de la corrupción",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/22:30"
-  },
-  {
     "titulo": "Viaje al paraíso",
     "sta": "2026-11-04/22:30",
     "end": "2026-11-05/00:05"
@@ -1758,5 +1633,70 @@
     "titulo": "A confirmar",
     "sta": "2026-11-19/23:00",
     "end": "2026-11-20/06:10"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-20/06:10",
+    "end": "2026-11-20/07:10"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-20/07:10",
+    "end": "2026-11-20/07:30"
+  },
+  {
+    "titulo": "Conferencia matutina presidencial",
+    "sta": "2026-11-20/07:30",
+    "end": "2026-11-20/09:15"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-20/09:15",
+    "end": "2026-11-20/10:15"
+  },
+  {
+    "titulo": "La única y verdadera historia de la cumbia chilanga",
+    "sta": "2026-11-20/10:15",
+    "end": "2026-11-20/11:15"
+  },
+  {
+    "titulo": "Operación mamut",
+    "sta": "2026-11-20/11:15",
+    "end": "2026-11-20/12:15"
+  },
+  {
+    "titulo": "Noticiario France 24",
+    "sta": "2026-11-20/12:15",
+    "end": "2026-11-20/13:53"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/13:53",
+    "end": "2026-11-20/18:00"
+  },
+  {
+    "titulo": "Informativo 14",
+    "sta": "2026-11-20/18:00",
+    "end": "2026-11-20/19:00"
+  },
+  {
+    "titulo": "Mañanera 360º",
+    "sta": "2026-11-20/19:00",
+    "end": "2026-11-20/20:00"
+  },
+  {
+    "titulo": "Abierta mente",
+    "sta": "2026-11-20/20:00",
+    "end": "2026-11-20/21:00"
+  },
+  {
+    "titulo": "Punto de referencia - Tu noticiero",
+    "sta": "2026-11-20/21:00",
+    "end": "2026-11-20/22:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-20/22:00",
+    "end": "2026-11-21/10:00"
   }
 ]

@@ -1,176 +1,6 @@
 [
   {
     "titulo": "Himno nacional / T1",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/00:02"
-  },
-  {
-    "titulo": "El tercer hombre",
-    "sta": "2026-11-04/00:02",
-    "end": "2026-11-04/01:45"
-  },
-  {
-    "titulo": "Historia del pueblo mexicano / T1 Parte 1",
-    "sta": "2026-11-04/01:45",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "Mañanera 360º / T5 E156",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "Diálogos en confianza / T25 E206 Vivir en armonía: cómo afrontar la viudez",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/04:45"
-  },
-  {
-    "titulo": "Historia del pueblo mexicano / T1 Parte 1",
-    "sta": "2026-11-04/04:45",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "Aprender a envejecer / T17 E215 Ejercita la espalda con un bastón",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/05:30"
-  },
-  {
-    "titulo": "Actívate / T1 E26 Técnicas de combate",
-    "sta": "2026-11-04/05:30",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "Himno nacional / T1",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/06:02"
-  },
-  {
-    "titulo": "RTC / T26",
-    "sta": "2026-11-04/06:02",
-    "end": "2026-11-04/06:07"
-  },
-  {
-    "titulo": "Once noticias a las seis / T1 E198",
-    "sta": "2026-11-04/06:07",
-    "end": "2026-11-04/09:30"
-  },
-  {
-    "titulo": "Diálogos en confianza / T25 E211 Vivir en armonía: Ser o no ser como nuestros padres",
-    "sta": "2026-11-04/09:30",
-    "end": "2026-11-04/11:30"
-  },
-  {
-    "titulo": "Aprender a envejecer / T14 E17 Ejercicios para fortalecer las piernas",
-    "sta": "2026-11-04/11:30",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "Once Noticias / T1 E237",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/12:03"
-  },
-  {
-    "titulo": "Susana (Carne y demonio)",
-    "sta": "2026-11-04/12:03",
-    "end": "2026-11-04/13:30"
-  },
-  {
-    "titulo": "Conmemoraciones / T3 E6 Quiroga, la capital mundial de las Carnitas",
-    "sta": "2026-11-04/13:30",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "Once noticias a las dos / T1 E198",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "A + A, Amor y Amistad / T5 E18 Maskcat Party",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:00"
-  },
-  {
-    "titulo": "Guardianes de Quimeras / T1 E20 El sueño de Thelma",
-    "sta": "2026-11-04/16:00",
-    "end": "2026-11-04/16:15"
-  },
-  {
-    "titulo": "Academia de superhéroes / T2 E15",
-    "sta": "2026-11-04/16:15",
-    "end": "2026-11-04/16:30"
-  },
-  {
-    "titulo": "Moomin Valley / T3 E7",
-    "sta": "2026-11-04/16:30",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "Once Noticias / T1 E237",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/17:03"
-  },
-  {
-    "titulo": "Un lugar llamado México / T2 E6 Halachó",
-    "sta": "2026-11-04/17:03",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "México biocultural / T3 E1 Área de protección de flora y fauna...",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/18:00"
-  },
-  {
-    "titulo": "Once Noticias / T1 E237",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/18:03"
-  },
-  {
-    "titulo": "Pura calle / T1 E5 Cine al barrio",
-    "sta": "2026-11-04/18:03",
-    "end": "2026-11-04/18:30"
-  },
-  {
-    "titulo": "M/Aquí / T11 E12 Hernán Silic",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "TAP: Taller de actores profesionales / T8 E13 Tenoch Huerta",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:00"
-  },
-  {
-    "titulo": "Idilio: salsa y resistencia / T1 E2 Sudor y cuerpo",
-    "sta": "2026-11-04/20:00",
-    "end": "2026-11-04/20:30"
-  },
-  {
-    "titulo": "Sacro y profano / T16 E42",
-    "sta": "2026-11-04/20:30",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "Punto de referencia - Tu noticiero / T3 E220",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "Masiosare / T4 E78",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/23:00"
-  },
-  {
-    "titulo": "México social / T14 E38 Comunidad en acción: El corazón de la utopía",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-04/23:30"
-  },
-  {
-    "titulo": "Estación Once / T2 E1 Los Kcomxtles - Parte 1",
-    "sta": "2026-11-04/23:30",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Himno nacional / T1",
     "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:02"
   },
@@ -585,7 +415,7 @@
     "end": "2026-11-07/09:00"
   },
   {
-    "titulo": "Moomin Valley / T3 E7",
+    "titulo": "Moomin Valley / T3 E7 Montaña solitaria",
     "sta": "2026-11-07/09:00",
     "end": "2026-11-07/09:30"
   },
@@ -725,7 +555,7 @@
     "end": "2026-11-08/06:45"
   },
   {
-    "titulo": "Lu y sus amigos / T1 E14 Patrick se cayó",
+    "titulo": "Lu y sus amigos / T1 E14 Droopy Patrick",
     "sta": "2026-11-08/06:45",
     "end": "2026-11-08/06:52"
   },
@@ -2073,5 +1903,15 @@
     "titulo": "Once TV",
     "sta": "2026-11-20/00:00",
     "end": "2026-11-20/12:00"
+  },
+  {
+    "titulo": "Once TV",
+    "sta": "2026-11-20/12:00",
+    "end": "2026-11-21/00:00"
+  },
+  {
+    "titulo": "Once TV",
+    "sta": "2026-11-21/00:00",
+    "end": "2026-11-21/12:00"
   }
 ]

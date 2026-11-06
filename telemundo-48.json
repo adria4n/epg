@@ -1,5 +1,45 @@
 [
   {
+    "titulo": "Noticiero Telemundo 48",
+    "sta": "2026-11-04/23:00",
+    "end": "2026-11-04/23:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-04/23:35",
+    "end": "2026-11-05/00:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/00:30"
+  },
+  {
+    "titulo": "Eres mi luz / Una meta cumplida",
+    "sta": "2026-11-05/00:30",
+    "end": "2026-11-05/01:30"
+  },
+  {
+    "titulo": "Caso cerrado / El cartel de las ex",
+    "sta": "2026-11-05/01:30",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "La mesa caliente / Amor con estrategia",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/05:00"
+  },
+  {
     "titulo": "Caso cerrado / Pánico gay",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/05:30"
@@ -40,17 +80,17 @@
     "end": "2026-11-05/13:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
     "sta": "2026-11-05/13:00",
     "end": "2026-11-05/14:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
     "sta": "2026-11-05/14:00",
     "end": "2026-11-05/15:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Crecer entre redes sociales",
     "sta": "2026-11-05/15:00",
     "end": "2026-11-05/16:00"
   },
@@ -80,7 +120,7 @@
     "end": "2026-11-05/19:01"
   },
   {
-    "titulo": "Juego de villanos",
+    "titulo": "Juego de villanos / La estrategia fracasa",
     "sta": "2026-11-05/19:01",
     "end": "2026-11-05/21:00"
   },
@@ -120,17 +160,17 @@
     "end": "2026-11-06/02:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
     "sta": "2026-11-06/02:00",
     "end": "2026-11-06/03:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
     "sta": "2026-11-06/03:00",
     "end": "2026-11-06/04:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / Crecer entre redes sociales",
     "sta": "2026-11-06/04:00",
     "end": "2026-11-06/05:00"
   },
@@ -1048,5 +1088,100 @@
     "titulo": "La mesa caliente",
     "sta": "2026-11-13/04:00",
     "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Caso cerrado / No hay vuelta atrás",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/05:30"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-13/05:30",
+    "end": "2026-11-13/06:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-13/06:00",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "Noticias Telemundo AHORA",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/08:00"
+  },
+  {
+    "titulo": "Hoy día",
+    "sta": "2026-11-13/08:00",
+    "end": "2026-11-13/11:30"
+  },
+  {
+    "titulo": "Desocupar los albergues",
+    "sta": "2026-11-13/11:30",
+    "end": "2026-11-13/12:00"
+  },
+  {
+    "titulo": "Santa Diabla",
+    "sta": "2026-11-13/12:00",
+    "end": "2026-11-13/12:30"
+  },
+  {
+    "titulo": "Noticias Telemundo mediodía",
+    "sta": "2026-11-13/12:30",
+    "end": "2026-11-13/13:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-13/13:00",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "En casa con Telemundo",
+    "sta": "2026-11-13/14:00",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "La mesa caliente",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/16:00"
+  },
+  {
+    "titulo": "Al rojo vivo",
+    "sta": "2026-11-13/16:00",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "Noticias Telemundo 48 a las 4pm",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/17:30"
+  },
+  {
+    "titulo": "Noticias Telemundo 48 a las 4:30pm",
+    "sta": "2026-11-13/17:30",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "Noticias Telemundo 48: El Paso",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/18:30"
+  },
+  {
+    "titulo": "Noticias Telemundo",
+    "sta": "2026-11-13/18:30",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/19:58"
+  },
+  {
+    "titulo": "Juego de villanos",
+    "sta": "2026-11-13/19:58",
+    "end": "2026-11-13/22:00"
+  },
+  {
+    "titulo": "Lejos de ti",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-13/23:00"
   }
 ]

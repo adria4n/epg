@@ -1,181 +1,6 @@
 [
   {
     "titulo": "Himno nacional",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/00:02"
-  },
-  {
-    "titulo": "La entrevista con Sarmiento",
-    "sta": "2026-11-04/00:02",
-    "end": "2026-11-04/00:15"
-  },
-  {
-    "titulo": "Decisión con libertad",
-    "sta": "2026-11-04/00:15",
-    "end": "2026-11-04/00:30"
-  },
-  {
-    "titulo": "México bravo",
-    "sta": "2026-11-04/00:30",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/01:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/01:30",
-    "end": "2026-11-04/02:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/02:00",
-    "end": "2026-11-04/02:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/02:30",
-    "end": "2026-11-04/03:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/03:00",
-    "end": "2026-11-04/03:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/03:30",
-    "end": "2026-11-04/03:58"
-  },
-  {
-    "titulo": "Barras de ajuste",
-    "sta": "2026-11-04/03:58",
-    "end": "2026-11-04/04:02"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-04/04:02",
-    "end": "2026-11-04/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-04/04:30",
-    "end": "2026-11-04/05:00"
-  },
-  {
-    "titulo": "Noticias para despertar con Andreina Andrade",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "Himno nacional",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/06:02"
-  },
-  {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe",
-    "sta": "2026-11-04/06:02",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "Así amanece con Leonardo Curzio",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/08:00"
-  },
-  {
-    "titulo": "Agenda ADN con Juan Pablo de Leo",
-    "sta": "2026-11-04/08:00",
-    "end": "2026-11-04/09:00"
-  },
-  {
-    "titulo": "Ya nadie está dormido con Javier Risco",
-    "sta": "2026-11-04/09:00",
-    "end": "2026-11-04/10:00"
-  },
-  {
-    "titulo": "Tu mañana con ellas con Mara Durón, Vaitaire Mateos y Valentina Rodríguez",
-    "sta": "2026-11-04/10:00",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "A quien corresponda",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/12:30"
-  },
-  {
-    "titulo": "Es negocio con Carlos Mota",
-    "sta": "2026-11-04/12:30",
-    "end": "2026-11-04/13:00"
-  },
-  {
-    "titulo": "Noticias en tiempo real con Uriel Estrada y Romina Ramos",
-    "sta": "2026-11-04/13:00",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "Tren del meme con Valentina Rodríguez",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "Es tendencia con José Luis Mora",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:00"
-  },
-  {
-    "titulo": "ADN Noticias con Alejandro Brofft y Claudia Echeverry",
-    "sta": "2026-11-04/16:00",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "ADN noticias con Otoniel Martínez",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/18:00"
-  },
-  {
-    "titulo": "ADN noticias",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:00"
-  },
-  {
-    "titulo": "Noticias en Red con Juan Manuel Jiménez",
-    "sta": "2026-11-04/20:00",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "Es noticia con Lucy Bravo",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "Noticias República MX con Roberto Ruíz",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/22:30"
-  },
-  {
-    "titulo": "Mesa República MX",
-    "sta": "2026-11-04/22:30",
-    "end": "2026-11-04/23:00"
-  },
-  {
-    "titulo": "Todo personal",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-04/23:30"
-  },
-  {
-    "titulo": "Noticias República MX con Roberto Ruíz",
-    "sta": "2026-11-04/23:30",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Himno nacional",
     "sta": "2026-11-05/00:00",
     "end": "2026-11-05/00:02"
   },
@@ -680,7 +505,7 @@
     "end": "2026-11-07/17:30"
   },
   {
-    "titulo": "ADN Noticias con Max Espejel",
+    "titulo": "Especial: Éxodo",
     "sta": "2026-11-07/17:30",
     "end": "2026-11-07/18:00"
   },
@@ -985,7 +810,7 @@
     "end": "2026-11-09/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-09/06:02",
     "end": "2026-11-09/07:00"
   },
@@ -1050,7 +875,7 @@
     "end": "2026-11-09/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-09/19:00",
     "end": "2026-11-09/20:00"
   },
@@ -1155,7 +980,7 @@
     "end": "2026-11-10/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-10/06:02",
     "end": "2026-11-10/07:00"
   },
@@ -1220,7 +1045,7 @@
     "end": "2026-11-10/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-10/19:00",
     "end": "2026-11-10/20:00"
   },
@@ -1330,7 +1155,7 @@
     "end": "2026-11-11/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-11/06:02",
     "end": "2026-11-11/07:00"
   },
@@ -1395,7 +1220,7 @@
     "end": "2026-11-11/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-11/19:00",
     "end": "2026-11-11/20:00"
   },
@@ -1505,7 +1330,7 @@
     "end": "2026-11-12/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-12/06:02",
     "end": "2026-11-12/07:00"
   },
@@ -1570,7 +1395,7 @@
     "end": "2026-11-12/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-12/19:00",
     "end": "2026-11-12/20:00"
   },
@@ -1675,7 +1500,7 @@
     "end": "2026-11-13/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-13/06:02",
     "end": "2026-11-13/07:00"
   },
@@ -1740,7 +1565,7 @@
     "end": "2026-11-13/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-13/19:00",
     "end": "2026-11-13/20:00"
   },
@@ -2235,7 +2060,7 @@
     "end": "2026-11-16/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-16/06:02",
     "end": "2026-11-16/07:00"
   },
@@ -2300,7 +2125,7 @@
     "end": "2026-11-16/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-16/19:00",
     "end": "2026-11-16/20:00"
   },
@@ -2405,7 +2230,7 @@
     "end": "2026-11-17/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-17/06:02",
     "end": "2026-11-17/07:00"
   },
@@ -2470,7 +2295,7 @@
     "end": "2026-11-17/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-17/19:00",
     "end": "2026-11-17/20:00"
   },
@@ -2580,7 +2405,7 @@
     "end": "2026-11-18/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-18/06:02",
     "end": "2026-11-18/07:00"
   },
@@ -2645,7 +2470,7 @@
     "end": "2026-11-18/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-18/19:00",
     "end": "2026-11-18/20:00"
   },
@@ -2755,7 +2580,7 @@
     "end": "2026-11-19/06:02"
   },
   {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe y Viridiana Hernández",
+    "titulo": "Noticias en tiempo real con Anna Lu",
     "sta": "2026-11-19/06:02",
     "end": "2026-11-19/07:00"
   },
@@ -2820,7 +2645,7 @@
     "end": "2026-11-19/19:00"
   },
   {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
     "sta": "2026-11-19/19:00",
     "end": "2026-11-19/20:00"
   },
@@ -2858,5 +2683,175 @@
     "titulo": "Himno nacional",
     "sta": "2026-11-20/00:00",
     "end": "2026-11-20/00:02"
+  },
+  {
+    "titulo": "Desde las cámaras",
+    "sta": "2026-11-20/00:02",
+    "end": "2026-11-20/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/00:30",
+    "end": "2026-11-20/01:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/01:00",
+    "end": "2026-11-20/01:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/01:30",
+    "end": "2026-11-20/02:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/02:00",
+    "end": "2026-11-20/02:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/02:30",
+    "end": "2026-11-20/03:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/03:00",
+    "end": "2026-11-20/03:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/03:30",
+    "end": "2026-11-20/03:58"
+  },
+  {
+    "titulo": "Barras de ajuste",
+    "sta": "2026-11-20/03:58",
+    "end": "2026-11-20/04:02"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-11-20/04:02",
+    "end": "2026-11-20/04:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-20/04:30",
+    "end": "2026-11-20/05:00"
+  },
+  {
+    "titulo": "Noticias para despertar con Andreina Andrade",
+    "sta": "2026-11-20/05:00",
+    "end": "2026-11-20/06:00"
+  },
+  {
+    "titulo": "Himno nacional",
+    "sta": "2026-11-20/06:00",
+    "end": "2026-11-20/06:02"
+  },
+  {
+    "titulo": "Noticias en tiempo real con Anna Lu",
+    "sta": "2026-11-20/06:02",
+    "end": "2026-11-20/07:00"
+  },
+  {
+    "titulo": "Así amanece con Leonardo Curzio",
+    "sta": "2026-11-20/07:00",
+    "end": "2026-11-20/08:00"
+  },
+  {
+    "titulo": "Agenda ADN con Juan Pablo de Leo",
+    "sta": "2026-11-20/08:00",
+    "end": "2026-11-20/09:00"
+  },
+  {
+    "titulo": "Ya nadie está dormido con Javier Risco y Luciana Wainer",
+    "sta": "2026-11-20/09:00",
+    "end": "2026-11-20/10:00"
+  },
+  {
+    "titulo": "Tu mañana con ellas con Mara Durón, Vaitaire Mateos y Valentina Rodríguez",
+    "sta": "2026-11-20/10:00",
+    "end": "2026-11-20/12:00"
+  },
+  {
+    "titulo": "A quien corresponda",
+    "sta": "2026-11-20/12:00",
+    "end": "2026-11-20/12:30"
+  },
+  {
+    "titulo": "Es negocio con Carlos Mota",
+    "sta": "2026-11-20/12:30",
+    "end": "2026-11-20/13:00"
+  },
+  {
+    "titulo": "Noticias en tiempo real con Uriel Estrada y Romina Ramos",
+    "sta": "2026-11-20/13:00",
+    "end": "2026-11-20/14:00"
+  },
+  {
+    "titulo": "Tren del meme con Valentina Rodríguez y Hernán Hochstrasser",
+    "sta": "2026-11-20/14:00",
+    "end": "2026-11-20/15:00"
+  },
+  {
+    "titulo": "Es tendencia con José Luis Mora",
+    "sta": "2026-11-20/15:00",
+    "end": "2026-11-20/16:00"
+  },
+  {
+    "titulo": "ADN Noticias con Alejandro Brofft y Claudia Echeverry",
+    "sta": "2026-11-20/16:00",
+    "end": "2026-11-20/17:00"
+  },
+  {
+    "titulo": "ADN noticias con Otoniel Martínez",
+    "sta": "2026-11-20/17:00",
+    "end": "2026-11-20/18:00"
+  },
+  {
+    "titulo": "ADN Noticias con Tania Gómez",
+    "sta": "2026-11-20/18:00",
+    "end": "2026-11-20/19:00"
+  },
+  {
+    "titulo": "Ciudad desnuda con Viridiana Hernández y Silvana Rebolledo",
+    "sta": "2026-11-20/19:00",
+    "end": "2026-11-20/20:00"
+  },
+  {
+    "titulo": "Noticias en Red con Juan Manuel Jiménez",
+    "sta": "2026-11-20/20:00",
+    "end": "2026-11-20/21:00"
+  },
+  {
+    "titulo": "Es noticia con Lucy Bravo",
+    "sta": "2026-11-20/21:00",
+    "end": "2026-11-20/22:00"
+  },
+  {
+    "titulo": "Noticias República MX con Roberto Ruíz",
+    "sta": "2026-11-20/22:00",
+    "end": "2026-11-20/22:30"
+  },
+  {
+    "titulo": "Mesa República MX",
+    "sta": "2026-11-20/22:30",
+    "end": "2026-11-20/23:00"
+  },
+  {
+    "titulo": "Todo personal",
+    "sta": "2026-11-20/23:00",
+    "end": "2026-11-20/23:30"
+  },
+  {
+    "titulo": "Noticias República MX con Roberto Ruíz",
+    "sta": "2026-11-20/23:30",
+    "end": "2026-11-21/00:00"
+  },
+  {
+    "titulo": "Himno nacional",
+    "sta": "2026-11-21/00:00",
+    "end": "2026-11-21/00:02"
   }
 ]

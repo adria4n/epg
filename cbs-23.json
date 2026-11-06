@@ -1,5 +1,40 @@
 [
   {
+    "titulo": "Comics Unleashed With Byron Allen / Courtney Cronin; Akeem Woods; Esteban Gast; Dale Jones",
+    "sta": "2026-11-04/22:35",
+    "end": "2026-11-04/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen / Nicole Aimee Schreiber; Ron Funches; Jeff Garcia; Brent Pella",
+    "sta": "2026-11-04/23:05",
+    "end": "2026-11-04/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask / Jamie Kennedy; Loni Love; Adam Carolla; Byron Allen; Michelle Collins; Gary Owen",
+    "sta": "2026-11-04/23:37",
+    "end": "2026-11-05/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-05/00:07",
+    "end": "2026-11-05/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-05/00:37",
+    "end": "2026-11-05/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-05/01:07",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/07:00"
@@ -1148,5 +1183,120 @@
     "titulo": "CBS News Mornings",
     "sta": "2026-11-13/04:30",
     "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "CBS Mornings",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/09:00"
+  },
+  {
+    "titulo": "The Perfect Line / It's a Mystery to Me",
+    "sta": "2026-11-13/09:00",
+    "end": "2026-11-13/09:30"
+  },
+  {
+    "titulo": "The Perfect Line / Cold Hard Cash",
+    "sta": "2026-11-13/09:30",
+    "end": "2026-11-13/10:00"
+  },
+  {
+    "titulo": "The Price Is Right",
+    "sta": "2026-11-13/10:00",
+    "end": "2026-11-13/11:00"
+  },
+  {
+    "titulo": "The Young and the Restless",
+    "sta": "2026-11-13/11:00",
+    "end": "2026-11-13/12:00"
+  },
+  {
+    "titulo": "CBS4 News Live at Noon",
+    "sta": "2026-11-13/12:00",
+    "end": "2026-11-13/12:30"
+  },
+  {
+    "titulo": "The Bold and the Beautiful",
+    "sta": "2026-11-13/12:30",
+    "end": "2026-11-13/13:00"
+  },
+  {
+    "titulo": "Beyond the Gates",
+    "sta": "2026-11-13/13:00",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "Let's Make a Deal",
+    "sta": "2026-11-13/14:00",
+    "end": "2026-11-13/15:00"
+  },
+  {
+    "titulo": "Judy Justice / Cat Scratch Tales and Feline Feud",
+    "sta": "2026-11-13/15:00",
+    "end": "2026-11-13/15:30"
+  },
+  {
+    "titulo": "Judy Justice / Romantic Denial",
+    "sta": "2026-11-13/15:30",
+    "end": "2026-11-13/16:00"
+  },
+  {
+    "titulo": "Judge Judy / Risque Internet Pics; Terrorist Facebook Threats",
+    "sta": "2026-11-13/16:00",
+    "end": "2026-11-13/16:30"
+  },
+  {
+    "titulo": "Judge Judy / Pregnancy Test Vandalism; Punched in Face by Teen",
+    "sta": "2026-11-13/16:30",
+    "end": "2026-11-13/17:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 5pm",
+    "sta": "2026-11-13/17:00",
+    "end": "2026-11-13/17:30"
+  },
+  {
+    "titulo": "CBS Evening News",
+    "sta": "2026-11-13/17:30",
+    "end": "2026-11-13/18:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 6pm",
+    "sta": "2026-11-13/18:00",
+    "end": "2026-11-13/18:30"
+  },
+  {
+    "titulo": "Wheel of Fortune / Live More Floridays",
+    "sta": "2026-11-13/18:30",
+    "end": "2026-11-13/19:00"
+  },
+  {
+    "titulo": "Sheriff Country / Close to the Chest",
+    "sta": "2026-11-13/19:00",
+    "end": "2026-11-13/20:00"
+  },
+  {
+    "titulo": "Fire Country / Church and State",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/21:00"
+  },
+  {
+    "titulo": "Boston Blue / Bloodlines",
+    "sta": "2026-11-13/21:00",
+    "end": "2026-11-13/22:00"
+  },
+  {
+    "titulo": "CBS4 News Live at 10pm",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-13/22:35"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-13/22:35",
+    "end": "2026-11-13/23:05"
   }
 ]
