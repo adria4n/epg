@@ -1,140 +1,5 @@
 [
   {
-    "titulo": "Caso cerrado / Mellizos vs. madre",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/05:30"
-  },
-  {
-    "titulo": "Caso cerrado / ¿Hotel o burdel?; Secuestro por la culata",
-    "sta": "2026-11-04/05:30",
-    "end": "2026-11-04/06:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "Noticias Telemundo AHORA",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/08:00"
-  },
-  {
-    "titulo": "Hoy día",
-    "sta": "2026-11-04/08:00",
-    "end": "2026-11-04/11:30"
-  },
-  {
-    "titulo": "Acceso total",
-    "sta": "2026-11-04/11:30",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "Santa Diabla",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/12:30"
-  },
-  {
-    "titulo": "Noticias Telemundo mediodía",
-    "sta": "2026-11-04/12:30",
-    "end": "2026-11-04/13:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-04/13:00",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:00"
-  },
-  {
-    "titulo": "Al rojo vivo",
-    "sta": "2026-11-04/16:00",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4pm",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "Noticias Telemundo 48 a las 4:30pm",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/18:00"
-  },
-  {
-    "titulo": "Noticias Telemundo 48: El Paso",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/18:30"
-  },
-  {
-    "titulo": "Noticias Telemundo",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/19:01"
-  },
-  {
-    "titulo": "Juego de villanos / Poder sin límites",
-    "sta": "2026-11-04/19:01",
-    "end": "2026-11-04/21:00"
-  },
-  {
-    "titulo": "El señor de los cielos / Pacto, ambición y traición",
-    "sta": "2026-11-04/21:00",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "Lejos de ti / La última opción",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/23:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 48",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-04/23:35"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-04/23:35",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Eres mi luz / Una meta cumplida",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "Caso cerrado / El cartel de las ex",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "En casa con Telemundo",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "La mesa caliente",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/05:00"
-  },
-  {
     "titulo": "Caso cerrado / Pánico gay",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/05:30"
@@ -355,7 +220,7 @@
     "end": "2026-11-06/21:00"
   },
   {
-    "titulo": "El señor de los cielos",
+    "titulo": "El señor de los cielos / Un invitado indeseado",
     "sta": "2026-11-06/21:00",
     "end": "2026-11-06/22:00"
   },
@@ -460,28 +325,33 @@
     "end": "2026-11-07/16:00"
   },
   {
-    "titulo": "Caso cerrado / Fish spa chupitos",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-07/16:00",
-    "end": "2026-11-07/16:30"
+    "end": "2026-11-07/17:00"
+  },
+  {
+    "titulo": "Caso cerrado / Fish spa chupitos",
+    "sta": "2026-11-07/17:00",
+    "end": "2026-11-07/17:30"
   },
   {
     "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-07/16:30",
-    "end": "2026-11-07/16:55"
-  },
-  {
-    "titulo": "Fútbol Mexicano Primera División / Tigres UANL vs. Cruz Azul",
-    "sta": "2026-11-07/16:55",
-    "end": "2026-11-07/19:00"
+    "sta": "2026-11-07/17:30",
+    "end": "2026-11-07/17:55"
   },
   {
     "titulo": "Dateline / El hallazgo en Black Rock Canyon",
-    "sta": "2026-11-07/19:00",
-    "end": "2026-11-07/20:00"
+    "sta": "2026-11-07/17:55",
+    "end": "2026-11-07/18:55"
   },
   {
-    "titulo": "Jumanji: Welcome to the Jungle",
-    "sta": "2026-11-07/20:00",
+    "titulo": "Fútbol Mexicano Primera División / Tigres UANL vs. Cruz Azul",
+    "sta": "2026-11-07/18:55",
+    "end": "2026-11-07/21:00"
+  },
+  {
+    "titulo": "Dateline / La casa en Badger Lane",
+    "sta": "2026-11-07/21:00",
     "end": "2026-11-07/22:00"
   },
   {
@@ -502,15 +372,10 @@
   {
     "titulo": "El pelotazo",
     "sta": "2026-11-08/00:00",
-    "end": "2026-11-08/00:30"
-  },
-  {
-    "titulo": "Caso cerrado / El secreto peligroso; Culpa y capricho",
-    "sta": "2026-11-08/00:30",
     "end": "2026-11-08/01:30"
   },
   {
-    "titulo": "Lo que callamos las mujeres",
+    "titulo": "Rocky Balboa",
     "sta": "2026-11-08/01:30",
     "end": "2026-11-08/02:30"
   },
@@ -590,7 +455,7 @@
     "end": "2026-11-08/17:00"
   },
   {
-    "titulo": "Lo que callamos las mujeres",
+    "titulo": "Acércate a Rocío",
     "sta": "2026-11-08/17:00",
     "end": "2026-11-08/18:00"
   },
@@ -740,7 +605,7 @@
     "end": "2026-11-09/21:00"
   },
   {
-    "titulo": "El señor de los cielos",
+    "titulo": "El señor de los cielos / Operación Acción Rayo",
     "sta": "2026-11-09/21:00",
     "end": "2026-11-09/22:00"
   },

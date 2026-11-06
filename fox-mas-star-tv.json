@@ -165,7 +165,7 @@
     "end": "2026-11-06/13:30"
   },
   {
-    "titulo": "Ligue 1 / Toulouse FC vs. RC Strasbourg, Fecha 10, Stadium de Toulouse",
+    "titulo": "Ligue 1 / Toulouse FC vs. RC Strasbourg, Fecha 10, Stadium Municipal",
     "sta": "2026-11-06/13:30",
     "end": "2026-11-06/16:00"
   },
@@ -473,5 +473,15 @@
     "titulo": "A confirmar",
     "sta": "2026-11-18/21:00",
     "end": "2026-11-19/09:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-19/09:00",
+    "end": "2026-11-19/21:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-19/21:00",
+    "end": "2026-11-20/09:00"
   }
 ]

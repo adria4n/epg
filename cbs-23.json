@@ -1,146 +1,6 @@
 [
   {
     "titulo": "CBS4 Morning News",
-    "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/07:00"
-  },
-  {
-    "titulo": "CBS Mornings",
-    "sta": "2026-11-04/07:00",
-    "end": "2026-11-04/09:00"
-  },
-  {
-    "titulo": "The Perfect Line / Fan of the Money",
-    "sta": "2026-11-04/09:00",
-    "end": "2026-11-04/09:30"
-  },
-  {
-    "titulo": "The Perfect Line / Living Large!",
-    "sta": "2026-11-04/09:30",
-    "end": "2026-11-04/10:00"
-  },
-  {
-    "titulo": "The Price Is Right",
-    "sta": "2026-11-04/10:00",
-    "end": "2026-11-04/11:00"
-  },
-  {
-    "titulo": "The Young and the Restless",
-    "sta": "2026-11-04/11:00",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "CBS4 News Live at Noon",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/12:30"
-  },
-  {
-    "titulo": "The Bold and the Beautiful",
-    "sta": "2026-11-04/12:30",
-    "end": "2026-11-04/13:00"
-  },
-  {
-    "titulo": "Beyond the Gates",
-    "sta": "2026-11-04/13:00",
-    "end": "2026-11-04/14:00"
-  },
-  {
-    "titulo": "Let's Make a Deal",
-    "sta": "2026-11-04/14:00",
-    "end": "2026-11-04/15:00"
-  },
-  {
-    "titulo": "Judy Justice / Hidden Horse Injuries",
-    "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/15:30"
-  },
-  {
-    "titulo": "Judy Justice / Mother Save Me",
-    "sta": "2026-11-04/15:30",
-    "end": "2026-11-04/16:00"
-  },
-  {
-    "titulo": "Judge Judy / Road Rage Cat Fight",
-    "sta": "2026-11-04/16:00",
-    "end": "2026-11-04/16:30"
-  },
-  {
-    "titulo": "Judge Judy / Racism and Trans-Gender Hate?",
-    "sta": "2026-11-04/16:30",
-    "end": "2026-11-04/17:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 5pm",
-    "sta": "2026-11-04/17:00",
-    "end": "2026-11-04/17:30"
-  },
-  {
-    "titulo": "CBS Evening News",
-    "sta": "2026-11-04/17:30",
-    "end": "2026-11-04/18:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 6pm",
-    "sta": "2026-11-04/18:00",
-    "end": "2026-11-04/18:30"
-  },
-  {
-    "titulo": "Wheel of Fortune",
-    "sta": "2026-11-04/18:30",
-    "end": "2026-11-04/19:00"
-  },
-  {
-    "titulo": "Survivor / The Girl at the Prom",
-    "sta": "2026-11-04/19:00",
-    "end": "2026-11-04/20:30"
-  },
-  {
-    "titulo": "The Amazing Race / The Amazing Nightmare",
-    "sta": "2026-11-04/20:30",
-    "end": "2026-11-04/22:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 10pm",
-    "sta": "2026-11-04/22:00",
-    "end": "2026-11-04/22:35"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Courtney Cronin; Akeem Woods; Esteban Gast; Dale Jones",
-    "sta": "2026-11-04/22:35",
-    "end": "2026-11-04/23:05"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Nicole Aimee Schreiber; Ron Funches; Jeff Garcia; Brent Pella",
-    "sta": "2026-11-04/23:05",
-    "end": "2026-11-04/23:37"
-  },
-  {
-    "titulo": "Funny You Should Ask / Jamie Kennedy; Loni Love; Adam Carolla; Byron Allen; Michelle Collins; Gary Owen",
-    "sta": "2026-11-04/23:37",
-    "end": "2026-11-05/00:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-05/00:07",
-    "end": "2026-11-05/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-05/00:37",
-    "end": "2026-11-05/01:07"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-05/01:07",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "CBS4 Morning News",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/07:00"
   },
@@ -375,7 +235,7 @@
     "end": "2026-11-06/18:30"
   },
   {
-    "titulo": "Wheel of Fortune / Visit Florida",
+    "titulo": "Wheel of Fortune / Live More Floridays",
     "sta": "2026-11-06/18:30",
     "end": "2026-11-06/19:00"
   },
@@ -795,7 +655,7 @@
     "end": "2026-11-09/18:30"
   },
   {
-    "titulo": "Wheel of Fortune / Visit Florida",
+    "titulo": "Wheel of Fortune / Live More Floridays",
     "sta": "2026-11-09/18:30",
     "end": "2026-11-09/19:00"
   },
@@ -940,7 +800,7 @@
     "end": "2026-11-10/18:30"
   },
   {
-    "titulo": "Wheel of Fortune / Visit Florida",
+    "titulo": "Wheel of Fortune / Live More Floridays",
     "sta": "2026-11-10/18:30",
     "end": "2026-11-10/19:00"
   },
@@ -1085,7 +945,7 @@
     "end": "2026-11-11/18:30"
   },
   {
-    "titulo": "Wheel of Fortune / Visit Florida",
+    "titulo": "Wheel of Fortune / Live More Floridays",
     "sta": "2026-11-11/18:30",
     "end": "2026-11-11/19:00"
   },
@@ -1225,7 +1085,7 @@
     "end": "2026-11-12/18:30"
   },
   {
-    "titulo": "Wheel of Fortune / Visit Florida",
+    "titulo": "Wheel of Fortune / Live More Floridays",
     "sta": "2026-11-12/18:30",
     "end": "2026-11-12/19:00"
   },
