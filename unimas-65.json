@@ -1,25 +1,5 @@
 [
   {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Esta historia me suena / Con los ojos cerrados",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "El Chavo Animado / La feria",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/07:30"
-  },
-  {
-    "titulo": "El Chavo Animado / El valor de la amistad",
-    "sta": "2026-11-05/07:30",
-    "end": "2026-11-05/08:00"
-  },
-  {
     "titulo": "Vecinos / Germán Colón",
     "sta": "2026-11-05/08:00",
     "end": "2026-11-05/08:30"
@@ -1083,5 +1063,25 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-13/04:30",
     "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/06:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Todavía",
+    "sta": "2026-11-13/06:00",
+    "end": "2026-11-13/07:00"
+  },
+  {
+    "titulo": "El Chavo Animado / La máquina del tiempo I",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/07:30"
+  },
+  {
+    "titulo": "El Chavo Animado / La máquina del tiempo II",
+    "sta": "2026-11-13/07:30",
+    "end": "2026-11-13/08:00"
   }
 ]
