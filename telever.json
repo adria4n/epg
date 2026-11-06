@@ -1,287 +1,237 @@
 [
   {
-    "titulo": "Lajas (Antes C-5) Lunes 02",
+    "titulo": "Gobierno Federal Rtc",
     "sta": "2026-11-02/00:00",
-    "end": "2026-11-02/00:30"
+    "end": "2026-11-02/00:15"
   },
   {
-    "titulo": "Veredicto",
-    "sta": "2026-11-02/00:30",
-    "end": "2026-11-02/02:30"
-  },
-  {
-    "titulo": "Derec H O D E A D Misión R E P E T Ic Ió N B - 1 5 De N O C H E Y Y A Llegué R E P E T I C I Ó N B - 1 5 Sus A N A A D I C C Ión R E P E T I C I Ó N B - 1 5",
-    "sta": "2026-11-02/02:30",
-    "end": "2026-11-02/04:30"
-  },
-  {
-    "titulo": "La Parrilla De Fuego",
-    "sta": "2026-11-02/04:30",
-    "end": "2026-11-02/08:30"
+    "titulo": "Noches De Humor",
+    "sta": "2026-11-02/00:15",
+    "end": "2026-11-02/01:00"
   },
   {
     "titulo": "Veredicto Final",
-    "sta": "2026-11-02/08:30",
-    "end": "2026-11-02/12:30"
+    "sta": "2026-11-02/01:00",
+    "end": "2026-11-02/02:00"
+  },
+  {
+    "titulo": "Derecho De Admisión",
+    "sta": "2026-11-02/02:00",
+    "end": "2026-11-02/03:00"
+  },
+  {
+    "titulo": "Es De Noche Y Ya Llegué",
+    "sta": "2026-11-02/03:00",
+    "end": "2026-11-02/04:00"
+  },
+  {
+    "titulo": "Susana Adicción",
+    "sta": "2026-11-02/04:00",
+    "end": "2026-11-02/05:00"
+  },
+  {
+    "titulo": "La Parrilla De Fuego",
+    "sta": "2026-11-02/05:00",
+    "end": "2026-11-02/06:00"
+  },
+  {
+    "titulo": "Las Noticias",
+    "sta": "2026-11-02/06:00",
+    "end": "2026-11-02/09:00"
+  },
+  {
+    "titulo": "Vuelve A La Vida",
+    "sta": "2026-11-02/09:00",
+    "end": "2026-11-02/11:00"
+  },
+  {
+    "titulo": "Veredicto Final",
+    "sta": "2026-11-02/11:00",
+    "end": "2026-11-02/12:00"
+  },
+  {
+    "titulo": "Problemas Y Soluciones",
+    "sta": "2026-11-02/12:00",
+    "end": "2026-11-02/13:00"
   },
   {
     "titulo": "Sanando Dudas Veracruz",
-    "sta": "2026-11-02/12:30",
-    "end": "2026-11-02/14:30"
+    "sta": "2026-11-02/13:00",
+    "end": "2026-11-02/14:00"
+  },
+  {
+    "titulo": "Las Noticias",
+    "sta": "2026-11-02/14:00",
+    "end": "2026-11-02/15:00"
   },
   {
     "titulo": "Los Bombazos De Cherry",
-    "sta": "2026-11-02/14:30",
-    "end": "2026-11-02/16:30"
+    "sta": "2026-11-02/15:00",
+    "end": "2026-11-02/16:00"
   },
   {
-    "titulo": "Que Pokar! El Juego De La Fama V I V O C Ó D Ig O 4 G R A B A D O B P R O G R A M A E S P E C I A L R Ie L A T Z E L T R I B U T O A... G R A B A D O Noches",
-    "sta": "2026-11-02/16:30",
-    "end": "2026-11-02/18:30"
+    "titulo": "Que Pokar! El Juego De La Fama",
+    "sta": "2026-11-02/16:00",
+    "end": "2026-11-02/17:00"
   },
   {
-    "titulo": "Curandero Damian",
-    "sta": "2026-11-02/18:30",
+    "titulo": "Código 4 B",
+    "sta": "2026-11-02/17:00",
+    "end": "2026-11-02/18:00"
+  },
+  {
+    "titulo": "Milagros De La Fe",
+    "sta": "2026-11-02/18:00",
+    "end": "2026-11-02/19:00"
+  },
+  {
+    "titulo": "Indio Yandú",
+    "sta": "2026-11-02/19:00",
+    "end": "2026-11-02/20:00"
+  },
+  {
+    "titulo": "Las Noticias",
+    "sta": "2026-11-02/20:00",
+    "end": "2026-11-02/21:00"
+  },
+  {
+    "titulo": "Pura Pasión",
+    "sta": "2026-11-02/21:00",
     "end": "2026-11-02/22:00"
   },
   {
-    "titulo": "Noches De Humor Jarocho Cambios Sujeta A Cambios",
+    "titulo": "Telenovela Corazón Salvaje",
     "sta": "2026-11-02/22:00",
+    "end": "2026-11-02/23:00"
+  },
+  {
+    "titulo": "Milagros De La Fe",
+    "sta": "2026-11-02/23:00",
     "end": "2026-11-03/00:00"
   },
   {
-    "titulo": "Martes 03",
-    "sta": "2026-11-03/00:00",
-    "end": "2026-11-03/00:45"
-  },
-  {
-    "titulo": "Final",
-    "sta": "2026-11-03/00:45",
-    "end": "2026-11-03/02:00"
-  },
-  {
-    "titulo": "Noches D E H U M O R Jarocho R Ep E T Ic Ió N",
+    "titulo": "Noches De Humor Jarocho",
     "sta": "2026-11-03/02:00",
-    "end": "2026-11-03/03:30"
+    "end": "2026-11-03/03:00"
   },
   {
-    "titulo": "Los Bom B A Z O S D E Cherry R E P E T Ic Ió N",
-    "sta": "2026-11-03/03:30",
+    "titulo": "Codigo N+",
+    "sta": "2026-11-03/03:00",
+    "end": "2026-11-03/04:00"
+  },
+  {
+    "titulo": "Los Bombazos De Cherry",
+    "sta": "2026-11-03/04:00",
     "end": "2026-11-03/05:00"
   },
   {
     "titulo": "Sanando Dudas Veracruz",
     "sta": "2026-11-03/05:00",
-    "end": "2026-11-03/09:30"
+    "end": "2026-11-03/11:00"
+  },
+  {
+    "titulo": "Caminos De La Vida",
+    "sta": "2026-11-03/11:00",
+    "end": "2026-11-03/13:00"
   },
   {
     "titulo": "Con Sazón A Chef",
-    "sta": "2026-11-03/09:30",
-    "end": "2026-11-03/14:30"
+    "sta": "2026-11-03/13:00",
+    "end": "2026-11-03/15:00"
   },
   {
-    "titulo": "Milagros De La Fe Vamos Al Bailongo",
-    "sta": "2026-11-03/14:30",
-    "end": "2026-11-03/16:30"
-  },
-  {
-    "titulo": "Q U E P O K A R ! El Ju E G O D E L A F Ama G R A B A D O C Ó D I G O 4 G R A B A D O B De Humor",
-    "sta": "2026-11-03/16:30",
-    "end": "2026-11-03/18:45"
-  },
-  {
-    "titulo": "Noches De Humor Jarocho",
-    "sta": "2026-11-03/18:45",
-    "end": "2026-11-03/22:00"
-  },
-  {
-    "titulo": "Sin Previo Aviso",
-    "sta": "2026-11-03/22:00",
+    "titulo": "Milagros De La Fe",
+    "sta": "2026-11-03/15:00",
     "end": "2026-11-04/00:00"
   },
   {
-    "titulo": "Miércoles 04",
-    "sta": "2026-11-04/00:00",
-    "end": "2026-11-04/01:00"
-  },
-  {
-    "titulo": "Cine Mexicano Alias El Rata",
+    "titulo": "Cine Mexicano Alias El Rata A",
     "sta": "2026-11-04/01:00",
-    "end": "2026-11-04/03:15"
+    "end": "2026-11-04/04:00"
   },
   {
-    "titulo": "Con S A Z Ó N A C Hef R E P E Ti C I Ó N",
-    "sta": "2026-11-04/03:15",
+    "titulo": "Con Sazón A Chef",
+    "sta": "2026-11-04/04:00",
     "end": "2026-11-04/05:00"
   },
   {
     "titulo": "Vamos Al Bailongo",
     "sta": "2026-11-04/05:00",
-    "end": "2026-11-04/06:30"
+    "end": "2026-11-04/13:00"
   },
   {
-    "titulo": "Las Noticias",
-    "sta": "2026-11-04/06:30",
-    "end": "2026-11-04/08:45"
-  },
-  {
-    "titulo": "Vuelve A La Vida",
-    "sta": "2026-11-04/08:45",
-    "end": "2026-11-04/10:30"
-  },
-  {
-    "titulo": "Caminos",
-    "sta": "2026-11-04/10:30",
-    "end": "2026-11-04/12:00"
-  },
-  {
-    "titulo": "Problemas Y Soluciones En La Cocina Con Geronimo Sanando Dudas Veracruz",
-    "sta": "2026-11-04/12:00",
-    "end": "2026-11-04/13:30"
-  },
-  {
-    "titulo": "Las Noticias",
-    "sta": "2026-11-04/13:30",
+    "titulo": "Sanando Dudas Veracruz",
+    "sta": "2026-11-04/13:00",
     "end": "2026-11-04/15:00"
   },
   {
     "titulo": "Los Bombazos De Cherry",
     "sta": "2026-11-04/15:00",
-    "end": "2026-11-04/16:30"
+    "end": "2026-11-04/16:00"
   },
   {
-    "titulo": "Que Pokar! El Juego De La Fama V I V O Có D Ig O 4 G R A B A D O B Milagros De La Fe",
-    "sta": "2026-11-04/16:30",
-    "end": "2026-11-04/18:15"
+    "titulo": "Que Pokar! El Juego De La Fama",
+    "sta": "2026-11-04/16:00",
+    "end": "2026-11-04/17:00"
   },
   {
-    "titulo": "Indio Yandú",
-    "sta": "2026-11-04/18:15",
-    "end": "2026-11-04/20:00"
-  },
-  {
-    "titulo": "Las Noticias",
-    "sta": "2026-11-04/20:00",
-    "end": "2026-11-04/21:30"
-  },
-  {
-    "titulo": "Pur A P A S Ión L O C A L Te L E N O V E L A Cor A Z Ó N S A L V Aje G R A B A D O B - 1 5 Milagros De La Fe Maestro",
-    "sta": "2026-11-04/21:30",
+    "titulo": "Código 4 B",
+    "sta": "2026-11-04/17:00",
     "end": "2026-11-05/00:00"
   },
   {
-    "titulo": "Televisa Regional Del 2 Al 8 De Noviembre Xhai-Tdt (Las Lajas) Jueves 05 Gobierno Federal Rtc Noch E S D E H Umor G R A B A D O",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "Cine Mexicano Que Hombre Tan Simpático",
+    "titulo": "Cine Mexicano Que Hombre Tan Simpático A",
     "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/02:45"
-  },
-  {
-    "titulo": "C O D I G O N + Re P E T I Ci Ó N",
-    "sta": "2026-11-05/02:45",
     "end": "2026-11-05/04:00"
   },
   {
-    "titulo": "Los Bom B A Z O S D E Cherry R E P E T Ic Ió N",
+    "titulo": "Los Bombazos De Cherry",
     "sta": "2026-11-05/04:00",
     "end": "2026-11-05/05:00"
   },
   {
     "titulo": "Sanando Dudas Veracruz",
     "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/08:30"
-  },
-  {
-    "titulo": "De La Vida",
-    "sta": "2026-11-05/08:30",
-    "end": "2026-11-05/12:30"
+    "end": "2026-11-05/13:00"
   },
   {
     "titulo": "Con Sazón A Chef",
-    "sta": "2026-11-05/12:30",
-    "end": "2026-11-05/14:15"
+    "sta": "2026-11-05/13:00",
+    "end": "2026-11-05/15:00"
   },
   {
-    "titulo": "Milagros",
-    "sta": "2026-11-05/14:15",
-    "end": "2026-11-05/15:30"
-  },
-  {
-    "titulo": "Vamos Al Bailongo",
-    "sta": "2026-11-05/15:30",
-    "end": "2026-11-05/16:30"
-  },
-  {
-    "titulo": "Q U E El Ju E G G R C Ó G R",
-    "sta": "2026-11-05/16:30",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Sanador Francisco",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:15"
-  },
-  {
-    "titulo": "Curandero Damian",
-    "sta": "2026-11-05/19:15",
-    "end": "2026-11-05/21:45"
-  },
-  {
-    "titulo": "Sebastián",
-    "sta": "2026-11-05/21:45",
+    "titulo": "Milagros De La Fe",
+    "sta": "2026-11-05/15:00",
     "end": "2026-11-06/00:00"
   },
   {
-    "titulo": "Viernes 06",
-    "sta": "2026-11-06/00:00",
-    "end": "2026-11-06/01:00"
-  },
-  {
-    "titulo": "Cine Mexicano Cuando Me Vaya",
+    "titulo": "Cine Mexicano Cuando Me Vaya A",
     "sta": "2026-11-06/01:00",
-    "end": "2026-11-06/03:15"
+    "end": "2026-11-06/04:00"
   },
   {
-    "titulo": "Con S A Z Ó N A C Hef R E P E Ti C I Ó N",
-    "sta": "2026-11-06/03:15",
+    "titulo": "Con Sazón A Chef",
+    "sta": "2026-11-06/04:00",
     "end": "2026-11-06/05:00"
   },
   {
     "titulo": "Vamos Al Bailongo",
     "sta": "2026-11-06/05:00",
-    "end": "2026-11-06/09:30"
+    "end": "2026-11-06/13:00"
   },
   {
     "titulo": "Sanando Dudas Veracruz",
-    "sta": "2026-11-06/09:30",
-    "end": "2026-11-06/14:30"
-  },
-  {
-    "titulo": "De La Fe Los Bombazos De Cherry",
-    "sta": "2026-11-06/14:30",
-    "end": "2026-11-06/16:30"
-  },
-  {
-    "titulo": "P O K A R ! O D E L A F Ama A B A D O D I G O 4 A B A D O",
-    "sta": "2026-11-06/16:30",
+    "sta": "2026-11-06/13:00",
     "end": "2026-11-07/00:00"
   },
   {
-    "titulo": "Sábado 07",
-    "sta": "2026-11-07/00:00",
-    "end": "2026-11-07/01:00"
-  },
-  {
-    "titulo": "Cine Mexicano Ellas También Son Rebeldes",
+    "titulo": "Cine Mexicano Ellas También Son Rebeldes A",
     "sta": "2026-11-07/01:00",
-    "end": "2026-11-07/03:15"
+    "end": "2026-11-07/04:00"
   },
   {
-    "titulo": "Los Bom B A Z O S D E Cherry R E P E T Ic Ió N",
-    "sta": "2026-11-07/03:15",
+    "titulo": "Los Bombazos De Cherry",
+    "sta": "2026-11-07/04:00",
     "end": "2026-11-07/05:00"
   },
   {
@@ -290,98 +240,78 @@
     "end": "2026-11-07/06:00"
   },
   {
-    "titulo": "Veredicto",
+    "titulo": "Veredicto Final",
     "sta": "2026-11-07/06:00",
-    "end": "2026-11-07/06:45"
-  },
-  {
-    "titulo": "Noches",
-    "sta": "2026-11-07/06:45",
-    "end": "2026-11-07/07:30"
-  },
-  {
-    "titulo": "En La Cocina",
-    "sta": "2026-11-07/07:30",
-    "end": "2026-11-07/08:30"
-  },
-  {
-    "titulo": "C I N E M E X I C A N O Avent U R A A L C E N T R O De La T I E R R A G R A B A D O",
-    "sta": "2026-11-07/08:30",
-    "end": "2026-11-07/10:00"
-  },
-  {
-    "titulo": "El Show De Figuritas",
-    "sta": "2026-11-07/10:00",
     "end": "2026-11-07/11:00"
   },
   {
     "titulo": "Veredicto Final",
     "sta": "2026-11-07/11:00",
-    "end": "2026-11-07/12:15"
+    "end": "2026-11-07/12:00"
   },
   {
-    "titulo": "Cine Mexicano Pero Sigo Siendo El Rey",
-    "sta": "2026-11-07/12:15",
+    "titulo": "Cine Mexicano Pero Sigo Siendo El Rey A",
+    "sta": "2026-11-07/12:00",
     "end": "2026-11-07/14:00"
   },
   {
-    "titulo": "Noches De Humor Indio Yandú La Parrilla De Fuego",
+    "titulo": "Noches De Humor",
     "sta": "2026-11-07/14:00",
+    "end": "2026-11-07/15:00"
+  },
+  {
+    "titulo": "La Parrilla De Fuego",
+    "sta": "2026-11-07/15:00",
     "end": "2026-11-07/16:00"
   },
   {
-    "titulo": "Ci N E M E X I C A No E L F U G It Iv O G R A B A D O",
+    "titulo": "Cine Mexicano El Fugitivo A",
     "sta": "2026-11-07/16:00",
-    "end": "2026-11-07/18:15"
+    "end": "2026-11-07/18:00"
   },
   {
-    "titulo": "Vamos Programa Especial Gabriel A T Z E L T R Ibuto A... R E P E T Ic Ió N Noches De Humor Jarocho Veredicto Final",
-    "sta": "2026-11-07/18:15",
-    "end": "2026-11-07/20:45"
+    "titulo": "Vamos Al Bailongo",
+    "sta": "2026-11-07/18:00",
+    "end": "2026-11-07/19:00"
   },
   {
-    "titulo": "Cine Mexicano Enamorada Gra Bado",
-    "sta": "2026-11-07/20:45",
-    "end": "2026-11-07/22:45"
-  },
-  {
-    "titulo": "Noches De Humor Jarocho",
-    "sta": "2026-11-07/22:45",
-    "end": "2026-11-08/00:00"
-  },
-  {
-    "titulo": "Canal 41-Las Lajas 8.1 Domingo 08",
-    "sta": "2026-11-08/00:00",
-    "end": "2026-11-08/00:45"
+    "titulo": "Programa Especial Gabriel Atzel Tributo A",
+    "sta": "2026-11-07/19:00",
+    "end": "2026-11-07/20:00"
   },
   {
     "titulo": "Veredicto Final",
-    "sta": "2026-11-08/00:45",
-    "end": "2026-11-08/02:30"
+    "sta": "2026-11-07/20:00",
+    "end": "2026-11-07/21:00"
   },
   {
-    "titulo": "C I N E M E X I C A N O : 1 5 Avent U R A A L C E N T R O De La : 3 0 T Ie R R A A : 1 5 : 3 0 Cine Mexicano La Madrina Del Diablo Gra Bado : 1 5 A : 3 0",
-    "sta": "2026-11-08/02:30",
-    "end": "2026-11-08/04:30"
+    "titulo": "Cine Mexicano Enamorada A",
+    "sta": "2026-11-07/21:00",
+    "end": "2026-11-07/23:00"
   },
   {
     "titulo": "Noches De Humor Jarocho",
-    "sta": "2026-11-08/04:30",
-    "end": "2026-11-08/06:00"
+    "sta": "2026-11-07/23:00",
+    "end": "2026-11-08/00:00"
   },
   {
-    "titulo": "Final",
-    "sta": "2026-11-08/06:00",
-    "end": "2026-11-08/07:30"
+    "titulo": "Veredicto Final",
+    "sta": "2026-11-08/01:00",
+    "end": "2026-11-08/02:00"
   },
   {
-    "titulo": "De Humor Con Geronimo C I N E M E X I C A N O : 4 5 La M A D R I N A D E L D Iablo 0 9 R E P E T Ic Ió N : 1 5 A : 3 0",
-    "sta": "2026-11-08/07:30",
-    "end": "2026-11-08/10:00"
+    "titulo": "Cine Mexicano Aventura Al Centro De La Tierra A",
+    "sta": "2026-11-08/02:00",
+    "end": "2026-11-08/05:00"
   },
   {
-    "titulo": "La Parrilla De Fuego Noches De Humor Cine Mexicano El Mil Máscaras",
-    "sta": "2026-11-08/10:00",
+    "titulo": "Noches De Humor Jarocho",
+    "sta": "2026-11-08/05:00",
+    "end": "2026-11-08/11:00"
+  },
+  {
+    "titulo": "Noches De Humor",
+    "sta": "2026-11-08/11:00",
     "end": "2026-11-08/13:00"
   },
   {
@@ -390,18 +320,33 @@
     "end": "2026-11-08/16:00"
   },
   {
-    "titulo": "C I N E M E X I C A N O : 3 0 El T U N C O M A C L O Vio : 4 5 G R A B A D O 1 7 A : 1 5 : 3 0 : 4 5 Al Bailongo",
+    "titulo": "Cine Mexicano El Tunco Maclovio A",
     "sta": "2026-11-08/16:00",
-    "end": "2026-11-08/19:30"
+    "end": "2026-11-08/19:00"
   },
   {
-    "titulo": "Veredicto Final Indio Yandú Noches De Humor Jarocho Sus A N A A D I C C Ión : 1 5 R E P E T I C I Ó N B - 1 5 : 3 0 2 2 Es De No C H E Y Y A Llegué : 1 5 G R A B A D O B - 1 5 : 3 0 : 4 5 Veredicto Final",
-    "sta": "2026-11-08/19:30",
-    "end": "2026-11-08/22:45"
+    "titulo": "Veredicto Final",
+    "sta": "2026-11-08/19:00",
+    "end": "2026-11-08/20:00"
   },
   {
-    "titulo": "*Sap Ultima Actualización: 30/10/2026 15:35:44",
-    "sta": "2026-11-08/22:45",
+    "titulo": "Indio Yandú",
+    "sta": "2026-11-08/20:00",
+    "end": "2026-11-08/21:00"
+  },
+  {
+    "titulo": "Susana Adicción",
+    "sta": "2026-11-08/21:00",
+    "end": "2026-11-08/22:00"
+  },
+  {
+    "titulo": "Es De Noche Y Ya Llegué",
+    "sta": "2026-11-08/22:00",
+    "end": "2026-11-08/23:00"
+  },
+  {
+    "titulo": "Veredicto Final",
+    "sta": "2026-11-08/23:00",
     "end": "2026-11-09/00:00"
   }
 ]

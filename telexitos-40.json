@@ -1,50 +1,5 @@
 [
   {
-    "titulo": "Caso cerrado / Delatada con el ICE; Infelices los cuatro",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-05/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "12 corazones / Especial grupero",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "12 corazones / Gogo dancers",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / X-MEN",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
     "titulo": "Programa pagado",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/05:30"
@@ -1348,5 +1303,50 @@
     "titulo": "Será anunciado",
     "sta": "2026-11-13/22:00",
     "end": "2026-11-13/23:00"
+  },
+  {
+    "titulo": "Caso cerrado / Refugio seguro; Falso crimen de odio",
+    "sta": "2026-11-13/23:00",
+    "end": "2026-11-14/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/00:00",
+    "end": "2026-11-14/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/00:30",
+    "end": "2026-11-14/01:00"
+  },
+  {
+    "titulo": "La Dr. Polo vida sin límites",
+    "sta": "2026-11-14/01:00",
+    "end": "2026-11-14/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/01:30",
+    "end": "2026-11-14/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial norteño",
+    "sta": "2026-11-14/02:00",
+    "end": "2026-11-14/03:00"
+  },
+  {
+    "titulo": "12 corazones / Especial de escuela",
+    "sta": "2026-11-14/03:00",
+    "end": "2026-11-14/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / Hija contra madre",
+    "sta": "2026-11-14/04:00",
+    "end": "2026-11-14/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/04:30",
+    "end": "2026-11-14/05:00"
   }
 ]

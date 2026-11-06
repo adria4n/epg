@@ -1,40 +1,5 @@
 [
   {
-    "titulo": "Comics Unleashed With Byron Allen / Courtney Cronin; Akeem Woods; Esteban Gast; Dale Jones",
-    "sta": "2026-11-04/22:35",
-    "end": "2026-11-04/23:05"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Nicole Aimee Schreiber; Ron Funches; Jeff Garcia; Brent Pella",
-    "sta": "2026-11-04/23:05",
-    "end": "2026-11-04/23:37"
-  },
-  {
-    "titulo": "Funny You Should Ask / Jamie Kennedy; Loni Love; Adam Carolla; Byron Allen; Michelle Collins; Gary Owen",
-    "sta": "2026-11-04/23:37",
-    "end": "2026-11-05/00:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-05/00:07",
-    "end": "2026-11-05/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-05/00:37",
-    "end": "2026-11-05/01:07"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-05/01:07",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/07:00"
@@ -1298,5 +1263,65 @@
     "titulo": "Comics Unleashed With Byron Allen",
     "sta": "2026-11-13/22:35",
     "end": "2026-11-13/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen",
+    "sta": "2026-11-13/23:05",
+    "end": "2026-11-13/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-13/23:37",
+    "end": "2026-11-14/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-14/00:07",
+    "end": "2026-11-14/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/00:37",
+    "end": "2026-11-14/01:07"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/01:07",
+    "end": "2026-11-14/01:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/01:37",
+    "end": "2026-11-14/02:00"
+  },
+  {
+    "titulo": "Whacked Out Sports",
+    "sta": "2026-11-14/02:00",
+    "end": "2026-11-14/02:30"
+  },
+  {
+    "titulo": "Whacked Out Sports",
+    "sta": "2026-11-14/02:30",
+    "end": "2026-11-14/03:00"
+  },
+  {
+    "titulo": "Military Makeover / The Maney Family's Big Reveal",
+    "sta": "2026-11-14/03:00",
+    "end": "2026-11-14/03:30"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-14/03:30",
+    "end": "2026-11-14/04:00"
+  },
+  {
+    "titulo": "Teen Kids News",
+    "sta": "2026-11-14/04:00",
+    "end": "2026-11-14/04:30"
+  },
+  {
+    "titulo": "InvestigateTV+ Weekend",
+    "sta": "2026-11-14/04:30",
+    "end": "2026-11-14/05:00"
   }
 ]
