@@ -6,6 +6,7 @@ import re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/uou6gl9albplewc5v0pnk/mi-tv.txt?rlkey=8uroll28a4wsgrs8q1ow1s58m"
 TZ = ZoneInfo("America/Mexico_City")
@@ -59,22 +60,32 @@ def scrape(channel, outfile):
             html = fetch_page(channel, date_str)
             progs = parse_items(html, datetime.combine(d, datetime.min.time(), tzinfo=TZ))
             all_programs.extend(progs)
-            print(f"  {date_str}: {len(progs)} programas", file=sys.stderr)
+            print(f"  {channel} {date_str}: {len(progs)} programas", file=sys.stderr)
         except Exception as e:
-            print(f"  Error en {date_str}: {e}", file=sys.stderr)
+            print(f"  Error en {channel} {date_str}: {e}", file=sys.stderr)
     all_programs.sort(key=lambda x: x["sta"])
     seen = set()
     unique = [p for p in all_programs if not (p["sta"] in seen or seen.add(p["sta"]))]
     with open(outfile, "w", encoding="utf-8") as f:
         json.dump(unique, f, indent=2, ensure_ascii=False)
     print(f"Listo: {len(unique)} programas en {outfile}", file=sys.stderr)
+    return len(unique)
 
 def main():
     canales = load_canales()
-    for canal in canales:
-        channel = canal.get("id", "")
-        outfile = canal.get("json", f"{channel}.json")
-        scrape(channel, outfile)
+    print(f"Procesando {len(canales)} canales en paralelo (sin límite)...", file=sys.stderr)
+
+    with ThreadPoolExecutor() as executor:
+        futures = {
+            executor.submit(scrape, canal.get("id", ""), canal.get("json", f"{canal.get('id', '')}.json")): canal
+            for canal in canales
+        }
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                canal = futures[future]
+                print(f"Error en canal {canal.get('id')}: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
