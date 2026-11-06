@@ -21,110 +21,102 @@ def download_pdf(url, dest="temp_programacion.pdf"):
 def clean_title(raw):
     title = str(raw).replace("\n", " ").strip()
     title = re.sub(r'\s+', ' ', title)
-    title = re.sub(r'\b(GRABADO|REPETICIÓN|REPETICION|EN VIVO|VIVO|LOCAL)\b', '', title, flags=re.IGNORECASE)
-    title = re.sub(r'\s+(A|B|AA|B-15|B15|C|D)\s*$', '', title)
-    title = re.sub(r'\s+(A|B)\b', ' ', title)
+    title = re.sub(r'\b(GRABADO|REPETICIÓN|REPETICION|EN VIVO|VIVO|LOCAL|REPETICI[OÓ]N)\b', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s+(A|B|AA|B-15|B15|C)\s*$', '', title)
     title = re.sub(r'\s+', ' ', title).strip(" -.,")
     if not title:
         return ""
     return title.title()
 
 def parse_pdf_schedule(pdf_path):
-    programs_por_dia = {i: [] for i in range(7)}
     base_date = datetime(2026, 11, 2, tzinfo=TZ)
+    programs = []
     with pdfplumber.open(pdf_path) as pdf:
         page = pdf.pages[0]
-        words = page.extract_words(x_tolerance=2, y_tolerance=3, keep_blank_chars=False)
-        if not words:
-            return []
-        words = sorted(words, key=lambda w: (round(w["top"] / 5) * 5, w["x0"]))
-        rows = []
+        words = page.extract_words(x_tolerance=2, y_tolerance=3)
+        time_marks = []
         for w in words:
-            placed = False
-            for r in rows:
-                if abs(w["top"] - r[0]["top"]) < 8:
-                    r.append(w)
-                    placed = True
-                    break
-            if not placed:
-                rows.append([w])
-        rows = sorted(rows, key=lambda r: min(w["top"] for w in r))
-        header_idx = -1
-        header_xs = []
-        for idx, r in enumerate(rows):
-            texts = [w["text"].upper() for w in r]
-            joined = " ".join(texts)
-            if "LUNES" in joined and "MARTES" in joined:
-                header_idx = idx
-                header_xs = sorted([w["x0"] for w in r if w["text"].upper() in ["LUNES", "MARTES", "MIERCOLES", "MIÉRCOLES", "JUEVES", "VIERNES", "SABADO", "SÁBADO", "DOMINGO"]])
-                break
-        if header_idx == -1:
+            if re.match(r'^\d{1,2}:\d{2}$', w["text"]):
+                if w["x0"] < 90 or w["x0"] > page.width - 90:
+                    h, m = map(int, w["text"].split(":"))
+                    time_marks.append((w["top"], h * 60 + m))
+        time_marks = sorted(set(time_marks))
+        def top_to_minutes(top):
+            best = time_marks[0][1]
+            best_d = abs(top - time_marks[0][0])
+            for t, mins in time_marks:
+                d = abs(top - t)
+                if d < best_d:
+                    best_d = d
+                    best = mins
+            return best
+        def minutes_to_dt(day_offset, mins):
+            return (base_date + timedelta(days=day_offset)).replace(hour=mins // 60, minute=mins % 60, second=0, microsecond=0)
+        header_words = [w for w in words if w["text"].upper() in ["LUNES", "MARTES", "MIÉRCOLES", "MIERCOLES", "JUEVES", "VIERNES", "SÁBADO", "SABADO", "DOMINGO"]]
+        header_words = sorted(header_words, key=lambda w: w["x0"])
+        day_centers = [w["x0"] + (w["x1"] - w["x0"]) / 2 for w in header_words]
+        tables = page.find_tables(table_settings={"vertical_strategy": "lines", "horizontal_strategy": "lines", "snap_tolerance": 4, "join_tolerance": 4, "edge_min_length": 20})
+        if not tables:
             return []
-        col_bounds = []
-        for i, x in enumerate(header_xs):
-            x_start = x - 10
-            x_end = header_xs[i + 1] - 10 if i + 1 < len(header_xs) else page.width
-            col_bounds.append((x_start, x_end))
-        time_x_limit = header_xs[0] - 10
-        last_hour = 0
-        last_titles = [""] * 7
-        for r in rows[header_idx + 1:]:
-            r_sorted = sorted(r, key=lambda w: w["x0"])
-            time_words = [w for w in r_sorted if w["x0"] < time_x_limit]
-            time_text = "".join([w["text"] for w in time_words]).strip()
-            m_full = re.match(r'^(\d{1,2}):(\d{2})$', time_text)
-            m_min = re.match(r'^:(\d{2})$', time_text)
-            if m_full:
-                hour = int(m_full.group(1))
-                minute = int(m_full.group(2))
-                last_hour = hour
-            elif m_min:
-                hour = last_hour
-                minute = int(m_min.group(1))
-            else:
-                continue
-            if not (0 <= hour <= 23 and 0 <= minute <= 59):
-                continue
-            for day_offset in range(7):
-                xs, xe = col_bounds[day_offset]
-                cell_words = [w for w in r_sorted if xs <= w["x0"] < xe]
-                cell_text = " ".join([w["text"] for w in sorted(cell_words, key=lambda w: w["x0"])])
-                cell_text = cell_text.strip()
-                if not cell_text:
-                    continue
-                title = clean_title(cell_text)
-                if len(title) < 3:
-                    continue
-                if title == last_titles[day_offset]:
-                    continue
-                last_titles[day_offset] = title
-                start = base_date.replace(hour=hour, minute=minute, second=0, microsecond=0) + timedelta(days=day_offset)
-                programs_por_dia[day_offset].append((start, title))
-    programs = []
-    for day_offset in range(7):
-        dia = sorted(programs_por_dia[day_offset], key=lambda x: x[0])
-        dedup = []
+        table = tables[0]
         seen = set()
-        for start, title in dia:
-            key = (start, title)
-            if key not in seen:
-                seen.add(key)
-                dedup.append((start, title))
-        dia = dedup
-        for i, (start, title) in enumerate(dia):
-            if i + 1 < len(dia):
-                end = dia[i + 1][0]
+        for cell in table.cells:
+            x0, top, x1, bottom = cell
+            text = page.crop((x0, top, x1, bottom)).extract_text() or ""
+            text = text.strip()
+            if not text:
+                continue
+            if re.match(r'^\d{1,2}:\d{2}$', text):
+                continue
+            if "LUNES" in text.upper() and "MARTES" in text.upper():
+                continue
+            if text.upper() in ["LUNES", "MARTES", "MIÉRCOLES", "MIERCOLES", "JUEVES", "VIERNES", "SÁBADO", "SABADO", "DOMINGO"]:
+                continue
+            title = clean_title(text)
+            if len(title) < 3:
+                continue
+            cx = (x0 + x1) / 2
+            days = []
+            for i, dc in enumerate(day_centers):
+                if i == 0:
+                    left = 80
+                else:
+                    left = (day_centers[i - 1] + dc) / 2
+                if i == len(day_centers) - 1:
+                    right = page.width - 40
+                else:
+                    right = (dc + day_centers[i + 1]) / 2
+                if left <= x0 < right or left < x1 <= right or (x0 <= left and x1 >= right):
+                    days.append(i)
+                elif x0 <= dc <= x1:
+                    if i not in days:
+                        days.append(i)
+            if not days:
+                dists = [(abs(cx - dc), i) for i, dc in enumerate(day_centers)]
+                days = [min(dists)[1]]
+            start_mins = top_to_minutes(top)
+            end_mins = top_to_minutes(bottom)
+            if end_mins <= start_mins:
+                end_mins = start_mins + 60
+            for d in days:
+                start = minutes_to_dt(d, start_mins)
+                end = minutes_to_dt(d, end_mins)
                 if end <= start:
                     continue
-            else:
-                end = (start + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0)
-            programs.append({
-                "titulo": title,
-                "sta": start.strftime("%Y-%m-%d/%H:%M"),
-                "end": end.strftime("%Y-%m-%d/%H:%M"),
-            })
-    programs.sort(key=lambda x: x["sta"])
-    return programs
+                if end.hour == 0 and end.minute == 0 and start_mins > 0:
+                    pass
+                if start_mins == 0 and end_mins == 0:
+                    continue
+                key = (start, end, title, d)
+                if key in seen:
+                    continue
+                seen.add(key)
+                programs.append({"titulo": title, "sta": start.strftime("%Y-%m-%d/%H:%M"), "end": end.strftime("%Y-%m-%d/%H:%M"), "_d": d})
+    programs = sorted(programs, key=lambda x: (x["sta"], x["_d"]))
+    out = []
+    for p in programs:
+        out.append({"titulo": p["titulo"], "sta": p["sta"], "end": p["end"]})
+    return out
 
 def main():
     try:
@@ -137,8 +129,9 @@ def main():
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
             json.dump(programs, f, indent=2, ensure_ascii=False)
         print(f"Listo: {len(programs)} programas en {OUTPUT_FILE}", file=sys.stderr)
-        for p in programs[:20]:
-            print(f"  {p['sta']} - {p['end']} - {p['titulo']}", file=sys.stderr)
+        for p in programs:
+            if p["sta"].startswith("2026-11-06"):
+                print(f"  {p['sta']} - {p['end']} - {p['titulo']}", file=sys.stderr)
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)
