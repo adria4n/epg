@@ -6,6 +6,7 @@ import urllib.request
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 CANALES_URL = "https://dl.dropbox.com/scl/fi/g31egmv8b3ik4esbe3vlq/star-tv-stream.txt?rlkey=gz8qjwx3qgj6qogtsvmtjqzi1"
 TZ = ZoneInfo("America/Mexico_City")
@@ -46,11 +47,11 @@ def fetch_epg(context, host, uuid, cid, lineup, now):
                 if not items:
                     break
                 all_items.extend(items)
-                print(f"  {day.date()}: {len(items)} programas", file=sys.stderr)
+                print(f"  {cid} {day.date()}: {len(items)} programas", file=sys.stderr)
             else:
                 break
         except Exception as e:
-            print(f"  Error {day.date()}: {e}", file=sys.stderr)
+            print(f"  Error {cid} {day.date()}: {e}", file=sys.stderr)
             break
         day_offset += 1
     return all_items
@@ -63,7 +64,7 @@ def scrape(cid):
             locale="es-MX"
         )
         page = context.new_page()
-        print("Cargando...", file=sys.stderr)
+        print(f"Cargando {cid}...", file=sys.stderr)
         page.goto("https://edgelb.stargroup.com.mx/web/startv/#spa/login", wait_until="networkidle", timeout=60000)
         page.wait_for_timeout(3000)
         page.get_by_text("EXPLORAR CANALES").click()
@@ -89,16 +90,15 @@ def scrape(cid):
         uuid = info.get("uuid")
         lineup = info.get("lineup")
         if not host or not uuid or not lineup:
-            print("No se obtuvo host, UUID o lineup", file=sys.stderr)
+            print(f"No se obtuvo host, UUID o lineup para {cid}", file=sys.stderr)
             browser.close()
             return []
-        print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
+        print(f"Host: {host} | UUID: {uuid} | Lineup: {lineup} | CID: {cid}", file=sys.stderr)
         now = datetime.now(TZ)
-        print(f"Usando ID: {cid}", file=sys.stderr)
         all_items = fetch_epg(context, host, uuid, cid, lineup, now)
         browser.close()
         if not all_items:
-            print("Sin datos", file=sys.stderr)
+            print(f"Sin datos para {cid}", file=sys.stderr)
             return []
         seen = set()
         programs = []
@@ -123,18 +123,34 @@ def scrape(cid):
         print(f"Total: {len(programs)} programas (CID: {cid})", file=sys.stderr)
         return programs
 
+def process_canal(canal):
+    cid = str(canal.get("id", "")).strip()
+    outfile = canal.get("json", f"{cid}.json")
+    programs = scrape(cid)
+    if programs:
+        with open(outfile, "w", encoding="utf-8") as f:
+            json.dump(programs, f, indent=2, ensure_ascii=False)
+        print(f"Listo: {len(programs)} en {outfile}", file=sys.stderr)
+        return len(programs)
+    else:
+        print(f"Sin resultados para {cid}", file=sys.stderr)
+        return 0
+
 def main():
     canales = load_canales()
-    for canal in canales:
-        cid = str(canal.get("id", "")).strip()
-        outfile = canal.get("json", f"{cid}.json")
-        programs = scrape(cid)
-        if programs:
-            with open(outfile, "w", encoding="utf-8") as f:
-                json.dump(programs, f, indent=2, ensure_ascii=False)
-            print(f"Listo: {len(programs)} en {outfile}", file=sys.stderr)
-        else:
-            print("Sin resultados", file=sys.stderr)
+    print(f"Procesando {len(canales)} canales en paralelo (sin límite)...", file=sys.stderr)
+
+    with ThreadPoolExecutor() as executor:
+        futures = {
+            executor.submit(process_canal, canal): canal
+            for canal in canales
+        }
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                canal = futures[future]
+                print(f"Error en canal {canal.get('id')}: {e}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
