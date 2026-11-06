@@ -1,6 +1,56 @@
 [
   {
     "titulo": "Programa pagado",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/00:30",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "La Dr. Polo vida sin límites",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/01:30",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "12 corazones / Especial grupero",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "12 corazones / Gogo dancers",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Caso cerrado / X-MEN",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/05:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/05:30",
+    "end": "2026-11-05/06:00"
+  },
+  {
+    "titulo": "Programa pagado",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/06:30"
   },
@@ -1148,55 +1198,5 @@
     "titulo": "Caso cerrado / Perseguido por el pasado; Persiguiendo la verdad",
     "sta": "2026-11-12/23:00",
     "end": "2026-11-13/00:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/00:00",
-    "end": "2026-11-13/00:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/00:30",
-    "end": "2026-11-13/01:00"
-  },
-  {
-    "titulo": "La Dr. Polo vida sin límites",
-    "sta": "2026-11-13/01:00",
-    "end": "2026-11-13/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/01:30",
-    "end": "2026-11-13/02:00"
-  },
-  {
-    "titulo": "12 corazones / Green special",
-    "sta": "2026-11-13/02:00",
-    "end": "2026-11-13/03:00"
-  },
-  {
-    "titulo": "12 corazones / Soltero más codiciado",
-    "sta": "2026-11-13/03:00",
-    "end": "2026-11-13/04:00"
-  },
-  {
-    "titulo": "Caso cerrado / Doméstica explotada",
-    "sta": "2026-11-13/04:00",
-    "end": "2026-11-13/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/04:30",
-    "end": "2026-11-13/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/05:00",
-    "end": "2026-11-13/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/05:30",
-    "end": "2026-11-13/06:00"
   }
 ]

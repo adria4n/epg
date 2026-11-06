@@ -1,5 +1,50 @@
 [
   {
+    "titulo": "Como dice el dicho / El que mucho abarca, poco aprieta",
+    "sta": "2026-11-05/00:00",
+    "end": "2026-11-05/01:00"
+  },
+  {
+    "titulo": "La herencia, un legado de amor / Bebé en peligro",
+    "sta": "2026-11-05/01:00",
+    "end": "2026-11-05/02:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/02:00",
+    "end": "2026-11-05/02:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/02:30",
+    "end": "2026-11-05/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/03:00",
+    "end": "2026-11-05/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/03:30",
+    "end": "2026-11-05/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:00",
+    "end": "2026-11-05/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-05/04:30",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "Esta historia me suena / Con los ojos cerrados",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
     "titulo": "El Chavo Animado / La feria",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/06:30"
@@ -1103,55 +1148,5 @@
     "titulo": "Como dice el dicho / Si crees que eres un león, no actúes como un ratón",
     "sta": "2026-11-12/23:00",
     "end": "2026-11-13/00:00"
-  },
-  {
-    "titulo": "El Chapulín Colorado / Cuando los gemelos no son buenos cuates",
-    "sta": "2026-11-13/00:00",
-    "end": "2026-11-13/00:30"
-  },
-  {
-    "titulo": "El Chapulín Colorado / Las momias no se venden a, pero como se vendan",
-    "sta": "2026-11-13/00:30",
-    "end": "2026-11-13/01:00"
-  },
-  {
-    "titulo": "La herencia, un legado de amor / Familia unida",
-    "sta": "2026-11-13/01:00",
-    "end": "2026-11-13/02:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/02:00",
-    "end": "2026-11-13/02:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/02:30",
-    "end": "2026-11-13/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/03:00",
-    "end": "2026-11-13/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/03:30",
-    "end": "2026-11-13/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/04:00",
-    "end": "2026-11-13/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-13/04:30",
-    "end": "2026-11-13/05:00"
-  },
-  {
-    "titulo": "Esta historia me suena / Todavía",
-    "sta": "2026-11-13/05:00",
-    "end": "2026-11-13/06:00"
   }
 ]

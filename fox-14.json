@@ -1,5 +1,65 @@
 [
   {
+    "titulo": "Extra",
+    "sta": "2026-11-04/23:35",
+    "end": "2026-11-05/00:05"
+  },
+  {
+    "titulo": "iCRIME With Elizabeth Vargas / Cop Gets Frisky with Arrestee; Suspect Skates Away After Armed Robbery at Gas Station",
+    "sta": "2026-11-05/00:05",
+    "end": "2026-11-05/00:35"
+  },
+  {
+    "titulo": "Live PD Presents",
+    "sta": "2026-11-05/00:35",
+    "end": "2026-11-05/01:05"
+  },
+  {
+    "titulo": "Crime Exposé With Nancy O'Dell",
+    "sta": "2026-11-05/01:05",
+    "end": "2026-11-05/01:35"
+  },
+  {
+    "titulo": "The Simpsons / Men Behaving Manly",
+    "sta": "2026-11-05/01:35",
+    "end": "2026-11-05/02:05"
+  },
+  {
+    "titulo": "The Simpsons / Homer Goes to Prep School",
+    "sta": "2026-11-05/02:05",
+    "end": "2026-11-05/02:33"
+  },
+  {
+    "titulo": "Extra",
+    "sta": "2026-11-05/02:33",
+    "end": "2026-11-05/03:03"
+  },
+  {
+    "titulo": "Two and a Half Men / A Low, Guttural Tongue-Flapping Noise",
+    "sta": "2026-11-05/03:03",
+    "end": "2026-11-05/03:32"
+  },
+  {
+    "titulo": "Hot Bench / Not-So-Happy Camper",
+    "sta": "2026-11-05/03:32",
+    "end": "2026-11-05/04:02"
+  },
+  {
+    "titulo": "Cutlers Court / Levy vs. Goldberg",
+    "sta": "2026-11-05/04:02",
+    "end": "2026-11-05/04:31"
+  },
+  {
+    "titulo": "Business First With Angela Miles / Movies & Money; Bond Market Money Report",
+    "sta": "2026-11-05/04:31",
+    "end": "2026-11-05/05:00"
+  },
+  {
+    "titulo": "The National News Desk",
+    "sta": "2026-11-05/05:00",
+    "end": "2026-11-05/06:00"
+  },
+  {
     "titulo": "KFOX14 Morning News",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/07:00"
@@ -1228,60 +1288,5 @@
     "titulo": "Extra",
     "sta": "2026-11-12/23:35",
     "end": "2026-11-13/00:05"
-  },
-  {
-    "titulo": "iCRIME With Elizabeth Vargas / Fight in Dick's Westfield Mall; Thief Caught Dancing on Security Footage",
-    "sta": "2026-11-13/00:05",
-    "end": "2026-11-13/00:35"
-  },
-  {
-    "titulo": "Live PD Presents",
-    "sta": "2026-11-13/00:35",
-    "end": "2026-11-13/01:05"
-  },
-  {
-    "titulo": "Crime Exposé With Nancy O'Dell",
-    "sta": "2026-11-13/01:05",
-    "end": "2026-11-13/01:35"
-  },
-  {
-    "titulo": "The Simpsons / Aunt Misbehavin'",
-    "sta": "2026-11-13/01:35",
-    "end": "2026-11-13/02:05"
-  },
-  {
-    "titulo": "The Simpsons / What Animated Women Want",
-    "sta": "2026-11-13/02:05",
-    "end": "2026-11-13/02:33"
-  },
-  {
-    "titulo": "Extra",
-    "sta": "2026-11-13/02:33",
-    "end": "2026-11-13/03:03"
-  },
-  {
-    "titulo": "Two and a Half Men / Weekend in Bangkok With Two Olympic Gymnasts",
-    "sta": "2026-11-13/03:03",
-    "end": "2026-11-13/03:32"
-  },
-  {
-    "titulo": "Hot Bench / Family Truckus",
-    "sta": "2026-11-13/03:32",
-    "end": "2026-11-13/04:02"
-  },
-  {
-    "titulo": "Cutlers Court / The DNA Verdict",
-    "sta": "2026-11-13/04:02",
-    "end": "2026-11-13/04:31"
-  },
-  {
-    "titulo": "Business First With Angela Miles / Top That Trade Game With Alan Knuckman & Phil Flynn",
-    "sta": "2026-11-13/04:31",
-    "end": "2026-11-13/05:00"
-  },
-  {
-    "titulo": "The National News Desk",
-    "sta": "2026-11-13/05:00",
-    "end": "2026-11-13/06:00"
   }
 ]
