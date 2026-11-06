@@ -1,45 +1,5 @@
 [
   {
-    "titulo": "Fugitivas",
-    "sta": "2026-11-04/23:00",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "Como dice el dicho / El que mucho abarca, poco aprieta",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "Primeras citas",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
     "titulo": "Esta historia me suena / Con los ojos cerrados",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/07:00"
@@ -1093,5 +1053,35 @@
     "titulo": "Noche de estrellas: Latin Grammy",
     "sta": "2026-11-12/23:00",
     "end": "2026-11-13/00:00"
+  },
+  {
+    "titulo": "Latin Grammy 2026",
+    "sta": "2026-11-13/00:00",
+    "end": "2026-11-13/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/03:00",
+    "end": "2026-11-13/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/03:30",
+    "end": "2026-11-13/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:00",
+    "end": "2026-11-13/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-13/04:30",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/06:00"
   }
 ]

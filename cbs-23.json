@@ -1,30 +1,5 @@
 [
   {
-    "titulo": "Funny You Should Ask / Jamie Kennedy; Loni Love; Adam Carolla; Byron Allen; Michelle Collins; Gary Owen",
-    "sta": "2026-11-04/23:37",
-    "end": "2026-11-05/00:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-05/00:07",
-    "end": "2026-11-05/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-05/00:37",
-    "end": "2026-11-05/01:07"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-05/01:07",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-05/05:00",
     "end": "2026-11-05/07:00"
@@ -1153,5 +1128,30 @@
     "titulo": "Funny You Should Ask",
     "sta": "2026-11-12/23:37",
     "end": "2026-11-13/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-13/00:07",
+    "end": "2026-11-13/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-13/00:37",
+    "end": "2026-11-13/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-13/01:07",
+    "end": "2026-11-13/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-13/04:30",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "CBS4 Morning News",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/07:00"
   }
 ]
