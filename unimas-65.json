@@ -1,10 +1,5 @@
 [
   {
-    "titulo": "Veredicto final",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
     "titulo": "Esta historia me suena / Con los ojos cerrados",
     "sta": "2026-11-05/06:00",
     "end": "2026-11-05/07:00"
@@ -1083,5 +1078,10 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-13/04:30",
     "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Veredicto final",
+    "sta": "2026-11-13/05:00",
+    "end": "2026-11-13/06:00"
   }
 ]
