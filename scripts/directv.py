@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-EPG DSPORTS - Canales 1610, 1612, 1613
+EPG DSPORTS - 1610, 1612, 1613
 https://www.directvsports.com/programacion/
 """
 
@@ -12,90 +12,73 @@ from playwright.sync_api import sync_playwright
 
 TZ = ZoneInfo("America/Mexico_City")
 URL = "https://www.directvsports.com/programacion/"
-
-# Canales que quieres
-CANALES = {
-    "1610": "DSPORTS",
-    "1612": "DSPORTS 2",
-    "1613": "DSPORTS+",
-}
-
-def extract_grid(page):
-    """Extrae programas visibles del grid actual"""
-    return page.evaluate("""
-        () => {
-            const result = {};
-            // Ajusta los selectores según el DOM real (inspecciona con DevTools)
-            document.querySelectorAll('[class*="channel"], [class*="row"], .epg-row, tr').forEach(row => {
-                const numEl = row.querySelector('[class*="number"], .channel-number, .num');
-                if (!numEl) return;
-                const num = (numEl.innerText || '').trim();
-                if (!['1610','1612','1613'].includes(num)) return;
-
-                const programs = [];
-                row.querySelectorAll('[class*="program"], .event, .show, td:not(.channel)').forEach(cell => {
-                    const title = (cell.innerText || '').trim();
-                    if (title && title.length > 2) {
-                        programs.push(title);
-                    }
-                });
-                if (programs.length) result[num] = programs;
-            });
-            return result;
-        }
-    """)
+CANALES = ["1610", "1612", "1613"]
 
 def main():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=False)  # headless=False para que veas que funciona
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             locale="es-MX",
             viewport={"width": 1400, "height": 900}
         )
         page = context.new_page()
+        print("Abriendo página...", file=sys.stderr)
+        page.goto(URL, wait_until="networkidle", timeout=90000)
+        page.wait_for_timeout(6000)
 
-        print("Cargando programación DSPORTS...", file=sys.stderr)
-        page.goto(URL, wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(5000)
-
-        # Cerrar posibles modales / aceptar cookies si aparecen
-        for txt in ["Aceptar", "Continuar", "Cerrar", "OK"]:
+        # Cerrar modales si aparecen
+        for txt in ["Aceptar", "Continuar", "Cerrar", "OK", "Acepto"]:
             try:
-                page.get_by_text(txt, exact=False).first.click(timeout=2000)
+                page.get_by_text(txt, exact=False).first.click(timeout=1500)
             except:
                 pass
 
-        all_programs = {}
+        results = {c: [] for c in CANALES}
 
-        # Días a scrapear (HOY + siguientes)
-        days = ["HOY", "DOM, 8 NOV.", "LUN, 9 NOV.", "MAR, 10 NOV.", "MIÉ, 11 NOV.", "JUE, 12 NOV."]
+        # Días a procesar
+        dias = ["HOY", "DOM, 8 NOV.", "LUN, 9 NOV.", "MAR, 10 NOV.", "MIÉ, 11 NOV.", "JUE, 12 NOV."]
 
-        for day_label in days:
-            print(f"Procesando: {day_label}", file=sys.stderr)
+        for dia in dias:
+            print(f"Seleccionando {dia}...", file=sys.stderr)
             try:
-                # Abrir selector de día si está cerrado
                 page.get_by_text("HOY", exact=False).first.click(timeout=3000)
-                page.wait_for_timeout(800)
-                page.get_by_text(day_label, exact=False).first.click(timeout=5000)
-                page.wait_for_timeout(2500)
+                page.wait_for_timeout(500)
+                page.get_by_text(dia, exact=False).first.click(timeout=5000)
+                page.wait_for_timeout(3000)
             except Exception as e:
-                print(f"  No se pudo seleccionar {day_label}: {e}", file=sys.stderr)
+                print(f"  Error día {dia}: {e}", file=sys.stderr)
                 continue
 
-            grid = extract_grid(page)
-            for cid, titles in grid.items():
-                if cid not in all_programs:
-                    all_programs[cid] = []
-                all_programs[cid].extend(titles)
+            # Extraer programas de los canales
+            data = page.evaluate("""
+                (canales) => {
+                    const out = {};
+                    canales.forEach(c => out[c] = []);
+                    // Busca filas que contengan el número de canal
+                    document.querySelectorAll('div, tr, section').forEach(el => {
+                        const text = el.innerText || '';
+                        for (const c of canales) {
+                            if (text.includes(c) && text.length < 500) {
+                                const lines = text.split('\\n').map(l => l.trim()).filter(l => l && l.length > 3 && !l.includes(c));
+                                if (lines.length) out[c].push(...lines);
+                            }
+                        }
+                    });
+                    return out;
+                }
+            """, CANALES)
+
+            for c in CANALES:
+                results[c].extend(data.get(c, []))
 
         browser.close()
 
-    # Generar JSON por canal (mismo formato que tu script original)
+    # Generar archivos JSON
     now = datetime.now(TZ)
-    for cid, titles in all_programs.items():
+    for cid in CANALES:
+        titles = list(dict.fromkeys(results[cid]))  # quitar duplicados manteniendo orden
         programs = []
-        # Aquí puedes mejorar el parseo de horas si el grid las expone
         base = now.replace(hour=0, minute=0, second=0, microsecond=0)
         for i, title in enumerate(titles):
             sta = base + timedelta(minutes=30 * i)
@@ -106,10 +89,10 @@ def main():
                 "end": end.strftime("%Y-%m-%d/%H:%M"),
             })
 
-        outfile = f"{cid}.json"
-        with open(outfile, "w", encoding="utf-8") as f:
+        fname = f"{cid}.json"
+        with open(fname, "w", encoding="utf-8") as f:
             json.dump(programs, f, indent=2, ensure_ascii=False)
-        print(f"Listo: {len(programs)} programas → {outfile}", file=sys.stderr)
+        print(f"{fname} → {len(programs)} programas", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
