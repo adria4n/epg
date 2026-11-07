@@ -1,156 +1,6 @@
 [
   {
     "titulo": "CBS4 Morning News",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "CBS Mornings",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/09:00"
-  },
-  {
-    "titulo": "The Perfect Line / Mindblowing!",
-    "sta": "2026-11-05/09:00",
-    "end": "2026-11-05/09:30"
-  },
-  {
-    "titulo": "The Perfect Line / In the Money",
-    "sta": "2026-11-05/09:30",
-    "end": "2026-11-05/10:00"
-  },
-  {
-    "titulo": "The Price Is Right",
-    "sta": "2026-11-05/10:00",
-    "end": "2026-11-05/11:00"
-  },
-  {
-    "titulo": "The Young and the Restless",
-    "sta": "2026-11-05/11:00",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "CBS4 News Live at Noon",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/12:30"
-  },
-  {
-    "titulo": "The Bold and the Beautiful",
-    "sta": "2026-11-05/12:30",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "Beyond the Gates",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Let's Make a Deal",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "Judy Justice / Love and Larceny and MS Client Sued by Aide",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/15:30"
-  },
-  {
-    "titulo": "Judy Justice / Wheels of Discord",
-    "sta": "2026-11-05/15:30",
-    "end": "2026-11-05/16:00"
-  },
-  {
-    "titulo": "Judge Judy / Unfriendly Car Crash; Man Claims Police Lied",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/16:30"
-  },
-  {
-    "titulo": "Judge Judy / Drug Cookie Crash; No Car, No Money",
-    "sta": "2026-11-05/16:30",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 5pm",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "CBS Evening News",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 6pm",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/18:30"
-  },
-  {
-    "titulo": "Wheel of Fortune",
-    "sta": "2026-11-05/18:30",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Georgie & Mandy's First Marriage / A Snotty Attitude and a Party on a School Night",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/19:31"
-  },
-  {
-    "titulo": "Eternally Yours / Steve's Dream",
-    "sta": "2026-11-05/19:31",
-    "end": "2026-11-05/20:01"
-  },
-  {
-    "titulo": "Elsbeth / A Bad Lie",
-    "sta": "2026-11-05/20:01",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "Cupertino / Celeste",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "CBS4 News Live at 10pm",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/22:35"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Salma Zaky; Daegen Asfaha; Tom Fox; Mayce Galoni",
-    "sta": "2026-11-05/22:35",
-    "end": "2026-11-05/23:05"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Alice Wetterlund; Dan Gabriel; Nick Guerra; Michael Yo",
-    "sta": "2026-11-05/23:05",
-    "end": "2026-11-05/23:37"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-05/23:37",
-    "end": "2026-11-06/00:07"
-  },
-  {
-    "titulo": "Funny You Should Ask",
-    "sta": "2026-11-06/00:07",
-    "end": "2026-11-06/00:37"
-  },
-  {
-    "titulo": "Paid Programming",
-    "sta": "2026-11-06/00:37",
-    "end": "2026-11-06/01:07"
-  },
-  {
-    "titulo": "CBS News Roundup",
-    "sta": "2026-11-06/01:07",
-    "end": "2026-11-06/04:30"
-  },
-  {
-    "titulo": "CBS News Mornings",
-    "sta": "2026-11-06/04:30",
-    "end": "2026-11-06/05:00"
-  },
-  {
-    "titulo": "CBS4 Morning News",
     "sta": "2026-11-06/05:00",
     "end": "2026-11-06/07:00"
   },
@@ -375,7 +225,7 @@
     "end": "2026-11-07/14:30"
   },
   {
-    "titulo": "College Football / Teams TBA",
+    "titulo": "College Football / Oregon at Ohio State",
     "sta": "2026-11-07/14:30",
     "end": "2026-11-07/18:00"
   },
@@ -825,17 +675,17 @@
     "end": "2026-11-10/22:35"
   },
   {
-    "titulo": "Comics Unleashed With Byron Allen",
+    "titulo": "Comics Unleashed With Byron Allen / Aida Rodriguez; Zako Ryan; DC Benny; Guy Torry",
     "sta": "2026-11-10/22:35",
     "end": "2026-11-10/23:05"
   },
   {
-    "titulo": "Comics Unleashed With Byron Allen",
+    "titulo": "Comics Unleashed With Byron Allen / Shawn Pelofsky; Chris Kattan; Dean Edwards; Kevin Sullivan",
     "sta": "2026-11-10/23:05",
     "end": "2026-11-10/23:37"
   },
   {
-    "titulo": "Funny You Should Ask",
+    "titulo": "Funny You Should Ask / Jamie Kennedy; Sheryl Underwood; Adam Carolla; Byron Allen; Caroline Rhea; Brad Williams",
     "sta": "2026-11-10/23:37",
     "end": "2026-11-11/00:07"
   },
@@ -965,17 +815,17 @@
     "end": "2026-11-11/22:35"
   },
   {
-    "titulo": "Comics Unleashed With Byron Allen",
+    "titulo": "Comics Unleashed With Byron Allen / Erica Spera; Ray Harrington; Anyi Malik; T.J. Miller",
     "sta": "2026-11-11/22:35",
     "end": "2026-11-11/23:05"
   },
   {
-    "titulo": "Comics Unleashed With Byron Allen",
+    "titulo": "Comics Unleashed With Byron Allen / Subhah Agarwal; Jamie Kaler; Drew Lynch; Dean Edwards",
     "sta": "2026-11-11/23:05",
     "end": "2026-11-11/23:37"
   },
   {
-    "titulo": "Funny You Should Ask",
+    "titulo": "Funny You Should Ask / Jamie Kennedy; Sheryl Underwood; Adam Carolla; Byron Allen; Caroline Rhea; Brad Williams",
     "sta": "2026-11-11/23:37",
     "end": "2026-11-12/00:07"
   },
@@ -1260,12 +1110,12 @@
     "end": "2026-11-13/22:35"
   },
   {
-    "titulo": "Comics Unleashed With Byron Allen",
+    "titulo": "Comics Unleashed With Byron Allen / Kim Congdon; Armando Anto; Brian Moses; Ahren Belisle",
     "sta": "2026-11-13/22:35",
     "end": "2026-11-13/23:05"
   },
   {
-    "titulo": "Comics Unleashed With Byron Allen",
+    "titulo": "Comics Unleashed With Byron Allen / Kyle Erby; Billy Gardell; Matt Kirshen; Sarah Tiana",
     "sta": "2026-11-13/23:05",
     "end": "2026-11-13/23:37"
   },

@@ -1,151 +1,6 @@
 [
   {
     "titulo": "Programa pagado",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/05:30",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/06:30",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/07:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/07:30",
-    "end": "2026-11-05/08:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-05/08:00",
-    "end": "2026-11-05/08:30"
-  },
-  {
-    "titulo": "Sunny Bunnies",
-    "sta": "2026-11-05/08:30",
-    "end": "2026-11-05/09:00"
-  },
-  {
-    "titulo": "Don Cheto al aire",
-    "sta": "2026-11-05/09:00",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "Retofamosos",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "Juana Gallo",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "Amar no es querer",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "Mi sueño es bailar",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Rica, famosa, latina",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/19:30"
-  },
-  {
-    "titulo": "Noticiero Estrella TV",
-    "sta": "2026-11-05/19:30",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Minuto para ganar",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "100 latinos dijeron",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "Tengo talento, mucho talento Kids",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/23:00"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Noticiero: Cierre de edición",
-    "sta": "2026-11-06/00:00",
-    "end": "2026-11-06/00:30"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-06/00:30",
-    "end": "2026-11-06/01:00"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-06/01:00",
-    "end": "2026-11-06/01:30"
-  },
-  {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-06/01:30",
-    "end": "2026-11-06/02:00"
-  },
-  {
-    "titulo": "Tengo talento, mucho talento Kids",
-    "sta": "2026-11-06/02:00",
-    "end": "2026-11-06/03:00"
-  },
-  {
-    "titulo": "Noticiero: Cierre de edición",
-    "sta": "2026-11-06/03:00",
-    "end": "2026-11-06/03:30"
-  },
-  {
-    "titulo": "24 horas",
-    "sta": "2026-11-06/03:30",
-    "end": "2026-11-06/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-06/04:00",
-    "end": "2026-11-06/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-06/04:30",
-    "end": "2026-11-06/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
     "sta": "2026-11-06/05:00",
     "end": "2026-11-06/05:30"
   },
@@ -670,22 +525,22 @@
     "end": "2026-11-09/09:00"
   },
   {
-    "titulo": "Retofamosos",
+    "titulo": "Don Cheto al aire",
     "sta": "2026-11-09/09:00",
-    "end": "2026-11-09/10:00"
-  },
-  {
-    "titulo": "Película",
-    "sta": "2026-11-09/10:00",
     "end": "2026-11-09/12:00"
   },
   {
-    "titulo": "Don Cheto al aire",
+    "titulo": "Retofamosos",
     "sta": "2026-11-09/12:00",
+    "end": "2026-11-09/13:00"
+  },
+  {
+    "titulo": "Los Cuatro Juanes",
+    "sta": "2026-11-09/13:00",
     "end": "2026-11-09/15:00"
   },
   {
-    "titulo": "Película",
+    "titulo": "Cilantro y Perejil",
     "sta": "2026-11-09/15:00",
     "end": "2026-11-09/17:00"
   },
@@ -720,7 +575,7 @@
     "end": "2026-11-09/22:00"
   },
   {
-    "titulo": "Tengo talento, mucho talento",
+    "titulo": "Tengo talento, mucho talento Kids",
     "sta": "2026-11-09/22:00",
     "end": "2026-11-09/23:00"
   },
@@ -750,7 +605,7 @@
     "end": "2026-11-10/02:00"
   },
   {
-    "titulo": "Tengo talento, mucho talento",
+    "titulo": "Tengo talento, mucho talento Kids",
     "sta": "2026-11-10/02:00",
     "end": "2026-11-10/03:00"
   },
