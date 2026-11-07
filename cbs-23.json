@@ -1,5 +1,40 @@
 [
   {
+    "titulo": "Comics Unleashed With Byron Allen / Salma Zaky; Daegen Asfaha; Tom Fox; Mayce Galoni",
+    "sta": "2026-11-05/22:35",
+    "end": "2026-11-05/23:05"
+  },
+  {
+    "titulo": "Comics Unleashed With Byron Allen / Alice Wetterlund; Dan Gabriel; Nick Guerra; Michael Yo",
+    "sta": "2026-11-05/23:05",
+    "end": "2026-11-05/23:37"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-05/23:37",
+    "end": "2026-11-06/00:07"
+  },
+  {
+    "titulo": "Funny You Should Ask",
+    "sta": "2026-11-06/00:07",
+    "end": "2026-11-06/00:37"
+  },
+  {
+    "titulo": "Paid Programming",
+    "sta": "2026-11-06/00:37",
+    "end": "2026-11-06/01:07"
+  },
+  {
+    "titulo": "CBS News Roundup",
+    "sta": "2026-11-06/01:07",
+    "end": "2026-11-06/04:30"
+  },
+  {
+    "titulo": "CBS News Mornings",
+    "sta": "2026-11-06/04:30",
+    "end": "2026-11-06/05:00"
+  },
+  {
     "titulo": "CBS4 Morning News",
     "sta": "2026-11-06/05:00",
     "end": "2026-11-06/07:00"
@@ -1258,55 +1293,5 @@
     "titulo": "Expedition Texas",
     "sta": "2026-11-14/22:35",
     "end": "2026-11-14/23:05"
-  },
-  {
-    "titulo": "The Equalizer / When Worlds Collide",
-    "sta": "2026-11-14/23:05",
-    "end": "2026-11-15/00:05"
-  },
-  {
-    "titulo": "The Equalizer / Separated",
-    "sta": "2026-11-15/00:05",
-    "end": "2026-11-15/01:05"
-  },
-  {
-    "titulo": "Jeopardy!",
-    "sta": "2026-11-15/01:05",
-    "end": "2026-11-15/01:35"
-  },
-  {
-    "titulo": "Texas Country Reporter",
-    "sta": "2026-11-15/01:35",
-    "end": "2026-11-15/02:05"
-  },
-  {
-    "titulo": "Judge Judy / Love Triangle Assault!; Can't Buy Me Love!",
-    "sta": "2026-11-15/02:05",
-    "end": "2026-11-15/02:35"
-  },
-  {
-    "titulo": "Judge Judy / Caught Cheating?; Landlord 101!",
-    "sta": "2026-11-15/02:35",
-    "end": "2026-11-15/03:05"
-  },
-  {
-    "titulo": "She's in the Game",
-    "sta": "2026-11-15/03:05",
-    "end": "2026-11-15/03:35"
-  },
-  {
-    "titulo": "Sports Stars of Tomorrow",
-    "sta": "2026-11-15/03:35",
-    "end": "2026-11-15/04:05"
-  },
-  {
-    "titulo": "Expedition Texas",
-    "sta": "2026-11-15/04:05",
-    "end": "2026-11-15/04:35"
-  },
-  {
-    "titulo": "Sport Fishing TV: State of the Ocean",
-    "sta": "2026-11-15/04:35",
-    "end": "2026-11-15/05:00"
   }
 ]

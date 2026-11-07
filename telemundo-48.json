@@ -1,5 +1,45 @@
 [
   {
+    "titulo": "Noticiero Telemundo 48",
+    "sta": "2026-11-05/23:00",
+    "end": "2026-11-05/23:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-05/23:35",
+    "end": "2026-11-06/00:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-06/00:00",
+    "end": "2026-11-06/00:30"
+  },
+  {
+    "titulo": "Eres mi luz / Como la pólvora",
+    "sta": "2026-11-06/00:30",
+    "end": "2026-11-06/01:30"
+  },
+  {
+    "titulo": "Caso cerrado / Amor a la muerte",
+    "sta": "2026-11-06/01:30",
+    "end": "2026-11-06/02:00"
+  },
+  {
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
+    "sta": "2026-11-06/02:00",
+    "end": "2026-11-06/03:00"
+  },
+  {
+    "titulo": "En casa con Telemundo / Anuel hace una promesa",
+    "sta": "2026-11-06/03:00",
+    "end": "2026-11-06/04:00"
+  },
+  {
+    "titulo": "La mesa caliente / Crecer entre redes sociales",
+    "sta": "2026-11-06/04:00",
+    "end": "2026-11-06/05:00"
+  },
+  {
     "titulo": "Caso cerrado / Turismo sexual",
     "sta": "2026-11-06/05:00",
     "end": "2026-11-06/05:30"
@@ -237,11 +277,11 @@
   {
     "titulo": "El pelotazo",
     "sta": "2026-11-08/00:00",
-    "end": "2026-11-08/00:30"
+    "end": "2026-11-08/01:30"
   },
   {
-    "titulo": "The Fast and the Furious: Tokyo Drift",
-    "sta": "2026-11-08/00:30",
+    "titulo": "Rocky Balboa",
+    "sta": "2026-11-08/01:30",
     "end": "2026-11-08/02:30"
   },
   {
@@ -1158,45 +1198,5 @@
     "titulo": "Rocky Balboa",
     "sta": "2026-11-14/21:00",
     "end": "2026-11-14/23:00"
-  },
-  {
-    "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-14/23:00",
-    "end": "2026-11-14/23:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-14/23:30",
-    "end": "2026-11-15/00:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-15/00:00",
-    "end": "2026-11-15/00:30"
-  },
-  {
-    "titulo": "Caso cerrado / Hija perdida",
-    "sta": "2026-11-15/00:30",
-    "end": "2026-11-15/01:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/01:30",
-    "end": "2026-11-15/02:00"
-  },
-  {
-    "titulo": "Bikinis y rock",
-    "sta": "2026-11-15/02:00",
-    "end": "2026-11-15/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/04:00",
-    "end": "2026-11-15/04:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-15/04:30",
-    "end": "2026-11-15/05:00"
   }
 ]

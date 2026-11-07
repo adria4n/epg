@@ -1,5 +1,50 @@
 [
   {
+    "titulo": "El señor de los cielos / Alerta entre los Casillas",
+    "sta": "2026-11-05/23:00",
+    "end": "2026-11-06/00:00"
+  },
+  {
+    "titulo": "Lejos de ti / Es cosa del pasado",
+    "sta": "2026-11-06/00:00",
+    "end": "2026-11-06/01:00"
+  },
+  {
+    "titulo": "Noticiero Telemundo 20 a las 11pm",
+    "sta": "2026-11-06/01:00",
+    "end": "2026-11-06/01:35"
+  },
+  {
+    "titulo": "Noticias Telemundo en la noche",
+    "sta": "2026-11-06/01:35",
+    "end": "2026-11-06/02:00"
+  },
+  {
+    "titulo": "El pelotazo",
+    "sta": "2026-11-06/02:00",
+    "end": "2026-11-06/02:30"
+  },
+  {
+    "titulo": "Eres mi luz / Como la pólvora",
+    "sta": "2026-11-06/02:30",
+    "end": "2026-11-06/03:30"
+  },
+  {
+    "titulo": "Caso cerrado / Amor a la muerte",
+    "sta": "2026-11-06/03:30",
+    "end": "2026-11-06/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/04:00",
+    "end": "2026-11-06/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-06/04:30",
+    "end": "2026-11-06/05:00"
+  },
+  {
     "titulo": "Programa pagado",
     "sta": "2026-11-06/05:00",
     "end": "2026-11-06/05:30"
@@ -65,17 +110,17 @@
     "end": "2026-11-06/15:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Cruce de ataques",
     "sta": "2026-11-06/15:00",
     "end": "2026-11-06/16:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Cruce de ataques",
     "sta": "2026-11-06/16:00",
     "end": "2026-11-06/17:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / El placer de cocinarte",
     "sta": "2026-11-06/17:00",
     "end": "2026-11-06/18:00"
   },
@@ -105,7 +150,7 @@
     "end": "2026-11-06/21:01"
   },
   {
-    "titulo": "Juego de villanos",
+    "titulo": "Juego de villanos / Muerte súbita",
     "sta": "2026-11-06/21:01",
     "end": "2026-11-06/23:00"
   },
@@ -1268,45 +1313,5 @@
     "titulo": "Especial: Sin senos sí hay paraíso",
     "sta": "2026-11-14/22:00",
     "end": "2026-11-14/23:00"
-  },
-  {
-    "titulo": "Rocky Balboa",
-    "sta": "2026-11-14/23:00",
-    "end": "2026-11-15/01:00"
-  },
-  {
-    "titulo": "Noticiero Telemundo 20 a las 11pm",
-    "sta": "2026-11-15/01:00",
-    "end": "2026-11-15/01:30"
-  },
-  {
-    "titulo": "Noticias Telemundo en la noche",
-    "sta": "2026-11-15/01:30",
-    "end": "2026-11-15/02:00"
-  },
-  {
-    "titulo": "El pelotazo",
-    "sta": "2026-11-15/02:00",
-    "end": "2026-11-15/02:30"
-  },
-  {
-    "titulo": "Caso cerrado / Hija perdida",
-    "sta": "2026-11-15/02:30",
-    "end": "2026-11-15/03:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/03:30",
-    "end": "2026-11-15/04:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/04:00",
-    "end": "2026-11-15/04:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/04:30",
-    "end": "2026-11-15/05:00"
   }
 ]
