@@ -1,16 +1,5 @@
 [
   {
-    "titulo": "Lágrimas del sol",
-    "logo": "http://dsmx.tmsimg.com/assets/p31517_i_h10_ab.jpg",
-    "url": "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name=sonymovies,startTime=17937708000000000,endTime=17937782400000000)/manifest.mpd",
-    "clearkey": "fe104d7a1d9e647808f85ab56bda167d:b6832b06a761878c9ee5e92d25aecc8c",
-    "sta": "2026-11-03/23:40",
-    "end": "2026-11-04/01:44",
-    "origin": "https://mvshub.com.mx/",
-    "referer": "https://mvshub.com.mx/",
-    "useragent": ""
-  },
-  {
     "titulo": "Monster hunter: La cacería comienza",
     "logo": "http://dsmx.tmsimg.com/assets/p18040511_i_h8_ah.jpg",
     "url": "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name=sonymovies,startTime=17937782400000000,endTime=17937846000000000)/manifest.mpd",

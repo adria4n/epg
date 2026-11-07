@@ -40,17 +40,17 @@
     "end": "2026-11-06/13:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Cruce de ataques",
     "sta": "2026-11-06/13:00",
     "end": "2026-11-06/14:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Cruce de ataques",
     "sta": "2026-11-06/14:00",
     "end": "2026-11-06/15:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / El placer de cocinarte",
     "sta": "2026-11-06/15:00",
     "end": "2026-11-06/16:00"
   },
@@ -80,7 +80,7 @@
     "end": "2026-11-06/19:01"
   },
   {
-    "titulo": "Juego de villanos",
+    "titulo": "Juego de villanos / Muerte súbita",
     "sta": "2026-11-06/19:01",
     "end": "2026-11-06/21:00"
   },
@@ -120,17 +120,17 @@
     "end": "2026-11-07/02:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Cruce de ataques",
     "sta": "2026-11-07/02:00",
     "end": "2026-11-07/03:00"
   },
   {
-    "titulo": "En casa con Telemundo",
+    "titulo": "En casa con Telemundo / Cruce de ataques",
     "sta": "2026-11-07/03:00",
     "end": "2026-11-07/04:00"
   },
   {
-    "titulo": "La mesa caliente",
+    "titulo": "La mesa caliente / El placer de cocinarte",
     "sta": "2026-11-07/04:00",
     "end": "2026-11-07/05:00"
   },
@@ -195,18 +195,18 @@
     "end": "2026-11-07/17:00"
   },
   {
-    "titulo": "Acércate a Rocío / Dopan a mi hijo por celos",
-    "sta": "2026-11-07/17:00",
-    "end": "2026-11-07/18:00"
-  },
-  {
     "titulo": "Caso cerrado / Fish spa chupitos",
-    "sta": "2026-11-07/18:00",
-    "end": "2026-11-07/18:30"
+    "sta": "2026-11-07/17:00",
+    "end": "2026-11-07/17:30"
   },
   {
     "titulo": "Noticias Telemundo fin de semana",
-    "sta": "2026-11-07/18:30",
+    "sta": "2026-11-07/17:30",
+    "end": "2026-11-07/17:55"
+  },
+  {
+    "titulo": "Dateline / El hallazgo en Black Rock Canyon",
+    "sta": "2026-11-07/17:55",
     "end": "2026-11-07/18:55"
   },
   {
@@ -215,12 +215,12 @@
     "end": "2026-11-07/21:00"
   },
   {
-    "titulo": "Dateline / El hallazgo en Black Rock Canyon",
+    "titulo": "Dateline / La casa en Badger Lane",
     "sta": "2026-11-07/21:00",
     "end": "2026-11-07/22:00"
   },
   {
-    "titulo": "Dateline / La casa en Badger Lane",
+    "titulo": "Lo que callamos las mujeres",
     "sta": "2026-11-07/22:00",
     "end": "2026-11-07/23:00"
   },
@@ -237,11 +237,11 @@
   {
     "titulo": "El pelotazo",
     "sta": "2026-11-08/00:00",
-    "end": "2026-11-08/00:30"
+    "end": "2026-11-08/01:30"
   },
   {
-    "titulo": "The Fast and the Furious: Tokyo Drift",
-    "sta": "2026-11-08/00:30",
+    "titulo": "Rocky Balboa",
+    "sta": "2026-11-08/01:30",
     "end": "2026-11-08/02:30"
   },
   {
