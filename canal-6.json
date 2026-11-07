@@ -427,16 +427,46 @@
   {
     "titulo": "Telediario matutino",
     "sta": "2026-11-09/06:00",
+    "end": "2026-11-09/07:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-09/07:00",
+    "end": "2026-11-09/08:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-09/08:00",
+    "end": "2026-11-09/09:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-09/09:00",
     "end": "2026-11-09/10:00"
   },
   {
     "titulo": "Vivalavi",
     "sta": "2026-11-09/10:00",
+    "end": "2026-11-09/11:00"
+  },
+  {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-09/11:00",
+    "end": "2026-11-09/11:03"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-09/11:03",
     "end": "2026-11-09/12:00"
   },
   {
     "titulo": "Telediario vespertino",
     "sta": "2026-11-09/12:00",
+    "end": "2026-11-09/13:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-09/13:00",
     "end": "2026-11-09/14:00"
   },
   {
@@ -445,17 +475,22 @@
     "end": "2026-11-09/15:00"
   },
   {
-    "titulo": "Futbol al Día",
+    "titulo": "Chismorreo",
     "sta": "2026-11-09/15:00",
     "end": "2026-11-09/16:00"
   },
   {
-    "titulo": "Chismorreo",
+    "titulo": "Telediario al momento",
     "sta": "2026-11-09/16:00",
+    "end": "2026-11-09/16:03"
+  },
+  {
+    "titulo": "Tocando al corazón",
+    "sta": "2026-11-09/16:03",
     "end": "2026-11-09/17:00"
   },
   {
-    "titulo": "Telediario en el 6",
+    "titulo": "Inaudito",
     "sta": "2026-11-09/17:00",
     "end": "2026-11-09/18:00"
   },
@@ -640,23 +675,8 @@
     "end": "2026-11-12/04:00"
   },
   {
-    "titulo": "El Curubito",
-    "sta": "2026-11-12/02:00",
-    "end": "2026-11-12/03:30"
-  },
-  {
-    "titulo": "Chismorreo",
-    "sta": "2026-11-12/03:30",
-    "end": "2026-11-12/04:00"
-  },
-  {
     "titulo": "C4 en alerta",
     "sta": "2026-11-12/04:00",
-    "end": "2026-11-12/05:00"
-  },
-  {
-    "titulo": "Mensaje de la felicidad",
-    "sta": "2026-11-12/04:30",
     "end": "2026-11-12/05:00"
   },
   {
@@ -670,43 +690,13 @@
     "end": "2026-11-12/10:00"
   },
   {
-    "titulo": "Telediario matutino",
-    "sta": "2026-11-12/07:00",
-    "end": "2026-11-12/08:00"
-  },
-  {
-    "titulo": "Telediario matutino",
-    "sta": "2026-11-12/08:00",
-    "end": "2026-11-12/09:00"
-  },
-  {
-    "titulo": "Telediario matutino",
-    "sta": "2026-11-12/09:00",
-    "end": "2026-11-12/10:00"
-  },
-  {
     "titulo": "Vivalavi",
     "sta": "2026-11-12/10:00",
     "end": "2026-11-12/12:00"
   },
   {
-    "titulo": "Telediario al momento",
-    "sta": "2026-11-12/11:00",
-    "end": "2026-11-12/11:03"
-  },
-  {
-    "titulo": "Vivalavi",
-    "sta": "2026-11-12/11:03",
-    "end": "2026-11-12/12:00"
-  },
-  {
     "titulo": "Telediario vespertino Saltillo",
     "sta": "2026-11-12/12:00",
-    "end": "2026-11-12/14:00"
-  },
-  {
-    "titulo": "Telediario vespertino",
-    "sta": "2026-11-12/13:00",
     "end": "2026-11-12/14:00"
   },
   {
@@ -725,11 +715,6 @@
     "end": "2026-11-12/17:00"
   },
   {
-    "titulo": "Tocando al corazón",
-    "sta": "2026-11-12/16:03",
-    "end": "2026-11-12/17:00"
-  },
-  {
     "titulo": "Telediario en el 6",
     "sta": "2026-11-12/17:00",
     "end": "2026-11-12/18:00"
@@ -745,11 +730,6 @@
     "end": "2026-11-12/21:00"
   },
   {
-    "titulo": "Telediario Nocturno",
-    "sta": "2026-11-12/20:00",
-    "end": "2026-11-12/21:00"
-  },
-  {
     "titulo": "Multimedios deportes",
     "sta": "2026-11-12/21:00",
     "end": "2026-11-12/21:30"
@@ -758,16 +738,6 @@
     "titulo": "Menos serio Q SNSerio",
     "sta": "2026-11-12/21:30",
     "end": "2026-11-13/00:00"
-  },
-  {
-    "titulo": "SNSerio",
-    "sta": "2026-11-12/22:00",
-    "end": "2026-11-12/23:00"
-  },
-  {
-    "titulo": "SNSerio",
-    "sta": "2026-11-12/23:00",
-    "end": "2026-11-12/23:30"
   },
   {
     "titulo": "Buenas noches Don Fematt",

@@ -1,5 +1,10 @@
 [
   {
+    "titulo": "Esta historia me suena / Me soltaste",
+    "sta": "2026-11-06/05:00",
+    "end": "2026-11-06/06:00"
+  },
+  {
     "titulo": "El Chavo Animado / ¡Aquí espantan!",
     "sta": "2026-11-06/06:00",
     "end": "2026-11-06/06:30"
@@ -1283,15 +1288,5 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-15/04:30",
     "end": "2026-11-15/05:00"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/05:00",
-    "end": "2026-11-15/05:30"
-  },
-  {
-    "titulo": "Programa pagado",
-    "sta": "2026-11-15/05:30",
-    "end": "2026-11-15/06:00"
   }
 ]
