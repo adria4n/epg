@@ -104,7 +104,7 @@ def process_canal(host, uuid, lineup, canal):
         return 0
 
     now = datetime.now(TZ)
-    cutoff = (now - timedelta(days=DAYS_BACK)).replace(hour=0, minute=0, second=0, microsecond=0)
+    cutoff = now - timedelta(days=DAYS_BACK)
     cutoff_ms = int(cutoff.timestamp() * 1000)
 
     all_items = fetch_epg(host, uuid, cid, lineup, now)
