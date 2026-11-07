@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Saca programación de DSports 1610, 1612 y 1613
-y guarda en dsports.json, dsports-2.json y dsports-plus.json
+EPG DSPORTS - Canales 1610, 1612, 1613
+https://www.directvsports.com/programacion/
 """
 
 import json
@@ -13,17 +13,41 @@ from playwright.sync_api import sync_playwright
 TZ = ZoneInfo("America/Mexico_City")
 URL = "https://www.directvsports.com/programacion/"
 
-CHANNELS = {
-    "1610": "dsports.json",
-    "1612": "dsports-2.json",
-    "1613": "dsports-plus.json",
+# Canales que quieres
+CANALES = {
+    "1610": "DSPORTS",
+    "1612": "DSPORTS 2",
+    "1613": "DSPORTS+",
 }
 
-def main():
-    programs = {ch: [] for ch in CHANNELS}
+def extract_grid(page):
+    """Extrae programas visibles del grid actual"""
+    return page.evaluate("""
+        () => {
+            const result = {};
+            // Ajusta los selectores según el DOM real (inspecciona con DevTools)
+            document.querySelectorAll('[class*="channel"], [class*="row"], .epg-row, tr').forEach(row => {
+                const numEl = row.querySelector('[class*="number"], .channel-number, .num');
+                if (!numEl) return;
+                const num = (numEl.innerText || '').trim();
+                if (!['1610','1612','1613'].includes(num)) return;
 
+                const programs = [];
+                row.querySelectorAll('[class*="program"], .event, .show, td:not(.channel)').forEach(cell => {
+                    const title = (cell.innerText || '').trim();
+                    if (title && title.length > 2) {
+                        programs.push(title);
+                    }
+                });
+                if (programs.length) result[num] = programs;
+            });
+            return result;
+        }
+    """)
+
+def main():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)  # headless=False para que veas qué pasa
+        browser = p.chromium.launch(headless=True)
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             locale="es-MX",
@@ -31,46 +55,61 @@ def main():
         )
         page = context.new_page()
 
-        captured = []
-
-        def on_response(response):
-            url = response.url
-            if any(x in url.lower() for x in ["epg", "schedule", "program", "guia", "guide", "canal", "channel", "json"]):
-                try:
-                    if "json" in response.headers.get("content-type", ""):
-                        data = response.json()
-                        captured.append({"url": url, "data": data})
-                        print(f"[API] {url[:100]}", file=sys.stderr)
-                except Exception:
-                    pass
-
-        page.on("response", on_response)
-
-        print("Abriendo programación...", file=sys.stderr)
+        print("Cargando programación DSPORTS...", file=sys.stderr)
         page.goto(URL, wait_until="networkidle", timeout=60000)
-        page.wait_for_timeout(6000)
+        page.wait_for_timeout(5000)
 
-        # Intentar interactuar con el selector de días
-        try:
-            page.click("text=HOY", timeout=5000)
-            page.wait_for_timeout(1500)
-        except Exception:
-            pass
+        # Cerrar posibles modales / aceptar cookies si aparecen
+        for txt in ["Aceptar", "Continuar", "Cerrar", "OK"]:
+            try:
+                page.get_by_text(txt, exact=False).first.click(timeout=2000)
+            except:
+                pass
 
-        # Scroll para forzar carga
-        for _ in range(4):
-            page.keyboard.press("ArrowRight")
-            page.wait_for_timeout(1000)
+        all_programs = {}
 
-        page.wait_for_timeout(3000)
+        # Días a scrapear (HOY + siguientes)
+        days = ["HOY", "DOM, 8 NOV.", "LUN, 9 NOV.", "MAR, 10 NOV.", "MIÉ, 11 NOV.", "JUE, 12 NOV."]
+
+        for day_label in days:
+            print(f"Procesando: {day_label}", file=sys.stderr)
+            try:
+                # Abrir selector de día si está cerrado
+                page.get_by_text("HOY", exact=False).first.click(timeout=3000)
+                page.wait_for_timeout(800)
+                page.get_by_text(day_label, exact=False).first.click(timeout=5000)
+                page.wait_for_timeout(2500)
+            except Exception as e:
+                print(f"  No se pudo seleccionar {day_label}: {e}", file=sys.stderr)
+                continue
+
+            grid = extract_grid(page)
+            for cid, titles in grid.items():
+                if cid not in all_programs:
+                    all_programs[cid] = []
+                all_programs[cid].extend(titles)
+
         browser.close()
 
-    # Guarda todo lo que capturó para que lo analices
-    with open("dsports_raw.json", "w", encoding="utf-8") as f:
-        json.dump(captured, f, indent=2, ensure_ascii=False, default=str)
+    # Generar JSON por canal (mismo formato que tu script original)
+    now = datetime.now(TZ)
+    for cid, titles in all_programs.items():
+        programs = []
+        # Aquí puedes mejorar el parseo de horas si el grid las expone
+        base = now.replace(hour=0, minute=0, second=0, microsecond=0)
+        for i, title in enumerate(titles):
+            sta = base + timedelta(minutes=30 * i)
+            end = sta + timedelta(minutes=30)
+            programs.append({
+                "titulo": title,
+                "sta": sta.strftime("%Y-%m-%d/%H:%M"),
+                "end": end.strftime("%Y-%m-%d/%H:%M"),
+            })
 
-    print(f"\nCapturadas {len(captured)} respuestas → dsports_raw.json", file=sys.stderr)
-    print("Revisa ese archivo, busca el endpoint que trae los programas y avísame para terminar el parseo.", file=sys.stderr)
+        outfile = f"{cid}.json"
+        with open(outfile, "w", encoding="utf-8") as f:
+            json.dump(programs, f, indent=2, ensure_ascii=False)
+        print(f"Listo: {len(programs)} programas → {outfile}", file=sys.stderr)
 
 if __name__ == "__main__":
     main()
