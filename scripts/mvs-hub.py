@@ -78,7 +78,7 @@ def get_session_info():
 
 def fetch_epg(host, uuid, cid, lineup, now):
     all_items = []
-    for days_ago in range(DAYS_BACK, -1, -1):
+    for days_ago in range(DAYS_BACK + 1, -1, -1):
         day = (now - timedelta(days=days_ago)).replace(hour=0, minute=0, second=0, microsecond=0)
         from_ms = int(day.timestamp() * 1000)
         url = f"{host}/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/{lineup}?page=0&size=100&dateFrom={from_ms}"
@@ -115,11 +115,11 @@ def process_canal(host, uuid, lineup, canal):
     seen = set()
     programs = []
     for item in all_items:
-        if not item.get("catchupTv"):
-            continue
         start = item.get("startDateTime")
         end = item.get("endDateTime")
-        if not start or start < cutoff_ms:
+        if not start or not end:
+            continue
+        if end <= cutoff_ms:
             continue
         title = build_title(item)
         if not title:
@@ -130,7 +130,7 @@ def process_canal(host, uuid, lineup, canal):
         seen.add(key)
 
         start_100ns = int(start) * 10000
-        end_100ns = int(end) * 10000 if end else start_100ns + 36000000000
+        end_100ns = int(end) * 10000
         catchup_url = BASE_CATCHUP.format(
             name=channel_name,
             start=start_100ns,
@@ -138,7 +138,7 @@ def process_canal(host, uuid, lineup, canal):
         )
 
         sta = datetime.fromtimestamp(start / 1000, TZ)
-        end_dt = datetime.fromtimestamp(end / 1000, TZ) if end else sta
+        end_dt = datetime.fromtimestamp(end / 1000, TZ)
 
         programs.append({
             "titulo": title,
@@ -168,7 +168,7 @@ def main():
     print(f"Sesión obtenida → Host: {host} | UUID: {uuid} | Lineup: {lineup}", file=sys.stderr)
 
     canales = load_canales()
-    print(f"Procesando {len(canales)} canales (últimos {DAYS_BACK} días, solo catchupTv=true)...", file=sys.stderr)
+    print(f"Procesando {len(canales)} canales (últimos {DAYS_BACK} días)...", file=sys.stderr)
 
     with ThreadPoolExecutor() as executor:
         futures = {
