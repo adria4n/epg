@@ -1,130 +1,5 @@
 [
   {
-    "titulo": "Viaje al paraíso",
-    "sta": "2026-11-04/22:30",
-    "end": "2026-11-05/00:05"
-  },
-  {
-    "titulo": "Astucia",
-    "sta": "2026-11-05/00:05",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "El esqueleto de la señora Morales",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "Ancestras / La reina roja de Palenque",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Francofonía en México",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:10"
-  },
-  {
-    "titulo": "Antropológicas / La reforma y la república itinerante",
-    "sta": "2026-11-05/05:10",
-    "end": "2026-11-05/06:10"
-  },
-  {
-    "titulo": "Punto de referencia - Tu noticiero",
-    "sta": "2026-11-05/06:10",
-    "end": "2026-11-05/07:10"
-  },
-  {
-    "titulo": "Noticiario France 24",
-    "sta": "2026-11-05/07:10",
-    "end": "2026-11-05/07:30"
-  },
-  {
-    "titulo": "Conferencia matutina presidencial",
-    "sta": "2026-11-05/07:30",
-    "end": "2026-11-05/09:15"
-  },
-  {
-    "titulo": "Mañanera 360º",
-    "sta": "2026-11-05/09:15",
-    "end": "2026-11-05/10:15"
-  },
-  {
-    "titulo": "Grandes figuras del arte mexicano / Diego Rivera. Un artista en la encrucijada",
-    "sta": "2026-11-05/10:15",
-    "end": "2026-11-05/11:15"
-  },
-  {
-    "titulo": "Noticiario France 24",
-    "sta": "2026-11-05/11:15",
-    "end": "2026-11-05/11:35"
-  },
-  {
-    "titulo": "Una historia de película / Cine mexicano de acción",
-    "sta": "2026-11-05/11:35",
-    "end": "2026-11-05/12:05"
-  },
-  {
-    "titulo": "Encuadre Iberoamericano / T5 E11 El rock en el cine Iberoamericano",
-    "sta": "2026-11-05/12:05",
-    "end": "2026-11-05/13:03"
-  },
-  {
-    "titulo": "Corte informativo",
-    "sta": "2026-11-05/13:03",
-    "end": "2026-11-05/13:05"
-  },
-  {
-    "titulo": "¿Quiénes hacen nuestro cine? / T2 E10 La delgada línea amarilla",
-    "sta": "2026-11-05/13:05",
-    "end": "2026-11-05/14:05"
-  },
-  {
-    "titulo": "Astucia",
-    "sta": "2026-11-05/14:05",
-    "end": "2026-11-05/16:00"
-  },
-  {
-    "titulo": "Salud y deporte / Beisbol 5",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/16:58"
-  },
-  {
-    "titulo": "Corte informativo",
-    "sta": "2026-11-05/16:58",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "Grandes figuras del arte mexicano / Diego Rivera. Un artista en la encrucijada",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Informativo 14",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Mañanera 360º",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Largo aliento",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "Punto de referencia - Tu noticiero",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "¿Quiénes hacen nuestro cine? / T6 La reserva",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/23:00"
-  },
-  {
     "titulo": "Esperanza",
     "sta": "2026-11-05/23:00",
     "end": "2026-11-06/01:30"
@@ -1698,5 +1573,55 @@
     "titulo": "A confirmar",
     "sta": "2026-11-20/22:00",
     "end": "2026-11-21/10:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/10:00",
+    "end": "2026-11-21/17:00"
+  },
+  {
+    "titulo": "Catorce al Hilvana",
+    "sta": "2026-11-21/17:00",
+    "end": "2026-11-21/18:00"
+  },
+  {
+    "titulo": "Una trayectoria, una colección / T3",
+    "sta": "2026-11-21/18:00",
+    "end": "2026-11-21/18:30"
+  },
+  {
+    "titulo": "En grande",
+    "sta": "2026-11-21/18:30",
+    "end": "2026-11-21/19:00"
+  },
+  {
+    "titulo": "¿Quiénes hacen nuestro cine?",
+    "sta": "2026-11-21/19:00",
+    "end": "2026-11-21/20:00"
+  },
+  {
+    "titulo": "TV Migrante informa",
+    "sta": "2026-11-21/20:00",
+    "end": "2026-11-21/20:30"
+  },
+  {
+    "titulo": "Aquí entre nos",
+    "sta": "2026-11-21/20:30",
+    "end": "2026-11-21/21:00"
+  },
+  {
+    "titulo": "Ama de casa / T2",
+    "sta": "2026-11-21/21:00",
+    "end": "2026-11-21/22:00"
+  },
+  {
+    "titulo": "Cartas para la libertad",
+    "sta": "2026-11-21/22:00",
+    "end": "2026-11-21/22:50"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/22:50",
+    "end": "2026-11-22/10:50"
   }
 ]

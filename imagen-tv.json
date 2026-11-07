@@ -1,141 +1,6 @@
 [
   {
     "titulo": "Farmacias Similares",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/02:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/02:30",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "Imagen Noticias con Nacho Lozano",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/05:30"
-  },
-  {
-    "titulo": "Imagen noticias",
-    "sta": "2026-11-05/05:30",
-    "end": "2026-11-05/06:30"
-  },
-  {
-    "titulo": "Imagen Noticias con Francisco Zea",
-    "sta": "2026-11-05/06:30",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "Imagen Noticias con Francisco Zea",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/08:00"
-  },
-  {
-    "titulo": "De pisa y corre",
-    "sta": "2026-11-05/08:00",
-    "end": "2026-11-05/09:30"
-  },
-  {
-    "titulo": "Sale el sol",
-    "sta": "2026-11-05/09:30",
-    "end": "2026-11-05/11:00"
-  },
-  {
-    "titulo": "Sale el sol",
-    "sta": "2026-11-05/11:00",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "Rocío a tu lado",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "Historias de un milagro",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Imagen noticias con Crystal Mendívil",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "De primera mano",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "Legado de amor",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Jesús",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:30"
-  },
-  {
-    "titulo": "Destino roto",
-    "sta": "2026-11-05/20:30",
-    "end": "2026-11-05/21:30"
-  },
-  {
-    "titulo": "Me prohíbo amarte",
-    "sta": "2026-11-05/21:30",
-    "end": "2026-11-05/22:30"
-  },
-  {
-    "titulo": "Imagen Noticias con Nacho Lozano",
-    "sta": "2026-11-05/22:30",
-    "end": "2026-11-05/23:10"
-  },
-  {
-    "titulo": "¡Qué importa!",
-    "sta": "2026-11-05/23:10",
-    "end": "2026-11-05/23:40"
-  },
-  {
-    "titulo": "Farmacias Similares",
-    "sta": "2026-11-05/23:40",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Farmacias Similares",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:30"
   },
@@ -530,6 +395,21 @@
     "end": "2026-11-08/16:00"
   },
   {
+    "titulo": "Divina comida: México / T3 E2 Mariana Ochoa",
+    "sta": "2026-11-08/14:30",
+    "end": "2026-11-08/15:15"
+  },
+  {
+    "titulo": "De la que pica / T1 E3 Kikín Fonseca",
+    "sta": "2026-11-08/15:15",
+    "end": "2026-11-08/15:45"
+  },
+  {
+    "titulo": "Justicia verdadera: El disparo",
+    "sta": "2026-11-08/15:45",
+    "end": "2026-11-08/17:30"
+  },
+  {
     "titulo": "Alma Mater",
     "sta": "2026-11-08/16:00",
     "end": "2026-11-08/17:30"
@@ -541,8 +421,18 @@
   },
   {
     "titulo": "Los reyes de la calle",
+    "sta": "2026-11-08/19:15",
+    "end": "2026-11-08/21:15"
+  },
+  {
+    "titulo": "Los reyes de la calle",
     "sta": "2026-11-08/19:30",
     "end": "2026-11-08/21:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-08/21:15",
+    "end": "2026-11-08/23:30"
   },
   {
     "titulo": "Me prohíbo amarte",
@@ -690,52 +580,52 @@
     "end": "2026-11-09/23:40"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-09/23:40",
     "end": "2026-11-10/00:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-10/00:00",
     "end": "2026-11-10/00:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/00:30",
     "end": "2026-11-10/01:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/01:00",
     "end": "2026-11-10/01:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/01:30",
     "end": "2026-11-10/02:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/02:00",
     "end": "2026-11-10/02:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/02:30",
     "end": "2026-11-10/03:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/03:00",
     "end": "2026-11-10/03:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/03:30",
     "end": "2026-11-10/04:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-10/04:00",
     "end": "2026-11-10/05:00"
   },
@@ -825,52 +715,52 @@
     "end": "2026-11-10/23:40"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-10/23:40",
     "end": "2026-11-11/00:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-11/00:00",
     "end": "2026-11-11/00:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/00:30",
     "end": "2026-11-11/01:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/01:00",
     "end": "2026-11-11/01:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/01:30",
     "end": "2026-11-11/02:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/02:00",
     "end": "2026-11-11/02:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/02:30",
     "end": "2026-11-11/03:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/03:00",
     "end": "2026-11-11/03:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/03:30",
     "end": "2026-11-11/04:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-11/04:00",
     "end": "2026-11-11/05:00"
   },
@@ -1095,52 +985,52 @@
     "end": "2026-11-12/23:40"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-12/23:40",
     "end": "2026-11-13/00:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-13/00:00",
     "end": "2026-11-13/00:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/00:30",
     "end": "2026-11-13/01:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/01:00",
     "end": "2026-11-13/01:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/01:30",
     "end": "2026-11-13/02:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/02:00",
     "end": "2026-11-13/02:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/02:30",
     "end": "2026-11-13/03:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/03:00",
     "end": "2026-11-13/03:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/03:30",
     "end": "2026-11-13/04:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "CV directo",
     "sta": "2026-11-13/04:00",
     "end": "2026-11-13/05:00"
   },
@@ -1350,9 +1240,14 @@
     "end": "2026-11-14/15:00"
   },
   {
-    "titulo": "Película",
+    "titulo": "Cuando tú no estás",
     "sta": "2026-11-14/15:00",
-    "end": "2026-11-14/17:00"
+    "end": "2026-11-14/16:45"
+  },
+  {
+    "titulo": "Dos años de vacaciones",
+    "sta": "2026-11-14/16:45",
+    "end": "2026-11-14/18:30"
   },
   {
     "titulo": "Película",
@@ -1361,18 +1256,28 @@
   },
   {
     "titulo": "Lo mejor de Rocio a tu lado",
+    "sta": "2026-11-14/18:30",
+    "end": "2026-11-14/20:00"
+  },
+  {
+    "titulo": "Lo mejor de Rocio a tu lado",
     "sta": "2026-11-14/19:00",
     "end": "2026-11-14/20:00"
   },
   {
-    "titulo": "El minuto que cambió mi destino sin censura",
+    "titulo": "El minuto que cambió mi destino sin censura / T1 Cibernético",
     "sta": "2026-11-14/20:00",
     "end": "2026-11-14/21:30"
   },
   {
-    "titulo": "Película",
+    "titulo": "Mentes únicas",
     "sta": "2026-11-14/21:30",
-    "end": "2026-11-14/23:30"
+    "end": "2026-11-14/22:00"
+  },
+  {
+    "titulo": "De color moreno",
+    "sta": "2026-11-14/22:00",
+    "end": "2026-11-15/00:00"
   },
   {
     "titulo": "Aprendemos juntos",
@@ -1480,6 +1385,11 @@
     "end": "2026-11-15/12:00"
   },
   {
+    "titulo": "La semana de pisa y corre",
+    "sta": "2026-11-15/09:35",
+    "end": "2026-11-15/12:00"
+  },
+  {
     "titulo": "Lab 3.1",
     "sta": "2026-11-15/12:00",
     "end": "2026-11-15/12:30"
@@ -1490,9 +1400,19 @@
     "end": "2026-11-15/14:45"
   },
   {
+    "titulo": "Amenaza en el mar",
+    "sta": "2026-11-15/14:15",
+    "end": "2026-11-15/16:00"
+  },
+  {
     "titulo": "Jesús",
     "sta": "2026-11-15/14:45",
     "end": "2026-11-15/16:45"
+  },
+  {
+    "titulo": "Alma Mater",
+    "sta": "2026-11-15/16:00",
+    "end": "2026-11-15/17:30"
   },
   {
     "titulo": "Película",
@@ -1500,13 +1420,28 @@
     "end": "2026-11-15/18:30"
   },
   {
+    "titulo": "Crimen en Primer Grado",
+    "sta": "2026-11-15/17:30",
+    "end": "2026-11-15/19:45"
+  },
+  {
     "titulo": "Película",
     "sta": "2026-11-15/18:30",
     "end": "2026-11-15/20:45"
   },
   {
+    "titulo": "Acorralados",
+    "sta": "2026-11-15/19:45",
+    "end": "2026-11-15/21:30"
+  },
+  {
     "titulo": "Me prohíbo amarte",
     "sta": "2026-11-15/20:45",
+    "end": "2026-11-15/23:30"
+  },
+  {
+    "titulo": "Me prohíbo amarte",
+    "sta": "2026-11-15/21:30",
     "end": "2026-11-15/23:30"
   },
   {
@@ -1888,5 +1823,140 @@
     "titulo": "Madre",
     "sta": "2026-11-18/17:30",
     "end": "2026-11-18/19:00"
+  },
+  {
+    "titulo": "El rico y Lázaro",
+    "sta": "2026-11-18/19:00",
+    "end": "2026-11-18/20:30"
+  },
+  {
+    "titulo": "Escóndeme",
+    "sta": "2026-11-18/20:30",
+    "end": "2026-11-18/21:30"
+  },
+  {
+    "titulo": "Por un amor",
+    "sta": "2026-11-18/21:30",
+    "end": "2026-11-18/22:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Nacho Lozano",
+    "sta": "2026-11-18/22:30",
+    "end": "2026-11-18/23:10"
+  },
+  {
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-18/23:10",
+    "end": "2026-11-18/23:40"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/23:40",
+    "end": "2026-11-19/00:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/00:00",
+    "end": "2026-11-19/00:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/00:30",
+    "end": "2026-11-19/01:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/01:00",
+    "end": "2026-11-19/01:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/01:30",
+    "end": "2026-11-19/02:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/02:00",
+    "end": "2026-11-19/02:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/02:30",
+    "end": "2026-11-19/03:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/03:00",
+    "end": "2026-11-19/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/03:30",
+    "end": "2026-11-19/04:00"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/04:00",
+    "end": "2026-11-19/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-19/04:30",
+    "end": "2026-11-19/05:00"
+  },
+  {
+    "titulo": "Las 5 de primera mano",
+    "sta": "2026-11-19/05:00",
+    "end": "2026-11-19/05:30"
+  },
+  {
+    "titulo": "Imagen noticias",
+    "sta": "2026-11-19/05:30",
+    "end": "2026-11-19/06:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-19/06:30",
+    "end": "2026-11-19/07:00"
+  },
+  {
+    "titulo": "Imagen Noticias con Francisco Zea",
+    "sta": "2026-11-19/07:00",
+    "end": "2026-11-19/08:00"
+  },
+  {
+    "titulo": "De pisa y corre",
+    "sta": "2026-11-19/08:00",
+    "end": "2026-11-19/09:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-19/09:30",
+    "end": "2026-11-19/11:30"
+  },
+  {
+    "titulo": "Sale el sol",
+    "sta": "2026-11-19/11:30",
+    "end": "2026-11-19/12:30"
+  },
+  {
+    "titulo": "Rocío a tu lado",
+    "sta": "2026-11-19/12:30",
+    "end": "2026-11-19/14:00"
+  },
+  {
+    "titulo": "Imagen noticias con Crystal Mendívil",
+    "sta": "2026-11-19/14:00",
+    "end": "2026-11-19/15:00"
+  },
+  {
+    "titulo": "De primera mano",
+    "sta": "2026-11-19/15:00",
+    "end": "2026-11-19/17:30"
+  },
+  {
+    "titulo": "Madre",
+    "sta": "2026-11-19/17:30",
+    "end": "2026-11-19/19:00"
   }
 ]

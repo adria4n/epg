@@ -1,166 +1,6 @@
 [
   {
     "titulo": "Himno nacional / T1",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:02"
-  },
-  {
-    "titulo": "La otra",
-    "sta": "2026-11-05/00:02",
-    "end": "2026-11-05/01:45"
-  },
-  {
-    "titulo": "Historia del pueblo mexicano / T1 Parte 2",
-    "sta": "2026-11-05/01:45",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "Mañanera 360º / T5 E157",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "Diálogos en confianza / T25 E207 Comunidad en movimiento: el regreso de las animas",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/04:45"
-  },
-  {
-    "titulo": "Historia del pueblo mexicano / T1 Parte 2",
-    "sta": "2026-11-05/04:45",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "Aprender a envejecer / T17 E216 ¿Hay derechos y obligaciones que no terminan después de la muerte? #17.216",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/05:30"
-  },
-  {
-    "titulo": "Actívate / T1 E31 Entrenamiento en casa",
-    "sta": "2026-11-05/05:30",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Himno nacional / T1",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:02"
-  },
-  {
-    "titulo": "RTC / T26",
-    "sta": "2026-11-05/06:02",
-    "end": "2026-11-05/06:07"
-  },
-  {
-    "titulo": "Once noticias a las seis / T1 E199",
-    "sta": "2026-11-05/06:07",
-    "end": "2026-11-05/09:30"
-  },
-  {
-    "titulo": "Diálogos en confianza / T25 E212 Comunidad en movimiento - Protección a las mujeres frente a la violencia",
-    "sta": "2026-11-05/09:30",
-    "end": "2026-11-05/11:30"
-  },
-  {
-    "titulo": "Aprender a envejecer / T17 E221 Régimen para personas",
-    "sta": "2026-11-05/11:30",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "Once Noticias / T1 E238",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/12:03"
-  },
-  {
-    "titulo": "La otra",
-    "sta": "2026-11-05/12:03",
-    "end": "2026-11-05/13:45"
-  },
-  {
-    "titulo": "Historia del pueblo mexicano / T1 Parte 2",
-    "sta": "2026-11-05/13:45",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Once noticias a las dos / T1 E199",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "A + A, Amor y Amistad / T5 E19 Gatitos rescatados",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/16:00"
-  },
-  {
-    "titulo": "Los cuentos de Yetili / T2 E45 El colchón mágico",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/16:08"
-  },
-  {
-    "titulo": "Tweedy y Fluff / T1 E37 La persecución",
-    "sta": "2026-11-05/16:08",
-    "end": "2026-11-05/16:15"
-  },
-  {
-    "titulo": "Tú decides la aventura / T1 E4",
-    "sta": "2026-11-05/16:15",
-    "end": "2026-11-05/16:30"
-  },
-  {
-    "titulo": "Fútbol callejero / T1 E14 La pasión del juego",
-    "sta": "2026-11-05/16:30",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "Once Noticias / T1 E238",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/17:03"
-  },
-  {
-    "titulo": "Un lugar llamado México / T2 E7 Izamal, Temozón y Uxmal",
-    "sta": "2026-11-05/17:03",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "31 minutos / T1 E10 Maguito",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Once Noticias / T1 E238",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/18:03"
-  },
-  {
-    "titulo": "Horizonte politécnico / T1 E6",
-    "sta": "2026-11-05/18:03",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "TAP: Taller de actores profesionales / T14 E8 Sofía Álvarez",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Detrás del telón / T1 E14",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "Punto de referencia - Tu noticiero / T3 E221",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "Masiosare / T4 E79",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/23:00"
-  },
-  {
-    "titulo": "Jazzero nacional / T1 E3 Alberto Medina Organ Trío",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Himno nacional / T1",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:02"
   },
@@ -470,7 +310,7 @@
     "end": "2026-11-07/20:00"
   },
   {
-    "titulo": "Once Lab / T2 E43",
+    "titulo": "Once Lab / T2 E43 Cátedra de la muerte",
     "sta": "2026-11-07/20:00",
     "end": "2026-11-07/20:30"
   },
@@ -615,7 +455,7 @@
     "end": "2026-11-08/11:00"
   },
   {
-    "titulo": "Aprender a envejecer / T17 E222",
+    "titulo": "Aprender a envejecer / T17 E222 Geriatría y gerontología: dos caras del estudio del envejecimiento",
     "sta": "2026-11-08/11:00",
     "end": "2026-11-08/14:00"
   },
@@ -1125,7 +965,7 @@
     "end": "2026-11-11/18:03"
   },
   {
-    "titulo": "Pura calle / T1 E6",
+    "titulo": "Pura calle / T1 E6 Pásele marchante",
     "sta": "2026-11-11/18:03",
     "end": "2026-11-11/18:30"
   },
@@ -1710,7 +1550,7 @@
     "end": "2026-11-15/02:30"
   },
   {
-    "titulo": "Aprender a envejecer / T17 E222",
+    "titulo": "Aprender a envejecer / T17 E222 Geriatría y gerontología: dos caras del estudio del envejecimiento",
     "sta": "2026-11-15/02:30",
     "end": "2026-11-15/05:30"
   },
@@ -1913,5 +1753,15 @@
     "titulo": "Once TV",
     "sta": "2026-11-21/00:00",
     "end": "2026-11-21/12:00"
+  },
+  {
+    "titulo": "Once TV",
+    "sta": "2026-11-21/12:00",
+    "end": "2026-11-22/00:00"
+  },
+  {
+    "titulo": "Once TV",
+    "sta": "2026-11-22/00:00",
+    "end": "2026-11-22/12:00"
   }
 ]

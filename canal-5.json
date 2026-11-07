@@ -1,146 +1,6 @@
 [
   {
     "titulo": "Inova",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/02:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/02:30",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "Crónicas",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Especial de RTC",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/05:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/05:30",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "PJ Masks: héroes en pijamas",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:30"
-  },
-  {
-    "titulo": "Peppa Pig",
-    "sta": "2026-11-05/06:30",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "Bely y Beto",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/08:00"
-  },
-  {
-    "titulo": "Ve, perro. ¡Ve!",
-    "sta": "2026-11-05/08:00",
-    "end": "2026-11-05/08:30"
-  },
-  {
-    "titulo": "Masha y el oso",
-    "sta": "2026-11-05/08:30",
-    "end": "2026-11-05/09:00"
-  },
-  {
-    "titulo": "Kung Fu Panda: la leyenda de Po",
-    "sta": "2026-11-05/09:00",
-    "end": "2026-11-05/10:00"
-  },
-  {
-    "titulo": "Pingüinos de Madagascar",
-    "sta": "2026-11-05/10:00",
-    "end": "2026-11-05/11:00"
-  },
-  {
-    "titulo": "Scooby-Doo y ¿quién crees tú?",
-    "sta": "2026-11-05/11:00",
-    "end": "2026-11-05/12:30"
-  },
-  {
-    "titulo": "Bob Esponja",
-    "sta": "2026-11-05/12:30",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "El Chavo animado",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/15:30"
-  },
-  {
-    "titulo": "¿Cuál es el bueno? / T2",
-    "sta": "2026-11-05/15:30",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "Contrato de corazones, tú y yo",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/18:30"
-  },
-  {
-    "titulo": "Ricky Ricón",
-    "sta": "2026-11-05/18:30",
-    "end": "2026-11-05/20:30"
-  },
-  {
-    "titulo": "Me caigo de risa / T12",
-    "sta": "2026-11-05/20:30",
-    "end": "2026-11-05/22:30"
-  },
-  {
-    "titulo": "La ley y el orden: unidad de victimas especiales / T25",
-    "sta": "2026-11-05/22:30",
-    "end": "2026-11-05/23:30"
-  },
-  {
-    "titulo": "Contacto deportivo",
-    "sta": "2026-11-05/23:30",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Inova",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:30"
   },
@@ -455,7 +315,7 @@
     "end": "2026-11-08/06:55"
   },
   {
-    "titulo": "LaLiga / Elche vs. Betis, Fecha 12, Estadio Martínez Valero",
+    "titulo": "LaLiga / Elche vs. Betis, Fecha 12, Estadio Manuel Martínez Valero",
     "sta": "2026-11-08/06:55",
     "end": "2026-11-08/09:00"
   },
@@ -2143,5 +2003,90 @@
     "titulo": "Inova",
     "sta": "2026-11-21/00:00",
     "end": "2026-11-21/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/00:30",
+    "end": "2026-11-21/01:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/01:00",
+    "end": "2026-11-21/01:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/01:30",
+    "end": "2026-11-21/02:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/02:00",
+    "end": "2026-11-21/02:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/02:30",
+    "end": "2026-11-21/03:00"
+  },
+  {
+    "titulo": "Crónicas",
+    "sta": "2026-11-21/03:00",
+    "end": "2026-11-21/03:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/03:30",
+    "end": "2026-11-21/04:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/04:00",
+    "end": "2026-11-21/04:30"
+  },
+  {
+    "titulo": "Especial de RTC",
+    "sta": "2026-11-21/04:30",
+    "end": "2026-11-21/05:00"
+  },
+  {
+    "titulo": "Crónicas",
+    "sta": "2026-11-21/05:00",
+    "end": "2026-11-21/05:30"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/05:30",
+    "end": "2026-11-21/06:00"
+  },
+  {
+    "titulo": "PJ Masks: héroes en pijamas",
+    "sta": "2026-11-21/06:00",
+    "end": "2026-11-21/08:00"
+  },
+  {
+    "titulo": "Bebés llorones: lágrimas mágicas",
+    "sta": "2026-11-21/08:00",
+    "end": "2026-11-21/08:30"
+  },
+  {
+    "titulo": "Garfield y sus amigos",
+    "sta": "2026-11-21/08:30",
+    "end": "2026-11-21/09:30"
+  },
+  {
+    "titulo": "Haunted Hathaways, una familia embrujada",
+    "sta": "2026-11-21/09:30",
+    "end": "2026-11-21/11:00"
+  },
+  {
+    "titulo": "Drake y Josh",
+    "sta": "2026-11-21/11:00",
+    "end": "2026-11-21/13:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/13:00",
+    "end": "2026-11-22/00:30"
   }
 ]

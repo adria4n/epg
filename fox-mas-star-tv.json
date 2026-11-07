@@ -1,70 +1,5 @@
 [
   {
-    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
-    "sta": "2026-11-04/22:30",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Ligue 1 / LOSC Lille vs. RC Lens, Fecha 9, Stade Pierre-Mauroy",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/02:30"
-  },
-  {
-    "titulo": "Ligue 1 / RC Strasbourg vs. AJ Auxerre, Fecha 9, Stade de la Meinau",
-    "sta": "2026-11-05/02:30",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Ligue 1 / Paris FC vs. AS Monaco, Fecha 9, Stade Jean Bouin",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/06:30"
-  },
-  {
-    "titulo": "Ligue 1 / Olympique Lyon vs. Angers SCO, Fecha 9, Groupama Stadium",
-    "sta": "2026-11-05/06:30",
-    "end": "2026-11-05/08:30"
-  },
-  {
-    "titulo": "Ligue 1 / Olympique de Marseille vs. Toulouse FC, Fecha 9, Stade Vélodrome",
-    "sta": "2026-11-05/08:30",
-    "end": "2026-11-05/10:30"
-  },
-  {
-    "titulo": "Lucha Libre AAA",
-    "sta": "2026-11-05/10:30",
-    "end": "2026-11-05/11:30"
-  },
-  {
-    "titulo": "UEFA Champions League / Shakhtar (Ucr) vs. Sporting CP (Por), Fecha 4, Stamford Bridge",
-    "sta": "2026-11-05/11:30",
-    "end": "2026-11-05/13:30"
-  },
-  {
-    "titulo": "UEFA Champions League / Atl. de Madrid (Esp) vs. Bayern Múnich (Ale), Fecha 4 - Fase de Liga, Riyadh Air Metropolitano",
-    "sta": "2026-11-05/13:30",
-    "end": "2026-11-05/15:30"
-  },
-  {
-    "titulo": "UEFA Champions League / Villarreal (Esp) vs. Paris Saint-Germain (Fra), Fecha 4 - Fase de Liga, Estadio de la Cerámica",
-    "sta": "2026-11-05/15:30",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "UEFA Champions League / Bodo/Glimt (Nor) vs. LOSC Lille (Fra), Fecha 4, Aspmyra Stadion",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/19:30"
-  },
-  {
-    "titulo": "UEFA Champions League / AEK (Gre) vs. Real Madrid (Esp), Fecha 4, Allwyn Arena",
-    "sta": "2026-11-05/19:30",
-    "end": "2026-11-05/21:30"
-  },
-  {
-    "titulo": "UEFA Champions League / RB Leipzig (Ale) vs. Manchester City (Ing), Fecha 4 - Fase de Liga, Leipzig Red Bull Arena",
-    "sta": "2026-11-05/21:30",
-    "end": "2026-11-05/23:30"
-  },
-  {
     "titulo": "UEFA Champions League / PSV (Ned) vs. Club Brugge (Bel), Fecha 4, Philips Stadion",
     "sta": "2026-11-05/23:30",
     "end": "2026-11-06/01:30"
@@ -325,7 +260,7 @@
     "end": "2026-11-10/09:00"
   },
   {
-    "titulo": "Premier League / Ipswich Town vs. Bournemouth, Fecha 10, Portman Road",
+    "titulo": "Premier League / Ipswich Town vs. Bournemouth, Fecha 10, Portman Road Stadium",
     "sta": "2026-11-10/09:00",
     "end": "2026-11-10/11:00"
   },
@@ -355,7 +290,7 @@
     "end": "2026-11-10/20:00"
   },
   {
-    "titulo": "Bundesliga / Friburgo vs. Union Berlin, Fecha 9, Europa-Park Stadion",
+    "titulo": "Bundesliga / Friburgo vs. Union Berlin, Fecha 9, Europa-Park-Stadion",
     "sta": "2026-11-10/20:00",
     "end": "2026-11-10/22:00"
   },
@@ -375,7 +310,7 @@
     "end": "2026-11-11/04:00"
   },
   {
-    "titulo": "Ligue 1 / Le Mans vs. AS Monaco, Fecha 10, Stade Marie-Marvingt",
+    "titulo": "Ligue 1 / Le Mans vs. AS Monaco, Fecha 10, MMArena",
     "sta": "2026-11-11/04:00",
     "end": "2026-11-11/06:00"
   },
@@ -540,7 +475,7 @@
     "end": "2026-11-14/02:30"
   },
   {
-    "titulo": "Premier League / Ipswich Town vs. Bournemouth, Fecha 10, Portman Road",
+    "titulo": "Premier League / Ipswich Town vs. Bournemouth, Fecha 10, Portman Road Stadium",
     "sta": "2026-11-14/02:30",
     "end": "2026-11-14/04:30"
   },
@@ -580,7 +515,7 @@
     "end": "2026-11-14/21:00"
   },
   {
-    "titulo": "Bundesliga / Friburgo vs. Union Berlin, Fecha 9, Europa-Park Stadion",
+    "titulo": "Bundesliga / Friburgo vs. Union Berlin, Fecha 9, Europa-Park-Stadion",
     "sta": "2026-11-14/21:00",
     "end": "2026-11-14/23:00"
   },
@@ -605,7 +540,7 @@
     "end": "2026-11-15/07:00"
   },
   {
-    "titulo": "Ligue 1 / Le Mans vs. AS Monaco, Fecha 10, Stade Marie-Marvingt",
+    "titulo": "Ligue 1 / Le Mans vs. AS Monaco, Fecha 10, MMArena",
     "sta": "2026-11-15/07:00",
     "end": "2026-11-15/09:00"
   },
@@ -733,5 +668,15 @@
     "titulo": "A confirmar",
     "sta": "2026-11-20/21:00",
     "end": "2026-11-21/09:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/09:00",
+    "end": "2026-11-21/21:00"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/21:00",
+    "end": "2026-11-22/09:00"
   }
 ]

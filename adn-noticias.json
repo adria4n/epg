@@ -1,181 +1,6 @@
 [
   {
     "titulo": "Himno nacional",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:02"
-  },
-  {
-    "titulo": "La billetera",
-    "sta": "2026-11-05/00:02",
-    "end": "2026-11-05/00:15"
-  },
-  {
-    "titulo": "Índice económico",
-    "sta": "2026-11-05/00:15",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/02:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/02:30",
-    "end": "2026-11-05/03:00"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/03:00",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/03:58"
-  },
-  {
-    "titulo": "Barras de ajuste",
-    "sta": "2026-11-05/03:58",
-    "end": "2026-11-05/04:02"
-  },
-  {
-    "titulo": "RTC",
-    "sta": "2026-11-05/04:02",
-    "end": "2026-11-05/04:30"
-  },
-  {
-    "titulo": "Inova",
-    "sta": "2026-11-05/04:30",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "Noticias para despertar con Andreina Andrade",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Himno nacional",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:02"
-  },
-  {
-    "titulo": "Noticias en tiempo real con Sarahí Uribe",
-    "sta": "2026-11-05/06:02",
-    "end": "2026-11-05/07:00"
-  },
-  {
-    "titulo": "Así amanece con Leonardo Curzio",
-    "sta": "2026-11-05/07:00",
-    "end": "2026-11-05/08:00"
-  },
-  {
-    "titulo": "Agenda ADN con Juan Pablo de Leo",
-    "sta": "2026-11-05/08:00",
-    "end": "2026-11-05/09:00"
-  },
-  {
-    "titulo": "Ya nadie está dormido con Javier Risco",
-    "sta": "2026-11-05/09:00",
-    "end": "2026-11-05/10:00"
-  },
-  {
-    "titulo": "Tu mañana con ellas con Mara Durón, Vaitaire Mateos y Valentina Rodríguez",
-    "sta": "2026-11-05/10:00",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "A quien corresponda",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/12:30"
-  },
-  {
-    "titulo": "Es negocio con Carlos Mota",
-    "sta": "2026-11-05/12:30",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "Noticias en tiempo real con Uriel Estrada y Romina Ramos",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Tren del meme con Valentina Rodríguez",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "Es tendencia con José Luis Mora",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/16:00"
-  },
-  {
-    "titulo": "ADN Noticias con Alejandro Brofft y Claudia Echeverry",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "ADN noticias con Otoniel Martínez",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "ADN Noticias con Tania Gómez",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Ciudad desnuda con Yunue Cuevas y Silvana Rebolledo",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Noticias en Red con Juan Manuel Jiménez",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "Es noticia con Lucy Bravo",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "Noticias República MX con Roberto Ruíz",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/22:30"
-  },
-  {
-    "titulo": "Mesa República MX",
-    "sta": "2026-11-05/22:30",
-    "end": "2026-11-05/23:00"
-  },
-  {
-    "titulo": "Todo personal",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-05/23:30"
-  },
-  {
-    "titulo": "30 minutos con Atypical Te Ve",
-    "sta": "2026-11-05/23:30",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Himno nacional",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:02"
   },
@@ -2853,5 +2678,210 @@
     "titulo": "Himno nacional",
     "sta": "2026-11-21/00:00",
     "end": "2026-11-21/00:02"
+  },
+  {
+    "titulo": "Su voz, su tiempo",
+    "sta": "2026-11-21/00:02",
+    "end": "2026-11-21/00:15"
+  },
+  {
+    "titulo": "Ciudad",
+    "sta": "2026-11-21/00:15",
+    "end": "2026-11-21/00:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/00:30",
+    "end": "2026-11-21/01:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/01:00",
+    "end": "2026-11-21/01:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/01:30",
+    "end": "2026-11-21/02:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/02:00",
+    "end": "2026-11-21/02:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/02:30",
+    "end": "2026-11-21/03:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/03:00",
+    "end": "2026-11-21/03:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/03:30",
+    "end": "2026-11-21/03:58"
+  },
+  {
+    "titulo": "Barras de ajuste",
+    "sta": "2026-11-21/03:58",
+    "end": "2026-11-21/04:02"
+  },
+  {
+    "titulo": "Internet",
+    "sta": "2026-11-21/04:02",
+    "end": "2026-11-21/04:05"
+  },
+  {
+    "titulo": "Social Media",
+    "sta": "2026-11-21/04:05",
+    "end": "2026-11-21/04:10"
+  },
+  {
+    "titulo": "Radio",
+    "sta": "2026-11-21/04:10",
+    "end": "2026-11-21/04:15"
+  },
+  {
+    "titulo": "ADN40lab",
+    "sta": "2026-11-21/04:15",
+    "end": "2026-11-21/04:20"
+  },
+  {
+    "titulo": "RTC",
+    "sta": "2026-11-21/04:20",
+    "end": "2026-11-21/04:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/04:30",
+    "end": "2026-11-21/05:00"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/05:00",
+    "end": "2026-11-21/05:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/05:30",
+    "end": "2026-11-21/06:00"
+  },
+  {
+    "titulo": "Himno nacional",
+    "sta": "2026-11-21/06:00",
+    "end": "2026-11-21/06:02"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/06:02",
+    "end": "2026-11-21/06:30"
+  },
+  {
+    "titulo": "Inova",
+    "sta": "2026-11-21/06:30",
+    "end": "2026-11-21/07:00"
+  },
+  {
+    "titulo": "Mesa República MX",
+    "sta": "2026-11-21/07:00",
+    "end": "2026-11-21/08:00"
+  },
+  {
+    "titulo": "Hechos sábado con Claudia Echeverry",
+    "sta": "2026-11-21/08:00",
+    "end": "2026-11-21/09:00"
+  },
+  {
+    "titulo": "ADN Noticias con Óscar Hernández",
+    "sta": "2026-11-21/09:00",
+    "end": "2026-11-21/10:00"
+  },
+  {
+    "titulo": "Esta mañana contigo con Brenda Peña",
+    "sta": "2026-11-21/10:00",
+    "end": "2026-11-21/12:00"
+  },
+  {
+    "titulo": "ADN Noticias con Max Espejel",
+    "sta": "2026-11-21/12:00",
+    "end": "2026-11-21/13:00"
+  },
+  {
+    "titulo": "Extra noticias",
+    "sta": "2026-11-21/13:00",
+    "end": "2026-11-21/14:00"
+  },
+  {
+    "titulo": "Es tendencia con Max Espejel",
+    "sta": "2026-11-21/14:00",
+    "end": "2026-11-21/15:00"
+  },
+  {
+    "titulo": "ADN Noticias con Tania Gómez",
+    "sta": "2026-11-21/15:00",
+    "end": "2026-11-21/16:00"
+  },
+  {
+    "titulo": "ADN Noticias con Max Espejel",
+    "sta": "2026-11-21/16:00",
+    "end": "2026-11-21/17:00"
+  },
+  {
+    "titulo": "Somos grandes",
+    "sta": "2026-11-21/17:00",
+    "end": "2026-11-21/17:30"
+  },
+  {
+    "titulo": "ADN Noticias con Max Espejel",
+    "sta": "2026-11-21/17:30",
+    "end": "2026-11-21/18:00"
+  },
+  {
+    "titulo": "Extra noticias",
+    "sta": "2026-11-21/18:00",
+    "end": "2026-11-21/19:00"
+  },
+  {
+    "titulo": "Ciudad desnuda con Tania Gómez",
+    "sta": "2026-11-21/19:00",
+    "end": "2026-11-21/20:00"
+  },
+  {
+    "titulo": "Es noticia con Brenda Peña",
+    "sta": "2026-11-21/20:00",
+    "end": "2026-11-21/21:00"
+  },
+  {
+    "titulo": "ADN deportes",
+    "sta": "2026-11-21/21:00",
+    "end": "2026-11-21/22:00"
+  },
+  {
+    "titulo": "La entrevista con Sarmiento",
+    "sta": "2026-11-21/22:00",
+    "end": "2026-11-21/22:15"
+  },
+  {
+    "titulo": "Su voz, su tiempo",
+    "sta": "2026-11-21/22:15",
+    "end": "2026-11-21/22:45"
+  },
+  {
+    "titulo": "Ciudad",
+    "sta": "2026-11-21/22:45",
+    "end": "2026-11-21/23:00"
+  },
+  {
+    "titulo": "Es noticia con Brenda Peña",
+    "sta": "2026-11-21/23:00",
+    "end": "2026-11-22/00:00"
+  },
+  {
+    "titulo": "Himno nacional",
+    "sta": "2026-11-22/00:00",
+    "end": "2026-11-22/00:02"
   }
 ]

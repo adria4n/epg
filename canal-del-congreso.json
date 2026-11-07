@@ -1,131 +1,6 @@
 [
   {
     "titulo": "Himno Nacional",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:05"
-  },
-  {
-    "titulo": "Fin de transmisión",
-    "sta": "2026-11-05/00:05",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Himno Nacional",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:05"
-  },
-  {
-    "titulo": "Noticias del Congreso",
-    "sta": "2026-11-05/06:05",
-    "end": "2026-11-05/07:05"
-  },
-  {
-    "titulo": "El Aleph 24 / IA en el arte",
-    "sta": "2026-11-05/07:05",
-    "end": "2026-11-05/07:40"
-  },
-  {
-    "titulo": "¿Y tú, tú que vas a hacer? / Apaseo el grande: Apaseo el alto",
-    "sta": "2026-11-05/07:40",
-    "end": "2026-11-05/08:15"
-  },
-  {
-    "titulo": "La raíz doble / Sabores periféricos - Prólogo",
-    "sta": "2026-11-05/08:15",
-    "end": "2026-11-05/08:51"
-  },
-  {
-    "titulo": "Código ciencia / Impresión 3D",
-    "sta": "2026-11-05/08:51",
-    "end": "2026-11-05/09:00"
-  },
-  {
-    "titulo": "Comparecencia de la titular de la Secretaría de bienestar / Leticia Ramírez Amaya",
-    "sta": "2026-11-05/09:00",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Modelo Parlamentario Universitario en derecho del centro universitario Tlacaelel / Inauguración",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/14:45"
-  },
-  {
-    "titulo": "Modelo Parlamentario Universitario en derecho del centro universitario Tlacaelel / Trabajos Legislativos",
-    "sta": "2026-11-05/14:45",
-    "end": "2026-11-05/16:05"
-  },
-  {
-    "titulo": "La capital de los museos / Museo del gato",
-    "sta": "2026-11-05/16:05",
-    "end": "2026-11-05/16:20"
-  },
-  {
-    "titulo": "Quórum / 1960",
-    "sta": "2026-11-05/16:20",
-    "end": "2026-11-05/16:55"
-  },
-  {
-    "titulo": "Kidvalues / El legado",
-    "sta": "2026-11-05/16:55",
-    "end": "2026-11-05/17:05"
-  },
-  {
-    "titulo": "The Film Tours / Satélite",
-    "sta": "2026-11-05/17:05",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "Avance informativo",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/17:35"
-  },
-  {
-    "titulo": "15 minutos ante la historia / Una conjura",
-    "sta": "2026-11-05/17:35",
-    "end": "2026-11-05/17:50"
-  },
-  {
-    "titulo": "La capital de los museos / Museo del gato",
-    "sta": "2026-11-05/17:50",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "En Comisiones / Presupuesto 2027",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Los indispensables / Federico Reyes Heroles, escritor",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Noticias del Congreso",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "En comunikción / Los jóvenes y el crédito bancario",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "Sin agenda / Dip. Liliana Ortiz Pérez",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/22:40"
-  },
-  {
-    "titulo": "Raíces nuevas / Modesto López (actor y fotógrafo español-argentino)",
-    "sta": "2026-11-05/22:40",
-    "end": "2026-11-05/23:25"
-  },
-  {
-    "titulo": "Vivas, libres y sin miedo / Notas que empoderan: la música y el feminismo",
-    "sta": "2026-11-05/23:25",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Himno Nacional",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:05"
   },
@@ -275,78 +150,98 @@
     "end": "2026-11-07/07:00"
   },
   {
-    "titulo": "Golfo de México",
+    "titulo": "Golfo de México / Puros del Golfo, una artesanía para el mundo",
     "sta": "2026-11-07/07:00",
-    "end": "2026-11-07/07:33"
+    "end": "2026-11-07/07:32"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-07/07:33",
+    "titulo": "Manos a la obra / Hipólito Gutiérrez. Vidrio Soplado",
+    "sta": "2026-11-07/07:32",
+    "end": "2026-11-07/08:03"
+  },
+  {
+    "titulo": "Ciudad infinita / La ciudad que construimos",
+    "sta": "2026-11-07/08:03",
+    "end": "2026-11-07/09:00"
+  },
+  {
+    "titulo": "En Comisiones / Presupuesto 2027",
+    "sta": "2026-11-07/09:00",
+    "end": "2026-11-07/10:00"
+  },
+  {
+    "titulo": "Mujeres Imprescindibles del Parlamento Mexicano / Sandra Patricia Palacios (Morena)",
+    "sta": "2026-11-07/10:00",
+    "end": "2026-11-07/10:55"
+  },
+  {
+    "titulo": "Narcóticos anónimos",
+    "sta": "2026-11-07/10:55",
     "end": "2026-11-07/11:00"
   },
   {
     "titulo": "Cultura en San Lázaro",
     "sta": "2026-11-07/11:00",
-    "end": "2026-11-07/11:30"
+    "end": "2026-11-07/11:20"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-07/11:30",
-    "end": "2026-11-07/15:15"
+    "titulo": "Conexión global",
+    "sta": "2026-11-07/11:20",
+    "end": "2026-11-07/11:46"
   },
   {
-    "titulo": "Reformas constitucionales",
-    "sta": "2026-11-07/15:15",
-    "end": "2026-11-07/16:25"
+    "titulo": "La capital de los museos / Museo del gato",
+    "sta": "2026-11-07/11:46",
+    "end": "2026-11-07/12:00"
   },
   {
-    "titulo": "Ópera Opus",
-    "sta": "2026-11-07/16:25",
-    "end": "2026-11-07/17:00"
+    "titulo": "Categoría Liga Mayor de Fútbol Americano, ONEFA 2026 / Aztecas UDLAP vs. Borregos Puebla",
+    "sta": "2026-11-07/12:00",
+    "end": "2026-11-07/15:00"
   },
   {
-    "titulo": "Conexión Legislativa",
-    "sta": "2026-11-07/17:00",
-    "end": "2026-11-07/18:00"
+    "titulo": "Categoría Liga Mayor de Fútbol Americano, ONEFA 2026 / Anáhuac Cancún vs. Burros Blancos IPN",
+    "sta": "2026-11-07/15:00",
+    "end": "2026-11-07/18:15"
   },
   {
-    "titulo": "Mujeres que inspiran",
-    "sta": "2026-11-07/18:00",
-    "end": "2026-11-07/18:35"
+    "titulo": "Conexión Legislativa / Resumen semanal",
+    "sta": "2026-11-07/18:15",
+    "end": "2026-11-07/19:15"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-07/18:35",
-    "end": "2026-11-07/19:45"
-  },
-  {
-    "titulo": "15 minutos ante la historia",
-    "sta": "2026-11-07/19:45",
+    "titulo": "En primera persona / Dip. Alma Rosa de la Vega Vargas",
+    "sta": "2026-11-07/19:15",
     "end": "2026-11-07/20:00"
   },
   {
-    "titulo": "En primera persona",
+    "titulo": "La visita incómoda / La sorpresiva Victoria de Lula en Brasil: entrevista a pablo Stefanoni",
     "sta": "2026-11-07/20:00",
+    "end": "2026-11-07/20:50"
+  },
+  {
+    "titulo": "La capital de los museos / Museo del gato",
+    "sta": "2026-11-07/20:50",
     "end": "2026-11-07/21:00"
   },
   {
-    "titulo": "Mesa de diálogo",
+    "titulo": "Mesa de diálogo / Uniendo caminos por una política social igualitaria",
     "sta": "2026-11-07/21:00",
     "end": "2026-11-07/22:00"
   },
   {
-    "titulo": "Vértice internacional",
+    "titulo": "Vértice internacional / Elecciones intermedias en EE. UU.: un referéndum sobre Trump",
     "sta": "2026-11-07/22:00",
     "end": "2026-11-07/23:00"
   },
   {
-    "titulo": "Consonantes y más",
+    "titulo": "Consonantes y más / Maternidades trans",
     "sta": "2026-11-07/23:00",
-    "end": "2026-11-07/23:35"
+    "end": "2026-11-07/23:34"
   },
   {
-    "titulo": "Rostros e historias",
-    "sta": "2026-11-07/23:35",
+    "titulo": "Rostros e historias / Conductora del STC Metro (Alejandra Gómez)",
+    "sta": "2026-11-07/23:34",
     "end": "2026-11-08/00:00"
   },
   {
@@ -365,87 +260,117 @@
     "end": "2026-11-08/06:05"
   },
   {
-    "titulo": "Apostando por la niñez",
+    "titulo": "Apostando por la niñez / Mi voz cuenta: Adolescentes que inspiran",
     "sta": "2026-11-08/06:05",
     "end": "2026-11-08/07:00"
   },
   {
-    "titulo": "Día cero",
+    "titulo": "Día cero / Arte, moda y artesanía",
     "sta": "2026-11-08/07:00",
-    "end": "2026-11-08/07:07"
+    "end": "2026-11-08/07:35"
   },
   {
-    "titulo": "Día cero",
-    "sta": "2026-11-08/07:07",
-    "end": "2026-11-08/07:42"
+    "titulo": "Kidvalues / Rumbo a la copa",
+    "sta": "2026-11-08/07:35",
+    "end": "2026-11-08/07:58"
   },
   {
-    "titulo": "Kidvalues",
-    "sta": "2026-11-08/07:42",
-    "end": "2026-11-08/08:00"
-  },
-  {
-    "titulo": "La guarida de los libros / T2",
-    "sta": "2026-11-08/08:00",
+    "titulo": "La guarida de los libros / T2 E8 Fantasmas internos",
+    "sta": "2026-11-08/07:58",
     "end": "2026-11-08/08:30"
   },
   {
-    "titulo": "Legisladores del México contemporáneo",
+    "titulo": "Legisladores del México contemporáneo / Laura Itzel Castillo Juárez",
     "sta": "2026-11-08/08:30",
-    "end": "2026-11-08/08:33"
+    "end": "2026-11-08/09:06"
   },
   {
-    "titulo": "Amante culinaria",
-    "sta": "2026-11-08/08:33",
-    "end": "2026-11-08/09:00"
+    "titulo": "Personajes históricos del Congreso Mexicano / T1 E1 Belisario Domínguez",
+    "sta": "2026-11-08/09:06",
+    "end": "2026-11-08/09:43"
   },
   {
-    "titulo": "Las lenguas toman la pantalla",
-    "sta": "2026-11-08/09:00",
-    "end": "2026-11-08/09:35"
+    "titulo": "15 minutos ante la historia / Siglo XVI. Santos en lugar de dioses",
+    "sta": "2026-11-08/09:43",
+    "end": "2026-11-08/10:00"
   },
   {
-    "titulo": "Lejos del sur / T1",
-    "sta": "2026-11-08/09:35",
-    "end": "2026-11-08/10:05"
+    "titulo": "LMT 2026 Flag Football Varonil / Aliens vs. Politos",
+    "sta": "2026-11-08/10:00",
+    "end": "2026-11-08/11:00"
   },
   {
-    "titulo": "Legisladores del México contemporáneo",
-    "sta": "2026-11-08/10:05",
-    "end": "2026-11-08/10:38"
+    "titulo": "LMT 2026 Flag Football Femenil / Bad Boys vs. Big Toluca",
+    "sta": "2026-11-08/11:00",
+    "end": "2026-11-08/12:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-08/10:38",
+    "titulo": "Sin agenda / Sen. Homero Davis",
+    "sta": "2026-11-08/12:00",
+    "end": "2026-11-08/12:34"
+  },
+  {
+    "titulo": "En primera persona / Dip. Arturo Ávila Anaya",
+    "sta": "2026-11-08/12:34",
+    "end": "2026-11-08/13:14"
+  },
+  {
+    "titulo": "Consejo Consultivo Ciudadano / El fenómeno de la cancelación en México. Entre la responsabilidad y la libertad de expresión",
+    "sta": "2026-11-08/13:14",
+    "end": "2026-11-08/13:47"
+  },
+  {
+    "titulo": "Historias e histerias / Nacho Rettally - Parte 1",
+    "sta": "2026-11-08/13:47",
+    "end": "2026-11-08/14:19"
+  },
+  {
+    "titulo": "Estamos en lo dicho / Emma Watson",
+    "sta": "2026-11-08/14:19",
+    "end": "2026-11-08/14:50"
+  },
+  {
+    "titulo": "Mujeres Imprescindibles del Parlamento Mexicano / Dip. Yoloczin Lizbeth Domínguez Serna (MORENA)",
+    "sta": "2026-11-08/14:50",
+    "end": "2026-11-08/15:40"
+  },
+  {
+    "titulo": "En dronde se legisla / Nuevo León",
+    "sta": "2026-11-08/15:40",
+    "end": "2026-11-08/16:15"
+  },
+  {
+    "titulo": "Narcóticos anónimos",
+    "sta": "2026-11-08/16:15",
     "end": "2026-11-08/16:20"
   },
   {
-    "titulo": "¿Y tú, tú que vas a hacer?",
+    "titulo": "¿Y tú, tú que vas a hacer? / T2 E133 Silao - Romita - Cuerámaro",
     "sta": "2026-11-08/16:20",
     "end": "2026-11-08/16:55"
   },
   {
-    "titulo": "Personalidades",
+    "titulo": "Personalidades / Rodrigo Murray (Actor y conductor de TV)",
     "sta": "2026-11-08/16:55",
-    "end": "2026-11-08/18:00"
+    "end": "2026-11-08/17:58"
   },
   {
-    "titulo": "En comunikción",
-    "sta": "2026-11-08/18:00",
-    "end": "2026-11-08/19:05"
+    "titulo": "En comunikción / Los jóvenes y el crédito bancario",
+    "sta": "2026-11-08/17:58",
+    "end": "2026-11-08/19:00"
   },
   {
-    "titulo": "Los indispensables",
-    "sta": "2026-11-08/19:05",
-    "end": "2026-11-08/20:10"
+    "titulo": "Los indispensables / Pedro Valtierra (Fotógrafo)",
+    "sta": "2026-11-08/19:00",
+    "end": "2026-11-08/20:00"
   },
   {
-    "titulo": "En la banqueta",
-    "sta": "2026-11-08/20:10",
+    "titulo": "En la banqueta / Acceso de jóvenes al empleo",
+    "sta": "2026-11-08/20:00",
     "end": "2026-11-08/20:35"
   },
   {
-    "titulo": "Cultura y +",
+    "titulo": "Cultura y + / Sobrenatural (Xochimilco)",
     "sta": "2026-11-08/20:35",
     "end": "2026-11-08/21:10"
   },
@@ -455,23 +380,28 @@
     "end": "2026-11-08/21:45"
   },
   {
-    "titulo": "Vivas, libres y sin miedo",
+    "titulo": "Vivas, libres y sin miedo / Notas que empoderan: la música y el feminismo",
     "sta": "2026-11-08/21:45",
     "end": "2026-11-08/22:18"
   },
   {
-    "titulo": "The Film Tours",
+    "titulo": "The Film Tours / Santa Maria la Rivera",
     "sta": "2026-11-08/22:18",
-    "end": "2026-11-08/22:20"
+    "end": "2026-11-08/22:45"
   },
   {
-    "titulo": "The Film Tours México",
-    "sta": "2026-11-08/22:20",
-    "end": "2026-11-08/22:50"
+    "titulo": "Voces violetas / ¡Bienvenidos a la incomodidad!",
+    "sta": "2026-11-08/22:45",
+    "end": "2026-11-08/23:15"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-08/22:50",
+    "titulo": "Conversos / La nueva Jerusalén",
+    "sta": "2026-11-08/23:15",
+    "end": "2026-11-08/23:50"
+  },
+  {
+    "titulo": "Salud sin mitos / Colesterol",
+    "sta": "2026-11-08/23:50",
     "end": "2026-11-09/00:00"
   },
   {
@@ -490,78 +420,48 @@
     "end": "2026-11-09/06:05"
   },
   {
-    "titulo": "Conexión Legislativa",
+    "titulo": "Conexión Legislativa / Resumen semanal",
     "sta": "2026-11-09/06:05",
-    "end": "2026-11-09/07:00"
-  },
-  {
-    "titulo": "Ancestras",
-    "sta": "2026-11-09/07:00",
     "end": "2026-11-09/07:05"
   },
   {
-    "titulo": "Ancestras",
+    "titulo": "Ancestras / La reina roja de Palenque",
     "sta": "2026-11-09/07:05",
-    "end": "2026-11-09/08:00"
+    "end": "2026-11-09/08:04"
   },
   {
-    "titulo": "Naturalistas",
-    "sta": "2026-11-09/08:00",
-    "end": "2026-11-09/08:30"
+    "titulo": "Naturalistas / Calakmul",
+    "sta": "2026-11-09/08:04",
+    "end": "2026-11-09/08:36"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-09/08:30",
+    "titulo": "The Film Tours México / Condesa",
+    "sta": "2026-11-09/08:36",
     "end": "2026-11-09/09:00"
   },
   {
-    "titulo": "Kidvalues",
+    "titulo": "Kidvalues / Un viejo mundo desconocido",
     "sta": "2026-11-09/09:00",
     "end": "2026-11-09/09:10"
   },
   {
-    "titulo": "Código ciencia",
+    "titulo": "Entrevista / Élmer Mendoza, Premio Excelencia en Letras de Humanidades 2026",
     "sta": "2026-11-09/09:10",
     "end": "2026-11-09/09:25"
   },
   {
-    "titulo": "Golfo de México",
+    "titulo": "Golfo de México / Tampico, el gran puerto norteño - Parte 1",
     "sta": "2026-11-09/09:25",
     "end": "2026-11-09/10:00"
   },
   {
-    "titulo": "Mesa de diálogo",
+    "titulo": "Comisión de energía / Comparecencia del director general de PEMEX, Juan Carlos Carpio Fragoso",
     "sta": "2026-11-09/10:00",
-    "end": "2026-11-09/11:00"
+    "end": "2026-11-09/15:00"
   },
   {
-    "titulo": "A confirmar",
-    "sta": "2026-11-09/11:00",
-    "end": "2026-11-09/15:15"
-  },
-  {
-    "titulo": "¿En dónde se legisla?",
-    "sta": "2026-11-09/15:15",
-    "end": "2026-11-09/15:50"
-  },
-  {
-    "titulo": "Las lenguas toman la pantalla",
-    "sta": "2026-11-09/15:50",
-    "end": "2026-11-09/16:25"
-  },
-  {
-    "titulo": "Estudio Takeover",
-    "sta": "2026-11-09/16:25",
-    "end": "2026-11-09/17:00"
-  },
-  {
-    "titulo": "Kidvalues",
-    "sta": "2026-11-09/17:00",
-    "end": "2026-11-09/17:10"
-  },
-  {
-    "titulo": "Raíces nuevas",
-    "sta": "2026-11-09/17:10",
+    "titulo": "Sesión ordinaria de la Cámara de Diputados",
+    "sta": "2026-11-09/15:00",
     "end": "2026-11-09/17:55"
   },
   {
@@ -570,22 +470,22 @@
     "end": "2026-11-09/18:00"
   },
   {
-    "titulo": "Sin agenda",
+    "titulo": "Sin agenda / Senador Miguel Márquez",
     "sta": "2026-11-09/18:00",
-    "end": "2026-11-09/18:30"
+    "end": "2026-11-09/18:35"
   },
   {
-    "titulo": "Rostros e historias",
-    "sta": "2026-11-09/18:30",
-    "end": "2026-11-09/18:40"
+    "titulo": "Rostros e historias / Cartonero de calaveras",
+    "sta": "2026-11-09/18:35",
+    "end": "2026-11-09/19:06"
   },
   {
-    "titulo": "Rostros e historias",
-    "sta": "2026-11-09/18:40",
+    "titulo": "Código ciencia / Impresión 3D",
+    "sta": "2026-11-09/19:06",
     "end": "2026-11-09/19:15"
   },
   {
-    "titulo": "La primera mujer",
+    "titulo": "La primera mujer / María Cristina Salmorán de Tamayo",
     "sta": "2026-11-09/19:15",
     "end": "2026-11-09/19:50"
   },
@@ -600,33 +500,33 @@
     "end": "2026-11-09/21:00"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "En primera persona / Raúl Bolaños - Cacho Cué",
     "sta": "2026-11-09/21:00",
-    "end": "2026-11-09/21:30"
+    "end": "2026-11-09/21:40"
   },
   {
-    "titulo": "En primera persona",
-    "sta": "2026-11-09/21:30",
+    "titulo": "Somos México / Zacatecas 2",
+    "sta": "2026-11-09/21:40",
+    "end": "2026-11-09/21:55"
+  },
+  {
+    "titulo": "Mujeres que inspiran / María Bernal (cantante y compositora)",
+    "sta": "2026-11-09/21:55",
     "end": "2026-11-09/22:30"
   },
   {
-    "titulo": "Ópera Opus",
+    "titulo": "Ópera Opus / La mujer sin sombra",
     "sta": "2026-11-09/22:30",
-    "end": "2026-11-09/23:00"
+    "end": "2026-11-09/23:05"
   },
   {
-    "titulo": "Consonantes y más",
-    "sta": "2026-11-09/23:00",
+    "titulo": "Consonantes y más / Aguas profundas",
+    "sta": "2026-11-09/23:05",
     "end": "2026-11-09/23:35"
   },
   {
-    "titulo": "A confirmar",
+    "titulo": "Enamórate de Oaxaca / T1 E5 La Cumbre Ixtepeji",
     "sta": "2026-11-09/23:35",
-    "end": "2026-11-09/23:40"
-  },
-  {
-    "titulo": "Somos México",
-    "sta": "2026-11-09/23:40",
     "end": "2026-11-10/00:00"
   },
   {
@@ -1968,5 +1868,100 @@
     "titulo": "Himno Nacional",
     "sta": "2026-11-21/00:00",
     "end": "2026-11-21/00:05"
+  },
+  {
+    "titulo": "Fin de transmisión",
+    "sta": "2026-11-21/00:05",
+    "end": "2026-11-21/06:00"
+  },
+  {
+    "titulo": "Himno Nacional",
+    "sta": "2026-11-21/06:00",
+    "end": "2026-11-21/06:05"
+  },
+  {
+    "titulo": "Noticias del Congreso",
+    "sta": "2026-11-21/06:05",
+    "end": "2026-11-21/07:00"
+  },
+  {
+    "titulo": "Golfo de México",
+    "sta": "2026-11-21/07:00",
+    "end": "2026-11-21/07:33"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/07:33",
+    "end": "2026-11-21/11:00"
+  },
+  {
+    "titulo": "Cultura en San Lázaro",
+    "sta": "2026-11-21/11:00",
+    "end": "2026-11-21/11:30"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/11:30",
+    "end": "2026-11-21/15:15"
+  },
+  {
+    "titulo": "Reformas constitucionales",
+    "sta": "2026-11-21/15:15",
+    "end": "2026-11-21/16:25"
+  },
+  {
+    "titulo": "Ópera Opus",
+    "sta": "2026-11-21/16:25",
+    "end": "2026-11-21/17:00"
+  },
+  {
+    "titulo": "Conexión Legislativa",
+    "sta": "2026-11-21/17:00",
+    "end": "2026-11-21/18:00"
+  },
+  {
+    "titulo": "Mujeres que inspiran",
+    "sta": "2026-11-21/18:00",
+    "end": "2026-11-21/18:35"
+  },
+  {
+    "titulo": "A confirmar",
+    "sta": "2026-11-21/18:35",
+    "end": "2026-11-21/19:45"
+  },
+  {
+    "titulo": "15 minutos ante la historia",
+    "sta": "2026-11-21/19:45",
+    "end": "2026-11-21/20:00"
+  },
+  {
+    "titulo": "En primera persona",
+    "sta": "2026-11-21/20:00",
+    "end": "2026-11-21/21:00"
+  },
+  {
+    "titulo": "Mesa de diálogo",
+    "sta": "2026-11-21/21:00",
+    "end": "2026-11-21/22:00"
+  },
+  {
+    "titulo": "Vértice internacional",
+    "sta": "2026-11-21/22:00",
+    "end": "2026-11-21/23:00"
+  },
+  {
+    "titulo": "Consonantes y más",
+    "sta": "2026-11-21/23:00",
+    "end": "2026-11-21/23:35"
+  },
+  {
+    "titulo": "Rostros e historias",
+    "sta": "2026-11-21/23:35",
+    "end": "2026-11-22/00:00"
+  },
+  {
+    "titulo": "Himno Nacional",
+    "sta": "2026-11-22/00:00",
+    "end": "2026-11-22/00:05"
   }
 ]

@@ -1,136 +1,6 @@
 [
   {
     "titulo": "Un día anocheció",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Cultura veintidós",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:30"
-  },
-  {
-    "titulo": "La dichosa palabra",
-    "sta": "2026-11-05/01:30",
-    "end": "2026-11-05/02:30"
-  },
-  {
-    "titulo": "Expedientes olvidados",
-    "sta": "2026-11-05/02:30",
-    "end": "2026-11-05/03:30"
-  },
-  {
-    "titulo": "Grandes figuras del arte mexicano / T1 E3 María Félix, María bonita, María del alma",
-    "sta": "2026-11-05/03:30",
-    "end": "2026-11-05/04:00"
-  },
-  {
-    "titulo": "Inspiración en la gran área de la bahía de China",
-    "sta": "2026-11-05/04:00",
-    "end": "2026-11-05/05:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-05/05:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Termina transmisión",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:30"
-  },
-  {
-    "titulo": "Cultura veintidós",
-    "sta": "2026-11-05/06:30",
-    "end": "2026-11-05/07:30"
-  },
-  {
-    "titulo": "La conferencia del pueblo",
-    "sta": "2026-11-05/07:30",
-    "end": "2026-11-05/09:30"
-  },
-  {
-    "titulo": "Masiosare",
-    "sta": "2026-11-05/09:30",
-    "end": "2026-11-05/10:30"
-  },
-  {
-    "titulo": "Marquesina",
-    "sta": "2026-11-05/10:30",
-    "end": "2026-11-05/11:00"
-  },
-  {
-    "titulo": "Mañanera 360º",
-    "sta": "2026-11-05/11:00",
-    "end": "2026-11-05/12:00"
-  },
-  {
-    "titulo": "Jazz, boleros y algo más... / JazzBook",
-    "sta": "2026-11-05/12:00",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "La lista de Erick / Nicaragua: Tesoros escondidos",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/13:30"
-  },
-  {
-    "titulo": "NCC Reporte climático",
-    "sta": "2026-11-05/13:30",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Inspiración en la gran área de la bahía de China",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/14:30"
-  },
-  {
-    "titulo": "¡Clic clac!",
-    "sta": "2026-11-05/14:30",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "Cultura para principiantes / Sigmund Freud / Albert Einstein",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/17:30"
-  },
-  {
-    "titulo": "Escritura y exilios / Xhevdet Bajraj (Kosovo)",
-    "sta": "2026-11-05/17:30",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Léemelo / Abraham cruzvillegas",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Cultura veintidós",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Masiosare",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "Punto de referencia",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "Tratos y retratos / Susan Sontag - Parte 1",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/22:30"
-  },
-  {
-    "titulo": "Natalia: entre pasos y sueños",
-    "sta": "2026-11-05/22:30",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Un día anocheció",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:30"
   },
@@ -335,8 +205,13 @@
     "end": "2026-11-07/17:30"
   },
   {
-    "titulo": "Leémelo",
+    "titulo": "La maya, lengua viva",
     "sta": "2026-11-07/17:30",
+    "end": "2026-11-07/18:00"
+  },
+  {
+    "titulo": "Fiesta de Culturas Comunitarias",
+    "sta": "2026-11-07/18:00",
     "end": "2026-11-07/18:30"
   },
   {
@@ -760,7 +635,7 @@
     "end": "2026-11-11/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-11/07:30",
     "end": "2026-11-11/09:30"
   },
@@ -795,7 +670,7 @@
     "end": "2026-11-11/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-11/14:30",
     "end": "2026-11-11/17:00"
   },
@@ -830,13 +705,8 @@
     "end": "2026-11-11/22:30"
   },
   {
-    "titulo": "Grandes figuras del arte mexicano / David Alfaro Siqueiros, arte y revolución",
+    "titulo": "FICUNAM 16 / Ahora México, mi sangre es petróleo",
     "sta": "2026-11-11/22:30",
-    "end": "2026-11-11/23:30"
-  },
-  {
-    "titulo": "Luz de la memoria / Tenancingo, un pueblo, un pintor",
-    "sta": "2026-11-11/23:30",
     "end": "2026-11-12/00:00"
   },
   {
@@ -867,11 +737,6 @@
   {
     "titulo": "Memoria viva de ciertos días / La región más transparente",
     "sta": "2026-11-12/04:30",
-    "end": "2026-11-12/05:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-12/05:00",
     "end": "2026-11-12/06:00"
   },
   {
@@ -885,7 +750,7 @@
     "end": "2026-11-12/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-12/07:30",
     "end": "2026-11-12/09:30"
   },
@@ -895,7 +760,7 @@
     "end": "2026-11-12/10:30"
   },
   {
-    "titulo": "Marquesina",
+    "titulo": "Marquesina con Julio López",
     "sta": "2026-11-12/10:30",
     "end": "2026-11-12/11:00"
   },
@@ -925,7 +790,7 @@
     "end": "2026-11-12/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-12/14:30",
     "end": "2026-11-12/17:00"
   },
@@ -955,7 +820,7 @@
     "end": "2026-11-12/23:00"
   },
   {
-    "titulo": "Chalán",
+    "titulo": "FICUNAM 16 / Competencia Umbrales, el mar no es azul / Tnani: bultos sagrados",
     "sta": "2026-11-12/23:00",
     "end": "2026-11-13/00:00"
   },
@@ -975,12 +840,12 @@
     "end": "2026-11-13/02:30"
   },
   {
-    "titulo": "Chalán",
+    "titulo": "Tratos y retratos / Carlos Fuentes",
     "sta": "2026-11-13/02:30",
     "end": "2026-11-13/03:30"
   },
   {
-    "titulo": "Tratos y retratos / Carlos Fuentes",
+    "titulo": "Jazz, boleros y algo más... / JazzBook",
     "sta": "2026-11-13/03:30",
     "end": "2026-11-13/04:30"
   },
@@ -1005,7 +870,7 @@
     "end": "2026-11-13/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-13/07:30",
     "end": "2026-11-13/09:30"
   },
@@ -1045,7 +910,7 @@
     "end": "2026-11-13/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-13/14:30",
     "end": "2026-11-13/17:00"
   },
@@ -1115,7 +980,7 @@
     "end": "2026-11-14/07:30"
   },
   {
-    "titulo": "Escénica / Marimba",
+    "titulo": "Escénica / Manimal",
     "sta": "2026-11-14/07:30",
     "end": "2026-11-14/08:30"
   },
@@ -1135,12 +1000,12 @@
     "end": "2026-11-14/11:00"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-14/11:00",
     "end": "2026-11-14/16:00"
   },
   {
-    "titulo": "Lo mejor del 54º Festival Internacional Cervantino 2026 / Banda de Música del Estado de Guanajuato Angélica Retana, Philippe Cupery Javier Compeán Levante y",
+    "titulo": "Escenarios / Gratte Ciel",
     "sta": "2026-11-14/16:00",
     "end": "2026-11-14/17:30"
   },
@@ -1150,7 +1015,7 @@
     "end": "2026-11-14/18:00"
   },
   {
-    "titulo": "Leémelo",
+    "titulo": "Léemelo",
     "sta": "2026-11-14/18:00",
     "end": "2026-11-14/19:00"
   },
@@ -1165,38 +1030,38 @@
     "end": "2026-11-14/21:00"
   },
   {
-    "titulo": "Honores policiales / Otoño se va, invierno llega",
+    "titulo": "Tiare picante",
     "sta": "2026-11-14/21:00",
     "end": "2026-11-14/22:00"
   },
   {
-    "titulo": "Arroz amargo",
+    "titulo": "FICUNAM 16 / Ahora México, Reportaje",
     "sta": "2026-11-14/22:00",
-    "end": "2026-11-14/23:30"
+    "end": "2026-11-15/00:00"
   },
   {
-    "titulo": "Shorts México",
-    "sta": "2026-11-14/23:30",
-    "end": "2026-11-15/00:30"
+    "titulo": "Shorts México / Esta no es mi piel / Dueto charanda / Vapor",
+    "sta": "2026-11-15/00:00",
+    "end": "2026-11-15/01:00"
   },
   {
     "titulo": "La dichosa palabra",
-    "sta": "2026-11-15/00:30",
-    "end": "2026-11-15/01:30"
+    "sta": "2026-11-15/01:00",
+    "end": "2026-11-15/02:00"
   },
   {
-    "titulo": "Leémelo",
-    "sta": "2026-11-15/01:30",
-    "end": "2026-11-15/02:30"
+    "titulo": "Léemelo",
+    "sta": "2026-11-15/02:00",
+    "end": "2026-11-15/03:00"
   },
   {
-    "titulo": "Arroz amargo",
-    "sta": "2026-11-15/02:30",
-    "end": "2026-11-15/04:00"
+    "titulo": "Escenarios / Gratte Ciel",
+    "sta": "2026-11-15/03:00",
+    "end": "2026-11-15/04:30"
   },
   {
-    "titulo": "Shorts México",
-    "sta": "2026-11-15/04:00",
+    "titulo": "Cultura para principiantes / Sigmund Freud / Albert Einstein",
+    "sta": "2026-11-15/04:30",
     "end": "2026-11-15/05:00"
   },
   {
@@ -1220,7 +1085,7 @@
     "end": "2026-11-15/08:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-15/08:30",
     "end": "2026-11-15/12:00"
   },
@@ -1235,7 +1100,7 @@
     "end": "2026-11-15/15:30"
   },
   {
-    "titulo": "Música hecha en México",
+    "titulo": "Música hecha en México / Festival de música contemporánea mexicana: jaaj Paax",
     "sta": "2026-11-15/15:30",
     "end": "2026-11-15/16:30"
   },
@@ -1250,7 +1115,7 @@
     "end": "2026-11-15/18:00"
   },
   {
-    "titulo": "El cancionero y sus amigos",
+    "titulo": "El cancionero y sus amigos con Rosy Arango",
     "sta": "2026-11-15/18:00",
     "end": "2026-11-15/19:00"
   },
@@ -1280,7 +1145,7 @@
     "end": "2026-11-16/00:30"
   },
   {
-    "titulo": "El cancionero y sus amigos",
+    "titulo": "El cancionero y sus amigos con Rosy Arango",
     "sta": "2026-11-16/00:30",
     "end": "2026-11-16/01:30"
   },
@@ -1315,7 +1180,7 @@
     "end": "2026-11-16/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-16/07:30",
     "end": "2026-11-16/09:30"
   },
@@ -1355,7 +1220,7 @@
     "end": "2026-11-16/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-16/14:30",
     "end": "2026-11-16/17:00"
   },
@@ -1450,7 +1315,7 @@
     "end": "2026-11-17/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-17/07:30",
     "end": "2026-11-17/09:15"
   },
@@ -1490,7 +1355,7 @@
     "end": "2026-11-17/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-17/14:30",
     "end": "2026-11-17/17:00"
   },
@@ -1580,7 +1445,7 @@
     "end": "2026-11-18/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-18/07:30",
     "end": "2026-11-18/09:30"
   },
@@ -1600,7 +1465,7 @@
     "end": "2026-11-18/12:00"
   },
   {
-    "titulo": "El cancionero y sus amigos",
+    "titulo": "El cancionero y sus amigos con Rosy Arango",
     "sta": "2026-11-18/12:00",
     "end": "2026-11-18/13:00"
   },
@@ -1620,7 +1485,7 @@
     "end": "2026-11-18/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-18/14:30",
     "end": "2026-11-18/17:00"
   },
@@ -1655,7 +1520,7 @@
     "end": "2026-11-18/23:00"
   },
   {
-    "titulo": "Grandes figuras del arte mexicano / T1 E9 Sor Juana Inés de la Cruz, la peor de todas",
+    "titulo": "Grandes figuras del arte mexicano / David Alfaro Siqueiros, arte y revolución",
     "sta": "2026-11-18/23:00",
     "end": "2026-11-19/00:00"
   },
@@ -1687,11 +1552,6 @@
   {
     "titulo": "Ciudadanos inteligentes",
     "sta": "2026-11-19/04:30",
-    "end": "2026-11-19/05:00"
-  },
-  {
-    "titulo": "CV directo",
-    "sta": "2026-11-19/05:00",
     "end": "2026-11-19/06:00"
   },
   {
@@ -1705,7 +1565,7 @@
     "end": "2026-11-19/07:30"
   },
   {
-    "titulo": "La conferencia del pueblo",
+    "titulo": "Conferencia del pueblo desde Palacio Nacional",
     "sta": "2026-11-19/07:30",
     "end": "2026-11-19/09:30"
   },
@@ -1715,7 +1575,7 @@
     "end": "2026-11-19/10:30"
   },
   {
-    "titulo": "Marquesina",
+    "titulo": "Marquesina con Julio López",
     "sta": "2026-11-19/10:30",
     "end": "2026-11-19/11:00"
   },
@@ -1745,7 +1605,7 @@
     "end": "2026-11-19/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-19/14:30",
     "end": "2026-11-19/17:00"
   },
@@ -1845,7 +1705,7 @@
     "end": "2026-11-20/12:30"
   },
   {
-    "titulo": "Luces, cámara... ¡Revolución! Toscanito, coleccionista",
+    "titulo": "Luces, cámara, ¡revolución! Toscanito, coleccionista de historias",
     "sta": "2026-11-20/12:30",
     "end": "2026-11-20/13:30"
   },
@@ -1860,7 +1720,7 @@
     "end": "2026-11-20/14:30"
   },
   {
-    "titulo": "¡Clic clac!",
+    "titulo": "Barra infantil ¡Clic Clac!",
     "sta": "2026-11-20/14:30",
     "end": "2026-11-20/17:00"
   },
@@ -1895,7 +1755,7 @@
     "end": "2026-11-20/22:30"
   },
   {
-    "titulo": "Luces, cámara... ¡Revolución! Toscanito, coleccionista",
+    "titulo": "Luces, cámara, ¡revolución! Toscanito, coleccionista de historias",
     "sta": "2026-11-20/22:30",
     "end": "2026-11-20/23:30"
   },
@@ -1908,5 +1768,105 @@
     "titulo": "Los que hacen nuestro cine / Trilogía revolución",
     "sta": "2026-11-21/00:00",
     "end": "2026-11-21/00:30"
+  },
+  {
+    "titulo": "Cultura veintidós",
+    "sta": "2026-11-21/00:30",
+    "end": "2026-11-21/01:30"
+  },
+  {
+    "titulo": "Hugo Brehme, un México idílico",
+    "sta": "2026-11-21/01:30",
+    "end": "2026-11-21/02:30"
+  },
+  {
+    "titulo": "Luces, cámara, ¡revolución! Toscanito, coleccionista de historias",
+    "sta": "2026-11-21/02:30",
+    "end": "2026-11-21/03:30"
+  },
+  {
+    "titulo": "Memoria viva de ciertos días / Zapata y Villa",
+    "sta": "2026-11-21/03:30",
+    "end": "2026-11-21/04:00"
+  },
+  {
+    "titulo": "Los que hacen nuestro cine / Trilogía revolución",
+    "sta": "2026-11-21/04:00",
+    "end": "2026-11-21/04:30"
+  },
+  {
+    "titulo": "Alimentos terrenales / Pancho Villa",
+    "sta": "2026-11-21/04:30",
+    "end": "2026-11-21/05:00"
+  },
+  {
+    "titulo": "CV directo",
+    "sta": "2026-11-21/05:00",
+    "end": "2026-11-21/06:00"
+  },
+  {
+    "titulo": "Termina transmisión",
+    "sta": "2026-11-21/06:00",
+    "end": "2026-11-21/06:30"
+  },
+  {
+    "titulo": "Luces, cámara, ¡revolución! Toscanito, coleccionista de historias",
+    "sta": "2026-11-21/06:30",
+    "end": "2026-11-21/07:30"
+  },
+  {
+    "titulo": "Escénica / Manimal",
+    "sta": "2026-11-21/07:30",
+    "end": "2026-11-21/08:30"
+  },
+  {
+    "titulo": "Consulta directa",
+    "sta": "2026-11-21/08:30",
+    "end": "2026-11-21/09:30"
+  },
+  {
+    "titulo": "La hora nacional",
+    "sta": "2026-11-21/09:30",
+    "end": "2026-11-21/10:30"
+  },
+  {
+    "titulo": "Documentales RT / El séptimo arte de Yakutia",
+    "sta": "2026-11-21/10:30",
+    "end": "2026-11-21/11:00"
+  },
+  {
+    "titulo": "Barra infantil ¡Clic Clac!",
+    "sta": "2026-11-21/11:00",
+    "end": "2026-11-21/16:00"
+  },
+  {
+    "titulo": "Escenarios / Ópera de Bellas Artes, Werther",
+    "sta": "2026-11-21/16:00",
+    "end": "2026-11-21/18:30"
+  },
+  {
+    "titulo": "Léemelo",
+    "sta": "2026-11-21/18:30",
+    "end": "2026-11-21/19:30"
+  },
+  {
+    "titulo": "NY Jazz All Stars 2026 / Christian Sands Quartet desde teatro de la ciudad esperanza Iris",
+    "sta": "2026-11-21/19:30",
+    "end": "2026-11-21/21:00"
+  },
+  {
+    "titulo": "La dichosa palabra",
+    "sta": "2026-11-21/21:00",
+    "end": "2026-11-21/22:00"
+  },
+  {
+    "titulo": "Honores policiales / Otoño se va, invierno llega",
+    "sta": "2026-11-21/22:00",
+    "end": "2026-11-21/23:00"
+  },
+  {
+    "titulo": "Shorts México",
+    "sta": "2026-11-21/23:00",
+    "end": "2026-11-22/00:30"
   }
 ]

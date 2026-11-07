@@ -1,126 +1,6 @@
 [
   {
     "titulo": "Revista del Consumidor",
-    "sta": "2026-11-05/00:00",
-    "end": "2026-11-05/00:05"
-  },
-  {
-    "titulo": "No es país para sosos",
-    "sta": "2026-11-05/00:05",
-    "end": "2026-11-05/00:30"
-  },
-  {
-    "titulo": "Mexiquense noticias",
-    "sta": "2026-11-05/00:30",
-    "end": "2026-11-05/01:00"
-  },
-  {
-    "titulo": "Los colores de mi tierra",
-    "sta": "2026-11-05/01:00",
-    "end": "2026-11-05/02:00"
-  },
-  {
-    "titulo": "Himno del Estado de México",
-    "sta": "2026-11-05/02:00",
-    "end": "2026-11-05/06:00"
-  },
-  {
-    "titulo": "Himno del Estado de México",
-    "sta": "2026-11-05/06:00",
-    "end": "2026-11-05/06:10"
-  },
-  {
-    "titulo": "Noticiero DW",
-    "sta": "2026-11-05/06:10",
-    "end": "2026-11-05/06:30"
-  },
-  {
-    "titulo": "Mexiquense noticias",
-    "sta": "2026-11-05/06:30",
-    "end": "2026-11-05/07:30"
-  },
-  {
-    "titulo": "Conferencia matutina del presidente de México",
-    "sta": "2026-11-05/07:30",
-    "end": "2026-11-05/09:30"
-  },
-  {
-    "titulo": "Mexiquense noticias",
-    "sta": "2026-11-05/09:30",
-    "end": "2026-11-05/10:00"
-  },
-  {
-    "titulo": "Corte informativo",
-    "sta": "2026-11-05/10:00",
-    "end": "2026-11-05/13:00"
-  },
-  {
-    "titulo": "Mexiquense noticias",
-    "sta": "2026-11-05/13:00",
-    "end": "2026-11-05/14:00"
-  },
-  {
-    "titulo": "Dulce o salado",
-    "sta": "2026-11-05/14:00",
-    "end": "2026-11-05/14:30"
-  },
-  {
-    "titulo": "Zacango animal",
-    "sta": "2026-11-05/14:30",
-    "end": "2026-11-05/15:00"
-  },
-  {
-    "titulo": "Mexiquense noticias",
-    "sta": "2026-11-05/15:00",
-    "end": "2026-11-05/16:00"
-  },
-  {
-    "titulo": "Culturama",
-    "sta": "2026-11-05/16:00",
-    "end": "2026-11-05/17:00"
-  },
-  {
-    "titulo": "Honores policiales",
-    "sta": "2026-11-05/17:00",
-    "end": "2026-11-05/18:00"
-  },
-  {
-    "titulo": "Tierra de campeones",
-    "sta": "2026-11-05/18:00",
-    "end": "2026-11-05/19:00"
-  },
-  {
-    "titulo": "Mexiquense noticias",
-    "sta": "2026-11-05/19:00",
-    "end": "2026-11-05/20:00"
-  },
-  {
-    "titulo": "Perfiles",
-    "sta": "2026-11-05/20:00",
-    "end": "2026-11-05/20:30"
-  },
-  {
-    "titulo": "Heroicas",
-    "sta": "2026-11-05/20:30",
-    "end": "2026-11-05/21:00"
-  },
-  {
-    "titulo": "Punto de referencia",
-    "sta": "2026-11-05/21:00",
-    "end": "2026-11-05/22:00"
-  },
-  {
-    "titulo": "100% grupero",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/23:00"
-  },
-  {
-    "titulo": "Honores policiales / T1 E4 Hay un secreto",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-06/00:00"
-  },
-  {
-    "titulo": "Revista del Consumidor",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:05"
   },
@@ -1683,5 +1563,95 @@
     "titulo": "Bim Bam Bum",
     "sta": "2026-11-18/17:00",
     "end": "2026-11-18/18:00"
+  },
+  {
+    "titulo": "Himno del Estado de México",
+    "sta": "2026-11-19/00:00",
+    "end": "2026-11-19/00:05"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-19/00:05",
+    "end": "2026-11-19/02:00"
+  },
+  {
+    "titulo": "Fuera del aire",
+    "sta": "2026-11-19/02:00",
+    "end": "2026-11-19/06:00"
+  },
+  {
+    "titulo": "Himno del Estado de México",
+    "sta": "2026-11-19/06:00",
+    "end": "2026-11-19/06:10"
+  },
+  {
+    "titulo": "Cápsulas Edomex",
+    "sta": "2026-11-19/06:10",
+    "end": "2026-11-19/06:15"
+  },
+  {
+    "titulo": "Noticiero DW",
+    "sta": "2026-11-19/06:15",
+    "end": "2026-11-19/06:30"
+  },
+  {
+    "titulo": "AMX metropolitano",
+    "sta": "2026-11-19/06:30",
+    "end": "2026-11-19/07:30"
+  },
+  {
+    "titulo": "Lo que nos une",
+    "sta": "2026-11-19/07:30",
+    "end": "2026-11-19/08:00"
+  },
+  {
+    "titulo": "Atrévete x ti",
+    "sta": "2026-11-19/08:00",
+    "end": "2026-11-19/08:30"
+  },
+  {
+    "titulo": "Emociónate",
+    "sta": "2026-11-19/08:30",
+    "end": "2026-11-19/10:30"
+  },
+  {
+    "titulo": "Bionatura",
+    "sta": "2026-11-19/10:30",
+    "end": "2026-11-19/11:00"
+  },
+  {
+    "titulo": "#EnHoraBuena con Gina Serrano",
+    "sta": "2026-11-19/11:00",
+    "end": "2026-11-19/12:00"
+  },
+  {
+    "titulo": "Porque soy mujer",
+    "sta": "2026-11-19/12:00",
+    "end": "2026-11-19/12:30"
+  },
+  {
+    "titulo": "Retratos",
+    "sta": "2026-11-19/12:30",
+    "end": "2026-11-19/13:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-19/13:00",
+    "end": "2026-11-19/15:00"
+  },
+  {
+    "titulo": "Amx Con Marisol Ordoñez",
+    "sta": "2026-11-19/15:00",
+    "end": "2026-11-19/16:00"
+  },
+  {
+    "titulo": "Cultura AMX",
+    "sta": "2026-11-19/16:00",
+    "end": "2026-11-19/17:00"
+  },
+  {
+    "titulo": "Bim Bam Bum",
+    "sta": "2026-11-19/17:00",
+    "end": "2026-11-19/18:00"
   }
 ]
