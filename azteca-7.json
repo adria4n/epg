@@ -425,27 +425,27 @@
     "end": "2026-11-09/06:30"
   },
   {
-    "titulo": "Om Nom",
+    "titulo": "Daniel Tigre",
     "sta": "2026-11-09/06:30",
     "end": "2026-11-09/07:00"
   },
   {
-    "titulo": "Daniel Tigre",
+    "titulo": "Robocar Poli",
     "sta": "2026-11-09/07:00",
     "end": "2026-11-09/07:30"
   },
   {
-    "titulo": "Gigantosaurus",
+    "titulo": "LEGO: City Adventures",
     "sta": "2026-11-09/07:30",
     "end": "2026-11-09/08:00"
   },
   {
-    "titulo": "Bluey",
+    "titulo": "Masha y el oso",
     "sta": "2026-11-09/08:00",
     "end": "2026-11-09/08:30"
   },
   {
-    "titulo": "Masha y el oso",
+    "titulo": "Bluey",
     "sta": "2026-11-09/08:30",
     "end": "2026-11-09/09:00"
   },
@@ -460,19 +460,19 @@
     "end": "2026-11-09/10:00"
   },
   {
-    "titulo": "Spidey y sus sorprendentes amigos",
+    "titulo": "La casa de Mickey Mouse",
     "sta": "2026-11-09/10:00",
     "end": "2026-11-09/10:30"
   },
   {
-    "titulo": "Rosita Fresita: Aventuras en Tutti Frutti",
+    "titulo": "Baby Looney Tunes",
     "sta": "2026-11-09/10:30",
     "end": "2026-11-09/11:00"
   },
   {
-    "titulo": "El mundo de Craig",
+    "titulo": "Los Pitufos",
     "sta": "2026-11-09/11:00",
-    "end": "2026-11-09/12:00"
+    "end": "2026-11-09/12:30"
   },
   {
     "titulo": "Los padrinos mágicos",
@@ -490,9 +490,9 @@
     "end": "2026-11-09/14:00"
   },
   {
-    "titulo": "El nuevo show del Pájaro Loco",
+    "titulo": "Las aventuras de Tom y Jerry",
     "sta": "2026-11-09/14:00",
-    "end": "2026-11-09/15:00"
+    "end": "2026-11-09/15:30"
   },
   {
     "titulo": "Escandalosos",
@@ -510,7 +510,7 @@
     "end": "2026-11-09/17:00"
   },
   {
-    "titulo": "Dragon Ball Z",
+    "titulo": "Dragon Ball Super",
     "sta": "2026-11-09/17:00",
     "end": "2026-11-09/18:00"
   },
@@ -660,8 +660,18 @@
     "end": "2026-11-10/12:30"
   },
   {
+    "titulo": "Los padrinos mágicos",
+    "sta": "2026-11-10/12:00",
+    "end": "2026-11-10/13:00"
+  },
+  {
     "titulo": "Las Chicas Superpoderosas",
     "sta": "2026-11-10/12:30",
+    "end": "2026-11-10/14:00"
+  },
+  {
+    "titulo": "Las aventuras de Silvestre y Piolín",
+    "sta": "2026-11-10/13:00",
     "end": "2026-11-10/14:00"
   },
   {
@@ -670,8 +680,18 @@
     "end": "2026-11-10/15:30"
   },
   {
+    "titulo": "Escandalosos",
+    "sta": "2026-11-10/15:00",
+    "end": "2026-11-10/16:00"
+  },
+  {
     "titulo": "Alvin y las Ardillas",
     "sta": "2026-11-10/15:30",
+    "end": "2026-11-10/17:00"
+  },
+  {
+    "titulo": "El show de Garfield",
+    "sta": "2026-11-10/16:00",
     "end": "2026-11-10/17:00"
   },
   {
@@ -765,7 +785,7 @@
     "end": "2026-11-11/05:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-11/05:30",
     "end": "2026-11-11/06:00"
   },
@@ -775,27 +795,27 @@
     "end": "2026-11-11/06:30"
   },
   {
-    "titulo": "Daniel Tigre",
+    "titulo": "Om Nom",
     "sta": "2026-11-11/06:30",
     "end": "2026-11-11/07:00"
   },
   {
-    "titulo": "Robocar Poli",
+    "titulo": "Daniel Tigre",
     "sta": "2026-11-11/07:00",
     "end": "2026-11-11/07:30"
   },
   {
-    "titulo": "LEGO: City Adventures",
+    "titulo": "Gigantosaurus",
     "sta": "2026-11-11/07:30",
     "end": "2026-11-11/08:00"
   },
   {
-    "titulo": "Masha y el oso",
+    "titulo": "Bluey",
     "sta": "2026-11-11/08:00",
     "end": "2026-11-11/08:30"
   },
   {
-    "titulo": "Bluey",
+    "titulo": "Masha y el oso",
     "sta": "2026-11-11/08:30",
     "end": "2026-11-11/09:00"
   },
@@ -810,19 +830,24 @@
     "end": "2026-11-11/10:00"
   },
   {
-    "titulo": "La casa de Mickey Mouse",
+    "titulo": "Spidey y sus sorprendentes amigos",
     "sta": "2026-11-11/10:00",
     "end": "2026-11-11/10:30"
   },
   {
-    "titulo": "Baby Looney Tunes",
+    "titulo": "Rosita Fresita: Aventuras en Tutti Frutti",
     "sta": "2026-11-11/10:30",
     "end": "2026-11-11/11:00"
   },
   {
-    "titulo": "Los Pitufos",
+    "titulo": "El mundo de Craig",
     "sta": "2026-11-11/11:00",
-    "end": "2026-11-11/12:30"
+    "end": "2026-11-11/12:00"
+  },
+  {
+    "titulo": "Los padrinos mágicos",
+    "sta": "2026-11-11/12:00",
+    "end": "2026-11-11/13:00"
   },
   {
     "titulo": "Las Chicas Superpoderosas",
@@ -830,9 +855,19 @@
     "end": "2026-11-11/14:00"
   },
   {
-    "titulo": "Las aventuras de Tom y Jerry",
+    "titulo": "Las aventuras de Silvestre y Piolín",
+    "sta": "2026-11-11/13:00",
+    "end": "2026-11-11/14:00"
+  },
+  {
+    "titulo": "El nuevo show del Pájaro Loco",
     "sta": "2026-11-11/14:00",
-    "end": "2026-11-11/15:30"
+    "end": "2026-11-11/15:00"
+  },
+  {
+    "titulo": "Escandalosos",
+    "sta": "2026-11-11/15:00",
+    "end": "2026-11-11/16:00"
   },
   {
     "titulo": "Alvin y las Ardillas",
@@ -840,7 +875,12 @@
     "end": "2026-11-11/17:00"
   },
   {
-    "titulo": "Dragon Ball Super",
+    "titulo": "El show de Garfield",
+    "sta": "2026-11-11/16:00",
+    "end": "2026-11-11/17:00"
+  },
+  {
+    "titulo": "Dragon Ball Z",
     "sta": "2026-11-11/17:00",
     "end": "2026-11-11/18:00"
   },
@@ -870,52 +910,52 @@
     "end": "2026-11-11/23:30"
   },
   {
-    "titulo": "Lotería del crimen",
+    "titulo": "Travesuras de amor",
     "sta": "2026-11-11/23:30",
     "end": "2026-11-12/00:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Farmacias Similares",
     "sta": "2026-11-12/00:30",
     "end": "2026-11-12/01:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/01:00",
     "end": "2026-11-12/01:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/01:30",
     "end": "2026-11-12/02:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/02:00",
     "end": "2026-11-12/02:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/02:30",
     "end": "2026-11-12/03:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/03:00",
     "end": "2026-11-12/03:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/03:30",
     "end": "2026-11-12/04:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/04:00",
     "end": "2026-11-12/04:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/04:30",
     "end": "2026-11-12/05:00"
   },
@@ -930,7 +970,7 @@
     "end": "2026-11-12/05:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "Inova",
     "sta": "2026-11-12/05:30",
     "end": "2026-11-12/06:00"
   },
@@ -940,32 +980,32 @@
     "end": "2026-11-12/06:30"
   },
   {
-    "titulo": "Daniel Tigre",
+    "titulo": "Om Nom",
     "sta": "2026-11-12/06:30",
     "end": "2026-11-12/07:00"
   },
   {
-    "titulo": "Robocar Poli",
+    "titulo": "Daniel Tigre",
     "sta": "2026-11-12/07:00",
     "end": "2026-11-12/07:30"
   },
   {
-    "titulo": "LEGO: City Adventures",
+    "titulo": "Gigantosaurus",
     "sta": "2026-11-12/07:30",
     "end": "2026-11-12/08:00"
   },
   {
-    "titulo": "Masha y el oso",
+    "titulo": "Bluey",
     "sta": "2026-11-12/08:00",
     "end": "2026-11-12/08:30"
   },
   {
-    "titulo": "Bluey",
+    "titulo": "Masha y el oso",
     "sta": "2026-11-12/08:30",
     "end": "2026-11-12/09:00"
   },
   {
-    "titulo": "De campamento con Snoopy",
+    "titulo": "Snoopy, el astronauta",
     "sta": "2026-11-12/09:00",
     "end": "2026-11-12/09:30"
   },
@@ -975,19 +1015,19 @@
     "end": "2026-11-12/10:00"
   },
   {
-    "titulo": "La casa de Mickey Mouse",
+    "titulo": "Spidey y sus sorprendentes amigos",
     "sta": "2026-11-12/10:00",
     "end": "2026-11-12/10:30"
   },
   {
-    "titulo": "Baby Looney Tunes",
+    "titulo": "Rosita Fresita: Aventuras en Tutti Frutti",
     "sta": "2026-11-12/10:30",
     "end": "2026-11-12/11:00"
   },
   {
-    "titulo": "Los Pitufos",
+    "titulo": "El mundo de Craig",
     "sta": "2026-11-12/11:00",
-    "end": "2026-11-12/12:30"
+    "end": "2026-11-12/12:00"
   },
   {
     "titulo": "Los padrinos mágicos",
@@ -1005,9 +1045,9 @@
     "end": "2026-11-12/14:00"
   },
   {
-    "titulo": "Las aventuras de Tom y Jerry",
+    "titulo": "El nuevo show del Pájaro Loco",
     "sta": "2026-11-12/14:00",
-    "end": "2026-11-12/15:30"
+    "end": "2026-11-12/15:00"
   },
   {
     "titulo": "Escandalosos",
@@ -1025,7 +1065,7 @@
     "end": "2026-11-12/17:00"
   },
   {
-    "titulo": "Dragon Ball Super",
+    "titulo": "Dragon Ball Z",
     "sta": "2026-11-12/17:00",
     "end": "2026-11-12/18:00"
   },
@@ -1285,9 +1325,19 @@
     "end": "2026-11-14/07:45"
   },
   {
+    "titulo": "Giganto Club",
+    "sta": "2026-11-14/07:00",
+    "end": "2026-11-14/08:00"
+  },
+  {
     "titulo": "Pokémon",
     "sta": "2026-11-14/07:45",
     "end": "2026-11-14/08:15"
+  },
+  {
+    "titulo": "Los Pitufos",
+    "sta": "2026-11-14/08:00",
+    "end": "2026-11-14/09:15"
   },
   {
     "titulo": "Ositos cariñositos: Libera la magia",
@@ -1302,6 +1352,11 @@
   {
     "titulo": "Película",
     "sta": "2026-11-14/10:15",
+    "end": "2026-11-14/12:15"
+  },
+  {
+    "titulo": "Smallville",
+    "sta": "2026-11-14/11:15",
     "end": "2026-11-14/12:15"
   },
   {
@@ -1320,9 +1375,19 @@
     "end": "2026-11-14/18:45"
   },
   {
+    "titulo": "Película",
+    "sta": "2026-11-14/18:15",
+    "end": "2026-11-14/20:30"
+  },
+  {
     "titulo": "Fútbol Concacaf Liga de Naciones / Jamaica vs. México",
     "sta": "2026-11-14/18:45",
     "end": "2026-11-14/21:00"
+  },
+  {
+    "titulo": "Película",
+    "sta": "2026-11-14/20:30",
+    "end": "2026-11-14/23:00"
   },
   {
     "titulo": "Película",
@@ -1455,52 +1520,52 @@
     "end": "2026-11-16/00:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/00:00",
     "end": "2026-11-16/00:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/00:30",
     "end": "2026-11-16/01:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/01:00",
     "end": "2026-11-16/01:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/01:30",
     "end": "2026-11-16/02:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/02:00",
     "end": "2026-11-16/02:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/02:30",
     "end": "2026-11-16/03:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/03:00",
     "end": "2026-11-16/03:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/03:30",
     "end": "2026-11-16/04:00"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/04:00",
     "end": "2026-11-16/04:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/04:30",
     "end": "2026-11-16/05:00"
   },
@@ -1515,7 +1580,7 @@
     "end": "2026-11-16/05:30"
   },
   {
-    "titulo": "Inova",
+    "titulo": "Programa pagado",
     "sta": "2026-11-16/05:30",
     "end": "2026-11-16/06:00"
   },
