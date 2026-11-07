@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/984awaw2wrq64549g1fmi/mvs-hub.txt?rlkey=6x99irvj1y58u5ekd094rk1fz"
+CANALES_URL = "https://dl.dropbox.com/scl/fi/bk2ar5husg1dxjg14lsbl/mvshub-replay.txt?rlkey=0ykwzqyea2fxg1p92d015tb2u"
 TZ = ZoneInfo("America/Mexico_City")
 REPLAY_DIR = "replay"
 DAYS_BACK = 3
