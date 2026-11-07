@@ -645,11 +645,6 @@
     "end": "2026-11-10/21:00"
   },
   {
-    "titulo": "Telediario Nocturno",
-    "sta": "2026-11-10/20:00",
-    "end": "2026-11-10/21:00"
-  },
-  {
     "titulo": "Multimedios deportes",
     "sta": "2026-11-10/21:00",
     "end": "2026-11-10/21:30"
@@ -657,16 +652,6 @@
   {
     "titulo": "Es show",
     "sta": "2026-11-10/21:30",
-    "end": "2026-11-11/00:00"
-  },
-  {
-    "titulo": "Es show",
-    "sta": "2026-11-10/22:00",
-    "end": "2026-11-10/23:00"
-  },
-  {
-    "titulo": "Es show",
-    "sta": "2026-11-10/23:00",
     "end": "2026-11-11/00:00"
   },
   {
@@ -905,6 +890,11 @@
     "end": "2026-11-12/17:00"
   },
   {
+    "titulo": "Tocando al corazón",
+    "sta": "2026-11-12/16:03",
+    "end": "2026-11-12/17:00"
+  },
+  {
     "titulo": "Telediario en el 6",
     "sta": "2026-11-12/17:00",
     "end": "2026-11-12/18:00"
@@ -920,6 +910,11 @@
     "end": "2026-11-12/21:00"
   },
   {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-12/20:00",
+    "end": "2026-11-12/21:00"
+  },
+  {
     "titulo": "Multimedios deportes",
     "sta": "2026-11-12/21:00",
     "end": "2026-11-12/21:30"
@@ -928,6 +923,21 @@
     "titulo": "Menos serio Q SNSerio",
     "sta": "2026-11-12/21:30",
     "end": "2026-11-13/00:00"
+  },
+  {
+    "titulo": "SNSerio",
+    "sta": "2026-11-12/22:00",
+    "end": "2026-11-12/23:00"
+  },
+  {
+    "titulo": "SNSerio",
+    "sta": "2026-11-12/23:00",
+    "end": "2026-11-12/23:30"
+  },
+  {
+    "titulo": "Buenas noches Don Fematt",
+    "sta": "2026-11-12/23:30",
+    "end": "2026-11-13/01:00"
   },
   {
     "titulo": "Menos serio Q SNSerio",
@@ -940,8 +950,23 @@
     "end": "2026-11-13/04:00"
   },
   {
+    "titulo": "El Curubito",
+    "sta": "2026-11-13/02:00",
+    "end": "2026-11-13/03:30"
+  },
+  {
+    "titulo": "Chismorreo",
+    "sta": "2026-11-13/03:30",
+    "end": "2026-11-13/04:00"
+  },
+  {
     "titulo": "C4 en alerta",
     "sta": "2026-11-13/04:00",
+    "end": "2026-11-13/05:00"
+  },
+  {
+    "titulo": "Mensaje de la felicidad",
+    "sta": "2026-11-13/04:30",
     "end": "2026-11-13/05:00"
   },
   {
@@ -955,13 +980,43 @@
     "end": "2026-11-13/10:00"
   },
   {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-13/07:00",
+    "end": "2026-11-13/08:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-13/08:00",
+    "end": "2026-11-13/09:00"
+  },
+  {
+    "titulo": "Telediario matutino",
+    "sta": "2026-11-13/09:00",
+    "end": "2026-11-13/10:00"
+  },
+  {
     "titulo": "Vivalavi",
     "sta": "2026-11-13/10:00",
     "end": "2026-11-13/12:00"
   },
   {
+    "titulo": "Telediario al momento",
+    "sta": "2026-11-13/11:00",
+    "end": "2026-11-13/11:03"
+  },
+  {
+    "titulo": "Vivalavi",
+    "sta": "2026-11-13/11:03",
+    "end": "2026-11-13/12:00"
+  },
+  {
     "titulo": "Telediario vespertino Saltillo",
     "sta": "2026-11-13/12:00",
+    "end": "2026-11-13/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino",
+    "sta": "2026-11-13/13:00",
     "end": "2026-11-13/14:00"
   },
   {
@@ -980,6 +1035,11 @@
     "end": "2026-11-13/17:00"
   },
   {
+    "titulo": "Tocando al corazón",
+    "sta": "2026-11-13/16:03",
+    "end": "2026-11-13/17:00"
+  },
+  {
     "titulo": "Telediario en el 6",
     "sta": "2026-11-13/17:00",
     "end": "2026-11-13/18:00"
@@ -995,6 +1055,11 @@
     "end": "2026-11-13/21:00"
   },
   {
+    "titulo": "Telediario Nocturno",
+    "sta": "2026-11-13/20:00",
+    "end": "2026-11-13/21:00"
+  },
+  {
     "titulo": "Multimedios deportes",
     "sta": "2026-11-13/21:00",
     "end": "2026-11-13/21:30"
@@ -1003,6 +1068,16 @@
     "titulo": "Es show",
     "sta": "2026-11-13/21:30",
     "end": "2026-11-13/23:30"
+  },
+  {
+    "titulo": "Es Show El Musical",
+    "sta": "2026-11-13/22:00",
+    "end": "2026-11-13/23:00"
+  },
+  {
+    "titulo": "Es Show El Musical",
+    "sta": "2026-11-13/23:00",
+    "end": "2026-11-14/00:00"
   },
   {
     "titulo": "Buenas noches Don Fematt",
@@ -1020,8 +1095,38 @@
     "end": "2026-11-14/05:00"
   },
   {
+    "titulo": "China al minuto",
+    "sta": "2026-11-14/02:00",
+    "end": "2026-11-14/02:15"
+  },
+  {
+    "titulo": "Fuera de control",
+    "sta": "2026-11-14/02:15",
+    "end": "2026-11-14/02:30"
+  },
+  {
+    "titulo": "Buenas noches Don Fematt",
+    "sta": "2026-11-14/02:30",
+    "end": "2026-11-14/04:00"
+  },
+  {
+    "titulo": "Energía y vida",
+    "sta": "2026-11-14/04:00",
+    "end": "2026-11-14/04:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-14/04:30",
+    "end": "2026-11-14/05:30"
+  },
+  {
     "titulo": "Orbital",
     "sta": "2026-11-14/05:00",
+    "end": "2026-11-14/06:00"
+  },
+  {
+    "titulo": "Energía y vida",
+    "sta": "2026-11-14/05:30",
     "end": "2026-11-14/06:00"
   },
   {
@@ -1030,13 +1135,43 @@
     "end": "2026-11-14/10:00"
   },
   {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-14/07:00",
+    "end": "2026-11-14/08:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-14/08:00",
+    "end": "2026-11-14/09:00"
+  },
+  {
+    "titulo": "Telediario matutino: Fin de semana",
+    "sta": "2026-11-14/09:00",
+    "end": "2026-11-14/10:00"
+  },
+  {
     "titulo": "Vivalavi de Sábado",
     "sta": "2026-11-14/10:00",
     "end": "2026-11-14/12:00"
   },
   {
+    "titulo": "Vivalavi fin de semana",
+    "sta": "2026-11-14/11:00",
+    "end": "2026-11-14/12:00"
+  },
+  {
     "titulo": "Telediario vespertino fin de semana",
     "sta": "2026-11-14/12:00",
+    "end": "2026-11-14/15:00"
+  },
+  {
+    "titulo": "Telediario vespertino fin de semana",
+    "sta": "2026-11-14/13:00",
+    "end": "2026-11-14/14:00"
+  },
+  {
+    "titulo": "Telediario vespertino fin de semana",
+    "sta": "2026-11-14/14:00",
     "end": "2026-11-14/15:00"
   },
   {
@@ -1170,8 +1305,23 @@
     "end": "2026-11-16/04:00"
   },
   {
+    "titulo": "El Curubito",
+    "sta": "2026-11-16/02:00",
+    "end": "2026-11-16/03:30"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-16/03:30",
+    "end": "2026-11-16/04:00"
+  },
+  {
     "titulo": "Inaudito",
     "sta": "2026-11-16/04:00",
+    "end": "2026-11-16/05:00"
+  },
+  {
+    "titulo": "Mensaje de la felicidad",
+    "sta": "2026-11-16/04:30",
     "end": "2026-11-16/05:00"
   },
   {
