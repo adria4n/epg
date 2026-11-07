@@ -1,17 +1,5 @@
 [
   {
-    "titulo": "OneTV Musica variada #prueba de transmision",
-    "sta": "2026-11-04/07:30",
-    "end": "2026-11-04/12:30"
-  },
-  {
-    "titulo": "PRUEBAS VIX PREVIO / Futbol Mexicano Primera División / T2026 Atlas vs. Pachuca",
-    "sta": "2026-11-07/16:30",
-    "end": "2026-11-07/17:00",
-    "url": "https://bpk.startvstream.com/bpk-tv/startv/cdn_bpk/index.mpd",
-    "clearkey": "1e986f36229b11e7a9b6dfa379d83f5e:f9700ba033c7be8ca95295fcaa6075c2"
-  },
-  {
     "titulo": "Futbol Mexicano Primera División / T2026 Atlas vs. Pachuca",
     "sta": "2026-11-07/17:00",
     "end": "2026-11-07/19:00",
