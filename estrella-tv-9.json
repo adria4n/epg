@@ -1,10 +1,5 @@
 [
   {
-    "titulo": "Alarma TV",
-    "sta": "2026-11-05/23:00",
-    "end": "2026-11-06/00:00"
-  },
-  {
     "titulo": "Noticiero: Cierre de edición",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/00:30"
@@ -1383,5 +1378,10 @@
     "titulo": "Concierto / Tierra caliente",
     "sta": "2026-11-14/21:00",
     "end": "2026-11-14/23:00"
+  },
+  {
+    "titulo": "Noches con Platanito / La Toya Jackson",
+    "sta": "2026-11-14/23:00",
+    "end": "2026-11-15/00:00"
   }
 ]

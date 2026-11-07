@@ -1,38 +1,5 @@
 [
   {
-    "titulo": "Casados con hijos México / T1 E3 Angie tiene trabajo",
-    "logo": "http://dsmx.tmsimg.com/assets/p27047601_e_h10_aa.jpg",
-    "url": "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name=sonymovies,startTime=17937918000000000,endTime=17937936000000000)/manifest.mpd",
-    "clearkey": "fe104d7a1d9e647808f85ab56bda167d:b6832b06a761878c9ee5e92d25aecc8c",
-    "sta": "2026-11-04/05:30",
-    "end": "2026-11-04/06:00",
-    "origin": "https://mvshub.com.mx/",
-    "referer": "https://mvshub.com.mx/",
-    "useragent": ""
-  },
-  {
-    "titulo": "Enloqueciendo contigo / T1 E3 El sofá",
-    "logo": "http://dsmx.tmsimg.com/assets/p29227396_e_h10_aa.jpg",
-    "url": "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name=sonymovies,startTime=17937936000000000,endTime=17937954000000000)/manifest.mpd",
-    "clearkey": "fe104d7a1d9e647808f85ab56bda167d:b6832b06a761878c9ee5e92d25aecc8c",
-    "sta": "2026-11-04/06:00",
-    "end": "2026-11-04/06:30",
-    "origin": "https://mvshub.com.mx/",
-    "referer": "https://mvshub.com.mx/",
-    "useragent": ""
-  },
-  {
-    "titulo": "Hailey Dean Mysteries: A Prescription for Murder",
-    "logo": "http://dsmx.tmsimg.com/assets/p17397160_i_h10_aa.jpg",
-    "url": "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name=sonymovies,startTime=17937954000000000,endTime=17938011000000000)/manifest.mpd",
-    "clearkey": "fe104d7a1d9e647808f85ab56bda167d:b6832b06a761878c9ee5e92d25aecc8c",
-    "sta": "2026-11-04/06:30",
-    "end": "2026-11-04/08:05",
-    "origin": "https://mvshub.com.mx/",
-    "referer": "https://mvshub.com.mx/",
-    "useragent": ""
-  },
-  {
     "titulo": "Karate Kid",
     "logo": "http://dsmx.tmsimg.com/assets/p7931736_i_h8_aa.jpg",
     "url": "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name=sonymovies,startTime=17938011000000000,endTime=17938101000000000)/manifest.mpd",

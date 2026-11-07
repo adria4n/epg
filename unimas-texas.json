@@ -1,10 +1,5 @@
 [
   {
-    "titulo": "Fugitivas",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-06/00:00"
-  },
-  {
     "titulo": "Como dice el dicho / Más vale un hoy que dos mañanas",
     "sta": "2026-11-06/00:00",
     "end": "2026-11-06/01:00"
@@ -1040,7 +1035,7 @@
     "end": "2026-11-13/03:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "La Dr. Polo vida sin límites",
     "sta": "2026-11-13/03:00",
     "end": "2026-11-13/03:30"
   },
@@ -1230,12 +1225,12 @@
     "end": "2026-11-14/07:30"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "My Biotin: Avance en belleza, cabello con más volumen, piel más suave",
     "sta": "2026-11-14/07:30",
     "end": "2026-11-14/08:00"
   },
   {
-    "titulo": "Programa pagado",
+    "titulo": "La Dr. Polo vida sin límites",
     "sta": "2026-11-14/08:00",
     "end": "2026-11-14/08:30"
   },
@@ -1265,13 +1260,13 @@
     "end": "2026-11-14/11:00"
   },
   {
-    "titulo": "Como dice el dicho / Los niños y los borrachos siempre dicen la verdad",
+    "titulo": "El Chapulín Colorado / Colección de rateros",
     "sta": "2026-11-14/11:00",
-    "end": "2026-11-14/12:00"
+    "end": "2026-11-14/11:30"
   },
   {
     "titulo": "The Games Maker",
-    "sta": "2026-11-14/12:00",
+    "sta": "2026-11-14/11:30",
     "end": "2026-11-14/14:00"
   },
   {
@@ -1303,5 +1298,10 @@
     "titulo": "Programa pagado",
     "sta": "2026-11-14/22:30",
     "end": "2026-11-14/23:00"
+  },
+  {
+    "titulo": "Wild Card",
+    "sta": "2026-11-14/23:00",
+    "end": "2026-11-15/01:00"
   }
 ]

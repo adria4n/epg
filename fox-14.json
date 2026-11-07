@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "KFOX14 News at 9",
-    "sta": "2026-11-05/22:00",
-    "end": "2026-11-05/23:05"
-  },
-  {
-    "titulo": "Inside Edition / White House Staff Members",
-    "sta": "2026-11-05/23:05",
-    "end": "2026-11-05/23:35"
-  },
-  {
     "titulo": "Extra",
     "sta": "2026-11-05/23:35",
     "end": "2026-11-06/00:05"
@@ -1398,5 +1388,10 @@
     "titulo": "In Depth With Graham Bensinger / David Yarrow",
     "sta": "2026-11-14/22:35",
     "end": "2026-11-14/23:05"
+  },
+  {
+    "titulo": "99 to Beat / Premiere: Do You Believe in Miracles?",
+    "sta": "2026-11-14/23:05",
+    "end": "2026-11-15/00:05"
   }
 ]

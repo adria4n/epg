@@ -1,15 +1,5 @@
 [
   {
-    "titulo": "Comics Unleashed With Byron Allen / Salma Zaky; Daegen Asfaha; Tom Fox; Mayce Galoni",
-    "sta": "2026-11-05/22:35",
-    "end": "2026-11-05/23:05"
-  },
-  {
-    "titulo": "Comics Unleashed With Byron Allen / Alice Wetterlund; Dan Gabriel; Nick Guerra; Michael Yo",
-    "sta": "2026-11-05/23:05",
-    "end": "2026-11-05/23:37"
-  },
-  {
     "titulo": "Funny You Should Ask",
     "sta": "2026-11-05/23:37",
     "end": "2026-11-06/00:07"
@@ -1293,5 +1283,10 @@
     "titulo": "Expedition Texas",
     "sta": "2026-11-14/22:35",
     "end": "2026-11-14/23:05"
+  },
+  {
+    "titulo": "The Equalizer / When Worlds Collide",
+    "sta": "2026-11-14/23:05",
+    "end": "2026-11-15/00:05"
   }
 ]
