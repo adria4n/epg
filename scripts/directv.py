@@ -25,7 +25,6 @@ def fetch_epg() -> dict:
     return data["data"]
 
 def parse_iso(dt_str: str) -> datetime:
-    # "2026-11-08T11:00:00+00:00" → aware datetime in Mexico City
     dt = datetime.fromisoformat(dt_str)
     return dt.astimezone(TZ)
 
@@ -35,7 +34,6 @@ def format_dt(dt: datetime) -> str:
 def process_channel(programs: list) -> list:
     if not programs:
         return []
-    # Ordenar por hora de inicio
     programs = sorted(programs, key=lambda p: p["StartDate"])
     result = []
     seen = set()
@@ -58,7 +56,6 @@ def main():
     data = fetch_epg()
     all_programs = data.get("programs") or []
 
-    # Agrupar por canal
     by_channel = {ch: [] for ch in CHANNEL_FILES}
     for prog in all_programs:
         ch = str(prog.get("ChannelNum", "")).strip()
