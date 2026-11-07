@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 from playwright.sync_api import sync_playwright
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/984awaw2wrq64549g1fmi/mvs-hub.txt?rlkey=6x99irvj1y58u5ekd094rk1fz"
+CANALES_URL = "https://www.dropbox.com/scl/fi/984awaw2wrq64549g1fmi/mvs-hub.txt?rlkey=6x99irvj1y58u5ekd094rk1fz"
 TZ = ZoneInfo("America/Mexico_City")
 
 def load_canales():
