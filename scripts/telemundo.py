@@ -9,7 +9,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 BASE_URL = "https://d3ur398j0yj7gx.cloudfront.net/ajax/program_guide/feed/block/{year}/{month:02d}/{day:02d}"
 
-# Zonas horarias
 ZONAS = {
     "east": ZoneInfo("America/New_York"),
     "central": ZoneInfo("America/Chicago"),
@@ -59,7 +58,6 @@ def process_programs(programs: list, tz: ZoneInfo) -> list:
     return result
 
 def main():
-    # Usamos Mexico City solo para calcular "hoy"
     ahora = datetime.now(ZoneInfo("America/Mexico_City"))
     hoy = ahora.replace(hour=0, minute=0, second=0, microsecond=0)
     dias = [hoy + timedelta(days=i) for i in range(-1, 8)]
@@ -76,11 +74,9 @@ def main():
                 dia = futures[future]
                 print(f"Error procesando día {dia.date()}: {e}", file=sys.stderr)
 
-    # Generar un JSON por zona
     for nombre_zona, tz in ZONAS.items():
         epg = process_programs(todos_los_programas, tz)
         
-        # Quitar duplicados
         vistos = set()
         unicos = []
         for item in epg:
