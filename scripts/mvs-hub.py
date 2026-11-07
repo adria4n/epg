@@ -42,7 +42,6 @@ def get_logo(item):
         images = item.get("images", {}).get("image", [])
         if not images:
             return ""
-        # Prefer horizontal (S_DESC) or first available
         for img in images:
             if img.get("usage") == "S_DESC" and img.get("url"):
                 return img["url"]
@@ -79,30 +78,20 @@ def get_session_info():
 
 def fetch_epg(host, uuid, cid, lineup, now):
     all_items = []
-    cutoff = now - timedelta(days=DAYS_BACK)
-    cutoff_ms = int(cutoff.timestamp() * 1000)
-    day_offset = -1
-    while True:
-        day = now + timedelta(days=day_offset)
-        from_ms = int(day.replace(hour=0, minute=0, second=0, microsecond=0).timestamp() * 1000)
-        if from_ms < cutoff_ms - 86400000:  # stop a bit past cutoff
-            break
+    for days_ago in range(DAYS_BACK, -1, -1):
+        day = (now - timedelta(days=days_ago)).replace(hour=0, minute=0, second=0, microsecond=0)
+        from_ms = int(day.timestamp() * 1000)
         url = f"{host}/xtv-ws-client/api/epgcache/list/{uuid}/{cid}/{lineup}?page=0&size=100&dateFrom={from_ms}"
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=30) as resp:
                 j = json.loads(resp.read().decode("utf-8"))
                 items = j.get("contents", {}).get("content", [])
-                if not items:
-                    break
-                all_items.extend(items)
-                print(f"  {cid} {day.date()}: {len(items)} programas", file=sys.stderr)
+                if items:
+                    all_items.extend(items)
+                    print(f"  {cid} {day.date()}: {len(items)} programas", file=sys.stderr)
         except Exception as e:
             print(f"  Error {cid} {day.date()}: {e}", file=sys.stderr)
-            break
-        day_offset += 1
-        if day_offset > 10:  # safety
-            break
     return all_items
 
 def process_canal(host, uuid, lineup, canal):
