@@ -12,7 +12,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 CANALES_URL = "https://dl.dropboxusercontent.com/scl/fi/984awaw2wrq64549g1fmi/mvs-hub.txt?rlkey=6x99irvj1y58u5ekd094rk1fz"
 TZ = ZoneInfo("America/Mexico_City")
 REPLAY_DIR = "replay"
-DAYS_BACK = 7
+DAYS_BACK = 3
 BASE_CATCHUP = "https://dish.akamaized.net/Content/DASH/CatchUp/channel(name={name},startTime={start},endTime={end})/manifest.mpd"
 ORIGIN = "https://mvshub.com.mx/"
 
