@@ -1120,72 +1120,72 @@
     "end": "2026-11-13/23:40"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Programa pagado",
     "sta": "2026-11-13/23:40",
     "end": "2026-11-14/00:00"
   },
   {
-    "titulo": "Farmacias Similares",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/00:00",
     "end": "2026-11-14/00:30"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/00:30",
     "end": "2026-11-14/01:00"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/01:00",
     "end": "2026-11-14/01:30"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/01:30",
     "end": "2026-11-14/02:00"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/02:00",
     "end": "2026-11-14/02:30"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/02:30",
     "end": "2026-11-14/03:00"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/03:00",
     "end": "2026-11-14/03:30"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/03:30",
     "end": "2026-11-14/04:00"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/04:00",
     "end": "2026-11-14/04:30"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/04:30",
     "end": "2026-11-14/05:00"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/05:00",
     "end": "2026-11-14/05:30"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/05:30",
     "end": "2026-11-14/05:50"
   },
   {
-    "titulo": "CV directo",
+    "titulo": "Programa pagado",
     "sta": "2026-11-14/05:50",
     "end": "2026-11-14/06:30"
   },
@@ -1825,6 +1825,36 @@
     "end": "2026-11-18/19:00"
   },
   {
+    "titulo": "El rico y Lázaro",
+    "sta": "2026-11-18/19:00",
+    "end": "2026-11-18/20:30"
+  },
+  {
+    "titulo": "Escóndeme",
+    "sta": "2026-11-18/20:30",
+    "end": "2026-11-18/21:30"
+  },
+  {
+    "titulo": "Por un amor",
+    "sta": "2026-11-18/21:30",
+    "end": "2026-11-18/22:30"
+  },
+  {
+    "titulo": "Imagen Noticias con Nacho Lozano",
+    "sta": "2026-11-18/22:30",
+    "end": "2026-11-18/23:10"
+  },
+  {
+    "titulo": "¡Qué importa!",
+    "sta": "2026-11-18/23:10",
+    "end": "2026-11-18/23:40"
+  },
+  {
+    "titulo": "Programa pagado",
+    "sta": "2026-11-18/23:40",
+    "end": "2026-11-19/00:00"
+  },
+  {
     "titulo": "Programa pagado",
     "sta": "2026-11-19/00:00",
     "end": "2026-11-19/00:30"
@@ -1918,15 +1948,5 @@
     "titulo": "Imagen noticias con Crystal Mendívil",
     "sta": "2026-11-19/14:00",
     "end": "2026-11-19/15:00"
-  },
-  {
-    "titulo": "De primera mano",
-    "sta": "2026-11-19/15:00",
-    "end": "2026-11-19/17:30"
-  },
-  {
-    "titulo": "Madre",
-    "sta": "2026-11-19/17:30",
-    "end": "2026-11-19/19:00"
   }
 ]
